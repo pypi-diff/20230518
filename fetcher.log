@@ -638,3 +638,103 @@
 [2023-05-18 00:50:25] INFO root fetch - main [MainThread]: End processing [pynecone]: success
 [2023-05-18 00:50:27] INFO root fetch - main [MainThread]: End processing [covalent]: success
 [2023-05-18 00:50:27] INFO root fetch - main [MainThread]: Store serial: [18146423]
+[2023-05-18 00:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146423]
+[2023-05-18 00:55:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LANDMarkClassifier
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usearch
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry-exporter-gcp-monitoring
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentelemetry-exporter-gcp-trace
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opentelemetry-propagator-gcp
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentelemetry-resourcedetector-gcp
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: questdb-connect
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caltechdata-api
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2023-05-18 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BTKSorgu
+[2023-05-18 00:55:36] WARNING root fetch - processPackages [LANDMarkClassifier]: Skipping, unable to determine old version
+[2023-05-18 00:55:36] INFO root fetch - processPackages [LANDMarkClassifier]: Start processing: async-extensions
+[2023-05-18 00:55:36] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier] error
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-monitoring]: New version: [1.5.0a0] Old Version: [1.4.0a0]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-resourcedetector-gcp]: New version: [1.5.0a0] Old Version: [1.4.0a0]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-trace]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [BTKSorgu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-propagator-gcp]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [caltechdata-api]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230517.22.52.272043] Old Version: [20230517.21.9.109215]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [async-extensions]: New version: [1.3.0] Old Version: [1.2.3]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [usearch]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/79/d1/940384fa1848a8f3223572bf8595b090b0a638327abaf4b0d26218173996/BTKSorgu-1.0.8.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-monitoring]: Downloading https://files.pythonhosted.org/packages/ab/b6/034c5911f23d24dbbef029a9d49a78b5527a3f1ae7f025d3333771833ba6/opentelemetry-exporter-gcp-monitoring-1.4.0a0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/c5/0c/b77c8119c1636e3a68ff63d10e2bc969c05fe66719632bb7466d9ec147f4/caltechdata_api-1.3.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-trace]: Downloading https://files.pythonhosted.org/packages/4e/b0/77b57eff81c2522f40d807fc0b979b121bd0d0f6ce1bd69bfdf7cde2666c/opentelemetry-exporter-gcp-trace-1.4.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-propagator-gcp]: Downloading https://files.pythonhosted.org/packages/4e/6e/73f827afc0048b35de34e72af2aeaf35633547a6ec393119ecb49b57f9b2/opentelemetry-propagator-gcp-1.4.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/22/1d/2594bd94e24bdea847f80a62616958234568424ce31b57933750cb83e52d/questdb-connect-0.0.62.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-resourcedetector-gcp]: Downloading https://files.pythonhosted.org/packages/30/10/4d0bea931ab0cc689c8b2ab0f68c8f30acb8a0e746dc89141e6edbaebf0c/opentelemetry-resourcedetector-gcp-1.4.0a0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c1/6d/8c30a1d233471c8d757c54d0f7ea5eba1d1cdcef6f8703e89fe64cb1469d/certora-cli-alpha-master-20230517.21.9.109215.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [async-extensions]: Downloading https://files.pythonhosted.org/packages/f4/87/bbd134be77e9bb0d838e37d39c708e6bc621d62ea440a33164d79b25d9c7/async_extensions-1.2.3.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/92/fd/cdc960d02e096dce6baa8c654c4a74f9e32b96b15ef42783af00a6ccd638/usearch-0.3.0-cp39-cp39-win_amd64.whl
+[2023-05-18 00:55:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38975709>=10485760
+[2023-05-18 00:55:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: quivr
+[2023-05-18 00:55:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-18 00:55:36] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 00:55:36] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.61.tar.gz tmp/questdb-connect-0.0.62.tar.gz --markdown 20230518/q/questdb-connect/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-18 00:55:36] INFO root fetch - processPackages [quivr]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-18 00:55:36] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-18 00:55:36] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.2.4-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.3.0-cp39-cp39-win_amd64.whl.zip --markdown 20230518/u/usearch/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-monitoring]: Downloading https://files.pythonhosted.org/packages/54/89/5e8e154e63e2d3b5b8b2bb948a16cee549fe4942ec8648c38e7a30d2857f/opentelemetry-exporter-gcp-monitoring-1.5.0a0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/c1/08/11dfcc58b1a6681e8b819650d06a2584c4d068ba07a23b46891b4b35a1bc/BTKSorgu-1.0.9.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/a7/a2/fcc2cd74d2adb556f00fa579ca63a5903d6c0d74314097fd3e85b7f806dd/caltechdata_api-1.4.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-resourcedetector-gcp]: Downloading https://files.pythonhosted.org/packages/92/64/1739d632bc89df4979517e779b2d0c08116503ed80651ec09f4ed087d0e3/opentelemetry-resourcedetector-gcp-1.5.0a0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-18 00:55:36] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.0.8.tar.gz tmp/BTKSorgu-1.0.9.tar.gz --markdown 20230518/B/BTKSorgu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 00:55:36] INFO root fetch - processPackages [caltechdata-api]: executing diffoscope
+[2023-05-18 00:55:36] INFO root fetch - processPackages [caltechdata-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caltechdata_api-1.3.0.tar.gz tmp/caltechdata_api-1.4.0.tar.gz --markdown 20230518/c/caltechdata-api/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:36] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/15/86/6831442daa31b0be94eb5e4fda04ccdedd19f11b805ea210817b3862786a/quivr-0.3.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-exporter-gcp-trace]: Downloading https://files.pythonhosted.org/packages/04/aa/d64ba287dc883c9faf0dddf5d49cd494691fa864826d3ecd72e6d6b4260c/opentelemetry-exporter-gcp-trace-1.5.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [opentelemetry-propagator-gcp]: Downloading https://files.pythonhosted.org/packages/2e/81/c2775515ca049aad880732abaebced1b6b73fb67bad2c77f5bc891e9230d/opentelemetry-propagator-gcp-1.5.0.tar.gz
+[2023-05-18 00:55:36] INFO root fetch - processPackages [async-extensions]: Downloading https://files.pythonhosted.org/packages/2d/d6/bb9c3d8b780947443cdd481f14ce5a2e69a32c1beef36f0566006601a5b2/async_extensions-1.3.0.tar.gz
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-exporter-gcp-monitoring]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-exporter-gcp-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-exporter-gcp-monitoring-1.4.0a0.tar.gz tmp/opentelemetry-exporter-gcp-monitoring-1.5.0a0.tar.gz --markdown 20230518/o/opentelemetry-exporter-gcp-monitoring/1.4.0a0-1.5.0a0/diff.md --exclude *.pyd
+[2023-05-18 00:55:37] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.2.3.tar.gz tmp/quivr-0.3.0.tar.gz --markdown 20230518/q/quivr/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-exporter-gcp-trace]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-exporter-gcp-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-exporter-gcp-trace-1.4.0.tar.gz tmp/opentelemetry-exporter-gcp-trace-1.5.0.tar.gz --markdown 20230518/o/opentelemetry-exporter-gcp-trace/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:37] INFO root fetch - processPackages [async-extensions]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [async-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_extensions-1.2.3.tar.gz tmp/async_extensions-1.3.0.tar.gz --markdown 20230518/a/async-extensions/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-propagator-gcp]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-propagator-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-propagator-gcp-1.4.0.tar.gz tmp/opentelemetry-propagator-gcp-1.5.0.tar.gz --markdown 20230518/o/opentelemetry-propagator-gcp/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-resourcedetector-gcp]: executing diffoscope
+[2023-05-18 00:55:37] INFO root fetch - processPackages [opentelemetry-resourcedetector-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry-resourcedetector-gcp-1.4.0a0.tar.gz tmp/opentelemetry-resourcedetector-gcp-1.5.0a0.tar.gz --markdown 20230518/o/opentelemetry-resourcedetector-gcp/1.4.0a0-1.5.0a0/diff.md --exclude *.pyd
+[2023-05-18 00:55:38] INFO root fetch - processPackages [usearch]: Start processing: pychuck
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-18 00:55:38] WARNING root fetch - processPackages [pychuck]: Skipping, unable to determine old version
+[2023-05-18 00:55:38] INFO root fetch - processPackages [pychuck]: Start processing: prettyqt
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [pychuck] error
+[2023-05-18 00:55:38] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-18 00:55:38] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-05-18 00:55:38] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230518/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-18 00:55:38] INFO root fetch - processPackages [questdb-connect]: Start processing: aip-site-generator
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 00:55:38] INFO root fetch - processPackages [aip-site-generator]: New version: [0.6.3] Old Version: [0.6.0]
+[2023-05-18 00:55:38] INFO root fetch - processPackages [BTKSorgu]: Start processing: wandb
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-18 00:55:38] INFO root fetch - processPackages [wandb]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-18 00:55:38] INFO root fetch - processPackages [aip-site-generator]: Downloading https://files.pythonhosted.org/packages/03/cf/fa6d182f68ca90abf65657bc2fd3fba45963ff4ff7c1a40a7396b26c507e/aip-site-generator-0.6.0.tar.gz
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-05-18 00:55:38] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/b8/65/eea41233f1a2097ce378afaa8043bfae4e0eb30d7325a44aeb093fd18c15/wandb-0.9.6.tar.gz
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [opentelemetry-resourcedetector-gcp]: success
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [opentelemetry-propagator-gcp]: success
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [async-extensions]: success
+[2023-05-18 00:55:38] INFO root fetch - processPackages [aip-site-generator]: Downloading https://files.pythonhosted.org/packages/38/cb/9f639500ddc95514cd59ada2bc4aa227b0a8fb0892268c4b1a4d39ce5a1c/aip-site-generator-0.6.3.tar.gz
+[2023-05-18 00:55:38] INFO root fetch - main [MainThread]: End processing [opentelemetry-exporter-gcp-trace]: success
+[2023-05-18 00:55:39] INFO root fetch - processPackages [aip-site-generator]: executing diffoscope
+[2023-05-18 00:55:39] INFO root fetch - processPackages [aip-site-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aip-site-generator-0.6.0.tar.gz tmp/aip-site-generator-0.6.3.tar.gz --markdown 20230518/a/aip-site-generator/0.6.0-0.6.3/diff.md --exclude *.pyd
+[2023-05-18 00:55:39] INFO root fetch - main [MainThread]: End processing [opentelemetry-exporter-gcp-monitoring]: success
+[2023-05-18 00:55:39] INFO root fetch - main [MainThread]: End processing [caltechdata-api]: success
+[2023-05-18 00:55:40] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/98/14/b78c9c56d13fa52f303561ca749be7e35da9d96acf1471594d2068a52324/wandb-0.9.7.tar.gz
+[2023-05-18 00:55:40] INFO root fetch - main [MainThread]: End processing [aip-site-generator]: success
+[2023-05-18 00:55:42] INFO root fetch - processPackages [wandb]: executing diffoscope
+[2023-05-18 00:55:42] INFO root fetch - processPackages [wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb-0.9.6.tar.gz tmp/wandb-0.9.7.tar.gz --markdown 20230518/w/wandb/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-18 00:55:45] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-05-18 00:55:47] INFO root fetch - main [MainThread]: End processing [wandb]: success
+[2023-05-18 00:55:47] INFO root fetch - main [MainThread]: Store serial: [18146510]
