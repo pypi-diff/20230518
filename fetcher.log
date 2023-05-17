@@ -585,3 +585,56 @@
 [2023-05-18 00:45:12] INFO root fetch - main [MainThread]: End processing [dynbps]: success
 [2023-05-18 00:45:13] INFO root fetch - main [MainThread]: End processing [fling-cli]: success
 [2023-05-18 00:45:13] INFO root fetch - main [MainThread]: Store serial: [18146403]
+[2023-05-18 00:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146403]
+[2023-05-18 00:50:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hkbot
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psfam
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: referencing
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynecone
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finetune-eval-harness
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: covalent
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitrics
+[2023-05-18 00:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlitfront
+[2023-05-18 00:50:21] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.6.dev1] Old Version: [0.6.5.dev1]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [streamlitfront]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [pynecone]: New version: [0.1.31a1] Old Version: [0.1.31a0]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [psfam]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [covalent]: New version: [0.222.0rc0] Old Version: [0.221.1rc0]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [gitrics]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [hkbot]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-05-18 00:50:21] INFO root fetch - processPackages [psfam]: executing diffoscope
+[2023-05-18 00:50:21] INFO root fetch - processPackages [psfam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psfam-0.0.13.tar.gz tmp/psfam-0.0.14.tar.gz --markdown 20230518/p/psfam/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-18 00:50:21] INFO root fetch - processPackages [covalent]: executing diffoscope
+[2023-05-18 00:50:21] INFO root fetch - processPackages [covalent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-0.221.1rc0.tar.gz tmp/covalent-0.222.0rc0.tar.gz --markdown 20230518/c/covalent/0.221.1rc0-0.222.0rc0/diff.md --exclude *.pyd
+[2023-05-18 00:50:21] INFO root fetch - processPackages [streamlitfront]: Downloading https://files.pythonhosted.org/packages/e3/08/ec94600fb3ec8487cb86c929db02f19ece2e936402ebf82aefc68b418d8e/streamlitfront-0.1.8.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/77/5c/df4f6e8c2104507784ef3e6e5f0eb532250c9963a408c306413341fe6b00/finetune_eval_harness-0.6.6.dev1.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/07/1a/618f747b419a7d3ee347ce7c66d89a233879c4dd76b22a396303fd002d5f/pynecone-0.1.31a1.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [gitrics]: Downloading https://files.pythonhosted.org/packages/55/6f/ac20c8f93ac455a7fc24b367893de0f7b33daa6a74e8d616be2c66082a39/gitrics-0.7.1.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [hkbot]: Downloading https://files.pythonhosted.org/packages/30/0e/9c6e05db7711b04fede7e843114b999b74d98699f396e5936c8532ca20e6/hkbot-2.1.1.tar.gz
+[2023-05-18 00:50:21] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-18 00:50:21] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.5.dev1.tar.gz tmp/finetune_eval_harness-0.6.6.dev1.tar.gz --markdown 20230518/f/finetune-eval-harness/0.6.5.dev1-0.6.6.dev1/diff.md --exclude *.pyd
+[2023-05-18 00:50:21] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-18 00:50:21] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.31a0.tar.gz tmp/pynecone-0.1.31a1.tar.gz --markdown 20230518/p/pynecone/0.1.31a0-0.1.31a1/diff.md --exclude *.pyd
+[2023-05-18 00:50:22] INFO root fetch - processPackages [gitrics]: Downloading https://files.pythonhosted.org/packages/71/c9/89266aaa39c6732e157a986d033a907ebe7e51dde193a191c099cee6c01c/gitrics-0.7.2.tar.gz
+[2023-05-18 00:50:22] INFO root fetch - processPackages [hkbot]: Downloading https://files.pythonhosted.org/packages/d1/92/019c8ceba46cb632fddbc3c61d8dd4964f52ae2e8a4a2334ecc0a6da9137/hkbot-2.1.2.tar.gz
+[2023-05-18 00:50:22] INFO root fetch - processPackages [gitrics]: executing diffoscope
+[2023-05-18 00:50:22] INFO root fetch - processPackages [gitrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitrics-0.7.1.tar.gz tmp/gitrics-0.7.2.tar.gz --markdown 20230518/g/gitrics/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-18 00:50:22] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2023-05-18 00:50:22] INFO root fetch - processPackages [streamlitfront]: Downloading https://files.pythonhosted.org/packages/58/88/e42ed88dd7fd3931fd96720ca9b33ff6187514eb9a13de8085587c054711/streamlitfront-0.1.9.tar.gz
+[2023-05-18 00:50:22] INFO root fetch - processPackages [hkbot]: executing diffoscope
+[2023-05-18 00:50:22] INFO root fetch - processPackages [hkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkbot-2.1.1.tar.gz tmp/hkbot-2.1.2.tar.gz --markdown 20230518/h/hkbot/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-18 00:50:22] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-05-18 00:50:22] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230518/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 00:50:22] INFO root fetch - processPackages [streamlitfront]: executing diffoscope
+[2023-05-18 00:50:22] INFO root fetch - processPackages [streamlitfront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlitfront-0.1.8.tar.gz tmp/streamlitfront-0.1.9.tar.gz --markdown 20230518/s/streamlitfront/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 00:50:22] INFO root fetch - main [MainThread]: End processing [psfam]: success
+[2023-05-18 00:50:23] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-18 00:50:23] INFO root fetch - main [MainThread]: End processing [gitrics]: success
+[2023-05-18 00:50:23] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-05-18 00:50:23] INFO root fetch - main [MainThread]: End processing [streamlitfront]: success
+[2023-05-18 00:50:23] INFO root fetch - main [MainThread]: End processing [hkbot]: success
+[2023-05-18 00:50:25] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-18 00:50:27] INFO root fetch - main [MainThread]: End processing [covalent]: success
+[2023-05-18 00:50:27] INFO root fetch - main [MainThread]: Store serial: [18146423]
