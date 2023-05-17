@@ -1272,3 +1272,35 @@
 [2023-05-18 01:37:38] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-05-18 01:37:38] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-05-18 01:37:38] INFO root fetch - main [MainThread]: Store serial: [18146843]
+[2023-05-18 01:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146843]
+[2023-05-18 01:42:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 01:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BTKSorgu
+[2023-05-18 01:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wodoo
+[2023-05-18 01:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-jtoman-cert-2122
+[2023-05-18 01:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mythic-container
+[2023-05-18 01:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sigma-cli
+[2023-05-18 01:42:48] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-2122]: New version: [20230517.23.40.885429] Old Version: [20230517.17.51.853862]
+[2023-05-18 01:42:48] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-05-18 01:42:48] INFO root fetch - processPackages [BTKSorgu]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-18 01:42:48] INFO root fetch - processPackages [mythic-container]: New version: [0.2.8rc4] Old Version: [0.2.8rc3]
+[2023-05-18 01:42:48] INFO root fetch - processPackages [sigma-cli]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-05-18 01:42:48] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-2122]: Downloading https://files.pythonhosted.org/packages/6b/11/1f91400e29afca025bd98fbb38ac426c345f65a39db707492263b177f0cd/certora-cli-alpha-jtoman-cert-2122-20230517.17.51.853862.tar.gz
+[2023-05-18 01:42:48] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-2122]: Skipping package: exceeds size limit 38976433>=10485760
+[2023-05-18 01:42:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-2122] error
+[2023-05-18 01:42:48] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/ae/b6/ebcecb390eb248c0857063c6d43f48ef166de7165b24830919b67e0edee9/mythic_container-0.2.8rc4.tar.gz
+[2023-05-18 01:42:48] INFO root fetch - processPackages [BTKSorgu]: Downloading https://files.pythonhosted.org/packages/fe/07/9d7eb8f34d7c74788ea433521d0579bda48ce7514c9e98f3251f238bc25c/BTKSorgu-1.1.2.tar.gz
+[2023-05-18 01:42:48] INFO root fetch - processPackages [sigma-cli]: Downloading https://files.pythonhosted.org/packages/39/9b/fcf700a6c5ded859e3853c101ddf58ef5031fc453aadf6d7a15ba49a8012/sigma_cli-0.7.5.tar.gz
+[2023-05-18 01:42:48] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-05-18 01:42:48] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230518/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-05-18 01:42:48] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-18 01:42:48] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc3.tar.gz tmp/mythic_container-0.2.8rc4.tar.gz --markdown 20230518/m/mythic-container/0.2.8rc3-0.2.8rc4/diff.md --exclude *.pyd
+[2023-05-18 01:42:48] INFO root fetch - processPackages [BTKSorgu]: executing diffoscope
+[2023-05-18 01:42:48] INFO root fetch - processPackages [BTKSorgu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTKSorgu-1.1.1.tar.gz tmp/BTKSorgu-1.1.2.tar.gz --markdown 20230518/B/BTKSorgu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-18 01:42:48] INFO root fetch - processPackages [sigma-cli]: Downloading https://files.pythonhosted.org/packages/a7/08/98abab188eaebcded4c42ec57b88ec78455b105733954df625f46f30cf36/sigma_cli-0.7.6.tar.gz
+[2023-05-18 01:42:48] INFO root fetch - processPackages [sigma-cli]: executing diffoscope
+[2023-05-18 01:42:48] INFO root fetch - processPackages [sigma-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigma_cli-0.7.5.tar.gz tmp/sigma_cli-0.7.6.tar.gz --markdown 20230518/s/sigma-cli/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-05-18 01:42:49] INFO root fetch - main [MainThread]: End processing [BTKSorgu]: success
+[2023-05-18 01:42:49] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-05-18 01:42:49] INFO root fetch - main [MainThread]: End processing [sigma-cli]: success
+[2023-05-18 01:42:50] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-18 01:42:50] INFO root fetch - main [MainThread]: Store serial: [18146857]
