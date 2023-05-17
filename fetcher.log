@@ -429,3 +429,56 @@
 [2023-05-18 00:29:24] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2023-05-18 00:29:31] INFO root fetch - main [MainThread]: End processing [nemo-toolkit]: success
 [2023-05-18 00:29:31] INFO root fetch - main [MainThread]: Store serial: [18146331]
+[2023-05-18 00:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146331]
+[2023-05-18 00:34:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interval-sdk
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: questdb-connect
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compliance-checker
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archaea-simulation
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-bgreenwald-constant-scratch-soundness
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-containerregistry
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huma-signals
+[2023-05-18 00:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: georelate
+[2023-05-18 00:34:41] INFO root fetch - processPackages [interval-sdk]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [archaea-simulation]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [compliance-checker]: New version: [5.1.0] Old Version: [5.0.2]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [huma-signals]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [georelate]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: New version: [20230517.22.31.112064] Old Version: [20230517.21.13.491821]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [pulumi-containerregistry]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-18 00:34:41] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/37/ff/ced28aabbff20c0be30ea62d8ceebe0dd1e209263c11decb6383f5a5d5b0/interval_sdk-1.2.0.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [georelate]: executing diffoscope
+[2023-05-18 00:34:41] INFO root fetch - processPackages [georelate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georelate-0.0.0.tar.gz tmp/georelate-0.0.1.tar.gz --markdown 20230518/g/georelate/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-18 00:34:41] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/85/f2/e184785f1ac3c3d637cf2f1ec2d2622a00c8fb0e4013a081234799a528f8/questdb-connect-0.0.60.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [compliance-checker]: Downloading https://files.pythonhosted.org/packages/aa/47/2ac56b3109d86ae89c5f6c909cd1201868190b65afcfe7a6aa91840453de/compliance-checker-5.0.2.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [archaea-simulation]: Downloading https://files.pythonhosted.org/packages/0d/08/ce43e05b125e8d5e15c911d4e92a185c03a26aa6b7ebdad19a63c2d96780/archaea_simulation-1.0.8.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/fc/39/c600cc855e67d65edb69864804e36699174e495935a1d225d1b258a69703/huma_signals-0.1.3.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: Downloading https://files.pythonhosted.org/packages/07/7c/71da5b65798269afed7b66f2f0f0ef2ed9c5d13fbaf44a2456fd4bdf3e57/certora-cli-alpha-bgreenwald-constant-scratch-soundness-20230517.21.13.491821.tar.gz
+[2023-05-18 00:34:41] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: Skipping package: exceeds size limit 38976499>=10485760
+[2023-05-18 00:34:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-constant-scratch-soundness] error
+[2023-05-18 00:34:41] INFO root fetch - processPackages [pulumi-containerregistry]: Downloading https://files.pythonhosted.org/packages/82/ce/9d909dbafc046db2d30553b11f50bcfb02be803a5f950ece6db47150effd/pulumi_containerregistry-0.0.6.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [archaea-simulation]: executing diffoscope
+[2023-05-18 00:34:41] INFO root fetch - processPackages [archaea-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archaea_simulation-1.0.7.tar.gz tmp/archaea_simulation-1.0.8.tar.gz --markdown 20230518/a/archaea-simulation/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 00:34:41] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/4e/e0/7628285e65c17a9504e947c400e831b77bde5360d5bc0529752e5f877e5e/interval_sdk-1.3.0.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/3e/5f/018352edd6db2d1a46a6839bd10407acaae1a04b7f69be8e06a150441de6/questdb-connect-0.0.61.tar.gz
+[2023-05-18 00:34:41] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/8b/71/e9ab945503ed1342a15d10b6b08b882d7fbfb4278e6a49c3d675d3e9d3bf/huma_signals-0.1.4.tar.gz
+[2023-05-18 00:34:42] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-05-18 00:34:42] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.1.3.tar.gz tmp/huma_signals-0.1.4.tar.gz --markdown 20230518/h/huma-signals/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 00:34:42] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 00:34:42] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.60.tar.gz tmp/questdb-connect-0.0.61.tar.gz --markdown 20230518/q/questdb-connect/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-05-18 00:34:42] INFO root fetch - processPackages [pulumi-containerregistry]: executing diffoscope
+[2023-05-18 00:34:42] INFO root fetch - processPackages [pulumi-containerregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_containerregistry-0.0.4.tar.gz tmp/pulumi_containerregistry-0.0.6.tar.gz --markdown 20230518/p/pulumi-containerregistry/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 00:34:42] INFO root fetch - processPackages [compliance-checker]: Downloading https://files.pythonhosted.org/packages/de/28/86786b2cc8ec187738cabd4a19d0f847f3088da85ae96868d24348e5574f/compliance-checker-5.1.0.tar.gz
+[2023-05-18 00:34:42] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-05-18 00:34:42] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.2.0.tar.gz tmp/interval_sdk-1.3.0.tar.gz --markdown 20230518/i/interval-sdk/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 00:34:42] INFO root fetch - processPackages [compliance-checker]: executing diffoscope
+[2023-05-18 00:34:42] INFO root fetch - processPackages [compliance-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compliance-checker-5.0.2.tar.gz tmp/compliance-checker-5.1.0.tar.gz --markdown 20230518/c/compliance-checker/5.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-05-18 00:34:42] INFO root fetch - main [MainThread]: End processing [georelate]: success
+[2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [archaea-simulation]: success
+[2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
+[2023-05-18 00:34:47] INFO root fetch - main [MainThread]: End processing [compliance-checker]: success
+[2023-05-18 00:34:47] INFO root fetch - main [MainThread]: Store serial: [18146354]
