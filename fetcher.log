@@ -134,3 +134,72 @@
 [2023-05-18 00:08:16] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
 [2023-05-18 00:08:18] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-18 00:08:18] INFO root fetch - main [MainThread]: Store serial: [18146154]
+[2023-05-18 00:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146154]
+[2023-05-18 00:13:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wg-easy-api-wrapper
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: loanpy
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vss-cli
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alembic
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spgrep
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fling-client
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hspylib-clitt
+[2023-05-18 00:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-kubernetes
+[2023-05-18 00:13:27] INFO root fetch - processPackages [loanpy]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [wg-easy-api-wrapper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [vss-cli]: New version: [2023.5.0.dev0] Old Version: [2023.3.1.dev4]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [alembic]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [fling-client]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [spgrep]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230518/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230518/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [loanpy]: Downloading https://files.pythonhosted.org/packages/a3/ee/f4386be5e7448fc27d9d21ed80b8ae705b21d57cf80890bf46d8c102d667/loanpy-3.0.0.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/5a/b1/858677f017609f474bb9a9b19cc76f778a81bee43ae181059f610d6c000e/alembic-1.9.3.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/43/fa/91c44779a40d08b7d361b7561e7dd77acf0de90ece7f42640a8911f8afad/vss-cli-2023.3.1.dev4.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [fling-client]: Downloading https://files.pythonhosted.org/packages/15/f0/6a8827a4cd94922bea1ae68f47accea1ab7bf3ba56397e40ab20939d0062/fling_client-0.1.1.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [wg-easy-api-wrapper]: Downloading https://files.pythonhosted.org/packages/8c/c4/d748690a95125acf70619d8f6e569d5b90bb76c24255a2afc8fd1365ffc1/wg-easy-api-wrapper-1.0.0.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [spgrep]: Downloading https://files.pythonhosted.org/packages/78/eb/99a15370d81f154da89279cd9391fd2c4511e8c89e5da8d94bfc826c7b1f/spgrep-0.3.3.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [loanpy]: Downloading https://files.pythonhosted.org/packages/dc/d2/df712a3a296a85d4bae0c0d73b740c5fdc94ba307102a5be8b0ac6853d1e/loanpy-3.0.1.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [fling-client]: Downloading https://files.pythonhosted.org/packages/db/b9/e277d50abda1f726ea1df85f19b0245281bd00a4574297d810740fa93d40/fling_client-0.1.4.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [wg-easy-api-wrapper]: Downloading https://files.pythonhosted.org/packages/e5/85/5a2e8418693b160165764ca23625e1dd5df8400ee173d3b43dfa393e0fb4/wg-easy-api-wrapper-1.0.1.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [spgrep]: Downloading https://files.pythonhosted.org/packages/5c/dc/03d8f718f5fbfa24ad591bfede64c7a2df64f0a8ca426162949f8b3aad3c/spgrep-0.3.4.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [loanpy]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [loanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loanpy-3.0.0.tar.gz tmp/loanpy-3.0.1.tar.gz --markdown 20230518/l/loanpy/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [fling-client]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [fling-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_client-0.1.1.tar.gz tmp/fling_client-0.1.4.tar.gz --markdown 20230518/f/fling-client/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [vss-cli]: Downloading https://files.pythonhosted.org/packages/44/a2/a7f461f69ee6a693b5e75e2befc24465a72e6942dc89786fa6da4aaec16d/vss-cli-2023.5.0.dev0.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [alembic]: Downloading https://files.pythonhosted.org/packages/00/19/628a08ff5dee597d94682bc3e0e7048462ef5330483173e84b755717e6b7/alembic-1.9.4.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [wg-easy-api-wrapper]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [wg-easy-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg-easy-api-wrapper-1.0.0.tar.gz tmp/wg-easy-api-wrapper-1.0.1.tar.gz --markdown 20230518/w/wg-easy-api-wrapper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [spgrep]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [spgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spgrep-0.3.3.tar.gz tmp/spgrep-0.3.4.tar.gz --markdown 20230518/s/spgrep/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-05-18 00:13:27] INFO root fetch - processPackages [vss-cli]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [vss-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vss-cli-2023.3.1.dev4.tar.gz tmp/vss-cli-2023.5.0.dev0.tar.gz --markdown 20230518/v/vss-cli/2023.3.1.dev4-2023.5.0.dev0/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [alembic]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [alembic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic-1.9.3.tar.gz tmp/alembic-1.9.4.tar.gz --markdown 20230518/a/alembic/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230518/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-18 00:13:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230518/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 00:13:28] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [wg-easy-api-wrapper]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [fling-client]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [loanpy]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [spgrep]: success
+[2023-05-18 00:13:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-18 00:13:31] INFO root fetch - main [MainThread]: End processing [vss-cli]: success
+[2023-05-18 00:13:31] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-18 00:13:35] INFO root fetch - main [MainThread]: End processing [alembic]: success
+[2023-05-18 00:13:35] INFO root fetch - main [MainThread]: Store serial: [18146186]
