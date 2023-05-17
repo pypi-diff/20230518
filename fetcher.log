@@ -237,3 +237,94 @@
 [2023-05-18 00:18:46] INFO root fetch - processPackages [seaflowpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaflowpy-6.2.0.tar.gz tmp/seaflowpy-6.2.1.tar.gz --markdown 20230518/s/seaflowpy/6.2.0-6.2.1/diff.md --exclude *.pyd
 [2023-05-18 00:18:48] INFO root fetch - main [MainThread]: End processing [seaflowpy]: success
 [2023-05-18 00:18:48] INFO root fetch - main [MainThread]: Store serial: [18146219]
+[2023-05-18 00:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146219]
+[2023-05-18 00:23:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-commit-gen
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysigma
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rai-test-utils
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphscope-client
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphscope
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-apps
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-coordinator
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-engine
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-include
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coiled
+[2023-05-18 00:23:57] INFO root fetch - processPackages [pysigma]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [rai-test-utils]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [gs-engine]: New version: [0.22.0a20230516] Old Version: [0.22.0a20230515]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [gs-coordinator]: New version: [0.22.0a20230516] Old Version: [0.22.0a20230515]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [graphscope-client]: New version: [0.22.0a20230517] Old Version: [0.22.0a20230516]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [ai-commit-gen]: New version: [0.3] Old Version: [0.2]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [graphscope]: New version: [0.22.0a20230516] Old Version: [0.22.0a20230515]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [gs-include]: New version: [0.22.0a20230516] Old Version: [0.22.0a20230515]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230517] Old Version: [0.22.0a20230516]
+[2023-05-18 00:23:57] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/fb/d8/9cc5390f21865ad30a97228b6a8e8a22ea9fd66e059b3f60058f85dd574b/rai_test_utils-0.1.0.tar.gz
+[2023-05-18 00:23:57] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2023-05-18 00:23:57] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/71/3b/e4ff7aedda327fc600ff1970e1eedc14d4b7222dd77692fa91bb99abda2a/gs_engine-0.22.0a20230515-py2.py3-none-macosx_12_0_arm64.whl
+[2023-05-18 00:23:57] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/0d/4d/7bd063e996c9a7633e0b07c55041497e42c27403054e9ab93f284089b337/graphscope-0.22.0a20230515-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/56/67/cd6ca80a40840c1ffad46a120ad54e1906e159bbe851a4b25127ef476c20/gs_coordinator-0.22.0a20230515-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [coiled]: New version: [0.6.5.dev9] Old Version: [0.6.5.dev7]
+[2023-05-18 00:23:58] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/c5/d8/68cd52b9ab2a9090766d5ff3cfc15567f1ef116163cff9492659ff45e070/graphscope_client-0.22.0a20230516-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/e6/8d/4a831b001a2187581c0c16ae8ccb82a1f3b9dbd2a74ddbe686b19a611d03/gs_include-0.22.0a20230515-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 262983200>=10485760
+[2023-05-18 00:23:58] INFO root fetch - processPackages [graphscope]: Start processing: macpie
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/e7/78/b8da88d89fa2c43d6652635ac7421bd78521caefeca00536001c19fe64eb/gs_apps-0.22.0a20230516-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [macpie]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 30431354>=10485760
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-include]: Start processing: getregdf
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47797593>=10485760
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-apps]: Start processing: archaea-simulation
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: Downloading https://files.pythonhosted.org/packages/0c/06/f94ba1f5b942f4e0ba1cf24415985de1552f3805c8c681f8e091d1c96d7c/ai-commit-gen-0.3.tar.gz
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 63737351>=10485760
+[2023-05-18 00:23:58] INFO root fetch - processPackages [graphscope-client]: Start processing: fast-agave
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [getregdf]: Skipping, unable to determine old version
+[2023-05-18 00:23:58] INFO root fetch - processPackages [getregdf]: Start processing: ai-commit-gen
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [getregdf] error
+[2023-05-18 00:23:58] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/fc/02/312d1eddfd781cbc5b16e47664a96ef38df809d54072419057e0fb832890/rai_test_utils-0.2.0.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: New version: [0.4] Old Version: [0.3]
+[2023-05-18 00:23:58] INFO root fetch - processPackages [archaea-simulation]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-18 00:23:58] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/8e/fa/8c4e57eb26fbd769f9195ad94a4b9bf648124b5a8918e82bbc5aead98940/pysigma-0.9.9.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: Downloading https://files.pythonhosted.org/packages/0c/06/f94ba1f5b942f4e0ba1cf24415985de1552f3805c8c681f8e091d1c96d7c/ai-commit-gen-0.3.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/52/32/b49bf3440a3d67cc3b59c73dc0a140ea90d24533dc94a12982725b395e4a/gs_engine-0.22.0a20230516-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [macpie]: Downloading https://files.pythonhosted.org/packages/f8/11/34ace36ba12cd2b408d55903d82250e9bec35b7e10ad4b0a90e9d27cd1ad/macpie-0.4.0.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2023-05-18 00:23:58] WARNING root fetch - processPackages [macpie]: Skipping package: exceeds size limit 22247096>=10485760
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - main [MainThread]: End processing [macpie] error
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-commit-gen-0.2.tar.gz tmp/ai-commit-gen-0.3.tar.gz --markdown 20230518/a/ai-commit-gen/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/60/da/2caea9f7d13d742b3bf16737c5547c8639ff906e662a54b5c491ed40fe3c/gs_coordinator-0.22.0a20230516-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-05-18 00:23:58] INFO root fetch - processPackages [rai-test-utils]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [rai-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_test_utils-0.1.0.tar.gz tmp/rai_test_utils-0.2.0.tar.gz --markdown 20230518/r/rai-test-utils/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [pysigma]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.8.tar.gz tmp/pysigma-0.9.9.tar.gz --markdown 20230518/p/pysigma/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev7.tar.gz tmp/coiled-0.6.5.dev9.tar.gz --markdown 20230518/c/coiled/0.6.5.dev7-0.6.5.dev9/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.22.0a20230515-py2.py3-none-macosx_12_0_arm64.whl.zip tmp/gs_engine-0.22.0a20230516-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230518/g/gs-engine/0.22.0a20230515-0.22.0a20230516/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [archaea-simulation]: Downloading https://files.pythonhosted.org/packages/78/82/b5e2140cd3c2522084e494aada7dd9f71365d14dcf8e5b3300558bccca98/archaea_simulation-1.0.6.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.22.0a20230515-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.22.0a20230516-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230518/g/gs-coordinator/0.22.0a20230515-0.22.0a20230516/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: Downloading https://files.pythonhosted.org/packages/a1/2a/c505b08c0dc3d4d78347e23984fac733c76ce970422fa891aabad804af1c/ai-commit-gen-0.4.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [archaea-simulation]: Downloading https://files.pythonhosted.org/packages/5a/a4/5468e750b922624e5aaf47be8e73e5d33c8914e225f2517526b80793d020/archaea_simulation-1.0.7.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [ai-commit-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-commit-gen-0.3.tar.gz tmp/ai-commit-gen-0.4.tar.gz --markdown 20230518/a/ai-commit-gen/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2023-05-18 00:23:58] INFO root fetch - processPackages [archaea-simulation]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [archaea-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archaea_simulation-1.0.6.tar.gz tmp/archaea_simulation-1.0.7.tar.gz --markdown 20230518/a/archaea-simulation/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-18 00:23:58] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2023-05-18 00:23:58] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20230518/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-05-18 00:23:59] INFO root fetch - main [MainThread]: End processing [ai-commit-gen]: success
+[2023-05-18 00:23:59] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-05-18 00:23:59] INFO root fetch - main [MainThread]: End processing [rai-test-utils]: success
+[2023-05-18 00:23:59] INFO root fetch - main [MainThread]: End processing [pysigma]: success
+[2023-05-18 00:24:00] INFO root fetch - main [MainThread]: End processing [ai-commit-gen]: success
+[2023-05-18 00:24:00] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-18 00:24:00] INFO root fetch - main [MainThread]: End processing [archaea-simulation]: success
+[2023-05-18 00:24:00] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2023-05-18 00:24:01] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-18 00:24:01] INFO root fetch - main [MainThread]: Store serial: [18146261]
