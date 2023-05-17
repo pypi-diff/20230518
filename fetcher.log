@@ -738,3 +738,102 @@
 [2023-05-18 00:55:45] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-05-18 00:55:47] INFO root fetch - main [MainThread]: End processing [wandb]: success
 [2023-05-18 00:55:47] INFO root fetch - main [MainThread]: Store serial: [18146510]
+[2023-05-18 01:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146510]
+[2023-05-18 01:00:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safir
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahk
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lanarky
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TopoTEM
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adaptive-scheduler
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ducktables
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckdtables
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcTrackClient
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpkio-python-sdk
+[2023-05-18 01:00:56] INFO root fetch - processPackages [lanarky]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [safir]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ahk]: New version: [1.1.3rc2] Old Version: [1.1.3rc1]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [dcTrackClient]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-18 01:00:56] WARNING root fetch - processPackages [ducktables]: Skipping, unable to determine old version
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ducktables]: Start processing: protopunica
+[2023-05-18 01:00:56] INFO root fetch - main [MainThread]: End processing [ducktables] error
+[2023-05-18 01:00:56] INFO root fetch - processPackages [bpkio-python-sdk]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [adaptive-scheduler]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-18 01:00:56] WARNING root fetch - processPackages [protopunica]: Skipping, unable to determine old version
+[2023-05-18 01:00:56] INFO root fetch - processPackages [protopunica]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:00:56] INFO root fetch - main [MainThread]: End processing [protopunica] error
+[2023-05-18 01:00:56] WARNING root fetch - processPackages [duckdtables]: Skipping, unable to determine old version
+[2023-05-18 01:00:56] INFO root fetch - processPackages [duckdtables]: Start processing: bpkio-cli
+[2023-05-18 01:00:56] INFO root fetch - main [MainThread]: End processing [duckdtables] error
+[2023-05-18 01:00:56] WARNING root fetch - processPackages [TopoTEM]: Skipping, unable to determine old version
+[2023-05-18 01:00:56] INFO root fetch - processPackages [TopoTEM]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:00:56] INFO root fetch - main [MainThread]: End processing [TopoTEM] error
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [bpkio-cli]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:00:56] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/87/b4/4941d921f65c20be32bc1502a53cbd40b7bd74287cbb9c4af32980a903ce/lanarky-0.6.0.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/72/37/b873573e2937ce316afad6cc6f1fd1d57f421e300096ae0cf9247c66ae8f/bpkio_python_sdk-1.0.1.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [safir]: Downloading https://files.pythonhosted.org/packages/d2/f4/3b2ae6fb20de4c529fb0bb66ccbd34d21a2c478e100744de87e25bf7030c/safir-4.2.2.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [adaptive-scheduler]: Downloading https://files.pythonhosted.org/packages/00/31/562a82bb9df50f3b1bb13685c490ede8888a91e89e3a55375d30a2bfede4/adaptive_scheduler-2.0.0.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/6e/3f/67c71c62d8edc1c19608f6812fb2e1bb2a53235b66d656feda4ae36d9144/dctrackclient-0.4.2.tar.gz
+[2023-05-18 01:00:56] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/66/07/d1f4a4c5252e1b65834f13ddb66ca240411876ba210ad68b7361a2a76a6d/ahk-1.1.3rc2.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [safir]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [safir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safir-4.2.1.tar.gz tmp/safir-4.2.2.tar.gz --markdown 20230518/s/safir/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/91/56/41de3b5965e0c78fd209251b792266b743b75c1038d26ef05fe824cd2ddc/bpkio_cli-1.1.0.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.1.3rc1.tar.gz tmp/ahk-1.1.3rc2.tar.gz --markdown 20230518/a/ahk/1.1.3rc1-1.1.3rc2/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/ad/6f/b1637b79f866d98209f7cb152843cfa766ed2679bb7d805d1bdf440085f5/dctrackclient-0.4.3.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [adaptive-scheduler]: Downloading https://files.pythonhosted.org/packages/af/a2/0f402ec4cd1359d1907db734ef58f8fe86de6a002c2f668ff8af31a0e00d/adaptive_scheduler-2.0.1.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [lanarky]: Downloading https://files.pythonhosted.org/packages/25/f3/c8e080600d24c65d97412647aac7587677f781593fbe55a1c379731d2b8b/lanarky-0.6.1.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [adaptive-scheduler]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.4.2.tar.gz tmp/dctrackclient-0.4.3.tar.gz --markdown 20230518/d/dcTrackClient/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [adaptive-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive_scheduler-2.0.0.tar.gz tmp/adaptive_scheduler-2.0.1.tar.gz --markdown 20230518/a/adaptive-scheduler/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/85/f4/4937c9b8ddefe947d99eba5e8c958919c15f401c92a08164f475c43e0f8d/bpkio_python_sdk-1.1.0.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.6.0.tar.gz tmp/lanarky-0.6.1.tar.gz --markdown 20230518/l/lanarky/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/b7/b8/2ff2219b621ab88d31234b005a829a078a0fe578b5ded0aeb71b9ea0d84f/bpkio_cli-1.2.0.tar.gz
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-python-sdk]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_python_sdk-1.0.1.tar.gz tmp/bpkio_python_sdk-1.1.0.tar.gz --markdown 20230518/b/bpkio-python-sdk/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2023-05-18 01:00:57] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.1.0.tar.gz tmp/bpkio_cli-1.2.0.tar.gz --markdown 20230518/b/bpkio-cli/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 01:00:58] INFO root fetch - processPackages [dcTrackClient]: Start processing: questdb-connect
+[2023-05-18 01:00:58] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-18 01:00:58] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-18 01:00:58] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/1a/77/496c6a1b6a08d5debcea75410e16c6b9ecbcc17ad0005881c8f0f87f0be2/questdb-connect-0.0.63.tar.gz
+[2023-05-18 01:00:58] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 01:00:58] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.62.tar.gz tmp/questdb-connect-0.0.63.tar.gz --markdown 20230518/q/questdb-connect/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-18 01:00:58] INFO root fetch - processPackages [ahk]: Start processing: sans
+[2023-05-18 01:00:58] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-18 01:00:58] INFO root fetch - processPackages [sans]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-18 01:00:58] INFO root fetch - processPackages [lanarky]: Start processing: autodistill-grounding-dino
+[2023-05-18 01:00:58] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-05-18 01:00:58] WARNING root fetch - processPackages [autodistill-grounding-dino]: Skipping, unable to determine old version
+[2023-05-18 01:00:58] INFO root fetch - main [MainThread]: End processing [autodistill-grounding-dino] error
+[2023-05-18 01:00:59] INFO root fetch - processPackages [sans]: Downloading https://files.pythonhosted.org/packages/c9/2c/231091c3772fc5347debdce6a3ca4d74cdf98159247a653373f4e609253d/sans-1.1.1.tar.gz
+[2023-05-18 01:00:59] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
+[2023-05-18 01:00:59] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2023-05-18 01:00:59] INFO root fetch - main [MainThread]: End processing [adaptive-scheduler]: success
+[2023-05-18 01:00:59] INFO root fetch - processPackages [sans]: Downloading https://files.pythonhosted.org/packages/0e/6b/1dcaa6855e6ff54fc528282878cd43613e37e0fd75647298ecb48eee208c/sans-1.1.2.tar.gz
+[2023-05-18 01:00:59] INFO root fetch - processPackages [sans]: executing diffoscope
+[2023-05-18 01:00:59] INFO root fetch - processPackages [sans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sans-1.1.1.tar.gz tmp/sans-1.1.2.tar.gz --markdown 20230518/s/sans/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-18 01:01:00] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 01:01:00] INFO root fetch - main [MainThread]: End processing [sans]: success
+[2023-05-18 01:01:01] INFO root fetch - main [MainThread]: End processing [safir]: success
+[2023-05-18 01:01:02] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:01:02] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:01:03] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:01:03] INFO root fetch - main [MainThread]: Store serial: [18146569]
