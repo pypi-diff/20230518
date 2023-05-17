@@ -1021,3 +1021,34 @@
 [2023-05-18 01:11:35] INFO root fetch - main [MainThread]: End processing [capabilities]: success
 [2023-05-18 01:11:37] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-18 01:11:37] INFO root fetch - main [MainThread]: Store serial: [18146700]
+[2023-05-18 01:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146700]
+[2023-05-18 01:16:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicsnovault
+[2023-05-18 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: questdb-connect
+[2023-05-18 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-clitt
+[2023-05-18 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mqttwarn
+[2023-05-18 01:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hspylib-clitt
+[2023-05-18 01:16:46] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 01:16:46] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.2b0] Old Version: [8.0.1.4b8]
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 01:16:46] INFO root fetch - processPackages [mqttwarn]: New version: [0.34.1] Old Version: [0.34.0]
+[2023-05-18 01:16:46] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 01:16:46] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.62.tar.gz tmp/questdb-connect-0.0.63.tar.gz --markdown 20230518/q/questdb-connect/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230518/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 01:16:46] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/1c/c0/c87631d71f6cbff228ba0812e2b175f6169fc6897627b48017f1326d72ea/dcicsnovault-8.0.1.4b8.tar.gz
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-05-18 01:16:46] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230518/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 01:16:46] INFO root fetch - processPackages [mqttwarn]: Downloading https://files.pythonhosted.org/packages/6d/12/73bb680883c53510c760dec432a13240bbc26569b248e75a46100d307d95/mqttwarn-0.34.0.tar.gz
+[2023-05-18 01:16:46] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-18 01:16:46] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.4b8.tar.gz tmp/dcicsnovault-8.0.2b0.tar.gz --markdown 20230518/d/dcicsnovault/8.0.1.4b8-8.0.2b0/diff.md --exclude *.pyd
+[2023-05-18 01:16:47] INFO root fetch - processPackages [mqttwarn]: Downloading https://files.pythonhosted.org/packages/d1/b1/aab8c4ec7f5fde81258896f6f7d948548dcbba30b693eaafb796d87a491f/mqttwarn-0.34.1.tar.gz
+[2023-05-18 01:16:47] INFO root fetch - processPackages [mqttwarn]: executing diffoscope
+[2023-05-18 01:16:47] INFO root fetch - processPackages [mqttwarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttwarn-0.34.0.tar.gz tmp/mqttwarn-0.34.1.tar.gz --markdown 20230518/m/mqttwarn/0.34.0-0.34.1/diff.md --exclude *.pyd
+[2023-05-18 01:16:47] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 01:16:47] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-05-18 01:16:47] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-05-18 01:16:48] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-18 01:16:49] INFO root fetch - main [MainThread]: End processing [mqttwarn]: success
+[2023-05-18 01:16:49] INFO root fetch - main [MainThread]: Store serial: [18146715]
