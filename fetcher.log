@@ -482,3 +482,64 @@
 [2023-05-18 00:34:43] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
 [2023-05-18 00:34:47] INFO root fetch - main [MainThread]: End processing [compliance-checker]: success
 [2023-05-18 00:34:47] INFO root fetch - main [MainThread]: Store serial: [18146354]
+[2023-05-18 00:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146354]
+[2023-05-18 00:39:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phiterm
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcTrackClient
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynbps
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuread
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opengsq
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phidata
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pre-commit
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redvox
+[2023-05-18 00:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: berteley
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dynbps]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dcTrackClient]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [opengsq]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [phiterm]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [berteley]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.3.4.tar.gz tmp/dctrackclient-0.4.0.tar.gz --markdown 20230518/d/dcTrackClient/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-18 00:39:56] INFO root fetch - processPackages [phidata]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [redvox]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [opengsq]: Downloading https://files.pythonhosted.org/packages/99/30/cdbd283be200a5e883385694d6a582fcdf5e55a5054262a95e34642da769/opengsq-1.5.0.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dynbps]: Downloading https://files.pythonhosted.org/packages/4e/c4/73869068abc63c070226d00a3be43393e587ecd3bb6172d6a9a95360aa14/dynbps-0.0.4.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [pre-commit]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-05-18 00:39:56] INFO root fetch - processPackages [berteley]: Downloading https://files.pythonhosted.org/packages/37/32/0511ab847c3793b650f7539f2826f85df85711f7959e72fb7e2defd1902f/berteley-0.0.8.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/2f/83/c81e954c95d895ac8089cf0f69492d03648a951a4b3421ccc6a6c901244c/phiterm-1.6.3.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/8d/93/04e8ac3aa726cc0b3955adeea4323d98263acf54f40527dd72508aedbc6c/phidata-1.6.3.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dynbps]: executing diffoscope
+[2023-05-18 00:39:56] INFO root fetch - processPackages [dynbps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynbps-0.0.3.tar.gz tmp/dynbps-0.0.4.tar.gz --markdown 20230518/d/dynbps/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 00:39:56] INFO root fetch - processPackages [redvox]: Downloading https://files.pythonhosted.org/packages/72/da/549c5f9a207ced7c7effb3e241d484d209e240de3b66495794809d31922e/redvox-3.4.1.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/f6/f9/fd40593d83357bb03733c0e77e71a08f2f5f523595d0a10401d7e5c22f16/pre_commit-3.3.1.tar.gz
+[2023-05-18 00:39:56] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-05-18 00:39:56] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230518/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [opengsq]: Downloading https://files.pythonhosted.org/packages/5c/72/cdc2c70b43d364133c2359a7b7f6ccf561e760faad8b09b560cd39569856/opengsq-1.5.1.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [berteley]: Downloading https://files.pythonhosted.org/packages/15/3e/d92ef189e920c30061b6bc889b6e30ed1de16430b87e84699a2f830d774a/berteley-0.0.9.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/0b/81/f96ad42fe7a92e07b6144f7312c0c07aee7f5a1a777c21faa096338e7d3a/phiterm-1.6.4.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [redvox]: Downloading https://files.pythonhosted.org/packages/10/c3/1828ed834ffbcba2c6af12d68dd4215210f549fa00247081154aa53d7901/redvox-3.4.2.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/21/55/fccc69a49b66c54dcb9a7d8620131a2566db973837c6611b516a2d4e87d7/pre_commit-3.3.2.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.6.3.tar.gz tmp/phiterm-1.6.4.tar.gz --markdown 20230518/p/phiterm/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/fc/a3/2823f83f6b9f0316aa3e0d625b04ee3980dbba9c4b24afab4c507f28fd9f/phidata-1.6.4.tar.gz
+[2023-05-18 00:39:57] INFO root fetch - processPackages [opengsq]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [opengsq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengsq-1.5.0.tar.gz tmp/opengsq-1.5.1.tar.gz --markdown 20230518/o/opengsq/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [redvox]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [berteley]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [berteley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berteley-0.0.8.tar.gz tmp/berteley-0.0.9.tar.gz --markdown 20230518/b/berteley/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [redvox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvox-3.4.1.tar.gz tmp/redvox-3.4.2.tar.gz --markdown 20230518/r/redvox/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.6.3.tar.gz tmp/phidata-1.6.4.tar.gz --markdown 20230518/p/phidata/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - processPackages [pre-commit]: executing diffoscope
+[2023-05-18 00:39:57] INFO root fetch - processPackages [pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit-3.3.1.tar.gz tmp/pre_commit-3.3.2.tar.gz --markdown 20230518/p/pre-commit/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-05-18 00:39:57] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-18 00:39:58] INFO root fetch - main [MainThread]: End processing [dynbps]: success
+[2023-05-18 00:39:58] INFO root fetch - main [MainThread]: End processing [berteley]: success
+[2023-05-18 00:39:58] INFO root fetch - main [MainThread]: End processing [opengsq]: success
+[2023-05-18 00:39:58] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-05-18 00:39:58] INFO root fetch - main [MainThread]: End processing [pre-commit]: success
+[2023-05-18 00:40:00] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-05-18 00:40:00] INFO root fetch - main [MainThread]: End processing [redvox]: success
+[2023-05-18 00:40:01] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-05-18 00:40:01] INFO root fetch - main [MainThread]: Store serial: [18146381]
