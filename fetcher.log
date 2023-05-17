@@ -1354,3 +1354,74 @@
 [2023-05-18 01:48:01] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-05-18 01:48:01] INFO root fetch - main [MainThread]: End processing [brainlit]: success
 [2023-05-18 01:48:01] INFO root fetch - main [MainThread]: Store serial: [18146887]
+[2023-05-18 01:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146887]
+[2023-05-18 01:53:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kalepy
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchful
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgp-reconstruction
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dkist-processing-vbi
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 31
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langkit
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circuitpython-bma220
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-ligand
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opvious
+[2023-05-18 01:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-containerregistry
+[2023-05-18 01:53:10] INFO root fetch - processPackages [kalepy]: New version: [1.4.1] Old Version: [1.4]
+[2023-05-18 01:53:10] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-18 01:53:10] INFO root fetch - processPackages [langkit]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2023-05-18 01:53:10] WARNING root fetch - processPackages [pgp-reconstruction]: Skipping, unable to determine old version
+[2023-05-18 01:53:10] INFO root fetch - processPackages [pgp-reconstruction]: Start processing: lifx-cli
+[2023-05-18 01:53:10] INFO root fetch - main [MainThread]: End processing [pgp-reconstruction] error
+[2023-05-18 01:53:10] INFO root fetch - processPackages [watchful]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-05-18 01:53:10] INFO root fetch - processPackages [31]: New version: [2.2] Old Version: [2.1]
+[2023-05-18 01:53:10] WARNING root fetch - processPackages [circuitpython-bma220]: Skipping, unable to determine old version
+[2023-05-18 01:53:10] INFO root fetch - processPackages [circuitpython-bma220]: Start processing: deskaone-sdk-scrypt-2023
+[2023-05-18 01:53:10] INFO root fetch - main [MainThread]: End processing [circuitpython-bma220] error
+[2023-05-18 01:53:10] INFO root fetch - processPackages [pulumi-containerregistry]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 01:53:10] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-18 01:53:10] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-18 01:53:11] INFO root fetch - processPackages [pulumi-containerregistry]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [pulumi-containerregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_containerregistry-0.0.6.tar.gz tmp/pulumi_containerregistry-0.0.7.tar.gz --markdown 20230518/p/pulumi-containerregistry/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [flask-ligand]: New version: [0.8.0] Old Version: [0.7.8]
+[2023-05-18 01:53:11] INFO root fetch - processPackages [lifx-cli]: New version: [2.5.0] Old Version: [2.4.4]
+[2023-05-18 01:53:11] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [deskaone-sdk-scrypt-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deskaone_sdk_scrypt_2023-1.1.2.tar.gz tmp/deskaone_sdk_scrypt_2023-1.1.3.tar.gz --markdown 20230518/d/deskaone-sdk-scrypt-2023/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/f8/8c/9e89911b42de754307a5ecc0e9e62c14b28a9775124420782cf048a10c7a/watchful-3.4.0.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/ba/42/50f1ac24f2755eb7315bdf689a3433d6e9c10baecc5b320ccfb03529dd8f/dkist_processing_vbi-1.2.1.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/b2/13/130fb5aab4bc3170426885044c8f97fae948b098825f037ccd6c2ffe890b/langkit-0.0.1.dev1.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [31]: Downloading https://files.pythonhosted.org/packages/b6/38/7ebd19704efa5689173c4c1c417e46f49b62b7a0797f44e8c7ee9afae796/31-2.1.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [kalepy]: Downloading https://files.pythonhosted.org/packages/b8/b2/526cb0feeea1d800bfff3e89dc1c1f5cdeb480d8eca1bbee85bd0180cf96/kalepy-1.4.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/59/38/1162f433b5bc84e5cad2ca1a740987a96034334e5cc4d42724d49a6c6b8c/flask-ligand-0.7.8.tar.gz
+[2023-05-18 01:53:11] WARNING root fetch - processPackages [kalepy]: Skipping package: exceeds size limit 54418863>=10485760
+[2023-05-18 01:53:11] INFO root fetch - main [MainThread]: End processing [kalepy] error
+[2023-05-18 01:53:11] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230518/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/84/aa/985e6ce21446b18bbc3e22a0b85be39b9ca1f15b47ff6cc934a265a7042b/lifx_cli-2.4.4.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [31]: Downloading https://files.pythonhosted.org/packages/5e/1d/1372623bc2547b71e208ac4ead607c2bf579895a6d1d0ed9b5591f70f5f9/31-2.2.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/cd/4a/56b1ab92f3ae5e6c302b691052c0a93b57351be99d47d3a7c75ec5b129a1/langkit-0.0.1.dev2.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [flask-ligand]: Downloading https://files.pythonhosted.org/packages/bb/b4/404408ef248edc0ac08976d7e5ee8af11b529c1689d9214db0a2ac23318a/flask-ligand-0.8.0.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/52/b2/c39c6bf10b12abcb76397d6c9baedfd0059cddd8e6bfc4807babd7a595cc/dkist_processing_vbi-1.3.0.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/5f/de/336156aebedb30a58f19cffc29e700e0ec3c33addfbbfde3ff9d133a4400/watchful-3.5.0.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [31]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [31]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/31-2.1.tar.gz tmp/31-2.2.tar.gz --markdown 20230518/3/31/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.1.dev1.tar.gz tmp/langkit-0.0.1.dev2.tar.gz --markdown 20230518/l/langkit/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [lifx-cli]: Downloading https://files.pythonhosted.org/packages/ef/7a/37e641237db30122216ad8d1849bda95eabfc9c1f10ef04bd74e07267640/lifx_cli-2.5.0.tar.gz
+[2023-05-18 01:53:11] INFO root fetch - processPackages [watchful]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchful-3.4.0.tar.gz tmp/watchful-3.5.0.tar.gz --markdown 20230518/w/watchful/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [flask-ligand]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [flask-ligand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-ligand-0.7.8.tar.gz tmp/flask-ligand-0.8.0.tar.gz --markdown 20230518/f/flask-ligand/0.7.8-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.2.1.tar.gz tmp/dkist_processing_vbi-1.3.0.tar.gz --markdown 20230518/d/dkist-processing-vbi/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 01:53:11] INFO root fetch - processPackages [lifx-cli]: executing diffoscope
+[2023-05-18 01:53:11] INFO root fetch - processPackages [lifx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifx_cli-2.4.4.tar.gz tmp/lifx_cli-2.5.0.tar.gz --markdown 20230518/l/lifx-cli/2.4.4-2.5.0/diff.md --exclude *.pyd
+[2023-05-18 01:53:12] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
+[2023-05-18 01:53:12] INFO root fetch - main [MainThread]: End processing [deskaone-sdk-scrypt-2023]: success
+[2023-05-18 01:53:12] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-18 01:53:12] INFO root fetch - main [MainThread]: End processing [watchful]: success
+[2023-05-18 01:53:13] INFO root fetch - main [MainThread]: End processing [lifx-cli]: success
+[2023-05-18 01:53:13] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-05-18 01:53:13] INFO root fetch - main [MainThread]: End processing [31]: success
+[2023-05-18 01:53:13] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2023-05-18 01:53:14] INFO root fetch - main [MainThread]: End processing [flask-ligand]: success
+[2023-05-18 01:53:14] INFO root fetch - main [MainThread]: Store serial: [18146922]
