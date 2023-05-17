@@ -1,0 +1,66 @@
+[2023-05-18 00:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146084]
+[2023-05-18 00:02:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msmanager
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n4s
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pictorus
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phdi
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.documentviewer
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbscuid
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labvirtual
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paracrine
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tsmart
+[2023-05-18 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: azure-ai-ml
+[2023-05-18 00:02:15] INFO root fetch - processPackages [paracrine]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 00:02:15] INFO root fetch - processPackages [phdi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-18 00:02:15] INFO root fetch - processPackages [nbscuid]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 00:02:15] INFO root fetch - processPackages [labvirtual]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 00:02:15] WARNING root fetch - processPackages [pictorus]: Skipping, unable to determine old version
+[2023-05-18 00:02:15] INFO root fetch - processPackages [pictorus]: Start processing: ai-commit-gen
+[2023-05-18 00:02:15] INFO root fetch - main [MainThread]: End processing [pictorus] error
+[2023-05-18 00:02:15] INFO root fetch - processPackages [n4s]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-18 00:02:15] INFO root fetch - processPackages [msmanager]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 00:02:15] WARNING root fetch - processPackages [tsmart]: Skipping, unable to determine old version
+[2023-05-18 00:02:15] INFO root fetch - processPackages [azure-ai-ml]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-18 00:02:15] INFO root fetch - main [MainThread]: End processing [tsmart] error
+[2023-05-18 00:02:15] INFO root fetch - processPackages [collective.documentviewer]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-05-18 00:02:15] WARNING root fetch - processPackages [ai-commit-gen]: Skipping, unable to determine old version
+[2023-05-18 00:02:15] INFO root fetch - main [MainThread]: End processing [ai-commit-gen] error
+[2023-05-18 00:02:15] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/32/ed/9ce8cdea039e51c1c651c2197b04e3ecf81b60439f62138e6bb2e3b96da0/labvirtual-0.3.8.tar.gz
+[2023-05-18 00:02:15] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43631992>=10485760
+[2023-05-18 00:02:15] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-18 00:02:15] INFO root fetch - processPackages [nbscuid]: Downloading https://files.pythonhosted.org/packages/1b/e5/609d1b5bdff640a144c1b00b576bf8112bebc98852dab0ab9d1d6e8fd205/nbscuid-0.0.6.tar.gz
+[2023-05-18 00:02:15] INFO root fetch - processPackages [phdi]: Downloading https://files.pythonhosted.org/packages/c0/bc/f6f1add90d147f103a207ce6f9da189fe0c767cb0d154bc03374448f9034/phdi-1.0.4.tar.gz
+[2023-05-18 00:02:15] INFO root fetch - processPackages [paracrine]: Downloading https://files.pythonhosted.org/packages/8a/76/9350a17c04e4a064600309bf7eb1f676616b4271bc0cb017439ddf4e2e7d/paracrine-0.0.3-py3-none-any.whl
+[2023-05-18 00:02:15] INFO root fetch - processPackages [n4s]: Downloading https://files.pythonhosted.org/packages/46/6f/9e240ab1eaf55eb794008497efc1eccaa6be8d67582ce262645a1f91ca02/n4s-2.4.2.tar.gz
+[2023-05-18 00:02:15] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/ce/42/2ea8657564c6619344073c0117562fe809fd0cb64caf0e1cd8639640aa3c/msmanager-0.1.2.tar.gz
+[2023-05-18 00:02:15] INFO root fetch - processPackages [collective.documentviewer]: Downloading https://files.pythonhosted.org/packages/e8/3a/fe52c079490a659915413e9bb929526070333676032a792f2df016df934d/collective.documentviewer-6.0.2.tar.gz
+[2023-05-18 00:02:15] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/c4/8c/c16ea29db9ccf265cfeb809cdd2e04b497754879e7696981c86a1ebbdbfb/azure-ai-ml-1.7.0.zip
+[2023-05-18 00:02:16] INFO root fetch - processPackages [nbscuid]: Downloading https://files.pythonhosted.org/packages/41/32/69df9d854961adbea36515cc383c6c8c8b086526aa4f7e1bd552fc5a7a0a/nbscuid-0.0.7.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [paracrine]: Downloading https://files.pythonhosted.org/packages/d8/67/37c00138728433c5aeb3b7ebfcbc0bf0a7f9c0598906c6b937262a5161c7/paracrine-0.0.4.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [phdi]: Downloading https://files.pythonhosted.org/packages/3e/cd/426a992d7d04e9999073fec69ced32c66a9f4f1404acf3322f77f75a7f15/phdi-1.0.5.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [msmanager]: Downloading https://files.pythonhosted.org/packages/27/eb/f290f96bc11e21c8461cf6d0c26e18ec2721623065be6b781531a6b67bda/msmanager-0.1.3.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [n4s]: Downloading https://files.pythonhosted.org/packages/fe/12/2182f003d1dd04eeb21a73799272fc4bbea5a8fc21d94f61bb20f75e365d/n4s-2.4.3.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [nbscuid]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [nbscuid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbscuid-0.0.6.tar.gz tmp/nbscuid-0.0.7.tar.gz --markdown 20230518/n/nbscuid/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [paracrine]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [paracrine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paracrine-0.0.3-py3-none-any.whl.zip tmp/paracrine-0.0.4.tar.gz --markdown 20230518/p/paracrine/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [phdi]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [phdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdi-1.0.4.tar.gz tmp/phdi-1.0.5.tar.gz --markdown 20230518/p/phdi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [azure-ai-ml]: Downloading https://files.pythonhosted.org/packages/de/c2/5b20640ebc808da01cc674172a5793d0814cacd8d3e2c28070a5ef5b20f0/azure-ai-ml-1.7.1.zip
+[2023-05-18 00:02:16] INFO root fetch - processPackages [msmanager]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [msmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msmanager-0.1.2.tar.gz tmp/msmanager-0.1.3.tar.gz --markdown 20230518/m/msmanager/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [n4s]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [n4s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n4s-2.4.2.tar.gz tmp/n4s-2.4.3.tar.gz --markdown 20230518/n/n4s/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [collective.documentviewer]: Downloading https://files.pythonhosted.org/packages/3f/9f/344f1bb922cc9b93cf3d37856763306d62361c5d575a7719eee26f69823b/collective.documentviewer-6.0.3.tar.gz
+[2023-05-18 00:02:16] INFO root fetch - processPackages [collective.documentviewer]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [collective.documentviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.documentviewer-6.0.2.tar.gz tmp/collective.documentviewer-6.0.3.tar.gz --markdown 20230518/c/collective.documentviewer/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-05-18 00:02:16] INFO root fetch - processPackages [azure-ai-ml]: executing diffoscope
+[2023-05-18 00:02:16] INFO root fetch - processPackages [azure-ai-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-ml-1.7.0.zip tmp/azure-ai-ml-1.7.1.zip --markdown 20230518/a/azure-ai-ml/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-18 00:02:18] INFO root fetch - main [MainThread]: End processing [paracrine]: success
+[2023-05-18 00:02:18] INFO root fetch - main [MainThread]: End processing [msmanager]: success
+[2023-05-18 00:02:18] INFO root fetch - main [MainThread]: End processing [phdi]: success
+[2023-05-18 00:02:18] INFO root fetch - main [MainThread]: End processing [n4s]: success
+[2023-05-18 00:02:18] INFO root fetch - main [MainThread]: End processing [nbscuid]: success
+[2023-05-18 00:02:20] INFO root fetch - main [MainThread]: End processing [collective.documentviewer]: success
+[2023-05-18 00:03:04] INFO root fetch - main [MainThread]: End processing [azure-ai-ml]: success
+[2023-05-18 00:03:04] INFO root fetch - main [MainThread]: Store serial: [18146123]
