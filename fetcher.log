@@ -1112,3 +1112,63 @@
 [2023-05-18 01:22:01] INFO root fetch - main [MainThread]: End processing [azure-containerregistry]: success
 [2023-05-18 01:22:01] INFO root fetch - main [MainThread]: End processing [determined]: success
 [2023-05-18 01:22:01] INFO root fetch - main [MainThread]: Store serial: [18146740]
+[2023-05-18 01:27:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146740]
+[2023-05-18 01:27:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensourceleg
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validmind
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ardilla
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcTrackClient
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usearch
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vecs
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kotan
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wpiformat
+[2023-05-18 01:27:10] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ardilla]: New version: [0.0.9a0] Old Version: [0.0.8a0]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [opensourceleg]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [dcTrackClient]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [vecs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [kotan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [usearch]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [wpiformat]: New version: [2023.14] Old Version: [2023.13]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230517] Old Version: [1.0.3.dev20230516]
+[2023-05-18 01:27:10] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/6a/54/6f59a245db587b4885f5dbf25fd1da738db7173eda30457d06a305aeb211/opensourceleg-1.1.2.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/72/95/90b81ba4306867549ee70c6b314e47d1982083aa8ed1748dc10d9bb5658f/kotan-0.1.3.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [vecs]: Downloading https://files.pythonhosted.org/packages/dc/8b/d3bc2d0595dacf3f1e59d5f59a4b176865a8d8a2f8e4c13bdbed8627dd65/vecs-0.2.2.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [ardilla]: Downloading https://files.pythonhosted.org/packages/1f/bb/84bb72445ba1487ec100e08dfc155e77b22a92501439cf76d45c606e2de3/ardilla-0.0.8a0.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/dc/44/4d7411331544a7bae03379563fe937d26e55e991c450b96932be4f94ab8b/dctrackclient-0.4.4.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/5e/45/b9f8d493493b98594c81e252a156566b2023ee138ce3c57c074fc140f597/wpiformat-2023.14-py3-none-any.whl
+[2023-05-18 01:27:10] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/cf/bd/f3436bb3aa84de0b634bf2e3e3aeb398a13335fdd24b91c2565c48c4c3f6/usearch-0.4.0-cp39-cp39-win_amd64.whl
+[2023-05-18 01:27:10] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-18 01:27:10] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230518/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-18 01:27:10] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/29/6e/69bb51b5f85fc7bf17f07bb809caffa38fb40597ab3023b9957b76855531/evals-nightly-1.0.3.dev20230516.tar.gz
+[2023-05-18 01:27:10] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-05-18 01:27:10] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.4.3.tar.gz tmp/dctrackclient-0.4.4.tar.gz --markdown 20230518/d/dcTrackClient/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-18 01:27:10] INFO root fetch - processPackages [vecs]: executing diffoscope
+[2023-05-18 01:27:10] INFO root fetch - processPackages [vecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vecs-0.2.1.tar.gz tmp/vecs-0.2.2.tar.gz --markdown 20230518/v/vecs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 01:27:10] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/79/2d/7de883a8b1d37fbf91e645a7db441ffaa65e438dbd4ebf9823f5b6f124df/opensourceleg-1.2.0.tar.gz
+[2023-05-18 01:27:11] INFO root fetch - processPackages [kotan]: Downloading https://files.pythonhosted.org/packages/93/74/f99d00ead89e4c131d569b00ec2bdba22e6837b42e186a4c26860443e616/kotan-0.1.4.tar.gz
+[2023-05-18 01:27:11] INFO root fetch - processPackages [wpiformat]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [wpiformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpiformat-2023.13-py3-none-any.whl.zip tmp/wpiformat-2023.14-py3-none-any.whl.zip --markdown 20230518/w/wpiformat/2023.13-2023.14/diff.md --exclude *.pyd
+[2023-05-18 01:27:11] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.3.0-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.4.0-cp39-cp39-win_amd64.whl.zip --markdown 20230518/u/usearch/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-18 01:27:11] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-1.1.2.tar.gz tmp/opensourceleg-1.2.0.tar.gz --markdown 20230518/o/opensourceleg/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 01:27:11] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/e3/f1/3039d9f92601736313861471736b1fc73f427d043998015b1c6b2f99ceed/evals-nightly-1.0.3.dev20230517.tar.gz
+[2023-05-18 01:27:11] INFO root fetch - processPackages [kotan]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [kotan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kotan-0.1.3.tar.gz tmp/kotan-0.1.4.tar.gz --markdown 20230518/k/kotan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 01:27:11] INFO root fetch - processPackages [ardilla]: Downloading https://files.pythonhosted.org/packages/0a/22/f6c01a9f26450cac501bed6442868cbe74c55ed9cac8b8b6a7fbcd5f0a8d/ardilla-0.0.9a0.tar.gz
+[2023-05-18 01:27:11] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230516.tar.gz tmp/evals-nightly-1.0.3.dev20230517.tar.gz --markdown 20230518/e/evals-nightly/1.0.3.dev20230516-1.0.3.dev20230517/diff.md --exclude *.pyd
+[2023-05-18 01:27:11] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-18 01:27:11] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.8a0.tar.gz tmp/ardilla-0.0.9a0.tar.gz --markdown 20230518/a/ardilla/0.0.8a0-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [kotan]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [vecs]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2023-05-18 01:27:12] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
+[2023-05-18 01:27:14] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-05-18 01:27:14] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-18 01:27:14] INFO root fetch - main [MainThread]: Store serial: [18146801]
