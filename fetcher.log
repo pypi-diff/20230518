@@ -1304,3 +1304,53 @@
 [2023-05-18 01:42:49] INFO root fetch - main [MainThread]: End processing [sigma-cli]: success
 [2023-05-18 01:42:50] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
 [2023-05-18 01:42:50] INFO root fetch - main [MainThread]: Store serial: [18146857]
+[2023-05-18 01:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146857]
+[2023-05-18 01:47:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybro
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brainlit
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monarch-py
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apache-tvm
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validmind
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manifest-ml
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyphetools
+[2023-05-18 01:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: capabilities
+[2023-05-18 01:47:58] INFO root fetch - processPackages [cybro]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [monarch-py]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [brainlit]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [capabilities]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [manifest-ml]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 01:47:58] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-18 01:47:58] INFO root fetch - processPackages [capabilities]: executing diffoscope
+[2023-05-18 01:47:58] INFO root fetch - processPackages [capabilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capabilities-0.3.2.tar.gz tmp/capabilities-0.3.3.tar.gz --markdown 20230518/c/capabilities/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-18 01:47:58] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-05-18 01:47:58] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-05-18 01:47:58] INFO root fetch - processPackages [manifest-ml]: executing diffoscope
+[2023-05-18 01:47:58] INFO root fetch - processPackages [manifest-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifest-ml-0.1.5.tar.gz tmp/manifest-ml-0.1.6.tar.gz --markdown 20230518/m/manifest-ml/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 01:47:58] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/05/b4/11cbca701d52340b84aeea4322634e8765704f796b1106eb8168fb834804/monarch_py-0.8.1.tar.gz
+[2023-05-18 01:47:58] INFO root fetch - processPackages [cybro]: Downloading https://files.pythonhosted.org/packages/8d/d6/5b2a2bba370c73a4146b22fbb74291981380a59434540a47d5aabf6ff8a2/cybro-0.0.8.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [brainlit]: Downloading https://files.pythonhosted.org/packages/26/95/09e3df3c90b95e73669111479733d3a69ad9d017db5f5b1e15bf92a073c5/brainlit-0.3.4.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-18 01:47:59] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230518/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-18 01:47:59] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-05-18 01:47:59] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.8.0.tar.gz tmp/monarch_py-0.8.1.tar.gz --markdown 20230518/m/monarch-py/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-18 01:47:59] INFO root fetch - processPackages [cybro]: Downloading https://files.pythonhosted.org/packages/32/86/ca140ad59b86370b2dfde847b40ace964ef917b9805acfdb78f78a8dc207/cybro-0.0.9.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [brainlit]: Downloading https://files.pythonhosted.org/packages/d2/77/57c9ae2cdea2d43b7dbec84e6538f2c17ff7a212201b9a1d022d2560cb55/brainlit-0.3.5.tar.gz
+[2023-05-18 01:47:59] INFO root fetch - processPackages [cybro]: executing diffoscope
+[2023-05-18 01:47:59] INFO root fetch - processPackages [cybro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybro-0.0.8.tar.gz tmp/cybro-0.0.9.tar.gz --markdown 20230518/c/cybro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 01:47:59] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-05-18 01:47:59] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230518/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 01:47:59] INFO root fetch - processPackages [brainlit]: executing diffoscope
+[2023-05-18 01:47:59] INFO root fetch - processPackages [brainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainlit-0.3.4.tar.gz tmp/brainlit-0.3.5.tar.gz --markdown 20230518/b/brainlit/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-18 01:48:00] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-05-18 01:48:00] INFO root fetch - main [MainThread]: End processing [capabilities]: success
+[2023-05-18 01:48:00] INFO root fetch - main [MainThread]: End processing [manifest-ml]: success
+[2023-05-18 01:48:00] INFO root fetch - main [MainThread]: End processing [cybro]: success
+[2023-05-18 01:48:01] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-05-18 01:48:01] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-18 01:48:01] INFO root fetch - main [MainThread]: End processing [brainlit]: success
+[2023-05-18 01:48:01] INFO root fetch - main [MainThread]: Store serial: [18146887]
