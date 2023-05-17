@@ -837,3 +837,114 @@
 [2023-05-18 01:01:02] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-18 01:01:03] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-18 01:01:03] INFO root fetch - main [MainThread]: Store serial: [18146569]
+[2023-05-18 01:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146569]
+[2023-05-18 01:06:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TreeOrdination
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: browsr
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drtodo
+[2023-05-18 01:06:12] WARNING root fetch - processPackages [TreeOrdination]: Skipping, unable to determine old version
+[2023-05-18 01:06:12] INFO root fetch - processPackages [TreeOrdination]: Start processing: chalkpy
+[2023-05-18 01:06:12] INFO root fetch - main [MainThread]: End processing [TreeOrdination] error
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [drtodo]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [browsr]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230517] Old Version: [0.7.0b20230516]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [chalkpy]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230517] Old Version: [1.5.0.dev20230516]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230517] Old Version: [0.7.0b20230516]
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:12] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:12] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/3f/a5/8f47daabb71fc5aff041dca494b06359d3483a58c88b2956b13cb9acb82d/drtodo-0.5.1.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/bb/48/accb69e8e6a2f3597bbb3ca23223dcf25edd854c91a7180f80033fd94c8b/browsr-1.6.0.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/78/4d/07f10569c439cea2cb99253ebf25f8bb443bf7121c257f1406b9f7fa01ad/tmnt-0.7.0b20230516.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/83/23/a4507fab5d91a6eb16430763e9d2569ca4ef46509f11b9510d4cfa71141c/flwr_nightly-1.5.0.dev20230516.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/bb/28/20ce81d72975050e91d1252922aeed74c83b4265700ac4f8efbf7301dd25/tmnt-cu101-0.7.0b20230516.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/e8/12/7e78d8806aa0b0884db98ce8ca878b71c5e0eb680685f8ccceb566bf887e/chalkpy-2.3.8.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/e4/2f/30a94ae5a6f980720b0b82d5f5da59a0fa19c85422bac40d8b42f0116102/drtodo-0.5.2.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/8d/4d/0b7fc33c453d094e7cfc10e5704099cf4ce983eb8502186cd705adee0454/tmnt-0.7.0b20230517.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [drtodo]: executing diffoscope
+[2023-05-18 01:06:12] INFO root fetch - processPackages [drtodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtodo-0.5.1.tar.gz tmp/drtodo-0.5.2.tar.gz --markdown 20230518/d/drtodo/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 01:06:12] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d2/3d/990559960ca2c5917b10374640777081a15c1dbb5fa571cda46381f8b18d/flwr_nightly-1.5.0.dev20230517.tar.gz
+[2023-05-18 01:06:12] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/eb/22/76ddd730e9912368f6d13f6ad5f403a07f911b10970f19b5ebc8c4a3bb72/tmnt-cu101-0.7.0b20230517.tar.gz
+[2023-05-18 01:06:13] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a5/ad/a8ce58e83b56a876e5ff5f51c1d882034ae70aad8da174db08f5cce169e0/chalkpy-2.3.9.tar.gz
+[2023-05-18 01:06:13] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-18 01:06:13] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230516.tar.gz tmp/flwr_nightly-1.5.0.dev20230517.tar.gz --markdown 20230518/f/flwr-nightly/1.5.0.dev20230516-1.5.0.dev20230517/diff.md --exclude *.pyd
+[2023-05-18 01:06:13] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-18 01:06:13] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230516.tar.gz tmp/tmnt-0.7.0b20230517.tar.gz --markdown 20230518/t/tmnt/0.7.0b20230516-0.7.0b20230517/diff.md --exclude *.pyd
+[2023-05-18 01:06:13] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-18 01:06:13] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230516.tar.gz tmp/tmnt-cu101-0.7.0b20230517.tar.gz --markdown 20230518/t/tmnt-cu101/0.7.0b20230516-0.7.0b20230517/diff.md --exclude *.pyd
+[2023-05-18 01:06:13] INFO root fetch - processPackages [browsr]: Downloading https://files.pythonhosted.org/packages/db/9d/d97f8be045fdc4587290f03c51ea4e2a8d343e21b020d5c853c6b99f7ff5/browsr-1.7.0.tar.gz
+[2023-05-18 01:06:13] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-18 01:06:13] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.3.8.tar.gz tmp/chalkpy-2.3.9.tar.gz --markdown 20230518/c/chalkpy/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:13] INFO root fetch - processPackages [browsr]: executing diffoscope
+[2023-05-18 01:06:13] INFO root fetch - processPackages [browsr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browsr-1.6.0.tar.gz tmp/browsr-1.7.0.tar.gz --markdown 20230518/b/browsr/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-18 01:06:14] INFO root fetch - processPackages [drtodo]: Start processing: autodistill
+[2023-05-18 01:06:14] INFO root fetch - main [MainThread]: End processing [drtodo]: success
+[2023-05-18 01:06:14] INFO root fetch - processPackages [autodistill]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 01:06:14] INFO root fetch - processPackages [tmnt-cu101]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:14] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-18 01:06:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:14] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/86/04/16d235ea88054f70ff997587ebb0d45e5b31928f916c217c59040b5a34df/autodistill-0.0.5.tar.gz
+[2023-05-18 01:06:14] INFO root fetch - processPackages [autodistill]: Downloading https://files.pythonhosted.org/packages/82/4c/a2a00c0377595c3d85a37f18c440f3dc74cf4d6b8859216e9d37abc9830e/autodistill-0.0.6.tar.gz
+[2023-05-18 01:06:15] INFO root fetch - processPackages [autodistill]: executing diffoscope
+[2023-05-18 01:06:15] INFO root fetch - processPackages [autodistill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-0.0.5.tar.gz tmp/autodistill-0.0.6.tar.gz --markdown 20230518/a/autodistill/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 01:06:15] INFO root fetch - processPackages [tmnt]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:15] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-18 01:06:15] INFO root fetch - processPackages [browsr]: Start processing: dcicutils
+[2023-05-18 01:06:15] INFO root fetch - main [MainThread]: End processing [browsr]: success
+[2023-05-18 01:06:15] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:15] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2.2b1] Old Version: [7.4.2.1b9]
+[2023-05-18 01:06:15] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:15] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:15] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-18 01:06:15] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.2.1b9.tar.gz tmp/dcicutils-7.4.2.2b1.tar.gz --markdown 20230518/d/dcicutils/7.4.2.1b9-7.4.2.2b1/diff.md --exclude *.pyd
+[2023-05-18 01:06:16] INFO root fetch - processPackages [flwr-nightly]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:06:16] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-18 01:06:16] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:06:16] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:06:16] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:06:16] INFO root fetch - processPackages [autodistill]: Start processing: certora-cli-alpha-bgreenwald-constant-scratch-soundness
+[2023-05-18 01:06:16] INFO root fetch - main [MainThread]: End processing [autodistill]: success
+[2023-05-18 01:06:16] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: New version: [20230517.22.31.112064] Old Version: [20230517.21.13.491821]
+[2023-05-18 01:06:16] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: Downloading https://files.pythonhosted.org/packages/07/7c/71da5b65798269afed7b66f2f0f0ef2ed9c5d13fbaf44a2456fd4bdf3e57/certora-cli-alpha-bgreenwald-constant-scratch-soundness-20230517.21.13.491821.tar.gz
+[2023-05-18 01:06:16] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: Skipping package: exceeds size limit 38976499>=10485760
+[2023-05-18 01:06:16] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-constant-scratch-soundness]: Start processing: LANDMarkClassifier
+[2023-05-18 01:06:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-constant-scratch-soundness] error
+[2023-05-18 01:06:16] WARNING root fetch - processPackages [LANDMarkClassifier]: Skipping, unable to determine old version
+[2023-05-18 01:06:16] INFO root fetch - processPackages [LANDMarkClassifier]: Start processing: autodistill-yolov8
+[2023-05-18 01:06:16] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier] error
+[2023-05-18 01:06:16] WARNING root fetch - processPackages [autodistill-yolov8]: Skipping, unable to determine old version
+[2023-05-18 01:06:16] INFO root fetch - processPackages [autodistill-yolov8]: Start processing: opvious
+[2023-05-18 01:06:16] INFO root fetch - main [MainThread]: End processing [autodistill-yolov8] error
+[2023-05-18 01:06:16] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-18 01:06:16] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-18 01:06:16] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230518/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 01:06:17] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:18] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-18 01:06:18] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-18 01:06:19] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:19] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:20] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:20] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:21] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:21] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-18 01:06:21] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:06:21] INFO root fetch - main [MainThread]: Store serial: [18146634]
