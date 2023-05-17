@@ -948,3 +948,76 @@
 [2023-05-18 01:06:21] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-18 01:06:21] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-18 01:06:21] INFO root fetch - main [MainThread]: Store serial: [18146634]
+[2023-05-18 01:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146634]
+[2023-05-18 01:11:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finetune-eval-harness
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigator-api
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capabilities
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getfilestats
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapids-singlecell
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splinepy
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-random
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loguru-loki-handler
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-containerregistry
+[2023-05-18 01:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huma-signals
+[2023-05-18 01:11:30] INFO root fetch - processPackages [finetune-eval-harness]: New version: [0.6.8.dev1] Old Version: [0.6.7.dev1]
+[2023-05-18 01:11:30] INFO root fetch - processPackages [capabilities]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-18 01:11:30] WARNING root fetch - processPackages [getfilestats]: Skipping, unable to determine old version
+[2023-05-18 01:11:30] INFO root fetch - processPackages [getfilestats]: Start processing: mawk
+[2023-05-18 01:11:30] INFO root fetch - main [MainThread]: End processing [getfilestats] error
+[2023-05-18 01:11:30] INFO root fetch - processPackages [pulumi-containerregistry]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 01:11:30] INFO root fetch - processPackages [huma-signals]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-18 01:11:30] WARNING root fetch - processPackages [loguru-loki-handler]: Skipping, unable to determine old version
+[2023-05-18 01:11:30] INFO root fetch - processPackages [loguru-loki-handler]: Start processing: aind-segmentation-evaluation
+[2023-05-18 01:11:30] INFO root fetch - main [MainThread]: End processing [loguru-loki-handler] error
+[2023-05-18 01:11:30] INFO root fetch - processPackages [rapids-singlecell]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-18 01:11:30] INFO root fetch - processPackages [splinepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 01:11:30] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-18 01:11:30] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-05-18 01:11:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 01:11:31] INFO root fetch - processPackages [mawk]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 01:11:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230518/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/fe/ba/e44b8e4d790241e448589675bbb3fc2e5abfa9f288ae6d4733f9ec5433db/finetune_eval_harness-0.6.7.dev1.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/14/c9/a1152018841ff4276aa3667b52c2f186e10700d9a66d6375ec9a68bd4da4/huma_signals-0.2.0.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-containerregistry]: Downloading https://files.pythonhosted.org/packages/83/27/7c7f363f29ee936408b1020d38cbf462e9292158c7eae8b72c2c071a1a6c/pulumi_containerregistry-0.0.7.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [capabilities]: Downloading https://files.pythonhosted.org/packages/dc/80/6cd103c583c31cb13f054d9b05b3f456e7b36529f69538bb7487ccc8a8a9/capabilities-0.3.3.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/43/b3/6dda4f55e1d3faa57d98d8c8339b3a8c2e280e12edcb071cf369a6eab3b8/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 01:11:31] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/4e/ec/28803a051050f5848130fe8a34812880f537e9177c18f5625d538b3caaa9/rapids_singlecell-0.6.2.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [splinepy]: Downloading https://files.pythonhosted.org/packages/bb/f9/449dc1918123e036b143d10967e10c2e9cf37b8ea4d1fc2f55c29b53f70c/splinepy-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [mawk]: Downloading https://files.pythonhosted.org/packages/da/2b/47f52997fd1374e349afc3580075de9b182f9607e1c43ad13cb648c90cba/mawk-0.1.2.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-containerregistry]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-containerregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_containerregistry-0.0.6.tar.gz tmp/pulumi_containerregistry-0.0.7.tar.gz --markdown 20230518/p/pulumi-containerregistry/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [capabilities]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [capabilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capabilities-0.3.2.tar.gz tmp/capabilities-0.3.3.tar.gz --markdown 20230518/c/capabilities/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [finetune-eval-harness]: Downloading https://files.pythonhosted.org/packages/75/4d/f3d3b0e9ce84c0047887793c69cb7f67ef554da03ab8d870cae82a0b86e4/finetune_eval_harness-0.6.8.dev1.tar.gz
+[2023-05-18 01:11:31] WARNING root fetch - processPackages [splinepy]: Skipping package: exceeds size limit 12503999>=10485760
+[2023-05-18 01:11:31] INFO root fetch - main [MainThread]: End processing [splinepy] error
+[2023-05-18 01:11:31] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/ec/fd/3a0b637fcb32f59447fe32c6f593f090140a600661d96c7208a015d5bc8a/huma_signals-0.2.1.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/e3/9f/0319aca5912ae3dd7514f7c3a1c18e294c69154da216a1c2816d78b452e1/rapids_singlecell-0.6.3.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [mawk]: Downloading https://files.pythonhosted.org/packages/e4/03/cfbe716dd840ec90ccc774820c15f827c0c87f13fd534b3d06e0c61db3dc/mawk-0.1.3.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-05-18 01:11:31] INFO root fetch - processPackages [finetune-eval-harness]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [finetune-eval-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetune_eval_harness-0.6.7.dev1.tar.gz tmp/finetune_eval_harness-0.6.8.dev1.tar.gz --markdown 20230518/f/finetune-eval-harness/0.6.7.dev1-0.6.8.dev1/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.2.0.tar.gz tmp/huma_signals-0.2.1.tar.gz --markdown 20230518/h/huma-signals/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230518/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [mawk]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [mawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mawk-0.1.2.tar.gz tmp/mawk-0.1.3.tar.gz --markdown 20230518/m/mawk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/e1/98/0334482971a969cfa2dfd38298d37844a48ae8a8052b69f9cfb99fc44292/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 01:11:31] INFO root fetch - processPackages [rapids-singlecell]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [rapids-singlecell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids_singlecell-0.6.2.tar.gz tmp/rapids_singlecell-0.6.3.tar.gz --markdown 20230518/r/rapids-singlecell/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-18 01:11:31] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-05-18 01:11:31] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-18 01:11:32] INFO root fetch - main [MainThread]: End processing [mawk]: success
+[2023-05-18 01:11:32] INFO root fetch - main [MainThread]: End processing [pulumi-containerregistry]: success
+[2023-05-18 01:11:33] INFO root fetch - main [MainThread]: End processing [finetune-eval-harness]: success
+[2023-05-18 01:11:33] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-05-18 01:11:33] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-05-18 01:11:33] INFO root fetch - main [MainThread]: End processing [rapids-singlecell]: success
+[2023-05-18 01:11:33] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-05-18 01:11:35] INFO root fetch - main [MainThread]: End processing [capabilities]: success
+[2023-05-18 01:11:37] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-18 01:11:37] INFO root fetch - main [MainThread]: Store serial: [18146700]
