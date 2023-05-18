@@ -11250,3 +11250,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 10:48:42] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-18 10:48:42] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-05-18 10:48:42] INFO root fetch - main [MainThread]: Store serial: [18151686]
+[2023-05-18 10:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151686]
+[2023-05-18 10:53:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspk
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adv-ml
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlfoundry
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salesea
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PatryksAutoAI
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: encoPy
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stringtokenizer
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dghs-imgutils
+[2023-05-18 10:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-18 10:53:51] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-18 10:53:51] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-18 10:53:51] WARNING root fetch - processPackages [stringtokenizer]: Skipping, unable to determine old version
+[2023-05-18 10:53:51] INFO root fetch - main [MainThread]: End processing [stringtokenizer] error
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-18 10:53:51] WARNING root fetch - processPackages [adv-ml]: Skipping, unable to determine old version
+[2023-05-18 10:53:51] INFO root fetch - main [MainThread]: End processing [adv-ml] error
+[2023-05-18 10:53:51] INFO root fetch - processPackages [pyspk]: New version: [1.3] Old Version: [1.2]
+[2023-05-18 10:53:51] WARNING root fetch - processPackages [encoPy]: Skipping, unable to determine old version
+[2023-05-18 10:53:51] INFO root fetch - main [MainThread]: End processing [encoPy] error
+[2023-05-18 10:53:51] INFO root fetch - processPackages [mlfoundry]: New version: [0.8.0rc3] Old Version: [0.8.0rc2]
+[2023-05-18 10:53:51] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-18 10:53:51] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230518] Old Version: [2.14.0.dev20230517]
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/8e/e7/ce73bba97eb023e8b5278150322001f23d39b315e1a195350133810442f3/PatryksAutoAI-1.1.6.tar.gz
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/8e/e7/ce73bba97eb023e8b5278150322001f23d39b315e1a195350133810442f3/PatryksAutoAI-1.1.6.tar.gz
+[2023-05-18 10:53:51] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/ba/6d/e1283dfc400ad9f9eceacc38e56c49b7614fdb996001ab298678bd394e90/pyspk-1.2.tar.gz
+[2023-05-18 10:53:51] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/e9/96/50303b1cbb476b3b1fc5c8c873a499de24f7df9ec4672e1b4c0185b077f7/dghs-imgutils-0.0.4.tar.gz
+[2023-05-18 10:53:51] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/05/06/4e563f57c31fb763962abfd79ab7d35ad70a17d57ec333868db65f73e882/tf_nightly-2.14.0.dev20230517-cp39-cp39-win_amd64.whl
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.1.5.tar.gz tmp/PatryksAutoAI-1.1.6.tar.gz --markdown 20230518/P/PatryksAutoAI/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 10:53:51] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.1.5.tar.gz tmp/PatryksAutoAI-1.1.6.tar.gz --markdown 20230518/P/PatryksAutoAI/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-18 10:53:51] INFO root fetch - processPackages [pyspk]: Downloading https://files.pythonhosted.org/packages/5a/7f/3b4c6ab139cf3771fcb53c4cdd65e8c36cf86ba024e132aa3a38a0db5929/pyspk-1.3.tar.gz
+[2023-05-18 10:53:52] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/13/b4/69136f0093d099b938f1dcd9551f9ff1db03f2d45e507b366fa8dd7ceb6a/dghs-imgutils-0.1.0.tar.gz
+[2023-05-18 10:53:52] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/fd/61/bc7002a049cd2e07543508dce5354b445401a8f7191864acdc93a276c14e/mlfoundry-0.8.0rc3.tar.gz
+[2023-05-18 10:53:52] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/be/28/37dbb2144222078baac25b1017082bea88524ef017140056c994bffde46a/tf_nightly-2.14.0.dev20230518-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 10:53:52] INFO root fetch - processPackages [pyspk]: executing diffoscope
+[2023-05-18 10:53:52] INFO root fetch - processPackages [pyspk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspk-1.2.tar.gz tmp/pyspk-1.3.tar.gz --markdown 20230518/p/pyspk/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-18 10:53:52] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2023-05-18 10:53:52] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs-imgutils-0.0.4.tar.gz tmp/dghs-imgutils-0.1.0.tar.gz --markdown 20230518/d/dghs-imgutils/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 10:53:52] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-05-18 10:53:52] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.8.0rc2.tar.gz tmp/mlfoundry-0.8.0rc3.tar.gz --markdown 20230518/m/mlfoundry/0.8.0rc2-0.8.0rc3/diff.md --exclude *.pyd
+[2023-05-18 10:53:52] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 529003774>=10485760
+[2023-05-18 10:53:52] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: End processing [pyspk]: success
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 10:53:53] INFO root fetch - main [MainThread]: Store serial: [18151724]
