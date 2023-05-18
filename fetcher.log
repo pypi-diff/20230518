@@ -19757,3 +19757,128 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:59:20] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-18 17:59:36] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-05-18 17:59:36] INFO root fetch - main [MainThread]: Store serial: [18156618]
+[2023-05-18 18:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156618]
+[2023-05-18 18:04:46] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventiq
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hiddifypanel
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sabledocs
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: saleor-social-auth
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datadog-cdk-constructs-v2
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QtModernRedux6
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ucampurestorage
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sspqdd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semisup-segmentation
+[2023-05-18 18:04:46] INFO root fetch - processPackages [eventiq]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 18:04:46] WARNING root fetch - processPackages [QtModernRedux6]: Skipping, unable to determine old version
+[2023-05-18 18:04:46] INFO root fetch - processPackages [QtModernRedux6]: Start processing: diamond-env
+[2023-05-18 18:04:46] INFO root fetch - main [MainThread]: End processing [QtModernRedux6] error
+[2023-05-18 18:04:46] INFO root fetch - processPackages [saleor-social-auth]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sabledocs]: New version: [0.2.138] Old Version: [0.2.134]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sspqdd]: New version: [4310105385] Old Version: [1.0.7]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 18:04:46] WARNING root fetch - processPackages [diamond-env]: Skipping, unable to determine old version
+[2023-05-18 18:04:46] INFO root fetch - processPackages [diamond-env]: Start processing: aind-data-schema
+[2023-05-18 18:04:46] INFO root fetch - main [MainThread]: End processing [diamond-env] error
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ucampurestorage]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev2] Old Version: [7.0.0.dev1]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-18 18:04:46] INFO root fetch - processPackages [eventiq]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [eventiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventiq-0.1.8.tar.gz tmp/eventiq-0.1.9.tar.gz --markdown 20230518/e/eventiq/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230518/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/90/5e/80abfb2d3e67acd2ae30f055e681efd4342e25da46abc248ba612b550c0c/ucampurestorage-1.0.1.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [saleor-social-auth]: Downloading https://files.pythonhosted.org/packages/0e/08/3035205faca90bd5e1871841dd1a85e0ad17c5698c1163064f9425c45986/saleor-social-auth-0.5.0.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/ce/e3/623c3c5ce354c45bad321fe337370d08887b2fb37778799b00938fc0da5e/sabledocs-0.2.138.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: Downloading https://files.pythonhosted.org/packages/3a/91/53d356303a57466318b20b5201e7f90eb4c4e88e293fad00f2032fbcbd36/datadog-cdk-constructs-v2-1.7.1.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/ad/29/48d517ad5e52e648ce50f33801c0e68281db0f7716cc046978f9d271d9cd/hiddifypanel-7.0.0.dev2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/58/91/2f6f49e9a159741b017a035967fbf9deac9221d997ebdbd20940443d0f18/sspqdd-4310105385.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.7.tar.gz tmp/sspqdd-4310105385.tar.gz --markdown 20230518/s/sspqdd/1.0.7-4310105385/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230518/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.2.134.tar.gz tmp/sabledocs-0.2.138.tar.gz --markdown 20230518/s/sabledocs/0.2.134-0.2.138/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-cdk-constructs-v2-1.7.0.tar.gz tmp/datadog-cdk-constructs-v2-1.7.1.tar.gz --markdown 20230518/d/datadog-cdk-constructs-v2/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ucampurestorage]: Downloading https://files.pythonhosted.org/packages/ff/b6/a3449aa4c06b574f3ad36881603cbf282c0600eeb90f2791c52814eb7dfe/ucampurestorage-1.0.2.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230518/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [saleor-social-auth]: Downloading https://files.pythonhosted.org/packages/9d/a9/9c361cf0d5f97d510b6fd368e8e2e57e1ffaed574e62b116b046afdba766/saleor-social-auth-0.6.0.tar.gz
+[2023-05-18 18:04:46] INFO root fetch - processPackages [saleor-social-auth]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [saleor-social-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saleor-social-auth-0.5.0.tar.gz tmp/saleor-social-auth-0.6.0.tar.gz --markdown 20230518/s/saleor-social-auth/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ucampurestorage]: executing diffoscope
+[2023-05-18 18:04:46] INFO root fetch - processPackages [ucampurestorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucampurestorage-1.0.1.tar.gz tmp/ucampurestorage-1.0.2.tar.gz --markdown 20230518/u/ucampurestorage/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 18:04:47] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-18 18:04:47] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230518/h/hiddifypanel/7.0.0.dev1-7.0.0.dev2/diff.md --exclude *.pyd
+[2023-05-18 18:04:48] INFO root fetch - processPackages [sspqdd]: Start processing: ebeer
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-05-18 18:04:48] WARNING root fetch - processPackages [ebeer]: Skipping, unable to determine old version
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ebeer]: Start processing: geotribu
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [ebeer] error
+[2023-05-18 18:04:48] INFO root fetch - processPackages [geotribu]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [semisup-segmentation]: Start processing: u8488a
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-18 18:04:48] INFO root fetch - processPackages [u8488a]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/0c/88/9ed63e5b1ed623ecc1bbe33f1abbe27529df60c105218f58ec8e861e50c3/geotribu-0.9.0.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [leadguru-jobs]: Start processing: ocf-datapipes
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-18 18:04:48] INFO root fetch - processPackages [u8488a]: Downloading https://files.pythonhosted.org/packages/8a/5a/0ce4a09f8e84f443b4879fd9ccb9927dc1dc011e78a40fa3f69f2982a904/u8488a-0.1.1.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [sabledocs]: Start processing: selenium-testing-library
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-05-18 18:04:48] INFO root fetch - processPackages [datadog-cdk-constructs-v2]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [datadog-cdk-constructs-v2]: success
+[2023-05-18 18:04:48] INFO root fetch - processPackages [selenium-testing-library]: New version: [2023.4] Old Version: [2023.3]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [saleor-social-auth]: Start processing: gitinspired-cli
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [saleor-social-auth]: success
+[2023-05-18 18:04:48] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [u8488a]: Downloading https://files.pythonhosted.org/packages/37/dc/a4f863dfc497c94492e1f6e48bbd0a6fe85f165b8914be8a930de8d2eacb/u8488a-0.1.2.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [geotribu]: Downloading https://files.pythonhosted.org/packages/62/b3/c0a91ca5efa5c4c0338fbdec554fce09bf08ac357fd3020e1830d1194bc2/geotribu-0.9.1.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [eventiq]: Start processing: scsd
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [eventiq]: success
+[2023-05-18 18:04:48] WARNING root fetch - processPackages [gitinspired-cli]: Skipping, unable to determine old version
+[2023-05-18 18:04:48] INFO root fetch - processPackages [gitinspired-cli]: Start processing: ultracart-rest-sdk
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [gitinspired-cli] error
+[2023-05-18 18:04:48] INFO root fetch - processPackages [geotribu]: executing diffoscope
+[2023-05-18 18:04:48] INFO root fetch - processPackages [geotribu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geotribu-0.9.0.tar.gz tmp/geotribu-0.9.1.tar.gz --markdown 20230518/g/geotribu/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-18 18:04:48] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/26/88/edfe5896d0082b400108b4413024a4b05e5ffa7236e4022c6c5a810ca328/selenium_testing_library-2023.3.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/0f/1f/836daa1b3b3c73fdbb35440001b9b39c041426cfc900763eccecaaf54ee9/nonebot_plugin_spark_gpt-0.1.9.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [u8488a]: executing diffoscope
+[2023-05-18 18:04:48] INFO root fetch - processPackages [u8488a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u8488a-0.1.1.tar.gz tmp/u8488a-0.1.2.tar.gz --markdown 20230518/u/u8488a/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 18:04:48] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11285005>=10485760
+[2023-05-18 18:04:48] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 18:04:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-05-18 18:04:48] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 18:04:48] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230518/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 18:04:48] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2023-05-18 18:04:49] INFO root fetch - processPackages [selenium-testing-library]: Downloading https://files.pythonhosted.org/packages/8a/e9/ff5963da0d358b4f7de1373e06cc42026e7f69d09235f1c341b8a397f2aa/selenium_testing_library-2023.4.tar.gz
+[2023-05-18 18:04:49] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-05-18 18:04:49] INFO root fetch - processPackages [selenium-testing-library]: executing diffoscope
+[2023-05-18 18:04:49] INFO root fetch - processPackages [selenium-testing-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_testing_library-2023.3.tar.gz tmp/selenium_testing_library-2023.4.tar.gz --markdown 20230518/s/selenium-testing-library/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-05-18 18:04:49] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-05-18 18:04:49] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230518/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 18:04:49] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2023-05-18 18:04:49] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2023-05-18 18:04:49] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20230518/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [u8488a]: success
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [ucampurestorage]: success
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [geotribu]: success
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-18 18:04:50] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-05-18 18:04:51] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-05-18 18:04:53] INFO root fetch - main [MainThread]: End processing [selenium-testing-library]: success
+[2023-05-18 18:04:58] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2023-05-18 18:05:07] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-18 18:05:07] INFO root fetch - main [MainThread]: Store serial: [18156702]
