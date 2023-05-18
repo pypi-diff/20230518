@@ -17323,3 +17323,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:14:57] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2023-05-18 16:15:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-05-18 16:15:11] INFO root fetch - main [MainThread]: Store serial: [18155254]
+[2023-05-18 16:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155254]
+[2023-05-18 16:20:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polyanalyst6api
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argus-alm
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayiin
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-or-cvlSerialization2
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchility
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtlsapi
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnibelt
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chatcli-gpt
+[2023-05-18 16:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jautomate
+[2023-05-18 16:20:20] INFO root fetch - processPackages [chatcli-gpt]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [xtlsapi]: New version: [3.0.1] Old Version: [2.0.0]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [omnibelt]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [jautomate]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [xtlsapi]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [xtlsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlsapi-2.0.0.tar.gz tmp/xtlsapi-3.0.1.tar.gz --markdown 20230518/x/xtlsapi/2.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] WARNING root fetch - processPackages [certora-cli-alpha-or-cvlSerialization2]: Skipping, unable to determine old version
+[2023-05-18 16:20:20] INFO root fetch - processPackages [certora-cli-alpha-or-cvlSerialization2]: Start processing: schema-jobs
+[2023-05-18 16:20:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-cvlSerialization2] error
+[2023-05-18 16:20:20] INFO root fetch - processPackages [pymobiledevice3]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [jautomate]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [jautomate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jautomate-0.0.7.tar.gz tmp/jautomate-0.0.8.tar.gz --markdown 20230518/j/jautomate/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [py-Ayiin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [torchility]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [polyanalyst6api]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [schema-jobs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 16:20:20] INFO root fetch - processPackages [chatcli-gpt]: Downloading https://files.pythonhosted.org/packages/8f/69/6393ffb7c492eecf1160de7ff402c186b83d9f347ee1d81b39dc4e5725e6/chatcli_gpt-0.5.1.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [omnibelt]: Downloading https://files.pythonhosted.org/packages/81/d3/7b7e361083ba797f900623560a55e204022276aafc082f30616fee9e53b2/omnibelt-0.7.4.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [schema-jobs]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [schema-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema_jobs-0.1.2.tar.gz tmp/schema_jobs-0.1.3.tar.gz --markdown 20230518/s/schema-jobs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/59/73/c2c5956194851d28cfdf5684364cf1050096c925e10bbfb9a41ca8afac3a/pymobiledevice3-1.9.8.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/4d/a3/3f25b094093c62caa6e89fbb2d797e6583443d3030f8dfdb18fd11bc9cd0/argus-alm-0.8.0.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/c0/dd/d9fd9b67d3672437074bc56caa6873c4fc8a8fee1fe9dbb46ebca207a701/polyanalyst6api-0.9.1.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [omnibelt]: Downloading https://files.pythonhosted.org/packages/04/3f/7c69bffc58b7ef85cbb685f72fb403f97d2187e8f2c205aa77c6901ddd4b/omnibelt-0.7.5.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/5c/b0/9270bb070d492991b77f1f77b71d5e821559dae3e747812a2f4a811487c0/py-Ayiin-0.3.1.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [chatcli-gpt]: Downloading https://files.pythonhosted.org/packages/9e/3b/5ceae8d2eb56f101c3770c0e7dce1035e17cffd5edc4249637043a36cde9/chatcli_gpt-0.5.2.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.8.tar.gz tmp/torchility-0.6.9.tar.gz --markdown 20230518/t/torchility/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/1a/dc/c1c170d1eca1e7e3e63ff9343c412f6ff3471836fbd77f4fe064161a47b1/pymobiledevice3-1.9.9.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [chatcli-gpt]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [chatcli-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatcli_gpt-0.5.1.tar.gz tmp/chatcli_gpt-0.5.2.tar.gz --markdown 20230518/c/chatcli-gpt/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [polyanalyst6api]: Downloading https://files.pythonhosted.org/packages/30/3e/6a817ee43d40818af50c4e8c49731b99308b3a95e6e5925b01db14a75ad9/polyanalyst6api-0.9.2.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [omnibelt]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [omnibelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibelt-0.7.4.tar.gz tmp/omnibelt-0.7.5.tar.gz --markdown 20230518/o/omnibelt/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [polyanalyst6api]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [polyanalyst6api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyanalyst6api-0.9.1.tar.gz tmp/polyanalyst6api-0.9.2.tar.gz --markdown 20230518/p/polyanalyst6api/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [pymobiledevice3]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [pymobiledevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymobiledevice3-1.9.8.tar.gz tmp/pymobiledevice3-1.9.9.tar.gz --markdown 20230518/p/pymobiledevice3/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.3.0.tar.gz tmp/py-Ayiin-0.3.1.tar.gz --markdown 20230518/p/py-Ayiin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-18 16:20:20] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/f5/52/98ae593640563903d88e0b566dc2965de18d2223faba5652a0d0fbbf748a/argus-alm-0.8.1.tar.gz
+[2023-05-18 16:20:20] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2023-05-18 16:20:20] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20230518/a/argus-alm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-18 16:20:21] INFO root fetch - processPackages [schema-jobs]: Start processing: milankalkenings
+[2023-05-18 16:20:21] INFO root fetch - main [MainThread]: End processing [schema-jobs]: success
+[2023-05-18 16:20:21] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 16:20:21] INFO root fetch - processPackages [jautomate]: Start processing: cwapi3d
+[2023-05-18 16:20:21] INFO root fetch - main [MainThread]: End processing [jautomate]: success
+[2023-05-18 16:20:21] INFO root fetch - processPackages [milankalkenings]: Downloading https://files.pythonhosted.org/packages/c2/55/54ac15aabd4c3111250d257d947bc6ce6131c687bd7140ac1b8ec3807a29/milankalkenings-0.1.8.tar.gz
+[2023-05-18 16:20:22] INFO root fetch - processPackages [cwapi3d]: New version: [2.0.4] Old Version: [2.0.1]
+[2023-05-18 16:20:22] INFO root fetch - processPackages [chatcli-gpt]: Start processing: Shark-sac-Korean-editor
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [chatcli-gpt]: success
+[2023-05-18 16:20:22] WARNING root fetch - processPackages [Shark-sac-Korean-editor]: Skipping, unable to determine old version
+[2023-05-18 16:20:22] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Start processing: zuul
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor] error
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-18 16:20:22] INFO root fetch - processPackages [zuul]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-05-18 16:20:22] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/ef/fe/0918693e337384b35a261fe2a3701e685aaac01e08284cf00a904030fec9/cwapi3d-2.0.1.tar.gz
+[2023-05-18 16:20:22] INFO root fetch - processPackages [milankalkenings]: Downloading https://files.pythonhosted.org/packages/73/38/0f7cadb56388b4c2b6fe5ee41ad59412b10359f048e5526e66e762e6f225/milankalkenings-0.1.9.tar.gz
+[2023-05-18 16:20:22] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-18 16:20:22] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230518/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [polyanalyst6api]: success
+[2023-05-18 16:20:22] INFO root fetch - processPackages [zuul]: Downloading https://files.pythonhosted.org/packages/a8/7b/cfd101c721043829fd76cd4826a18945ed0119cbdf66851f08410d39ab26/zuul-8.3.0.tar.gz
+[2023-05-18 16:20:22] WARNING root fetch - processPackages [zuul]: Skipping package: exceeds size limit 20650072>=10485760
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [zuul] error
+[2023-05-18 16:20:22] INFO root fetch - processPackages [cwapi3d]: Downloading https://files.pythonhosted.org/packages/df/f7/4a60457ad65e044135d6320d866679c4ecf6e4ee6bdaddaa9b6dc2f788f6/cwapi3d-2.0.4.tar.gz
+[2023-05-18 16:20:22] INFO root fetch - processPackages [cwapi3d]: executing diffoscope
+[2023-05-18 16:20:22] INFO root fetch - processPackages [cwapi3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwapi3d-2.0.1.tar.gz tmp/cwapi3d-2.0.4.tar.gz --markdown 20230518/c/cwapi3d/2.0.1-2.0.4/diff.md --exclude *.pyd
+[2023-05-18 16:20:22] INFO root fetch - main [MainThread]: End processing [omnibelt]: success
+[2023-05-18 16:20:23] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2023-05-18 16:20:23] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-18 16:20:23] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-05-18 16:20:23] INFO root fetch - main [MainThread]: End processing [cwapi3d]: success
+[2023-05-18 16:20:24] INFO root fetch - main [MainThread]: End processing [xtlsapi]: success
+[2023-05-18 16:20:25] INFO root fetch - main [MainThread]: End processing [pymobiledevice3]: success
+[2023-05-18 16:20:25] INFO root fetch - main [MainThread]: Store serial: [18155301]
