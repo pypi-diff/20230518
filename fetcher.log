@@ -16727,3 +16727,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:35:58] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230518/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
 [2023-05-18 15:36:09] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
 [2023-05-18 15:36:09] INFO root fetch - main [MainThread]: Store serial: [18154868]
+[2023-05-18 15:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154868]
+[2023-05-18 15:41:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: racetrack-client
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FreeMobileConso
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-05-18 15:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wg-easy-api-wrapper
+[2023-05-18 15:41:19] INFO root fetch - processPackages [wg-easy-api-wrapper]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [FreeMobileConso]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230518/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230518/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/85/2e/f737a253ea83cd3ca8c79109bb1330f9865376dfa16bbe8881ca9d80a3aa/PatryksAutoAI-1.2.4.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [wg-easy-api-wrapper]: Downloading https://files.pythonhosted.org/packages/8f/ac/ec985bc2f290581a23a136484f94d4cf0b452567985942b9688893dd3e7f/wg-easy-api-wrapper-1.0.3.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/6a/23/f8c8def30e4208a896d5bb239306be3b87742dff57cea9423afb7f082b0e/FreeMobileConso-0.1.1.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [wg-easy-api-wrapper]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [wg-easy-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg-easy-api-wrapper-1.0.2.tar.gz tmp/wg-easy-api-wrapper-1.0.3.tar.gz --markdown 20230518/w/wg-easy-api-wrapper/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/38/d4/bad800389931737b55b054189d871265ef78ebee3164ac249e8d1ea4d4ba/PatryksAutoAI-1.2.5.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.4.tar.gz tmp/PatryksAutoAI-1.2.5.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-18 15:41:19] INFO root fetch - processPackages [FreeMobileConso]: Downloading https://files.pythonhosted.org/packages/cb/16/9d8fc8f0ab27bef982739789d1605111e11d8ff9e16971db96e05cf5440d/FreeMobileConso-0.1.2.tar.gz
+[2023-05-18 15:41:19] INFO root fetch - processPackages [FreeMobileConso]: executing diffoscope
+[2023-05-18 15:41:19] INFO root fetch - processPackages [FreeMobileConso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeMobileConso-0.1.1.tar.gz tmp/FreeMobileConso-0.1.2.tar.gz --markdown 20230518/F/FreeMobileConso/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 15:41:20] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-05-18 15:41:20] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-05-18 15:41:20] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230518/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-18 15:41:20] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: asimov-gwdata
+[2023-05-18 15:41:20] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-18 15:41:20] INFO root fetch - processPackages [asimov-gwdata]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 15:41:21] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: pytest-sqlalchemy-session
+[2023-05-18 15:41:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-18 15:41:21] INFO root fetch - processPackages [wg-easy-api-wrapper]: Start processing: socialmediaborders
+[2023-05-18 15:41:21] INFO root fetch - main [MainThread]: End processing [wg-easy-api-wrapper]: success
+[2023-05-18 15:41:21] INFO root fetch - processPackages [socialmediaborders]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 15:41:21] INFO root fetch - processPackages [asimov-gwdata]: executing diffoscope
+[2023-05-18 15:41:21] INFO root fetch - processPackages [asimov-gwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-gwdata-0.1.4.tar.gz tmp/asimov-gwdata-0.1.5.tar.gz --markdown 20230518/a/asimov-gwdata/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 15:41:21] INFO root fetch - processPackages [pytest-sqlalchemy-session]: New version: [0.3.2b1] Old Version: [0.3.1b1]
+[2023-05-18 15:41:21] INFO root fetch - processPackages [assemblyline-ui]: Start processing: brother-printer-fwupd
+[2023-05-18 15:41:21] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-18 15:41:21] INFO root fetch - processPackages [brother-printer-fwupd]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-18 15:41:21] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/9c/bb/dc5e25762d15bd485e1871edd34ac45ae9e5890858a239980e529045940a/pytest-sqlalchemy-session-0.3.1b1.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - processPackages [socialmediaborders]: Downloading https://files.pythonhosted.org/packages/b8/23/9fd6f52e15c234f36e0d2bdd71bd773d658135a7dc64ecbf54bb88b99740/socialmediaborders-0.0.1.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - main [MainThread]: End processing [FreeMobileConso]: success
+[2023-05-18 15:41:21] INFO root fetch - processPackages [brother-printer-fwupd]: Downloading https://files.pythonhosted.org/packages/9d/fd/0da76210a40643f91c65f9b7920826dba8e509b6221e0638e7149a0e2ed3/brother_printer_fwupd-0.4.2.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 15:41:21] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/ec/f4/2db74d0f0d83e1042eb56caa5088656c2ea546dcf86abcf550fe384847b5/pytest-sqlalchemy-session-0.3.2b1.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - processPackages [socialmediaborders]: Downloading https://files.pythonhosted.org/packages/79/4c/2b51ef7a43d54d8d1e43941f94003630185ef70cfb1f71a9bd0ede5ff7d8/socialmediaborders-0.0.2.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - processPackages [brother-printer-fwupd]: Downloading https://files.pythonhosted.org/packages/bb/0a/74564e52ed3c07d321ecfd4c1e05790a2999b71f2f1e284bce187a81122f/brother_printer_fwupd-0.5.0.tar.gz
+[2023-05-18 15:41:21] INFO root fetch - processPackages [pytest-sqlalchemy-session]: executing diffoscope
+[2023-05-18 15:41:21] INFO root fetch - processPackages [pytest-sqlalchemy-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sqlalchemy-session-0.3.1b1.tar.gz tmp/pytest-sqlalchemy-session-0.3.2b1.tar.gz --markdown 20230518/p/pytest-sqlalchemy-session/0.3.1b1-0.3.2b1/diff.md --exclude *.pyd
+[2023-05-18 15:41:21] INFO root fetch - processPackages [brother-printer-fwupd]: executing diffoscope
+[2023-05-18 15:41:21] INFO root fetch - processPackages [brother-printer-fwupd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brother_printer_fwupd-0.4.2.tar.gz tmp/brother_printer_fwupd-0.5.0.tar.gz --markdown 20230518/b/brother-printer-fwupd/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 15:41:21] INFO root fetch - processPackages [socialmediaborders]: executing diffoscope
+[2023-05-18 15:41:21] INFO root fetch - processPackages [socialmediaborders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialmediaborders-0.0.1.tar.gz tmp/socialmediaborders-0.0.2.tar.gz --markdown 20230518/s/socialmediaborders/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [asimov-gwdata]: success
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-18 15:41:22] INFO root fetch - main [MainThread]: End processing [brother-printer-fwupd]: success
+[2023-05-18 15:41:23] INFO root fetch - main [MainThread]: End processing [socialmediaborders]: success
+[2023-05-18 15:41:24] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-18 15:41:24] INFO root fetch - main [MainThread]: Store serial: [18154909]
