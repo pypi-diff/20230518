@@ -12148,3 +12148,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:41:25] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
 [2023-05-18 11:41:29] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-18 11:41:29] INFO root fetch - main [MainThread]: Store serial: [18152204]
+[2023-05-18 11:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152204]
+[2023-05-18 11:46:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: northgravity
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordview
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuto
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serialization-tool
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TPEduBot
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prose
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rocksdict
+[2023-05-18 11:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: duckingit
+[2023-05-18 11:46:38] INFO root fetch - processPackages [wordview]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [serialization-tool]: New version: [0.5] Old Version: [0.3]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [prose]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [duckingit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.87]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [northgravity]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230518/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [rocksdict]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 11:46:38] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.2.1.tar.gz tmp/wordview-0.2.2.tar.gz --markdown 20230518/w/wordview/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz --markdown 20230518/a/antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [serialization-tool]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [serialization-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialization_tool-0.3.tar.gz tmp/serialization_tool-0.5.tar.gz --markdown 20230518/s/serialization-tool/0.3-0.5/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.87.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230518/a/akshare/1.9.87-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [prose]: Downloading https://files.pythonhosted.org/packages/92/3b/07db96a5c792942a48d33d5308a69cfb8b05b2366e7ef3aaaf66c456a72d/prose-3.0.1.tar.gz
+[2023-05-18 11:46:38] INFO root fetch - processPackages [duckingit]: Downloading https://files.pythonhosted.org/packages/c9/47/9f97da31004a6da4ff9d710c932a630a578d44102595b4ca37db5dc7d2a7/duckingit-0.0.6.tar.gz
+[2023-05-18 11:46:38] INFO root fetch - processPackages [northgravity]: Downloading https://files.pythonhosted.org/packages/58/59/8c30ca7bdd65b73a1b17571e35dec1ffee7dd643db6b0aff85cecefaaf65/northgravity-0.1.5.tar.gz
+[2023-05-18 11:46:38] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/01/c2/eeba179cdbdd2715588bed5fac4bd6422da9b03fd039e650655f193b4b33/rocksdict-0.3.8-cp39-none-win_amd64.whl
+[2023-05-18 11:46:38] INFO root fetch - processPackages [prose]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [prose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prose-3.0.0.tar.gz tmp/prose-3.0.1.tar.gz --markdown 20230518/p/prose/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [duckingit]: executing diffoscope
+[2023-05-18 11:46:38] INFO root fetch - processPackages [duckingit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckingit-0.0.5.tar.gz tmp/duckingit-0.0.6.tar.gz --markdown 20230518/d/duckingit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 11:46:38] INFO root fetch - processPackages [northgravity]: Downloading https://files.pythonhosted.org/packages/45/0c/e0ce172990678f9bb919a4c79f7e6a97f0a400d3ff60ddbd2c4b77d51b8d/northgravity-0.1.6.tar.gz
+[2023-05-18 11:46:39] INFO root fetch - processPackages [northgravity]: executing diffoscope
+[2023-05-18 11:46:39] INFO root fetch - processPackages [northgravity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/northgravity-0.1.5.tar.gz tmp/northgravity-0.1.6.tar.gz --markdown 20230518/n/northgravity/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 11:46:39] INFO root fetch - processPackages [rocksdict]: Downloading https://files.pythonhosted.org/packages/e8/d7/7426579e89b1acfb373defdc6de2392d6f433d314f88a11bf83e407ffe44/rocksdict-0.3.9-cp39-none-win_amd64.whl
+[2023-05-18 11:46:39] INFO root fetch - processPackages [rocksdict]: executing diffoscope
+[2023-05-18 11:46:39] INFO root fetch - processPackages [rocksdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocksdict-0.3.8-cp39-none-win_amd64.whl.zip tmp/rocksdict-0.3.9-cp39-none-win_amd64.whl.zip --markdown 20230518/r/rocksdict/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:39] INFO root fetch - processPackages [kuto]: Start processing: KorDigits
+[2023-05-18 11:46:39] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-18 11:46:40] INFO root fetch - processPackages [KorDigits]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 11:46:40] INFO root fetch - processPackages [serialization-tool]: Start processing: certora-cli-alpha-naftali-update-reallife
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [serialization-tool]: success
+[2023-05-18 11:46:40] WARNING root fetch - processPackages [certora-cli-alpha-naftali-update-reallife]: Skipping, unable to determine old version
+[2023-05-18 11:46:40] INFO root fetch - processPackages [certora-cli-alpha-naftali-update-reallife]: Start processing: kuto
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-update-reallife] error
+[2023-05-18 11:46:40] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/75/e3/7d04b90f06932b416ae5b25e31064c8c0e1328bd197e62e00b71792ac019/KorDigits-0.1.1-py3-none-any.whl
+[2023-05-18 11:46:40] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 11:46:40] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 28595234>=10485760
+[2023-05-18 11:46:40] INFO root fetch - processPackages [KorDigits]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-05-18 11:46:40] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230517.14.48.145918] Old Version: [20230517.13.34.354193]
+[2023-05-18 11:46:40] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-18 11:46:40] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230518/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [rocksdict]: success
+[2023-05-18 11:46:40] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/94/fa/7c0030064a7573297e5fe7c9b5498abfc91b55e8f407cdcc09a5acb40626/certora-cli-alpha-rahav-cert-1987_update_regTest-20230517.13.34.354193.tar.gz
+[2023-05-18 11:46:40] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38976339>=10485760
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-18 11:46:40] INFO root fetch - main [MainThread]: End processing [duckingit]: success
+[2023-05-18 11:46:41] INFO root fetch - main [MainThread]: End processing [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: success
+[2023-05-18 11:46:41] INFO root fetch - main [MainThread]: End processing [northgravity]: success
+[2023-05-18 11:46:41] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-18 11:46:41] INFO root fetch - main [MainThread]: End processing [prose]: success
+[2023-05-18 11:46:42] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-05-18 11:46:43] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-18 11:46:44] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:46:44] INFO root fetch - main [MainThread]: Store serial: [18152280]
