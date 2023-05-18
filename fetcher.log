@@ -10973,3 +10973,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 10:32:41] INFO root fetch - main [MainThread]: End processing [codat-common]: success
 [2023-05-18 10:32:43] INFO root fetch - main [MainThread]: End processing [types-wxpython]: success
 [2023-05-18 10:32:43] INFO root fetch - main [MainThread]: Store serial: [18151495]
+[2023-05-18 10:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151495]
+[2023-05-18 10:37:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: propan
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-uri-remove-last-conf-dir
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-pylib
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: physicX
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codat-sync-for-expenses
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-edi-oca
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: great-components
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codat-assess
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyodps
+[2023-05-18 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codat-sync-for-commerce
+[2023-05-18 10:37:53] INFO root fetch - processPackages [physicX]: New version: [0.0.116] Old Version: [0.0.115]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [sql-pylib]: New version: [0.12] Old Version: [0.11]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: New version: [20230518.8.32.911155] Old Version: [20230517.7.54.924559]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-sync-for-expenses]: New version: [0.19.0] Old Version: [0.15.3]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-sync-for-commerce]: New version: [0.9.0] Old Version: [0.16.0]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [great-components]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: New version: [14.0.1.9.2] Old Version: [14.0.1.9.1.dev1]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [propan]: New version: [0.1.1.0] Old Version: [0.1.0.0]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/ec/70/51e769152be37cee9232b0d2daa78a3e33e55b476eb1ccee96c494a0c117/codat-sync-for-commerce-0.16.0.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/34/6f/6aec2fd9823ec3aaeaa716d3da6bd57eb15a4d2b42e376b8c645a16e0dbe/codat-sync-for-expenses-0.15.3.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/22/f2/8bc57401bfa3a116f5e6531dd86cedc3dd2dc512890ae3cf2e0e31d525f8/physicX-0.0.115.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [sql-pylib]: Downloading https://files.pythonhosted.org/packages/4a/f6/382416c999e8a514f452c9ea5738da8bcf990b070343f6caff2274a8c810/sql-pylib-0.12.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/4c/c0/e0aa92b4f4db4b6c58403447fe91041ebe514e0cd7463af8ae2c1f87d2e3/great_components-2.2.1-py3-none-any.whl
+[2023-05-18 10:37:53] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Downloading https://files.pythonhosted.org/packages/e7/a5/1148b4b06d78c91386935416c44f84996ba8ba9a976a085718d71b0cc88a/certora-cli-alpha-uri-remove_last_conf_dir-20230517.7.54.924559.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/5d/5d/ccb02812cf4612cbc83dfcef4407d3a273c4dd18c62d3a4ea911297d49b2/codat-assess-0.5.1.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/b7/3f/72d3d14f5496d5d38dc3395928fbdd244c990388e430f5dad05964f54254/propan-0.1.0.0.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/96/f8/51d5d1bfca5572462b6c5fcfa59e3e25c338f7822e5fbc5ab8b5b137cf8a/pyodps-0.9.3.2.tar.gz
+[2023-05-18 10:37:53] WARNING root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Skipping package: exceeds size limit 38976404>=10485760
+[2023-05-18 10:37:53] INFO root fetch - processPackages [certora-cli-alpha-uri-remove-last-conf-dir]: Start processing: PatryksAutoAI
+[2023-05-18 10:37:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-remove-last-conf-dir] error
+[2023-05-18 10:37:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: executing diffoscope
+[2023-05-18 10:37:53] INFO root fetch - processPackages [odoo14-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_edi_oca-14.0.1.9.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_edi_oca-14.0.1.9.2-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-edi-oca/14.0.1.9.1.dev1-14.0.1.9.2/diff.md --exclude *.pyd
+[2023-05-18 10:37:53] INFO root fetch - processPackages [sql-pylib]: executing diffoscope
+[2023-05-18 10:37:53] INFO root fetch - processPackages [sql-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql-pylib-0.11.tar.gz tmp/sql-pylib-0.12.tar.gz --markdown 20230518/s/sql-pylib/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-18 10:37:53] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-18 10:37:53] INFO root fetch - processPackages [great-components]: executing diffoscope
+[2023-05-18 10:37:53] INFO root fetch - processPackages [great-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_components-2.2.0-py3-none-any.whl.zip tmp/great_components-2.2.1-py3-none-any.whl.zip --markdown 20230518/g/great-components/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-18 10:37:53] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 10:37:53] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.1.3.tar.gz tmp/PatryksAutoAI-1.1.4.tar.gz --markdown 20230518/P/PatryksAutoAI/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-18 10:37:53] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/19/dd/7247678c75ef4cba683e0c7fe7e3d5edbb45ca65892ec047b5b7623bc783/physicX-0.0.116.tar.gz
+[2023-05-18 10:37:53] INFO root fetch - processPackages [codat-sync-for-expenses]: Downloading https://files.pythonhosted.org/packages/92/3b/ccfad210cfa0a089797e27bd18b29215fe9dfe3ac94e83103422d1fb6281/codat-sync-for-expenses-0.19.0.tar.gz
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-sync-for-commerce]: Downloading https://files.pythonhosted.org/packages/00/d0/4f4225a3f91360f9b631b97ec3846d9d0497b91bf7c038bfa8fce2db75ac/codat-sync-for-commerce-0.9.0.tar.gz
+[2023-05-18 10:37:54] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/ac/70/7fd1687c1710858333c5196b6f77747331430c23d6ada2c0a3513251cba1/propan-0.1.1.0.tar.gz
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-sync-for-expenses]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-sync-for-expenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-expenses-0.15.3.tar.gz tmp/codat-sync-for-expenses-0.19.0.tar.gz --markdown 20230518/c/codat-sync-for-expenses/0.15.3-0.19.0/diff.md --exclude *.pyd
+[2023-05-18 10:37:54] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.115.tar.gz tmp/physicX-0.0.116.tar.gz --markdown 20230518/p/physicX/0.0.115-0.0.116/diff.md --exclude *.pyd
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-sync-for-commerce]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-sync-for-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-sync-for-commerce-0.16.0.tar.gz tmp/codat-sync-for-commerce-0.9.0.tar.gz --markdown 20230518/c/codat-sync-for-commerce/0.16.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/f6/02/f5dc6ed7ee14f66ceee9aaed1c91a300250841109670580c9d80a62fdd94/codat-assess-0.9.6.tar.gz
+[2023-05-18 10:37:54] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/23/0b/9df9955a5f80cae59a3727e2047c18f5d22f015f258c30564eb666bdcc9f/pyodps-0.9.5.tar.gz
+[2023-05-18 10:37:54] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.1.0.0.tar.gz tmp/propan-0.1.1.0.tar.gz --markdown 20230518/p/propan/0.1.0.0-0.1.1.0/diff.md --exclude *.pyd
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230518/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 10:37:54] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2023-05-18 10:37:54] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20230518/p/pyodps/0.9.3.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-18 10:37:55] INFO root fetch - processPackages [sql-pylib]: Start processing: codat-files
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [sql-pylib]: success
+[2023-05-18 10:37:55] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-05-18 10:37:55] INFO root fetch - processPackages [physicX]: Start processing: odoo-addon-upgrade-analysis
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-05-18 10:37:55] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/b0/fe/a53b4b765043b4fe93829f81e707b8a4bb74754c9af05dff9090b876395a/codat-files-0.5.1.tar.gz
+[2023-05-18 10:37:55] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2023-05-18 10:37:55] INFO root fetch - processPackages [odoo14-addon-edi-oca]: Start processing: serialization-tool
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-edi-oca]: success
+[2023-05-18 10:37:55] INFO root fetch - processPackages [serialization-tool]: New version: [0.5] Old Version: [0.3]
+[2023-05-18 10:37:55] INFO root fetch - processPackages [codat-sync-for-expenses]: Start processing: SFTB
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses]: success
+[2023-05-18 10:37:55] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/64/ea/0ec8951e2fdafc3ca0e68b49933fa41af06af6584a2e464753e0eaf6c3c1/odoo_addon_upgrade_analysis-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 10:37:55] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/f7/59/40db2426b2418665047a57166d68c373463f3fc2be5dc4b9b82f056e35e5/codat-files-0.8.4.tar.gz
+[2023-05-18 10:37:55] INFO root fetch - processPackages [codat-assess]: Start processing: odoo-addon-hr-expense-operating-unit
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-05-18 10:37:55] WARNING root fetch - processPackages [SFTB]: Skipping, unable to determine old version
+[2023-05-18 10:37:55] INFO root fetch - processPackages [SFTB]: Start processing: SerizalizatorDeserializatorLib
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [SFTB] error
+[2023-05-18 10:37:55] INFO root fetch - processPackages [serialization-tool]: Downloading https://files.pythonhosted.org/packages/9b/35/9e80382f57bdaa6373d3bdaeccd41d30e0ec17286c7ea4080706cc09ffda/serialization_tool-0.3.tar.gz
+[2023-05-18 10:37:55] WARNING root fetch - processPackages [odoo-addon-hr-expense-operating-unit]: Skipping, unable to determine old version
+[2023-05-18 10:37:55] INFO root fetch - processPackages [odoo-addon-hr-expense-operating-unit]: Start processing: Lshengpackage
+[2023-05-18 10:37:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-operating-unit] error
+[2023-05-18 10:37:56] WARNING root fetch - processPackages [SerizalizatorDeserializatorLib]: Skipping, unable to determine old version
+[2023-05-18 10:37:56] INFO root fetch - processPackages [SerizalizatorDeserializatorLib]: Start processing: salesea
+[2023-05-18 10:37:56] INFO root fetch - main [MainThread]: End processing [SerizalizatorDeserializatorLib] error
+[2023-05-18 10:37:56] INFO root fetch - processPackages [Lshengpackage]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-18 10:37:56] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-05-18 10:37:56] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230518/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-05-18 10:37:56] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: Downloading https://files.pythonhosted.org/packages/38/f3/91a3091286687db22ec7b4d1fd4bf15eeee15229229ac0cd8d6c9a8c3142/odoo_addon_upgrade_analysis-16.0.1.0.1-py3-none-any.whl
+[2023-05-18 10:37:56] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-18 10:37:56] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.4.0.tar.gz tmp/Lshengpackage-0.4.1.tar.gz --markdown 20230518/L/Lshengpackage/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-18 10:37:56] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-18 10:37:56] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-18 10:37:56] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 10:37:56] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: executing diffoscope
+[2023-05-18 10:37:56] INFO root fetch - processPackages [odoo-addon-upgrade-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_upgrade_analysis-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_upgrade_analysis-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-upgrade-analysis/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-18 10:37:56] INFO root fetch - processPackages [serialization-tool]: Downloading https://files.pythonhosted.org/packages/ea/1c/3cd078bd0e66dd34f1438175baba10be64c97ac047264e3251da5159f001/serialization_tool-0.5.tar.gz
+[2023-05-18 10:37:56] INFO root fetch - processPackages [serialization-tool]: executing diffoscope
+[2023-05-18 10:37:56] INFO root fetch - processPackages [serialization-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialization_tool-0.3.tar.gz tmp/serialization_tool-0.5.tar.gz --markdown 20230518/s/serialization-tool/0.3-0.5/diff.md --exclude *.pyd
+[2023-05-18 10:37:56] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-18 10:37:57] INFO root fetch - main [MainThread]: End processing [codat-sync-for-commerce]: success
+[2023-05-18 10:37:57] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-05-18 10:37:57] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-18 10:37:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-upgrade-analysis]: success
+[2023-05-18 10:37:57] INFO root fetch - main [MainThread]: End processing [serialization-tool]: success
+[2023-05-18 10:38:01] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2023-05-18 10:38:04] INFO root fetch - main [MainThread]: End processing [great-components]: success
+[2023-05-18 10:38:04] INFO root fetch - main [MainThread]: Store serial: [18151563]
