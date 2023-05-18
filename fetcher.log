@@ -1470,3 +1470,58 @@
 [2023-05-18 01:58:25] INFO root fetch - main [MainThread]: End processing [MetaCHIP]: success
 [2023-05-18 01:58:33] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-05-18 01:58:33] INFO root fetch - main [MainThread]: Store serial: [18146944]
+[2023-05-18 02:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18146944]
+[2023-05-18 02:03:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phymmr-tools
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-billing
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchility
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typer-config
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rottentomatoes-python
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-client-lnx-edge
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EdgeGPT
+[2023-05-18 02:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchdatasets-nightly
+[2023-05-18 02:03:43] INFO root fetch - processPackages [EdgeGPT]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [rottentomatoes-python]: New version: [0.5.2] Old Version: [0.5.17]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [NEMO-billing]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [phymmr-tools]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [api-client-lnx-edge]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [typer-config]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.4.2.tar.gz tmp/EdgeGPT-0.4.3.tar.gz --markdown 20230518/E/EdgeGPT/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchility]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1684368198] Old Version: [1684281810]
+[2023-05-18 02:03:43] INFO root fetch - processPackages [rottentomatoes-python]: Downloading https://files.pythonhosted.org/packages/99/d6/b56ac66748afa17f92378e65a57f86965da6d0aeb7d6bc24759211d9ceae/rottentomatoes-python-0.5.17.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.6.8.tar.gz tmp/torchility-0.6.9.tar.gz --markdown 20230518/t/torchility/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/03/aa/5bb79196d12cf6f1baa2e0443125e1c67e71acbfad4ff28751a4ef9b5097/NEMO_billing-2.2.2-py3-none-any.whl
+[2023-05-18 02:03:43] INFO root fetch - processPackages [api-client-lnx-edge]: Downloading https://files.pythonhosted.org/packages/7d/2f/421a9bb0db43663f811f54b6446bead752f60dff92ccc61165477ab65e87/api-client-lnx-edge-0.3.1.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/9c/37/dfcfbf3f132050974371bf453b427ee56961b839f2d06b8ba328c2602f04/typer_config-0.1.3.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/55/90/735663656e186701f85c294a7c278eba96c98bc42c88d8ec6d95351b3442/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/16/c8/7ef8b83490e0985b074786510f7ab24f5cf160ff66795db2dd339be99d07/torchdatasets-nightly-1684281810.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [rottentomatoes-python]: Downloading https://files.pythonhosted.org/packages/61/e7/4a274d5581e47e1b6cbf86fd4adad1be6da4c61a1ff8bf9f48cb9c08b2b3/rottentomatoes-python-0.5.2.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [rottentomatoes-python]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [rottentomatoes-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rottentomatoes-python-0.5.17.tar.gz tmp/rottentomatoes-python-0.5.2.tar.gz --markdown 20230518/r/rottentomatoes-python/0.5.17-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/90/b4/bad000eb16b9dfe7d63c5e53bb241c0995adef000affa3dcfea357d2ec71/NEMO_billing-2.2.3-py3-none-any.whl
+[2023-05-18 02:03:43] INFO root fetch - processPackages [api-client-lnx-edge]: Downloading https://files.pythonhosted.org/packages/49/48/29a52fbc2521aa0398ee0e7960c6144abf13bd1ba3a6be5e77754e1e617e/api-client-lnx-edge-0.3.2.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/97/67/c60994c4683a02cc84cc99f8c61069a0d83616728db58dbb11a9e78acc5a/typer_config-0.2.0.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/4e/10/09472403f07ee7e455ff42d7a90a9bb423ca21f596ac8f6fe36147430f28/torchdatasets-nightly-1684368198.tar.gz
+[2023-05-18 02:03:43] INFO root fetch - processPackages [phymmr-tools]: Downloading https://files.pythonhosted.org/packages/d6/d0/a4be8cc855a9d60fae4b229f764d31fe38013e4715f3ae799ff6eadefb52/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 02:03:43] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.2.2-py3-none-any.whl.zip tmp/NEMO_billing-2.2.3-py3-none-any.whl.zip --markdown 20230518/N/NEMO-billing/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [api-client-lnx-edge]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [api-client-lnx-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-client-lnx-edge-0.3.1.tar.gz tmp/api-client-lnx-edge-0.3.2.tar.gz --markdown 20230518/a/api-client-lnx-edge/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.1.3.tar.gz tmp/typer_config-0.2.0.tar.gz --markdown 20230518/t/typer-config/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-18 02:03:43] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1684281810.tar.gz tmp/torchdatasets-nightly-1684368198.tar.gz --markdown 20230518/t/torchdatasets-nightly/1684281810-1684368198/diff.md --exclude *.pyd
+[2023-05-18 02:03:43] INFO root fetch - processPackages [phymmr-tools]: executing diffoscope
+[2023-05-18 02:03:44] INFO root fetch - processPackages [phymmr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phymmr_tools-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/phymmr_tools-0.4.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/p/phymmr-tools/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-18 02:03:44] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-18 02:03:44] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-05-18 02:03:44] INFO root fetch - main [MainThread]: End processing [rottentomatoes-python]: success
+[2023-05-18 02:03:45] INFO root fetch - main [MainThread]: End processing [api-client-lnx-edge]: success
+[2023-05-18 02:03:45] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-18 02:03:45] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-18 02:03:45] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-05-18 02:03:57] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
+[2023-05-18 02:03:57] INFO root fetch - main [MainThread]: Store serial: [18146971]
