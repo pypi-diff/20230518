@@ -4868,3 +4868,59 @@
 [2023-05-18 04:12:31] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
 [2023-05-18 04:12:32] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2023-05-18 04:12:32] INFO root fetch - main [MainThread]: Store serial: [18148625]
+[2023-05-18 04:17:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148625]
+[2023-05-18 04:17:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lesscode-py
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyearth
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypura
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synapse
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-editor
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-editor-dev
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: label-studio-sdk
+[2023-05-18 04:17:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jwtools
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [pypura]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [jwtools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [synapse]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [label-studio-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/2b/42/6c38de465e00476e2362b4fc3c523e4a402281ac5c1daa52f2958db77620/automation_editor_dev-0.0.6.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/0c/1a/c450e9be586fe6bc3206affd100452221295bf5461b0267e6021bbc51115/automation_editor-0.0.6.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [jwtools]: Downloading https://files.pythonhosted.org/packages/65/0b/c4451981b38c83ea78c226c84d31fa9ae1eea0ea4633628ae906f51a74e0/jwtools-0.1.1.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [pypura]: Downloading https://files.pythonhosted.org/packages/ba/95/7d6928c3abbbacdf3a55481393289033b9cb861f03368e7f8dd6eb092cc7/pypura-0.1.2.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/a0/16/05b574cbcacea5a4e03b3992f83fa15d65e908bbe429c52c6c618808810e/synapse-2.98.0.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/39/27/6f9018ef70e56dfa28103b5bd86e825b600aff3904d46f64159ace0ba437/label-studio-sdk-0.0.8.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [pypura]: executing diffoscope
+[2023-05-18 04:17:41] INFO root fetch - processPackages [pypura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypura-0.1.1.tar.gz tmp/pypura-0.1.2.tar.gz --markdown 20230518/p/pypura/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/7c/83/6fd870a50a90d7fa4bd020e0c12d06a402d8baacc53ba1c04b243fc87736/automation_editor_dev-0.0.7.tar.gz
+[2023-05-18 04:17:41] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-18 04:17:41] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230518/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-18 04:17:41] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/9e/3f/e92948009294839f83857bd8e18f84ffa21d7e7f76b71737b490f41d4d14/automation_editor-0.0.7.tar.gz
+[2023-05-18 04:17:42] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.6.tar.gz tmp/automation_editor_dev-0.0.7.tar.gz --markdown 20230518/a/automation-editor-dev/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 04:17:42] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.6.tar.gz tmp/automation_editor-0.0.7.tar.gz --markdown 20230518/a/automation-editor/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 04:17:42] INFO root fetch - processPackages [label-studio-sdk]: Downloading https://files.pythonhosted.org/packages/73/63/826dbc4e9c1fc72a4249a511a420bdf0e88bdb5b89b275594649dfbca553/label-studio-sdk-0.0.9.tar.gz
+[2023-05-18 04:17:42] INFO root fetch - processPackages [jwtools]: Downloading https://files.pythonhosted.org/packages/86/e2/462b683dfe818755207028e8e3d4ed8e6631f10ebfdc34f685a02860af88/jwtools-0.1.2.tar.gz
+[2023-05-18 04:17:42] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-05-18 04:17:42] INFO root fetch - processPackages [synapse]: Downloading https://files.pythonhosted.org/packages/6d/c7/9f83caee3522a85b4e4c80a4308801fb6bbbdcd7ba86efd93fd74ee3accf/synapse-2.99.0.tar.gz
+[2023-05-18 04:17:42] INFO root fetch - processPackages [label-studio-sdk]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [label-studio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-sdk-0.0.8.tar.gz tmp/label-studio-sdk-0.0.9.tar.gz --markdown 20230518/l/label-studio-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:17:42] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230518/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 04:17:42] INFO root fetch - processPackages [jwtools]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [jwtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtools-0.1.1.tar.gz tmp/jwtools-0.1.2.tar.gz --markdown 20230518/j/jwtools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 04:17:42] INFO root fetch - processPackages [synapse]: executing diffoscope
+[2023-05-18 04:17:42] INFO root fetch - processPackages [synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse-2.98.0.tar.gz tmp/synapse-2.99.0.tar.gz --markdown 20230518/s/synapse/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [pypura]: success
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [jwtools]: success
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [label-studio-sdk]: success
+[2023-05-18 04:17:43] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-18 04:17:44] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-05-18 04:17:46] INFO root fetch - main [MainThread]: End processing [synapse]: success
+[2023-05-18 04:17:46] INFO root fetch - main [MainThread]: Store serial: [18148651]
