@@ -19882,3 +19882,168 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 18:04:58] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-05-18 18:05:07] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-18 18:05:07] INFO root fetch - main [MainThread]: Store serial: [18156702]
+[2023-05-18 18:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156702]
+[2023-05-18 18:10:17] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tusuan
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-build-tools
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diamond-env
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: injective-py
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtlsapi
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xmos-ai-tools
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyio
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blackduck-c-cpp
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cursesplus
+[2023-05-18 18:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notification-service-nightly
+[2023-05-18 18:10:17] INFO root fetch - processPackages [amazon-braket-build-tools]: New version: [0.2.1] Old Version: [0.2.0.post0]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [tusuan]: New version: [0.0.6.2] Old Version: [0.0.6.1]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [diamond-env]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [xtlsapi]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [cursesplus]: New version: [2.2.0] Old Version: [2.1]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [anyio]: New version: [3.7.0rc1] Old Version: [3.6.2]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [injective-py]: New version: [0.6.2.8] Old Version: [0.6.2.7]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [blackduck-c-cpp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-05-18 18:10:17] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 18:10:17] INFO root fetch - processPackages [xtlsapi]: Downloading https://files.pythonhosted.org/packages/a5/90/6824dbbd1325438bfaf40acd675532a04d0b411753221760cfd66253a50f/xtlsapi-3.0.3.tar.gz
+[2023-05-18 18:10:17] INFO root fetch - processPackages [diamond-env]: Downloading https://files.pythonhosted.org/packages/ae/c8/689f0f7332ab5ba60cb498ef4914e7b41310257a1f1396b0b7dd9515a4eb/diamond_env-1.0.0.tar.gz
+[2023-05-18 18:10:17] INFO root fetch - processPackages [amazon-braket-build-tools]: Downloading https://files.pythonhosted.org/packages/69/9e/bf3c4b00b0ade83d362dd59829ecea6062c44cb9599663388f6d88bd53e6/amazon-braket-build-tools-0.2.0.post0.tar.gz
+[2023-05-18 18:10:17] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-05-18 18:10:17] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: ai-flow-nightly
+[2023-05-18 18:10:17] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-05-18 18:10:18] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/4c/24/17300ac2c69ce0c30fc4081392483550c6e186166b43188993b04d51a5b0/cursesplus-2.2.0.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [anyio]: Downloading https://files.pythonhosted.org/packages/8b/94/6928d4345f2bc1beecbff03325cad43d320717f51ab74ab5a571324f4f5a/anyio-3.6.2.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [blackduck-c-cpp]: Downloading https://files.pythonhosted.org/packages/32/6b/1bf15999997054e560aa32b656cd316b9883f4f074a07ec9b0231f35eb26/blackduck-c-cpp-1.0.8.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 18:10:18] INFO root fetch - processPackages [tusuan]: Downloading https://files.pythonhosted.org/packages/53/4a/759354fd77d4579138f546b8a1232601fb810202bf5fe32f8c5bd0a7a245/tusuan-0.0.6.2.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.1.tar.gz tmp/cursesplus-2.2.0.tar.gz --markdown 20230518/c/cursesplus/2.1-2.2.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [diamond-env]: Downloading https://files.pythonhosted.org/packages/a6/18/6f9bbff0a28fd9f1e4bf4b7286abc9d9fef3bec3996be86845d5a5e15723/diamond_env-1.0.1.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [tusuan]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [tusuan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tusuan-0.0.6.1.tar.gz tmp/tusuan-0.0.6.2.tar.gz --markdown 20230518/t/tusuan/0.0.6.1-0.0.6.2/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [xtlsapi]: Downloading https://files.pythonhosted.org/packages/60/4a/d30444a5e67cb7f7765f5f7f95e12fccc387f5b06e9e53d7ada98a775b80/xtlsapi-3.0.4.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [injective-py]: Downloading https://files.pythonhosted.org/packages/e7/7f/215a541275e67b62329b94014eeb57b256cae9f6d81bbfee6a42efbceaf3/injective-py-0.6.2.8.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [amazon-braket-build-tools]: Downloading https://files.pythonhosted.org/packages/fc/5d/fceb913a19f0e4a61381435390098549c1152bbd7c0b608e9cefe6eb40b5/amazon-braket-build-tools-0.2.1.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [diamond-env]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [diamond-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diamond_env-1.0.0.tar.gz tmp/diamond_env-1.0.1.tar.gz --markdown 20230518/d/diamond-env/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [anyio]: Downloading https://files.pythonhosted.org/packages/6d/42/134e162b413660dd26d2b73e79eacc81847ca44e53d7a22f1eb4321ffcdd/anyio-3.7.0rc1.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [xtlsapi]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [xtlsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlsapi-3.0.3.tar.gz tmp/xtlsapi-3.0.4.tar.gz --markdown 20230518/x/xtlsapi/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [amazon-braket-build-tools]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [amazon-braket-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-build-tools-0.2.0.post0.tar.gz tmp/amazon-braket-build-tools-0.2.1.tar.gz --markdown 20230518/a/amazon-braket-build-tools/0.2.0.post0-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.5.8.tar.gz tmp/notification_service_nightly-2023.5.9.tar.gz --markdown 20230518/n/notification-service-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [injective-py]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [injective-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injective-py-0.6.2.7.tar.gz tmp/injective-py-0.6.2.8.tar.gz --markdown 20230518/i/injective-py/0.6.2.7-0.6.2.8/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [anyio]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [anyio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyio-3.6.2.tar.gz tmp/anyio-3.7.0rc1.tar.gz --markdown 20230518/a/anyio/3.6.2-3.7.0rc1/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.5.8.tar.gz tmp/ai_flow_nightly-2023.5.9.tar.gz --markdown 20230518/a/ai-flow-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:18] INFO root fetch - processPackages [blackduck-c-cpp]: Downloading https://files.pythonhosted.org/packages/f2/70/0ef7535f40488f457f17ca24951cd2699aed348ba1485034695947829567/blackduck-c-cpp-1.0.9.tar.gz
+[2023-05-18 18:10:18] INFO root fetch - processPackages [blackduck-c-cpp]: executing diffoscope
+[2023-05-18 18:10:18] INFO root fetch - processPackages [blackduck-c-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackduck-c-cpp-1.0.8.tar.gz tmp/blackduck-c-cpp-1.0.9.tar.gz --markdown 20230518/b/blackduck-c-cpp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:19] INFO root fetch - processPackages [cursesplus]: Start processing: lhf
+[2023-05-18 18:10:19] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-05-18 18:10:19] INFO root fetch - processPackages [lhf]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-18 18:10:19] INFO root fetch - processPackages [tusuan]: Start processing: cdk-extensions
+[2023-05-18 18:10:19] INFO root fetch - main [MainThread]: End processing [tusuan]: success
+[2023-05-18 18:10:19] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-05-18 18:10:20] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/85/d1/4496118eca6ce441372923a8227bcaf50744df629bebcd022cbe4391eae0/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-18 18:10:20] INFO root fetch - processPackages [diamond-env]: Start processing: grai-source-postgres
+[2023-05-18 18:10:20] INFO root fetch - main [MainThread]: End processing [diamond-env]: success
+[2023-05-18 18:10:20] INFO root fetch - processPackages [grai-source-postgres]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 18:10:20] INFO root fetch - processPackages [amazon-braket-build-tools]: Start processing: witness-etl
+[2023-05-18 18:10:20] INFO root fetch - main [MainThread]: End processing [amazon-braket-build-tools]: success
+[2023-05-18 18:10:20] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/84/dd/f1964b730d9ed3950be6b4816b205794edd5445c8a6c7cd738bf5e27b0bb/cdk-extensions-0.0.68.tar.gz
+[2023-05-18 18:10:20] INFO root fetch - processPackages [witness-etl]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 18:10:20] INFO root fetch - processPackages [blackduck-c-cpp]: Start processing: upgini
+[2023-05-18 18:10:20] INFO root fetch - main [MainThread]: End processing [blackduck-c-cpp]: success
+[2023-05-18 18:10:20] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/75/62/64f924e01357e7f8e6897d660ec5a1bd7c6ac4638e560534fd8da7a42f04/grai_source_postgres-0.1.8.tar.gz
+[2023-05-18 18:10:20] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-18 18:10:20] INFO root fetch - processPackages [witness-etl]: Downloading https://files.pythonhosted.org/packages/23/6c/8a52b1ad538c063d9cee3ba4674198347a5f064d8476543c8a74000b5bc6/witness-etl-0.0.4.tar.gz
+[2023-05-18 18:10:20] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-05-18 18:10:20] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.67.tar.gz tmp/cdk-extensions-0.0.68.tar.gz --markdown 20230518/c/cdk-extensions/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-05-18 18:10:20] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-18 18:10:20] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230518/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-18 18:10:20] INFO root fetch - processPackages [grai-source-postgres]: Downloading https://files.pythonhosted.org/packages/d9/c3/053ad6c134151ee11af50edd6bcdbab63797a2e653695a28458085741337/grai_source_postgres-0.1.9.tar.gz
+[2023-05-18 18:10:20] INFO root fetch - processPackages [witness-etl]: Downloading https://files.pythonhosted.org/packages/23/8b/79ac1abf31e1dc07effd006c9be8f271b52130f84d08684e49d98097aedf/witness-etl-0.0.5.tar.gz
+[2023-05-18 18:10:20] INFO root fetch - processPackages [grai-source-postgres]: executing diffoscope
+[2023-05-18 18:10:20] INFO root fetch - processPackages [grai-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_postgres-0.1.8.tar.gz tmp/grai_source_postgres-0.1.9.tar.gz --markdown 20230518/g/grai-source-postgres/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:20] INFO root fetch - processPackages [lhf]: Downloading https://files.pythonhosted.org/packages/7d/71/92e0690a89e2e59333fae783f6d8fda13911661c6a8b52574101075205ad/lhf-1.3.3-py3-none-manylinux_2_28_x86_64.whl
+[2023-05-18 18:10:20] INFO root fetch - processPackages [witness-etl]: executing diffoscope
+[2023-05-18 18:10:20] INFO root fetch - processPackages [witness-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/witness-etl-0.0.4.tar.gz tmp/witness-etl-0.0.5.tar.gz --markdown 20230518/w/witness-etl/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 18:10:21] INFO root fetch - processPackages [lhf]: executing diffoscope
+[2023-05-18 18:10:21] INFO root fetch - processPackages [lhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lhf-1.3.2-py3-none-manylinux_2_28_x86_64.whl.zip tmp/lhf-1.3.3-py3-none-manylinux_2_28_x86_64.whl.zip --markdown 20230518/l/lhf/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-18 18:10:21] INFO root fetch - processPackages [notification-service-nightly]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 18:10:21] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-18 18:10:21] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 18:10:21] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 18:10:21] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:21] INFO root fetch - processPackages [grai-source-postgres]: Start processing: titiler.core
+[2023-05-18 18:10:21] INFO root fetch - main [MainThread]: End processing [grai-source-postgres]: success
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-18 18:10:22] INFO root fetch - processPackages [ai-flow-nightly]: Start processing: titiler.mosaic
+[2023-05-18 18:10:22] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-18 18:10:22] INFO root fetch - processPackages [upgini]: Start processing: autodistill-grounding-dino
+[2023-05-18 18:10:22] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-18 18:10:22] WARNING root fetch - processPackages [autodistill-grounding-dino]: Skipping, unable to determine old version
+[2023-05-18 18:10:22] INFO root fetch - processPackages [autodistill-grounding-dino]: Start processing: titiler.application
+[2023-05-18 18:10:22] INFO root fetch - main [MainThread]: End processing [autodistill-grounding-dino] error
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/97/2f/6bc1ef0e1aca51ba470d94f5fa32850308c07b110759c632bdf5926bf833/titiler.core-0.8.1.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.mosaic]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.application]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/64/df/78d67b0ef785ad61c4ff27da86f52a14a7051e25b7c2ee4bad40a8555cdf/titiler.mosaic-0.8.1.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/37/09/ee6935b6b91c59a9456045daf3dd1a6225aaa257a1173b717e40411d49af/titiler.core-0.9.0.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.core]: executing diffoscope
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.core-0.8.1.tar.gz tmp/titiler.core-0.9.0.tar.gz --markdown 20230518/t/titiler.core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/a4/45/99b9cf2384c8cef0aafa53f4dd87b1f801b3a9e224de560955bd5d8cc832/titiler.application-0.8.1.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [witness-etl]: Start processing: titiler.extensions
+[2023-05-18 18:10:22] INFO root fetch - main [MainThread]: End processing [witness-etl]: success
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.extensions]: New version: [0.11.7] Old Version: [0.11.6]
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/60/39/308d945c15924ddd98ef46a95ad34562b1215fe14e9fc145f439e29aa195/titiler.mosaic-0.9.0.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.mosaic]: executing diffoscope
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.mosaic-0.8.1.tar.gz tmp/titiler.mosaic-0.9.0.tar.gz --markdown 20230518/t/titiler.mosaic/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/fd/1c/135d8048e6dea392025148fca0d327db1c54246f093d117a48f0dfc45144/titiler.application-0.9.0.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.application]: executing diffoscope
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.application-0.8.1.tar.gz tmp/titiler.application-0.9.0.tar.gz --markdown 20230518/t/titiler.application/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:22] INFO root fetch - processPackages [xtlsapi]: Start processing: titiler
+[2023-05-18 18:10:22] INFO root fetch - main [MainThread]: End processing [xtlsapi]: success
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/99/87/b202ccefa21fc8c82003b965acc93789800c6fa0c9652237612bf129591c/titiler.extensions-0.11.6.tar.gz
+[2023-05-18 18:10:22] INFO root fetch - processPackages [titiler]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/08/1b/c9172fe1c1002fa7d0a48886dbd73876d2b5dcbaa284f81f784a1b191c82/titiler.extensions-0.11.7.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/41/dc/ab9cf7a39b7645d7264863cdbdef3be8ff6b75b35846b2341d6edeb0c0df/titiler-0.8.1.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [cdk-extensions]: Start processing: PVNet
+[2023-05-18 18:10:23] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler.extensions]: executing diffoscope
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.extensions-0.11.6.tar.gz tmp/titiler.extensions-0.11.7.tar.gz --markdown 20230518/t/titiler.extensions/0.11.6-0.11.7/diff.md --exclude *.pyd
+[2023-05-18 18:10:23] INFO root fetch - processPackages [anyio]: Start processing: pygeoapi
+[2023-05-18 18:10:23] INFO root fetch - main [MainThread]: End processing [anyio]: success
+[2023-05-18 18:10:23] INFO root fetch - processPackages [PVNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 18:10:23] INFO root fetch - processPackages [pygeoapi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/2d/a8/789412eeaaecf169bd27c5d17249338b6e372505215d3f4b89588fffd4b2/titiler-0.9.0.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler]: executing diffoscope
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler-0.8.1.tar.gz tmp/titiler-0.9.0.tar.gz --markdown 20230518/t/titiler/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:23] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/3b/54/0abd157d9ca0e1bd9deaa1296cf25406cd85fe1e4ff090c3d004e7b22b6d/PVNet-0.0.8.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [pygeoapi]: Downloading https://files.pythonhosted.org/packages/10/6e/3544ea2369055b2aba2cfa4f1fff50a3d301a63138248af05a0960937d50/pygeoapi-0.8.0.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/ed/6c/ae306ef51fc937145d77865d3c9d3cec6a9c232d5791eaac8a33861472f6/PVNet-0.0.9.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [pygeoapi]: Downloading https://files.pythonhosted.org/packages/87/e4/5c8e38e1dd592be25518b64423ba917155498d476816f927ae80e4f3f4e1/pygeoapi-0.9.0.tar.gz
+[2023-05-18 18:10:23] INFO root fetch - processPackages [pygeoapi]: executing diffoscope
+[2023-05-18 18:10:23] INFO root fetch - processPackages [pygeoapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoapi-0.8.0.tar.gz tmp/pygeoapi-0.9.0.tar.gz --markdown 20230518/p/pygeoapi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:10:23] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-05-18 18:10:23] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-0.0.8.tar.gz tmp/PVNet-0.0.9.tar.gz --markdown 20230518/P/PVNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:23] INFO root fetch - processPackages [titiler.application]: Start processing: milankalkenings
+[2023-05-18 18:10:23] INFO root fetch - main [MainThread]: End processing [titiler.application]: success
+[2023-05-18 18:10:24] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 18:10:24] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-18 18:10:24] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230518/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [titiler.mosaic]: success
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [injective-py]: success
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [titiler.core]: success
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [titiler]: success
+[2023-05-18 18:10:24] INFO root fetch - main [MainThread]: End processing [titiler.extensions]: success
+[2023-05-18 18:10:25] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-05-18 18:10:25] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-18 18:10:25] INFO root fetch - main [MainThread]: End processing [pygeoapi]: success
+[2023-05-18 18:10:52] INFO root fetch - main [MainThread]: End processing [lhf]: success
+[2023-05-18 18:10:52] INFO root fetch - main [MainThread]: Store serial: [18156789]
