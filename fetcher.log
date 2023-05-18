@@ -9407,3 +9407,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:06:35] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-05-18 09:06:40] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-18 09:06:40] INFO root fetch - main [MainThread]: Store serial: [18150498]
+[2023-05-18 09:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150498]
+[2023-05-18 09:11:49] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-alexstolr-treeviewpath-hash
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vim-python-framework
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liteindex
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ec
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-postgresql
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cubetools
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sale-reporting
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vim-python-framework
+[2023-05-18 09:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-nightly
+[2023-05-18 09:11:49] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: New version: [16.0.20230517.0] Old Version: [16.0.20230314.0]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: New version: [20230518.7.6.738699] Old Version: [20230517.5.42.52453]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1684388289] Old Version: [0.5.2a1684215183]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [cubetools]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1684392571] Old Version: [3.9.0a1684216759]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-18 09:11:49] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230518/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:11:49] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/e5/e6/ab0ceaf458e3690e0dc08c64ceb7630a7f3d350788a6ca300ce6479dd87d/vim-python-framework-0.1.8.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/e5/e6/ab0ceaf458e3690e0dc08c64ceb7630a7f3d350788a6ca300ce6479dd87d/vim-python-framework-0.1.8.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/0f/6a/1f191cf7cfb58bb4aba86e9d1ead82c191f604dc70d88bcc9202b2418d04/odoo_addons_oca_sale_reporting-16.0.20230314.0-py3-none-any.whl
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/5c/65/fcf6737825494b2412c27911835b73c218eb0a5364784da4c6a8315d6377/pulumi_postgresql-3.9.0a1684216759.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/f6/55/cd1fd3d9510f8f110a93db1f3e7e3cafa540944b37fe49bf5a6dbbd2e376/pulumi_ec-0.5.2a1684215183.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Downloading https://files.pythonhosted.org/packages/00/65/a888d2ebd67a22d297dbd90313070b5dbf8f286db801b1e449a393f2163e/certora-cli-alpha-alexstolr-treeviewpath_hash-20230517.5.42.52453.tar.gz
+[2023-05-18 09:11:49] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Skipping package: exceeds size limit 38975912>=10485760
+[2023-05-18 09:11:49] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-treeviewpath-hash]: Start processing: odoo8-addon-sale-comment-propagation
+[2023-05-18 09:11:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-treeviewpath-hash] error
+[2023-05-18 09:11:49] INFO root fetch - processPackages [odoo8-addon-sale-comment-propagation]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-05-18 09:11:49] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/5d/16/4eb055037ef5a574ab718e25ff9164a97d37b473da3c03b0e3a3cd2d5a80/cubetools-0.3.6.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/1d/a1/bf479a523170dfd849009eda6386eec74088a3aa74450326fdbdbd3c6889/pulumi_postgresql-3.9.0a1684392571.tar.gz
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-18 09:11:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230518/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/60/54/d507dcd7751b793661ca9f3412efb18bc78de6af3e1e249cbd57b5d5cd76/pulumi_ec-0.5.2a1684388289.tar.gz
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo8-addon-sale-comment-propagation]: Downloading https://files.pythonhosted.org/packages/31/05/dd62416dc3ede1de4bff2029088da065a6d768ea854d0807020dc57388f0/odoo8_addon_sale_comment_propagation-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-18 09:11:50] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.5.tar.gz tmp/cubetools-0.3.6.tar.gz --markdown 20230518/c/cubetools/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230518/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/3a/a9/0ba2de9d7d99c183b62b18e8c7f2f0f67fdb244f9344f77f369915099924/vim-python-framework-0.1.9.tar.gz
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/3a/a9/0ba2de9d7d99c183b62b18e8c7f2f0f67fdb244f9344f77f369915099924/vim-python-framework-0.1.9.tar.gz
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/3f/0e/848e5585e2c99948aef7d31d0ef39ae849389bb997dbee1d97325a525aa4/odoo_addons_oca_sale_reporting-16.0.20230517.0-py3-none-any.whl
+[2023-05-18 09:11:50] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1684216759.tar.gz tmp/pulumi_postgresql-3.9.0a1684392571.tar.gz --markdown 20230518/p/pulumi-postgresql/3.9.0a1684216759-3.9.0a1684392571/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.8.tar.gz tmp/vim-python-framework-0.1.9.tar.gz --markdown 20230518/v/vim-python-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.8.tar.gz tmp/vim-python-framework-0.1.9.tar.gz --markdown 20230518/v/vim-python-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_reporting-16.0.20230314.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_reporting-16.0.20230517.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addons-oca-sale-reporting/16.0.20230314.0-16.0.20230517.0/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1684215183.tar.gz tmp/pulumi_ec-0.5.2a1684388289.tar.gz --markdown 20230518/p/pulumi-ec/0.5.2a1684215183-0.5.2a1684388289/diff.md --exclude *.pyd
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo8-addon-sale-comment-propagation]: Downloading https://files.pythonhosted.org/packages/7a/a9/526679a6237f972e80581fecb7799eb4f2b98e1c7006623b17e74827959a/odoo8_addon_sale_comment_propagation-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo8-addon-sale-comment-propagation]: executing diffoscope
+[2023-05-18 09:11:50] INFO root fetch - processPackages [odoo8-addon-sale-comment-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_comment_propagation-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_sale_comment_propagation-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230518/o/odoo8-addon-sale-comment-propagation/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-18 09:11:51] INFO root fetch - processPackages [liteindex]: Start processing: pulumi-spotinst
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2023-05-18 09:11:51] INFO root fetch - processPackages [cubetools]: Start processing: wzqtestA
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-18 09:11:51] INFO root fetch - processPackages [vim-python-framework]: Start processing: tmasque
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 09:11:51] WARNING root fetch - processPackages [wzqtestA]: Skipping, unable to determine old version
+[2023-05-18 09:11:51] INFO root fetch - processPackages [wzqtestA]: Start processing: pulumi-rke
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [wzqtestA] error
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2023-05-18 09:11:51] WARNING root fetch - processPackages [tmasque]: Skipping, unable to determine old version
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [tmasque] error
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1684391037] Old Version: [3.3.0a1683958167]
+[2023-05-18 09:11:51] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-reporting]: success
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-05-18 09:11:51] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230518/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-05-18 09:11:52] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/e9/8c/fcd62b44b1c32cff81cf1eaaca8ac89db909ced63740b5b50c823c248f6a/pulumi_rke-3.3.0a1683958167.tar.gz
+[2023-05-18 09:11:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-18 09:11:52] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-comment-propagation]: success
+[2023-05-18 09:11:52] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/44/01/7e386c26bce6ac98c2b0c806da44fd84c220ea015e48d09df7bb8355c807/pulumi_rke-3.3.0a1684391037.tar.gz
+[2023-05-18 09:11:52] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-05-18 09:11:52] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1683958167.tar.gz tmp/pulumi_rke-3.3.0a1684391037.tar.gz --markdown 20230518/p/pulumi-rke/3.3.0a1683958167-3.3.0a1684391037/diff.md --exclude *.pyd
+[2023-05-18 09:11:53] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-05-18 09:11:53] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-05-18 09:11:53] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-05-18 09:11:53] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-05-18 09:12:00] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-18 09:12:00] INFO root fetch - main [MainThread]: Store serial: [18150541]
