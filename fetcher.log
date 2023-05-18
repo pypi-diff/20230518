@@ -16973,3 +16973,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:51:59] INFO root fetch - main [MainThread]: End processing [conan-server]: success
 [2023-05-18 15:52:00] INFO root fetch - main [MainThread]: End processing [conan]: success
 [2023-05-18 15:52:00] INFO root fetch - main [MainThread]: Store serial: [18155007]
+[2023-05-18 15:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155007]
+[2023-05-18 15:57:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-sale
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cargo-zigbuild
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mat-enm
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coretex
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-google-native
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dumbo-asp
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brother-printer-fwupd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-heweather
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightgbm-callbacks
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ncls
+[2023-05-18 15:57:10] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [brother-printer-fwupd]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [mat-enm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [lightgbm-callbacks]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: New version: [15.0.2.0.2] Old Version: [15.0.2.0.1.1]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [nonebot-plugin-heweather]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [pulumi-google-native]: New version: [0.9.1a1638807539] Old Version: [0.9.1a1638555770]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ncls]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [cargo-zigbuild]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-05-18 15:57:10] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230518/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230518/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/77/e3/820c729499c8969e1abc57f4fc27d4742a0e251b1f66f1e004ee5e11fbfa/odoo_addon_fieldservice_sale-15.0.2.0.1.1-py3-none-any.whl
+[2023-05-18 15:57:10] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/e5/2a/f266e2974ead5ec8d53a61a625433b1316471bbd608d612efa19a5abceeb/nonebot_plugin_heweather-0.6.5.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [lightgbm-callbacks]: Downloading https://files.pythonhosted.org/packages/1b/b4/c9ec9f752da46cac8555096efabbe4381cfd8268ff0c5540a3274bb80e8b/lightgbm_callbacks-0.1.0.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/5b/8d/7c31261c3144deb91daed49e45423f2e7b1be6cc7c8ee9bc94e9745b4312/mat_enm-0.0.2.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [brother-printer-fwupd]: Downloading https://files.pythonhosted.org/packages/70/3a/088f665fb2cc2f482afb438a8f55c0554d86724dc2417b12908c64248b26/brother_printer_fwupd-0.5.2.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [pulumi-google-native]: Downloading https://files.pythonhosted.org/packages/0c/72/47b8a9051a00eec567138ad74b737d7637105b6c39ca10aa6a3f7e13f4dd/pulumi_google_native-0.9.1a1638555770.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/32/ce/65eccbdc2e10dcf359bfee8ccf7e1522568bcb898a0c3306da22188a93e1/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl
+[2023-05-18 15:57:10] INFO root fetch - processPackages [ncls]: Downloading https://files.pythonhosted.org/packages/7b/d0/51393c90de3d4b5b0245e721c927f7ca04ad23b94a093ad888e4fb72a663/ncls-0.0.8.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [brother-printer-fwupd]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [brother-printer-fwupd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brother_printer_fwupd-0.5.1.tar.gz tmp/brother_printer_fwupd-0.5.2.tar.gz --markdown 20230518/b/brother-printer-fwupd/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/d3/f5/7fc5c83c26178797f36cd032b51fc4a22dc8dc1df10a6aaea7c835d61840/odoo_addon_fieldservice_sale-15.0.2.0.2-py3-none-any.whl
+[2023-05-18 15:57:10] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/34/28/9c9ff478930373a40008026004e7147436518c9600ab09f590bc60218336/nonebot_plugin_heweather-0.6.6.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [lightgbm-callbacks]: Downloading https://files.pythonhosted.org/packages/c3/69/d149a86ee86447374efda7d2fa60c9594ae54931922b5753e271843a3f78/lightgbm_callbacks-0.1.1.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_sale-15.0.2.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_sale-15.0.2.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-fieldservice-sale/15.0.2.0.1.1-15.0.2.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/8e/ba/e59082793c5bb9127d6c2d4f5a69e17dc9de45b0ca32b948f67145f42190/mat_enm-0.0.3.tar.gz
+[2023-05-18 15:57:10] INFO root fetch - processPackages [cargo-zigbuild]: Downloading https://files.pythonhosted.org/packages/e0/c4/785516a9ca5e58d15cb5c210a2aaaf1aa39d58ae869c0a6b3181b4e57115/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl
+[2023-05-18 15:57:10] INFO root fetch - processPackages [lightgbm-callbacks]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [lightgbm-callbacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightgbm_callbacks-0.1.0.tar.gz tmp/lightgbm_callbacks-0.1.1.tar.gz --markdown 20230518/l/lightgbm-callbacks/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 15:57:10] INFO root fetch - processPackages [nonebot-plugin-heweather]: executing diffoscope
+[2023-05-18 15:57:10] INFO root fetch - processPackages [nonebot-plugin-heweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_heweather-0.6.5.tar.gz tmp/nonebot_plugin_heweather-0.6.6.tar.gz --markdown 20230518/n/nonebot-plugin-heweather/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-18 15:57:11] INFO root fetch - processPackages [cargo-zigbuild]: executing diffoscope
+[2023-05-18 15:57:11] INFO root fetch - processPackages [cargo-zigbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_zigbuild-0.8.8-py3-none-win_arm64.whl.zip tmp/cargo_zigbuild-0.9.0-py3-none-win_arm64.whl.zip --markdown 20230518/c/cargo-zigbuild/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 15:57:11] INFO root fetch - processPackages [mat-enm]: executing diffoscope
+[2023-05-18 15:57:11] INFO root fetch - processPackages [mat-enm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_enm-0.0.2.tar.gz tmp/mat_enm-0.0.3.tar.gz --markdown 20230518/m/mat-enm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 15:57:11] INFO root fetch - processPackages [ncls]: Downloading https://files.pythonhosted.org/packages/19/7e/4f28b4e7e251f0aa70d87352cbb233facb0b27c52e730635c644ac63539e/ncls-0.0.9.tar.gz
+[2023-05-18 15:57:11] INFO root fetch - processPackages [ncls]: executing diffoscope
+[2023-05-18 15:57:11] INFO root fetch - processPackages [ncls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncls-0.0.8.tar.gz tmp/ncls-0.0.9.tar.gz --markdown 20230518/n/ncls/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:57:11] INFO root fetch - processPackages [pulumi-google-native]: Downloading https://files.pythonhosted.org/packages/f2/d6/cb957e8b7d3bb746e421ea7b9cf0820cc79c08d353e9e7d7cc9194d01498/pulumi_google_native-0.9.1a1638807539.tar.gz
+[2023-05-18 15:57:11] INFO root fetch - processPackages [dumbo-asp]: Start processing: schema-jobs
+[2023-05-18 15:57:11] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-18 15:57:11] INFO root fetch - processPackages [schema-jobs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 15:57:11] INFO root fetch - processPackages [pulumi-google-native]: executing diffoscope
+[2023-05-18 15:57:11] INFO root fetch - processPackages [pulumi-google-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_google_native-0.9.1a1638555770.tar.gz tmp/pulumi_google_native-0.9.1a1638807539.tar.gz --markdown 20230518/p/pulumi-google-native/0.9.1a1638555770-0.9.1a1638807539/diff.md --exclude *.pyd
+[2023-05-18 15:57:11] INFO root fetch - processPackages [schema-jobs]: Downloading https://files.pythonhosted.org/packages/c0/3a/7b352804286cbac08392cb7ef6c44b6c2fb6f054255e54d7695045054136/schema_jobs-0.1.2.tar.gz
+[2023-05-18 15:57:12] INFO root fetch - processPackages [schema-jobs]: executing diffoscope
+[2023-05-18 15:57:12] INFO root fetch - processPackages [schema-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema_jobs-0.1.1.tar.gz tmp/schema_jobs-0.1.2.tar.gz --markdown 20230518/s/schema-jobs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 15:57:12] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Start processing: json-tricks
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-sale]: success
+[2023-05-18 15:57:12] INFO root fetch - processPackages [json-tricks]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-18 15:57:12] INFO root fetch - processPackages [brother-printer-fwupd]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [brother-printer-fwupd]: success
+[2023-05-18 15:57:12] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230518.9.46.894574] Old Version: [20230518.13.56.201072]
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-heweather]: success
+[2023-05-18 15:57:12] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/c7/60/764a3e5b7ab96d67a596b2bd70d575fe64ecfe4dc81b582cf70719d1c3bf/certora-cli-alpha-rahav-cert-1987_update_regTest-20230518.13.56.201072.tar.gz
+[2023-05-18 15:57:12] INFO root fetch - processPackages [json-tricks]: Downloading https://files.pythonhosted.org/packages/73/3c/865d14eaeda372949e1f2f05e0bbd0f033ddca3e295e99b3043339790a06/json_tricks-3.7.0.tar.gz
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [mat-enm]: success
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [lightgbm-callbacks]: success
+[2023-05-18 15:57:12] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38976320>=10485760
+[2023-05-18 15:57:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-18 15:57:13] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-18 15:57:13] INFO root fetch - processPackages [json-tricks]: Downloading https://files.pythonhosted.org/packages/15/e4/d8e6477e00efda9848f86f3f28df36fd557fa12786016598e9b4dc9a4ff2/json_tricks-3.8.0.tar.gz
+[2023-05-18 15:57:13] INFO root fetch - main [MainThread]: End processing [ncls]: success
+[2023-05-18 15:57:13] INFO root fetch - processPackages [json-tricks]: executing diffoscope
+[2023-05-18 15:57:13] INFO root fetch - processPackages [json-tricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_tricks-3.7.0.tar.gz tmp/json_tricks-3.8.0.tar.gz --markdown 20230518/j/json-tricks/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-18 15:57:13] INFO root fetch - main [MainThread]: End processing [schema-jobs]: success
+[2023-05-18 15:57:14] INFO root fetch - main [MainThread]: End processing [json-tricks]: success
+[2023-05-18 15:57:16] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild]: success
+[2023-05-18 15:58:47] INFO root fetch - main [MainThread]: End processing [pulumi-google-native]: success
+[2023-05-18 15:58:47] INFO root fetch - main [MainThread]: Store serial: [18155088]
