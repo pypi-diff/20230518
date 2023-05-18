@@ -16122,3 +16122,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:02:26] INFO root fetch - main [MainThread]: End processing [piqa]: success
 [2023-05-18 15:02:28] INFO root fetch - main [MainThread]: End processing [protopunica]: success
 [2023-05-18 15:02:28] INFO root fetch - main [MainThread]: Store serial: [18154494]
+[2023-05-18 15:07:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154494]
+[2023-05-18 15:07:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vos-mjjo
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqrack
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arknights-toolkit
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impetuous-gfa
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vkbasalt-cli
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-governance
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiddifypanel
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-pbx-admin
+[2023-05-18 15:07:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-stdlib
+[2023-05-18 15:07:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.17] Old Version: [2023.5.16]
+[2023-05-18 15:07:39] WARNING root fetch - processPackages [vkbasalt-cli]: Skipping, unable to determine old version
+[2023-05-18 15:07:39] INFO root fetch - processPackages [vkbasalt-cli]: Start processing: limnoria
+[2023-05-18 15:07:39] INFO root fetch - main [MainThread]: End processing [vkbasalt-cli] error
+[2023-05-18 15:07:39] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [vos-mjjo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [limnoria]: New version: [2023.4.28] Old Version: [2023.1.28]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [impetuous-gfa]: New version: [0.97.9] Old Version: [0.97.8]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [hiddifypanel]: New version: [7.0.0.dev1] Old Version: [7.0.0.dev0]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/1c/0a/734d5b5b352b88bbbb5a34e0ebb5ef44660aa6a19d0836bda72abd21324c/arknights_toolkit-0.5.7.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-18 15:07:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.16-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.17-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230518/f/fbgemm-gpu-nightly-cpu/2023.5.16-2023.5.17/diff.md --exclude *.pyd
+[2023-05-18 15:07:39] INFO root fetch - processPackages [vos-mjjo]: Downloading https://files.pythonhosted.org/packages/47/83/28cdab049770e970692c5ceb9135f0693a13922ef8b42ab4e0f0638c267d/vos_mjjo-0.0.8.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2023-05-18 15:07:39] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17444141>=10485760
+[2023-05-18 15:07:39] INFO root fetch - processPackages [arknights-toolkit]: Start processing: beansp
+[2023-05-18 15:07:39] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-18 15:07:39] WARNING root fetch - processPackages [beansp]: Skipping, unable to determine old version
+[2023-05-18 15:07:39] INFO root fetch - processPackages [beansp]: Start processing: gpt-code-ui
+[2023-05-18 15:07:39] INFO root fetch - main [MainThread]: End processing [beansp] error
+[2023-05-18 15:07:39] INFO root fetch - processPackages [limnoria]: Downloading https://files.pythonhosted.org/packages/d4/82/1017a2a5335e512900ee8d2c49cbb8315620e88408858985dd881513511f/limnoria-2023.1.28.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-18 15:07:39] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [vos-mjjo]: Downloading https://files.pythonhosted.org/packages/e8/7f/839af847608e70ad155f4f2abd22a1e6c50ac5e221b68beec9ff5670e15a/vos_mjjo-0.0.9.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/e5/ae/6eb77ffe9e53cdde2291508529f6e33ffce9d37e20f4208740b323c28e18/hiddifypanel-7.0.0.dev1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-18 15:07:39] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/1b/16/56dff599afaa6d8111b19339f9a0981a6bd2b74597ef50db0b02d7d6624b/gpt_code_ui-0.42.8.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-18 15:07:39] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230518/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:07:39] INFO root fetch - processPackages [impetuous-gfa]: executing diffoscope
+[2023-05-18 15:07:39] INFO root fetch - processPackages [impetuous-gfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impetuous-gfa-0.97.8.tar.gz tmp/impetuous-gfa-0.97.9.tar.gz --markdown 20230518/i/impetuous-gfa/0.97.8-0.97.9/diff.md --exclude *.pyd
+[2023-05-18 15:07:39] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-18 15:07:39] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230518/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-18 15:07:39] INFO root fetch - processPackages [limnoria]: Downloading https://files.pythonhosted.org/packages/c2/81/f9fb8ad00bc2862643f833535143712321403af29ebadf41acde6a1e335f/limnoria-2023.4.28.tar.gz
+[2023-05-18 15:07:39] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-05-18 15:07:40] INFO root fetch - processPackages [vos-mjjo]: executing diffoscope
+[2023-05-18 15:07:40] INFO root fetch - processPackages [vos-mjjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vos_mjjo-0.0.8.tar.gz tmp/vos_mjjo-0.0.9.tar.gz --markdown 20230518/v/vos-mjjo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:07:40] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-18 15:07:40] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230518/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-18 15:07:40] INFO root fetch - processPackages [limnoria]: executing diffoscope
+[2023-05-18 15:07:40] INFO root fetch - processPackages [limnoria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limnoria-2023.1.28.tar.gz tmp/limnoria-2023.4.28.tar.gz --markdown 20230518/l/limnoria/2023.1.28-2023.4.28/diff.md --exclude *.pyd
+[2023-05-18 15:07:40] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/15/cb/776d616d575589143b3d91acbd1d7e649055f85a8e1cd2c321c0514c1cfa/gpt_code_ui-0.42.9.tar.gz
+[2023-05-18 15:07:40] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 15:07:40] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-18 15:07:40] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-18 15:07:40] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.0.0.dev0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.0.0.dev1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230518/h/hiddifypanel/7.0.0.dev0-7.0.0.dev1/diff.md --exclude *.pyd
+[2023-05-18 15:07:41] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: autumn8
+[2023-05-18 15:07:41] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-18 15:07:41] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2023-05-18 15:07:41] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc9] Old Version: [1.0.5rc8]
+[2023-05-18 15:07:41] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/3a/4b/7d929745b9e94f63ee6582d46f0d18ff3318ec5deba457705944be6e7d7b/autumn8-1.0.5rc8.tar.gz
+[2023-05-18 15:07:41] INFO root fetch - processPackages [pyqrack]: Start processing: talondoc
+[2023-05-18 15:07:41] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-18 15:07:41] INFO root fetch - processPackages [talondoc]: New version: [0.5.1] Old Version: [0.1.1]
+[2023-05-18 15:07:41] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/8d/7f/232095004c3ba98bf96a61dbede706dbdaf0f4d05867f7ccfc15e9b0b148/autumn8-1.0.5rc9.tar.gz
+[2023-05-18 15:07:41] INFO root fetch - processPackages [talondoc]: Downloading https://files.pythonhosted.org/packages/72/31/1bc9ee8a75bd17068e803892535b39a386987c8010bb323d968afc058e97/talondoc-0.1.1.tar.gz
+[2023-05-18 15:07:41] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-18 15:07:41] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc8.tar.gz tmp/autumn8-1.0.5rc9.tar.gz --markdown 20230518/a/autumn8/1.0.5rc8-1.0.5rc9/diff.md --exclude *.pyd
+[2023-05-18 15:07:42] INFO root fetch - processPackages [talondoc]: Downloading https://files.pythonhosted.org/packages/33/76/9638e9460090446c49659099a8e75ceab878997fe34e94a2f8d4105c3b70/talondoc-0.5.1.tar.gz
+[2023-05-18 15:07:42] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 15:07:42] INFO root fetch - processPackages [talondoc]: executing diffoscope
+[2023-05-18 15:07:42] INFO root fetch - processPackages [talondoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talondoc-0.1.1.tar.gz tmp/talondoc-0.5.1.tar.gz --markdown 20230518/t/talondoc/0.1.1-0.5.1/diff.md --exclude *.pyd
+[2023-05-18 15:07:42] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-05-18 15:07:42] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230518/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 15:07:42] INFO root fetch - main [MainThread]: End processing [impetuous-gfa]: success
+[2023-05-18 15:07:43] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-18 15:07:43] INFO root fetch - main [MainThread]: End processing [talondoc]: success
+[2023-05-18 15:07:44] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-18 15:07:46] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-05-18 15:07:47] INFO root fetch - main [MainThread]: End processing [limnoria]: success
+[2023-05-18 15:07:51] INFO root fetch - main [MainThread]: End processing [vos-mjjo]: success
+[2023-05-18 15:07:58] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-18 15:08:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-18 15:08:31] INFO root fetch - main [MainThread]: Store serial: [18154551]
