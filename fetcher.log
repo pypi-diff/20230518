@@ -17059,3 +17059,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:57:16] INFO root fetch - main [MainThread]: End processing [cargo-zigbuild]: success
 [2023-05-18 15:58:47] INFO root fetch - main [MainThread]: End processing [pulumi-google-native]: success
 [2023-05-18 15:58:47] INFO root fetch - main [MainThread]: Store serial: [18155088]
+[2023-05-18 16:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155088]
+[2023-05-18 16:04:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Shark-sac-Korean-editor
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slixmpp-omemo
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dearwatson
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nista-library
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hzSuperMath
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: celerity
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrinnaitouch
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secmarker
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-data
+[2023-05-18 16:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simpervisor
+[2023-05-18 16:04:00] WARNING root fetch - processPackages [Shark-sac-Korean-editor]: Skipping, unable to determine old version
+[2023-05-18 16:04:00] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Start processing: leadguru-common
+[2023-05-18 16:04:00] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor] error
+[2023-05-18 16:04:00] INFO root fetch - processPackages [slixmpp-omemo]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [secmarker]: New version: [1.0.0] Old Version: [0.4.1]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [nista-library]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [pyrinnaitouch]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [dearwatson]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-18 16:04:00] WARNING root fetch - processPackages [hzSuperMath]: Skipping, unable to determine old version
+[2023-05-18 16:04:00] INFO root fetch - processPackages [hzSuperMath]: Start processing: mat-enm
+[2023-05-18 16:04:00] INFO root fetch - main [MainThread]: End processing [hzSuperMath] error
+[2023-05-18 16:04:00] INFO root fetch - processPackages [simpervisor]: New version: [1.0.0] Old Version: [0.4]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [mat-enm]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 16:04:00] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-18 16:04:00] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230518/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [slixmpp-omemo]: Downloading https://files.pythonhosted.org/packages/e2/c4/9867414e0a12ae6ee699319d69ba631636dc804ee6f9f5895bd64822328c/slixmpp-omemo-0.9.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/28/4c/fe4a42949c9c6a34adde5cedce755c8c33e2a02c26cecc2a119e6e0ab0f8/mat_enm-0.0.4.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [pyrinnaitouch]: Downloading https://files.pythonhosted.org/packages/01/11/14a8f2ea5e7aa8423c0c4f37cbcef772f162f8ecc8dfbeecba857ec3539c/pyrinnaitouch-0.9.2.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [secmarker]: Downloading https://files.pythonhosted.org/packages/07/23/e60ef2c3226a976a22f75e5c8f8eb85b8614b8f04769f5ea7a597f3b4a05/secmarker-0.4.1.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/9f/75/bfeb2cf033e308695f386845f060f7beb262bafd9232924a6b2eaf576f36/dearwatson-0.7.3.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [simpervisor]: Downloading https://files.pythonhosted.org/packages/3f/c9/d9aacb8e02b6d939aa78729a4bded2236c7374b66b2b2002e40ee37723a7/simpervisor-0.4.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [mat-enm]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [mat-enm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_enm-0.0.3.tar.gz tmp/mat_enm-0.0.4.tar.gz --markdown 20230518/m/mat-enm/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/87/ae/9090b41b2ab1326fc95ce25ba1228984e990c9085153e0fd0189cd8f5d8d/nista_library-4.0.2.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [nista-library]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [nista-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nista_library-4.0.1.tar.gz tmp/nista_library-4.0.2.tar.gz --markdown 20230518/n/nista-library/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [slixmpp-omemo]: Downloading https://files.pythonhosted.org/packages/f6/23/68e6c316e4b5d6646a9326bc301615b8da64af7ca99677d5fbba35077387/slixmpp-omemo-0.9.1.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [slixmpp-omemo]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [slixmpp-omemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slixmpp-omemo-0.9.0.tar.gz tmp/slixmpp-omemo-0.9.1.tar.gz --markdown 20230518/s/slixmpp-omemo/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [secmarker]: Downloading https://files.pythonhosted.org/packages/fd/53/85e16fc8cbd23eb1d00bcf3532d6741a88ee07a999dd2b1739d3a8c69868/secmarker-1.0.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [simpervisor]: Downloading https://files.pythonhosted.org/packages/dd/fc/9182a4049036c5de29f84a16c5a33304ffc4dbb06d76d569ded8ad527574/simpervisor-1.0.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [pyrinnaitouch]: Downloading https://files.pythonhosted.org/packages/19/bd/10ff0a49a8203bc938ed3823b8a76d09ef44fe1b37adb1f627253a335287/pyrinnaitouch-0.9.3.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [secmarker]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [secmarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secmarker-0.4.1.tar.gz tmp/secmarker-1.0.0.tar.gz --markdown 20230518/s/secmarker/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [simpervisor]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [simpervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpervisor-0.4.tar.gz tmp/simpervisor-1.0.0.tar.gz --markdown 20230518/s/simpervisor/0.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [pyrinnaitouch]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [pyrinnaitouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrinnaitouch-0.9.2.tar.gz tmp/pyrinnaitouch-0.9.3.tar.gz --markdown 20230518/p/pyrinnaitouch/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/20/94/970a2daa72ec4ef3d9debacd9f9d0e77ec7b0a70d3f8a764e0198bcda5d3/dearwatson-0.7.4.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.7.3.tar.gz tmp/dearwatson-0.7.4.tar.gz --markdown 20230518/d/dearwatson/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230518/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-18 16:04:01] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230518/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 16:04:02] INFO root fetch - processPackages [mat-enm]: Start processing: vcml
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [mat-enm]: success
+[2023-05-18 16:04:02] WARNING root fetch - processPackages [vcml]: Skipping, unable to determine old version
+[2023-05-18 16:04:02] INFO root fetch - processPackages [vcml]: Start processing: cai-causal-discovery
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [vcml] error
+[2023-05-18 16:04:02] WARNING root fetch - processPackages [cai-causal-discovery]: Skipping, unable to determine old version
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [cai-causal-discovery] error
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [slixmpp-omemo]: success
+[2023-05-18 16:04:02] INFO root fetch - main [MainThread]: End processing [secmarker]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [simpervisor]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [nista-library]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [pyrinnaitouch]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-18 16:04:03] INFO root fetch - main [MainThread]: Store serial: [18155144]
