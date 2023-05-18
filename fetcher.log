@@ -8837,3 +8837,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:39:33] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-18 08:39:38] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2023-05-18 08:39:38] INFO root fetch - main [MainThread]: Store serial: [18150282]
+[2023-05-18 08:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150282]
+[2023-05-18 08:44:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-openstack
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apnews
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binance-futures-connector
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-identity
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-role
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lcbuilder
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-project-role
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flask-leaflet
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubetools
+[2023-05-18 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-rabbitmq
+[2023-05-18 08:44:47] WARNING root fetch - processPackages [apnews]: Skipping, unable to determine old version
+[2023-05-18 08:44:47] INFO root fetch - processPackages [apnews]: Start processing: pulumi-slack
+[2023-05-18 08:44:47] INFO root fetch - main [MainThread]: End processing [apnews] error
+[2023-05-18 08:44:47] INFO root fetch - processPackages [binance-futures-connector]: New version: [4.0.0rc1] Old Version: [3.3.1]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [cubetools]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1684390601] Old Version: [0.4.3a1684217528]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [flask-leaflet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1684390361] Old Version: [3.4.0a1684217087]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [lcbuilder]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230518/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-05-18 08:44:47] INFO root fetch - processPackages [flask-leaflet]: Downloading https://files.pythonhosted.org/packages/0c/64/a090cab570c3be5ca97402092253865bbe5d0d29cd12d64c6de881fdfee9/flask_leaflet-0.1.0.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/a7/19/604807b09f4bf34db6694de52f60cc001cca67ec585b2d214b51ee1f4d3c/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/a7/19/604807b09f4bf34db6694de52f60cc001cca67ec585b2d214b51ee1f4d3c/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/f4/af/2903d966cfc94cfecdbabfe36f01c70d257c21545c3794b920905a26f055/pulumi_slack-0.4.3a1684217528.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/d5/21/2e3a490ce2b2015e1dbb53e9ae0c15b2ab396c4a8a92b2bef41e1f363c4a/cubetools-0.3.5.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [binance-futures-connector]: Downloading https://files.pythonhosted.org/packages/a2/b6/5b22b1534be8373f2af881474ef95de349c29bd0d2b18e16cd86defa3f73/binance-futures-connector-3.3.1.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [lcbuilder]: Downloading https://files.pythonhosted.org/packages/f4/7f/fe7e2a3a797ae2569375c4260501908dc35c2a523d3e7f89eb1769068c3a/lcbuilder-0.9.8.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/60/aa/ad6f2d637740b2091883707db26053c4633dec76ccabc1af7b0ea0753106/spaceone_identity-1.9.7rc1-py3-none-any.whl
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/1e/86/167169f201766917695c701158d3686f9fb08becbf6a3a1d91317c12c058/pulumi_rabbitmq-3.4.0a1684217087.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-18 08:44:47] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.3.tar.gz tmp/cubetools-0.3.5.tar.gz --markdown 20230518/c/cubetools/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-18 08:44:47] INFO root fetch - processPackages [flask-leaflet]: Downloading https://files.pythonhosted.org/packages/d1/5d/47c6eb58b0a76c7ac4efb49d0c7fa827f3ca2f178252c8d8f10b02cf97e2/flask_leaflet-0.1.1.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/a4/6d/381216e44d550cea1259622c8b4ec85697cdb40076fa9d43102494e259c7/pulumi_slack-0.4.3a1684390601.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/6a/aa/35470178960f56cd4517ff55e3c33463a521e6cf5413c78c6f59f5b908a7/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:44:47] INFO root fetch - processPackages [odoo-addon-project-role]: Downloading https://files.pythonhosted.org/packages/6a/aa/35470178960f56cd4517ff55e3c33463a521e6cf5413c78c6f59f5b908a7/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:44:47] INFO root fetch - processPackages [flask-leaflet]: executing diffoscope
+[2023-05-18 08:44:47] INFO root fetch - processPackages [flask-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_leaflet-0.1.0.tar.gz tmp/flask_leaflet-0.1.1.tar.gz --markdown 20230518/f/flask-leaflet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/e4/da/e69cd998a2fd56b9ddabe371f1d421be4e699ec2ea2805bacc890fbd5ac9/pulumi_rabbitmq-3.4.0a1684390361.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [binance-futures-connector]: Downloading https://files.pythonhosted.org/packages/f9/dd/08149e9bf0be92fcc68dfa9b08c09f7025143caa8895ef4856ab818b1089/binance-futures-connector-4.0.0rc1.tar.gz
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-05-18 08:44:47] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1684217528.tar.gz tmp/pulumi_slack-0.4.3a1684390601.tar.gz --markdown 20230518/p/pulumi-slack/0.4.3a1684217528-0.4.3a1684390601/diff.md --exclude *.pyd
+[2023-05-18 08:44:47] INFO root fetch - processPackages [lcbuilder]: Downloading https://files.pythonhosted.org/packages/31/8f/6990e76cc8de8a1377d1e6653c8950226902239559275c6b11838d5cb379/lcbuilder-0.9.9.tar.gz
+[2023-05-18 08:44:48] INFO root fetch - processPackages [binance-futures-connector]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [binance-futures-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-futures-connector-3.3.1.tar.gz tmp/binance-futures-connector-4.0.0rc1.tar.gz --markdown 20230518/b/binance-futures-connector/3.3.1-4.0.0rc1/diff.md --exclude *.pyd
+[2023-05-18 08:44:48] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/50/45/8e8840de775e39139fb06889be9ab1840dd86ff941971f3ceaa2e62488c0/spaceone_identity-1.9.7rc2-py3-none-any.whl
+[2023-05-18 08:44:48] INFO root fetch - processPackages [odoo-addon-project-role]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [odoo-addon-project-role]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [odoo-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-project-role/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:44:48] INFO root fetch - processPackages [odoo-addon-project-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_role-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_project_role-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-project-role/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:44:48] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1684217087.tar.gz tmp/pulumi_rabbitmq-3.4.0a1684390361.tar.gz --markdown 20230518/p/pulumi-rabbitmq/3.4.0a1684217087-3.4.0a1684390361/diff.md --exclude *.pyd
+[2023-05-18 08:44:48] INFO root fetch - processPackages [lcbuilder]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [lcbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcbuilder-0.9.8.tar.gz tmp/lcbuilder-0.9.9.tar.gz --markdown 20230518/l/lcbuilder/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 08:44:48] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-05-18 08:44:48] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230518/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-05-18 08:44:49] INFO root fetch - processPackages [cubetools]: Start processing: odoo10-addon-purchase-landed-cost
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-18 08:44:49] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: New version: [10.0.2.0.0.99.dev9] Old Version: [10.0.2.0.0.99.dev8]
+[2023-05-18 08:44:49] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/3d/70/5d05e8ab7da8ed2255a917efaa6d108da43ec6aecac94121e2ecbb3792f6/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-05-18 08:44:49] INFO root fetch - processPackages [flask-leaflet]: Start processing: fasttreeshap
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [flask-leaflet]: success
+[2023-05-18 08:44:49] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/c9/c0/56f0571940d31c8c570e04ca04cbac58449c9a4c035568e003d635aa2806/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-05-18 08:44:49] INFO root fetch - processPackages [fasttreeshap]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 08:44:49] INFO root fetch - processPackages [pulumi-slack]: Start processing: pycelium
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-05-18 08:44:49] INFO root fetch - processPackages [pycelium]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [binance-futures-connector]: success
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
+[2023-05-18 08:44:49] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 08:44:49] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.4.tar.gz tmp/pycelium-0.1.5.tar.gz --markdown 20230518/p/pycelium/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 08:44:49] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/4d/33/032fbad4bec7900787b2be6974d5bb4360c02020835605d2b922c0256786/fasttreeshap-0.1.3.tar.gz
+[2023-05-18 08:44:49] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: executing diffoscope
+[2023-05-18 08:44:49] INFO root fetch - processPackages [odoo10-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_purchase_landed_cost-10.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230518/o/odoo10-addon-purchase-landed-cost/10.0.2.0.0.99.dev8-10.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 08:44:49] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-05-18 08:44:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-role]: success
+[2023-05-18 08:44:50] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/b9/5b/fe0371621983f62e88f0b8be6c900b55a1e69635b722f9a3f5cb43fbdea7/fasttreeshap-0.1.4-cp39-cp39-macosx_12_0_x86_64.whl
+[2023-05-18 08:44:50] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-05-18 08:44:50] INFO root fetch - processPackages [fasttreeshap]: executing diffoscope
+[2023-05-18 08:44:50] INFO root fetch - processPackages [fasttreeshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttreeshap-0.1.3.tar.gz tmp/fasttreeshap-0.1.4-cp39-cp39-macosx_12_0_x86_64.whl.zip --markdown 20230518/f/fasttreeshap/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 08:44:51] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 08:44:51] INFO root fetch - main [MainThread]: End processing [odoo10-addon-purchase-landed-cost]: success
+[2023-05-18 08:44:51] INFO root fetch - main [MainThread]: End processing [fasttreeshap]: success
+[2023-05-18 08:44:51] INFO root fetch - main [MainThread]: End processing [lcbuilder]: success
+[2023-05-18 08:44:53] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-05-18 08:44:53] INFO root fetch - main [MainThread]: Store serial: [18150324]
