@@ -13486,3 +13486,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [moderngl-window]: success
 [2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [labstep]: success
 [2023-05-18 13:09:52] INFO root fetch - main [MainThread]: Store serial: [18153016]
+[2023-05-18 13:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153016]
+[2023-05-18 13:15:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-naftali-remove-library-keyword
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-talon
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfcat
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hollihop-api-client
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgeql
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huntflow-api-client
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: martin-binance
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygdal
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygdal
+[2023-05-18 13:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygdal
+[2023-05-18 13:15:02] INFO root fetch - processPackages [bridgeql]: New version: [0.1.8b0] Old Version: [0.1.7b0]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: New version: [3.6.4.11] Old Version: [3.5.3.11]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: New version: [3.6.4.11] Old Version: [3.5.3.11]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: New version: [3.6.4.11] Old Version: [3.5.3.11]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [rfcat]: New version: [2.0.0] Old Version: [1.9.7]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [martin-binance]: New version: [1.2.9.post19] Old Version: [1.2.9.post18]
+[2023-05-18 13:15:02] WARNING root fetch - processPackages [certora-cli-alpha-naftali-remove-library-keyword]: Skipping, unable to determine old version
+[2023-05-18 13:15:02] INFO root fetch - processPackages [tree-sitter-talon]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-remove-library-keyword] error
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdal-3.5.3.11.tar.gz tmp/pygdal-3.6.4.11.tar.gz --markdown 20230518/p/pygdal/3.5.3.11-3.6.4.11/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdal-3.5.3.11.tar.gz tmp/pygdal-3.6.4.11.tar.gz --markdown 20230518/p/pygdal/3.5.3.11-3.6.4.11/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [pygdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdal-3.5.3.11.tar.gz tmp/pygdal-3.6.4.11.tar.gz --markdown 20230518/p/pygdal/3.5.3.11-3.6.4.11/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.2.tar.gz tmp/huntflow_api_client-0.0.4.tar.gz --markdown 20230518/h/huntflow-api-client/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/b4/65/0b972f741b634b40932537bb0fa4502bf83bbf2d2d1b663b5cd1f33c4cf0/bridgeql-0.1.7b0.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [rfcat]: Downloading https://files.pythonhosted.org/packages/17/61/bce2d0e9e11d7789932f207d33d953a2a7b914e88fd4f0a9e5a6462fabe5/rfcat-1.9.7.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/44/47/429dce3435b6f022f49d1a3fab67e1a0be3ca979bb7b932122b617ee1126/martin-binance-1.2.9.post18.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [tree-sitter-talon]: Downloading https://files.pythonhosted.org/packages/33/1d/5f2f3176a656d1a896f6903dd9e3dd4b999649f02b854c9606f43515d0e2/tree_sitter_talon-3.1.0.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/bd/1a/0904e5467697d430923838bd254be568e319766dc4533b1752ba76e765e0/hollihop_api_client-0.0.1.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [bridgeql]: Downloading https://files.pythonhosted.org/packages/ed/c2/6dfa3a79dea77f9ceee75b84fbf8ef1df4cd34392ef59e64cd6ae6b7b7fb/bridgeql-0.1.8b0.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/32/52/b3942d6ccdb57b6be5e3975c2d69ccd6ee90ef36940f05e77f3bc84904c8/hollihop_api_client-0.0.2.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [rfcat]: Downloading https://files.pythonhosted.org/packages/be/c6/99af4b941b6a060e3641e90355acfa689d12fa4030dfa9a50b0d2d9df1f1/rfcat-2.0.0.tar.gz
+[2023-05-18 13:15:02] INFO root fetch - processPackages [bridgeql]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [bridgeql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeql-0.1.7b0.tar.gz tmp/bridgeql-0.1.8b0.tar.gz --markdown 20230518/b/bridgeql/0.1.7b0-0.1.8b0/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.1.tar.gz tmp/hollihop_api_client-0.0.2.tar.gz --markdown 20230518/h/hollihop-api-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [rfcat]: executing diffoscope
+[2023-05-18 13:15:02] INFO root fetch - processPackages [rfcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfcat-1.9.7.tar.gz tmp/rfcat-2.0.0.tar.gz --markdown 20230518/r/rfcat/1.9.7-2.0.0/diff.md --exclude *.pyd
+[2023-05-18 13:15:02] INFO root fetch - processPackages [tree-sitter-talon]: Downloading https://files.pythonhosted.org/packages/77/f8/975e3329d54ffd02ed0696d96cbd9b0e9070ce29c65e180fd1f8d70de6ff/tree_sitter_talon-3.1.1.tar.gz
+[2023-05-18 13:15:03] INFO root fetch - processPackages [tree-sitter-talon]: executing diffoscope
+[2023-05-18 13:15:03] INFO root fetch - processPackages [tree-sitter-talon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_talon-3.1.0.tar.gz tmp/tree_sitter_talon-3.1.1.tar.gz --markdown 20230518/t/tree-sitter-talon/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-18 13:15:03] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-05-18 13:15:03] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/af/a6/769ade28e055f972e4104c164e79c01e4c9b0e4a20a4c33e18f744f6f208/martin-binance-1.2.9.post19.tar.gz
+[2023-05-18 13:15:04] INFO root fetch - main [MainThread]: End processing [bridgeql]: success
+[2023-05-18 13:15:04] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-18 13:15:04] INFO root fetch - processPackages [martin-binance]: executing diffoscope
+[2023-05-18 13:15:04] INFO root fetch - processPackages [martin-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martin-binance-1.2.9.post18.tar.gz tmp/martin-binance-1.2.9.post19.tar.gz --markdown 20230518/m/martin-binance/1.2.9.post18-1.2.9.post19/diff.md --exclude *.pyd
+[2023-05-18 13:15:05] INFO root fetch - main [MainThread]: End processing [pygdal]: success
+[2023-05-18 13:15:05] INFO root fetch - main [MainThread]: End processing [pygdal]: success
+[2023-05-18 13:15:05] INFO root fetch - main [MainThread]: End processing [pygdal]: success
+[2023-05-18 13:15:05] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
+[2023-05-18 13:15:06] INFO root fetch - main [MainThread]: End processing [tree-sitter-talon]: success
+[2023-05-18 13:15:06] INFO root fetch - main [MainThread]: End processing [rfcat]: success
+[2023-05-18 13:15:06] INFO root fetch - main [MainThread]: Store serial: [18153086]
