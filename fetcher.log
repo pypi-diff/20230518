@@ -13174,3 +13174,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 12:48:38] INFO root fetch - main [MainThread]: End processing [vid2info]: success
 [2023-05-18 12:48:59] INFO root fetch - main [MainThread]: End processing [google-api-python-client-stubs]: success
 [2023-05-18 12:48:59] INFO root fetch - main [MainThread]: Store serial: [18152868]
+[2023-05-18 12:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152868]
+[2023-05-18 12:54:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-naftali-update-reallife
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cf-view
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agsi
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zqmtool
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tanbih-pipeline
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robin-chat-input
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lbt-honeybee
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xArm-Python-SDK
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Flask-BigApp
+[2023-05-18 12:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smartlogger
+[2023-05-18 12:54:09] INFO root fetch - processPackages [smartlogger]: New version: [0.0.1.dev3] Old Version: [0.0.1.dev2]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [agsi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [Flask-BigApp]: New version: [2023.1.9] Old Version: [2023.1.8.8]
+[2023-05-18 12:54:09] WARNING root fetch - processPackages [xArm-Python-SDK]: Skipping, unable to determine old version
+[2023-05-18 12:54:09] INFO root fetch - processPackages [xArm-Python-SDK]: Start processing: lbt-dragonfly
+[2023-05-18 12:54:09] INFO root fetch - main [MainThread]: End processing [xArm-Python-SDK] error
+[2023-05-18 12:54:09] INFO root fetch - processPackages [robin-chat-input]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [certora-cli-alpha-naftali-update-reallife]: New version: [20230518.9.46.797116] Old Version: [20230518.10.48.32092]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [cf-view]: New version: [3.2.24] Old Version: [3.2.23]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [zqmtool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [Flask-BigApp]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [Flask-BigApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-BigApp-2023.1.8.8.tar.gz tmp/Flask-BigApp-2023.1.9.tar.gz --markdown 20230518/F/Flask-BigApp/2023.1.8.8-2023.1.9/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.3.tar.gz tmp/agsi-1.0.4.tar.gz --markdown 20230518/a/agsi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [tanbih-pipeline]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [robin-chat-input]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [robin-chat-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin-chat-input-0.0.5.tar.gz tmp/robin-chat-input-0.0.6.tar.gz --markdown 20230518/r/robin-chat-input/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-18 12:54:09] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/23/9d/73923b8545d62782f54c1fa73a4ea6e986b123dd1da6b4983f8cef472685/smartlogger-0.0.1.dev2.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [certora-cli-alpha-naftali-update-reallife]: Downloading https://files.pythonhosted.org/packages/11/52/6fa5825487ea1c7bd41ff5cd9e3291d13ff5c3928b28c2f63a839c2a7f3a/certora-cli-alpha-naftali-update_reallife-20230518.10.48.32092.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [cf-view]: Downloading https://files.pythonhosted.org/packages/61/46/18a4f25bda8fede7b7ec1f893ccd2e9be4413a06c2c36456be3abd1f2f77/cf-view-3.2.23.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [tanbih-pipeline]: Downloading https://files.pythonhosted.org/packages/c8/58/6d196039f699f54917ac72715e758e591ba3391efb884c28cf3dd36fd9e7/tanbih-pipeline-0.9.1.tar.gz
+[2023-05-18 12:54:09] WARNING root fetch - processPackages [certora-cli-alpha-naftali-update-reallife]: Skipping package: exceeds size limit 38976420>=10485760
+[2023-05-18 12:54:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-update-reallife] error
+[2023-05-18 12:54:09] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/16/51/d56daabf78f6ccca83b0f5c495df68c145af7ddda6e3f745bad6969be1af/zqmtool-0.0.8.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [cf-view]: Downloading https://files.pythonhosted.org/packages/2a/21/6b1fac85c29e1a54dbd3c582f78111698538fedfa9e87c6b23fb323045c3/cf-view-3.2.24.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/a4/0c/04e9dfd521a3c644e8112fb72897463a1b59de4c97381c71437fbdcae30c/smartlogger-0.0.1.dev3.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [tanbih-pipeline]: Downloading https://files.pythonhosted.org/packages/be/dd/1370976760362e5a1dd99b8faf25ad1e16bae7dca9224cadf989d5ba1fd7/tanbih-pipeline-0.9.2.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/f1/87/51c14c7d475136a800f40694a9461172fe82da6960afcb49c3d6ea928359/zqmtool-0.0.9.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [zqmtool]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [zqmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zqmtool-0.0.8.tar.gz tmp/zqmtool-0.0.9.tar.gz --markdown 20230518/z/zqmtool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [tanbih-pipeline]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [tanbih-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanbih-pipeline-0.9.1.tar.gz tmp/tanbih-pipeline-0.9.2.tar.gz --markdown 20230518/t/tanbih-pipeline/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230518/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [cf-view]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [cf-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-view-3.2.23.tar.gz tmp/cf-view-3.2.24.tar.gz --markdown 20230518/c/cf-view/3.2.23-3.2.24/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [smartlogger]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [smartlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlogger-0.0.1.dev2.tar.gz tmp/smartlogger-0.0.1.dev3.tar.gz --markdown 20230518/s/smartlogger/0.0.1.dev2-0.0.1.dev3/diff.md --exclude *.pyd
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-18 12:54:09] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230518/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-18 12:54:10] INFO root fetch - main [MainThread]: End processing [Flask-BigApp]: success
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [zqmtool]: success
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [smartlogger]: success
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [cf-view]: success
+[2023-05-18 12:54:11] ERROR root fetch - processPackages [tanbih-pipeline]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-18 12:54:11] INFO root fetch - main [MainThread]: End processing [tanbih-pipeline] error
+[2023-05-18 12:54:12] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-18 12:54:13] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
+[2023-05-18 12:54:13] INFO root fetch - main [MainThread]: Store serial: [18152903]
