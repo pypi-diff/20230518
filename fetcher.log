@@ -5025,3 +5025,94 @@
 [2023-05-18 04:28:12] INFO root fetch - main [MainThread]: End processing [tyadmin-api-cli]: success
 [2023-05-18 04:28:14] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-18 04:28:14] INFO root fetch - main [MainThread]: Store serial: [18148700]
+[2023-05-18 04:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148700]
+[2023-05-18 04:33:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jwtools
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-queuey
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tepe
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-24
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyearth
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TMDBTraktSyncer
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: np-queuey
+[2023-05-18 04:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maskcovid
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [jwtools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [tepe]: New version: [0.6.9.5] Old Version: [0.6.9]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [maskcovid]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/90/1a/e1a333251d10fe57be71b25622c08ba24ce04112a4d979950b27a03cf167/cdk8s-plus-26-2.3.8.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/61/fd/341ee13486880c693e40dcfa1c392676afb73632bc824de1f5a33591736a/cdk8s-plus-24-2.7.8.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230518/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [tepe]: Downloading https://files.pythonhosted.org/packages/0a/5c/6f11005a7080dc2a9910a17d3b6b638f9cf727098b06480706b1823d1ffc/tepe-0.6.9-py3-none-any.whl
+[2023-05-18 04:33:23] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/9f/51/a48ae29d7cc94fb1a4562ab4e3a58d126cbf1b6b79741c96677a23119138/TMDBTraktSyncer-1.0.0.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [maskcovid]: Downloading https://files.pythonhosted.org/packages/a6/e4/aae985d507c6c00188bd4f4cc4449304ffbc4b8852060d4752f9d1a65af2/maskcovid-0.0.2.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/25/f7/946aa5b1880e28af43a1a3eccc9fe915bd348cf77f61dfe50e65b1eb2d3b/cdk8s-plus-25-2.7.8.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/e8/bc/7fdfebbf42c172a8f57e6adbbf83c039f251e2b572610758a0ba2490a931/cdk8s-plus-26-2.3.9.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/bf/09/a12dca2b452b7dcf2baa4614cc7fdd7aed5784b316bc66d6da559c8c792a/cdk8s-plus-24-2.7.9.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [jwtools]: Downloading https://files.pythonhosted.org/packages/43/64/ef2f09e9f8c79d851c2552aaa5edf112b302ad7523fcc48934602f1162ef/jwtools-0.1.3.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [maskcovid]: Downloading https://files.pythonhosted.org/packages/de/99/01075f05c8be70043edd1fc057323574cfe5f2b3c6a13391b6156e18fe33/maskcovid-0.0.3.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [jwtools]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [jwtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtools-0.1.2.tar.gz tmp/jwtools-0.1.3.tar.gz --markdown 20230518/j/jwtools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [tepe]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [tepe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tepe-0.6.9-py3-none-any.whl.zip tmp/tepe-0.6.9.5-py3-none-any.whl.zip --markdown 20230518/t/tepe/0.6.9-0.6.9.5/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a1/78/3da0b52127d5724f62ff45f4bc6bb34a79c2b666889663a16260596a6408/TMDBTraktSyncer-1.0.1.tar.gz
+[2023-05-18 04:33:23] INFO root fetch - processPackages [maskcovid]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [maskcovid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maskcovid-0.0.2.tar.gz tmp/maskcovid-0.0.3.tar.gz --markdown 20230518/m/maskcovid/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230518/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-18 04:33:23] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-05-18 04:33:23] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.0.0.tar.gz tmp/TMDBTraktSyncer-1.0.1.tar.gz --markdown 20230518/T/TMDBTraktSyncer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 04:33:24] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/75/f0/b8cd75d1cf79e7272cafc492a3b860c1a58aecfd7f6ebe4882c0a2a5909e/cdk8s-plus-25-2.7.9.tar.gz
+[2023-05-18 04:33:24] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-18 04:33:24] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230518/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-18 04:33:24] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-18 04:33:24] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230518/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-18 04:33:24] INFO root fetch - processPackages [lazyearth]: Start processing: plib3.ui
+[2023-05-18 04:33:24] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-05-18 04:33:24] INFO root fetch - processPackages [plib3.ui]: New version: [0.15.8.1] Old Version: [0.15.8]
+[2023-05-18 04:33:25] INFO root fetch - processPackages [jwtools]: Start processing: dftrans
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [jwtools]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dftrans]: New version: [2.0.2.6] Old Version: [2.0.2.5]
+[2023-05-18 04:33:25] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/08/0b/99ce990ac6b88e08dbf64796b41f743d09ba516de6ba3806749745418849/plib3.ui-0.15.8.tar.gz
+[2023-05-18 04:33:25] INFO root fetch - processPackages [maskcovid]: Start processing: esphome
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [maskcovid]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/3d/27/8059516c6cc50f5e824e90fb73534c43e9698522fffc72506abc49764d9d/dftrans-2.0.2.5.tar.gz
+[2023-05-18 04:33:25] INFO root fetch - processPackages [np-queuey]: Start processing: dcicutils
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [esphome]: New version: [2023.5.1] Old Version: [2023.5.0b5]
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dcicutils]: New version: [7.4.2.2b1] Old Version: [7.4.2.1b9]
+[2023-05-18 04:33:25] INFO root fetch - processPackages [plib3.ui]: Downloading https://files.pythonhosted.org/packages/79/7c/88dbadab3114c0d37baaddaddd38ee40bbe1a946e2db68ecc4ac10dadc52/plib3.ui-0.15.8.1.tar.gz
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.4.2.1b9.tar.gz tmp/dcicutils-7.4.2.2b1.tar.gz --markdown 20230518/d/dcicutils/7.4.2.1b9-7.4.2.2b1/diff.md --exclude *.pyd
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/7f/26/749e1fe09346d2c1e9d18bc0e8ac2c1b117e4989dad72522c971971b38ab/dftrans-2.0.2.6.tar.gz
+[2023-05-18 04:33:25] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/04/d2/26c9b1332c707bca526d24eb0a17327cff2aba64bfe3b874bc2a9e0a54ac/esphome-2023.5.0b5.tar.gz
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dftrans]: executing diffoscope
+[2023-05-18 04:33:25] INFO root fetch - processPackages [dftrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftrans-2.0.2.5.tar.gz tmp/dftrans-2.0.2.6.tar.gz --markdown 20230518/d/dftrans/2.0.2.5-2.0.2.6/diff.md --exclude *.pyd
+[2023-05-18 04:33:25] INFO root fetch - processPackages [plib3.ui]: executing diffoscope
+[2023-05-18 04:33:25] INFO root fetch - processPackages [plib3.ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plib3.ui-0.15.8.tar.gz tmp/plib3.ui-0.15.8.1.tar.gz --markdown 20230518/p/plib3.ui/0.15.8-0.15.8.1/diff.md --exclude *.pyd
+[2023-05-18 04:33:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-18 04:33:25] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/97/0c/7083b5a6cd1e8e7b149f782d27e6e9db1b86e7314e125a8d22800ca5a5e7/esphome-2023.5.1.tar.gz
+[2023-05-18 04:33:26] INFO root fetch - main [MainThread]: End processing [tepe]: success
+[2023-05-18 04:33:26] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-18 04:33:26] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-18 04:33:26] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.5.0b5.tar.gz tmp/esphome-2023.5.1.tar.gz --markdown 20230518/e/esphome/2023.5.0b5-2023.5.1/diff.md --exclude *.pyd
+[2023-05-18 04:33:26] INFO root fetch - main [MainThread]: End processing [dftrans]: success
+[2023-05-18 04:33:26] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-18 04:33:28] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
+[2023-05-18 04:34:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-18 04:34:14] INFO root fetch - main [MainThread]: Store serial: [18148743]
