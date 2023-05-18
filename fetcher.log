@@ -4475,3 +4475,43 @@
 [2023-05-18 03:35:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-18 03:35:53] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-05-18 03:35:53] INFO root fetch - main [MainThread]: Store serial: [18148446]
+[2023-05-18 03:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148446]
+[2023-05-18 03:41:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timepunch
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VSautomatic
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smb3-video-autosplitter
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-05-18 03:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Lshengpackage
+[2023-05-18 03:41:02] INFO root fetch - processPackages [VSautomatic]: New version: [2.2] Old Version: [2.1]
+[2023-05-18 03:41:02] WARNING root fetch - processPackages [timepunch]: Skipping, unable to determine old version
+[2023-05-18 03:41:02] INFO root fetch - main [MainThread]: End processing [timepunch] error
+[2023-05-18 03:41:02] INFO root fetch - processPackages [smb3-video-autosplitter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 03:41:02] INFO root fetch - processPackages [Lshengpackage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 03:41:02] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:41:02] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:41:02] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/15/b3/9892980ded7821e348d9caa4f929a957b5e69991d04f64f53a69e4f17a3d/VSautomatic-2.1.tar.gz
+[2023-05-18 03:41:02] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:41:03] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/43/cf/75fb0f48fed3c4901855b2f8366d57f9b9a27c7475e70b7aa641a7ef5b9d/smb3-video-autosplitter-0.0.2.tar.gz
+[2023-05-18 03:41:03] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.3.8.tar.gz tmp/Lshengpackage-0.3.9.tar.gz --markdown 20230518/L/Lshengpackage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-18 03:41:03] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/73/07/ae7ab998daf86de6f799e238c34bf4ead4fa70441b1a0f98b1d12801ce42/VSautomatic-2.2.tar.gz
+[2023-05-18 03:41:03] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/0b/e3/affdbe4f8373e530ff77499d966976431b0ac688a825df88374398fa413c/smb3-video-autosplitter-0.0.3.tar.gz
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230518/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230518/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230518/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:41:03] INFO root fetch - processPackages [smb3-video-autosplitter]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [smb3-video-autosplitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb3-video-autosplitter-0.0.2.tar.gz tmp/smb3-video-autosplitter-0.0.3.tar.gz --markdown 20230518/s/smb3-video-autosplitter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 03:41:03] INFO root fetch - processPackages [VSautomatic]: executing diffoscope
+[2023-05-18 03:41:03] INFO root fetch - processPackages [VSautomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VSautomatic-2.1.tar.gz tmp/VSautomatic-2.2.tar.gz --markdown 20230518/V/VSautomatic/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [smb3-video-autosplitter]: success
+[2023-05-18 03:41:06] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
+[2023-05-18 03:41:06] INFO root fetch - main [MainThread]: Store serial: [18148469]
