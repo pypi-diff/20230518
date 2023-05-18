@@ -10280,3 +10280,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:55:23] INFO root fetch - main [MainThread]: End processing [tag-aaron-alphabet]: success
 [2023-05-18 09:55:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-18 09:55:27] INFO root fetch - main [MainThread]: Store serial: [18151006]
+[2023-05-18 10:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151006]
+[2023-05-18 10:00:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycelium
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-picking-invoice-link
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-invoice-link
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-owner-restriction
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinx-reredirects
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-stock-picking-batch-extended
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-picking-batch-extended
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-product-supplierinfo-for-customer-picking
+[2023-05-18 10:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atomInSmiles
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-owner-restriction]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [pycelium]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-owner-restriction]: executing diffoscope
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-owner-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_owner_restriction-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_stock_owner_restriction-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-stock-owner-restriction/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: New version: [14.0.1.2.3.dev1] Old Version: [14.0.1.2.2.dev1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-picking-batch-extended]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [sphinx-reredirects]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: New version: [15.0.2.2.1.1] Old Version: [15.0.2.2.1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [kfish]: New version: [99.0.202305180756] Old Version: [99.0.202305180650]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2023-05-18 10:00:37] WARNING root fetch - processPackages [atomInSmiles]: Skipping, unable to determine old version
+[2023-05-18 10:00:37] INFO root fetch - processPackages [atomInSmiles]: Start processing: odoo-addon-stock-picking-invoice-link
+[2023-05-18 10:00:37] INFO root fetch - main [MainThread]: End processing [atomInSmiles] error
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/b3/c3/32ebdedc0fd869885823288641f27c2b05c5a20ea38f869d18f587311cb3/odoo14_addon_stock_picking_invoice_link-14.0.1.2.2.dev1-py3-none-any.whl
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: Downloading https://files.pythonhosted.org/packages/8f/c1/e5eb4d8b85a9263d1af065b46de29986bad1d2c7fdc4e33165d72b57b6e9/odoo_addon_stock_picking_batch_extended-15.0.2.2.1-py3-none-any.whl
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Downloading https://files.pythonhosted.org/packages/67/ae/ba3e93ce49c2f1875bf73349247797ba43ab2d74911f5c2e7f89587e357d/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-18 10:00:37] INFO root fetch - processPackages [odoo14-addon-stock-picking-batch-extended]: Downloading https://files.pythonhosted.org/packages/8c/a8/8877712ff3692ea2688f72bddc71eb45f0083314e5afc6c09539fc0270d3/odoo14_addon_stock_picking_batch_extended-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-05-18 10:00:37] INFO root fetch - processPackages [sphinx-reredirects]: Downloading https://files.pythonhosted.org/packages/b5/3a/195268759a3ff138f2ff32d6535f94cb9199671ed4832142a6a1d6f1a3fa/sphinx_reredirects-0.1.1.tar.gz
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/7c/0a/4d584d70b2ab2535c05754743b82ef38fa76a04bb1a1e74ab81bc74cb95f/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/7c/0a/4d584d70b2ab2535c05754743b82ef38fa76a04bb1a1e74ab81bc74cb95f/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/76/42/fb57aec00045116dfb46b611e5b03b2e9132b5a6bff10d59bc0452b5fa10/pycelium-0.1.8.tar.gz
+[2023-05-18 10:00:38] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4c/42/92cab6d0d24cf988675c48850be40a100d5e66e82b54f10107c430fc1252/kfish-99.0.202305180756-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/97/7f/6af2f6de0b93a129fb4e6ada4e8dabd4f2e129817f96e542a465039a395d/odoo14_addon_stock_picking_invoice_link-14.0.1.2.3.dev1-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Downloading https://files.pythonhosted.org/packages/b9/86/3895b9901baee076039e028f0627a0525ee802d51d085ab7aa2f239c0d91/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305180650-py3-none-any.whl.zip tmp/kfish-99.0.202305180756-py3-none-any.whl.zip --markdown 20230518/k/kfish/99.0.202305180650-99.0.202305180756/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [sphinx-reredirects]: Downloading https://files.pythonhosted.org/packages/80/07/a0e4cda9584460e187aee74fe46d3b145e5320d13d4ae7dadc577e7a9d47/sphinx_reredirects-0.1.2.tar.gz
+[2023-05-18 10:00:38] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.7.tar.gz tmp/pycelium-0.1.8.tar.gz --markdown 20230518/p/pycelium/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/ff/65/dbf96d78e3a110c67538fd3ebf4f1e708d611435ccff0ae2956c82473c03/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-batch-extended]: Downloading https://files.pythonhosted.org/packages/ea/c1/7b2c2c700719ccbc1205372c01d2153d60585e849b008c36bd84103c86ba/odoo14_addon_stock_picking_batch_extended-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/ff/65/dbf96d78e3a110c67538fd3ebf4f1e708d611435ccff0ae2956c82473c03/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: Downloading https://files.pythonhosted.org/packages/b1/0b/c0e8e518f0cd949a0bf60c52f04f65334f16d249e113237c12cffae55a11/odoo_addon_stock_picking_batch_extended-15.0.2.2.1.1-py3-none-any.whl
+[2023-05-18 10:00:38] INFO root fetch - processPackages [sphinx-reredirects]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [sphinx-reredirects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_reredirects-0.1.1.tar.gz tmp/sphinx_reredirects-0.1.2.tar.gz --markdown 20230518/s/sphinx-reredirects/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-stock-picking-invoice-link/16.0.1.0.1.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_invoice_link-14.0.1.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_invoice_link-14.0.1.2.3.dev1-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-stock-picking-invoice-link/14.0.1.2.2.dev1-14.0.1.2.3.dev1/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_invoice_link-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-stock-picking-invoice-link/16.0.1.0.1.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_picking-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-product-supplierinfo-for-customer-picking/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_extended-15.0.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_extended-15.0.2.2.1.1-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-stock-picking-batch-extended/15.0.2.2.1-15.0.2.2.1.1/diff.md --exclude *.pyd
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-batch-extended]: executing diffoscope
+[2023-05-18 10:00:38] INFO root fetch - processPackages [odoo14-addon-stock-picking-batch-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_batch_extended-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_batch_extended-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-stock-picking-batch-extended/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-05-18 10:00:39] INFO root fetch - processPackages [odoo14-addon-stock-owner-restriction]: Start processing: NuOCR
+[2023-05-18 10:00:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-owner-restriction]: success
+[2023-05-18 10:00:39] INFO root fetch - processPackages [NuOCR]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-18 10:00:39] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/0e/55/9f7635a1d374a741a0fb9d01ae9ed06d17b3fd05d8694d34a8a7a05d228d/NuOCR-0.2.2.tar.gz
+[2023-05-18 10:00:39] INFO root fetch - processPackages [kfish]: Start processing: fastapi-pagination
+[2023-05-18 10:00:39] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-18 10:00:39] INFO root fetch - processPackages [fastapi-pagination]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 10:00:39] INFO root fetch - processPackages [NuOCR]: Downloading https://files.pythonhosted.org/packages/0c/61/d7ebaf981bbf4d57ea2827999407c551b7c58841d524caeb906222cf688c/NuOCR-0.2.3.tar.gz
+[2023-05-18 10:00:39] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/54/38/52db6bdf19417602084dfda74d5caf2af9752242fa29fcc26a8c8d55668c/fastapi-pagination-0.9.2.tar.gz
+[2023-05-18 10:00:39] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-picking]: Start processing: mecsimcalc
+[2023-05-18 10:00:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-picking]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [NuOCR]: executing diffoscope
+[2023-05-18 10:00:40] INFO root fetch - processPackages [NuOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NuOCR-0.2.2.tar.gz tmp/NuOCR-0.2.3.tar.gz --markdown 20230518/N/NuOCR/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Start processing: cdx-tf
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-invoice-link]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [mecsimcalc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo14-addon-stock-picking-invoice-link]: Start processing: pypipr
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-invoice-link]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [cdx-tf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo-addon-stock-picking-invoice-link]: Start processing: axshll
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-invoice-link]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-18 10:00:40] INFO root fetch - processPackages [fastapi-pagination]: Downloading https://files.pythonhosted.org/packages/ae/72/c53269908968568bb661a08b6faf00ce7b8219af0f9541920ed5bcd83724/fastapi-pagination-0.9.3.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [sphinx-reredirects]: Start processing: python-classy
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [sphinx-reredirects]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-extended]: Start processing: wlkatapython
+[2023-05-18 10:00:40] WARNING root fetch - processPackages [python-classy]: Skipping, unable to determine old version
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-extended]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [python-classy]: Start processing: odoo11-addon-hr-timesheet-sheet
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [python-classy] error
+[2023-05-18 10:00:40] INFO root fetch - processPackages [mecsimcalc]: Downloading https://files.pythonhosted.org/packages/1e/25/b83b94dbca5c0fe859db5707e9441c09925e4e3e76d3ec2587c7618bb7f7/mecsimcalc-0.0.4.tar.gz
+[2023-05-18 10:00:40] WARNING root fetch - processPackages [axshll]: Skipping, unable to determine old version
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [axshll] error
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-batch-extended]: success
+[2023-05-18 10:00:40] INFO root fetch - processPackages [cdx-tf]: Downloading https://files.pythonhosted.org/packages/f5/d6/429066c8d5282ea12171dfc7cf59010b3289d166f463493f510af3ec3dfb/cdx_tf-0.1.2.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [fastapi-pagination]: executing diffoscope
+[2023-05-18 10:00:40] INFO root fetch - processPackages [fastapi-pagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-pagination-0.9.2.tar.gz tmp/fastapi-pagination-0.9.3.tar.gz --markdown 20230518/f/fastapi-pagination/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 10:00:40] WARNING root fetch - processPackages [wlkatapython]: Skipping, unable to determine old version
+[2023-05-18 10:00:40] INFO root fetch - main [MainThread]: End processing [wlkatapython] error
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: New version: [11.0.2.0.1.99.dev9] Old Version: [11.0.2.0.1.99.dev8]
+[2023-05-18 10:00:40] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/01/e6/5c3cfb4f655e7c051b97bb5c84f6a38bedcd9c62be52740f35ae2d3353af/pypipr-0.1.94.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [mecsimcalc]: Downloading https://files.pythonhosted.org/packages/a0/42/312b155862003e50cf4f440e7a4535ac7b1db73441bb00dd2b2b39731d64/mecsimcalc-0.0.5.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/e0/2b/2f4f25b69af19e2b6e4809ae66edb729d90cb951f087e83fe3cb7aebfc78/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev8-py2.py3-none-any.whl
+[2023-05-18 10:00:40] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/cd/92/2627aa7d9dfcdc2306a9d83e96d64504b80001fbb2c403722f7688b3352e/pypipr-0.1.95.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [cdx-tf]: Downloading https://files.pythonhosted.org/packages/3b/f9/3cf74aa3ccce52a2ce6fc0eebca7455ca001fbd39e57bf098c435c10708a/cdx_tf-0.1.3.tar.gz
+[2023-05-18 10:00:40] INFO root fetch - processPackages [mecsimcalc]: executing diffoscope
+[2023-05-18 10:00:40] INFO root fetch - processPackages [mecsimcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecsimcalc-0.0.4.tar.gz tmp/mecsimcalc-0.0.5.tar.gz --markdown 20230518/m/mecsimcalc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 10:00:40] INFO root fetch - processPackages [cdx-tf]: executing diffoscope
+[2023-05-18 10:00:40] INFO root fetch - processPackages [cdx-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdx_tf-0.1.2.tar.gz tmp/cdx_tf-0.1.3.tar.gz --markdown 20230518/c/cdx-tf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 10:00:40] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-18 10:00:40] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230518/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-18 10:00:40] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/f0/7a/cd22f8bed77fba30ed868fb9be7a30ecd39540c43b11311a904af0e507c8/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl
+[2023-05-18 10:00:41] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-05-18 10:00:41] INFO root fetch - processPackages [odoo11-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_hr_timesheet_sheet-11.0.2.0.1.99.dev9-py2.py3-none-any.whl.zip --markdown 20230518/o/odoo11-addon-hr-timesheet-sheet/11.0.2.0.1.99.dev8-11.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 10:00:41] INFO root fetch - main [MainThread]: End processing [NuOCR]: success
+[2023-05-18 10:00:41] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 10:00:41] INFO root fetch - main [MainThread]: End processing [mecsimcalc]: success
+[2023-05-18 10:00:41] INFO root fetch - main [MainThread]: End processing [fastapi-pagination]: success
+[2023-05-18 10:00:42] INFO root fetch - main [MainThread]: End processing [cdx-tf]: success
+[2023-05-18 10:00:42] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-18 10:00:42] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-sheet]: success
+[2023-05-18 10:00:42] INFO root fetch - main [MainThread]: Store serial: [18151072]
