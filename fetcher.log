@@ -12621,3 +12621,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 12:02:32] INFO root fetch - main [MainThread]: End processing [mpctools]: success
 [2023-05-18 12:02:35] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-18 12:02:35] INFO root fetch - main [MainThread]: Store serial: [18152475]
+[2023-05-18 12:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152475]
+[2023-05-18 12:07:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forgi
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotigrabber
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jina-hubble-sdk
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PureCloudPlatformClientV2
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pye3dc
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bm-utilities
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agsi
+[2023-05-18 12:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EasyTkValidations
+[2023-05-18 12:07:44] INFO root fetch - processPackages [bm-utilities]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [forgi]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [jina-hubble-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [agsi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-18 12:07:44] WARNING root fetch - processPackages [spotigrabber]: Skipping, unable to determine old version
+[2023-05-18 12:07:44] INFO root fetch - main [MainThread]: End processing [spotigrabber] error
+[2023-05-18 12:07:44] INFO root fetch - processPackages [pye3dc]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [EasyTkValidations]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 12:07:44] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/40/d6/ded204808d53675f84d76ba10ffcb0863cb53164697bf49af32da4d965ea/bm_utilities-0.0.8.tar.gz
+[2023-05-18 12:07:44] INFO root fetch - processPackages [forgi]: Downloading https://files.pythonhosted.org/packages/6b/6c/0767b9c276049346a1d6cc262d0adc99cda5a9eef64b590840677adf08ad/forgi-2.2.1.tar.gz
+[2023-05-18 12:07:44] INFO root fetch - processPackages [jina-hubble-sdk]: Downloading https://files.pythonhosted.org/packages/e3/a7/c61c78fd5351be996cb9d68fc531438da4f16c50a45e2955e798723cbd96/jina-hubble-sdk-0.9.1.tar.gz
+[2023-05-18 12:07:44] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-05-18 12:07:44] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-18 12:07:44] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.7.tar.gz tmp/bm_utilities-0.0.8.tar.gz --markdown 20230518/b/bm-utilities/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 12:07:44] INFO root fetch - processPackages [EasyTkValidations]: Downloading https://files.pythonhosted.org/packages/ee/79/f922020fe11ce8dd9fc89f39db6470f69362855a816e6d2ec24be53691f5/EasyTkValidations-0.0.1-py3-none-any.whl
+[2023-05-18 12:07:44] INFO root fetch - processPackages [pye3dc]: Downloading https://files.pythonhosted.org/packages/8e/82/ce9fc367914ed2725b9c7e47c5da14e12d35f9836cc89df9529b407af051/pye3dc-0.7.4.tar.gz
+[2023-05-18 12:07:44] WARNING root fetch - processPackages [forgi]: Skipping package: exceeds size limit 26699623>=10485760
+[2023-05-18 12:07:44] INFO root fetch - main [MainThread]: End processing [forgi] error
+[2023-05-18 12:07:44] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/a5/fb/bbc3637ede8a1234b5fb09c8f722a921043821f5e4ea71041d205df8a5c3/agsi-1.0.4.tar.gz
+[2023-05-18 12:07:44] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-18 12:07:44] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230518/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 12:07:45] INFO root fetch - processPackages [jina-hubble-sdk]: Downloading https://files.pythonhosted.org/packages/2d/5c/9a19759f26c21b0c73694870d6b9004301a67dbd09829567443e810542c5/jina-hubble-sdk-0.9.2.tar.gz
+[2023-05-18 12:07:45] INFO root fetch - processPackages [pye3dc]: Downloading https://files.pythonhosted.org/packages/e8/18/08b3443cb725e403d0643c498f6de02de34d3f40a8b36d673f408956c504/pye3dc-0.7.5.tar.gz
+[2023-05-18 12:07:45] INFO root fetch - processPackages [EasyTkValidations]: Downloading https://files.pythonhosted.org/packages/21/74/3aa4e731cfe25e7ccedf42c050eb9d4afd2d1448c72012b0cf55e7cafaa0/EasyTkValidations-0.0.2.tar.gz
+[2023-05-18 12:07:45] INFO root fetch - processPackages [jina-hubble-sdk]: executing diffoscope
+[2023-05-18 12:07:45] INFO root fetch - processPackages [jina-hubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-hubble-sdk-0.9.1.tar.gz tmp/jina-hubble-sdk-0.9.2.tar.gz --markdown 20230518/j/jina-hubble-sdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 12:07:45] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-05-18 12:07:45] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-1.0.3.tar.gz tmp/agsi-1.0.4.tar.gz --markdown 20230518/a/agsi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-18 12:07:45] INFO root fetch - processPackages [pye3dc]: executing diffoscope
+[2023-05-18 12:07:45] INFO root fetch - processPackages [pye3dc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye3dc-0.7.4.tar.gz tmp/pye3dc-0.7.5.tar.gz --markdown 20230518/p/pye3dc/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-18 12:07:45] INFO root fetch - processPackages [EasyTkValidations]: executing diffoscope
+[2023-05-18 12:07:45] INFO root fetch - processPackages [EasyTkValidations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyTkValidations-0.0.1-py3-none-any.whl.zip tmp/EasyTkValidations-0.0.2.tar.gz --markdown 20230518/E/EasyTkValidations/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 12:07:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-05-18 12:07:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-05-18 12:07:45] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230518/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-05-18 12:07:46] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-18 12:07:46] INFO root fetch - main [MainThread]: End processing [jina-hubble-sdk]: success
+[2023-05-18 12:07:46] INFO root fetch - main [MainThread]: End processing [EasyTkValidations]: success
+[2023-05-18 12:07:46] INFO root fetch - main [MainThread]: End processing [pye3dc]: success
+[2023-05-18 12:07:46] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-18 12:07:47] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-05-18 12:08:34] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-05-18 12:08:34] INFO root fetch - main [MainThread]: Store serial: [18152508]
