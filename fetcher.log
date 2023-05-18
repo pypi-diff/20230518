@@ -8929,3 +8929,182 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:44:51] INFO root fetch - main [MainThread]: End processing [lcbuilder]: success
 [2023-05-18 08:44:53] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2023-05-18 08:44:53] INFO root fetch - main [MainThread]: Store serial: [18150324]
+[2023-05-18 08:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150324]
+[2023-05-18 08:50:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-purchase-request
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-purchase-request
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: topostats
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-leaflet
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aicli
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-purchase-request
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esrgan-cli
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-05-18 08:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-request
+[2023-05-18 08:50:02] INFO root fetch - processPackages [flask-leaflet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [topostats]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo13-addon-purchase-request]: New version: [13.0.4.3.1.dev9] Old Version: [13.0.4.3.1.dev7]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [aicli]: New version: [99.0.202305180647] Old Version: [99.0.202305140731]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo14-addon-purchase-request]: New version: [14.0.2.1.2.dev9] Old Version: [14.0.2.1.2.dev8]
+[2023-05-18 08:50:02] WARNING root fetch - processPackages [esrgan-cli]: Skipping, unable to determine old version
+[2023-05-18 08:50:02] INFO root fetch - processPackages [esrgan-cli]: Start processing: cm-two
+[2023-05-18 08:50:02] INFO root fetch - main [MainThread]: End processing [esrgan-cli] error
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202305180648] Old Version: [99.0.202305171521]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [flask-leaflet]: Downloading https://files.pythonhosted.org/packages/d7/27/c4884145eb0b1e2155799a5b16ce114e4d703487d3d1e3a8643cef6bee1a/flask_leaflet-0.1.2.tar.gz
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/31/3d/2ef21782ad94f8f377ffb18e19fe23b1cd34cb3fdc23d599769c20e19688/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [cm-two]: New version: [2.3.13] Old Version: [2.3.12]
+[2023-05-18 08:50:02] INFO root fetch - processPackages [topostats]: Downloading https://files.pythonhosted.org/packages/d9/46/1e2ae2049566199d6d77634e255f5b6cd1bf07dc953e0a904ec1f343fe6c/topostats-2.0.0.tar.gz
+[2023-05-18 08:50:02] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/64/70/38070a8d625b2f32326a7f4a56dd0daa969744987c1dc16d6a56805e2ac9/aicli-99.0.202305140731-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/7e/61/ade4c59b6ce7c16df044d071b13218024e861c7693bfa058bbc2391d3850/pulumi_signalfx-5.9.0a1678129624.tar.gz
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/10/23/fc96268277cc4f0ea2e7a6189ae9657360919e93f5b2c13e4cd9e7888ea2/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2a/24/6b3824f270b87c8d73a8f4a4989654ba57ea32d3b2f2844989165b026a88/kcli-99.0.202305171521-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [flask-leaflet]: executing diffoscope
+[2023-05-18 08:50:02] INFO root fetch - processPackages [flask-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_leaflet-0.1.1.tar.gz tmp/flask_leaflet-0.1.2.tar.gz --markdown 20230518/f/flask-leaflet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 08:50:02] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/2c/7f/65553967ea074859e7c0c9bfbaa3416d4b8015a3de7fa1f27c3f30d595e9/cm_two-2.3.13-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/75/f8/9adc3b79441229698f3f721586d9f3dc15f8f3fb8ec712deb753dbd32c7e/aicli-99.0.202305180647-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/9d/9d/2b4348dad0180400f8763fcd0fbed4fd5f9c75c6db98470e0a2167bd6d55/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [topostats]: Downloading https://files.pythonhosted.org/packages/16/b6/19f5ff347cf5a6ea3429fb985e6ec5ef03f918ec19a9cf7df52747a5b938/topostats-2.1.0.tar.gz
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/c2/d6/2b731473f3c86e6b7e6095f848c7c04fe479962bb1e01d761e24d24a7fba/odoo14_addon_purchase_request-14.0.2.1.2.dev9-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:50:02] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-05-18 08:50:03] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202305140731-py3-none-any.whl.zip tmp/aicli-99.0.202305180647-py3-none-any.whl.zip --markdown 20230518/a/aicli/99.0.202305140731-99.0.202305180647/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/de/fa/3f3b9230a1ef9eea16d4715b365d7651076d7530dc754902f930cb2a83cc/pulumi_signalfx-5.9.0a1678179334.tar.gz
+[2023-05-18 08:50:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a2/4a/3e357290036c8a5007b9cf7a97749d76595f94eb5560c0c7507e8635ce76/kcli-99.0.202305180648-py3-none-any.whl
+[2023-05-18 08:50:03] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.12-py3-none-any.whl.zip tmp/cm_two-2.3.13-py3-none-any.whl.zip --markdown 20230518/c/cm-two/2.3.12-2.3.13/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo14-addon-purchase-request]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo14-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-purchase-request/14.0.2.1.2.dev8-14.0.2.1.2.dev9/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] WARNING root fetch - processPackages [topostats]: Skipping package: exceeds size limit 68741677>=10485760
+[2023-05-18 08:50:03] INFO root fetch - processPackages [topostats]: Start processing: egune
+[2023-05-18 08:50:03] INFO root fetch - main [MainThread]: End processing [topostats] error
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo13-addon-purchase-request]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo13-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo13-addon-purchase-request/13.0.4.3.1.dev7-13.0.4.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230518/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [egune]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 08:50:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305171521-py3-none-any.whl.zip tmp/kcli-99.0.202305180648-py3-none-any.whl.zip --markdown 20230518/k/kcli/99.0.202305171521-99.0.202305180648/diff.md --exclude *.pyd
+[2023-05-18 08:50:03] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/97/42/7c2dd6b04736bffa890a5c34420b59d954c6102f8fa405f25d20c6f27334/egune-0.2.8.tar.gz
+[2023-05-18 08:50:03] INFO root fetch - processPackages [egune]: Downloading https://files.pythonhosted.org/packages/f6/3f/63951447f046b34d9d429bbf3a8f8e46cd998e857461e5ba92c8b1a76ede/egune-0.2.9.tar.gz
+[2023-05-18 08:50:03] INFO root fetch - processPackages [egune]: executing diffoscope
+[2023-05-18 08:50:03] INFO root fetch - processPackages [egune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egune-0.2.8.tar.gz tmp/egune-0.2.9.tar.gz --markdown 20230518/e/egune/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 08:50:04] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-18 08:50:04] INFO root fetch - processPackages [cm-two]: Start processing: panda-common
+[2023-05-18 08:50:04] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-18 08:50:04] INFO root fetch - processPackages [flask-leaflet]: Start processing: pytest-testmon
+[2023-05-18 08:50:04] INFO root fetch - main [MainThread]: End processing [flask-leaflet]: success
+[2023-05-18 08:50:04] INFO root fetch - processPackages [panda-common]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-18 08:50:04] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.8] Old Version: [2.0.7b3]
+[2023-05-18 08:50:04] INFO root fetch - processPackages [panda-common]: Downloading https://files.pythonhosted.org/packages/36/f0/74aa206d174f1ad3dcf25defdbdad35ab710f681f05c6fc3ce5c4a45e721/panda_common-0.0.34-py2.py3-none-any.whl
+[2023-05-18 08:50:05] INFO root fetch - processPackages [panda-common]: Downloading https://files.pythonhosted.org/packages/77/d0/6c20bbbcd96ef2be951396ba8044bc332f4a6700a588ebecd89e658fe7b3/panda_common-0.0.35-py2.py3-none-any.whl
+[2023-05-18 08:50:05] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/8b/3d/5b490b8ad6778783cf4fc216cbda5a99356910f46ba1c89be3b150c222b4/pytest-testmon-2.0.8.tar.gz
+[2023-05-18 08:50:05] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-05-18 08:50:05] INFO root fetch - main [MainThread]: End processing [egune]: success
+[2023-05-18 08:50:05] INFO root fetch - processPackages [panda-common]: executing diffoscope
+[2023-05-18 08:50:05] INFO root fetch - processPackages [panda-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_common-0.0.34-py2.py3-none-any.whl.zip tmp/panda_common-0.0.35-py2.py3-none-any.whl.zip --markdown 20230518/p/panda-common/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-18 08:50:05] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-05-18 08:50:05] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.7b3.tar.gz tmp/pytest-testmon-2.0.8.tar.gz --markdown 20230518/p/pytest-testmon/2.0.7b3-2.0.8/diff.md --exclude *.pyd
+[2023-05-18 08:50:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-request]: success
+[2023-05-18 08:50:05] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-05-18 08:50:05] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request]: success
+[2023-05-18 08:50:06] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-05-18 08:50:06] INFO root fetch - main [MainThread]: End processing [panda-common]: success
+[2023-05-18 08:50:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-05-18 08:50:06] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-05-18 08:50:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-18 08:50:12] INFO root fetch - main [MainThread]: Store serial: [18150355]
