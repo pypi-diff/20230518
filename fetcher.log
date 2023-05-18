@@ -9592,3 +9592,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:17:15] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-18 09:17:18] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-05-18 09:17:18] INFO root fetch - main [MainThread]: Store serial: [18150601]
+[2023-05-18 09:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150601]
+[2023-05-18 09:22:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wzqtestb
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: references-parser
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvosscript
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-partner-incoterm
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lamineml
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfirerequests
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyroFork-dev
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-mambu
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steampunk-spotter
+[2023-05-18 09:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: VSautomatic
+[2023-05-18 09:22:27] WARNING root fetch - processPackages [wzqtestb]: Skipping, unable to determine old version
+[2023-05-18 09:22:27] INFO root fetch - main [MainThread]: End processing [wzqtestb] error
+[2023-05-18 09:22:27] INFO root fetch - processPackages [references-parser]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0.2] Old Version: [1.3.0.1]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-05-18 09:22:27] WARNING root fetch - processPackages [dragonfirerequests]: Skipping, unable to determine old version
+[2023-05-18 09:22:27] INFO root fetch - processPackages [lamineml]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-05-18 09:22:27] INFO root fetch - main [MainThread]: End processing [dragonfirerequests] error
+[2023-05-18 09:22:27] INFO root fetch - processPackages [VSautomatic]: New version: [2.2] Old Version: [2.1]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [tap-mambu]: New version: [4.0.0] Old Version: [3.1.5]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [steampunk-spotter]: New version: [1.2.8rc1] Old Version: [1.2.8a1]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.8.dev202305180720] Old Version: [2.1.6.dev202305101203]
+[2023-05-18 09:22:27] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/fd/b1/750286022bc037f5b5abb51c6c14245f89869dfb7bd52cf3f6238227198a/nvosscript-1.3.0.2.tar.gz
+[2023-05-18 09:22:27] INFO root fetch - processPackages [references-parser]: Downloading https://files.pythonhosted.org/packages/6e/02/437587f212e417d06ed90093f4f1d7735fa443f6a6a770a95e2357c461a2/references_parser-1.1.1.tar.gz
+[2023-05-18 09:22:27] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/7c/9b/436f7a447c781c62fa2f872514916c7274d8d5913f8c698da7cc7e2a8109/odoo_addon_sale_partner_incoterm-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-18 09:22:27] INFO root fetch - processPackages [tap-mambu]: Downloading https://files.pythonhosted.org/packages/79/37/a15741d1c55590d4b859eb5a029f558555ce965f310179eea2d2a5b98909/tap-mambu-3.1.5.tar.gz
+[2023-05-18 09:22:27] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/12/be/c3382e51b7fee9a00ae61bdb3d6fc783cb17a21db3441a700d671e89ad8a/lamineml-0.0.60.tar.gz
+[2023-05-18 09:22:27] INFO root fetch - processPackages [VSautomatic]: executing diffoscope
+[2023-05-18 09:22:27] INFO root fetch - processPackages [VSautomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VSautomatic-2.1.tar.gz tmp/VSautomatic-2.2.tar.gz --markdown 20230518/V/VSautomatic/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-18 09:22:27] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/a6/18/b9eba6b02792ce93f42f67740c0c588c2ab42d46864ee0142cba9a09e7fa/PyroFork-dev-2.1.6.dev202305101203.tar.gz
+[2023-05-18 09:22:28] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/60/78/6249c33d9f35e59bbc57e62a6e99da74adbf6743c81c4054e8c015120a17/steampunk_spotter-1.2.8a1-py3-none-any.whl
+[2023-05-18 09:22:28] INFO root fetch - processPackages [references-parser]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [references-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/references_parser-1.1.0.tar.gz tmp/references_parser-1.1.1.tar.gz --markdown 20230518/r/references-parser/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.1.tar.gz tmp/nvosscript-1.3.0.2.tar.gz --markdown 20230518/n/nvosscript/1.3.0.1-1.3.0.2/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.59.tar.gz tmp/lamineml-0.0.60.tar.gz --markdown 20230518/l/lamineml/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: Downloading https://files.pythonhosted.org/packages/3a/48/987be6a07620c9bcceed051d5ad666d494edfd3ab76c538de13448861ae8/odoo_addon_sale_partner_incoterm-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 09:22:28] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/ad/76/412f0f9bcb4468169539ededc52f036096be53fbd37d91633d69c999e178/steampunk_spotter-1.2.8rc1-py3-none-any.whl
+[2023-05-18 09:22:28] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/61/2f/0c0b1309aa496a5a3c67d071fac0e838caa8b54c8e3afc7967f6546f117c/PyroFork-dev-2.1.8.dev202305180720.tar.gz
+[2023-05-18 09:22:28] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [odoo-addon-sale-partner-incoterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_partner_incoterm-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_partner_incoterm-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-sale-partner-incoterm/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [tap-mambu]: Downloading https://files.pythonhosted.org/packages/2f/b4/2d06d58834c8e010a92b400245c7c30f144682c4158898148af3635b5fca/tap-mambu-4.0.0.tar.gz
+[2023-05-18 09:22:28] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-1.2.8a1-py3-none-any.whl.zip tmp/steampunk_spotter-1.2.8rc1-py3-none-any.whl.zip --markdown 20230518/s/steampunk-spotter/1.2.8a1-1.2.8rc1/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202305101203.tar.gz tmp/PyroFork-dev-2.1.8.dev202305180720.tar.gz --markdown 20230518/P/PyroFork-dev/2.1.6.dev202305101203-2.1.8.dev202305180720/diff.md --exclude *.pyd
+[2023-05-18 09:22:28] INFO root fetch - processPackages [tap-mambu]: executing diffoscope
+[2023-05-18 09:22:28] INFO root fetch - processPackages [tap-mambu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mambu-3.1.5.tar.gz tmp/tap-mambu-4.0.0.tar.gz --markdown 20230518/t/tap-mambu/3.1.5-4.0.0/diff.md --exclude *.pyd
+[2023-05-18 09:22:29] INFO root fetch - main [MainThread]: End processing [references-parser]: success
+[2023-05-18 09:22:29] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-18 09:22:29] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-18 09:22:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-partner-incoterm]: success
+[2023-05-18 09:22:29] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-05-18 09:22:30] INFO root fetch - main [MainThread]: End processing [tap-mambu]: success
+[2023-05-18 09:22:31] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
+[2023-05-18 09:22:33] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-18 09:22:33] INFO root fetch - main [MainThread]: Store serial: [18150644]
