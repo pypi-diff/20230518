@@ -11083,3 +11083,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 10:38:01] INFO root fetch - main [MainThread]: End processing [pyodps]: success
 [2023-05-18 10:38:04] INFO root fetch - main [MainThread]: End processing [great-components]: success
 [2023-05-18 10:38:04] INFO root fetch - main [MainThread]: Store serial: [18151563]
+[2023-05-18 10:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151563]
+[2023-05-18 10:43:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-smsceservices
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nista-library
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ha-services
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinyscript
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mavsdk
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cycode
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tff-nightly
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jcmutils
+[2023-05-18 10:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: catprompt
+[2023-05-18 10:43:13] INFO root fetch - processPackages [cycode]: New version: [0.2.4.dev8] Old Version: [0.2.4.dev11]
+[2023-05-18 10:43:13] INFO root fetch - processPackages [jcmutils]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-18 10:43:13] WARNING root fetch - processPackages [jupyterlab-smsceservices]: Skipping, unable to determine old version
+[2023-05-18 10:43:13] INFO root fetch - processPackages [jupyterlab-smsceservices]: Start processing: odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing
+[2023-05-18 10:43:13] INFO root fetch - main [MainThread]: End processing [jupyterlab-smsceservices] error
+[2023-05-18 10:43:13] INFO root fetch - processPackages [nista-library]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-18 10:43:13] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-18 10:43:13] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.1.tar.gz tmp/jcmutils-1.5.2.tar.gz --markdown 20230518/j/jcmutils/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-18 10:43:13] INFO root fetch - processPackages [catprompt]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [mavsdk]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [ha-services]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230518] Old Version: [0.0.1.dev20230517]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/cc/00/889b28d299a45f5ce883df8f80513ae46cb51b87bea4419954d522f90b09/cycode-0.2.4.dev11.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0]
+[2023-05-18 10:43:14] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/10/c2/27677febf9242eab652e2b5f3b8c428bacc3ca446d2b32bb9b67680ba0ad/nista_library-4.0.0.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/a4/b5/94ed5845909a10c1916fda4a403d886a9b563831ef60020a6501563efe0a/tff_nightly-0.0.1.dev20230517-py2.py3-none-any.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/56/b2/fe72e3ac2ba193e382158f8a1c5c3fe3b65096482f212bfdb57d2d9cba37/mavsdk-1.4.5-py3-none-win_amd64.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: Downloading https://files.pythonhosted.org/packages/f8/e4/de4c683a67c9df92ab9b4a257bba44c20b7b092955bfcacc81ebad5309dc/odoo_addon_l10n_ro_account_bank_statement_import_mt940_ing-15.0.1.1.0-py3-none-any.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [ha-services]: Downloading https://files.pythonhosted.org/packages/4c/db/79e05dcb177bf925a4d5f07df02a716496c7fd2878641e6723dc84ce5b68/ha-services-0.2.0rc3.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/be/db/59610f4601aff7b5a4c08dbdc4e35efb0663b9e158178e6bb6359f276143/catprompt-0.1.1.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.4.dev11.tar.gz tmp/cycode-0.2.4.dev8.tar.gz --markdown 20230518/c/cycode/0.2.4.dev11-0.2.4.dev8/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [ha-services]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [ha-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ha-services-0.2.0rc2.tar.gz tmp/ha-services-0.2.0rc3.tar.gz --markdown 20230518/h/ha-services/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [nista-library]: Downloading https://files.pythonhosted.org/packages/74/86/d30d9e47bed48801784bf96fd41d331e1dffe464d95d9701e956680f616b/nista_library-4.0.1.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230518/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/90/61/10f072f7ae1bc3df22413703219144cc3fab90a53c40fd67de5dc2a496fc/mavsdk-1.4.6-py3-none-win_amd64.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: Downloading https://files.pythonhosted.org/packages/b0/27/2f0c2e622a92acb951e17659a31cd63e7761fff9cf897520dc87aac02163/odoo_addon_l10n_ro_account_bank_statement_import_mt940_ing-15.0.1.2.0-py3-none-any.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/d7/76/094cd7426e4fd313357d450b0963769a6244d1a6f696c4e363d99a169e78/tff_nightly-0.0.1.dev20230518-py2.py3-none-any.whl
+[2023-05-18 10:43:14] INFO root fetch - processPackages [catprompt]: Downloading https://files.pythonhosted.org/packages/73/ad/f318d405d1cd3a01e2728b2810f9004aea21b2ece68634fbae0807beff1c/catprompt-0.2.0.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [nista-library]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [nista-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nista_library-4.0.0.tar.gz tmp/nista_library-4.0.1.tar.gz --markdown 20230518/n/nista-library/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230517-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230518-py2.py3-none-any.whl.zip --markdown 20230518/t/tff-nightly/0.0.1.dev20230517-0.0.1.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20230518/t/tinyscript/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-1.4.5-py3-none-win_amd64.whl.zip tmp/mavsdk-1.4.6-py3-none-win_amd64.whl.zip --markdown 20230518/m/mavsdk/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_bank_statement_import_mt940_ing-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_bank_statement_import_mt940_ing-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing/15.0.1.1.0-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-18 10:43:14] INFO root fetch - processPackages [catprompt]: executing diffoscope
+[2023-05-18 10:43:14] INFO root fetch - processPackages [catprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catprompt-0.1.1.tar.gz tmp/catprompt-0.2.0.tar.gz --markdown 20230518/c/catprompt/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 10:43:15] INFO root fetch - processPackages [jcmutils]: Start processing: openai-pygenerator
+[2023-05-18 10:43:15] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-18 10:43:15] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.0.8] Old Version: [0.0.1]
+[2023-05-18 10:43:15] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/e8/9e/0904469ff3e35dc57820cf08357baf659ea4f40b331e5fab105fd9d174f6/openai_pygenerator-0.0.1.tar.gz
+[2023-05-18 10:43:16] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/66/1a/88531ba9afc841e875958624f866666242c5ae3ff98e598a1e0beb76074d/openai_pygenerator-0.0.8.tar.gz
+[2023-05-18 10:43:16] INFO root fetch - processPackages [tinyscript]: Start processing: WebtoonScraper
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2023-05-18 10:43:16] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-05-18 10:43:16] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_pygenerator-0.0.1.tar.gz tmp/openai_pygenerator-0.0.8.tar.gz --markdown 20230518/o/openai-pygenerator/0.0.1-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 10:43:16] INFO root fetch - processPackages [catprompt]: Start processing: redcat
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [catprompt]: success
+[2023-05-18 10:43:16] INFO root fetch - processPackages [WebtoonScraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-bank-statement-import-mt940-ing]: success
+[2023-05-18 10:43:16] INFO root fetch - processPackages [redcat]: New version: [0.0.1a198] Old Version: [0.0.1a182]
+[2023-05-18 10:43:16] INFO root fetch - processPackages [WebtoonScraper]: executing diffoscope
+[2023-05-18 10:43:16] INFO root fetch - processPackages [WebtoonScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebtoonScraper-0.0.8.tar.gz tmp/WebtoonScraper-0.0.9.tar.gz --markdown 20230518/W/WebtoonScraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 10:43:16] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/77/78/5ec757be5245f4e7001b1490da58281579148e527d1e20f7b088a0b49061/redcat-0.0.1a182.tar.gz
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [ha-services]: success
+[2023-05-18 10:43:16] INFO root fetch - processPackages [redcat]: Downloading https://files.pythonhosted.org/packages/49/dd/d75ba387fe5327a2517166e83256b24b8cc88e57af4893e2fec7ce74051a/redcat-0.0.1a198.tar.gz
+[2023-05-18 10:43:16] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [nista-library]: success
+[2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2023-05-18 10:43:17] INFO root fetch - processPackages [redcat]: executing diffoscope
+[2023-05-18 10:43:17] INFO root fetch - processPackages [redcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redcat-0.0.1a182.tar.gz tmp/redcat-0.0.1a198.tar.gz --markdown 20230518/r/redcat/0.0.1a182-0.0.1a198/diff.md --exclude *.pyd
+[2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [WebtoonScraper]: success
+[2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-18 10:43:18] INFO root fetch - main [MainThread]: End processing [redcat]: success
+[2023-05-18 10:43:18] INFO root fetch - main [MainThread]: Store serial: [18151637]
