@@ -18267,3 +18267,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:08:49] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
 [2023-05-18 17:08:55] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
 [2023-05-18 17:08:55] INFO root fetch - main [MainThread]: Store serial: [18155752]
+[2023-05-18 17:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155752]
+[2023-05-18 17:14:07] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: habu-python-api
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3d
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oddsjam-api
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: obrpy
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-variables
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fstd2nc-deps
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mat-enm
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mujoco-dev
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: events-ingestion-client
+[2023-05-18 17:14:07] INFO root fetch - processPackages [habu-python-api]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [obrpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [oddsjam-api]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ansible-variables]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [fstd2nc-deps]: New version: [0.20200304.4] Old Version: [0.20200304.2]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mat-enm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [events-ingestion-client]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [dxsp]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev533126358] Old Version: [2.3.6.dev532516008]
+[2023-05-18 17:14:07] INFO root fetch - processPackages [events-ingestion-client]: Downloading https://files.pythonhosted.org/packages/02/ee/4623254737c1fbe2c62c059ab7e66cf7de66d6bdf4316bd8d9addc950abb/events_ingestion_client-1.1.0-py3-none-any.whl
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/b9/76/710fbc521fb9fc4d4d91d7b988b41884160734b256006537ec60954ae64c/ansible-variables-0.4.3.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/70/47/f8c0aa791fd4a5dc406e2ea416a922c1d8e3782b75f3636f839c1c72e575/py3d-0.0.88.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [fstd2nc-deps]: Downloading https://files.pythonhosted.org/packages/47/12/1b0676dabacc0a666bf41cb9f86f88cdebe4e9943565e009085b3179c327/fstd2nc_deps-0.20200304.2.zip
+[2023-05-18 17:14:07] INFO root fetch - processPackages [oddsjam-api]: Downloading https://files.pythonhosted.org/packages/a2/93/7e4eb1c338d9b0c987f2c20d3b063445e1a56087320f7630f85449644ea0/oddsjam-api-0.2.7.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/cf/3f/c3280f08c0489b1c4d2a28d708c9efdc314a906b50fe99a2c223559f5fa8/obrpy-0.0.7.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [habu-python-api]: Downloading https://files.pythonhosted.org/packages/cb/31/26d8d43ea48be0fdedcb34f96118a292c57ae766ad28bf9bcf384b3a2cd4/habu-python-api-2.0.2.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/e3/79/623a69be9ba9419fff908fe8aadd0fdad8910c9cf19b487bea61ed8a57c5/mujoco_dev-2.3.6.dev532516008-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/bc/37/a00c2ead302c1a69135e2a78429570933e5067d0d5fe87f2fb24229247e0/mat_enm-0.0.9.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.8.tar.gz tmp/dxsp-2.2.9.tar.gz --markdown 20230518/d/dxsp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/19/04/d2fe4b4fe18c6e01a55b43d86f96517c7bcd1ee5e9c5ece69fa097b22f0a/ansible-variables-0.5.0.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/40/f5/347bc63d43e440d564764d2043680d908093794ab8b4b36a2e0a233d1b69/obrpy-0.0.8.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [fstd2nc-deps]: Downloading https://files.pythonhosted.org/packages/5a/5d/3624dcb47e86a83f9e22252bb61a2000095b33dd7189c3348d04599955c1/fstd2nc_deps-0.20200304.4.zip
+[2023-05-18 17:14:07] INFO root fetch - processPackages [oddsjam-api]: Downloading https://files.pythonhosted.org/packages/29/1e/09410b3aa4dff6959bdf7513ea0b7d0b9f7b988b6aa73e9b2a6b0f94a5a8/oddsjam-api-0.2.8.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [events-ingestion-client]: Downloading https://files.pythonhosted.org/packages/ef/76/9743e1a0b36445063b2fabcd126565a8e6701468b92ff0e8dac56769f629/events_ingestion_client-1.2.0-py3-none-any.whl
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mat-enm]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mat-enm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_enm-0.0.8.tar.gz tmp/mat_enm-0.0.9.tar.gz --markdown 20230518/m/mat-enm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [habu-python-api]: Downloading https://files.pythonhosted.org/packages/e6/93/7536177457cb7140623497bde61e60be0dfe967f4d4e844137db098c76fe/habu-python-api-2.0.3.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/42/7f/b468d9b3eb4a15d524dfa2757a79decc39cdb1d48240d423407d8440bb99/py3d-0.0.9.tar.gz
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ansible-variables]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [ansible-variables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-variables-0.4.3.tar.gz tmp/ansible-variables-0.5.0.tar.gz --markdown 20230518/a/ansible-variables/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.7.tar.gz tmp/obrpy-0.0.8.tar.gz --markdown 20230518/o/obrpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [events-ingestion-client]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [events-ingestion-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/events_ingestion_client-1.1.0-py3-none-any.whl.zip tmp/events_ingestion_client-1.2.0-py3-none-any.whl.zip --markdown 20230518/e/events-ingestion-client/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [oddsjam-api]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [oddsjam-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddsjam-api-0.2.7.tar.gz tmp/oddsjam-api-0.2.8.tar.gz --markdown 20230518/o/oddsjam-api/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [habu-python-api]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [habu-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habu-python-api-2.0.2.tar.gz tmp/habu-python-api-2.0.3.tar.gz --markdown 20230518/h/habu-python-api/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [fstd2nc-deps]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [fstd2nc-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstd2nc_deps-0.20200304.2.zip tmp/fstd2nc_deps-0.20200304.4.zip --markdown 20230518/f/fstd2nc-deps/0.20200304.2-0.20200304.4/diff.md --exclude *.pyd
+[2023-05-18 17:14:07] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/cd/39/7a4c7c07fbb52c222861aa2d87c29c0d1adc26559e85ab98152c1c059d0b/mujoco_dev-2.3.6.dev533126358-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 17:14:07] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-18 17:14:07] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.88.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230518/p/py3d/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:14:09] INFO root fetch - processPackages [dxsp]: Start processing: bluerpc
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bluerpc]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [mat-enm]: Start processing: manim-course-utils
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [mat-enm]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [manim-course-utils]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bluerpc]: Downloading https://files.pythonhosted.org/packages/15/e4/cbde6fe106648283621375629cb57c49b0422ab0e26ea473677c322b2eae/bluerpc-0.2.7.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-18 17:14:09] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev532516008-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev533126358-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/mujoco-dev/2.3.6.dev532516008-2.3.6.dev533126358/diff.md --exclude *.pyd
+[2023-05-18 17:14:09] INFO root fetch - processPackages [manim-course-utils]: Downloading https://files.pythonhosted.org/packages/76/bf/6e97719edf52822c5386b259b4d9f52dbb6a7791af2c2453a9a21d502cb9/manim_course_utils-0.9.0.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [ansible-variables]: Start processing: pypoman
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [ansible-variables]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [pypoman]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bluerpc]: Downloading https://files.pythonhosted.org/packages/07/e7/f5218f91f8ef52da3b6ae2629ec6d525ddea2ea2b67153d97d4a0fda0b05/bluerpc-0.2.8.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [manim-course-utils]: executing diffoscope
+[2023-05-18 17:14:09] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.8.0.tar.gz tmp/manim_course_utils-0.9.0.tar.gz --markdown 20230518/m/manim-course-utils/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 17:14:09] INFO root fetch - processPackages [habu-python-api]: Start processing: bloic
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [habu-python-api]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bluerpc]: executing diffoscope
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bluerpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluerpc-0.2.7.tar.gz tmp/bluerpc-0.2.8.tar.gz --markdown 20230518/b/bluerpc/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-18 17:14:09] WARNING root fetch - processPackages [bloic]: Skipping, unable to determine old version
+[2023-05-18 17:14:09] INFO root fetch - processPackages [bloic]: Start processing: pyTelegramBotAPI
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [bloic] error
+[2023-05-18 17:14:09] INFO root fetch - processPackages [pypoman]: Downloading https://files.pythonhosted.org/packages/05/e6/c9b51a224e6bee98f8b8655dfc76208ffe426ca9477b5ebabd01fd930a74/pypoman-0.5.4.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [pyTelegramBotAPI]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [events-ingestion-client]: Start processing: rhods-model-registry-poc
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [events-ingestion-client]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [obrpy]: Start processing: api-client-lnx-edge
+[2023-05-18 17:14:09] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-18 17:14:09] INFO root fetch - processPackages [rhods-model-registry-poc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [api-client-lnx-edge]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-18 17:14:09] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/69/bb/82ca44b25038344d807eee1f0022df33c786bad73f31505618ee1dee5167/pyTelegramBotAPI-4.8.0.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [pypoman]: Downloading https://files.pythonhosted.org/packages/1c/58/2c88b2ca73cf9075cf69b1834a2b78afcf026f165139f073bc5656d23e93/pypoman-0.6.0.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [rhods-model-registry-poc]: Downloading https://files.pythonhosted.org/packages/80/af/8982be3fa293215376ba7b68dc0d717bfe7f0940984c944ff8377006bb2c/rhods_model_registry_poc-0.1.2.tar.gz
+[2023-05-18 17:14:09] INFO root fetch - processPackages [api-client-lnx-edge]: Downloading https://files.pythonhosted.org/packages/45/14/7aa3270e8ebc24b91fa02eafaf2ff54341a8e4ede7136e81f25efdb24463/api-client-lnx-edge-0.3.3.tar.gz
+[2023-05-18 17:14:10] INFO root fetch - processPackages [pypoman]: executing diffoscope
+[2023-05-18 17:14:10] INFO root fetch - processPackages [pypoman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypoman-0.5.4.tar.gz tmp/pypoman-0.6.0.tar.gz --markdown 20230518/p/pypoman/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-05-18 17:14:10] INFO root fetch - processPackages [oddsjam-api]: Start processing: Lshengpackage
+[2023-05-18 17:14:10] INFO root fetch - main [MainThread]: End processing [oddsjam-api]: success
+[2023-05-18 17:14:10] INFO root fetch - processPackages [api-client-lnx-edge]: executing diffoscope
+[2023-05-18 17:14:10] INFO root fetch - processPackages [api-client-lnx-edge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-client-lnx-edge-0.3.2.tar.gz tmp/api-client-lnx-edge-0.3.3.tar.gz --markdown 20230518/a/api-client-lnx-edge/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-18 17:14:10] INFO root fetch - processPackages [Lshengpackage]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-05-18 17:14:10] INFO root fetch - processPackages [rhods-model-registry-poc]: Downloading https://files.pythonhosted.org/packages/8d/8d/d1ddde5764ab6a8c9279d0d7cdfb18213eee4906e294b104cff20d06a930/rhods_model_registry_poc-0.1.3.tar.gz
+[2023-05-18 17:14:10] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/2e/6b/b3eaedc0a004c7a04a4b9ca941d38d0f94be4e9847dd537830a47218f436/pyTelegramBotAPI-4.9.0.tar.gz
+[2023-05-18 17:14:10] INFO root fetch - processPackages [rhods-model-registry-poc]: executing diffoscope
+[2023-05-18 17:14:10] INFO root fetch - processPackages [rhods-model-registry-poc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhods_model_registry_poc-0.1.2.tar.gz tmp/rhods_model_registry_poc-0.1.3.tar.gz --markdown 20230518/r/rhods-model-registry-poc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 17:14:10] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/90/3e/698c22fd6cbd5914faaa17fd5475ddb917d927f5dc0a7eb54c37215042ed/Lshengpackage-0.4.3.tar.gz
+[2023-05-18 17:14:10] INFO root fetch - processPackages [pyTelegramBotAPI]: executing diffoscope
+[2023-05-18 17:14:10] INFO root fetch - processPackages [pyTelegramBotAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTelegramBotAPI-4.8.0.tar.gz tmp/pyTelegramBotAPI-4.9.0.tar.gz --markdown 20230518/p/pyTelegramBotAPI/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-18 17:14:10] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-18 17:14:10] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.4.1.tar.gz tmp/Lshengpackage-0.4.3.tar.gz --markdown 20230518/L/Lshengpackage/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-18 17:14:10] INFO root fetch - processPackages [manim-course-utils]: Start processing: netbox-routing
+[2023-05-18 17:14:10] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
+[2023-05-18 17:14:10] INFO root fetch - processPackages [netbox-routing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 17:14:11] INFO root fetch - processPackages [netbox-routing]: executing diffoscope
+[2023-05-18 17:14:11] INFO root fetch - processPackages [netbox-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-routing-0.0.1.tar.gz tmp/netbox-routing-0.0.2.tar.gz --markdown 20230518/n/netbox-routing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 17:14:11] INFO root fetch - processPackages [bluerpc]: Start processing: enumerator-linux
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [bluerpc]: success
+[2023-05-18 17:14:11] WARNING root fetch - processPackages [enumerator-linux]: Skipping, unable to determine old version
+[2023-05-18 17:14:11] INFO root fetch - processPackages [enumerator-linux]: Start processing: adafruit-circuitpython-mcp4728
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [enumerator-linux] error
+[2023-05-18 17:14:11] INFO root fetch - processPackages [adafruit-circuitpython-mcp4728]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc]: success
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [pypoman]: success
+[2023-05-18 17:14:11] INFO root fetch - main [MainThread]: End processing [api-client-lnx-edge]: success
+[2023-05-18 17:14:11] INFO root fetch - processPackages [adafruit-circuitpython-mcp4728]: Downloading https://files.pythonhosted.org/packages/cc/50/66276975e5eba6cc146a096f9cfd010c76fa8094469b347aaafa76344c3b/adafruit-circuitpython-mcp4728-1.3.4.tar.gz
+[2023-05-18 17:14:12] INFO root fetch - processPackages [adafruit-circuitpython-mcp4728]: Downloading https://files.pythonhosted.org/packages/a5/d6/fc0021e6ad2d4dbc522cf0eb51be7bf9433984fa7ae2f5c1c10c423f7798/adafruit-circuitpython-mcp4728-1.3.5.tar.gz
+[2023-05-18 17:14:12] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-18 17:14:12] INFO root fetch - processPackages [adafruit-circuitpython-mcp4728]: executing diffoscope
+[2023-05-18 17:14:12] INFO root fetch - processPackages [adafruit-circuitpython-mcp4728]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-mcp4728-1.3.4.tar.gz tmp/adafruit-circuitpython-mcp4728-1.3.5.tar.gz --markdown 20230518/a/adafruit-circuitpython-mcp4728/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-18 17:14:12] INFO root fetch - main [MainThread]: End processing [netbox-routing]: success
+[2023-05-18 17:14:12] INFO root fetch - main [MainThread]: End processing [pyTelegramBotAPI]: success
+[2023-05-18 17:14:13] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-mcp4728]: success
+[2023-05-18 17:14:18] INFO root fetch - main [MainThread]: End processing [fstd2nc-deps]: success
+[2023-05-18 17:14:33] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-18 17:14:33] INFO root fetch - main [MainThread]: Store serial: [18155839]
