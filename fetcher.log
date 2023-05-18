@@ -9498,3 +9498,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:11:53] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
 [2023-05-18 09:12:00] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-18 09:12:00] INFO root fetch - main [MainThread]: Store serial: [18150541]
+[2023-05-18 09:17:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150541]
+[2023-05-18 09:17:10] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-flow
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vim-python-framework
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capeditor
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svs-dataset-downloader
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snaptrade-python-sdk
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vim-python-framework
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antchain-ak-68b3ee3230284cddaa19740dcaf251d8
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-datadog
+[2023-05-18 09:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-sale-manual-delivery
+[2023-05-18 09:17:10] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [capeditor]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230518/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.8.tar.gz tmp/vim-python-framework-0.1.9.tar.gz --markdown 20230518/v/vim-python-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.8.tar.gz tmp/vim-python-framework-0.1.9.tar.gz --markdown 20230518/v/vim-python-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [svs-dataset-downloader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: New version: [12.0.2.0.2.99.dev5] Old Version: [12.0.2.0.2.99.dev4]
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.8.tar.gz tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.9.tar.gz --markdown 20230518/a/antchain-ak-68b3ee3230284cddaa19740dcaf251d8/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.8.tar.gz tmp/antchain_ak_c3cc551641bc4a1e948f7b80bb2180f4-1.0.9.tar.gz --markdown 20230518/a/antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/d2/06/ca4d1eb3a754b4e7f18bffff6577060d699e600e0203adc6a90325fd5fd0/capeditor-0.1.6.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/c4/b8/ff139eebc2e2f1352e2c47c6fd74660921f81169eec4bf14042859573fdf/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev4-py3-none-any.whl
+[2023-05-18 09:17:10] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [svs-dataset-downloader]: Downloading https://files.pythonhosted.org/packages/9e/84/8a07d6a992927491ebf558048ecc2c0d3d6781e6adeb009422c1f71043ec/svs_dataset_downloader-0.0.2.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/e0/68/2a927be1fc63983e85a6deda5a250cba0329eb2ebcf6adc34c28d9c80084/capeditor-0.1.7.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/96/96/c7c1b375aea8b904812cf7d5c7cf9e8bcc2be4e0c7bf67412dfe2868fc5e/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev5-py3-none-any.whl
+[2023-05-18 09:17:10] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.1.6.tar.gz tmp/capeditor-0.1.7.tar.gz --markdown 20230518/c/capeditor/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [svs-dataset-downloader]: Downloading https://files.pythonhosted.org/packages/3f/a0/92a3b5f7656b5fa5a23f422ca8d7a6f92a32c8d0515fb3e48fb3379f3be7/svs_dataset_downloader-0.0.3.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2023-05-18 09:17:10] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-sale-manual-delivery/12.0.2.0.2.99.dev4-12.0.2.0.2.99.dev5/diff.md --exclude *.pyd
+[2023-05-18 09:17:10] INFO root fetch - processPackages [svs-dataset-downloader]: executing diffoscope
+[2023-05-18 09:17:10] INFO root fetch - processPackages [svs-dataset-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svs_dataset_downloader-0.0.2.tar.gz tmp/svs_dataset_downloader-0.0.3.tar.gz --markdown 20230518/s/svs-dataset-downloader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 09:17:11] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-05-18 09:17:11] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-05-18 09:17:11] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230518/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-18 09:17:11] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2023-05-18 09:17:11] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20230518/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/diff.md --exclude *.pyd
+[2023-05-18 09:17:11] INFO root fetch - processPackages [vim-python-framework]: Start processing: panda-common
+[2023-05-18 09:17:11] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 09:17:11] INFO root fetch - processPackages [panda-common]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-05-18 09:17:11] INFO root fetch - processPackages [vim-python-framework]: Start processing: unitlab
+[2023-05-18 09:17:11] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 09:17:11] INFO root fetch - processPackages [unitlab]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-18 09:17:11] INFO root fetch - processPackages [panda-common]: executing diffoscope
+[2023-05-18 09:17:11] INFO root fetch - processPackages [panda-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_common-0.0.34-py2.py3-none-any.whl.zip tmp/panda_common-0.0.35-py2.py3-none-any.whl.zip --markdown 20230518/p/panda-common/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-05-18 09:17:11] INFO root fetch - processPackages [xj-flow]: Start processing: mcl-axis
+[2023-05-18 09:17:11] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-05-18 09:17:11] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/35/f8/5335297688f7fe8db93f2d242e2145e378c0afa009efa0a061438cf72818/unitlab-1.8.1.tar.gz
+[2023-05-18 09:17:12] WARNING root fetch - processPackages [mcl-axis]: Skipping, unable to determine old version
+[2023-05-18 09:17:12] INFO root fetch - processPackages [mcl-axis]: Start processing: TPEduBot
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [mcl-axis] error
+[2023-05-18 09:17:12] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: Start processing: piperider
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: success
+[2023-05-18 09:17:12] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 09:17:12] INFO root fetch - processPackages [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: Start processing: tfq-nightly
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [antchain-ak-c3cc551641bc4a1e948f7b80bb2180f4]: success
+[2023-05-18 09:17:12] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230517] Old Version: [0.7.3.dev20230516]
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-manual-delivery]: success
+[2023-05-18 09:17:12] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-18 09:17:12] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/58/c9/57ee1546aadcca1f8847db1b9322c4b57ddd3506ff462235b5767542989e/unitlab-1.8.2.tar.gz
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [svs-dataset-downloader]: success
+[2023-05-18 09:17:12] INFO root fetch - processPackages [TPEduBot]: Downloading https://files.pythonhosted.org/packages/f5/31/2d3f72360ab82904b47e7fb54024f139fad6a3335a81770c49ae438ab560/TPEduBot-0.5.9.tar.gz
+[2023-05-18 09:17:12] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-05-18 09:17:12] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.1.tar.gz tmp/unitlab-1.8.2.tar.gz --markdown 20230518/u/unitlab/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-18 09:17:12] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/d3/7f/a8665306380fbe70a7547496d2681c457f0952a1a566d7c114e475e6dd7e/tfq_nightly-0.7.3.dev20230516-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 09:17:12] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819850>=10485760
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-18 09:17:12] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 09:17:12] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 09:17:12] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-05-18 09:17:12] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230518/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-18 09:17:12] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-05-18 09:17:13] INFO root fetch - main [MainThread]: End processing [panda-common]: success
+[2023-05-18 09:17:13] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-05-18 09:17:14] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 09:17:15] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-05-18 09:17:15] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2023-05-18 09:17:18] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-05-18 09:17:18] INFO root fetch - main [MainThread]: Store serial: [18150601]
