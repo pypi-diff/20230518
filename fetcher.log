@@ -13617,3 +13617,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:20:19] INFO root fetch - main [MainThread]: End processing [pygdal]: success
 [2023-05-18 13:20:23] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-18 13:20:23] INFO root fetch - main [MainThread]: Store serial: [18153121]
+[2023-05-18 13:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153121]
+[2023-05-18 13:25:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bm-utilities
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paracrine
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web3cli
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: formula-dispersion
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensordict-nightly
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-nightly
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alivebot
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data2latex
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchtnt-nightly
+[2023-05-18 13:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bottle
+[2023-05-18 13:25:32] INFO root fetch - processPackages [bm-utilities]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [paracrine]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [alivebot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [formula-dispersion]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [data2latex]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [web3cli]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [paracrine]: executing diffoscope
+[2023-05-18 13:25:32] INFO root fetch - processPackages [paracrine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paracrine-0.0.3-py3-none-any.whl.zip tmp/paracrine-0.0.4.tar.gz --markdown 20230518/p/paracrine/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 13:25:32] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.0.7] Old Version: [1.0.0.6]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [formula-dispersion]: executing diffoscope
+[2023-05-18 13:25:32] INFO root fetch - processPackages [formula-dispersion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formula_dispersion-0.1.0.tar.gz tmp/formula_dispersion-0.1.1.tar.gz --markdown 20230518/f/formula-dispersion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 13:25:32] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-18 13:25:32] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/5f/c1/1662979c5730250e47ce48b6575772e17532bfe8203528d7d59c63b89cee/bm_utilities-0.1.2.tar.gz
+[2023-05-18 13:25:32] INFO root fetch - processPackages [alivebot]: Downloading https://files.pythonhosted.org/packages/fd/24/d27fcac2e47147967ab1f85418cbcb4c0b42b5475591fbc126866d045027/alivebot-0.1.8.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/c9/90/9a8c85bc82510ce7e32516e518e0ac4f4404e06af804100d04951065f8e2/web3cli-0.9.5.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [data2latex]: Downloading https://files.pythonhosted.org/packages/95/b7/9f33c7a184b5db243176c951184f84d0ac95829ae0f6dcdfeb66e2b9809e/data2latex-1.0.4.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/e6/93/3f40f0601f7c1c1b822ed8aa9ccab28b22602442be96747c5967f82e4baf/nonebot_plugin_bottle-1.0.0.6.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.1.1.tar.gz tmp/bm_utilities-0.1.2.tar.gz --markdown 20230518/b/bm-utilities/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230518/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [data2latex]: Downloading https://files.pythonhosted.org/packages/88/2f/d025bf2d2e7ab8dfa929edee02c97d546fc679858b4857aac7c1afff9805/data2latex-1.0.5.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/eb/30/fcd151446408e6bf42accd107fe297a75e074f243cc09fc47fb3d75e007c/nonebot_plugin_bottle-1.0.0.7.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [alivebot]: Downloading https://files.pythonhosted.org/packages/3e/e9/f0fdb7a56bbf3642a5225069d8c38694ac1bb95082e8f8351fa5a7ec85ad/alivebot-0.1.9.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230518/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230518/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/ab/a0/48fb60c4466e49e78f096b3c9a468755ee1cb1af48ff453c70d8dd81fb0a/web3cli-0.9.6.tar.gz
+[2023-05-18 13:25:33] INFO root fetch - processPackages [data2latex]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [data2latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2latex-1.0.4.tar.gz tmp/data2latex-1.0.5.tar.gz --markdown 20230518/d/data2latex/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0.6.tar.gz tmp/nonebot_plugin_bottle-1.0.0.7.tar.gz --markdown 20230518/n/nonebot-plugin-bottle/1.0.0.6-1.0.0.7/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [alivebot]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [alivebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alivebot-0.1.8.tar.gz tmp/alivebot-0.1.9.tar.gz --markdown 20230518/a/alivebot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 13:25:33] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-05-18 13:25:33] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-0.9.5.tar.gz tmp/web3cli-0.9.6.tar.gz --markdown 20230518/w/web3cli/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 13:25:34] INFO root fetch - processPackages [paracrine]: Start processing: anything2image
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [paracrine]: success
+[2023-05-18 13:25:34] INFO root fetch - processPackages [anything2image]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-18 13:25:34] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/d4/0d/7f4f4817a1b179bb010867de98f93d6be298322a5cb813935d63bbc1aff6/anything2image-1.1.1.tar.gz
+[2023-05-18 13:25:34] WARNING root fetch - processPackages [anything2image]: Skipping package: exceeds size limit 12429891>=10485760
+[2023-05-18 13:25:34] INFO root fetch - processPackages [anything2image]: Start processing: torchrl-nightly
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [anything2image] error
+[2023-05-18 13:25:34] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:25:34] INFO root fetch - processPackages [formula-dispersion]: Start processing: shub-workflow
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [formula-dispersion]: success
+[2023-05-18 13:25:34] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-05-18 13:25:34] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: scrapautoscout
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-18 13:25:34] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-05-18 13:25:34] WARNING root fetch - processPackages [scrapautoscout]: Skipping, unable to determine old version
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [scrapautoscout] error
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [alivebot]: success
+[2023-05-18 13:25:34] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-18 13:25:34] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20230518/t/torchrl-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 13:25:34] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-18 13:25:35] INFO root fetch - main [MainThread]: End processing [data2latex]: success
+[2023-05-18 13:25:35] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-05-18 13:25:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-05-18 13:25:35] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-05-18 13:25:35] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230518/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-05-18 13:25:35] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-18 13:25:35] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-05-18 13:25:36] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-05-18 13:25:36] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-18 13:25:36] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-18 13:25:36] INFO root fetch - main [MainThread]: Store serial: [18153236]
