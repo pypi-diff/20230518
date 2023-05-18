@@ -7031,3 +7031,116 @@
 [2023-05-18 07:10:47] INFO root fetch - main [MainThread]: End processing [widget-code-input]: success
 [2023-05-18 07:13:21] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-18 07:13:21] INFO root fetch - main [MainThread]: Store serial: [18149561]
+[2023-05-18 07:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149561]
+[2023-05-18 07:18:31] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-captcha2
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nerv
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-it-ricevute-bancarie
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-it-fatturapa
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oxenai
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-fatturapa
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miquido-spawn-gitlab-job
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-l10n-it-delivery-note
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pquisby
+[2023-05-18 07:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: New version: [14.0.1.2.4.dev5] Old Version: [14.0.1.2.4.dev4]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: New version: [14.0.2.0.2.dev4] Old Version: [14.0.2.0.2.dev3]
+[2023-05-18 07:18:31] WARNING root fetch - processPackages [pquisby]: Skipping, unable to determine old version
+[2023-05-18 07:18:31] INFO root fetch - processPackages [pquisby]: Start processing: PyTraffic
+[2023-05-18 07:18:31] INFO root fetch - main [MainThread]: End processing [pquisby] error
+[2023-05-18 07:18:31] INFO root fetch - processPackages [flask-captcha2]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [nerv]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: New version: [12.0.1.2.1.99.dev9] Old Version: [12.0.1.2.1.99.dev8]
+[2023-05-18 07:18:31] WARNING root fetch - processPackages [oxenai]: Skipping, unable to determine old version
+[2023-05-18 07:18:31] INFO root fetch - processPackages [oxenai]: Start processing: odoo-addon-l10n-it-delivery-note
+[2023-05-18 07:18:31] INFO root fetch - main [MainThread]: End processing [oxenai] error
+[2023-05-18 07:18:31] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.1.1.2.dev9] Old Version: [14.0.1.1.2.dev7]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [PyTraffic]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.0.2.7] Old Version: [16.0.1.0.2.5]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa]: New version: [12.0.3.0.3.99.dev7] Old Version: [12.0.3.0.3.99.dev6]
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/e9/43/ce4ed2fa12c45f9fb1fdaebf82fc5b582293aa15759a0aa45bf35864f407/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev4-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/bb/79/159542d83c276c7f8d4cd389f6f3b822ad999aeb33021d43afe9ac5d828e/odoo14_addon_l10n_it_fatturapa-14.0.2.0.2.dev3-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [flask-captcha2]: Downloading https://files.pythonhosted.org/packages/e2/11/1b53d3628609c8725d2b4b7dfa7393d5043ccfefe07745525c3a8a00b205/flask_captcha2-0.0.0.tar.gz
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/23/b4/dcd9da9038a3067a7e221b728921a183c0283167ca61af22261ec96e17bf/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev8-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/10/60/d894f96928199a06e3b2e2cf66665fe4ca64f812748df39f03724f373f34/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev7-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/78/bf/c9ac76e2d90362153a2766fd11d2824c93f7ea16712ecea321127a1fa37c/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.5-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/2c/e1/77d553d1949fbeb78366d0d1f7d6ad7f5ca7fbdb6464da99c5cee681449e/nerv-0.2.3.tar.gz
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/2a/2b/0cf881c077a85477b91d4b1ab4eb7842f606427fd3f8397338b311cf2324/odoo12_addon_l10n_it_fatturapa-12.0.3.0.3.99.dev6-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [PyTraffic]: Downloading https://files.pythonhosted.org/packages/24/56/cc71cac6ee11cd80a56b0b32bdcd0c2a448b0272beb829663ce37548f7c0/PyTraffic-1.1.0.tar.gz
+[2023-05-18 07:18:31] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Downloading https://files.pythonhosted.org/packages/23/6c/735afd9d248dc49ff85986e9a9eb15767f90616530170cb594033c45429c/miquido_spawn_gitlab_job-1.0.5.tar.gz
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/d8/f8/e9d32e94f961eb4ba9308c1d4e20e0a41bfa2a7a8a7176a7386870f11378/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev5-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/3e/b4/1fcbf98186461ed9e097acf8da77585b46eb54b24381121027cf3038c2c3/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.7-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [nerv]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [nerv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerv-0.2.2.tar.gz tmp/nerv-0.2.3.tar.gz --markdown 20230518/n/nerv/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [PyTraffic]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [PyTraffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTraffic-1.0.9.tar.gz tmp/PyTraffic-1.1.0.tar.gz --markdown 20230518/P/PyTraffic/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miquido_spawn_gitlab_job-1.0.4.tar.gz tmp/miquido_spawn_gitlab_job-1.0.5.tar.gz --markdown 20230518/m/miquido-spawn-gitlab-job/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/c1/3c/7089a8844fc20bee0f2bd601f413bfcbb5d00f87c4f8481c186599bb2568/odoo14_addon_l10n_it_fatturapa-14.0.2.0.2.dev4-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev4-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.2.4.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-l10n-it-ricevute-bancarie/14.0.1.2.4.dev4-14.0.1.2.4.dev5/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [flask-captcha2]: Downloading https://files.pythonhosted.org/packages/30/cd/0f4ab59b9f1bf69b3cb186ba207f16e32f0b26454c324c5537b04877b232/flask_captcha2-0.1.0.tar.gz
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.7-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-it-delivery-note/16.0.1.0.2.5-16.0.1.0.2.7/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/17/59/53cd0dd27295f34ac14b1d6d922487658963707fff94ceaaac38d83bf33a/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev9-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/8f/b0/ca889c083f36c490760cc7a649e7951d742d3ccc3b0a24fed9c4ce1bc560/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev9-py3-none-any.whl
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.0.2.dev4-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-l10n-it-fatturapa/14.0.2.0.2.dev3-14.0.2.0.2.dev4/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [flask-captcha2]: executing diffoscope
+[2023-05-18 07:18:31] INFO root fetch - processPackages [flask-captcha2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_captcha2-0.0.0.tar.gz tmp/flask_captcha2-0.1.0.tar.gz --markdown 20230518/f/flask-captcha2/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 07:18:31] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/16/86/6f5cc42af334a4fb1f315ede57da84d2c5cf1d020417f33f3d6ca71aa65b/odoo12_addon_l10n_it_fatturapa-12.0.3.0.3.99.dev7-py3-none-any.whl
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa]: executing diffoscope
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_fatturapa-12.0.3.0.3.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_fatturapa-12.0.3.0.3.99.dev7-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-l10n-it-fatturapa/12.0.3.0.3.99.dev6-12.0.3.0.3.99.dev7/diff.md --exclude *.pyd
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_delivery_note-12.0.1.2.1.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-l10n-it-delivery-note/12.0.1.2.1.99.dev8-12.0.1.2.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-05-18 07:18:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.1.1.2.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-l10n-it-delivery-note/14.0.1.1.2.dev7-14.0.1.1.2.dev9/diff.md --exclude *.pyd
+[2023-05-18 07:18:33] INFO root fetch - processPackages [nerv]: Start processing: tflite-model-maker-nightly
+[2023-05-18 07:18:33] INFO root fetch - main [MainThread]: End processing [nerv]: success
+[2023-05-18 07:18:33] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Start processing: govee-led-wez
+[2023-05-18 07:18:33] INFO root fetch - main [MainThread]: End processing [miquido-spawn-gitlab-job]: success
+[2023-05-18 07:18:33] INFO root fetch - processPackages [govee-led-wez]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305180516] Old Version: [0.4.3.dev202305170509]
+[2023-05-18 07:18:33] INFO root fetch - processPackages [flask-captcha2]: Start processing: flask-captcha2
+[2023-05-18 07:18:33] INFO root fetch - main [MainThread]: End processing [flask-captcha2]: success
+[2023-05-18 07:18:33] INFO root fetch - processPackages [flask-captcha2]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-05-18 07:18:33] INFO root fetch - processPackages [govee-led-wez]: Downloading https://files.pythonhosted.org/packages/78/8d/3f40db90965a6dd4b814b9c51130e501d1e617eddd769c4e22a67c28f5b2/govee_led_wez-0.0.8.tar.gz
+[2023-05-18 07:18:33] INFO root fetch - processPackages [flask-captcha2]: executing diffoscope
+[2023-05-18 07:18:33] INFO root fetch - processPackages [flask-captcha2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_captcha2-0.0.0.tar.gz tmp/flask_captcha2-0.1.0.tar.gz --markdown 20230518/f/flask-captcha2/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/27/14/73e7b1e2ec10b193818bf7053fd4c2e8a4921535466edc523466691b3c8b/tflite-model-maker-nightly-0.4.3.dev202305170509.tar.gz
+[2023-05-18 07:18:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Start processing: rapidpe-rift-pipe
+[2023-05-18 07:18:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-ricevute-bancarie]: success
+[2023-05-18 07:18:33] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Start processing: tflite-support-nightly
+[2023-05-18 07:18:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2023-05-18 07:18:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.3.dev20230518] Old Version: [0.2.3.dev20230517]
+[2023-05-18 07:18:33] INFO root fetch - processPackages [govee-led-wez]: Downloading https://files.pythonhosted.org/packages/0f/67/177fe6b28c4daf27a321900f4cd0c2c550fe3e613ab1d9be58d668a2eea8/govee_led_wez-0.0.9.tar.gz
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/0c/40/9c4b8db21b95540d0047d2c903089127a1a88c2645ed89a00dc6d6042440/tflite-model-maker-nightly-0.4.3.dev202305180516.tar.gz
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230517] Old Version: [0.4.4.dev20221107]
+[2023-05-18 07:18:33] INFO root fetch - processPackages [govee-led-wez]: executing diffoscope
+[2023-05-18 07:18:33] INFO root fetch - processPackages [govee-led-wez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govee_led_wez-0.0.8.tar.gz tmp/govee_led_wez-0.0.9.tar.gz --markdown 20230518/g/govee-led-wez/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202305170509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305180516.tar.gz --markdown 20230518/t/tflite-model-maker-nightly/0.4.3.dev202305170509-0.4.3.dev202305180516/diff.md --exclude *.pyd
+[2023-05-18 07:18:33] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c3/14/6733ad14f148f95ea2fd2e0318dfb2416c153109c1d7ed4c4c1d80cd9001/rapidpe_rift_pipe-0.2.3.dev20230517.tar.gz
+[2023-05-18 07:18:33] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/66/55/8d88bff1e9e35f30db7c1328c65b770048fbe0901e9e8a826e1b34e423e4/tflite_support_nightly-0.4.4.dev20221107-cp38-cp38-win_amd64.whl
+[2023-05-18 07:18:34] INFO root fetch - processPackages [odoo12-addon-l10n-it-delivery-note]: Start processing: arknights-toolkit
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-delivery-note]: success
+[2023-05-18 07:18:34] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-18 07:18:34] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/90/87/04c08306216ca69540912c8ed3c4177c28a5acdfd9a9e23fbf530d4cc375/rapidpe_rift_pipe-0.2.3.dev20230518.tar.gz
+[2023-05-18 07:18:34] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/bc/60/991344fd4a4e62613e90eaaefc939b01393b059e2c790a28f73e710f849c/arknights_toolkit-0.5.6.tar.gz
+[2023-05-18 07:18:34] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17444030>=10485760
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-18 07:18:34] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-18 07:18:34] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.3.dev20230517.tar.gz tmp/rapidpe_rift_pipe-0.2.3.dev20230518.tar.gz --markdown 20230518/r/rapidpe-rift-pipe/0.2.3.dev20230517-0.2.3.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 07:18:34] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/b1/2f/dea8a06d1e2dbd66ceda044b8e196c237ddd28cf9057f7ac5bd302c0093f/tflite_support_nightly-0.4.4.dev20230517-cp39-cp39-macosx_10_11_x86_64.whl
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [PyTraffic]: success
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2023-05-18 07:18:34] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 52910394>=10485760
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-05-18 07:18:34] INFO root fetch - main [MainThread]: End processing [flask-captcha2]: success
+[2023-05-18 07:18:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
+[2023-05-18 07:18:35] INFO root fetch - main [MainThread]: End processing [govee-led-wez]: success
+[2023-05-18 07:18:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa]: success
+[2023-05-18 07:18:35] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-18 07:18:38] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-18 07:18:38] INFO root fetch - main [MainThread]: Store serial: [18149613]
