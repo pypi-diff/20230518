@@ -8451,3 +8451,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:17:44] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2023-05-18 08:18:21] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
 [2023-05-18 08:18:21] INFO root fetch - main [MainThread]: Store serial: [18150102]
+[2023-05-18 08:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150102]
+[2023-05-18 08:23:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-keycloak
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TPEduBot
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-contact-job-position
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oarepo-cli
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-partner-contact-job-position
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pretext
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: milvus-ingestion
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycelium
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-05-18 08:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rilacs
+[2023-05-18 08:23:30] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo14-addon-partner-contact-job-position]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [irene-pro]: New version: [0.0.37] Old Version: [0.0.35]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [rilacs]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pycelium]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 08:23:30] WARNING root fetch - processPackages [milvus-ingestion]: Skipping, unable to determine old version
+[2023-05-18 08:23:30] INFO root fetch - processPackages [milvus-ingestion]: Start processing: MDRMF
+[2023-05-18 08:23:30] INFO root fetch - main [MainThread]: End processing [milvus-ingestion] error
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.2.0a1684388599] Old Version: [5.2.0a1684215584]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pretext]: New version: [1.5.4.dev20230518] Old Version: [1.5.4.dev20230517]
+[2023-05-18 08:23:30] WARNING root fetch - processPackages [MDRMF]: Skipping, unable to determine old version
+[2023-05-18 08:23:30] INFO root fetch - processPackages [MDRMF]: Start processing: odoo-addon-partner-contact-job-position
+[2023-05-18 08:23:30] INFO root fetch - main [MainThread]: End processing [MDRMF] error
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:23:30] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/84/b2/8a2c184a9522e5e889b30b4f8cd6f51bd59c1bbbcf248ea1953c2ccba3c9/irene_pro-0.0.37.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo14-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/d0/1a/0ee42fa67d697d991339156f5220307eb4852e9682216e23ff33fe43ff92/odoo14_addon_partner_contact_job_position-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/7c/d0/f6509ff64f3f2a33c7ffb950a50a593f5efa997841450e868dfd4cab5593/odoo_addon_partner_contact_job_position-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/3c/72/54859206851f4a0a4072458b8f6f4670e0b13ab30fb229fdd2432b6ffa01/pulumi_keycloak-5.2.0a1684215584.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/82/95/9e651149cfc1ed38a686e651b74977c666e58c8cc7dc708a03ce9f30df70/pycelium-0.1.3.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/7c/d0/f6509ff64f3f2a33c7ffb950a50a593f5efa997841450e868dfd4cab5593/odoo_addon_partner_contact_job_position-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/94/cf/e1e46cb6fa4bf82d14c0007ba04e47a2aaf50c8c5a3323b8d91df5163bd1/pretext-1.5.4.dev20230517.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [rilacs]: Downloading https://files.pythonhosted.org/packages/56/73/09377b2dcbe7e979bac352a8f950b9807ae7103e148ffe02fcd102da17c6/rilacs-1.0.0.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-18 08:23:30] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.35.tar.gz tmp/irene_pro-0.0.37.tar.gz --markdown 20230518/i/irene-pro/0.0.35-0.0.37/diff.md --exclude *.pyd
+[2023-05-18 08:23:30] INFO root fetch - processPackages [TPEduBot]: Downloading https://files.pythonhosted.org/packages/61/b4/18b39863a06f0cb75cee405c32c632efe35f8be385e2bf614b240db43282/TPEduBot-0.5.8.tar.gz
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 08:23:30] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.2.tar.gz tmp/pycelium-0.1.3.tar.gz --markdown 20230518/p/pycelium/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 08:23:30] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-18 08:23:30] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230518/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-18 08:23:30] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 08:23:30] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.7.tar.gz tmp/TPEduBot-0.5.8.tar.gz --markdown 20230518/T/TPEduBot/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo14-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/bc/bc/78ddf27a8d427142aa3f359dfa863093b0d05d0a73d18776c90c28b5c63c/odoo14_addon_partner_contact_job_position-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/7a/c9/cbd5e1dc87593e051e349067d8f0f7aa6da693d1fbe567680c0139e7dbaa/pulumi_keycloak-5.2.0a1684388599.tar.gz
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/d6/ec/3d454e4a6d3c7b5bdb1e915fceab592cc0098a63d8884ed24e59633c6cdc/pretext-1.5.4.dev20230518.tar.gz
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/c3/56/2b7a35f19776a96b0985698f5313feee526876fab29742161b5803feba58/odoo_addon_partner_contact_job_position-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:23:31] INFO root fetch - processPackages [rilacs]: Downloading https://files.pythonhosted.org/packages/5e/69/ebb201709f336e7ef5d7d4b179399c5b0d000be6f4a16ecd648e2c9864cf/rilacs-1.0.3.tar.gz
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: Downloading https://files.pythonhosted.org/packages/c3/56/2b7a35f19776a96b0985698f5313feee526876fab29742161b5803feba58/odoo_addon_partner_contact_job_position-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:23:31] INFO root fetch - processPackages [rilacs]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [rilacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rilacs-1.0.0.tar.gz tmp/rilacs-1.0.3.tar.gz --markdown 20230518/r/rilacs/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo14-addon-partner-contact-job-position]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo14-addon-partner-contact-job-position]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_contact_job_position-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_partner_contact_job_position-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-partner-contact-job-position/14.0.1.0.1.dev6-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_job_position-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_job_position-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-partner-contact-job-position/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [odoo-addon-partner-contact-job-position]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_job_position-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_job_position-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-partner-contact-job-position/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.2.0a1684215584.tar.gz tmp/pulumi_keycloak-5.2.0a1684388599.tar.gz --markdown 20230518/p/pulumi-keycloak/5.2.0a1684215584-5.2.0a1684388599/diff.md --exclude *.pyd
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-18 08:23:31] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.4.dev20230517.tar.gz tmp/pretext-1.5.4.dev20230518.tar.gz --markdown 20230518/p/pretext/1.5.4.dev20230517-1.5.4.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 08:23:32] INFO root fetch - processPackages [irene-pro]: Start processing: pyg-nightly
+[2023-05-18 08:23:32] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-18 08:23:32] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230518] Old Version: [2.4.0.dev20230517]
+[2023-05-18 08:23:32] INFO root fetch - processPackages [pycelium]: Start processing: pyrsm
+[2023-05-18 08:23:32] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 08:23:32] INFO root fetch - processPackages [pyrsm]: New version: [0.8.2] Old Version: [0.8.1.9]
+[2023-05-18 08:23:32] INFO root fetch - processPackages [oarepo-cli]: Start processing: Alpha-Rabbit
+[2023-05-18 08:23:32] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-18 08:23:32] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 08:23:32] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-18 08:23:32] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230518/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 08:23:32] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/ea/5e/32f00e5bca8faaec2509c3c93b5da614b84687e69dada65e5f0b1ded19d4/pyrsm-0.8.1.9.tar.gz
+[2023-05-18 08:23:32] INFO root fetch - main [MainThread]: End processing [rilacs]: success
+[2023-05-18 08:23:32] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e1/3a/52e1dde2ef746100abf2975d9abe30e9baa34757daf2f8a482b7f7fd5c89/pyg_nightly-2.4.0.dev20230517.tar.gz
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/29/44/6086f920bdf83fa56601597b89ad36831aad9bef750b56e4807d2876359b/pyrsm-0.8.2.tar.gz
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/9a/9b/6ef5942790eea29b8a002f49fc628ae3d6d090ce61a78e0cca3d4c53c743/pyg_nightly-2.4.0.dev20230518.tar.gz
+[2023-05-18 08:23:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-job-position]: success
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.1.9.tar.gz tmp/pyrsm-0.8.2.tar.gz --markdown 20230518/p/pyrsm/0.8.1.9-0.8.2/diff.md --exclude *.pyd
+[2023-05-18 08:23:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-job-position]: success
+[2023-05-18 08:23:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-contact-job-position]: success
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-18 08:23:33] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230517.tar.gz tmp/pyg_nightly-2.4.0.dev20230518.tar.gz --markdown 20230518/p/pyg-nightly/2.4.0.dev20230517-2.4.0.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 08:23:34] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-18 08:23:34] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-18 08:23:34] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 08:23:35] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-05-18 08:23:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-18 08:23:38] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-18 08:23:38] INFO root fetch - main [MainThread]: Store serial: [18150142]
