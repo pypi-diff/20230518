@@ -16286,3 +16286,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:13:48] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
 [2023-05-18 15:14:08] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
 [2023-05-18 15:14:08] INFO root fetch - main [MainThread]: Store serial: [18154592]
+[2023-05-18 15:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154592]
+[2023-05-18 15:19:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SecuriPy
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-sphinx
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdown-emdash
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-django
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hjflow
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: html2notion
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-client
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-server
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ynot3
+[2023-05-18 15:19:17] WARNING root fetch - processPackages [hjflow]: Skipping, unable to determine old version
+[2023-05-18 15:19:17] INFO root fetch - processPackages [hjflow]: Start processing: assemblyline-v4-service
+[2023-05-18 15:19:17] INFO root fetch - main [MainThread]: End processing [hjflow] error
+[2023-05-18 15:19:17] WARNING root fetch - processPackages [ynot3]: Skipping, unable to determine old version
+[2023-05-18 15:19:17] INFO root fetch - processPackages [html2notion]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-18 15:19:17] INFO root fetch - processPackages [ynot3]: Start processing: assemblyline
+[2023-05-18 15:19:17] INFO root fetch - main [MainThread]: End processing [ynot3] error
+[2023-05-18 15:19:17] INFO root fetch - processPackages [SecuriPy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 15:19:17] INFO root fetch - processPackages [markdown-emdash]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/73/08/3dcdaf3432c25a282ca5539b6e4eac08871a891c8f118d8e6b98a7d03ea4/html2notion-0.1.9.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [markdown-emdash]: Downloading https://files.pythonhosted.org/packages/33/a8/d1c97a585ad049732a790f71fc741e808b5ed69b220f19fe75f6acc90b6c/markdown-emdash-0.1.0.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/6b/0e/24058d0b3bf5f437b6a09cb724c90613abcdc14f0149851e7861b50ea337/SecuriPy-1.0.0.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230518/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [markdown-emdash]: Downloading https://files.pythonhosted.org/packages/82/68/ad594d8f09a9bc37958d729fd7986d4e17e5fc92b39c2b40d78ec3cf4c7e/markdown-emdash-0.2.0.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/f8/23/5a8817eedd4d8cdc60f9637002ae635868f4aebf493ec09c31543f4ee40c/html2notion-0.2.0.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230518/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [SecuriPy]: Downloading https://files.pythonhosted.org/packages/54/00/98520cc030ce0eda8867306182e64fe58470787d8f2874b3fadb909e43ed/SecuriPy-1.0.1.tar.gz
+[2023-05-18 15:19:18] INFO root fetch - processPackages [markdown-emdash]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [markdown-emdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-emdash-0.1.0.tar.gz tmp/markdown-emdash-0.2.0.tar.gz --markdown 20230518/m/markdown-emdash/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230518/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [html2notion]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [html2notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2notion-0.1.9.tar.gz tmp/html2notion-0.2.0.tar.gz --markdown 20230518/h/html2notion/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [SecuriPy]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [SecuriPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecuriPy-1.0.0.tar.gz tmp/SecuriPy-1.0.1.tar.gz --markdown 20230518/S/SecuriPy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-18 15:19:18] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230518/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-django]: Start processing: assemblyline-core
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-apl
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [markdown-emdash]: Start processing: bugbug
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [markdown-emdash]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.780] Old Version: [0.0.779]
+[2023-05-18 15:19:20] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-18 15:19:20] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:19:20] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: kcli
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [SecuriPy]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202305181318] Old Version: [99.0.202305180753]
+[2023-05-18 15:19:20] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/6f/2d/08741183caaf1c69a8fb3b80a56e47f86e5f9c03ff82cf88c37759dba023/nbdev-apl-0.0.780.tar.gz
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-18 15:19:20] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230518/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:19:20] INFO root fetch - main [MainThread]: End processing [html2notion]: success
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-18 15:19:20] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.779.tar.gz tmp/nbdev-apl-0.0.780.tar.gz --markdown 20230518/n/nbdev-apl/0.0.779-0.0.780/diff.md --exclude *.pyd
+[2023-05-18 15:19:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d2/c0/0f219c57884da9841cf79c2a2aef31fe179baeb9114ce0b96750ed41e01e/kcli-99.0.202305180753-py3-none-any.whl
+[2023-05-18 15:19:20] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2023-05-18 15:19:20] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-05-18 15:19:20] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230518/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:19:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ca/1a/87423aff00494b9bd246c91778146a4210eeb8c4c57bb33bb2ad0bffc872/kcli-99.0.202305181318-py3-none-any.whl
+[2023-05-18 15:19:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-18 15:19:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305180753-py3-none-any.whl.zip tmp/kcli-99.0.202305181318-py3-none-any.whl.zip --markdown 20230518/k/kcli/99.0.202305180753-99.0.202305181318/diff.md --exclude *.pyd
+[2023-05-18 15:19:21] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-18 15:19:21] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-18 15:19:21] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-18 15:19:22] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-18 15:19:22] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-05-18 15:19:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-18 15:19:31] INFO root fetch - main [MainThread]: Store serial: [18154637]
