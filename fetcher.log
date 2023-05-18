@@ -16895,3 +16895,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:46:42] INFO root fetch - main [MainThread]: End processing [mitosheet3]: success
 [2023-05-18 15:46:45] INFO root fetch - main [MainThread]: End processing [appyter]: success
 [2023-05-18 15:46:45] INFO root fetch - main [MainThread]: Store serial: [18154957]
+[2023-05-18 15:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154957]
+[2023-05-18 15:51:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seaplayer
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brother-printer-fwupd
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MRItaxonomy
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conan
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conan-server
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smb3-video-autosplitter
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mythic-container
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyside-app-core
+[2023-05-18 15:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argrelay
+[2023-05-18 15:51:54] WARNING root fetch - processPackages [MRItaxonomy]: Skipping, unable to determine old version
+[2023-05-18 15:51:54] INFO root fetch - processPackages [MRItaxonomy]: Start processing: casbin-async-sqlalchemy-adapter
+[2023-05-18 15:51:54] INFO root fetch - main [MainThread]: End processing [MRItaxonomy] error
+[2023-05-18 15:51:54] INFO root fetch - processPackages [brother-printer-fwupd]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-18 15:51:54] INFO root fetch - processPackages [seaplayer]: New version: [0.4a1] Old Version: [0.3.6]
+[2023-05-18 15:51:54] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-18 15:51:54] INFO root fetch - processPackages [conan-server]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-18 15:51:54] INFO root fetch - processPackages [smb3-video-autosplitter]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 15:51:54] WARNING root fetch - processPackages [pyside-app-core]: Skipping, unable to determine old version
+[2023-05-18 15:51:54] INFO root fetch - processPackages [pyside-app-core]: Start processing: sayuDB
+[2023-05-18 15:51:54] INFO root fetch - processPackages [mythic-container]: New version: [0.2.8rc5] Old Version: [0.2.8rc4]
+[2023-05-18 15:51:54] INFO root fetch - main [MainThread]: End processing [pyside-app-core] error
+[2023-05-18 15:51:54] INFO root fetch - processPackages [conan]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-18 15:51:54] WARNING root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Skipping, unable to determine old version
+[2023-05-18 15:51:54] INFO root fetch - processPackages [casbin-async-sqlalchemy-adapter]: Start processing: sowing
+[2023-05-18 15:51:54] INFO root fetch - main [MainThread]: End processing [casbin-async-sqlalchemy-adapter] error
+[2023-05-18 15:51:54] INFO root fetch - processPackages [argrelay]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-18 15:51:54] INFO root fetch - processPackages [sayuDB]: New version: [1.1.4] Old Version: [1.0.0]
+[2023-05-18 15:51:55] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/3c/5b/e827e0395d0124f0dacf3541f55422eede7b78fe5e29d7cb38725d3e593f/seaplayer-0.3.6.tar.gz
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [sowing]: Skipping, unable to determine old version
+[2023-05-18 15:51:55] INFO root fetch - processPackages [sowing]: Start processing: python-11-40-modules
+[2023-05-18 15:51:55] INFO root fetch - main [MainThread]: End processing [sowing] error
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/20/f4/cf3035f9010390f5e4c524bf4bfba7001263c91f464e64bb7720f36e9fcc/conan-2.0.4.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [brother-printer-fwupd]: Downloading https://files.pythonhosted.org/packages/c0/26/0402eb029f0d40a37d8f02c8f1e55617eb4b411dd499d659226b2c98cbe7/brother_printer_fwupd-0.5.1.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/eb/c3/649ae1019658fa0b652c6991602be83550f976ce6bc85565925c3bb61f39/conan-server-2.0.4.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/a2/40/8fca8376a3a4710789dab02cbb1828053253ab4a653e34f987de308d56e4/smb3-video-autosplitter-0.2.0.tar.gz
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev8]
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 15:51:55] INFO root fetch - processPackages [brother-printer-fwupd]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [brother-printer-fwupd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brother_printer_fwupd-0.5.0.tar.gz tmp/brother_printer_fwupd-0.5.1.tar.gz --markdown 20230518/b/brother-printer-fwupd/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/66/ee/1ef7c744c36566d676d205ac76746844c3a1e79530f11add600b1ff2cf8b/PatryksAutoAI-1.2.6.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/38/1c/0fc649c0654727f5a84099f24179586db5064e64489c8f7c5a478eaa0317/sayuDB-1.0.0.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [smb3-video-autosplitter]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [smb3-video-autosplitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb3-video-autosplitter-0.1.0.tar.gz tmp/smb3-video-autosplitter-0.2.0.tar.gz --markdown 20230518/s/smb3-video-autosplitter/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [python-11-40-modules]: Skipping, unable to determine old version
+[2023-05-18 15:51:55] INFO root fetch - main [MainThread]: End processing [python-11-40-modules] error
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 15:51:55] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.5.tar.gz tmp/PatryksAutoAI-1.2.6.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/9e/14/dd3e7be312914fccfb8b4a8fef7773536cd6bbd9b331fa7f1bdf6a625988/mythic_container-0.2.8rc5.tar.gz
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev8]
+[2023-05-18 15:51:55] INFO root fetch - processPackages [seaplayer]: Downloading https://files.pythonhosted.org/packages/8e/8f/9eef79fa7628e8afab5d171d1922af6c9c23e8a27217dbf29d910066fce0/seaplayer-0.4a1.tar.gz
+[2023-05-18 15:51:55] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 15:51:55] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan-server]: Downloading https://files.pythonhosted.org/packages/59/44/22d5c0edaf9b49e73cf8d6952c276a76975e70f2890ef48648cb2ace27b1/conan-server-2.0.5.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/e1/c3/636a509e781fd255e114f199108451efd4ec5f297d989b4724cdf40fab03/conan-2.0.5.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.8rc4.tar.gz tmp/mythic_container-0.2.8rc5.tar.gz --markdown 20230518/m/mythic-container/0.2.8rc4-0.2.8rc5/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [sayuDB]: Downloading https://files.pythonhosted.org/packages/92/2a/1a4ea0f487aff9b004c261f7b48a9764b62c9bd71b333e9982cefc08e7ce/sayuDB-1.1.4.tar.gz
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan-server]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-server-2.0.4.tar.gz tmp/conan-server-2.0.5.tar.gz --markdown 20230518/c/conan-server/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [seaplayer]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [seaplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplayer-0.3.6.tar.gz tmp/seaplayer-0.4a1.tar.gz --markdown 20230518/s/seaplayer/0.3.6-0.4a1/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.0.4.tar.gz tmp/conan-2.0.5.tar.gz --markdown 20230518/c/conan/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-18 15:51:55] INFO root fetch - processPackages [sayuDB]: executing diffoscope
+[2023-05-18 15:51:55] INFO root fetch - processPackages [sayuDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayuDB-1.0.0.tar.gz tmp/sayuDB-1.1.4.tar.gz --markdown 20230518/s/sayuDB/1.0.0-1.1.4/diff.md --exclude *.pyd
+[2023-05-18 15:51:56] INFO root fetch - main [MainThread]: End processing [brother-printer-fwupd]: success
+[2023-05-18 15:51:56] INFO root fetch - main [MainThread]: End processing [seaplayer]: success
+[2023-05-18 15:51:56] INFO root fetch - main [MainThread]: End processing [smb3-video-autosplitter]: success
+[2023-05-18 15:51:56] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 15:51:57] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-18 15:51:57] INFO root fetch - main [MainThread]: End processing [sayuDB]: success
+[2023-05-18 15:51:59] INFO root fetch - main [MainThread]: End processing [conan-server]: success
+[2023-05-18 15:52:00] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2023-05-18 15:52:00] INFO root fetch - main [MainThread]: Store serial: [18155007]
