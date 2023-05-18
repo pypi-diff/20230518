@@ -11746,3 +11746,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:15:00] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-18 11:15:01] INFO root fetch - main [MainThread]: End processing [mir-ml-utils]: success
 [2023-05-18 11:15:01] INFO root fetch - main [MainThread]: Store serial: [18151957]
+[2023-05-18 11:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151957]
+[2023-05-18 11:20:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playmolecule
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: butler-connect
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycelium
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TPEduBot
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydflow
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sql-pylib
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-daf-butler
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iosense-connect
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ory-client
+[2023-05-18 11:20:11] INFO root fetch - processPackages [pycelium]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [butler-connect]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230518.7.52.527498] Old Version: [20230518.5.35.71686]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [sql-pylib]: New version: [0.13] Old Version: [0.12]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:20:11] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:20:11] INFO root fetch - processPackages [playmolecule]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 11:20:11] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.7.tar.gz tmp/pycelium-0.1.8.tar.gz --markdown 20230518/p/pycelium/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-18 11:20:11] INFO root fetch - processPackages [iosense-connect]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [butler-connect]: executing diffoscope
+[2023-05-18 11:20:11] INFO root fetch - processPackages [butler-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butler-connect-0.5.2.tar.gz tmp/butler-connect-0.5.3.tar.gz --markdown 20230518/b/butler-connect/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-18 11:20:11] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-05-18 11:20:11] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230518/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-05-18 11:20:11] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c6/f5/52d96d7267c0ebe7d903f1dc302c488158a2f2c48d7699055a927bcd0a0e/certora-cli-alpha-master-20230518.5.35.71686.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [sql-pylib]: Downloading https://files.pythonhosted.org/packages/e3/07/e403c2c4e046d3c5328b5193e0f73665ca12c7975b24c55bf4571dd4e3f1/sql-pylib-0.13.tar.gz
+[2023-05-18 11:20:12] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38975821>=10485760
+[2023-05-18 11:20:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: GeoAlchemy2
+[2023-05-18 11:20:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-18 11:20:12] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/72/8a/0cd35ac6cf4cc613a1e8f693c9adaa54539463b6721587cf7e90b208f374/iosense_connect-2.1.6.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [sql-pylib]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [sql-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql-pylib-0.12.tar.gz tmp/sql-pylib-0.13.tar.gz --markdown 20230518/s/sql-pylib/0.12-0.13/diff.md --exclude *.pyd
+[2023-05-18 11:20:12] INFO root fetch - processPackages [GeoAlchemy2]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 11:20:12] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/98/c2/0f470f1b0d50d1b4dae5ab289ca300fae2c536207371f374d545a4671a66/playmolecule-1.7.9.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/3e/68/d5b7f63729baa1893e224ee71551fa6bc0a9659e55746814b715c1011713/iosense_connect-2.1.7.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/79/7c/69ef8bc33894baa1eaddd6eecf182318aa20eb8d1974b8a9413a818a8a13/GeoAlchemy2-0.9.3.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230518/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-05-18 11:20:12] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.7.8.tar.gz tmp/playmolecule-1.7.9.tar.gz --markdown 20230518/p/playmolecule/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-05-18 11:20:12] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-2.1.6.tar.gz tmp/iosense_connect-2.1.7.tar.gz --markdown 20230518/i/iosense-connect/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-18 11:20:12] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/f6/48/80e48251e1e0cf94a6e809252a545c32d7644b737a10e3ce06ba87bc7f6d/GeoAlchemy2-0.9.4.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-05-18 11:20:12] INFO root fetch - processPackages [GeoAlchemy2]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [GeoAlchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoAlchemy2-0.9.3.tar.gz tmp/GeoAlchemy2-0.9.4.tar.gz --markdown 20230518/G/GeoAlchemy2/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 11:20:12] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-05-18 11:20:12] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230518/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-18 11:20:13] INFO root fetch - processPackages [butler-connect]: Start processing: hdcc
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [butler-connect]: success
+[2023-05-18 11:20:13] WARNING root fetch - processPackages [hdcc]: Skipping, unable to determine old version
+[2023-05-18 11:20:13] INFO root fetch - processPackages [hdcc]: Start processing: pm-slack
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [hdcc] error
+[2023-05-18 11:20:13] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.11]
+[2023-05-18 11:20:13] INFO root fetch - processPackages [sql-pylib]: Start processing: zwkit
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [sql-pylib]: success
+[2023-05-18 11:20:13] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-18 11:20:13] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/43/0b/a044a715ba3eaea247175b11e0d10bd41e348c85f04f13a7962b1d81fd67/pm_slack-0.2.11.tar.gz
+[2023-05-18 11:20:13] INFO root fetch - processPackages [TPEduBot]: Start processing: spanishconjugator
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:20:13] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-18 11:20:13] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.11.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230518/p/pm-slack/0.2.11-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 11:20:13] INFO root fetch - processPackages [zwkit]: Downloading https://files.pythonhosted.org/packages/0d/73/8d80546fa4d9e78bee5c3de435d1aa9eb1f51aaa0fe5f15c57f610552c77/zwkit-0.4.8.tar.gz
+[2023-05-18 11:20:13] INFO root fetch - processPackages [playmolecule]: Start processing: aliyun-python-sdk-airticketopen
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-18 11:20:13] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-05-18 11:20:13] INFO root fetch - processPackages [iosense-connect]: Start processing: spanishconjugator
+[2023-05-18 11:20:13] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2023-05-18 11:20:13] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-05-18 11:20:13] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-1.0.0.tar.gz tmp/aliyun-python-sdk-airticketopen-1.0.5.tar.gz --markdown 20230518/a/aliyun-python-sdk-airticketopen/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-05-18 11:20:14] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-05-18 11:20:14] INFO root fetch - processPackages [zwkit]: Downloading https://files.pythonhosted.org/packages/aa/88/5b45ace5e9ba0b3218d3a90d9666e2b36f097ec6fef13233ec5c10b3ff0b/zwkit-0.4.9.tar.gz
+[2023-05-18 11:20:14] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-05-18 11:20:14] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230518/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-18 11:20:14] INFO root fetch - main [MainThread]: End processing [GeoAlchemy2]: success
+[2023-05-18 11:20:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-18 11:20:14] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-18 11:20:14] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-18 11:20:14] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 11:20:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-18 11:20:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230518/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-18 11:20:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-18 11:20:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230518/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-18 11:20:15] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-05-18 11:20:15] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-05-18 11:20:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-18 11:20:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-18 11:20:16] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-05-18 11:20:26] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-05-18 11:20:26] INFO root fetch - main [MainThread]: Store serial: [18152015]
