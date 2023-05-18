@@ -17703,3 +17703,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:41:25] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-18 16:41:26] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2023-05-18 16:41:26] INFO root fetch - main [MainThread]: Store serial: [18155463]
+[2023-05-18 16:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155463]
+[2023-05-18 16:46:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shelly-touchupDump
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProtCHOIR
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prev-gen
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hftbacktest
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: r2diaphora
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rhods-model-registry-poc
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: charex
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-code-ui
+[2023-05-18 16:46:35] WARNING root fetch - processPackages [rhods-model-registry-poc]: Skipping, unable to determine old version
+[2023-05-18 16:46:35] INFO root fetch - processPackages [rhods-model-registry-poc]: Start processing: manim-course-utils
+[2023-05-18 16:46:35] INFO root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: New version: [20230518.14.42.325614] Old Version: [20230518.11.48.534614]
+[2023-05-18 16:46:35] INFO root fetch - main [MainThread]: End processing [rhods-model-registry-poc] error
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ProtCHOIR]: New version: [1.2.9] Old Version: [1.2.7]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [manim-course-utils]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [prev-gen]: New version: [2.0.4] Old Version: [2.0.2]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [hftbacktest]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [manim-course-utils]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.4.0.tar.gz tmp/manim_course_utils-0.5.0.tar.gz --markdown 20230518/m/manim-course-utils/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] WARNING root fetch - processPackages [charex]: Skipping, unable to determine old version
+[2023-05-18 16:46:35] INFO root fetch - processPackages [r2diaphora]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [charex]: Start processing: odoo13-addon-stock-picking-orig-dest-link
+[2023-05-18 16:46:35] INFO root fetch - main [MainThread]: End processing [charex] error
+[2023-05-18 16:46:35] INFO root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Downloading https://files.pythonhosted.org/packages/57/aa/7fd19b926eb7997b8941bbaa9ea572e11512726e67eec7a9a1ae63d39620/certora-cli-alpha-shelly-touchupDump-20230518.11.48.534614.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ProtCHOIR]: Downloading https://files.pythonhosted.org/packages/87/4b/d59fe82cef80fdb7cd9fbec0f0d43481a9dead5a8fd658c196b305c5320a/ProtCHOIR-1.2.7-py3-none-any.whl
+[2023-05-18 16:46:35] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/4f/36/f7911a32b19b954cc3a7e21ba30d110205fd89ca107a4d40fa7fcf9fac6d/PatryksAutoAI-1.2.7.tar.gz
+[2023-05-18 16:46:35] WARNING root fetch - processPackages [odoo13-addon-stock-picking-orig-dest-link]: Skipping, unable to determine old version
+[2023-05-18 16:46:35] INFO root fetch - processPackages [odoo13-addon-stock-picking-orig-dest-link]: Start processing: nonebot-plugin-imgexploration
+[2023-05-18 16:46:35] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-picking-orig-dest-link] error
+[2023-05-18 16:46:35] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-18 16:46:35] INFO root fetch - processPackages [hftbacktest]: Downloading https://files.pythonhosted.org/packages/6d/38/52f31767007c023a9946ed41c8b10d06b4a95341a2388348722eea6503f7/hftbacktest-1.5.5.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/a5/07/551e179129f2883c99e87e55e6b0f9e43221fffb74d24221daaaf69e1ff5/r2diaphora-0.2.4.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [prev-gen]: Downloading https://files.pythonhosted.org/packages/64/83/5503d20c4989dcd96e4bf3c3542d17e76dfe6e6a196152140bf099ee503b/prev_gen-2.0.2-py3-none-any.whl
+[2023-05-18 16:46:35] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.6.tar.gz tmp/PatryksAutoAI-1.2.7.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/6e/8e/528f7aa03dc8a2d0f2b3d8a150e1e9f5a864d300b9a141cc02c2888828e7/apicurio_registry_python_sdk_preview-2.4.4.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_imgexploration-0.2.4.tar.gz tmp/nonebot-plugin-imgexploration-0.2.5.tar.gz --markdown 20230518/n/nonebot-plugin-imgexploration/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.3.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.4.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ProtCHOIR]: Downloading https://files.pythonhosted.org/packages/91/a3/5877899741382e0285e7667792abf19a633be442d39d02ee1134c157502c/ProtCHOIR-1.2.9-py3-none-any.whl
+[2023-05-18 16:46:35] WARNING root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Skipping package: exceeds size limit 38975712>=10485760
+[2023-05-18 16:46:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-touchupDump] error
+[2023-05-18 16:46:35] INFO root fetch - processPackages [prev-gen]: Downloading https://files.pythonhosted.org/packages/32/91/f103788383b3f235bb13069fc54c06c19b42b5649042188fbf3552c9582b/prev_gen-2.0.4-py3-none-any.whl
+[2023-05-18 16:46:35] INFO root fetch - processPackages [r2diaphora]: Downloading https://files.pythonhosted.org/packages/bb/34/8e53a2016bb991ecae4a742431217b59c79afee4f75a009a864c1ace6d73/r2diaphora-0.2.5.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [hftbacktest]: Downloading https://files.pythonhosted.org/packages/d1/57/d8423f24d8457d52a238af125828ec6be2d9d568352eee714d1eb811808c/hftbacktest-1.6.0.tar.gz
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ProtCHOIR]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [ProtCHOIR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProtCHOIR-1.2.7-py3-none-any.whl.zip tmp/ProtCHOIR-1.2.9-py3-none-any.whl.zip --markdown 20230518/P/ProtCHOIR/1.2.7-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [r2diaphora]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [r2diaphora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2diaphora-0.2.4.tar.gz tmp/r2diaphora-0.2.5.tar.gz --markdown 20230518/r/r2diaphora/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [prev-gen]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [prev-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prev_gen-2.0.2-py3-none-any.whl.zip tmp/prev_gen-2.0.4-py3-none-any.whl.zip --markdown 20230518/p/prev-gen/2.0.2-2.0.4/diff.md --exclude *.pyd
+[2023-05-18 16:46:35] INFO root fetch - processPackages [hftbacktest]: executing diffoscope
+[2023-05-18 16:46:35] INFO root fetch - processPackages [hftbacktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hftbacktest-1.5.5.tar.gz tmp/hftbacktest-1.6.0.tar.gz --markdown 20230518/h/hftbacktest/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-05-18 16:46:36] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
+[2023-05-18 16:46:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-imgexploration]: success
+[2023-05-18 16:46:37] INFO root fetch - main [MainThread]: End processing [ProtCHOIR]: success
+[2023-05-18 16:46:37] INFO root fetch - main [MainThread]: End processing [hftbacktest]: success
+[2023-05-18 16:46:37] INFO root fetch - main [MainThread]: End processing [prev-gen]: success
+[2023-05-18 16:46:37] INFO root fetch - main [MainThread]: End processing [r2diaphora]: success
+[2023-05-18 16:46:37] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 16:46:38] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 16:46:39] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 16:46:39] INFO root fetch - main [MainThread]: Store serial: [18155503]
