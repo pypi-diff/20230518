@@ -17612,3 +17612,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:36:03] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
 [2023-05-18 16:36:08] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-18 16:36:08] INFO root fetch - main [MainThread]: Store serial: [18155421]
+[2023-05-18 16:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155421]
+[2023-05-18 16:41:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyimclsts
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: velour-client
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steampunk-spotter
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: render-engine
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ntvHaber
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ape-pokt
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libcnmc
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-imgexploration
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiledb-cloud
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipe21
+[2023-05-18 16:41:19] INFO root fetch - processPackages [steampunk-spotter]: New version: [1.2.8rc1] Old Version: [1.2.8a1]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [pipe21]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [pipe21]: executing diffoscope
+[2023-05-18 16:41:19] INFO root fetch - processPackages [pipe21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe21-1.8.0.tar.gz tmp/pipe21-1.9.0.tar.gz --markdown 20230518/p/pipe21/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 16:41:19] INFO root fetch - processPackages [pyimclsts]: New version: [0.1.1.6] Old Version: [0.1.1.5]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-05-18 16:41:19] INFO root fetch - processPackages [velour-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-1.2.8a1-py3-none-any.whl.zip tmp/steampunk_spotter-1.2.8rc1-py3-none-any.whl.zip --markdown 20230518/s/steampunk-spotter/1.2.8a1-1.2.8rc1/diff.md --exclude *.pyd
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ape-pokt]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [ntvHaber]: New version: [1.9] Old Version: [1.8]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-05-18 16:41:19] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230518/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-05-18 16:41:19] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-18 16:41:19] INFO root fetch - processPackages [render-engine]: New version: [2023.5.2a2] Old Version: [2023.5.2a1]
+[2023-05-18 16:41:20] INFO root fetch - processPackages [pyimclsts]: Downloading https://files.pythonhosted.org/packages/22/84/532024309c1a86e166b1282bfd3ff293f46bfb09d72dab840cf201201826/pyimclsts-0.1.1.5.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/d1/78/7a64d0b61b909cd59d77f4a50396a8ef0c57dfd347cdbe104bff68afe79b/render_engine-2023.5.2a1.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ape-pokt]: Downloading https://files.pythonhosted.org/packages/af/46/e358853f74d4939854bee75ad3b37b9c06e54bb533a4f2f0f4d8b655d798/ape-pokt-0.1.0.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ntvHaber]: Downloading https://files.pythonhosted.org/packages/bd/af/73933bca84cac0fa891bf006217b7c991831b9edb990b9b6e7400f8c3663/ntvHaber-1.8.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/2a/fa/e94486d0e63fe47909e770d226ca27cb43fddcb7ba2a1ea9c4d9e7bc29db/nonebot_plugin_imgexploration-0.2.4.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [velour-client]: Downloading https://files.pythonhosted.org/packages/78/46/f7d2f79e982d4da4dcbc2b016679fc3bc94b1629aff02fcbec14e05615e1/velour-client-0.1.1.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [pyimclsts]: Downloading https://files.pythonhosted.org/packages/f3/21/2c99f309d6db2254fc9106824ada608343cb7af753a9c60b5cb7c952b50d/pyimclsts-0.1.1.6.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230518/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ape-pokt]: Downloading https://files.pythonhosted.org/packages/65/5e/9fe82faaaea2839dedd1a5f88141d34534c209567f1609369ec556d20ddf/ape-pokt-0.1.2.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: Downloading https://files.pythonhosted.org/packages/bd/a5/132e2e8fccdf5cca31c32ca4d16d8414b12efe304cd510d7b8988a0ae849/nonebot-plugin-imgexploration-0.2.5.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ntvHaber]: Downloading https://files.pythonhosted.org/packages/eb/2e/cf6283bba65c4bff156870f1bfc3a5ed75bb3a8b1d108da316f41d8097e5/ntvHaber-1.9.tar.gz
+[2023-05-18 16:41:20] INFO root fetch - processPackages [velour-client]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [velour-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velour-client-0.1.0.tar.gz tmp/velour-client-0.1.1.tar.gz --markdown 20230518/v/velour-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ape-pokt]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ape-pokt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-pokt-0.1.0.tar.gz tmp/ape-pokt-0.1.2.tar.gz --markdown 20230518/a/ape-pokt/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [nonebot-plugin-imgexploration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_imgexploration-0.2.4.tar.gz tmp/nonebot-plugin-imgexploration-0.2.5.tar.gz --markdown 20230518/n/nonebot-plugin-imgexploration/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ntvHaber]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [ntvHaber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntvHaber-1.8.tar.gz tmp/ntvHaber-1.9.tar.gz --markdown 20230518/n/ntvHaber/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [pyimclsts]: executing diffoscope
+[2023-05-18 16:41:20] INFO root fetch - processPackages [pyimclsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimclsts-0.1.1.5.tar.gz tmp/pyimclsts-0.1.1.6.tar.gz --markdown 20230518/p/pyimclsts/0.1.1.5-0.1.1.6/diff.md --exclude *.pyd
+[2023-05-18 16:41:20] INFO root fetch - processPackages [render-engine]: Downloading https://files.pythonhosted.org/packages/6f/82/f0508de4e4f577fb6b9cbe6ca8bba7955276351d55a08e9613c72956dd41/render_engine-2023.5.2a2.tar.gz
+[2023-05-18 16:41:21] INFO root fetch - processPackages [render-engine]: executing diffoscope
+[2023-05-18 16:41:21] INFO root fetch - processPackages [render-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/render_engine-2023.5.2a1.tar.gz tmp/render_engine-2023.5.2a2.tar.gz --markdown 20230518/r/render-engine/2023.5.2a1-2023.5.2a2/diff.md --exclude *.pyd
+[2023-05-18 16:41:21] INFO root fetch - processPackages [pipe21]: Start processing: cornifer
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [pipe21]: success
+[2023-05-18 16:41:21] INFO root fetch - processPackages [cornifer]: New version: [0.6] Old Version: [0.5.1]
+[2023-05-18 16:41:21] INFO root fetch - processPackages [cornifer]: Downloading https://files.pythonhosted.org/packages/65/e5/b9d32d4af00937c62d1468c36e83702119c287ec8437ef9ebed51df1d574/cornifer-0.5.1.tar.gz
+[2023-05-18 16:41:21] INFO root fetch - processPackages [steampunk-spotter]: Start processing: PySpeaker
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-05-18 16:41:21] WARNING root fetch - processPackages [PySpeaker]: Skipping, unable to determine old version
+[2023-05-18 16:41:21] INFO root fetch - processPackages [PySpeaker]: Start processing: mycalcpackage
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [PySpeaker] error
+[2023-05-18 16:41:21] WARNING root fetch - processPackages [mycalcpackage]: Skipping, unable to determine old version
+[2023-05-18 16:41:21] INFO root fetch - processPackages [mycalcpackage]: Start processing: r-repeat
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [mycalcpackage] error
+[2023-05-18 16:41:21] INFO root fetch - processPackages [r-repeat]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-18 16:41:21] INFO root fetch - processPackages [cornifer]: Downloading https://files.pythonhosted.org/packages/17/8d/411871c45b583185af46b5f2768c86b8a799635f62589248bde613084827/cornifer-0.6.tar.gz
+[2023-05-18 16:41:21] INFO root fetch - processPackages [r-repeat]: Downloading https://files.pythonhosted.org/packages/61/d8/6bdc25da9e0fd6758f89277dc217ba41d30f8d8c870d9f4cd95fe50e5032/r_repeat-0.0.1-py3-none-any.whl
+[2023-05-18 16:41:21] INFO root fetch - processPackages [cornifer]: executing diffoscope
+[2023-05-18 16:41:21] INFO root fetch - processPackages [cornifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornifer-0.5.1.tar.gz tmp/cornifer-0.6.tar.gz --markdown 20230518/c/cornifer/0.5.1-0.6/diff.md --exclude *.pyd
+[2023-05-18 16:41:21] INFO root fetch - processPackages [velour-client]: Start processing: magic-duckdb
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [velour-client]: success
+[2023-05-18 16:41:21] INFO root fetch - processPackages [magic-duckdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 16:41:21] INFO root fetch - main [MainThread]: End processing [ape-pokt]: success
+[2023-05-18 16:41:22] INFO root fetch - main [MainThread]: End processing [pyimclsts]: success
+[2023-05-18 16:41:22] INFO root fetch - processPackages [r-repeat]: Downloading https://files.pythonhosted.org/packages/8f/14/bfd05633c8d20cde416eed1c5bdfb3071194929ea2dc2ee01cf002d59eac/r_repeat-0.1.0-py3-none-any.whl
+[2023-05-18 16:41:22] INFO root fetch - processPackages [magic-duckdb]: Downloading https://files.pythonhosted.org/packages/d7/a6/fae3b9ab3e1aa365235d68ea0588d664699dd72e59124b766c77ea251530/magic_duckdb-0.1.8-py3-none-any.whl
+[2023-05-18 16:41:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-imgexploration]: success
+[2023-05-18 16:41:22] INFO root fetch - processPackages [r-repeat]: executing diffoscope
+[2023-05-18 16:41:22] INFO root fetch - processPackages [r-repeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r_repeat-0.0.1-py3-none-any.whl.zip tmp/r_repeat-0.1.0-py3-none-any.whl.zip --markdown 20230518/r/r-repeat/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 16:41:22] INFO root fetch - processPackages [magic-duckdb]: Downloading https://files.pythonhosted.org/packages/c9/e1/c74dedc15194d0a2455339f5ade57dee369c007bcaa618930294819ef285/magic_duckdb-0.1.9-py3-none-any.whl
+[2023-05-18 16:41:22] INFO root fetch - processPackages [magic-duckdb]: executing diffoscope
+[2023-05-18 16:41:22] INFO root fetch - processPackages [magic-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic_duckdb-0.1.8-py3-none-any.whl.zip tmp/magic_duckdb-0.1.9-py3-none-any.whl.zip --markdown 20230518/m/magic-duckdb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 16:41:22] INFO root fetch - main [MainThread]: End processing [ntvHaber]: success
+[2023-05-18 16:41:22] INFO root fetch - main [MainThread]: End processing [render-engine]: success
+[2023-05-18 16:41:23] INFO root fetch - main [MainThread]: End processing [cornifer]: success
+[2023-05-18 16:41:23] INFO root fetch - main [MainThread]: End processing [r-repeat]: success
+[2023-05-18 16:41:23] INFO root fetch - main [MainThread]: End processing [magic-duckdb]: success
+[2023-05-18 16:41:25] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-05-18 16:41:26] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-05-18 16:41:26] INFO root fetch - main [MainThread]: Store serial: [18155463]
