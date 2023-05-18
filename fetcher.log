@@ -8013,3 +8013,112 @@
 [2023-05-18 08:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
 [2023-05-18 08:01:54] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2023-05-18 08:01:54] INFO root fetch - main [MainThread]: Store serial: [18149949]
+[2023-05-18 08:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149949]
+[2023-05-18 08:07:04] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astrojs-aws.construct
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aiven
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioinfor-tools
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-confluentcloud
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyTraffic
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpqcv
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-dingtalk
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycelium
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qodex-recognition
+[2023-05-18 08:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-dnsimple
+[2023-05-18 08:07:04] INFO root fetch - processPackages [bioinfor-tools]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [PyTraffic]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [astrojs-aws.construct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [qodex-recognition]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.3.0a1684387394] Old Version: [6.3.0a1684214755]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1684387743] Old Version: [3.5.0a1684214792]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pycelium]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.15] Old Version: [2.0.14]
+[2023-05-18 08:07:04] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230518/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [bioinfor-tools]: Downloading https://files.pythonhosted.org/packages/8b/d3/1ddc9fbe50664d777a792d37521752384336f415c3be1f3516d6ee9f8311/bioinfor_tools-0.1.1-py3-none-any.whl
+[2023-05-18 08:07:04] INFO root fetch - processPackages [PyTraffic]: Downloading https://files.pythonhosted.org/packages/ed/2d/ce9b641acd3b612f19e40e150f461b7b278764ec64423716c2d5a87fb12e/PyTraffic-1.1.1.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/fb/04/a16c8f14f3b54a24e41500940987ed7b58c5df65fa6c5e5253672c0dcca0/pulumi_aiven-6.3.0a1684214755.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/8e/f4/c1d44dc1287369855ef79176e08711d05638d897eae6fb0509aec8278b29/astrojs-aws.construct-0.0.8.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [qodex-recognition]: Downloading https://files.pythonhosted.org/packages/63/ed/78d038b1d92ba10836cd9a15776ca0fed0521324c1149dbf262cec626b8c/qodex_recognition-0.0.31-py3-none-any.whl
+[2023-05-18 08:07:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/a2/a1/6800104c74b3504601fbd973d394ae2950c93261a00f8f6bdbdd6ea79956/alibabacloud_dingtalk-2.0.14.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/90/23/3c5a6b96fd4b25b7f616800db4a16adcb3f4591ffa4acec3ada4cc5979a7/pulumi_dnsimple-3.5.0a1684214792.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [bioinfor-tools]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [bioinfor-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioinfor_tools-0.1-py3-none-any.whl.zip tmp/bioinfor_tools-0.1.1-py3-none-any.whl.zip --markdown 20230518/b/bioinfor-tools/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/b7/e9/65a51d91c41ea7dbbe9683dc99820522c2caa6e0ad433c78c561db862473/pycelium-0.1.2.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [PyTraffic]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [PyTraffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTraffic-1.1.0.tar.gz tmp/PyTraffic-1.1.1.tar.gz --markdown 20230518/P/PyTraffic/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [qodex-recognition]: Downloading https://files.pythonhosted.org/packages/39/39/2b694cd5b72eac99c63ff1bac4be44c3a5dd5591b9d13e6ce9581a7613ba/qodex_recognition-0.0.32-py3-none-any.whl
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/e2/f3/aa14721577e16235dbc612dc454ec4720a7266bc5b47922abc4810d36da4/alibabacloud_dingtalk-2.0.15.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [qodex-recognition]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [qodex-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_recognition-0.0.31-py3-none-any.whl.zip tmp/qodex_recognition-0.0.32-py3-none-any.whl.zip --markdown 20230518/q/qodex-recognition/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.1.linux-x86_64.tar.gz tmp/pycelium-0.1.2.tar.gz --markdown 20230518/p/pycelium/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/97/3c/784ea7f996f1fad269362690bca6519dc87b43c17a14ce1ff161357e6d61/pulumi_aiven-6.3.0a1684387394.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [astrojs-aws.construct]: Downloading https://files.pythonhosted.org/packages/04/f5/c570b6fa2b76b0356ed15981f4a4be7530485c1d3ec475026ad7d65c6693/astrojs-aws.construct-0.0.9.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230518/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/79/c3/aa2ed9fd0c64fbe0a5ac7274dc6c51bd1723f217a25f6fe72e0f3df5ad07/pulumi_dnsimple-3.5.0a1684387743.tar.gz
+[2023-05-18 08:07:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.14.tar.gz tmp/alibabacloud_dingtalk-2.0.15.tar.gz --markdown 20230518/a/alibabacloud-dingtalk/2.0.14-2.0.15/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [astrojs-aws.construct]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [astrojs-aws.construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrojs-aws.construct-0.0.8.tar.gz tmp/astrojs-aws.construct-0.0.9.tar.gz --markdown 20230518/a/astrojs-aws.construct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-05-18 08:07:04] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.3.0a1684214755.tar.gz tmp/pulumi_aiven-6.3.0a1684387394.tar.gz --markdown 20230518/p/pulumi-aiven/6.3.0a1684214755-6.3.0a1684387394/diff.md --exclude *.pyd
+[2023-05-18 08:07:05] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-05-18 08:07:05] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1684214792.tar.gz tmp/pulumi_dnsimple-3.5.0a1684387743.tar.gz --markdown 20230518/p/pulumi-dnsimple/3.5.0a1684214792-3.5.0a1684387743/diff.md --exclude *.pyd
+[2023-05-18 08:07:05] INFO root fetch - processPackages [bioinfor-tools]: Start processing: macrometa-source-mssql
+[2023-05-18 08:07:05] INFO root fetch - main [MainThread]: End processing [bioinfor-tools]: success
+[2023-05-18 08:07:05] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/3e/7e/f2acadbaaecb2bed921249bd1ae875a822f6f19c86c598e3e8b01ac1ca88/macrometa-source-mssql-0.0.5.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [mpqcv]: Start processing: pulumi-fastly
+[2023-05-18 08:07:06] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1684388245] Old Version: [7.4.0a1684215251]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [qodex-recognition]: Start processing: nprr
+[2023-05-18 08:07:06] INFO root fetch - main [MainThread]: End processing [qodex-recognition]: success
+[2023-05-18 08:07:06] INFO root fetch - processPackages [nprr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/fa/fc/e1d4e4f7d5cf16d3e144e3aa61e7727f5606fb43c06c9562a3d796682264/pulumi_fastly-7.4.0a1684215251.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [PyTraffic]: Start processing: pulumi-kafka
+[2023-05-18 08:07:06] INFO root fetch - main [MainThread]: End processing [PyTraffic]: success
+[2023-05-18 08:07:06] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/73/cc/d8fc024962cc1ca0c1bd913b617c7128ead792abbcf483b26e61df9bb5a8/macrometa-source-mssql-0.0.6.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [nprr]: Downloading https://files.pythonhosted.org/packages/33/a5/604e8e2adf6f0f5412dbe4001c59fed58991f88be8ace5ac3e82a051a2d6/nprr-0.1.3.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1684388239] Old Version: [3.5.0a1684215245]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/42/97/b58af5a4dd6bb16f3ee3d37038d083e4dc9ebeaaf949c910b93a417ec571/pulumi_fastly-7.4.0a1684388245.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [astrojs-aws.construct]: Start processing: pulumi-kong
+[2023-05-18 08:07:06] INFO root fetch - main [MainThread]: End processing [astrojs-aws.construct]: success
+[2023-05-18 08:07:06] INFO root fetch - processPackages [nprr]: executing diffoscope
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pycelium]: Start processing: pulumi-gitlab
+[2023-05-18 08:07:06] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 08:07:06] INFO root fetch - processPackages [nprr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nprr-0.1.2.tar.gz tmp/nprr-0.1.3.tar.gz --markdown 20230518/n/nprr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/ad/20/86c24220a4d31faecd4df0742e76016ec459daa7880f0b277f3e5b40d902/pulumi_kafka-3.5.0a1684215245.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1684388359] Old Version: [4.6.0a1684215426]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-gitlab]: New version: [5.1.0a1684388195] Old Version: [5.1.0a1684272302]
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1684215251.tar.gz tmp/pulumi_fastly-7.4.0a1684388245.tar.gz --markdown 20230518/p/pulumi-fastly/7.4.0a1684215251-7.4.0a1684388245/diff.md --exclude *.pyd
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/4a/a9/67cc9e5d4f0054acefc702dcd2031ab361c2833320cbb300022915e0bb94/pulumi_kong-4.6.0a1684215426.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/86/67/691feaa0486bf9303ba0b35eb490dc1deb2797ccbb8f92f3bee4d33891de/pulumi_kafka-3.5.0a1684388239.tar.gz
+[2023-05-18 08:07:06] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-05-18 08:07:06] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.5.tar.gz tmp/macrometa-source-mssql-0.0.6.tar.gz --markdown 20230518/m/macrometa-source-mssql/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 08:07:06] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/b5/52/be7b1b35e4a64b40f64c3004991aad0ac90fdb214609bcafab27a6d30493/pulumi_gitlab-5.1.0a1684272302.tar.gz
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1684215245.tar.gz tmp/pulumi_kafka-3.5.0a1684388239.tar.gz --markdown 20230518/p/pulumi-kafka/3.5.0a1684215245-3.5.0a1684388239/diff.md --exclude *.pyd
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/e5/e0/470bcd9af51ae11eced45e146b890a79530166b9415b61fa80e7bf970e59/pulumi_kong-4.6.0a1684388359.tar.gz
+[2023-05-18 08:07:07] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/05/27/1cbd09ce73f43c44807c922c0635eb7da81ecfb4054e4abe0faadc0cda34/pulumi_gitlab-5.1.0a1684388195.tar.gz
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1684215426.tar.gz tmp/pulumi_kong-4.6.0a1684388359.tar.gz --markdown 20230518/p/pulumi-kong/4.6.0a1684215426-4.6.0a1684388359/diff.md --exclude *.pyd
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-05-18 08:07:07] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-5.1.0a1684272302.tar.gz tmp/pulumi_gitlab-5.1.0a1684388195.tar.gz --markdown 20230518/p/pulumi-gitlab/5.1.0a1684272302-5.1.0a1684388195/diff.md --exclude *.pyd
+[2023-05-18 08:07:07] INFO root fetch - main [MainThread]: End processing [nprr]: success
+[2023-05-18 08:07:08] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-05-18 08:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-05-18 08:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-05-18 08:07:08] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-05-18 08:07:09] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-05-18 08:07:09] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-05-18 08:07:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-05-18 08:07:10] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-05-18 08:07:10] INFO root fetch - main [MainThread]: Store serial: [18149990]
