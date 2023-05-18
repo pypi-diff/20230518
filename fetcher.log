@@ -18822,3 +18822,156 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:25:09] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-turtle]: success
 [2023-05-18 17:25:10] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-uc8151d]: success
 [2023-05-18 17:25:10] INFO root fetch - main [MainThread]: Store serial: [18156060]
+[2023-05-18 17:30:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156060]
+[2023-05-18 17:30:22] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-ws2801
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arknights-toolkit
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-validate
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libhxl
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-portalbase
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-epd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fukkatsu
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:30:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudify-utilities-plugins-sdk
+[2023-05-18 17:30:22] INFO root fetch - processPackages [arknights-toolkit]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [libhxl]: New version: [5.0] Old Version: [4.9]
+[2023-05-18 17:30:22] WARNING root fetch - processPackages [fukkatsu]: Skipping, unable to determine old version
+[2023-05-18 17:30:22] INFO root fetch - processPackages [fukkatsu]: Start processing: integrate-ai
+[2023-05-18 17:30:22] INFO root fetch - main [MainThread]: End processing [fukkatsu] error
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [pandas-validate]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-epd]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [integrate-ai]: New version: [9.5.0] Old Version: [0.0.42]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8b/65/38783d4c9a2156873b7709f18608ff0b85771d3a6b454503cfaa695054b6/apicurio_registry_python_sdk_preview-2.4.8.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8b/65/38783d4c9a2156873b7709f18608ff0b85771d3a6b454503cfaa695054b6/apicurio_registry_python_sdk_preview-2.4.8.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [pandas-validate]: Downloading https://files.pythonhosted.org/packages/2c/33/eadf8913e2b66cb2f1711d42c5a52bba8ac0baec686281e6ccd38e1bacd7/pandas-validate-1.0.1.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [libhxl]: Downloading https://files.pythonhosted.org/packages/f2/28/835f3630010e4cb77d938135e75aff8d1400e3a044562870de6710c02503/libhxl-4.9.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: Downloading https://files.pythonhosted.org/packages/8f/34/c124989a5b75656a654757a2aa02b1a52a18c3d25772bb3cf450dba4f3a3/adafruit-circuitpython-ws2801-0.9.6.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: Downloading https://files.pythonhosted.org/packages/84/a7/8759ef32ac59e921ac2ff4f2ce4dab304b9fc5c2147beeaf368054f5e9d3/adafruit-circuitpython-portalbase-1.9.3.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/fe/30/641f4a4a34af45b8e28564056cefa55e3cf9849be728f1d2b48800b95716/cloudify-utilities-plugins-sdk-0.0.98.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [integrate-ai]: Downloading https://files.pythonhosted.org/packages/51/59/6756b9677f514850f4d8271fc22618a9e09df3df73feb98de40c86067f8b/integrate-ai-0.0.42.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-epd]: Downloading https://files.pythonhosted.org/packages/bf/b2/22d9a96422d8e178c2b07480e831b4fb03729f7a8d1a532593cbab5c0dd7/adafruit-circuitpython-epd-2.9.4.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [arknights-toolkit]: Downloading https://files.pythonhosted.org/packages/9b/28/9d1b16a7cd5619c7ebf93577b3e562535e731305556d427845773dcbdc62/arknights_toolkit-0.5.8.tar.gz
+[2023-05-18 17:30:22] WARNING root fetch - processPackages [arknights-toolkit]: Skipping package: exceeds size limit 17444363>=10485760
+[2023-05-18 17:30:22] INFO root fetch - processPackages [arknights-toolkit]: Start processing: southwark
+[2023-05-18 17:30:22] INFO root fetch - main [MainThread]: End processing [arknights-toolkit] error
+[2023-05-18 17:30:22] INFO root fetch - processPackages [southwark]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-18 17:30:22] INFO root fetch - processPackages [pandas-validate]: Downloading https://files.pythonhosted.org/packages/e0/61/a34c9c0c5431ade3543e486a9f75eed0b2eab144f2c390fbab5cc3e6b6aa/pandas-validate-1.0.2.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0d/47/f3812d3331ca53c24f688cbae21e0018de64fd4b2936caaa6b522bfcb613/apicurio_registry_python_sdk_preview-2.4.9.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/0d/47/f3812d3331ca53c24f688cbae21e0018de64fd4b2936caaa6b522bfcb613/apicurio_registry_python_sdk_preview-2.4.9.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [libhxl]: Downloading https://files.pythonhosted.org/packages/7d/ef/8a8dbba8c3df7be57cca957461a97e783e6a31dc4140457b8b3744cf053a/libhxl-5.0.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Downloading https://files.pythonhosted.org/packages/40/f3/5ca7e752f0446054284eee4360d3c184b3a3a1734f5f942600df1c522618/cloudify-utilities-plugins-sdk-0.0.99.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [southwark]: Downloading https://files.pythonhosted.org/packages/00/c2/3a72bc700fb236517b6b2f1bf656309e3bb7a491f2efb1a1457c1b7bf13a/southwark-0.8.2.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [libhxl]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [libhxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libhxl-4.9.tar.gz tmp/libhxl-5.0.tar.gz --markdown 20230518/l/libhxl/4.9-5.0/diff.md --exclude *.pyd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [integrate-ai]: Downloading https://files.pythonhosted.org/packages/6e/13/0efe1bd8065d01bb3c4ab2a9d0f612fea84996994fd047f9a543653d30a0/integrate-ai-9.5.0.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [pandas-validate]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [pandas-validate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-validate-1.0.1.tar.gz tmp/pandas-validate-1.0.2.tar.gz --markdown 20230518/p/pandas-validate/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: Downloading https://files.pythonhosted.org/packages/94/d9/8b46ba14c0fe3360898b3655f495b8a8df92f01b214a3003b27842e7c37b/adafruit-circuitpython-portalbase-1.9.4.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: Downloading https://files.pythonhosted.org/packages/74/bd/ddf7cad58ee1f7a9530b99d818208f5aa6cd533ecdb44f6cb6a6f60cebbe/adafruit-circuitpython-ws2801-0.9.7.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [integrate-ai]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [integrate-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integrate-ai-0.0.42.tar.gz tmp/integrate-ai-9.5.0.tar.gz --markdown 20230518/i/integrate-ai/0.0.42-9.5.0/diff.md --exclude *.pyd
+[2023-05-18 17:30:22] INFO root fetch - processPackages [adafruit-circuitpython-epd]: Downloading https://files.pythonhosted.org/packages/c1/cc/6349f08a8acd0e92bba76513e5be3e85d2fc39aa5fbb1b66ce1a39cf145c/adafruit-circuitpython-epd-2.9.5.tar.gz
+[2023-05-18 17:30:22] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: executing diffoscope
+[2023-05-18 17:30:22] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudify-utilities-plugins-sdk-0.0.98.tar.gz tmp/cloudify-utilities-plugins-sdk-0.0.99.tar.gz --markdown 20230518/c/cloudify-utilities-plugins-sdk/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: executing diffoscope
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ws2801-0.9.6.tar.gz tmp/adafruit-circuitpython-ws2801-0.9.7.tar.gz --markdown 20230518/a/adafruit-circuitpython-ws2801/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: executing diffoscope
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-portalbase-1.9.3.tar.gz tmp/adafruit-circuitpython-portalbase-1.9.4.tar.gz --markdown 20230518/a/adafruit-circuitpython-portalbase/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-18 17:30:23] INFO root fetch - processPackages [southwark]: Downloading https://files.pythonhosted.org/packages/29/6b/0e2d6965413d9f6863920a645fde4db4e89e999fbec1b898a61f9d52efd4/southwark-0.9.0.tar.gz
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-epd]: executing diffoscope
+[2023-05-18 17:30:23] INFO root fetch - processPackages [adafruit-circuitpython-epd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-epd-2.9.4.tar.gz tmp/adafruit-circuitpython-epd-2.9.5.tar.gz --markdown 20230518/a/adafruit-circuitpython-epd/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-18 17:30:23] INFO root fetch - processPackages [southwark]: executing diffoscope
+[2023-05-18 17:30:23] INFO root fetch - processPackages [southwark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/southwark-0.8.2.tar.gz tmp/southwark-0.9.0.tar.gz --markdown 20230518/s/southwark/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 17:30:24] INFO root fetch - processPackages [libhxl]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [libhxl]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: metaindex
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [pandas-validate]: Start processing: adafruit-circuitpython-acep7in
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [pandas-validate]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [metaindex]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [adafruit-circuitpython-acep7in]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:30:24] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:24] INFO root fetch - processPackages [integrate-ai]: Start processing: aimmo
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [integrate-ai]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [metaindex]: Downloading https://files.pythonhosted.org/packages/e8/38/2c56631304a14ca9233696d965ecb4ce7c3609621b4697062451aa6cbcd7/metaindex-2.0.0.tar.gz
+[2023-05-18 17:30:24] INFO root fetch - processPackages [adafruit-circuitpython-acep7in]: Downloading https://files.pythonhosted.org/packages/26/9d/a84ccfb419f91ff5c2ea1b68f93b33a9a3450ddb4d3bceabd6e8719dd4d1/adafruit-circuitpython-acep7in-0.8.1.tar.gz
+[2023-05-18 17:30:24] INFO root fetch - processPackages [adafruit-circuitpython-portalbase]: Start processing: gpt4all
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-portalbase]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-05-18 17:30:24] INFO root fetch - processPackages [gpt4all]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [cloudify-utilities-plugins-sdk]: Start processing: formic-opcua
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [cloudify-utilities-plugins-sdk]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [adafruit-circuitpython-ws2801]: Start processing: adafruit-circuitpython-airlift
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ws2801]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [formic-opcua]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 17:30:24] INFO root fetch - processPackages [southwark]: Start processing: adafruit-circuitpython-azureiot
+[2023-05-18 17:30:24] INFO root fetch - main [MainThread]: End processing [southwark]: success
+[2023-05-18 17:30:24] INFO root fetch - processPackages [adafruit-circuitpython-acep7in]: Downloading https://files.pythonhosted.org/packages/ab/6d/d5508da49750b9c63112241138c749bab46983cb08c37eeece2305c5d79f/adafruit-circuitpython-acep7in-0.8.2.tar.gz
+[2023-05-18 17:30:24] INFO root fetch - processPackages [metaindex]: Downloading https://files.pythonhosted.org/packages/33/f4/55037440e921de38b10ac7d4fa75e7fde3be694949fab185bc12f8ee1d44/metaindex-2.1.0.tar.gz
+[2023-05-18 17:30:25] INFO root fetch - processPackages [formic-opcua]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [formic-opcua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formic_opcua-1.3.8.tar.gz tmp/formic_opcua-1.3.9.tar.gz --markdown 20230518/f/formic-opcua/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-airlift]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 17:30:25] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/51/ad/648414f647a2b3a259d2fe34c9cdf87c534edcb514bbf33043f2635d49fb/gpt4all-0.2.1-py3-none-win_amd64.whl
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-acep7in]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-acep7in]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-acep7in-0.8.1.tar.gz tmp/adafruit-circuitpython-acep7in-0.8.2.tar.gz --markdown 20230518/a/adafruit-circuitpython-acep7in/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-epd]: Start processing: certora-cli-alpha-yuvalbd-function-signature-formatting
+[2023-05-18 17:30:25] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-epd]: success
+[2023-05-18 17:30:25] INFO root fetch - processPackages [metaindex]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [metaindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaindex-2.0.0.tar.gz tmp/metaindex-2.1.0.tar.gz --markdown 20230518/m/metaindex/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: New version: [20230518.8.7.563003] Old Version: [20230517.7.59.860757]
+[2023-05-18 17:30:25] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-airlift]: Downloading https://files.pythonhosted.org/packages/23/63/2d3f9f393f87905d499feef9b476b16c6274686b7127f674787e5a6aa568/adafruit-circuitpython-airlift-1.0.8.tar.gz
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Downloading https://files.pythonhosted.org/packages/ae/22/b35e5f582a9182b0f7e41c2bd0b3fe04c4b2633d0858875ea7a99bc558e7/adafruit-circuitpython-azureiot-2.5.8.tar.gz
+[2023-05-18 17:30:25] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Downloading https://files.pythonhosted.org/packages/82/01/bca459b8440bca054e46e08fdbc9c1cf283c2770ea3b98a1d0b85ac7e244/certora-cli-alpha-yuvalbd-function_signature_formatting-20230517.7.59.860757.tar.gz
+[2023-05-18 17:30:25] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Skipping package: exceeds size limit 38725376>=10485760
+[2023-05-18 17:30:25] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-function-signature-formatting]: Start processing: dataShepherd
+[2023-05-18 17:30:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-function-signature-formatting] error
+[2023-05-18 17:30:25] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/69/8e/3ed9353ca0db17b11a1c1f3609fe4e456bfd2fa63c8d1a3777be1d4398a4/gpt4all-0.2.2-py3-none-win_amd64.whl
+[2023-05-18 17:30:25] INFO root fetch - processPackages [dataShepherd]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 17:30:25] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230518/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [dataShepherd]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [dataShepherd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataShepherd-0.0.5-py3-none-any.whl.zip tmp/dataShepherd-0.0.6-py3-none-any.whl.zip --markdown 20230518/d/dataShepherd/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: can-ada
+[2023-05-18 17:30:25] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-airlift]: Downloading https://files.pythonhosted.org/packages/3d/1d/c856b311b3ca908dc9ee1e4943735ebffecbd436b6efb404bb13c99bd0bd/adafruit-circuitpython-airlift-1.0.9.tar.gz
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: Downloading https://files.pythonhosted.org/packages/89/44/72645e2fcfb7df3a3dd8c703fd10f26e4743e37333eeee546dc5d9bf3881/adafruit-circuitpython-azureiot-2.5.9.tar.gz
+[2023-05-18 17:30:25] WARNING root fetch - processPackages [can-ada]: Skipping, unable to determine old version
+[2023-05-18 17:30:25] INFO root fetch - processPackages [can-ada]: Start processing: adafruit-circuitpython-ble
+[2023-05-18 17:30:25] INFO root fetch - main [MainThread]: End processing [can-ada] error
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-airlift]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-airlift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-airlift-1.0.8.tar.gz tmp/adafruit-circuitpython-airlift-1.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-airlift/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.2.1-py3-none-win_amd64.whl.zip tmp/gpt4all-0.2.2-py3-none-win_amd64.whl.zip --markdown 20230518/g/gpt4all/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-ble]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: executing diffoscope
+[2023-05-18 17:30:25] INFO root fetch - processPackages [adafruit-circuitpython-azureiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-azureiot-2.5.8.tar.gz tmp/adafruit-circuitpython-azureiot-2.5.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-azureiot/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-05-18 17:30:26] INFO root fetch - processPackages [adafruit-circuitpython-ble]: Downloading https://files.pythonhosted.org/packages/a2/82/a4fb32534651ae279160147e4abf6111b26444e7a901868aceaacf0da214/adafruit-circuitpython-ble-9.0.1.tar.gz
+[2023-05-18 17:30:26] INFO root fetch - main [MainThread]: End processing [formic-opcua]: success
+[2023-05-18 17:30:26] INFO root fetch - processPackages [adafruit-circuitpython-ble]: Downloading https://files.pythonhosted.org/packages/42/90/cbd68550fdba22ec49fe58384a841075eec59b084ef1be24e9bf0895cee1/adafruit-circuitpython-ble-9.0.2.tar.gz
+[2023-05-18 17:30:26] INFO root fetch - processPackages [adafruit-circuitpython-ble]: executing diffoscope
+[2023-05-18 17:30:26] INFO root fetch - processPackages [adafruit-circuitpython-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ble-9.0.1.tar.gz tmp/adafruit-circuitpython-ble-9.0.2.tar.gz --markdown 20230518/a/adafruit-circuitpython-ble/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-05-18 17:30:26] INFO root fetch - main [MainThread]: End processing [dataShepherd]: success
+[2023-05-18 17:30:26] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-05-18 17:30:27] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:30:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-airlift]: success
+[2023-05-18 17:30:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-azureiot]: success
+[2023-05-18 17:30:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ble]: success
+[2023-05-18 17:30:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-acep7in]: success
+[2023-05-18 17:30:29] INFO root fetch - main [MainThread]: End processing [metaindex]: success
+[2023-05-18 17:30:30] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-18 17:30:30] INFO root fetch - main [MainThread]: Store serial: [18156142]
