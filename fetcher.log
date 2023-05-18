@@ -14578,3 +14578,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 14:24:35] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
 [2023-05-18 14:24:35] INFO root fetch - main [MainThread]: End processing [holisticai]: success
 [2023-05-18 14:24:35] INFO root fetch - main [MainThread]: Store serial: [18153812]
+[2023-05-18 14:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153812]
+[2023-05-18 14:29:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: triton-model-navigator
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackoperator
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modo-data-science-helpers
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anospp-analysis
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pollination-honeybee-radiance-postprocess
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python3-commons
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mokkari
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tox-gh-actions
+[2023-05-18 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: facebook-page-info-scraper
+[2023-05-18 14:29:45] INFO root fetch - processPackages [facebook-page-info-scraper]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [triton-model-navigator]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [anospp-analysis]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [stackoperator]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [mokkari]: New version: [2.4.0] Old Version: [2.3.3]
+[2023-05-18 14:29:45] WARNING root fetch - processPackages [modo-data-science-helpers]: Skipping, unable to determine old version
+[2023-05-18 14:29:45] INFO root fetch - processPackages [modo-data-science-helpers]: Start processing: veetility
+[2023-05-18 14:29:45] INFO root fetch - main [MainThread]: End processing [modo-data-science-helpers] error
+[2023-05-18 14:29:45] INFO root fetch - processPackages [tox-gh-actions]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [facebook-page-info-scraper]: executing diffoscope
+[2023-05-18 14:29:45] INFO root fetch - processPackages [facebook-page-info-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-page-info-scraper-1.0.5.tar.gz tmp/facebook-page-info-scraper-1.0.6.tar.gz --markdown 20230518/f/facebook-page-info-scraper/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 14:29:45] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-18 14:29:45] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-honeybee-radiance-postprocess-0.0.8.tar.gz tmp/pollination-honeybee-radiance-postprocess-0.0.9.tar.gz --markdown 20230518/p/pollination-honeybee-radiance-postprocess/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 14:29:45] INFO root fetch - processPackages [triton-model-navigator]: Downloading https://files.pythonhosted.org/packages/17/57/4e07201d59d9f23f793714ffb979d398809f91df5cc27ffd38808f6552fe/triton_model_navigator-0.5.2-py3-none-any.whl
+[2023-05-18 14:29:45] INFO root fetch - processPackages [stackoperator]: Downloading https://files.pythonhosted.org/packages/4b/04/46e3aeace5265e4c73e72c76fbb62889b63d701242e2c4be33219f6bc956/stackoperator-0.0.3.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [anospp-analysis]: Downloading https://files.pythonhosted.org/packages/b7/51/eb61a99a878a8062f54fcbda02ce5543240d32e7a52a85ee3e1c51fb6368/anospp_analysis-0.1.3.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [tox-gh-actions]: Downloading https://files.pythonhosted.org/packages/69/1d/caa3b9e15925decd1ea14e579d16007e98d01d6b2db568ffe113221bc2f7/tox-gh-actions-3.1.0.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [mokkari]: Downloading https://files.pythonhosted.org/packages/58/62/7a010493948f1226dc36992e206d88deac2a1ac146525a9d4cc0da18438f/mokkari-2.3.3.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-18 14:29:45] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230518/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 14:29:45] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-18 14:29:45] INFO root fetch - processPackages [stackoperator]: Downloading https://files.pythonhosted.org/packages/6c/4c/93b953d9cc87e2bc9f6ad5a5969197cb226c22fa0b1a23b17ee4968cbe85/stackoperator-0.1.0.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [anospp-analysis]: Downloading https://files.pythonhosted.org/packages/40/c3/8ae397261c398b0fab6a62f9abad3bbe84bbaf7d5f1a2053fbe5c26f735e/anospp_analysis-0.2.0.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [tox-gh-actions]: Downloading https://files.pythonhosted.org/packages/3e/00/17c8f2518292a5723d42712522538bdd02d1d531a2cbb8bc8fbddebdb8a3/tox-gh-actions-3.1.1.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [stackoperator]: executing diffoscope
+[2023-05-18 14:29:45] INFO root fetch - processPackages [stackoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoperator-0.0.3.tar.gz tmp/stackoperator-0.1.0.tar.gz --markdown 20230518/s/stackoperator/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 14:29:45] INFO root fetch - processPackages [triton-model-navigator]: Downloading https://files.pythonhosted.org/packages/5e/11/f6d714e5ee60495705f4c873cddc20e58891ca3153d0a638f7bf2840e0c9/triton_model_navigator-0.5.3-py3-none-any.whl
+[2023-05-18 14:29:45] INFO root fetch - processPackages [anospp-analysis]: executing diffoscope
+[2023-05-18 14:29:45] INFO root fetch - processPackages [anospp-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anospp_analysis-0.1.3.tar.gz tmp/anospp_analysis-0.2.0.tar.gz --markdown 20230518/a/anospp-analysis/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 14:29:45] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-05-18 14:29:45] INFO root fetch - processPackages [mokkari]: Downloading https://files.pythonhosted.org/packages/ff/87/201ad8709f36bd43fe1fb4973df07caca7f13a011d0649e49f50e1d79e0f/mokkari-2.4.0.tar.gz
+[2023-05-18 14:29:46] INFO root fetch - processPackages [tox-gh-actions]: executing diffoscope
+[2023-05-18 14:29:46] INFO root fetch - processPackages [tox-gh-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-gh-actions-3.1.0.tar.gz tmp/tox-gh-actions-3.1.1.tar.gz --markdown 20230518/t/tox-gh-actions/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-18 14:29:46] INFO root fetch - processPackages [triton-model-navigator]: executing diffoscope
+[2023-05-18 14:29:46] INFO root fetch - processPackages [triton-model-navigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_model_navigator-0.5.2-py3-none-any.whl.zip tmp/triton_model_navigator-0.5.3-py3-none-any.whl.zip --markdown 20230518/t/triton-model-navigator/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-18 14:29:46] INFO root fetch - processPackages [mokkari]: executing diffoscope
+[2023-05-18 14:29:46] INFO root fetch - processPackages [mokkari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mokkari-2.3.3.tar.gz tmp/mokkari-2.4.0.tar.gz --markdown 20230518/m/mokkari/2.3.3-2.4.0/diff.md --exclude *.pyd
+[2023-05-18 14:29:46] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-05-18 14:29:46] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-05-18 14:29:46] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-05-18 14:29:46] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230518/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 14:29:46] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-18 14:29:46] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230518/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-18 14:29:46] INFO root fetch - processPackages [facebook-page-info-scraper]: Start processing: glasswall
+[2023-05-18 14:29:46] INFO root fetch - main [MainThread]: End processing [facebook-page-info-scraper]: success
+[2023-05-18 14:29:46] INFO root fetch - processPackages [pollination-honeybee-radiance-postprocess]: Start processing: epona-api-core
+[2023-05-18 14:29:46] INFO root fetch - main [MainThread]: End processing [pollination-honeybee-radiance-postprocess]: success
+[2023-05-18 14:29:46] INFO root fetch - processPackages [glasswall]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 14:29:46] WARNING root fetch - processPackages [epona-api-core]: Skipping, unable to determine old version
+[2023-05-18 14:29:46] INFO root fetch - main [MainThread]: End processing [epona-api-core] error
+[2023-05-18 14:29:47] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/db/3b/c0ec5093a8382fa780681d62c48abc40c8289c12423ca53de4464d405ab8/glasswall-0.2.8.tar.gz
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [stackoperator]: success
+[2023-05-18 14:29:47] INFO root fetch - processPackages [glasswall]: Downloading https://files.pythonhosted.org/packages/41/3e/7e2dac6dfd98c5c44f58a4b4338f8beb0f9b4f56b8dedef7e5cdcbadbd85/glasswall-0.2.9.tar.gz
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [anospp-analysis]: success
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [tox-gh-actions]: success
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-05-18 14:29:47] INFO root fetch - processPackages [glasswall]: executing diffoscope
+[2023-05-18 14:29:47] INFO root fetch - processPackages [glasswall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasswall-0.2.8.tar.gz tmp/glasswall-0.2.9.tar.gz --markdown 20230518/g/glasswall/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 14:29:47] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-18 14:29:48] INFO root fetch - main [MainThread]: End processing [triton-model-navigator]: success
+[2023-05-18 14:29:49] INFO root fetch - main [MainThread]: End processing [mokkari]: success
+[2023-05-18 14:29:49] INFO root fetch - main [MainThread]: End processing [glasswall]: success
+[2023-05-18 14:29:49] INFO root fetch - main [MainThread]: Store serial: [18153872]
