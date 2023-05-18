@@ -4376,3 +4376,37 @@
 [2023-05-18 03:23:35] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-05-18 03:25:28] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-18 03:25:28] INFO root fetch - main [MainThread]: Store serial: [18148399]
+[2023-05-18 03:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148399]
+[2023-05-18 03:30:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 03:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strings2df
+[2023-05-18 03:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qky-tools
+[2023-05-18 03:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qky-tools
+[2023-05-18 03:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ifctester
+[2023-05-18 03:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2023-05-18 03:30:38] WARNING root fetch - processPackages [strings2df]: Skipping, unable to determine old version
+[2023-05-18 03:30:38] INFO root fetch - main [MainThread]: End processing [strings2df] error
+[2023-05-18 03:30:38] INFO root fetch - processPackages [qky-tools]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 03:30:39] INFO root fetch - processPackages [ifctester]: New version: [0.0.230518] Old Version: [0.0.230509]
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 03:30:39] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/19/e4/3752df6733b0368e56d16960f21b8b9ef660c6b76ee6aa93b4386db09288/qky-tools-0.1.1.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/19/e4/3752df6733b0368e56d16960f21b8b9ef660c6b76ee6aa93b4386db09288/qky-tools-0.1.1.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/c7/19/e42311e39fcd445e1a94edad4f494f093e6234178d517097af0c2ac13e30/ifctester-0.0.230509.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/21/f1/bfd6dc72b7f6cb85e57a99b9518a5b5b299b88ab449abe66f69d080484f3/qky-tools-0.2.0.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: Downloading https://files.pythonhosted.org/packages/21/f1/bfd6dc72b7f6cb85e57a99b9518a5b5b299b88ab449abe66f69d080484f3/qky-tools-0.2.0.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [ifctester]: Downloading https://files.pythonhosted.org/packages/9b/23/fa6f57f83a1016371d0e144b8d540fd5869abc00d1229afcb6e15e1ffbc3/ifctester-0.0.230518.tar.gz
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: executing diffoscope
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qky-tools-0.1.1.tar.gz tmp/qky-tools-0.2.0.tar.gz --markdown 20230518/q/qky-tools/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: executing diffoscope
+[2023-05-18 03:30:39] INFO root fetch - processPackages [qky-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qky-tools-0.1.1.tar.gz tmp/qky-tools-0.2.0.tar.gz --markdown 20230518/q/qky-tools/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 03:30:39] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-18 03:30:39] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230518/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:30:39] INFO root fetch - processPackages [ifctester]: executing diffoscope
+[2023-05-18 03:30:39] INFO root fetch - processPackages [ifctester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifctester-0.0.230509.tar.gz tmp/ifctester-0.0.230518.tar.gz --markdown 20230518/i/ifctester/0.0.230509-0.0.230518/diff.md --exclude *.pyd
+[2023-05-18 03:30:40] INFO root fetch - main [MainThread]: End processing [qky-tools]: success
+[2023-05-18 03:30:40] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-18 03:30:40] INFO root fetch - main [MainThread]: End processing [qky-tools]: success
+[2023-05-18 03:30:40] INFO root fetch - main [MainThread]: End processing [ifctester]: success
+[2023-05-18 03:30:40] INFO root fetch - main [MainThread]: Store serial: [18148416]
