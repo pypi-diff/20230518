@@ -5359,3 +5359,59 @@
 [2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
 [2023-05-18 04:55:17] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-fiscal-position-rule]: success
 [2023-05-18 04:55:17] INFO root fetch - main [MainThread]: Store serial: [18148858]
+[2023-05-18 05:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148858]
+[2023-05-18 05:00:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-account-fiscal-position-rule
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-predict-sdk
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wave-viewer
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cloudauth20190307
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-queuey
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-partner
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imessagedb
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfg-argparser
+[2023-05-18 05:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bardapi
+[2023-05-18 05:00:26] INFO root fetch - processPackages [odoo13-addon-account-fiscal-position-rule]: New version: [13.0.1.3.2.dev4] Old Version: [13.0.1.3.2.dev3]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [bardapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [cfg-argparser]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [antchain-partner]: New version: [1.0.22] Old Version: [1.0.21]
+[2023-05-18 05:00:26] WARNING root fetch - processPackages [wave-viewer]: Skipping, unable to determine old version
+[2023-05-18 05:00:26] INFO root fetch - processPackages [imessagedb]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-18 05:00:26] INFO root fetch - main [MainThread]: End processing [wave-viewer] error
+[2023-05-18 05:00:26] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 05:00:26] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230518/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 05:00:26] INFO root fetch - processPackages [odoo13-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/c7/7c/b8289f698216ca90a70969a40125d751b6cc56baf4c6e7800fa2394cf1c1/odoo13_addon_account_fiscal_position_rule-13.0.1.3.2.dev3-py3-none-any.whl
+[2023-05-18 05:00:26] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/8e/4a/7cd63f190ea1999055d697253696c38c770f4cdf86f68f73b700fe28c2c7/alibabacloud_cloudauth20190307-2.0.5.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/c7/55/9b094af6766995643391eb5fda6e5bc75959c40cbc32629adf9caf0ecb27/cfg-argparser-1.1.2.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [antchain-partner]: Downloading https://files.pythonhosted.org/packages/9f/2e/8313c7009ba28b11e0e13f55688c15262e2c78126085ec31540f2f7f31d6/antchain_partner-1.0.21.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/a9/06/576ecaad57e5d849df9ae1ff66f9fe35b86c5694ff42efdc6925e0f66114/imessagedb-1.2.8.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 05:00:26] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/47/69/50a49b523653ddaa8e1a103c81487cd2c2520a752a73d9ab2152d1392e80/bardapi-0.1.5.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.2.7.tar.gz tmp/imessagedb-1.2.8.tar.gz --markdown 20230518/i/imessagedb/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-18 05:00:26] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: Downloading https://files.pythonhosted.org/packages/c6/07/6dfec51996708ab65ba19c9e4176962291fc7bf00b20a05944723d12edd7/alibabacloud_cloudauth20190307-2.0.6.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.4.tar.gz tmp/bardapi-0.1.5.tar.gz --markdown 20230518/b/bardapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 05:00:26] INFO root fetch - processPackages [antchain-partner]: Downloading https://files.pythonhosted.org/packages/2f/2e/5e993a52173f6137c440e0299419167eafb3ce2e1c067afaf3035bf0a982/antchain_partner-1.0.22.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/85/0f/28295a3a46456149db60df9241e89846aa9522cbe7b7d1a47ffb28bd6e26/cfg-argparser-1.1.3.tar.gz
+[2023-05-18 05:00:26] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [alibabacloud-cloudauth20190307]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth20190307-2.0.5.tar.gz tmp/alibabacloud_cloudauth20190307-2.0.6.tar.gz --markdown 20230518/a/alibabacloud-cloudauth20190307/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-18 05:00:26] INFO root fetch - processPackages [odoo13-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/ce/1e/a8ce28304576500b49178bb1ddf6f25034ace12eadb4d5708d09708802f0/odoo13_addon_account_fiscal_position_rule-13.0.1.3.2.dev4-py3-none-any.whl
+[2023-05-18 05:00:26] INFO root fetch - processPackages [antchain-partner]: executing diffoscope
+[2023-05-18 05:00:26] INFO root fetch - processPackages [antchain-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_partner-1.0.21.tar.gz tmp/antchain_partner-1.0.22.tar.gz --markdown 20230518/a/antchain-partner/1.0.21-1.0.22/diff.md --exclude *.pyd
+[2023-05-18 05:00:27] INFO root fetch - processPackages [cfg-argparser]: executing diffoscope
+[2023-05-18 05:00:27] INFO root fetch - processPackages [cfg-argparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfg-argparser-1.1.2.tar.gz tmp/cfg-argparser-1.1.3.tar.gz --markdown 20230518/c/cfg-argparser/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-18 05:00:27] INFO root fetch - processPackages [odoo13-addon-account-fiscal-position-rule]: executing diffoscope
+[2023-05-18 05:00:27] INFO root fetch - processPackages [odoo13-addon-account-fiscal-position-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_fiscal_position_rule-13.0.1.3.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_account_fiscal_position_rule-13.0.1.3.2.dev4-py3-none-any.whl.zip --markdown 20230518/o/odoo13-addon-account-fiscal-position-rule/13.0.1.3.2.dev3-13.0.1.3.2.dev4/diff.md --exclude *.pyd
+[2023-05-18 05:00:27] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth20190307]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [antchain-partner]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [cfg-argparser]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-fiscal-position-rule]: success
+[2023-05-18 05:00:28] INFO root fetch - main [MainThread]: Store serial: [18148884]
