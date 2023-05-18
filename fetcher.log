@@ -13435,3 +13435,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:04:39] INFO root fetch - main [MainThread]: End processing [linkedinpdfextractor]: success
 [2023-05-18 13:04:40] INFO root fetch - main [MainThread]: End processing [tap-mixpanel]: success
 [2023-05-18 13:04:40] INFO root fetch - main [MainThread]: Store serial: [18152984]
+[2023-05-18 13:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152984]
+[2023-05-18 13:09:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-smceservices
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labstep
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tree-sitter-type-provider
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nldb
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrew
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qyrm-pipinject5
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ja3requests
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moderngl-window
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bm-utilities
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ja3requests]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-18 13:09:50] INFO root fetch - processPackages [nldb]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-18 13:09:50] INFO root fetch - processPackages [bm-utilities]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 13:09:50] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 13:09:50] WARNING root fetch - processPackages [qyrm-pipinject5]: Skipping, unable to determine old version
+[2023-05-18 13:09:50] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject5] error
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ja3requests]: executing diffoscope
+[2023-05-18 13:09:50] INFO root fetch - processPackages [ja3requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ja3requests-0.0.3.tar.gz tmp/ja3requests-1.0.0.tar.gz --markdown 20230518/j/ja3requests/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 13:09:50] WARNING root fetch - processPackages [jupyterlab-smceservices]: Skipping, unable to determine old version
+[2023-05-18 13:09:50] INFO root fetch - processPackages [labstep]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-18 13:09:50] INFO root fetch - main [MainThread]: End processing [jupyterlab-smceservices] error
+[2023-05-18 13:09:50] INFO root fetch - processPackages [tree-sitter-type-provider]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-18 13:09:50] INFO root fetch - processPackages [moderngl-window]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-05-18 13:09:50] INFO root fetch - processPackages [nldb]: executing diffoscope
+[2023-05-18 13:09:50] INFO root fetch - processPackages [nldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nldb-0.3.7.tar.gz tmp/nldb-0.3.8.tar.gz --markdown 20230518/n/nldb/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-18 13:09:50] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-18 13:09:50] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230518/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 13:09:50] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/e1/b6/2e6bf6db9101f34d7330ee4fd5fbed7407859c815121a8bbdaafb86f0084/bm_utilities-0.1.1.tar.gz
+[2023-05-18 13:09:50] INFO root fetch - processPackages [labstep]: Downloading https://files.pythonhosted.org/packages/0d/e3/435bd3de7b936b0f08c3dc2afb8f97c9180285fc699dc4538a9cc7d34a99/labstep-3.8.0.tar.gz
+[2023-05-18 13:09:50] INFO root fetch - processPackages [tree-sitter-type-provider]: Downloading https://files.pythonhosted.org/packages/c9/d2/fa2fe7f6125d8d4f9de10bbde3b1f23841f33882cfa73c2506a577bcef7a/tree_sitter_type_provider-2.1.7.tar.gz
+[2023-05-18 13:09:50] INFO root fetch - processPackages [moderngl-window]: Downloading https://files.pythonhosted.org/packages/53/dc/684847e5d3d6f7b11ffe116afa315c334e6e3907f638638f0f327b8adb71/moderngl-window-2.4.3.tar.gz
+[2023-05-18 13:09:50] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-18 13:09:50] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.1.0.tar.gz tmp/bm_utilities-0.1.1.tar.gz --markdown 20230518/b/bm-utilities/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 13:09:50] INFO root fetch - processPackages [labstep]: Downloading https://files.pythonhosted.org/packages/2b/33/8ca1d2acd9e7fbf020549dfb244425baf70acb50f0489be9de520dd11353/labstep-3.9.0.tar.gz
+[2023-05-18 13:09:51] INFO root fetch - processPackages [tree-sitter-type-provider]: Downloading https://files.pythonhosted.org/packages/25/1b/8168ff813e9ee2bebd2797a54ab80d52b7c39b48b5d560d43e3d36ca704e/tree_sitter_type_provider-2.1.8.tar.gz
+[2023-05-18 13:09:51] INFO root fetch - processPackages [labstep]: executing diffoscope
+[2023-05-18 13:09:51] INFO root fetch - processPackages [labstep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labstep-3.8.0.tar.gz tmp/labstep-3.9.0.tar.gz --markdown 20230518/l/labstep/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-18 13:09:51] INFO root fetch - processPackages [moderngl-window]: Downloading https://files.pythonhosted.org/packages/c2/90/14a7e798c9310dfa5ee94716d0b73f465780741ae6c9d45eb21626d87bf6/moderngl-window-2.4.4.tar.gz
+[2023-05-18 13:09:51] INFO root fetch - processPackages [tree-sitter-type-provider]: executing diffoscope
+[2023-05-18 13:09:51] INFO root fetch - processPackages [tree-sitter-type-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_type_provider-2.1.7.tar.gz tmp/tree_sitter_type_provider-2.1.8.tar.gz --markdown 20230518/t/tree-sitter-type-provider/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-18 13:09:51] INFO root fetch - processPackages [moderngl-window]: executing diffoscope
+[2023-05-18 13:09:51] INFO root fetch - processPackages [moderngl-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderngl-window-2.4.3.tar.gz tmp/moderngl-window-2.4.4.tar.gz --markdown 20230518/m/moderngl-window/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-05-18 13:09:51] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-18 13:09:51] INFO root fetch - main [MainThread]: End processing [ja3requests]: success
+[2023-05-18 13:09:51] INFO root fetch - main [MainThread]: End processing [nldb]: success
+[2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [tree-sitter-type-provider]: success
+[2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [moderngl-window]: success
+[2023-05-18 13:09:52] INFO root fetch - main [MainThread]: End processing [labstep]: success
+[2023-05-18 13:09:52] INFO root fetch - main [MainThread]: Store serial: [18153016]
