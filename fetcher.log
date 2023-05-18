@@ -6968,3 +6968,66 @@
 [2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-05-18 07:05:19] INFO root fetch - main [MainThread]: Store serial: [18149535]
+[2023-05-18 07:10:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149535]
+[2023-05-18 07:10:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubetools
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-model-server
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-cli-scheduler
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widget-code-input
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-l10n-it-ddt
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-l10n-it-ddt
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo10-addon-l10n-it-ddt
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: momento-wire-types
+[2023-05-18 07:10:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-cli-scheduler
+[2023-05-18 07:10:28] INFO root fetch - processPackages [widget-code-input]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: New version: [9.0.1.0.0.99.dev41] Old Version: [9.0.1.0.0.99.dev39]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [cubetools]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: New version: [8.0.1.0.2.99.dev2] Old Version: [8.0.1.0.2.99.dev1]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: New version: [10.0.1.9.0.99.dev5] Old Version: [10.0.1.9.0.99.dev4]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230518] Old Version: [1.1.8b20230517]
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: Downloading https://files.pythonhosted.org/packages/90/57/7d093ed27dd944c9730459bb1e055c60bc690d2e640e006dc2fb723d24cc/python-cli-scheduler-1.0.0.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/f1/04/203514cacad60d0618e1e5219c8f45e0b3a627ae1e495836c20e9a7cc5f6/widget_code_input-3.6.0.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/d6/cf/f9786bddb156b3ed14d755a4597be8766c341c994ca9878f6a069061db48/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev39-py2-none-any.whl
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: Downloading https://files.pythonhosted.org/packages/90/57/7d093ed27dd944c9730459bb1e055c60bc690d2e640e006dc2fb723d24cc/python-cli-scheduler-1.0.0.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/eb/fe/9c31e3b427a3ddc24ca329f0c1b9472e38a2e04e7a6005d670186ab24d2a/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev4-py2-none-any.whl
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/d2/1f/fc834b26b7027253cc5af44a28581d7478580622a67c830750751b3662d6/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev1-py2-none-any.whl
+[2023-05-18 07:10:28] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/af/1f/ba5e643c59a3a136e55beb1dac85b1063a259b1f775f93f639f6bf71a20a/multi_model_server-1.1.8b20230517-py2.py3-none-any.whl
+[2023-05-18 07:10:28] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/f7/fc/71174499ab2e04291c199d7f0ba0c0f73c290021c0cb0e5fbf92fbd7c146/cubetools-0.3.3.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-05-18 07:10:28] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230518/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 07:10:28] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-18 07:10:28] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.2.tar.gz tmp/cubetools-0.3.3.tar.gz --markdown 20230518/c/cubetools/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-18 07:10:28] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/a8/c8/f1139f646fdda2e6c017f89849c6d7c2e7debe1909eb9811ad67a7e4c433/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev5-py2-none-any.whl
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: Downloading https://files.pythonhosted.org/packages/a6/71/9cad4765e1b5e3cfd9d190902522ab66ed7facd8d2130b723892b3319e10/python-cli-scheduler-1.1.0.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [python-cli-scheduler]: Downloading https://files.pythonhosted.org/packages/a6/71/9cad4765e1b5e3cfd9d190902522ab66ed7facd8d2130b723892b3319e10/python-cli-scheduler-1.1.0.tar.gz
+[2023-05-18 07:10:28] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/28/46/0a2b582fad1910beaffa2eba825c6820af69135451f72e494862ba7e8bc7/multi_model_server-1.1.8b20230518-py2.py3-none-any.whl
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/34/4f/e2363d5ad727e5220c82ed3635cfcdf32fe1c727b3f51b9cebd02291d195/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev41-py2-none-any.whl
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/39/1b/26fe719622665c4dac851465fd7c82af8a112ed3dff7f60dfd5f1884a990/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev2-py2-none-any.whl
+[2023-05-18 07:10:29] INFO root fetch - processPackages [widget-code-input]: Downloading https://files.pythonhosted.org/packages/69/64/8596da6c7a958205a12dd72ba1a4a859b68ee0b46878f2916ce1b1f7a89e/widget_code_input-3.6.1.tar.gz
+[2023-05-18 07:10:29] INFO root fetch - processPackages [python-cli-scheduler]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [python-cli-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cli-scheduler-1.0.0.tar.gz tmp/python-cli-scheduler-1.1.0.tar.gz --markdown 20230518/p/python-cli-scheduler/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [python-cli-scheduler]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [python-cli-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cli-scheduler-1.0.0.tar.gz tmp/python-cli-scheduler-1.1.0.tar.gz --markdown 20230518/p/python-cli-scheduler/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev4-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev5-py2-none-any.whl.zip --markdown 20230518/o/odoo10-addon-l10n-it-ddt/10.0.1.9.0.99.dev4-10.0.1.9.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo9-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev39-py2-none-any.whl.zip tmp/odoo9_addon_l10n_it_ddt-9.0.1.0.0.99.dev41-py2-none-any.whl.zip --markdown 20230518/o/odoo9-addon-l10n-it-ddt/9.0.1.0.0.99.dev39-9.0.1.0.0.99.dev41/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [odoo8-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev1-py2-none-any.whl.zip tmp/odoo8_addon_l10n_it_ddt-8.0.1.0.2.99.dev2-py2-none-any.whl.zip --markdown 20230518/o/odoo8-addon-l10n-it-ddt/8.0.1.0.2.99.dev1-8.0.1.0.2.99.dev2/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [widget-code-input]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [widget-code-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widget_code_input-3.6.0.tar.gz tmp/widget_code_input-3.6.1.tar.gz --markdown 20230518/w/widget-code-input/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-05-18 07:10:29] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-18 07:10:29] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230517-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230518-py2.py3-none-any.whl.zip --markdown 20230518/m/multi-model-server/1.1.8b20230517-1.1.8b20230518/diff.md --exclude *.pyd
+[2023-05-18 07:10:30] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-18 07:10:30] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-05-18 07:10:30] INFO root fetch - main [MainThread]: End processing [python-cli-scheduler]: success
+[2023-05-18 07:10:30] INFO root fetch - main [MainThread]: End processing [python-cli-scheduler]: success
+[2023-05-18 07:10:30] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-it-ddt]: success
+[2023-05-18 07:10:31] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-ddt]: success
+[2023-05-18 07:10:31] INFO root fetch - main [MainThread]: End processing [odoo9-addon-l10n-it-ddt]: success
+[2023-05-18 07:10:47] INFO root fetch - main [MainThread]: End processing [widget-code-input]: success
+[2023-05-18 07:13:21] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-18 07:13:21] INFO root fetch - main [MainThread]: Store serial: [18149561]
