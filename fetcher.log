@@ -12225,3 +12225,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:46:43] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-18 11:46:44] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
 [2023-05-18 11:46:44] INFO root fetch - main [MainThread]: Store serial: [18152280]
+[2023-05-18 11:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152280]
+[2023-05-18 11:51:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IoTuring
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TPEduBot
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygdal
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TPEduBot
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roc-auc-pairwise
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygdal
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salesea
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: infoworkssdk
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: serialization-tool
+[2023-05-18 11:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resdk
+[2023-05-18 11:51:53] INFO root fetch - processPackages [IoTuring]: New version: [2023.2.5] Old Version: [2023.2.4]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:51:53] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-18 11:51:53] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-18 11:51:53] INFO root fetch - processPackages [serialization-tool]: New version: [1.0] Old Version: [0.5]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:51:53] WARNING root fetch - processPackages [roc-auc-pairwise]: Skipping, unable to determine old version
+[2023-05-18 11:51:53] INFO root fetch - main [MainThread]: End processing [roc-auc-pairwise] error
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: New version: [3.5.3.11] Old Version: [3.5.2.11]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: New version: [3.5.3.11] Old Version: [3.5.2.11]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [infoworkssdk]: New version: [3.0b0] Old Version: [3.0a2]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [resdk]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [IoTuring]: Downloading https://files.pythonhosted.org/packages/11/da/8f48d51e5dae12b154a68b5131da112b67b4e63847ade1180c35b162d076/IoTuring-2023.2.4.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: Downloading https://files.pythonhosted.org/packages/fe/0b/26d5faadf33a59ba59ff31aa6bb36f0ca8441cb48f62272d624d8fb2fa6a/pygdal-3.5.2.11.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: Downloading https://files.pythonhosted.org/packages/fe/0b/26d5faadf33a59ba59ff31aa6bb36f0ca8441cb48f62272d624d8fb2fa6a/pygdal-3.5.2.11.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/22/9f/c3b03e68cefce4893226ec3ea64d953e13b61e65bdf2c315ff0f132492c3/infoworkssdk-3.0a2.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [serialization-tool]: Downloading https://files.pythonhosted.org/packages/2f/ac/974926ebb46185fa0fd10e96c1919d4ee2bbfafc4caac4e9d0f71329e457/serialization_tool-1.0.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [resdk]: Downloading https://files.pythonhosted.org/packages/4c/99/bfd9b90a8f08bd443adc4c8b4c568e2e9bf00fdfc2bc2cb1f784f2883ca1/resdk-8.0.0.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [serialization-tool]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [serialization-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialization_tool-0.5.tar.gz tmp/serialization_tool-1.0.tar.gz --markdown 20230518/s/serialization-tool/0.5-1.0/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [IoTuring]: Downloading https://files.pythonhosted.org/packages/1b/5a/ac460aae868acbfc1a28c3d0fc79ff1969a8c098fc84238c28a936c21c4a/IoTuring-2023.2.5.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [IoTuring]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [IoTuring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IoTuring-2023.2.4.tar.gz tmp/IoTuring-2023.2.5.tar.gz --markdown 20230518/I/IoTuring/2023.2.4-2023.2.5/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: Downloading https://files.pythonhosted.org/packages/4e/fe/cd6a64eead26e358ccaabc217ef8547faa64596b484fe20cc63b7ce4dc64/pygdal-3.5.3.11.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: Downloading https://files.pythonhosted.org/packages/4e/fe/cd6a64eead26e358ccaabc217ef8547faa64596b484fe20cc63b7ce4dc64/pygdal-3.5.3.11.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [infoworkssdk]: Downloading https://files.pythonhosted.org/packages/b1/20/e1727f2cd885fc933431526868eeae27d04a8b44eb1b0b6691c9a7f2b5a3/infoworkssdk-3.0b0.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [resdk]: Downloading https://files.pythonhosted.org/packages/d6/e0/3a2c0a04dc456f40f0a1d6ed07943e94e67311f343bc5bfcf4bb2f5cdb44/resdk-9.0.0.tar.gz
+[2023-05-18 11:51:53] INFO root fetch - processPackages [resdk]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [resdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resdk-8.0.0.tar.gz tmp/resdk-9.0.0.tar.gz --markdown 20230518/r/resdk/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdal-3.5.2.11.tar.gz tmp/pygdal-3.5.3.11.tar.gz --markdown 20230518/p/pygdal/3.5.2.11-3.5.3.11/diff.md --exclude *.pyd
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: executing diffoscope
+[2023-05-18 11:51:53] INFO root fetch - processPackages [pygdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdal-3.5.2.11.tar.gz tmp/pygdal-3.5.3.11.tar.gz --markdown 20230518/p/pygdal/3.5.2.11-3.5.3.11/diff.md --exclude *.pyd
+[2023-05-18 11:51:54] INFO root fetch - processPackages [infoworkssdk]: executing diffoscope
+[2023-05-18 11:51:54] INFO root fetch - processPackages [infoworkssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoworkssdk-3.0a2.tar.gz tmp/infoworkssdk-3.0b0.tar.gz --markdown 20230518/i/infoworkssdk/3.0a2-3.0b0/diff.md --exclude *.pyd
+[2023-05-18 11:51:55] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:51:55] INFO root fetch - main [MainThread]: End processing [serialization-tool]: success
+[2023-05-18 11:51:55] INFO root fetch - main [MainThread]: End processing [IoTuring]: success
+[2023-05-18 11:51:55] INFO root fetch - main [MainThread]: End processing [resdk]: success
+[2023-05-18 11:51:55] INFO root fetch - main [MainThread]: End processing [infoworkssdk]: success
+[2023-05-18 11:51:56] INFO root fetch - main [MainThread]: End processing [pygdal]: success
+[2023-05-18 11:51:56] INFO root fetch - main [MainThread]: End processing [pygdal]: success
+[2023-05-18 11:51:56] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:51:56] INFO root fetch - main [MainThread]: Store serial: [18152314]
