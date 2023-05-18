@@ -11921,3 +11921,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:25:40] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2023-05-18 11:25:41] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-18 11:25:41] INFO root fetch - main [MainThread]: Store serial: [18152069]
+[2023-05-18 11:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152069]
+[2023-05-18 11:30:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salesea
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basking-sdk
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dockx-checker
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-eyalf-clean-EvaldCVLExp
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mly-pipeline
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-client
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2023-05-18 11:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2023-05-18 11:30:51] INFO root fetch - processPackages [dockx-checker]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] WARNING root fetch - processPackages [salesea]: Skipping, unable to determine old version
+[2023-05-18 11:30:51] INFO root fetch - processPackages [salesea]: Start processing: nucliadb-protos
+[2023-05-18 11:30:51] INFO root fetch - main [MainThread]: End processing [salesea] error
+[2023-05-18 11:30:51] INFO root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: New version: [20230518.9.27.300058] Old Version: [20230511.12.0.820737]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [mly-pipeline]: New version: [0.4] Old Version: [0.3.1.2]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [basking-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [dockx-checker]: Downloading https://files.pythonhosted.org/packages/e7/6b/3e8af64020e6ac74d94a341d984261583fd817e0bcce6fd44b59196975c7/dockx_checker-0.0.6.tar.gz
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/ff/df/b1fd5eb44bdcbedb091943e016c7fe264d11bc7e4894c7c0f56eb4b579af/PatryksAutoAI-1.2.3.tar.gz
+[2023-05-18 11:30:51] INFO root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Downloading https://files.pythonhosted.org/packages/19/e9/cc80f023eff2ea948294c8fbc7f6f26f500f883104109c1176e99d9f3ee6/certora-cli-alpha-eyalf-clean-EvaldCVLExp-20230511.12.0.820737.tar.gz
+[2023-05-18 11:30:51] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Skipping package: exceeds size limit 39214788>=10485760
+[2023-05-18 11:30:51] INFO root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Start processing: nucliadb-sdk
+[2023-05-18 11:30:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-clean-EvaldCVLExp] error
+[2023-05-18 11:30:51] INFO root fetch - processPackages [dockx-checker]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/be/cc/14dfdbe66c43b8d02a65c5a25f19725f43c4f1e3fa1930142eea8b9e981c/mly_pipeline-0.3.1.2.tar.gz
+[2023-05-18 11:30:51] INFO root fetch - processPackages [dockx-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockx_checker-0.0.5.tar.gz tmp/dockx_checker-0.0.6.tar.gz --markdown 20230518/d/dockx-checker/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:51] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/bd/7f/788f623d72868024475b42401a9a1e31ef786f7aa06bafdfa6950704d113/basking-sdk-0.9.8.tar.gz
+[2023-05-18 11:30:51] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.2.tar.gz tmp/PatryksAutoAI-1.2.3.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-18 11:30:51] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:52] INFO root fetch - processPackages [mly-pipeline]: Downloading https://files.pythonhosted.org/packages/c6/77/01691b94203396df07d0c22288952442fb160632205142c580e7a87f3a79/mly_pipeline-0.4.tar.gz
+[2023-05-18 11:30:52] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/fe/4a/dcb7d8e63397c8a76449619a49b4e6d7bab38e18321fa4b9c5c190f7ec5d/basking-sdk-0.9.9.tar.gz
+[2023-05-18 11:30:52] INFO root fetch - processPackages [mly-pipeline]: executing diffoscope
+[2023-05-18 11:30:52] INFO root fetch - processPackages [mly-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mly_pipeline-0.3.1.2.tar.gz tmp/mly_pipeline-0.4.tar.gz --markdown 20230518/m/mly-pipeline/0.3.1.2-0.4/diff.md --exclude *.pyd
+[2023-05-18 11:30:52] INFO root fetch - processPackages [basking-sdk]: executing diffoscope
+[2023-05-18 11:30:52] INFO root fetch - processPackages [basking-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basking-sdk-0.9.8.tar.gz tmp/basking-sdk-0.9.9.tar.gz --markdown 20230518/b/basking-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 11:30:52] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-05-18 11:30:52] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-models]: Start processing: calmodule
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-client]: Start processing: u-msgpack-python
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-18 11:30:53] WARNING root fetch - processPackages [calmodule]: Skipping, unable to determine old version
+[2023-05-18 11:30:53] INFO root fetch - processPackages [calmodule]: Start processing: alibabacloud-ros20190910-py2
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [calmodule] error
+[2023-05-18 11:30:53] INFO root fetch - processPackages [u-msgpack-python]: New version: [2.8.0] Old Version: [2.7.2]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: slim-compose
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [slim-compose]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [u-msgpack-python]: Downloading https://files.pythonhosted.org/packages/44/a7/1cb4f059bbf72ea24364f9ba3ef682725af09969e29df988aa5437f0044e/u-msgpack-python-2.7.2.tar.gz
+[2023-05-18 11:30:53] INFO root fetch - processPackages [slim-compose]: executing diffoscope
+[2023-05-18 11:30:53] INFO root fetch - processPackages [slim-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim-compose-1.0.2.tar.gz tmp/slim-compose-1.0.3.tar.gz --markdown 20230518/s/slim-compose/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/03/1e/2f398e987c91810a442f00ff6f0f1e3a9a9a626d23e32d18611d9379a2ae/alibabacloud_ros20190910_py2-2.2.8.tar.gz
+[2023-05-18 11:30:53] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: alibabacloud-ros20190910
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [basking-sdk]: Start processing: odoo-addon-report-qweb-operating-unit
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [basking-sdk]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [nucliadb-protos]: Start processing: ms2query
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-18 11:30:53] INFO root fetch - processPackages [ms2query]: New version: [1.0.0] Old Version: [0.7.4]
+[2023-05-18 11:30:53] INFO root fetch - processPackages [u-msgpack-python]: Downloading https://files.pythonhosted.org/packages/36/9d/a40411a475e7d4838994b7f6bcc6bfca9acc5b119ce3a7503608c4428b49/u-msgpack-python-2.8.0.tar.gz
+[2023-05-18 11:30:53] WARNING root fetch - processPackages [odoo-addon-report-qweb-operating-unit]: Skipping, unable to determine old version
+[2023-05-18 11:30:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-operating-unit] error
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: Downloading https://files.pythonhosted.org/packages/91/70/4f6bf49e8b547147e5bd030ee4209e15d7efc3e726c6768527769861d171/alibabacloud_ros20190910_py2-2.2.9.tar.gz
+[2023-05-18 11:30:53] INFO root fetch - processPackages [ms2query]: executing diffoscope
+[2023-05-18 11:30:53] INFO root fetch - processPackages [ms2query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2query-0.7.4.tar.gz tmp/ms2query-1.0.0.tar.gz --markdown 20230518/m/ms2query/0.7.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/a5/5f/f413add2083069f357180c6d3859697a81b46ea10ffb83011f14a687c5ea/alibabacloud_ros20190910-3.2.8.tar.gz
+[2023-05-18 11:30:53] INFO root fetch - processPackages [u-msgpack-python]: executing diffoscope
+[2023-05-18 11:30:53] INFO root fetch - processPackages [u-msgpack-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u-msgpack-python-2.7.2.tar.gz tmp/u-msgpack-python-2.8.0.tar.gz --markdown 20230518/u/u-msgpack-python/2.7.2-2.8.0/diff.md --exclude *.pyd
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: executing diffoscope
+[2023-05-18 11:30:53] INFO root fetch - processPackages [alibabacloud-ros20190910-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910_py2-2.2.8.tar.gz tmp/alibabacloud_ros20190910_py2-2.2.9.tar.gz --markdown 20230518/a/alibabacloud-ros20190910-py2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-18 11:30:54] INFO root fetch - processPackages [alibabacloud-ros20190910]: Downloading https://files.pythonhosted.org/packages/f3/38/d9846c16f521f90eff5252f6882afaf5e502b522028bb55413e11a7552a9/alibabacloud_ros20190910-3.2.9.tar.gz
+[2023-05-18 11:30:54] INFO root fetch - main [MainThread]: End processing [mly-pipeline]: success
+[2023-05-18 11:30:54] INFO root fetch - processPackages [alibabacloud-ros20190910]: executing diffoscope
+[2023-05-18 11:30:54] INFO root fetch - processPackages [alibabacloud-ros20190910]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ros20190910-3.2.8.tar.gz tmp/alibabacloud_ros20190910-3.2.9.tar.gz --markdown 20230518/a/alibabacloud-ros20190910/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-18 11:30:54] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-18 11:30:54] INFO root fetch - main [MainThread]: End processing [slim-compose]: success
+[2023-05-18 11:30:55] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-18 11:30:55] INFO root fetch - main [MainThread]: End processing [u-msgpack-python]: success
+[2023-05-18 11:30:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910]: success
+[2023-05-18 11:30:56] INFO root fetch - main [MainThread]: End processing [ms2query]: success
+[2023-05-18 11:30:56] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
+[2023-05-18 11:30:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910-py2]: success
+[2023-05-18 11:30:57] INFO root fetch - main [MainThread]: Store serial: [18152127]
