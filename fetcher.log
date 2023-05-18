@@ -9717,3 +9717,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:28:19] INFO root fetch - main [MainThread]: End processing [wodoo]: success
 [2023-05-18 09:28:31] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-05-18 09:28:31] INFO root fetch - main [MainThread]: Store serial: [18150687]
+[2023-05-18 09:33:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150687]
+[2023-05-18 09:33:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gqt
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authomize-rest-api-client
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezbeq
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-enroll
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynessie
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-base-changeset
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-autovacuum-message-attachment
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wizata-dsapi
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-module-analysis
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dockx-checker
+[2023-05-18 09:33:40] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ezbeq]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [dockx-checker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-05-18 09:33:40] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.0b8.tar.gz tmp/ezbeq-1.0.0b9.tar.gz --markdown 20230518/e/ezbeq/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-18 09:33:40] INFO root fetch - processPackages [odoo14-addon-base-changeset]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-05-18 09:33:40] INFO root fetch - processPackages [odoo-addon-module-analysis]: New version: [16.0.1.0.0.11] Old Version: [16.0.1.0.0.10]
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-05-18 09:33:41] INFO root fetch - processPackages [pynessie]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-05-18 09:33:41] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 09:33:41] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/1f/b8/10155a2965432b593a63efcb58674c1e8c9085d439a304419e1469e0c727/authomize-rest-api-client-4.0.0.tar.gz
+[2023-05-18 09:33:41] INFO root fetch - processPackages [dockx-checker]: Downloading https://files.pythonhosted.org/packages/90/73/ec055411b45a081bd6c2dcb0ce156904c54cb7e506b3b5159a153a5e4e67/dockx_checker-0.0.4.tar.gz
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/34/96/7e55729fd7fef42a17bd9897fc650dce59d48d453dda0854689318228e38/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo-addon-module-analysis]: Downloading https://files.pythonhosted.org/packages/d9/7e/992524ec9800f7c24a279935a69302fd13566718405ae5661742a927e835/odoo_addon_module_analysis-16.0.1.0.0.10-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/35/d7/3658e5dbbba12685cf7f8590d9bea5a12d5bcf223bf5ca499c790ceaf978/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [dockx-checker]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [dockx-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockx_checker-0.0.3.tar.gz tmp/dockx_checker-0.0.4.tar.gz --markdown 20230518/d/dockx-checker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [pynessie]: Downloading https://files.pythonhosted.org/packages/35/34/862624b88e274f1ef17fd1a9c810ae6326b14123c3cf5f32d1a92778100a/pynessie-0.9.0.tar.gz
+[2023-05-18 09:33:41] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230518/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230518/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/bb/59/1042e54a29bc15547fbf4f880be78e5f3fdc4e076538df031c3de528fdb2/authomize-rest-api-client-4.1.0.tar.gz
+[2023-05-18 09:33:41] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.0.0.tar.gz tmp/authomize-rest-api-client-4.1.0.tar.gz --markdown 20230518/a/authomize-rest-api-client/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-base-changeset]: Downloading https://files.pythonhosted.org/packages/7c/f8/4b85b39bc4566ab393522d17e4eb4b4868b801088141eb501b43058a2461/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230518/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: Downloading https://files.pythonhosted.org/packages/5e/14/1b6c5865feddbadbd26fa3b7697f1da32ae6249dd5fff03fc5c37dc33686/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [pynessie]: Downloading https://files.pythonhosted.org/packages/db/a7/8c73f7307fa99f382131e531b553c5694912bae54eca351545190ba23ada/pynessie-0.9.2.tar.gz
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo-addon-module-analysis]: Downloading https://files.pythonhosted.org/packages/3b/5c/16bab457de7a53068cf5fad19763594289d6f18ce241c1d13473ca3cf920/odoo_addon_module_analysis-16.0.1.0.0.11-py3-none-any.whl
+[2023-05-18 09:33:41] INFO root fetch - processPackages [pynessie]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [pynessie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynessie-0.9.0.tar.gz tmp/pynessie-0.9.2.tar.gz --markdown 20230518/p/pynessie/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-base-changeset]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-base-changeset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_changeset-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-base-changeset/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo14-addon-autovacuum-message-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_autovacuum_message_attachment-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-autovacuum-message-attachment/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo-addon-module-analysis]: executing diffoscope
+[2023-05-18 09:33:41] INFO root fetch - processPackages [odoo-addon-module-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_analysis-16.0.1.0.0.10-py3-none-any.whl.zip tmp/odoo_addon_module_analysis-16.0.1.0.0.11-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-module-analysis/16.0.1.0.0.10-16.0.1.0.0.11/diff.md --exclude *.pyd
+[2023-05-18 09:33:42] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-05-18 09:33:42] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-18 09:33:43] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-18 09:33:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-autovacuum-message-attachment]: success
+[2023-05-18 09:33:43] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-05-18 09:33:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-analysis]: success
+[2023-05-18 09:33:43] INFO root fetch - main [MainThread]: End processing [pynessie]: success
+[2023-05-18 09:33:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-changeset]: success
+[2023-05-18 09:33:44] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
+[2023-05-18 09:33:50] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-05-18 09:33:50] INFO root fetch - main [MainThread]: Store serial: [18150721]
