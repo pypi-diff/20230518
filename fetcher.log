@@ -20165,3 +20165,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 18:16:17] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2023-05-18 18:16:59] INFO root fetch - main [MainThread]: End processing [sherpa]: success
 [2023-05-18 18:16:59] INFO root fetch - main [MainThread]: Store serial: [18156864]
+[2023-05-18 18:22:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156864]
+[2023-05-18 18:22:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspeaker
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydisadm
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shared
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-honeybee
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cursesplus
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plugwise
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-or-cvlSerialization2
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-phal-plugin-core-updater
+[2023-05-18 18:22:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tap-rest-api-msdk
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pydisadm]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [cursesplus]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-18 18:22:10] WARNING root fetch - processPackages [certora-cli-alpha-or-cvlSerialization2]: Skipping, unable to determine old version
+[2023-05-18 18:22:10] INFO root fetch - processPackages [certora-cli-alpha-or-cvlSerialization2]: Start processing: autodistill-grounding-dino
+[2023-05-18 18:22:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-or-cvlSerialization2] error
+[2023-05-18 18:22:10] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230518.9.17.425198] Old Version: [20230518.7.52.527498]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [autodistill-grounding-dino]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b0/0a/b86a2ca631c1d75b6b32d1d8073e42c36c74e28e8e4d37fab7dac4bb02c2/certora-cli-alpha-master-20230518.7.52.527498.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pyspeaker]: New version: [3.0] Old Version: [2.0]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.2.1.tar.gz tmp/cursesplus-2.2.2.tar.gz --markdown 20230518/c/cursesplus/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [tap-rest-api-msdk]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [shared]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pydisadm]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pydisadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydisadm-1.1.1.tar.gz tmp/pydisadm-1.1.2.tar.gz --markdown 20230518/p/pydisadm/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: New version: [1.0.1a0] Old Version: [1.0.0]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-05-18 18:22:10] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38976688>=10485760
+[2023-05-18 18:22:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: quisk
+[2023-05-18 18:22:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-18 18:22:10] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [autodistill-grounding-dino]: Downloading https://files.pythonhosted.org/packages/fd/6d/aeac9e8a4d931ab805f40b50f60febfa9ce791d7bb54aa343ce232674d0c/autodistill_grounding_dino-0.0.5.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/48/f9/b07bb8b8f92aff8a7783eaf319710b4b522f0fdff164e00a531ead905cfb/PySpeaker-2.0.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [tap-rest-api-msdk]: Downloading https://files.pythonhosted.org/packages/5e/19/726dc8d15f7589439f485084b251e04aa3fafe38b6b2935018fa83fb6949/tap_rest_api_msdk-1.1.1.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [quisk]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-05-18 18:22:10] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/d6/27/2a755277b7fb62d9127b713458b69b6f05e515a75b15491a158bf82931ac/neon_phal_plugin_core_updater-1.0.0-py3-none-any.whl
+[2023-05-18 18:22:10] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [shared]: Downloading https://files.pythonhosted.org/packages/9d/77/8edca2a5b960451a0849bb12cb7da0a3eb0e769f17a9d7bc4175a0a111e5/shared-0.0.8.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [autodistill-grounding-dino]: Downloading https://files.pythonhosted.org/packages/66/b5/b69b372f3c1a58e197bae8fca544c5530084ff73b7f3ada799a605300160/autodistill_grounding_dino-0.0.6.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/d4/1c/dc3e5664ab1a769a73873a725e2d3f3570625f3ab5abe8643dd2bf53e87f/pyspeaker-3.0.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [quisk]: Downloading https://files.pythonhosted.org/packages/d7/4d/6a4558f6f8b306005c0d908ec12b1568c6301e25680ffeacce2019bd0318/quisk-4.2.8.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230518/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [autodistill-grounding-dino]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [autodistill-grounding-dino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill_grounding_dino-0.0.5.tar.gz tmp/autodistill_grounding_dino-0.0.6.tar.gz --markdown 20230518/a/autodistill-grounding-dino/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeaker-2.0.tar.gz tmp/pyspeaker-3.0.tar.gz --markdown 20230518/p/pyspeaker/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: Downloading https://files.pythonhosted.org/packages/08/83/17e4b352e10207cb8a6b844276cc770c63fb4cf83c2371e75064a81c60a4/neon_phal_plugin_core_updater-1.0.1a0-py3-none-any.whl
+[2023-05-18 18:22:10] INFO root fetch - processPackages [tap-rest-api-msdk]: Downloading https://files.pythonhosted.org/packages/a5/b4/269ccc651b9645ebeacbbc1a72cc463e1a5bedd7c1266c12eec196fd1ab3/tap_rest_api_msdk-1.1.2.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [shared]: Downloading https://files.pythonhosted.org/packages/55/ae/fbfed5d12153db3caca6bddd7fbfdc02c710f17bce17ab63b167219ef795/shared-0.0.9.tar.gz
+[2023-05-18 18:22:10] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [neon-phal-plugin-core-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_phal_plugin_core_updater-1.0.0-py3-none-any.whl.zip tmp/neon_phal_plugin_core_updater-1.0.1a0-py3-none-any.whl.zip --markdown 20230518/n/neon-phal-plugin-core-updater/1.0.0-1.0.1a0/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [tap-rest-api-msdk]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [tap-rest-api-msdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_rest_api_msdk-1.1.1.tar.gz tmp/tap_rest_api_msdk-1.1.2.tar.gz --markdown 20230518/t/tap-rest-api-msdk/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-18 18:22:10] INFO root fetch - processPackages [shared]: executing diffoscope
+[2023-05-18 18:22:10] INFO root fetch - processPackages [shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared-0.0.8.tar.gz tmp/shared-0.0.9.tar.gz --markdown 20230518/s/shared/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:22:11] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-05-18 18:22:11] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-05-18 18:22:11] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230518/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-05-18 18:22:11] INFO root fetch - processPackages [cursesplus]: Start processing: rmscene
+[2023-05-18 18:22:11] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-05-18 18:22:11] INFO root fetch - processPackages [rmscene]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-18 18:22:11] INFO root fetch - processPackages [quisk]: Downloading https://files.pythonhosted.org/packages/de/3d/9500e98d1a250189b29023e08209879947fd920f4176e8ece480e705f956/quisk-4.2.9.tar.gz
+[2023-05-18 18:22:11] INFO root fetch - processPackages [rmscene]: Downloading https://files.pythonhosted.org/packages/ff/f2/47998e440762d13fa1d0c2dc2b7c16acc9ad1bf7c580c9f9a9aed4f00993/rmscene-0.3.0.tar.gz
+[2023-05-18 18:22:11] INFO root fetch - processPackages [pyspeaker]: Start processing: pyadapt
+[2023-05-18 18:22:11] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-18 18:22:11] INFO root fetch - processPackages [rmscene]: Downloading https://files.pythonhosted.org/packages/0b/e0/fa638ff59474176e8fc474b0d0d789ad0036e2b634b18b91964df5055e45/rmscene-0.4.0.tar.gz
+[2023-05-18 18:22:12] WARNING root fetch - processPackages [pyadapt]: Skipping, unable to determine old version
+[2023-05-18 18:22:12] INFO root fetch - processPackages [pyadapt]: Start processing: ntvHaber
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [pyadapt] error
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [autodistill-grounding-dino]: success
+[2023-05-18 18:22:12] INFO root fetch - processPackages [quisk]: executing diffoscope
+[2023-05-18 18:22:12] INFO root fetch - processPackages [quisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quisk-4.2.8.tar.gz tmp/quisk-4.2.9.tar.gz --markdown 20230518/q/quisk/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-05-18 18:22:12] INFO root fetch - processPackages [rmscene]: executing diffoscope
+[2023-05-18 18:22:12] INFO root fetch - processPackages [ntvHaber]: New version: [1.30.0] Old Version: [1.10]
+[2023-05-18 18:22:12] INFO root fetch - processPackages [rmscene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmscene-0.3.0.tar.gz tmp/rmscene-0.4.0.tar.gz --markdown 20230518/r/rmscene/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-core-updater]: success
+[2023-05-18 18:22:12] INFO root fetch - processPackages [ntvHaber]: Downloading https://files.pythonhosted.org/packages/9f/03/e1224ac8782e77b9a62c758a1b9eba3536b1b572172c9d8962c297ec9351/ntvHaber-1.10.tar.gz
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [shared]: success
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [tap-rest-api-msdk]: success
+[2023-05-18 18:22:12] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-05-18 18:22:12] INFO root fetch - processPackages [ntvHaber]: Downloading https://files.pythonhosted.org/packages/d1/57/5b9b657d26f1ecf6af9808ab1e541c40c54fc73a687f9ec7e4b1bfd777cd/ntvHaber-1.30.0.tar.gz
+[2023-05-18 18:22:12] INFO root fetch - processPackages [ntvHaber]: executing diffoscope
+[2023-05-18 18:22:12] INFO root fetch - processPackages [ntvHaber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntvHaber-1.10.tar.gz tmp/ntvHaber-1.30.0.tar.gz --markdown 20230518/n/ntvHaber/1.10-1.30.0/diff.md --exclude *.pyd
+[2023-05-18 18:22:13] INFO root fetch - main [MainThread]: End processing [rmscene]: success
+[2023-05-18 18:22:14] INFO root fetch - main [MainThread]: End processing [ntvHaber]: success
+[2023-05-18 18:22:14] INFO root fetch - main [MainThread]: End processing [quisk]: success
+[2023-05-18 18:22:15] INFO root fetch - main [MainThread]: End processing [pydisadm]: success
+[2023-05-18 18:22:15] INFO root fetch - main [MainThread]: Store serial: [18156928]
