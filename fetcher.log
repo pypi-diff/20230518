@@ -17241,3 +17241,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:09:17] INFO root fetch - main [MainThread]: End processing [photoshop-python-api]: success
 [2023-05-18 16:09:24] INFO root fetch - main [MainThread]: End processing [ngsfragments]: success
 [2023-05-18 16:09:24] INFO root fetch - main [MainThread]: Store serial: [18155209]
+[2023-05-18 16:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155209]
+[2023-05-18 16:14:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamineml
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synthesized
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytestifyx
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-code-ui
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: relion
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argrelay
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: barvikron
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gamma-desk
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azureml-assets
+[2023-05-18 16:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-sdk
+[2023-05-18 16:14:34] INFO root fetch - processPackages [synthesized]: New version: [2.6rc5] Old Version: [2.6rc4]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [lamineml]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.9] Old Version: [0.42.8]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [argrelay]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [relion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev8]
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 16:14:34] INFO root fetch - processPackages [gamma-desk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [barvikron]: Skipping, unable to determine old version
+[2023-05-18 16:14:34] INFO root fetch - processPackages [barvikron]: Start processing: lusid-sdk-preview
+[2023-05-18 16:14:34] INFO root fetch - main [MainThread]: End processing [barvikron] error
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev8]
+[2023-05-18 16:14:34] INFO root fetch - processPackages [azureml-assets]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 16:14:34] WARNING root fetch - processPackages [argrelay]: None
+[2023-05-18 16:14:34] INFO root fetch - processPackages [argrelay]: Start processing: Digikam-DB
+[2023-05-18 16:14:34] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-05-18 16:14:34] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/a1/87/7b598ff5e47d1d95ec14e02756480de9921b3278f621ab3af3cd1ce34a5d/pytestifyx-0.4.5-py2.py3-none-any.whl
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.8.tar.gz tmp/gpt_code_ui-0.42.9.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.8-0.42.9/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/bf/72/8b71c3eca6a3d741c27a32cc8ef71d3a10c48d03c404018e1abf0bd1b59f/lamineml-0.0.61.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/61/f2/87d50de05902760a5aaeb5f67ebe4ccf2d3899229c8042b40e297206a70d/synthesized-2.6rc4-cp39-cp39-win_amd64.whl
+[2023-05-18 16:14:35] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/e0/82/69a9de4ba7a280713f6191fe700469d5c59405c8691b42cf7436e7793241/relion-0.9.8.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gamma-desk]: Downloading https://files.pythonhosted.org/packages/cc/cd/8093b5c69ea7976512de125f05dd210d647543ba655ee91d7dfeaad767c7/gamma_desk-0.5.1-py3-none-any.whl
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-18 16:14:35] INFO root fetch - processPackages [Digikam-DB]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-18 16:14:35] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/a5/b0/9668e7ad45e4ce2f645d646c8e10f040f6e38ea15269ae40a908375aaaca/azureml-assets-1.0.0.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/fc/da/8e54bce3ba528f97bbe71967f5cdc1bb4986583107305f7600529edf969a/pytestifyx-0.4.6-py2.py3-none-any.whl
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/55/92/41242d2fef769b5038d9706cebcfb70a4e71895bab7aab4eb3040337faa1/lamineml-0.0.62.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/bf/8a/29cbc4de1afb98e86dd6f6ffec2452400f11dff1982f46627eb5094ceffd/Digikam-DB-0.2.2.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/c0/fb/3e0878bcaad3b00f04f093551d7be6c5581ca2a4ba2bfd351c3b9239b497/azureml-assets-1.0.1.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.5-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.6-py2.py3-none-any.whl.zip --markdown 20230518/p/pytestifyx/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.0.61.tar.gz tmp/lamineml-0.0.62.tar.gz --markdown 20230518/l/lamineml/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [relion]: Downloading https://files.pythonhosted.org/packages/f1/34/df132ddc1c4f86e0fbbbf6901e5d7faf00fc28548ec49050cf5ecc44ac6d/relion-0.9.9.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gamma-desk]: Downloading https://files.pythonhosted.org/packages/74/b7/f69cf71dd1b3754a29cbe44355de598223aab3b3758c0eb2d8f2470e9ad0/gamma_desk-0.5.2-py3-none-any.whl
+[2023-05-18 16:14:35] INFO root fetch - processPackages [azureml-assets]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [azureml-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml-assets-1.0.0.tar.gz tmp/azureml-assets-1.0.1.tar.gz --markdown 20230518/a/azureml-assets/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [relion]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [relion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relion-0.9.8.tar.gz tmp/relion-0.9.9.tar.gz --markdown 20230518/r/relion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gamma-desk]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [gamma-desk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamma_desk-0.5.1-py3-none-any.whl.zip tmp/gamma_desk-0.5.2-py3-none-any.whl.zip --markdown 20230518/g/gamma-desk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 16:14:35] INFO root fetch - processPackages [Digikam-DB]: Downloading https://files.pythonhosted.org/packages/ed/30/8d6cee70ddfb0422c834c83aec1a794d36b6cf9c1cb82c79200b16e05f4f/Digikam-DB-0.3.0.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-18 16:14:35] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230518/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-18 16:14:36] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-18 16:14:36] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230518/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-18 16:14:36] INFO root fetch - processPackages [Digikam-DB]: executing diffoscope
+[2023-05-18 16:14:36] INFO root fetch - processPackages [Digikam-DB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digikam-DB-0.2.2.tar.gz tmp/Digikam-DB-0.3.0.tar.gz --markdown 20230518/D/Digikam-DB/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 16:14:36] INFO root fetch - processPackages [synthesized]: Downloading https://files.pythonhosted.org/packages/01/5a/8a7c7408334a0bfa567827d8cf0bc531f30bd2dfeb1ec79c503e34fddcea/synthesized-2.6rc5-cp39-cp39-win_amd64.whl
+[2023-05-18 16:14:36] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 16:14:36] INFO root fetch - processPackages [synthesized]: executing diffoscope
+[2023-05-18 16:14:36] INFO root fetch - processPackages [synthesized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthesized-2.6rc4-cp39-cp39-win_amd64.whl.zip tmp/synthesized-2.6rc5-cp39-cp39-win_amd64.whl.zip --markdown 20230518/s/synthesized/2.6rc4-2.6rc5/diff.md --exclude *.pyd
+[2023-05-18 16:14:36] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-05-18 16:14:37] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-18 16:14:37] INFO root fetch - main [MainThread]: End processing [relion]: success
+[2023-05-18 16:14:37] INFO root fetch - main [MainThread]: End processing [azureml-assets]: success
+[2023-05-18 16:14:37] INFO root fetch - main [MainThread]: End processing [Digikam-DB]: success
+[2023-05-18 16:14:38] INFO root fetch - main [MainThread]: End processing [synthesized]: success
+[2023-05-18 16:14:40] INFO root fetch - main [MainThread]: End processing [gamma-desk]: success
+[2023-05-18 16:14:57] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-18 16:15:11] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-18 16:15:11] INFO root fetch - main [MainThread]: Store serial: [18155254]
