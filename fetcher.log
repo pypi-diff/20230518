@@ -5259,3 +5259,52 @@
 [2023-05-18 04:44:49] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
 [2023-05-18 04:44:51] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-05-18 04:44:51] INFO root fetch - main [MainThread]: Store serial: [18148814]
+[2023-05-18 04:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148814]
+[2023-05-18 04:50:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-copilot
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcbot-celery-sdk
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdriver
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tepe
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typer-config
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-queuey
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-account-move-line-import
+[2023-05-18 04:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: delta-task
+[2023-05-18 04:50:00] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [odoo8-addon-account-move-line-import]: New version: [8.0.1.0.3.99.dev6] Old Version: [8.0.1.0.3.99.dev5]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [tepe]: New version: [0.7.5.2] Old Version: [0.6.9.5]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [typer-config]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [arkdriver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [delta-task]: New version: [0.8.4rc1] Old Version: [0.8.3]
+[2023-05-18 04:50:00] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 04:50:00] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 04:50:00] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-05-18 04:50:00] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230518/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:50:00] INFO root fetch - processPackages [odoo8-addon-account-move-line-import]: Downloading https://files.pythonhosted.org/packages/1c/74/8ef303f30fa514bd402f9a46d207375a2c98349c207dd299bba503918e15/odoo8_addon_account_move_line_import-8.0.1.0.3.99.dev5-py2-none-any.whl
+[2023-05-18 04:50:00] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/73/72/7277b3c58f7fee50d9c551fd905b09e6eb5cb0f826bad56b1646366d1d18/typer_config-0.3.0.tar.gz
+[2023-05-18 04:50:00] INFO root fetch - processPackages [delta-task]: Downloading https://files.pythonhosted.org/packages/1a/6c/2c4f067e2267b27e1503ec412b036875c6170e838830cc79f39f51ab0aad/delta-task-0.8.3.tar.gz
+[2023-05-18 04:50:00] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-05-18 04:50:00] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.8.tar.gz tmp/arkdriver-1.0.9.tar.gz --markdown 20230518/a/arkdriver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:50:00] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-18 04:50:00] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.8.tar.gz tmp/deep_copilot-0.0.9.tar.gz --markdown 20230518/d/deep-copilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:50:01] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-18 04:50:01] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.2.0.tar.gz tmp/typer_config-0.3.0.tar.gz --markdown 20230518/t/typer-config/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 04:50:01] INFO root fetch - processPackages [delta-task]: Downloading https://files.pythonhosted.org/packages/4b/c5/4469a876c997ed0a708bd3514513d0007aabd7bd42b583bf1a17ecede2b2/delta-task-0.8.4rc1.tar.gz
+[2023-05-18 04:50:01] INFO root fetch - processPackages [odoo8-addon-account-move-line-import]: Downloading https://files.pythonhosted.org/packages/14/fd/06e0534f607673a1a8c6ae08f488db26d42485e499179ed2f8a566cc05b4/odoo8_addon_account_move_line_import-8.0.1.0.3.99.dev6-py2-none-any.whl
+[2023-05-18 04:50:01] INFO root fetch - processPackages [tepe]: Downloading https://files.pythonhosted.org/packages/39/70/bc0042a5db783ce230f106dba3761354d26d2309064320417f25929b7ae2/tepe-0.7.5.2-py3-none-any.whl
+[2023-05-18 04:50:01] INFO root fetch - processPackages [delta-task]: executing diffoscope
+[2023-05-18 04:50:01] INFO root fetch - processPackages [delta-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delta-task-0.8.3.tar.gz tmp/delta-task-0.8.4rc1.tar.gz --markdown 20230518/d/delta-task/0.8.3-0.8.4rc1/diff.md --exclude *.pyd
+[2023-05-18 04:50:01] INFO root fetch - processPackages [odoo8-addon-account-move-line-import]: executing diffoscope
+[2023-05-18 04:50:01] INFO root fetch - processPackages [odoo8-addon-account-move-line-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_move_line_import-8.0.1.0.3.99.dev5-py2-none-any.whl.zip tmp/odoo8_addon_account_move_line_import-8.0.1.0.3.99.dev6-py2-none-any.whl.zip --markdown 20230518/o/odoo8-addon-account-move-line-import/8.0.1.0.3.99.dev5-8.0.1.0.3.99.dev6/diff.md --exclude *.pyd
+[2023-05-18 04:50:01] INFO root fetch - processPackages [tepe]: executing diffoscope
+[2023-05-18 04:50:01] INFO root fetch - processPackages [tepe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tepe-0.6.9.5-py3-none-any.whl.zip tmp/tepe-0.7.5.2-py3-none-any.whl.zip --markdown 20230518/t/tepe/0.6.9.5-0.7.5.2/diff.md --exclude *.pyd
+[2023-05-18 04:50:02] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-05-18 04:50:02] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-18 04:50:02] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-05-18 04:50:02] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-18 04:50:02] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 04:50:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-move-line-import]: success
+[2023-05-18 04:50:03] INFO root fetch - main [MainThread]: End processing [delta-task]: success
+[2023-05-18 04:50:04] INFO root fetch - main [MainThread]: End processing [tepe]: success
+[2023-05-18 04:50:04] INFO root fetch - main [MainThread]: Store serial: [18148837]
