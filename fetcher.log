@@ -22709,3 +22709,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 20:11:01] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2023-05-18 20:11:02] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-05-18 20:11:02] INFO root fetch - main [MainThread]: Store serial: [18158265]
+[2023-05-18 20:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18158265]
+[2023-05-18 20:16:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comgen
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordcloud
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioumlsim
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funmap
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystripe
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-irodsclient
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-pulumiservice
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shangool
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sfkit
+[2023-05-18 20:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-pulumiservice
+[2023-05-18 20:16:13] INFO root fetch - processPackages [pystripe]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.6.2a1684357856] Old Version: [0.6.1a1681412286]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [bioumlsim]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.6.2a1684357856] Old Version: [0.6.1a1681412286]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [comgen]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-05-18 20:16:13] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-05-18 20:16:13] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.6.1a1681412286.tar.gz tmp/pulumi_pulumiservice-0.6.2a1684357856.tar.gz --markdown 20230518/p/pulumi-pulumiservice/0.6.1a1681412286-0.6.2a1684357856/diff.md --exclude *.pyd
+[2023-05-18 20:16:13] WARNING root fetch - processPackages [shangool]: Skipping, unable to determine old version
+[2023-05-18 20:16:13] INFO root fetch - processPackages [shangool]: Start processing: ape-foundry
+[2023-05-18 20:16:13] INFO root fetch - processPackages [funmap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 20:16:13] INFO root fetch - main [MainThread]: End processing [shangool] error
+[2023-05-18 20:16:13] INFO root fetch - processPackages [python-irodsclient]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-18 20:16:14] INFO root fetch - processPackages [wordcloud]: New version: [1.9.2] Old Version: [1.9.1.1]
+[2023-05-18 20:16:14] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.6.1a1681412286.tar.gz tmp/pulumi_pulumiservice-0.6.2a1684357856.tar.gz --markdown 20230518/p/pulumi-pulumiservice/0.6.1a1681412286-0.6.2a1684357856/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [bioumlsim]: Downloading https://files.pythonhosted.org/packages/fd/17/b70c5bcd370630c681aa1ec5944dbc9505903117928f600ac93fe8f18f0c/bioumlsim-0.2.0.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [pystripe]: Downloading https://files.pythonhosted.org/packages/1e/6c/70d43e87bb20ffe55fb974af4ec041e6beeffa4539d58dbc1e52921e27e3/pystripe-1.2.7.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [ape-foundry]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-18 20:16:14] INFO root fetch - processPackages [bioumlsim]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [bioumlsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioumlsim-0.1.6.tar.gz tmp/bioumlsim-0.2.0.tar.gz --markdown 20230518/b/bioumlsim/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230518/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [wordcloud]: Downloading https://files.pythonhosted.org/packages/a6/92/a3a7b2402123b9af442dcc6e7ba0d2313bb0eafc398c2d9eb7f7d9b7ac53/wordcloud-1.9.1.1.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [funmap]: Downloading https://files.pythonhosted.org/packages/ba/7e/a54eff958609c15e3ac8026920539dea54463ba22a792f8aa466f11a4aab/funmap-0.1.8.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [python-irodsclient]: Downloading https://files.pythonhosted.org/packages/17/cc/3f52acf433fc6211e85c59818026a11848462459dd30b7816ded07760752/python-irodsclient-1.1.7.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [pystripe]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [pystripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystripe-1.2.6.tar.gz tmp/pystripe-1.2.7.tar.gz --markdown 20230518/p/pystripe/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [comgen]: Downloading https://files.pythonhosted.org/packages/cb/f6/60319b11598368eaa847877e67f818c58d1675eb5a95704357c4610584e3/comgen-0.0.13.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [ape-foundry]: Downloading https://files.pythonhosted.org/packages/8c/5c/bd408175ff073800e6ba6848e11952ee3c6cd373fede446334433798506d/ape-foundry-0.6.7.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [wordcloud]: Downloading https://files.pythonhosted.org/packages/fe/f9/35e6f31e57c2f51351625045c9d1ad2fc33fe79cac21973f8985c7dbcbb9/wordcloud-1.9.2.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [python-irodsclient]: Downloading https://files.pythonhosted.org/packages/ee/c5/83ba1f4373fcaf8318342a86415a78d73b540052d18ebd2fde9e20b4502b/python-irodsclient-1.1.8.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [comgen]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [comgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comgen-0.0.12-py3-none-any.whl.zip tmp/comgen-0.0.13.tar.gz --markdown 20230518/c/comgen/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [wordcloud]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [wordcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcloud-1.9.1.1.tar.gz tmp/wordcloud-1.9.2.tar.gz --markdown 20230518/w/wordcloud/1.9.1.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [python-irodsclient]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [python-irodsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-irodsclient-1.1.7.tar.gz tmp/python-irodsclient-1.1.8.tar.gz --markdown 20230518/p/python-irodsclient/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [ape-foundry]: Downloading https://files.pythonhosted.org/packages/be/52/aad72363c8677016ee5791a73a2f896a2a35cd8f8278a4119ac933cd1bbb/ape-foundry-0.6.8.tar.gz
+[2023-05-18 20:16:14] INFO root fetch - processPackages [ape-foundry]: executing diffoscope
+[2023-05-18 20:16:14] INFO root fetch - processPackages [ape-foundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-foundry-0.6.7.tar.gz tmp/ape-foundry-0.6.8.tar.gz --markdown 20230518/a/ape-foundry/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-18 20:16:14] INFO root fetch - processPackages [funmap]: Downloading https://files.pythonhosted.org/packages/b4/b3/91de46acff71b78c99bc7839ae27615639a1617383350093ba225db64675/funmap-0.1.9.tar.gz
+[2023-05-18 20:16:15] INFO root fetch - processPackages [bioumlsim]: Start processing: myintegracion
+[2023-05-18 20:16:15] INFO root fetch - main [MainThread]: End processing [bioumlsim]: success
+[2023-05-18 20:16:15] INFO root fetch - processPackages [funmap]: executing diffoscope
+[2023-05-18 20:16:15] INFO root fetch - processPackages [funmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funmap-0.1.8.tar.gz tmp/funmap-0.1.9.tar.gz --markdown 20230518/f/funmap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 20:16:15] WARNING root fetch - processPackages [myintegracion]: Skipping, unable to determine old version
+[2023-05-18 20:16:15] INFO root fetch - processPackages [myintegracion]: Start processing: ape-hardhat
+[2023-05-18 20:16:15] INFO root fetch - main [MainThread]: End processing [myintegracion] error
+[2023-05-18 20:16:15] INFO root fetch - processPackages [pulumi-pulumiservice]: Start processing: eule
+[2023-05-18 20:16:15] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-05-18 20:16:15] INFO root fetch - processPackages [pystripe]: Start processing: lib-dzne-seq
+[2023-05-18 20:16:15] INFO root fetch - main [MainThread]: End processing [pystripe]: success
+[2023-05-18 20:16:15] INFO root fetch - processPackages [ape-hardhat]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-18 20:16:15] INFO root fetch - processPackages [eule]: New version: [1.0.0] Old Version: [0.3.5]
+[2023-05-18 20:16:15] INFO root fetch - main [MainThread]: End processing [comgen]: success
+[2023-05-18 20:16:15] INFO root fetch - processPackages [lib-dzne-seq]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 20:16:15] INFO root fetch - processPackages [ape-hardhat]: Downloading https://files.pythonhosted.org/packages/08/4c/118067bada0d00265fdb5195781b86ee45bc41b8f331b6eaee60ed02a425/ape-hardhat-0.6.4.tar.gz
+[2023-05-18 20:16:15] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/67/34/cf7fe82c77a98afb4e33b5b2559ec9f74a4500ae7598c4fea0c2dd752134/eule-0.3.5.tar.gz
+[2023-05-18 20:16:16] INFO root fetch - processPackages [lib-dzne-seq]: Downloading https://files.pythonhosted.org/packages/91/68/d8cd29f6855701044076d31f9724aaca77918e9eb6527e1a53ca4f2eb726/lib-dzne-seq-0.1.1.tar.gz
+[2023-05-18 20:16:16] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2023-05-18 20:16:16] INFO root fetch - main [MainThread]: End processing [wordcloud]: success
+[2023-05-18 20:16:16] INFO root fetch - processPackages [ape-hardhat]: Downloading https://files.pythonhosted.org/packages/28/b4/a6297e0ed9347c19a60acc114478df99148fb19c0a54a8e3269d0d83b5e7/ape-hardhat-0.6.5.tar.gz
+[2023-05-18 20:16:16] INFO root fetch - processPackages [lib-dzne-seq]: Downloading https://files.pythonhosted.org/packages/17/4e/363d250a3c92c9b856638ae7eaebae257ff6df38415f1492c36cef05a8c9/lib-dzne-seq-0.2.0.tar.gz
+[2023-05-18 20:16:16] INFO root fetch - processPackages [ape-hardhat]: executing diffoscope
+[2023-05-18 20:16:16] INFO root fetch - processPackages [ape-hardhat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-hardhat-0.6.4.tar.gz tmp/ape-hardhat-0.6.5.tar.gz --markdown 20230518/a/ape-hardhat/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-18 20:16:16] INFO root fetch - processPackages [eule]: Downloading https://files.pythonhosted.org/packages/b2/e6/e1af78f36483e46f872ec3159aaf5a06b4cafecedbccb9385e43ab3d7fa5/eule-1.0.0.tar.gz
+[2023-05-18 20:16:16] INFO root fetch - processPackages [lib-dzne-seq]: executing diffoscope
+[2023-05-18 20:16:16] INFO root fetch - processPackages [lib-dzne-seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-dzne-seq-0.1.1.tar.gz tmp/lib-dzne-seq-0.2.0.tar.gz --markdown 20230518/l/lib-dzne-seq/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 20:16:16] INFO root fetch - processPackages [eule]: executing diffoscope
+[2023-05-18 20:16:16] INFO root fetch - processPackages [eule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eule-0.3.5.tar.gz tmp/eule-1.0.0.tar.gz --markdown 20230518/e/eule/0.3.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 20:16:16] INFO root fetch - main [MainThread]: End processing [python-irodsclient]: success
+[2023-05-18 20:16:16] INFO root fetch - main [MainThread]: End processing [ape-foundry]: success
+[2023-05-18 20:16:17] INFO root fetch - main [MainThread]: End processing [funmap]: success
+[2023-05-18 20:16:17] INFO root fetch - main [MainThread]: End processing [lib-dzne-seq]: success
+[2023-05-18 20:16:17] INFO root fetch - main [MainThread]: End processing [eule]: success
+[2023-05-18 20:16:19] INFO root fetch - main [MainThread]: End processing [ape-hardhat]: success
+[2023-05-18 20:16:20] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-05-18 20:16:20] INFO root fetch - main [MainThread]: Store serial: [18158362]
