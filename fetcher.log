@@ -10403,3 +10403,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 10:00:42] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2023-05-18 10:00:42] INFO root fetch - main [MainThread]: End processing [odoo11-addon-hr-timesheet-sheet]: success
 [2023-05-18 10:00:42] INFO root fetch - main [MainThread]: Store serial: [18151072]
+[2023-05-18 10:05:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151072]
+[2023-05-18 10:05:51] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-hr-timesheet-report
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-gcp
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-hr-timesheet-employee-cost-contract
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: k-amino.py
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-timesheet-sheet
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-hr-utilization-analysis
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IMDBTraktSyncer
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-timesheet
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multidimensionalks
+[2023-05-18 10:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdx-tf
+[2023-05-18 10:05:51] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [cdx-tf]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [django-gcp]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [cdx-tf]: executing diffoscope
+[2023-05-18 10:05:51] INFO root fetch - processPackages [cdx-tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdx_tf-0.1.2.tar.gz tmp/cdx_tf-0.1.3.tar.gz --markdown 20230518/c/cdx-tf/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 10:05:51] WARNING root fetch - processPackages [IMDBTraktSyncer]: Skipping, unable to determine old version
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: New version: [12.0.1.0.2.99.dev3] Old Version: [12.0.1.0.2.99.dev2]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [IMDBTraktSyncer]: Start processing: flight-maneuvers
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: New version: [12.0.1.0.1.99.dev5] Old Version: [12.0.1.0.1.99.dev4]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20230517.0] Old Version: [15.0.20221206.0]
+[2023-05-18 10:05:51] INFO root fetch - main [MainThread]: End processing [IMDBTraktSyncer] error
+[2023-05-18 10:05:51] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 10:05:51] INFO root fetch - processPackages [k-amino.py]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: New version: [12.0.1.1.0.99.dev6] Old Version: [12.0.1.1.0.99.dev5]
+[2023-05-18 10:05:51] WARNING root fetch - processPackages [flight-maneuvers]: Skipping, unable to determine old version
+[2023-05-18 10:05:51] INFO root fetch - processPackages [flight-maneuvers]: Start processing: googlebardapi
+[2023-05-18 10:05:51] INFO root fetch - main [MainThread]: End processing [flight-maneuvers] error
+[2023-05-18 10:05:51] WARNING root fetch - processPackages [googlebardapi]: Skipping, unable to determine old version
+[2023-05-18 10:05:51] INFO root fetch - processPackages [googlebardapi]: Start processing: VSautomatic
+[2023-05-18 10:05:51] INFO root fetch - main [MainThread]: End processing [googlebardapi] error
+[2023-05-18 10:05:51] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/51/67/6a67f5fdb614c93cd3eabffeda87691d8de4e08281c47a875f32dbc1f2bc/django_gcp-0.9.1.tar.gz
+[2023-05-18 10:05:51] INFO root fetch - processPackages [k-amino.py]: Downloading https://files.pythonhosted.org/packages/05/b6/b1230561a577a41db2e5840b3994ab51e64b49996e22492f9cb8afee87b7/k-amino.py-1.2.1.tar.gz
+[2023-05-18 10:05:51] INFO root fetch - processPackages [VSautomatic]: New version: [2.4] Old Version: [2.3]
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/32/b8/61a39e6826c87064604908c578ccdf6f0803417ceeaf93a8ad90650152af/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/e1/45/b315f5136f9ebfcfdb1ede36ec62a6c3924397684880ddaf50fd13978127/odoo_addons_oca_timesheet-15.0.20221206.0-py3-none-any.whl
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/9e/63/15a62063011ee426202a86df0f08b710ddc726350004ea51f52b46e80dec/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev4-py3-none-any.whl
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: Downloading https://files.pythonhosted.org/packages/83/31/682b0d9dbe84ced774cfa5a3434e22120080f27f9f3d913d515af53a000e/odoo12_addon_hr_timesheet_employee_cost_contract-12.0.1.0.2.99.dev2-py3-none-any.whl
+[2023-05-18 10:05:51] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: Downloading https://files.pythonhosted.org/packages/af/4f/604b9ddb7edf673cdfc030aa15ca6d1d185954714237d27bbafca5bc2fde/odoo12_addon_hr_utilization_analysis-12.0.1.1.0.99.dev5-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [VSautomatic]: Downloading https://files.pythonhosted.org/packages/2a/4e/b51ef8451eec5f3dff729af8cb22cb5ded4022d7267741cab264f7b4a6ad/VSautomatic-2.4.tar.gz
+[2023-05-18 10:05:52] INFO root fetch - processPackages [k-amino.py]: Downloading https://files.pythonhosted.org/packages/3b/70/52002960f43c1bb63dda7083082f172c3d697363569599be34b5edf02d08/k-amino.py-1.3.0.tar.gz
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/d3/28/d47d1e72589864daff2ea2d344702ce68e45d81a3ad8b85515e98c2784b9/odoo_addons_oca_timesheet-16.0.20230517.0-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/de/2b/9eba98e8f0b291c5e92a1605b655dbe6e85213923b39dd185910de901b95/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: Downloading https://files.pythonhosted.org/packages/37/f9/5f733ec49e9d3d99adc76b4969db10ec11512e086f9e0ae74b4c5f6f9a61/odoo12_addon_hr_timesheet_employee_cost_contract-12.0.1.0.2.99.dev3-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/fa/1e/7977cdd9436a23d951ec20889acda7f77200169515120aa05a84c7209f1c/django_gcp-0.9.2.tar.gz
+[2023-05-18 10:05:52] INFO root fetch - processPackages [k-amino.py]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [k-amino.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k-amino.py-1.2.1.tar.gz tmp/k-amino.py-1.3.0.tar.gz --markdown 20230518/k/k-amino.py/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: Downloading https://files.pythonhosted.org/packages/47/eb/3f537e2a21e13b19d50fc6a282469def0a4d9a25521964a985e182957615/odoo12_addon_hr_utilization_analysis-12.0.1.1.0.99.dev6-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/db/6b/1d17effaefc35cb552849b8524689c00956fa784b138c74a84aec0a4ba53/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl
+[2023-05-18 10:05:52] INFO root fetch - processPackages [VSautomatic]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [VSautomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VSautomatic-2.3.tar.gz tmp/VSautomatic-2.4.tar.gz --markdown 20230518/V/VSautomatic/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [django-gcp]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [django-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gcp-0.9.1.tar.gz tmp/django_gcp-0.9.2.tar.gz --markdown 20230518/d/django-gcp/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-15.0.20221206.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20230517.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addons-oca-timesheet/15.0.20221206.0-16.0.20230517.0/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_report-12.0.1.0.1.99.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-hr-timesheet-report/12.0.1.0.1.99.dev4-12.0.1.0.1.99.dev5/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_employee_cost_contract-12.0.1.0.2.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_employee_cost_contract-12.0.1.0.2.99.dev3-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-hr-timesheet-employee-cost-contract/12.0.1.0.2.99.dev2-12.0.1.0.2.99.dev3/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_utilization_analysis-12.0.1.1.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_hr_utilization_analysis-12.0.1.1.0.99.dev6-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-hr-utilization-analysis/12.0.1.1.0.99.dev5-12.0.1.1.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-05-18 10:05:52] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-hr-timesheet-sheet/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 10:05:52] INFO root fetch - processPackages [cdx-tf]: Start processing: garminexport
+[2023-05-18 10:05:52] INFO root fetch - main [MainThread]: End processing [cdx-tf]: success
+[2023-05-18 10:05:52] INFO root fetch - processPackages [garminexport]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-18 10:05:53] INFO root fetch - processPackages [garminexport]: Downloading https://files.pythonhosted.org/packages/cb/54/d443cb1f42cc258a180e3a86aea796002c7f17a993df1cfc72aa2ed72d3f/garminexport-0.4.0.tar.gz
+[2023-05-18 10:05:53] INFO root fetch - processPackages [garminexport]: Downloading https://files.pythonhosted.org/packages/54/80/cff136b03966630d4e37994c8feadc7293a365d0ca63d2ff60784cfa6ec1/garminexport-0.4.1.tar.gz
+[2023-05-18 10:05:53] INFO root fetch - processPackages [garminexport]: executing diffoscope
+[2023-05-18 10:05:53] INFO root fetch - processPackages [garminexport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garminexport-0.4.0.tar.gz tmp/garminexport-0.4.1.tar.gz --markdown 20230518/g/garminexport/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-18 10:05:53] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Start processing: multidimensionalks
+[2023-05-18 10:05:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2023-05-18 10:05:53] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 10:05:53] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/31/d7/6ffb9e0ca192618c8f3087adba17c8f157aac77821231a1b72b6f832a191/multidimensionalks-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 10:05:54] INFO root fetch - processPackages [k-amino.py]: Start processing: dvc
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [k-amino.py]: success
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-employee-cost-contract]: Start processing: odoo14-addon-hotel
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-employee-cost-contract]: success
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo12-addon-hr-utilization-analysis]: Start processing: odoo-addon-hotel
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-utilization-analysis]: success
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-report]: success
+[2023-05-18 10:05:54] INFO root fetch - processPackages [dvc]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [django-gcp]: success
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo14-addon-hotel]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/37/c9/a4b88a19ab439dc67f2243029cf786e10a7a87ef8f08c929fafc18c53b63/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 10:05:54] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/c1/27/6c684f868bd4a3136a2de82f99e7a59678001467c318d9768f7d1161f98b/multidimensionalks-0.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 10:05:54] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-18 10:05:54] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.4.tar.gz tmp/dvc-2.9.5.tar.gz --markdown 20230518/d/dvc/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-18 10:05:54] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 10:05:54] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 10:05:54] INFO root fetch - main [MainThread]: End processing [garminexport]: success
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 10:05:54] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/67/22/df3517622fed232de0578dce5b69f02249345fb9b9b8f3e35fc4ea886980/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-05-18 10:05:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet]: success
+[2023-05-18 10:05:55] INFO root fetch - processPackages [odoo14-addon-hotel]: executing diffoscope
+[2023-05-18 10:05:55] INFO root fetch - processPackages [odoo14-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-hotel/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 10:05:57] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 10:05:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel]: success
+[2023-05-18 10:05:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-05-18 10:05:57] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
+[2023-05-18 10:05:59] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 10:06:00] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-18 10:06:00] INFO root fetch - main [MainThread]: Store serial: [18151140]
