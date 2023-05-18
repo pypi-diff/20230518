@@ -4307,3 +4307,72 @@
 [2023-05-18 03:15:45] INFO root fetch - processPackages [raydp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp-1.6.0b20230424.dev0-py3-none-any.whl.zip tmp/raydp-1.6.0b20230518.dev0-py3-none-any.whl.zip --markdown 20230518/r/raydp/1.6.0b20230424.dev0-1.6.0b20230518.dev0/diff.md --exclude *.pyd
 [2023-05-18 03:18:20] INFO root fetch - main [MainThread]: End processing [raydp]: success
 [2023-05-18 03:18:20] INFO root fetch - main [MainThread]: Store serial: [18148350]
+[2023-05-18 03:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148350]
+[2023-05-18 03:23:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockx-checker
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firefox-parser
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spaceone-dashboard
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transliter
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imageTable
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioregistry
+[2023-05-18 03:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scotthsieh-projen-statemachine
+[2023-05-18 03:23:28] INFO root fetch - processPackages [dockx-checker]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.12.dev5] Old Version: [1.12.dev4]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [firefox-parser]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-18 03:23:28] WARNING root fetch - processPackages [transliter]: Skipping, unable to determine old version
+[2023-05-18 03:23:28] INFO root fetch - processPackages [transliter]: Start processing: dockx-checker
+[2023-05-18 03:23:28] INFO root fetch - main [MainThread]: End processing [transliter] error
+[2023-05-18 03:23:28] INFO root fetch - processPackages [imageTable]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [dockx-checker]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 03:23:28] INFO root fetch - processPackages [firefox-parser]: Downloading https://files.pythonhosted.org/packages/7a/4c/ba65c03f448ce9de9053c4c2641df21ebf27669bf47c1114754faa6c4986/firefox-parser-1.1.8.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/9a/26/e679ecda8fc475dd325a594752eaa2ed62779cff2167fa98af659c4f11ad/spaceone-dashboard-1.12.dev4.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [imageTable]: Downloading https://files.pythonhosted.org/packages/f8/ef/64377903323d4686ac860bfe480807e7462da064d9595ad0511e7c08bed7/imageTable-0.1.3.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [firefox-parser]: Downloading https://files.pythonhosted.org/packages/58/26/3a0d8d7477434b9e926d41f3f263ef9fedef22dd1fa1e97fadbce7f881c7/firefox-parser-1.1.9.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: Downloading https://files.pythonhosted.org/packages/9c/69/d81a235fe3ce2e7b50f7afc05b9c8ea3f11fc675e9e758f86863a398e702/dockx_checker-0.0.3.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: Downloading https://files.pythonhosted.org/packages/9c/69/d81a235fe3ce2e7b50f7afc05b9c8ea3f11fc675e9e758f86863a398e702/dockx_checker-0.0.3.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230518/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.0.9.dev202305181684304798] Old Version: [1.8.0.9.dev202305171683703926]
+[2023-05-18 03:23:29] INFO root fetch - processPackages [imageTable]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [imageTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imageTable-0.1.2.tar.gz tmp/imageTable-0.1.3.tar.gz --markdown 20230518/i/imageTable/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/d8/28/7a4ce801fa6b180ee4785094a3bbefcdb4c954a8a870d20f4d19a6d439ba/spaceone-dashboard-1.12.dev5.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230518/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [firefox-parser]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [firefox-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefox-parser-1.1.8.tar.gz tmp/firefox-parser-1.1.9.tar.gz --markdown 20230518/f/firefox-parser/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockx_checker-0.0.2.tar.gz tmp/dockx_checker-0.0.3.tar.gz --markdown 20230518/d/dockx-checker/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-dashboard-1.12.dev4.tar.gz tmp/spaceone-dashboard-1.12.dev5.tar.gz --markdown 20230518/s/spaceone-dashboard/1.12.dev4-1.12.dev5/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [dockx-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockx_checker-0.0.2.tar.gz tmp/dockx_checker-0.0.3.tar.gz --markdown 20230518/d/dockx-checker/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/ff/95/2d9d8f54c52645745fb4eb4db0dc452c86ec50f8bc46c5b23e1da1517532/pyAgrum_nightly-1.8.0.9.dev202305171683703926-cp39-cp39-win_amd64.whl
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-18 03:23:29] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230518/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:23:29] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-05-18 03:23:30] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/6f/e8/34ce1a51ace3c6f757277ef78144c5b5acdbbb936f278805af1b2ccae746/pyAgrum_nightly-1.8.0.9.dev202305181684304798-cp39-cp39-win_amd64.whl
+[2023-05-18 03:23:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-18 03:23:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230518/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:23:30] INFO root fetch - main [MainThread]: End processing [firefox-parser]: success
+[2023-05-18 03:23:30] INFO root fetch - main [MainThread]: End processing [imageTable]: success
+[2023-05-18 03:23:30] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-05-18 03:23:30] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.0.9.dev202305171683703926-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.0.9.dev202305181684304798-cp39-cp39-win_amd64.whl.zip --markdown 20230518/p/pyagrum-nightly/1.8.0.9.dev202305171683703926-1.8.0.9.dev202305181684304798/diff.md --exclude *.pyd
+[2023-05-18 03:23:30] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-05-18 03:23:31] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-18 03:23:31] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
+[2023-05-18 03:23:31] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-18 03:23:31] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
+[2023-05-18 03:23:32] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-05-18 03:23:35] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-18 03:25:28] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-18 03:25:28] INFO root fetch - main [MainThread]: Store serial: [18148399]
