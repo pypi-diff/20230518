@@ -21688,3 +21688,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 19:17:15] INFO root fetch - main [MainThread]: End processing [flasgger]: success
 [2023-05-18 19:17:15] INFO root fetch - main [MainThread]: End processing [trivial-torch-tools]: success
 [2023-05-18 19:17:15] INFO root fetch - main [MainThread]: Store serial: [18157658]
+[2023-05-18 19:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157658]
+[2023-05-18 19:22:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soundstorm-pytorch
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkmatrix
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iloscar-win
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sagemaker
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tendril-utils-www
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CrewCo-API-CrewCo
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onvif-gui
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lit
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-18 19:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyatlan
+[2023-05-18 19:22:26] INFO root fetch - processPackages [iloscar-win]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [onvif-gui]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-05-18 19:22:26] INFO root fetch - processPackages [soundstorm-pytorch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.8.tar.gz tmp/tendril-utils-www-0.2.9.tar.gz --markdown 20230518/t/tendril-utils-www/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tkmatrix]: New version: [0.6.2] Old Version: [0.6.0]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [pyatlan]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [lit]: New version: [16.0.5] Old Version: [16.0.4]
+[2023-05-18 19:22:26] WARNING root fetch - processPackages [CrewCo-API-CrewCo]: Skipping, unable to determine old version
+[2023-05-18 19:22:26] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-05-18 19:22:26] INFO root fetch - processPackages [CrewCo-API-CrewCo]: Start processing: spanishconjugator
+[2023-05-18 19:22:26] INFO root fetch - main [MainThread]: End processing [CrewCo-API-CrewCo] error
+[2023-05-18 19:22:26] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.1.5.tar.gz tmp/onvif-gui-1.1.6.tar.gz --markdown 20230518/o/onvif-gui/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-18 19:22:26] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/ae/40/623e3cef0f984871cf8beb91d3f391858878c0b6083c0ea96b5026ca80b1/iloscar_win-0.1.2.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-18 19:22:26] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/ef/e3/9321af32be42a8b3935f92450c8549ec8b3add897062ca8cb6065bc1a7fe/pyatlan-0.0.31.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/ec/3c/34bda4dcbb616923f26fdfa3f4b5bc006ae99fcd1b1b4d01457b26df5725/tkmatrix-0.6.0.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/79/2b/8fcb165d4d1184223513ac5543d986fe41e18c07139a6f34c1eee99f18c0/lit-16.0.4.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [soundstorm-pytorch]: Downloading https://files.pythonhosted.org/packages/a7/a9/6b927a49d63f79304b9fc8b02bbb600808a8246a66c8fe2191d1b0c9055e/soundstorm-pytorch-0.0.5.tar.gz
+[2023-05-18 19:22:26] INFO root fetch - processPackages [iloscar-win]: executing diffoscope
+[2023-05-18 19:22:26] INFO root fetch - processPackages [iloscar-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-win-0.1.1.tar.gz tmp/iloscar_win-0.1.2.tar.gz --markdown 20230518/i/iloscar-win/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 19:22:26] INFO root fetch - processPackages [soundstorm-pytorch]: executing diffoscope
+[2023-05-18 19:22:26] INFO root fetch - processPackages [soundstorm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundstorm-pytorch-0.0.4.tar.gz tmp/soundstorm-pytorch-0.0.5.tar.gz --markdown 20230518/s/soundstorm-pytorch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 19:22:26] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/9c/20/41695d7f4f6be705dad869e88a2277e1d09be5b30183151a77570096db35/tkmatrix-0.6.2.tar.gz
+[2023-05-18 19:22:27] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/c7/b2/745c5e774b3b4ccbfbfd7ebac83b965f39fb03a3ccba5c7e51d52e042a85/pyatlan-0.0.32.tar.gz
+[2023-05-18 19:22:27] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-05-18 19:22:27] INFO root fetch - processPackages [lit]: Downloading https://files.pythonhosted.org/packages/63/ab/e4c5f26400970a3ca356d19e592af3a5f05a73d5f35470accb6600f84045/lit-16.0.5.tar.gz
+[2023-05-18 19:22:27] INFO root fetch - processPackages [tkmatrix]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [tkmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmatrix-0.6.0.tar.gz tmp/tkmatrix-0.6.2.tar.gz --markdown 20230518/t/tkmatrix/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.0.31.tar.gz tmp/pyatlan-0.0.32.tar.gz --markdown 20230518/p/pyatlan/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230518/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230518/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230518/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [lit]: executing diffoscope
+[2023-05-18 19:22:27] INFO root fetch - processPackages [lit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit-16.0.4.tar.gz tmp/lit-16.0.5.tar.gz --markdown 20230518/l/lit/16.0.4-16.0.5/diff.md --exclude *.pyd
+[2023-05-18 19:22:27] INFO root fetch - processPackages [tendril-utils-www]: Start processing: trivial-torch-tools
+[2023-05-18 19:22:27] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-05-18 19:22:27] INFO root fetch - processPackages [trivial-torch-tools]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-18 19:22:28] INFO root fetch - processPackages [trivial-torch-tools]: executing diffoscope
+[2023-05-18 19:22:28] INFO root fetch - processPackages [trivial-torch-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trivial_torch_tools-0.6.0.tar.gz tmp/trivial_torch_tools-0.6.1.tar.gz --markdown 20230518/t/trivial-torch-tools/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-18 19:22:28] INFO root fetch - processPackages [iloscar-win]: Start processing: iloscar-win
+[2023-05-18 19:22:28] INFO root fetch - main [MainThread]: End processing [iloscar-win]: success
+[2023-05-18 19:22:28] INFO root fetch - processPackages [iloscar-win]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 19:22:28] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/c5/a2/5bedb7999e2ca295733ee250db2291ea90930f3a32af5f0264e9df413840/iloscar_win-0.1.3.tar.gz
+[2023-05-18 19:22:28] INFO root fetch - processPackages [soundstorm-pytorch]: Start processing: dftpy
+[2023-05-18 19:22:28] INFO root fetch - main [MainThread]: End processing [soundstorm-pytorch]: success
+[2023-05-18 19:22:28] INFO root fetch - processPackages [dftpy]: New version: [2.0.0rc2] Old Version: [2.0.0]
+[2023-05-18 19:22:28] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/3f/e3/9a77df7e1e40a8140cda6fa79de598c4d463bbbf87100f75bb3671c6cc0b/iloscar_win-0.1.4.tar.gz
+[2023-05-18 19:22:28] INFO root fetch - processPackages [dftpy]: Downloading https://files.pythonhosted.org/packages/6d/c5/00a4da08234db12ede2993db5c339bf180fc135e3c67e3f67d163b997e2a/dftpy-2.0.0.tar.gz
+[2023-05-18 19:22:29] INFO root fetch - processPackages [iloscar-win]: executing diffoscope
+[2023-05-18 19:22:29] INFO root fetch - processPackages [iloscar-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar_win-0.1.3.tar.gz tmp/iloscar_win-0.1.4.tar.gz --markdown 20230518/i/iloscar-win/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 19:22:29] INFO root fetch - processPackages [dftpy]: Downloading https://files.pythonhosted.org/packages/77/5b/0dd662b444d56892cf4789b86c090b8b85b7aa0c956d83c70013fd98e728/dftpy-2.0.0rc2.tar.gz
+[2023-05-18 19:22:29] INFO root fetch - processPackages [spanishconjugator]: Start processing: whylogs
+[2023-05-18 19:22:29] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-18 19:22:29] INFO root fetch - processPackages [tkmatrix]: Start processing: mlfoundry
+[2023-05-18 19:22:29] INFO root fetch - main [MainThread]: End processing [tkmatrix]: success
+[2023-05-18 19:22:29] INFO root fetch - processPackages [spanishconjugator]: Start processing: CrewCo-API
+[2023-05-18 19:22:29] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-18 19:22:29] INFO root fetch - processPackages [mlfoundry]: New version: [0.8.0rc3] Old Version: [0.8.0rc2]
+[2023-05-18 19:22:29] INFO root fetch - processPackages [whylogs]: New version: [1.1.9.dev0] Old Version: [1.1.9]
+[2023-05-18 19:22:29] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-05-18 19:22:29] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.8.0rc2.tar.gz tmp/mlfoundry-0.8.0rc3.tar.gz --markdown 20230518/m/mlfoundry/0.8.0rc2-0.8.0rc3/diff.md --exclude *.pyd
+[2023-05-18 19:22:29] WARNING root fetch - processPackages [CrewCo-API]: Skipping, unable to determine old version
+[2023-05-18 19:22:29] INFO root fetch - processPackages [CrewCo-API]: Start processing: questdb-connect
+[2023-05-18 19:22:29] INFO root fetch - main [MainThread]: End processing [CrewCo-API] error
+[2023-05-18 19:22:29] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.74] Old Version: [0.0.73]
+[2023-05-18 19:22:29] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-05-18 19:22:29] INFO root fetch - processPackages [dftpy]: executing diffoscope
+[2023-05-18 19:22:29] INFO root fetch - processPackages [dftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftpy-2.0.0.tar.gz tmp/dftpy-2.0.0rc2.tar.gz --markdown 20230518/d/dftpy/2.0.0-2.0.0rc2/diff.md --exclude *.pyd
+[2023-05-18 19:22:29] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/06/6a/2758b763dd1ddc2bb3b2f50ff8c7da6371cafa2e4090187660e1b99040fd/questdb-connect-0.0.74.tar.gz
+[2023-05-18 19:22:29] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 19:22:29] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.73.tar.gz tmp/questdb-connect-0.0.74.tar.gz --markdown 20230518/q/questdb-connect/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2023-05-18 19:22:30] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2023-05-18 19:22:30] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.1.9.tar.gz tmp/whylogs-1.1.9.dev0.tar.gz --markdown 20230518/w/whylogs/1.1.9-1.1.9.dev0/diff.md --exclude *.pyd
+[2023-05-18 19:22:31] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 19:22:31] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-05-18 19:22:31] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-05-18 19:22:31] INFO root fetch - main [MainThread]: End processing [trivial-torch-tools]: success
+[2023-05-18 19:22:31] INFO root fetch - main [MainThread]: End processing [iloscar-win]: success
+[2023-05-18 19:22:32] INFO root fetch - main [MainThread]: End processing [lit]: success
+[2023-05-18 19:22:32] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-05-18 19:22:32] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2023-05-18 19:22:33] INFO root fetch - main [MainThread]: End processing [dftpy]: success
+[2023-05-18 19:22:33] INFO root fetch - main [MainThread]: Store serial: [18157710]
