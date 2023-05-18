@@ -9652,3 +9652,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:22:31] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
 [2023-05-18 09:22:33] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-18 09:22:33] INFO root fetch - main [MainThread]: Store serial: [18150644]
+[2023-05-18 09:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150644]
+[2023-05-18 09:27:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexo-inpainting
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HousingPriceSP
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomInSmiles
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tritonv2
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wodoo
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-cbv
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exiv2
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slim-compose
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-oci
+[2023-05-18 09:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-rancher2
+[2023-05-18 09:27:43] INFO root fetch - processPackages [hexo-inpainting]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 09:27:43] INFO root fetch - processPackages [tritonv2]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-18 09:27:43] INFO root fetch - processPackages [tritonv2]: executing diffoscope
+[2023-05-18 09:27:43] WARNING root fetch - processPackages [fastapi-cbv]: Skipping, unable to determine old version
+[2023-05-18 09:27:43] INFO root fetch - processPackages [fastapi-cbv]: Start processing: assisted-service-client
+[2023-05-18 09:27:43] INFO root fetch - processPackages [tritonv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonv2-0.9.4.tar.gz tmp/tritonv2-0.9.5.tar.gz --markdown 20230518/t/tritonv2/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-18 09:27:43] INFO root fetch - main [MainThread]: End processing [fastapi-cbv] error
+[2023-05-18 09:27:43] INFO root fetch - processPackages [slim-compose]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 09:27:43] WARNING root fetch - processPackages [HousingPriceSP]: Skipping, unable to determine old version
+[2023-05-18 09:27:43] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-18 09:27:43] WARNING root fetch - processPackages [atomInSmiles]: Skipping, unable to determine old version
+[2023-05-18 09:27:43] INFO root fetch - processPackages [HousingPriceSP]: Start processing: nextad-datamodule
+[2023-05-18 09:27:43] INFO root fetch - processPackages [pulumi-rancher2]: New version: [4.1.0a1684392708] Old Version: [4.1.0a1684217250]
+[2023-05-18 09:27:43] INFO root fetch - main [MainThread]: End processing [HousingPriceSP] error
+[2023-05-18 09:27:43] INFO root fetch - main [MainThread]: End processing [atomInSmiles] error
+[2023-05-18 09:27:43] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/c1/96/26c246c312e0cd035232785d6a4dee0c7c18bb550bd177aaa7d506e9d4c6/hexo_inpainting-1.0.5.tar.gz
+[2023-05-18 09:27:43] INFO root fetch - processPackages [exiv2]: New version: [0.3.1] Old Version: [0.3]
+[2023-05-18 09:27:43] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-05-18 09:27:43] WARNING root fetch - processPackages [nextad-datamodule]: Skipping, unable to determine old version
+[2023-05-18 09:27:43] INFO root fetch - main [MainThread]: End processing [nextad-datamodule] error
+[2023-05-18 09:27:43] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-18 09:27:43] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/c2/de/1f1e18389f923dc91b70a4e3499aff21a0e25cdf6f8e38d41b52d513d7ba/pulumi_oci-0.9.0.tar.gz
+[2023-05-18 09:27:43] INFO root fetch - processPackages [exiv2]: Downloading https://files.pythonhosted.org/packages/8f/b7/4f0eae1f345d5017afdc3316eabd039bf7a0a1fa3c75ca3b4940725a5ea8/exiv2-0.3-cp38-cp38-win_amd64.whl
+[2023-05-18 09:27:43] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/9d/ae/46f6ed3df9c9011c085673af65a8e7f0229a7243d0fec4c145fa7970cd48/pulumi_rancher2-4.1.0a1684217250.tar.gz
+[2023-05-18 09:27:43] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/7d/ca/aca96e187ee63b4f99e6b19da3d6a3bea6276ed1fcc8312ff9b6e0d93c4b/slim-compose-1.0.2.tar.gz
+[2023-05-18 09:27:43] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/58/9b/ef87a8913b7e0c8c945048555a4a573cb52fa027e87cac4ab86915873a56/hexo_inpainting-1.0.6.tar.gz
+[2023-05-18 09:27:43] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-18 09:27:43] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-1.0.5.tar.gz tmp/hexo_inpainting-1.0.6.tar.gz --markdown 20230518/h/hexo-inpainting/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230518/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/80/43/082211f1d03e18d1d9a9d8fbda8d5a63b67bf902e7b2ce5c307cc48cafeb/pulumi_rancher2-4.1.0a1684392708.tar.gz
+[2023-05-18 09:27:44] INFO root fetch - processPackages [exiv2]: Downloading https://files.pythonhosted.org/packages/4e/32/d1bfd52615f1f233c3b08b892342653efe28d7272d0aa6264a2859cd5602/exiv2-0.3.1-cp38-cp38-win_amd64.whl
+[2023-05-18 09:27:44] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/e2/7d/fc71dc1f35b54dfd8fb784068916581810a2d080dfd72a011af8eff32fdb/slim-compose-1.0.3.tar.gz
+[2023-05-18 09:27:44] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230518/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/86/ea/282f83d0758757c8cabe17bc90aa9af50c1f1b9aa736f9ad87ee2c19659e/pulumi_oci-0.9.1a1677791364.tar.gz
+[2023-05-18 09:27:44] INFO root fetch - processPackages [exiv2]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [exiv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exiv2-0.3-cp38-cp38-win_amd64.whl.zip tmp/exiv2-0.3.1-cp38-cp38-win_amd64.whl.zip --markdown 20230518/e/exiv2/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-4.1.0a1684217250.tar.gz tmp/pulumi_rancher2-4.1.0a1684392708.tar.gz --markdown 20230518/p/pulumi-rancher2/4.1.0a1684217250-4.1.0a1684392708/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [slim-compose]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [slim-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim-compose-1.0.2.tar.gz tmp/slim-compose-1.0.3.tar.gz --markdown 20230518/s/slim-compose/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-18 09:27:44] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230518/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-18 09:27:44] INFO root fetch - main [MainThread]: End processing [tritonv2]: success
+[2023-05-18 09:27:45] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-18 09:27:45] INFO root fetch - main [MainThread]: End processing [exiv2]: success
+[2023-05-18 09:27:45] INFO root fetch - main [MainThread]: End processing [slim-compose]: success
+[2023-05-18 09:27:49] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-18 09:27:49] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2023-05-18 09:28:19] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-05-18 09:28:31] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-18 09:28:31] INFO root fetch - main [MainThread]: Store serial: [18150687]
