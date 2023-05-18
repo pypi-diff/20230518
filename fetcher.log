@@ -4013,3 +4013,42 @@
 [2023-05-18 02:49:13] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-05-18 02:49:19] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-05-18 02:49:19] INFO root fetch - main [MainThread]: Store serial: [18148147]
+[2023-05-18 02:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148147]
+[2023-05-18 02:54:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptopp
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monarch-py
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panoptes-utils
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dinohub-seedwork-be
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioversions
+[2023-05-18 02:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sns-notify
+[2023-05-18 02:54:28] WARNING root fetch - processPackages [cryptopp]: Skipping, unable to determine old version
+[2023-05-18 02:54:28] INFO root fetch - main [MainThread]: End processing [cryptopp] error
+[2023-05-18 02:54:28] INFO root fetch - processPackages [monarch-py]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-18 02:54:28] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-18 02:54:28] INFO root fetch - processPackages [panoptes-utils]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-18 02:54:28] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 02:54:28] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 02:54:28] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-05-18 02:54:28] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-05-18 02:54:28] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.8.0.tar.gz tmp/monarch_py-0.8.1.tar.gz --markdown 20230518/m/monarch-py/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-18 02:54:29] INFO root fetch - processPackages [panoptes-utils]: Downloading https://files.pythonhosted.org/packages/4b/02/b19cc9d00907b47bcdf36d603b18e81171ab054e0cf2908b09c7de104696/panoptes_utils-0.2.7-py2.py3-none-any.whl
+[2023-05-18 02:54:29] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-18 02:54:29] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230518/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-18 02:54:29] INFO root fetch - processPackages [panoptes-utils]: Downloading https://files.pythonhosted.org/packages/80/ce/5da1ae3a67261e8ef0086eff75785991e87cf271c04222d75a2ff6253118/panoptes-utils-0.2.9.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-05-18 02:54:29] INFO root fetch - processPackages [panoptes-utils]: executing diffoscope
+[2023-05-18 02:54:29] INFO root fetch - processPackages [panoptes-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptes_utils-0.2.7-py2.py3-none-any.whl.zip tmp/panoptes-utils-0.2.9.tar.gz --markdown 20230518/p/panoptes-utils/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 02:54:29] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-05-18 02:54:29] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230518/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 02:54:29] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-18 02:54:29] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230518/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 02:54:30] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-05-18 02:54:30] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-18 02:54:30] INFO root fetch - main [MainThread]: End processing [panoptes-utils]: success
+[2023-05-18 02:54:30] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-05-18 02:54:49] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-18 02:54:49] INFO root fetch - main [MainThread]: Store serial: [18148169]
