@@ -7144,3 +7144,66 @@
 [2023-05-18 07:18:35] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2023-05-18 07:18:38] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-18 07:18:38] INFO root fetch - main [MainThread]: Store serial: [18149613]
+[2023-05-18 07:23:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149613]
+[2023-05-18 07:23:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-arkgacha
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TPEduBot
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qyrm-pipinject
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-captcha2
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miquido-spawn-gitlab-job
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kannon
+[2023-05-18 07:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anything2image
+[2023-05-18 07:23:47] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-18 07:23:47] WARNING root fetch - processPackages [flask-captcha2]: Skipping, unable to determine old version
+[2023-05-18 07:23:47] INFO root fetch - processPackages [flask-captcha2]: Start processing: langchain-serve
+[2023-05-18 07:23:47] INFO root fetch - main [MainThread]: End processing [flask-captcha2] error
+[2023-05-18 07:23:47] INFO root fetch - processPackages [anything2image]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 07:23:47] WARNING root fetch - processPackages [qyrm-pipinject]: Skipping, unable to determine old version
+[2023-05-18 07:23:47] INFO root fetch - processPackages [qyrm-pipinject]: Start processing: qyrm-pipinject1
+[2023-05-18 07:23:47] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject] error
+[2023-05-18 07:23:47] INFO root fetch - processPackages [kannon]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-18 07:23:47] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-18 07:23:47] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230518/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230518/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-18 07:23:47] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230518/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-18 07:23:47] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Downloading https://files.pythonhosted.org/packages/7a/a2/8f13f73549f677baf0e492628123f5dda01e961d417977bd5f550791982d/nonebot_plugin_arkgacha-0.2.1.tar.gz
+[2023-05-18 07:23:47] INFO root fetch - processPackages [kannon]: Downloading https://files.pythonhosted.org/packages/7d/33/eaaab3f76ad6f94fdf5f2f801c1a4eca2b4c888b5d69e660442197ca86dd/kannon-0.1.3.tar.gz
+[2023-05-18 07:23:48] INFO root fetch - processPackages [anything2image]: Downloading https://files.pythonhosted.org/packages/a3/fa/a90da271cfe5dda8ccb499f4fde119dad4d96c011621168ad283d5794236/anything2image-1.0.7.tar.gz
+[2023-05-18 07:23:48] INFO root fetch - processPackages [TPEduBot]: Downloading https://files.pythonhosted.org/packages/b4/d3/a6f48273ed432339c20a99ad7c20dd53a0795d7c8bc45b570b9d0e646bc2/TPEduBot-0.5.7.tar.gz
+[2023-05-18 07:23:48] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: Downloading https://files.pythonhosted.org/packages/0c/72/c96fa0cf95a4a0f5db815a4e27a614abf20bb62c3c95930ce88fdabc22f5/miquido_spawn_gitlab_job-1.0.6.tar.gz
+[2023-05-18 07:23:48] WARNING root fetch - processPackages [anything2image]: Skipping package: exceeds size limit 11838659>=10485760
+[2023-05-18 07:23:48] INFO root fetch - main [MainThread]: End processing [anything2image] error
+[2023-05-18 07:23:48] WARNING root fetch - processPackages [qyrm-pipinject1]: Skipping, unable to determine old version
+[2023-05-18 07:23:48] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject1] error
+[2023-05-18 07:23:48] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 07:23:48] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.6.tar.gz tmp/TPEduBot-0.5.7.tar.gz --markdown 20230518/T/TPEduBot/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-05-18 07:23:48] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: executing diffoscope
+[2023-05-18 07:23:48] INFO root fetch - processPackages [miquido-spawn-gitlab-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miquido_spawn_gitlab_job-1.0.5.tar.gz tmp/miquido_spawn_gitlab_job-1.0.6.tar.gz --markdown 20230518/m/miquido-spawn-gitlab-job/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 07:23:48] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: Downloading https://files.pythonhosted.org/packages/49/c7/d203b47e0b76989fbbda61c6431b5c948bd5de15bce3a03b2d4b34cf5e73/nonebot_plugin_arkgacha-0.2.2.tar.gz
+[2023-05-18 07:23:48] INFO root fetch - processPackages [kannon]: Downloading https://files.pythonhosted.org/packages/9e/d5/0e787b3a72d2ee93f073f4b11f40aec1dfad55c24d5e48033469813a5b89/kannon-0.1.4.tar.gz
+[2023-05-18 07:23:48] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-18 07:23:48] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc2.tar.gz tmp/rime_sdk-2.1.0rc3.tar.gz --markdown 20230518/r/rime-sdk/2.1.0rc2-2.1.0rc3/diff.md --exclude *.pyd
+[2023-05-18 07:23:48] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: executing diffoscope
+[2023-05-18 07:23:48] INFO root fetch - processPackages [nonebot-plugin-arkgacha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_arkgacha-0.2.1.tar.gz tmp/nonebot_plugin_arkgacha-0.2.2.tar.gz --markdown 20230518/n/nonebot-plugin-arkgacha/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 07:23:48] INFO root fetch - processPackages [kannon]: executing diffoscope
+[2023-05-18 07:23:48] INFO root fetch - processPackages [kannon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kannon-0.1.3.tar.gz tmp/kannon-0.1.4.tar.gz --markdown 20230518/k/kannon/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [miquido-spawn-gitlab-job]: success
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [kannon]: success
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-arkgacha]: success
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 07:23:49] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-18 07:23:53] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-18 07:24:23] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-05-18 07:24:23] INFO root fetch - main [MainThread]: Store serial: [18149646]
