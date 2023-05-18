@@ -12030,3 +12030,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:30:56] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
 [2023-05-18 11:30:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-ros20190910-py2]: success
 [2023-05-18 11:30:57] INFO root fetch - main [MainThread]: Store serial: [18152127]
+[2023-05-18 11:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152127]
+[2023-05-18 11:36:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcmutils
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sageintacctsdk
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enebootools
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyright
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autort
+[2023-05-18 11:36:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cliptry1
+[2023-05-18 11:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliyun-iot-linkkit
+[2023-05-18 11:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuto
+[2023-05-18 11:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightning-template
+[2023-05-18 11:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multidimensionalks
+[2023-05-18 11:36:06] INFO root fetch - processPackages [cliptry1]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [aliyun-iot-linkkit]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [enebootools]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [jcmutils]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [autort]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [sageintacctsdk]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [pyright]: New version: [1.1.309] Old Version: [1.1.308]
+[2023-05-18 11:36:06] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.1.1.tar.gz tmp/cliptry1-0.1.2.tar.gz --markdown 20230518/c/cliptry1/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230518/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [aliyun-iot-linkkit]: Downloading https://files.pythonhosted.org/packages/c8/f8/10a6da11cc27188ef7bd575db1099cb3ddf078c5653ffff5580804568a07/aliyun-iot-linkkit-1.2.7.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/75/a7/4d6f67d5586cb74a10e495269d2ee680e150fd439e15b2c67f7ff57748a1/jcmutils-1.5.5.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/3c/4e/60b30515cbdfe982077c0657bbbb4d858d38a6b23afbcdc59c1332c9d4e8/enebootools-2.0.0.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/98/c6/314ad8d24942cde15829b4cf2547842988cbe101301fb21d93b1544a4409/pyright-1.1.308.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/b3/9d/2f0709d0a03466ae32703748b918021dd338cb11841b825e88ec820f88f6/multidimensionalks-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 11:36:06] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/01/4e/267ea24dd957a0411483147331cca87466764344d8e2b2cae5037f321ce3/sageintacctsdk-1.9.5.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [autort]: Downloading https://files.pythonhosted.org/packages/63/a2/74d5367b8f32123e96627343335361ae1e4ab9c72601bbda0f6015c7898a/autort-0.1.1-cp38-cp38-win_amd64.whl
+[2023-05-18 11:36:06] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/69/57/ce444f69b1c55b2851771bfe5073be3f2431d3752bec60002413ad407acc/jcmutils-1.5.6.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/59/33/d6cc61a7b6198bfec83b0442393fa75c4ad011f77ef0d9da195270d9672a/pyright-1.1.309.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [aliyun-iot-linkkit]: Downloading https://files.pythonhosted.org/packages/1f/ed/94f3f17d3ce09a18be43dda5f2b6df590667b683df30bc6126e5711bb212/aliyun-iot-linkkit-1.2.8.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/35/ff/573d6a77bb5debcc7d21e4ade0260e9eed23fda653497d686f8b60a44263/sageintacctsdk-1.9.6.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.5.tar.gz tmp/jcmutils-1.5.6.tar.gz --markdown 20230518/j/jcmutils/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [aliyun-iot-linkkit]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [aliyun-iot-linkkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-iot-linkkit-1.2.7.tar.gz tmp/aliyun-iot-linkkit-1.2.8.tar.gz --markdown 20230518/a/aliyun-iot-linkkit/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.308.tar.gz tmp/pyright-1.1.309.tar.gz --markdown 20230518/p/pyright/1.1.308-1.1.309/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-05-18 11:36:06] INFO root fetch - processPackages [sageintacctsdk]: executing diffoscope
+[2023-05-18 11:36:06] INFO root fetch - processPackages [sageintacctsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageintacctsdk-1.9.5.tar.gz tmp/sageintacctsdk-1.9.6.tar.gz --markdown 20230518/s/sageintacctsdk/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-18 11:36:06] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/6a/ee/69074a982a2d0c1a60acf8138daaa52eef680c013422382f37809cfd04b5/enebootools-2.0.1.tar.gz
+[2023-05-18 11:36:07] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-05-18 11:36:07] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.0.tar.gz tmp/enebootools-2.0.1.tar.gz --markdown 20230518/e/enebootools/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-18 11:36:07] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-18 11:36:07] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230518/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:36:07] INFO root fetch - processPackages [cliptry1]: Start processing: openedx-mongodbproxy
+[2023-05-18 11:36:07] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 11:36:07] WARNING root fetch - processPackages [openedx-mongodbproxy]: Skipping, unable to determine old version
+[2023-05-18 11:36:07] INFO root fetch - processPackages [openedx-mongodbproxy]: Start processing: nvosscript
+[2023-05-18 11:36:07] INFO root fetch - main [MainThread]: End processing [openedx-mongodbproxy] error
+[2023-05-18 11:36:07] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0.5] Old Version: [1.3.0.4]
+[2023-05-18 11:36:07] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-18 11:36:07] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/af/ba/57caa557f7ff914b4f7284d7641732af052fca4be43c76f6370b2f4aa591/nvosscript-1.3.0.5.tar.gz
+[2023-05-18 11:36:08] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-18 11:36:08] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.4.tar.gz tmp/nvosscript-1.3.0.5.tar.gz --markdown 20230518/n/nvosscript/1.3.0.4-1.3.0.5/diff.md --exclude *.pyd
+[2023-05-18 11:36:08] INFO root fetch - processPackages [autort]: Downloading https://files.pythonhosted.org/packages/fc/fc/70b87e2935d3f4901112a28a4a87b83f583289698850762271357ecf1063/autort-0.1.2-cp38-cp38-win_amd64.whl
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [aliyun-iot-linkkit]: success
+[2023-05-18 11:36:08] INFO root fetch - processPackages [autort]: executing diffoscope
+[2023-05-18 11:36:08] INFO root fetch - processPackages [autort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autort-0.1.1-cp38-cp38-win_amd64.whl.zip tmp/autort-0.1.2-cp38-cp38-win_amd64.whl.zip --markdown 20230518/a/autort/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [sageintacctsdk]: success
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-18 11:36:08] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-05-18 11:36:09] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-18 11:36:09] INFO root fetch - main [MainThread]: End processing [autort]: success
+[2023-05-18 11:36:13] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 11:36:13] INFO root fetch - main [MainThread]: Store serial: [18152176]
