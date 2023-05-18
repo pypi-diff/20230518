@@ -8648,3 +8648,103 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:28:51] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2023-05-18 08:28:57] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2023-05-18 08:28:57] INFO root fetch - main [MainThread]: Store serial: [18150189]
+[2023-05-18 08:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150189]
+[2023-05-18 08:34:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EncryptoX
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfr-pyrca
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpservice
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-nest
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridplayer
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-lot-sequence
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycelium
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Alpha-Rabbit
+[2023-05-18 08:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polly-python
+[2023-05-18 08:34:07] WARNING root fetch - processPackages [EncryptoX]: Skipping, unable to determine old version
+[2023-05-18 08:34:07] INFO root fetch - processPackages [sfr-pyrca]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [EncryptoX]: Start processing: flask-leaflet
+[2023-05-18 08:34:07] INFO root fetch - main [MainThread]: End processing [EncryptoX] error
+[2023-05-18 08:34:07] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [gridplayer]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [polly-python]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [pycelium]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: New version: [15.0.1.1.2.1] Old Version: [15.0.1.1.2]
+[2023-05-18 08:34:07] WARNING root fetch - processPackages [spider-nest]: Skipping, unable to determine old version
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spider-nest]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2023-05-18 08:34:07] INFO root fetch - main [MainThread]: End processing [spider-nest] error
+[2023-05-18 08:34:07] WARNING root fetch - processPackages [flask-leaflet]: Skipping, unable to determine old version
+[2023-05-18 08:34:07] INFO root fetch - processPackages [flask-leaflet]: Start processing: spreadsheetbot
+[2023-05-18 08:34:07] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 08:34:07] INFO root fetch - main [MainThread]: End processing [flask-leaflet] error
+[2023-05-18 08:34:07] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230518] Old Version: [20230517]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spreadsheetbot]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-18 08:34:07] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230518/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/9c/d6/b39ddbf48b2ed1742a4f1a8087ef20ab542eea9da5f1a6127ed854adc67b/odoo_addon_product_lot_sequence-15.0.1.1.2-py3-none-any.whl
+[2023-05-18 08:34:07] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/84/4e/a2fce782bbda84457a40bd938e905d609b8532452bd49e1cbf6aaadef228/polly-python-0.3.0.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/90/2d/de5cc4fee9720c935f471c5e35805e93d699615c986810361871eb170411/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl
+[2023-05-18 08:34:07] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/d3/e8/8468e22fe7e28a5b614288f67ed1c550a2afb8545b3aa56535f15b9ff005/pycelium-0.1.4.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [gridplayer]: Downloading https://files.pythonhosted.org/packages/1e/8f/5f1684ad5fa0cab39dded062a2e1a8d04a0079a8221214f9d25f74ad9c30/gridplayer-0.4.3.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/9f/00/33f81864f34205074ef0a0e639a6896df32b40f47cec68ef2e24af834a1b/fake-bpy-module-latest-20230517.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [sfr-pyrca]: Downloading https://files.pythonhosted.org/packages/3d/73/9faa3b2ed2db362e260771f1a42239ac04c0688e5241ecf661b83b008eb1/sfr-pyrca-0.0.1.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spreadsheetbot]: Downloading https://files.pythonhosted.org/packages/0c/f7/5c298df7146d87aeb552dec20bdbfaf7faa8d0ac72d59e59f637e05b0a5c/spreadsheetbot-2.1.1.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.3.tar.gz tmp/pycelium-0.1.4.tar.gz --markdown 20230518/p/pycelium/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/1f/d9/46ec83d10ba3e7c4231f3dea8c81d8f997324a9e6e744a86038d8ccac3da/odoo_addon_product_lot_sequence-15.0.1.1.2.1-py3-none-any.whl
+[2023-05-18 08:34:07] INFO root fetch - processPackages [polly-python]: Downloading https://files.pythonhosted.org/packages/43/af/bb0388fe28d7ee01bf362adfea7e8b7791898d3bc3e2b042d0e5a3b11550/polly-python-0.3.1.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Downloading https://files.pythonhosted.org/packages/e3/71/f691fd07442d53a0740353926abb64a7b275c35ef5beab4911a9ce74424a/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-18 08:34:07] INFO root fetch - processPackages [sfr-pyrca]: Downloading https://files.pythonhosted.org/packages/a0/f8/1784cb3532d31cc0bf4fc6cf3093ee73369ebaf5eb555fe059d638167ed3/sfr-pyrca-1.0.0.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spreadsheetbot]: Downloading https://files.pythonhosted.org/packages/9f/1c/240d14403003293fab3bfb97c3710f88f6691326a54970aa2ce7f5263a49/spreadsheetbot-2.1.2.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a0/94/164aa8715eb0c0a5dd34a6e57b4fd40c8e5fa9ae052a042fba5bc8255f30/fake-bpy-module-latest-20230518.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [gridplayer]: Downloading https://files.pythonhosted.org/packages/74/af/86bd7e50c4e49947d619d4948bf08b722a9d67f2f671bab172f3b3cf8eba/gridplayer-0.5.0.tar.gz
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_lot_sequence-15.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_product_lot_sequence-15.0.1.1.2.1-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-product-lot-sequence/15.0.1.1.2-15.0.1.1.2.1/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [polly-python]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [polly-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polly-python-0.3.0.tar.gz tmp/polly-python-0.3.1.tar.gz --markdown 20230518/p/polly-python/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spreadsheetbot]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [spreadsheetbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spreadsheetbot-2.1.1.tar.gz tmp/spreadsheetbot-2.1.2.tar.gz --markdown 20230518/s/spreadsheetbot/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [sfr-pyrca]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [sfr-pyrca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfr-pyrca-0.0.1.tar.gz tmp/sfr-pyrca-1.0.0.tar.gz --markdown 20230518/s/sfr-pyrca/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230518/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-18 08:34:07] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-18 08:34:07] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230517.tar.gz tmp/fake-bpy-module-latest-20230518.tar.gz --markdown 20230518/f/fake-bpy-module-latest/20230517-20230518/diff.md --exclude *.pyd
+[2023-05-18 08:34:08] INFO root fetch - processPackages [gridplayer]: executing diffoscope
+[2023-05-18 08:34:08] INFO root fetch - processPackages [gridplayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridplayer-0.4.3.tar.gz tmp/gridplayer-0.5.0.tar.gz --markdown 20230518/g/gridplayer/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 08:34:08] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: odoo-addon-product-uom-measure-type
+[2023-05-18 08:34:08] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-18 08:34:08] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-05-18 08:34:08] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: Downloading https://files.pythonhosted.org/packages/82/dd/063ea3bb49eaf20e3422967ec736435bcfb330551cb48a0a0711326c6dfc/odoo_addon_product_uom_measure_type-16.0.1.0.1.5-py3-none-any.whl
+[2023-05-18 08:34:09] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: Downloading https://files.pythonhosted.org/packages/bf/5c/1b3846e9326e2f1f5281b1bddf1f1475281e4549a4c078e92108523bc289/odoo_addon_product_uom_measure_type-16.0.1.0.1.6-py3-none-any.whl
+[2023-05-18 08:34:09] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Start processing: PyTraffic
+[2023-05-18 08:34:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-lot-sequence]: success
+[2023-05-18 08:34:09] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: executing diffoscope
+[2023-05-18 08:34:09] INFO root fetch - processPackages [odoo-addon-product-uom-measure-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_uom_measure_type-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_product_uom_measure_type-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-product-uom-measure-type/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-05-18 08:34:09] INFO root fetch - processPackages [PyTraffic]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-18 08:34:09] INFO root fetch - processPackages [PyTraffic]: executing diffoscope
+[2023-05-18 08:34:09] INFO root fetch - processPackages [PyTraffic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTraffic-1.1.0.tar.gz tmp/PyTraffic-1.1.1.tar.gz --markdown 20230518/P/PyTraffic/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-18 08:34:09] INFO root fetch - processPackages [spreadsheetbot]: Start processing: certora-cli-alpha-martin-sflag
+[2023-05-18 08:34:09] INFO root fetch - main [MainThread]: End processing [spreadsheetbot]: success
+[2023-05-18 08:34:09] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: Start processing: pulumi-opsgenie
+[2023-05-18 08:34:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2023-05-18 08:34:09] WARNING root fetch - processPackages [certora-cli-alpha-martin-sflag]: Skipping, unable to determine old version
+[2023-05-18 08:34:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-sflag] error
+[2023-05-18 08:34:09] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1684389714] Old Version: [1.3.0a1684331251]
+[2023-05-18 08:34:09] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-18 08:34:09] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/d0/ed/dd7197bbc390c698c4d15b62adc0f6690809348fee1043e78176a7dcb448/pulumi_opsgenie-1.3.0a1684389714.tar.gz
+[2023-05-18 08:34:09] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-05-18 08:34:09] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1684331251.tar.gz tmp/pulumi_opsgenie-1.3.0a1684389714.tar.gz --markdown 20230518/p/pulumi-opsgenie/1.3.0a1684331251-1.3.0a1684389714/diff.md --exclude *.pyd
+[2023-05-18 08:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-uom-measure-type]: success
+[2023-05-18 08:34:10] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 08:34:10] INFO root fetch - main [MainThread]: End processing [polly-python]: success
+[2023-05-18 08:34:11] INFO root fetch - main [MainThread]: End processing [PyTraffic]: success
+[2023-05-18 08:34:11] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-05-18 08:34:11] INFO root fetch - main [MainThread]: End processing [sfr-pyrca]: success
+[2023-05-18 08:34:13] INFO root fetch - main [MainThread]: End processing [gridplayer]: success
+[2023-05-18 08:34:14] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-18 08:34:14] INFO root fetch - main [MainThread]: Store serial: [18150250]
