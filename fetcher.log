@@ -19482,3 +19482,116 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:43:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-st7789]: success
 [2023-05-18 17:43:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-typing]: success
 [2023-05-18 17:43:28] INFO root fetch - main [MainThread]: Store serial: [18156459]
+[2023-05-18 17:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156459]
+[2023-05-18 17:48:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-typing
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: upgini
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocode-ss
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leadguru-data
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aihandler
+[2023-05-18 17:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-common
+[2023-05-18 17:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-user
+[2023-05-18 17:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osint-python-starter-service
+[2023-05-18 17:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafruit-circuitpython-framebuf
+[2023-05-18 17:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: obrpy
+[2023-05-18 17:48:38] INFO root fetch - processPackages [geocode-ss]: New version: [0.12.1] Old Version: [0.12.0]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-typing]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [xia-user]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [osint-python-starter-service]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [obrpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-typing]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-typing-1.9.2.tar.gz tmp/adafruit-circuitpython-typing-1.9.3.tar.gz --markdown 20230518/a/adafruit-circuitpython-typing/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230518/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [geocode-ss]: Downloading https://files.pythonhosted.org/packages/b2/ca/effd48cd524a03208b41b7946fbbc3118c88bba9f7c2cb68aaab1f025aff/geocode-ss-0.12.0.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/1b/40/16d7b3d95be37e57b362e306f2a4cd78df5ef3fe7287ec5d580ecb58de6c/osint-python-starter-service-2.0.8.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: Downloading https://files.pythonhosted.org/packages/de/3f/5fc3e9085b67704c58c1b6509adf750b0858a01aa33f4150a1d276c26f5f/adafruit-circuitpython-framebuf-1.6.1.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/cc/7e/f6346192a5ffdc0e7a9a1c79105403e1656d07090c2a41efac016b7247e9/obrpy-0.0.9.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/a9/95/ad9396049b5ef12db8c1bdf17f2d99db7b747818ffb6846c8e4dd3f69b6f/xia_user-0.1.8-cp39-none-win_amd64.whl
+[2023-05-18 17:48:38] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.8.tar.gz tmp/obrpy-0.0.9.tar.gz --markdown 20230518/o/obrpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] WARNING root fetch - processPackages [geocode-ss]: Skipping package: exceeds size limit 86253998>=10485760
+[2023-05-18 17:48:38] INFO root fetch - processPackages [geocode-ss]: Start processing: mixalime
+[2023-05-18 17:48:38] INFO root fetch - main [MainThread]: End processing [geocode-ss] error
+[2023-05-18 17:48:38] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230518/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [osint-python-starter-service]: Downloading https://files.pythonhosted.org/packages/81/41/8c2842953c8cccf946bba5338293256ab666b75608c78a3dc1ec4437543d/osint-python-starter-service-2.0.9.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230518/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [mixalime]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230518/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [osint-python-starter-service]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [osint-python-starter-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-python-starter-service-2.0.8.tar.gz tmp/osint-python-starter-service-2.0.9.tar.gz --markdown 20230518/o/osint-python-starter-service/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/cb/5c/0ce1704a0b9091679ff36c5e64e86be3aff60524a47e7c66389d9bd7aa35/xia_user-0.1.9-cp39-none-win_amd64.whl
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: Downloading https://files.pythonhosted.org/packages/b4/ec/e35e815d1a5e9597904cfbb3cc1b6322198cc6ac0d883b5b420b695d374a/adafruit-circuitpython-framebuf-1.6.2.tar.gz
+[2023-05-18 17:48:38] INFO root fetch - processPackages [xia-user]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [xia-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_user-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_user-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230518/x/xia-user/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: executing diffoscope
+[2023-05-18 17:48:38] INFO root fetch - processPackages [adafruit-circuitpython-framebuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-framebuf-1.6.1.tar.gz tmp/adafruit-circuitpython-framebuf-1.6.2.tar.gz --markdown 20230518/a/adafruit-circuitpython-framebuf/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-05-18 17:48:38] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/8e/2f/d240b2f6803bf60aeb17f7f054aa7d50ae9fed0d01f2c78df860d2d41795/mixalime-2.9.8.tar.gz
+[2023-05-18 17:48:39] INFO root fetch - processPackages [mixalime]: Downloading https://files.pythonhosted.org/packages/15/d5/57edb971c7da6a1fae4e07e7bb1439621759adf902da9fc6527602363bd9/mixalime-2.9.9.tar.gz
+[2023-05-18 17:48:39] INFO root fetch - processPackages [leadguru-common]: Start processing: sabledocs
+[2023-05-18 17:48:39] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-18 17:48:39] INFO root fetch - processPackages [sabledocs]: New version: [0.2.134] Old Version: [0.2.130]
+[2023-05-18 17:48:39] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/75/a3/32b11e47a732c91e87a9a72072f0e0512419872298fc10091b91756740ac/sabledocs-0.2.130.tar.gz
+[2023-05-18 17:48:39] INFO root fetch - processPackages [leadguru-data]: Start processing: Glances
+[2023-05-18 17:48:39] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-18 17:48:39] INFO root fetch - processPackages [mixalime]: executing diffoscope
+[2023-05-18 17:48:39] INFO root fetch - processPackages [mixalime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixalime-2.9.8.tar.gz tmp/mixalime-2.9.9.tar.gz --markdown 20230518/m/mixalime/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:39] INFO root fetch - processPackages [Glances]: New version: [3.4.0.2] Old Version: [3.4.0.1]
+[2023-05-18 17:48:39] INFO root fetch - processPackages [sabledocs]: Downloading https://files.pythonhosted.org/packages/2a/e1/61fb44a7d27feea6ff53459897cc202d0e9192a55f4347ebadbad46ad2f0/sabledocs-0.2.134.tar.gz
+[2023-05-18 17:48:39] INFO root fetch - processPackages [xia-user]: Start processing: napalm-srl
+[2023-05-18 17:48:39] INFO root fetch - main [MainThread]: End processing [xia-user]: success
+[2023-05-18 17:48:40] INFO root fetch - processPackages [obrpy]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-18 17:48:40] WARNING root fetch - processPackages [napalm-srl]: Skipping, unable to determine old version
+[2023-05-18 17:48:40] INFO root fetch - processPackages [napalm-srl]: Start processing: py-volley
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [napalm-srl] error
+[2023-05-18 17:48:40] INFO root fetch - processPackages [adafruit-circuitpython-typing]: Start processing: tyai-onlinegradesystem-pro
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-typing]: success
+[2023-05-18 17:48:40] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 17:48:40] INFO root fetch - processPackages [sabledocs]: executing diffoscope
+[2023-05-18 17:48:40] INFO root fetch - processPackages [sabledocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sabledocs-0.2.130.tar.gz tmp/sabledocs-0.2.134.tar.gz --markdown 20230518/s/sabledocs/0.2.130-0.2.134/diff.md --exclude *.pyd
+[2023-05-18 17:48:40] INFO root fetch - processPackages [osint-python-starter-service]: Start processing: gretel-client
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [osint-python-starter-service]: success
+[2023-05-18 17:48:40] INFO root fetch - processPackages [py-volley]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 17:48:40] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:48:40] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:48:40] WARNING root fetch - processPackages [tyai-onlinegradesystem-pro]: Skipping, unable to determine old version
+[2023-05-18 17:48:40] INFO root fetch - processPackages [tyai-onlinegradesystem-pro]: Start processing: leadguru-jobs
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [tyai-onlinegradesystem-pro] error
+[2023-05-18 17:48:40] INFO root fetch - processPackages [Glances]: Downloading https://files.pythonhosted.org/packages/fb/35/6d71d977fac90bd6644b487615824178b7f1783dbc1ef878a21075cd5379/Glances-3.4.0.2.tar.gz
+[2023-05-18 17:48:40] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:48:40] INFO root fetch - processPackages [gretel-client]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 17:48:40] INFO root fetch - processPackages [aihandler]: Start processing: appian-locust
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-05-18 17:48:40] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-18 17:48:40] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230518/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:48:40] INFO root fetch - processPackages [py-volley]: Downloading https://files.pythonhosted.org/packages/62/dd/29244043cae019637f9e8ee232b25849513b21647dd58af540f5a6a310fd/py_volley-1.0.0.tar.gz
+[2023-05-18 17:48:40] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-18 17:48:40] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-05-18 17:48:40] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-2.0.0a2.tar.gz tmp/appian-locust-2.0.0a3.tar.gz --markdown 20230518/a/appian-locust/2.0.0a2-2.0.0a3/diff.md --exclude *.pyd
+[2023-05-18 17:48:40] INFO root fetch - processPackages [gretel-client]: Downloading https://files.pythonhosted.org/packages/e5/5d/8a847bf48b60125db05cd6355d7daadcb9591a064a9b0ffa21bbd8f6aaf9/gretel-client-0.9.2.tar.gz
+[2023-05-18 17:48:40] INFO root fetch - processPackages [py-volley]: Downloading https://files.pythonhosted.org/packages/61/e5/64c97562c9eccf1466302831fd8737a2618eedc662b8bef4b6ff13ddcfaf/py_volley-1.1.0.tar.gz
+[2023-05-18 17:48:40] WARNING root fetch - processPackages [gretel-client]: Skipping package: exceeds size limit 30354563>=10485760
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [gretel-client] error
+[2023-05-18 17:48:40] INFO root fetch - processPackages [py-volley]: executing diffoscope
+[2023-05-18 17:48:40] INFO root fetch - processPackages [py-volley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_volley-1.0.0.tar.gz tmp/py_volley-1.1.0.tar.gz --markdown 20230518/p/py-volley/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 17:48:40] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-framebuf]: success
+[2023-05-18 17:48:41] INFO root fetch - processPackages [Glances]: executing diffoscope
+[2023-05-18 17:48:41] INFO root fetch - processPackages [Glances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Glances-3.4.0.1.tar.gz tmp/Glances-3.4.0.2.tar.gz --markdown 20230518/G/Glances/3.4.0.1-3.4.0.2/diff.md --exclude *.pyd
+[2023-05-18 17:48:41] INFO root fetch - main [MainThread]: End processing [mixalime]: success
+[2023-05-18 17:48:41] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:48:41] INFO root fetch - main [MainThread]: End processing [sabledocs]: success
+[2023-05-18 17:48:41] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-18 17:48:42] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-05-18 17:48:42] INFO root fetch - main [MainThread]: End processing [py-volley]: success
+[2023-05-18 17:48:45] INFO root fetch - main [MainThread]: End processing [Glances]: success
+[2023-05-18 17:48:45] INFO root fetch - main [MainThread]: Store serial: [18156525]
