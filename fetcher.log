@@ -20957,3 +20957,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 18:39:09] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-18 18:39:10] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
 [2023-05-18 18:39:10] INFO root fetch - main [MainThread]: Store serial: [18157220]
+[2023-05-18 18:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157220]
+[2023-05-18 18:44:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigraph-viz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compoundwidgets
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quivr
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deploymentutils
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgeimpulse
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyshap
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hagis
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: astronomer-cosmos
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-utils-www
+[2023-05-18 18:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bumpver
+[2023-05-18 18:44:20] INFO root fetch - processPackages [quivr]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [hagis]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tinyshap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bumpver]: New version: [2023.1122] Old Version: [2023.1121]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.2.3.tar.gz tmp/quivr-0.3.0.tar.gz --markdown 20230518/q/quivr/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bigraph-viz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [deploymentutils]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [compoundwidgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.7.0rc1] Old Version: [0.6.7]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.7.4.tar.gz tmp/hagis-0.8.0.tar.gz --markdown 20230518/h/hagis/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [edgeimpulse]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bumpver]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bumpver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumpver-2023.1121.tar.gz tmp/bumpver-2023.1122.tar.gz --markdown 20230518/b/bumpver/2023.1121-2023.1122/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tinyshap]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tinyshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyshap-0.0.3.tar.gz tmp/tinyshap-0.0.4.tar.gz --markdown 20230518/t/tinyshap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/a6/c6/66a409773eb2096b1b333a80ff8ee1c689806eb0ce6cf5844b89106928fa/tendril-utils-www-0.2.9.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/6a/ca/950029dab352636cd73e4b0bddf35222aadd6d9d3c1a25a29f8de3ba71c9/edgeimpulse-1.0.3.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [deploymentutils]: Downloading https://files.pythonhosted.org/packages/ef/0b/05ebdb6b9a97d5a8229c1b6ca28254999fec5c041e9b495843358567e82f/deploymentutils-0.7.0.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/6e/e8/c8aba7c6bb14a02cea51131b35f41f9aa2c5be86fff3e532e4ad4cb5aa49/compoundwidgets-0.2.8.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/5a/2b/010ca4d25ed9eebc5cd69e91babc13c14915f31b3747e520ab9f00ba89c3/astronomer_cosmos-0.7.0rc1.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bigraph-viz]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [bigraph-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-viz-0.0.8.tar.gz tmp/bigraph-viz-0.0.9.tar.gz --markdown 20230518/b/bigraph-viz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [edgeimpulse]: Downloading https://files.pythonhosted.org/packages/f3/a9/6931f8d488249f4a654b69b98f7c3102d4020b3d02992f5e01fdf08155bc/edgeimpulse-1.0.4.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.6.7.tar.gz tmp/astronomer_cosmos-0.7.0rc1.tar.gz --markdown 20230518/a/astronomer-cosmos/0.6.7-0.7.0rc1/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.8.tar.gz tmp/tendril-utils-www-0.2.9.tar.gz --markdown 20230518/t/tendril-utils-www/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [edgeimpulse]: executing diffoscope
+[2023-05-18 18:44:20] INFO root fetch - processPackages [edgeimpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse-1.0.3.tar.gz tmp/edgeimpulse-1.0.4.tar.gz --markdown 20230518/e/edgeimpulse/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-18 18:44:20] INFO root fetch - processPackages [deploymentutils]: Downloading https://files.pythonhosted.org/packages/4d/4c/2793940624cd70929e53ea141071268d3ac1b74b928cb541b8ad15340fff/deploymentutils-0.8.0.tar.gz
+[2023-05-18 18:44:20] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/2d/02/41a17a00996debfcc84ce21efe340c89924c33f3917f8b98892eb8e711e8/compoundwidgets-0.2.9.tar.gz
+[2023-05-18 18:44:21] INFO root fetch - processPackages [deploymentutils]: executing diffoscope
+[2023-05-18 18:44:21] INFO root fetch - processPackages [deploymentutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymentutils-0.7.0.tar.gz tmp/deploymentutils-0.8.0.tar.gz --markdown 20230518/d/deploymentutils/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 18:44:21] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2023-05-18 18:44:21] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.2.8.tar.gz tmp/compoundwidgets-0.2.9.tar.gz --markdown 20230518/c/compoundwidgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 18:44:21] INFO root fetch - processPackages [hagis]: Start processing: Monei
+[2023-05-18 18:44:21] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-18 18:44:21] INFO root fetch - processPackages [Monei]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-05-18 18:44:21] INFO root fetch - processPackages [tinyshap]: Start processing: bittensor
+[2023-05-18 18:44:21] INFO root fetch - main [MainThread]: End processing [tinyshap]: success
+[2023-05-18 18:44:21] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-05-18 18:44:21] INFO root fetch - processPackages [bittensor]: New version: [5.0.0] Old Version: [4.1.0rc1.post3]
+[2023-05-18 18:44:22] INFO root fetch - processPackages [Monei]: Downloading https://files.pythonhosted.org/packages/2e/c4/20cd60d01b675faa68b1a4347ece7106e1d98f77a1801ea639e2aabdfe54/Monei-1.1.3.tar.gz
+[2023-05-18 18:44:22] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/6a/fc/dd2f666115541ccbb1b23eabdd51c5b4b192a3b0b9148099e593b3b2d5b6/bittensor-4.1.0rc1.post3.tar.gz
+[2023-05-18 18:44:22] INFO root fetch - main [MainThread]: End processing [bigraph-viz]: success
+[2023-05-18 18:44:22] INFO root fetch - processPackages [Monei]: Downloading https://files.pythonhosted.org/packages/03/4e/d8c9292703fdaeb79079e271be94cd6534967b06c24aa73312ebef3e7be0/Monei-1.2.0.tar.gz
+[2023-05-18 18:44:22] INFO root fetch - main [MainThread]: End processing [edgeimpulse]: success
+[2023-05-18 18:44:22] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-05-18 18:44:22] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/ba/23/67e87e2ba6d8d66c3758be481063c8b1fb8ccdbf3e12f9c15192b068379b/bittensor-5.0.0-py3-none-any.whl
+[2023-05-18 18:44:22] INFO root fetch - processPackages [Monei]: executing diffoscope
+[2023-05-18 18:44:22] INFO root fetch - processPackages [Monei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Monei-1.1.3.tar.gz tmp/Monei-1.2.0.tar.gz --markdown 20230518/M/Monei/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 18:44:22] INFO root fetch - main [MainThread]: End processing [deploymentutils]: success
+[2023-05-18 18:44:22] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2023-05-18 18:44:22] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-05-18 18:44:22] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-4.1.0rc1.post3.tar.gz tmp/bittensor-5.0.0-py3-none-any.whl.zip --markdown 20230518/b/bittensor/4.1.0rc1.post3-5.0.0/diff.md --exclude *.pyd
+[2023-05-18 18:44:23] INFO root fetch - main [MainThread]: End processing [bumpver]: success
+[2023-05-18 18:44:23] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-05-18 18:44:23] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-05-18 18:44:25] INFO root fetch - main [MainThread]: End processing [Monei]: success
+[2023-05-18 18:44:25] INFO root fetch - main [MainThread]: Store serial: [18157250]
