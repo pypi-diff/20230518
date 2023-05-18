@@ -4924,3 +4924,59 @@
 [2023-05-18 04:17:44] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
 [2023-05-18 04:17:46] INFO root fetch - main [MainThread]: End processing [synapse]: success
 [2023-05-18 04:17:46] INFO root fetch - main [MainThread]: Store serial: [18148651]
+[2023-05-18 04:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148651]
+[2023-05-18 04:22:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-classy
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edman
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycelium-specifications
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuto
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-plugin-manager
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: label-studio-sdk
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tepe
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ampapi
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: risc-generator
+[2023-05-18 04:22:55] WARNING root fetch - processPackages [python-classy]: Skipping, unable to determine old version
+[2023-05-18 04:22:55] INFO root fetch - main [MainThread]: End processing [python-classy] error
+[2023-05-18 04:22:55] WARNING root fetch - processPackages [risc-generator]: Skipping, unable to determine old version
+[2023-05-18 04:22:55] INFO root fetch - main [MainThread]: End processing [risc-generator] error
+[2023-05-18 04:22:55] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.18.1]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [pycelium-specifications]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ampapi]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [label-studio-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [tepe]: New version: [0.7.5] Old Version: [0.6.9.5]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [BioSAK]: New version: [1.64.9] Old Version: [1.64.8]
+[2023-05-18 04:22:55] INFO root fetch - processPackages [label-studio-sdk]: executing diffoscope
+[2023-05-18 04:22:55] INFO root fetch - processPackages [label-studio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-sdk-0.0.8.tar.gz tmp/label-studio-sdk-0.0.9.tar.gz --markdown 20230518/l/label-studio-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:22:55] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/30/84/5d46e30f2925ef0636f2ed51ffebecb7ed1c79f07d393ef8bea0b486ef5a/edman-2023.5.18.1.tar.gz
+[2023-05-18 04:22:56] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/f9/a4/e9986ffd2e1f64be085e51d19322e585ce922c2749e2db9b561595d911cc/BioSAK-1.64.8.tar.gz
+[2023-05-18 04:22:56] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-05-18 04:22:56] INFO root fetch - processPackages [tepe]: Downloading https://files.pythonhosted.org/packages/bd/10/7987f6a223512d93afe37df417c16ab417ad009be7bf2b1a43cec58538c3/tepe-0.7.5-py3-none-any.whl
+[2023-05-18 04:22:56] INFO root fetch - processPackages [pycelium-specifications]: Downloading https://files.pythonhosted.org/packages/f3/1c/619889d19d0efaee41aea0f27a47f2516b4d8789e8b7e41e006ce24d6cb5/pycelium_specifications-0.0.2.1.tar.gz
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/0d/88/8af0662821e207db9395172a7e5015e75a44f6f91808c2a2e683169817e7/ampapi-1.1.3.tar.gz
+[2023-05-18 04:22:56] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21171011>=10485760
+[2023-05-18 04:22:56] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230518/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:22:56] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.18.1.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230518/e/edman/2023.5.18.1-2023.5.8/diff.md --exclude *.pyd
+[2023-05-18 04:22:56] INFO root fetch - processPackages [pycelium-specifications]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [pycelium-specifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium_specifications-0.0.2.tar.gz tmp/pycelium_specifications-0.0.2.1.tar.gz --markdown 20230518/p/pycelium-specifications/0.0.2-0.0.2.1/diff.md --exclude *.pyd
+[2023-05-18 04:22:56] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-05-18 04:22:56] INFO root fetch - processPackages [tepe]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [tepe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tepe-0.6.9.5-py3-none-any.whl.zip tmp/tepe-0.7.5-py3-none-any.whl.zip --markdown 20230518/t/tepe/0.6.9.5-0.7.5/diff.md --exclude *.pyd
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/72/1d/9d97ea494cfa281f08165a21b897e51958d248a0d9762f06815bf4b95078/ampapi-1.1.4.tar.gz
+[2023-05-18 04:22:56] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230518/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ampapi]: executing diffoscope
+[2023-05-18 04:22:56] INFO root fetch - processPackages [ampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampapi-1.1.3.tar.gz tmp/ampapi-1.1.4.tar.gz --markdown 20230518/a/ampapi/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-18 04:22:57] INFO root fetch - main [MainThread]: End processing [label-studio-sdk]: success
+[2023-05-18 04:22:57] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-05-18 04:22:57] INFO root fetch - main [MainThread]: End processing [pycelium-specifications]: success
+[2023-05-18 04:22:57] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-18 04:22:57] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-05-18 04:22:58] INFO root fetch - main [MainThread]: End processing [ampapi]: success
+[2023-05-18 04:22:59] INFO root fetch - main [MainThread]: End processing [tepe]: success
+[2023-05-18 04:22:59] INFO root fetch - main [MainThread]: Store serial: [18148683]
