@@ -11172,3 +11172,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 10:43:17] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-18 10:43:18] INFO root fetch - main [MainThread]: End processing [redcat]: success
 [2023-05-18 10:43:18] INFO root fetch - main [MainThread]: Store serial: [18151637]
+[2023-05-18 10:48:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151637]
+[2023-05-18 10:48:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mesh-sandbox
+[2023-05-18 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-envs
+[2023-05-18 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PatryksAutoAI
+[2023-05-18 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptal-api
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-shopfloor
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utx
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ory-client
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrew
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-ak-de45e14cba2c4defbab7659a63578373
+[2023-05-18 10:48:27] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-18 10:48:27] WARNING root fetch - processPackages [np-envs]: Skipping, unable to determine old version
+[2023-05-18 10:48:27] INFO root fetch - processPackages [np-envs]: Start processing: jcmutils
+[2023-05-18 10:48:27] INFO root fetch - main [MainThread]: End processing [np-envs] error
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ptal-api]: New version: [0.11.6] Old Version: [0.11.5]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [mesh-sandbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [utx]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [jcmutils]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-18 10:48:27] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/f0/b0/f272fefdc6b3a7f5af032d701d2864153b6dde76c4f15a242c7213b9e416/PatryksAutoAI-1.1.5.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/5c/8d/4070dc565d5280cb31ea852f902844c649b00dc6b231f348d1fa3c82a9bb/ptal_api-0.11.5.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-05-18 10:48:27] INFO root fetch - processPackages [utx]: Downloading https://files.pythonhosted.org/packages/82/c4/b3e920b833064b98966406ed2f3444ab147229220257fbe0b95391389138/utx-1.3.6.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: Downloading https://files.pythonhosted.org/packages/89/b4/48d9a1882ca7966dc09bb43cc95114673709c4f9db2a5859e1b72fb82f41/antchain_ak_de45e14cba2c4defbab7659a63578373-1.0.1.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/37/48/53c2bc89f1ffa502b5105a0aa05929684135508b0ad749d135cf822b7592/jcmutils-1.5.3.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.1.4.tar.gz tmp/PatryksAutoAI-1.1.5.tar.gz --markdown 20230518/P/PatryksAutoAI/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [mesh-sandbox]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [mesh-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesh_sandbox-0.1.8-py3-none-any.whl.zip tmp/mesh_sandbox-0.1.9-py3-none-any.whl.zip --markdown 20230518/m/mesh-sandbox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/53/7f/7276b0e9cd307933ec261a2e7f88f0c79fdd9ee3bbfd8263014186ca7cc2/ptal_api-0.11.6.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230518/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.5.2.tar.gz tmp/jcmutils-1.5.3.tar.gz --markdown 20230518/j/jcmutils/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230518/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: Downloading https://files.pythonhosted.org/packages/ac/bf/c94815778be611ce827bbbffab224b4effcd82638e799d6c1d834517394f/antchain_ak_de45e14cba2c4defbab7659a63578373-1.0.2.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.5.tar.gz tmp/ptal_api-0.11.6.tar.gz --markdown 20230518/p/ptal-api/0.11.5-0.11.6/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [utx]: Downloading https://files.pythonhosted.org/packages/9a/ef/106d0d753b5c866a6aae49980aba3f0b27fcf3fd8a532d696609abadf5d8/utx-1.3.7.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-05-18 10:48:27] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [antchain-ak-de45e14cba2c4defbab7659a63578373]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_de45e14cba2c4defbab7659a63578373-1.0.1.tar.gz tmp/antchain_ak_de45e14cba2c4defbab7659a63578373-1.0.2.tar.gz --markdown 20230518/a/antchain-ak-de45e14cba2c4defbab7659a63578373/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230518/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-05-18 10:48:27] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-05-18 10:48:27] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-05-18 10:48:28] INFO root fetch - processPackages [utx]: executing diffoscope
+[2023-05-18 10:48:28] INFO root fetch - processPackages [utx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utx-1.3.6.tar.gz tmp/utx-1.3.7.tar.gz --markdown 20230518/u/utx/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-05-18 10:48:29] INFO root fetch - processPackages [pyrew]: Start processing: fastai-datasets
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-18 10:48:29] INFO root fetch - processPackages [jcmutils]: Start processing: similarity-learning
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-18 10:48:29] INFO root fetch - processPackages [fastai-datasets]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 10:48:29] WARNING root fetch - processPackages [similarity-learning]: Skipping, unable to determine old version
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [similarity-learning] error
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [mesh-sandbox]: success
+[2023-05-18 10:48:29] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/4f/b1/66bceb539bd6649d0d3caff95ecd51d60f023494722189947d31440fc083/fastai-datasets-0.0.4.tar.gz
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-05-18 10:48:29] INFO root fetch - main [MainThread]: End processing [antchain-ak-de45e14cba2c4defbab7659a63578373]: success
+[2023-05-18 10:48:29] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/5e/b3/302bf697383b22b50c91a4175e165b68846669d589f57c7300559be54595/fastai-datasets-0.0.5.tar.gz
+[2023-05-18 10:48:29] INFO root fetch - processPackages [fastai-datasets]: executing diffoscope
+[2023-05-18 10:48:29] INFO root fetch - processPackages [fastai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastai-datasets-0.0.4.tar.gz tmp/fastai-datasets-0.0.5.tar.gz --markdown 20230518/f/fastai-datasets/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 10:48:30] INFO root fetch - main [MainThread]: End processing [utx]: success
+[2023-05-18 10:48:30] INFO root fetch - main [MainThread]: End processing [fastai-datasets]: success
+[2023-05-18 10:48:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-05-18 10:48:42] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-18 10:48:42] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-05-18 10:48:42] INFO root fetch - main [MainThread]: Store serial: [18151686]
