@@ -5809,3 +5809,37 @@
 [2023-05-18 05:30:09] INFO root fetch - main [MainThread]: End processing [hagworm]: success
 [2023-05-18 05:30:11] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-05-18 05:30:11] INFO root fetch - main [MainThread]: Store serial: [18149086]
+[2023-05-18 05:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149086]
+[2023-05-18 05:35:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 05:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAltiumRunTop
+[2023-05-18 05:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geofabrics
+[2023-05-18 05:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuya-device-sharing-sdk
+[2023-05-18 05:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacypdfreader
+[2023-05-18 05:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osconfiglib
+[2023-05-18 05:35:20] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-05-18 05:35:20] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.6] Old Version: [0.2.4.5]
+[2023-05-18 05:35:20] INFO root fetch - processPackages [tuya-device-sharing-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 05:35:20] WARNING root fetch - processPackages [osconfiglib]: Skipping, unable to determine old version
+[2023-05-18 05:35:20] INFO root fetch - main [MainThread]: End processing [osconfiglib] error
+[2023-05-18 05:35:20] INFO root fetch - processPackages [spacypdfreader]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-18 05:35:20] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-05-18 05:35:20] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/3c/f1/a4cb60ade44ccd2902d1e7e3f38685e478133d80ffb3249341b284a24b0c/PyAltiumRunTop-0.2.4.5.tar.gz
+[2023-05-18 05:35:20] INFO root fetch - processPackages [spacypdfreader]: Downloading https://files.pythonhosted.org/packages/96/bf/a1f166497624b3294ede1e275c41d18ad8ec7cbdf36ff519493ffbc5478d/spacypdfreader-0.2.1.tar.gz
+[2023-05-18 05:35:20] INFO root fetch - processPackages [tuya-device-sharing-sdk]: Downloading https://files.pythonhosted.org/packages/28/da/e6475c856093ec355d5bd3a1320bb39a8ff86ef7f6bc8eda71b698c8ba30/tuya_device_sharing_sdk-0.1.0-py2.py3-none-any.whl
+[2023-05-18 05:35:21] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-05-18 05:35:21] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/65/94/355840c4b4a9a747af35b802dc38d9853fac62df8435d105b6104258597e/PyAltiumRunTop-0.2.4.6.tar.gz
+[2023-05-18 05:35:21] INFO root fetch - processPackages [tuya-device-sharing-sdk]: Downloading https://files.pythonhosted.org/packages/98/57/d238498c25793e5a1bc58769904df110a7385078fd99fc8827f9bcf1d963/tuya_device_sharing_sdk-0.1.1-py2.py3-none-any.whl
+[2023-05-18 05:35:21] INFO root fetch - processPackages [spacypdfreader]: Downloading https://files.pythonhosted.org/packages/ef/7a/25ab8a95c6b92a5fcbe24b951abd304eebd5dd7f0f67683948ed99880187/spacypdfreader-0.3.0.tar.gz
+[2023-05-18 05:35:21] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-18 05:35:21] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.5.tar.gz tmp/PyAltiumRunTop-0.2.4.6.tar.gz --markdown 20230518/P/PyAltiumRunTop/0.2.4.5-0.2.4.6/diff.md --exclude *.pyd
+[2023-05-18 05:35:21] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-05-18 05:35:21] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230518/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 05:35:21] INFO root fetch - processPackages [tuya-device-sharing-sdk]: executing diffoscope
+[2023-05-18 05:35:21] INFO root fetch - processPackages [tuya-device-sharing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuya_device_sharing_sdk-0.1.0-py2.py3-none-any.whl.zip tmp/tuya_device_sharing_sdk-0.1.1-py2.py3-none-any.whl.zip --markdown 20230518/t/tuya-device-sharing-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 05:35:21] INFO root fetch - processPackages [spacypdfreader]: executing diffoscope
+[2023-05-18 05:35:21] INFO root fetch - processPackages [spacypdfreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacypdfreader-0.2.1.tar.gz tmp/spacypdfreader-0.3.0.tar.gz --markdown 20230518/s/spacypdfreader/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [tuya-device-sharing-sdk]: success
+[2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [spacypdfreader]: success
+[2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-05-18 05:35:22] INFO root fetch - main [MainThread]: Store serial: [18149101]
