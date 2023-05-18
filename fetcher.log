@@ -22579,3 +22579,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 20:00:31] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2023-05-18 20:00:31] INFO root fetch - main [MainThread]: End processing [sym-flow-cli]: success
 [2023-05-18 20:00:31] INFO root fetch - main [MainThread]: Store serial: [18158189]
+[2023-05-18 20:05:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18158189]
+[2023-05-18 20:05:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sym-flow-cli
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pangool
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servicex-code-gen-lib
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exn
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimodulito
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-core
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-pyodide
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ensembl-valuesets
+[2023-05-18 20:05:44] WARNING root fetch - processPackages [mimodulito]: Skipping, unable to determine old version
+[2023-05-18 20:05:44] INFO root fetch - processPackages [mimodulito]: Start processing: sqlglot
+[2023-05-18 20:05:44] INFO root fetch - main [MainThread]: End processing [mimodulito] error
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sym-flow-cli]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1441] Old Version: [0.8.0.dev1436]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [dwiqc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 20:05:44] WARNING root fetch - processPackages [ensembl-valuesets]: Skipping, unable to determine old version
+[2023-05-18 20:05:44] INFO root fetch - processPackages [exn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [ensembl-valuesets]: Start processing: qiskit-ibm-provider
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1441] Old Version: [0.8.0.dev1436]
+[2023-05-18 20:05:44] INFO root fetch - main [MainThread]: End processing [ensembl-valuesets] error
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1441] Old Version: [0.8.0.dev1436]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [qiskit-ibm-provider]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [servicex-code-gen-lib]: New version: [1.1.5] Old Version: [1.1.4a9]
+[2023-05-18 20:05:44] WARNING root fetch - processPackages [pangool]: Skipping, unable to determine old version
+[2023-05-18 20:05:44] INFO root fetch - processPackages [pangool]: Start processing: pydm
+[2023-05-18 20:05:44] INFO root fetch - main [MainThread]: End processing [pangool] error
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230518/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [exn]: Downloading https://files.pythonhosted.org/packages/e7/b3/39fdd7050235551d05a4b222a65e82ad5151a32beee446bf0726a25b13d2/exn-0.0.6.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/86/61/a44cc023c004edd308f378aa8dd7a778dcc62694c3adab75c1d7ba18c55a/dwiqc-0.1.0-py2.py3-none-any.whl
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/fd/e5/1b788878680f5d4426d7122e8b762b0291fff1d9b460425f3c9f4124bb14/flet_pyodide-0.8.0.dev1441.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sym-flow-cli]: Downloading https://files.pythonhosted.org/packages/cf/fb/c9b9c249c62a3ee6bfe30a6790182079504d8925bfb205db535f986dea1a/sym_flow_cli-8.0.1.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/aa/4e/dd85541152abcc7b433cf284fc5bee6bb151735a8f56feddf6d40d65b752/flet-0.8.0.dev1441.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [pydm]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-18 20:05:44] INFO root fetch - processPackages [qiskit-ibm-provider]: Downloading https://files.pythonhosted.org/packages/be/e5/f246ca05809d7845ab55a642ff26816e7fce164108027ee8a59484d51ae0/qiskit-ibm-provider-0.5.2.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [servicex-code-gen-lib]: Downloading https://files.pythonhosted.org/packages/42/ff/f25e42c9a25c1f6a231395e37fed5c7f9a6f280c5f5ae95d93d117740a9f/servicex_code_gen_lib-1.1.4a9.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sym-flow-cli]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [sym-flow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym_flow_cli-8.0.0.tar.gz tmp/sym_flow_cli-8.0.1.tar.gz --markdown 20230518/s/sym-flow-cli/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1436.tar.gz tmp/flet_pyodide-0.8.0.dev1441.tar.gz --markdown 20230518/f/flet-pyodide/0.8.0.dev1436-0.8.0.dev1441/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/5c/b1/142227eef50270dccafb0cb741fbc38faba389cc7f27a73ca979497b8201/flet_core-0.8.0.dev1441.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/b5/10/56a0747bab9183af5f12b46fcfab857ff33432d20adc221c4198130a6122/dwiqc-0.1.1-py2.py3-none-any.whl
+[2023-05-18 20:05:44] INFO root fetch - processPackages [pydm]: Downloading https://files.pythonhosted.org/packages/95/3f/fe3175d8713b6c4d611269d34ddf3c732345fe453e7eb2377c0446fbb186/pydm-1.8.0.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [exn]: Downloading https://files.pythonhosted.org/packages/a6/bd/0dca81a7112aab357b8f00fd21a0026171b3c98cb98ca76fc58f05cc7295/exn-0.0.7.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1436.tar.gz tmp/flet_core-0.8.0.dev1441.tar.gz --markdown 20230518/f/flet-core/0.8.0.dev1436-0.8.0.dev1441/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [exn]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [exn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exn-0.0.6.tar.gz tmp/exn-0.0.7.tar.gz --markdown 20230518/e/exn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [qiskit-ibm-provider]: Downloading https://files.pythonhosted.org/packages/6c/41/65024f0657e705e8782da63812a2b48d5571461a2d6f7acc03e77c7b8845/qiskit-ibm-provider-0.5.3.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.1.0-py2.py3-none-any.whl.zip tmp/dwiqc-0.1.1-py2.py3-none-any.whl.zip --markdown 20230518/d/dwiqc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [servicex-code-gen-lib]: Downloading https://files.pythonhosted.org/packages/99/5b/aade9aaed1e4b05fc57dad5dc1e84a72f33fc1b68e7cd057b34dc5022719/servicex_code_gen_lib-1.1.5.tar.gz
+[2023-05-18 20:05:44] INFO root fetch - processPackages [qiskit-ibm-provider]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [qiskit-ibm-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-ibm-provider-0.5.2.tar.gz tmp/qiskit-ibm-provider-0.5.3.tar.gz --markdown 20230518/q/qiskit-ibm-provider/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [servicex-code-gen-lib]: executing diffoscope
+[2023-05-18 20:05:44] INFO root fetch - processPackages [servicex-code-gen-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_code_gen_lib-1.1.4a9.tar.gz tmp/servicex_code_gen_lib-1.1.5.tar.gz --markdown 20230518/s/servicex-code-gen-lib/1.1.4a9-1.1.5/diff.md --exclude *.pyd
+[2023-05-18 20:05:44] INFO root fetch - processPackages [pydm]: Downloading https://files.pythonhosted.org/packages/3c/67/d89c783c9b9036e643cd858e734bdb81548bf5ed67b4ad862224bddacf78/pydm-1.9.0.tar.gz
+[2023-05-18 20:05:45] INFO root fetch - processPackages [pydm]: executing diffoscope
+[2023-05-18 20:05:45] INFO root fetch - processPackages [pydm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydm-1.8.0.tar.gz tmp/pydm-1.9.0.tar.gz --markdown 20230518/p/pydm/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 20:05:45] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-05-18 20:05:45] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.0.dev1436.tar.gz tmp/flet-0.8.0.dev1441.tar.gz --markdown 20230518/f/flet/0.8.0.dev1436-0.8.0.dev1441/diff.md --exclude *.pyd
+[2023-05-18 20:05:45] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-05-18 20:05:46] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-05-18 20:05:46] INFO root fetch - main [MainThread]: End processing [servicex-code-gen-lib]: success
+[2023-05-18 20:05:46] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-18 20:05:46] INFO root fetch - main [MainThread]: End processing [exn]: success
+[2023-05-18 20:05:47] INFO root fetch - main [MainThread]: End processing [sym-flow-cli]: success
+[2023-05-18 20:05:47] INFO root fetch - main [MainThread]: End processing [pydm]: success
+[2023-05-18 20:05:47] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-05-18 20:05:47] INFO root fetch - main [MainThread]: End processing [qiskit-ibm-provider]: success
+[2023-05-18 20:05:49] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-05-18 20:05:49] INFO root fetch - main [MainThread]: Store serial: [18158242]
