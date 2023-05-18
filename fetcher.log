@@ -11843,3 +11843,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:20:16] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2023-05-18 11:20:26] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2023-05-18 11:20:26] INFO root fetch - main [MainThread]: Store serial: [18152015]
+[2023-05-18 11:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152015]
+[2023-05-18 11:25:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TPEduBot
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DatastreamNavigator
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HOGBEN
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypcs
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyproject-parser
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: humanloop
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multidimensionalks
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chiapos
+[2023-05-18 11:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xdat
+[2023-05-18 11:25:35] INFO root fetch - processPackages [pypcs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [HOGBEN]: New version: [1.1.2.2023.3.2.1] Old Version: [1.1.2.2023.24.4.1]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [pypcs]: executing diffoscope
+[2023-05-18 11:25:35] INFO root fetch - processPackages [pypcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcs-0.0.3.tar.gz tmp/pypcs-0.0.4.tar.gz --markdown 20230518/p/pypcs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 11:25:35] INFO root fetch - processPackages [pyproject-parser]: New version: [0.9.0b2] Old Version: [0.9.0b1]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:25:35] WARNING root fetch - processPackages [DatastreamNavigator]: Skipping, unable to determine old version
+[2023-05-18 11:25:35] INFO root fetch - processPackages [DatastreamNavigator]: Start processing: nvosscript
+[2023-05-18 11:25:35] INFO root fetch - main [MainThread]: End processing [DatastreamNavigator] error
+[2023-05-18 11:25:35] INFO root fetch - processPackages [humanloop]: New version: [0.4.1] Old Version: [0.4.0a4]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0.4] Old Version: [1.3.0.3]
+[2023-05-18 11:25:35] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/cb/34/e2ff8990c3285e92c7ebf619d65707b8fde0903b842db595b87af25bfda1/PatryksAutoAI-1.2.2.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/19/68/1f0cc65edd7a7914527d2eae739104ef4d654d34c4cf8aa2b881766113d5/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 11:25:36] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/75/5b/6df87138ed024f46849c1e0ae0c6e40336ec23923d914f4bf76431ac062f/humanloop-0.4.0a4.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/b2/b6/643e42215344ac2470309ebd5a2b2f69d57f77baeb45008e8540d7b0ec76/HOGBEN-1.1.2.2023.24.4.1.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/2d/47/75f983abf8b8eb50df0855d4da234205a93e5aeb8c42c8c03472f0481fb3/pyproject-parser-0.9.0b1.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/3a/6b/829161105128be69efdce127be57aea1c28105d76c5c30a1c753caed0a4d/chiapos-1.0.8.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.1.tar.gz tmp/PatryksAutoAI-1.2.2.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/ba/2f/b9cfca860260d3b34a8407292d2fdc3b5e8b7063ab4cd8d5dc0f2a5fd98f/nvosscript-1.3.0.4.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230518/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/2a/e8/27feee3461a43b8d45cbcf87ddf2290973580bd4b0a86d4d305fc495b568/humanloop-0.4.1.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.3.tar.gz tmp/nvosscript-1.3.0.4.tar.gz --markdown 20230518/n/nvosscript/1.3.0.3-1.3.0.4/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/3c/52/396c60167671072c896fd753d5deaee7c6ef52d0882433a5161a7bf0deac/pyproject-parser-0.9.0b2.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [HOGBEN]: Downloading https://files.pythonhosted.org/packages/51/35/0b68b7d32d5b7e02fa4d3aa7a7b4baa00167435e72362a3a951c6584ef79/HOGBEN-1.1.2.2023.3.2.1.tar.gz
+[2023-05-18 11:25:36] INFO root fetch - processPackages [pyproject-parser]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [pyproject-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-parser-0.9.0b1.tar.gz tmp/pyproject-parser-0.9.0b2.tar.gz --markdown 20230518/p/pyproject-parser/0.9.0b1-0.9.0b2/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [HOGBEN]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [HOGBEN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HOGBEN-1.1.2.2023.24.4.1.tar.gz tmp/HOGBEN-1.1.2.2023.3.2.1.tar.gz --markdown 20230518/H/HOGBEN/1.1.2.2023.24.4.1-1.1.2.2023.3.2.1/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2023-05-18 11:25:36] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.4.0a4.tar.gz tmp/humanloop-0.4.1.tar.gz --markdown 20230518/h/humanloop/0.4.0a4-0.4.1/diff.md --exclude *.pyd
+[2023-05-18 11:25:36] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/27/b5/cfc684a398db3c4d671b2baf9749cd589978252a04749962e1f1b1fae313/chiapos-1.0.9.tar.gz
+[2023-05-18 11:25:37] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-05-18 11:25:37] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230518/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 11:25:37] INFO root fetch - processPackages [nvosscript]: Start processing: mcmc-statphys
+[2023-05-18 11:25:37] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-18 11:25:37] INFO root fetch - processPackages [mcmc-statphys]: New version: [0.2.1] Old Version: [0.1.2]
+[2023-05-18 11:25:37] INFO root fetch - processPackages [mcmc-statphys]: executing diffoscope
+[2023-05-18 11:25:37] INFO root fetch - processPackages [mcmc-statphys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcmc_statphys-0.1.2.tar.gz tmp/mcmc_statphys-0.2.1.tar.gz --markdown 20230518/m/mcmc-statphys/0.1.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 11:25:37] INFO root fetch - processPackages [xdat]: Start processing: comet-llm
+[2023-05-18 11:25:37] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-18 11:25:38] WARNING root fetch - processPackages [comet-llm]: Skipping, unable to determine old version
+[2023-05-18 11:25:38] INFO root fetch - processPackages [comet-llm]: Start processing: algokit-client-generator
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [comet-llm] error
+[2023-05-18 11:25:38] WARNING root fetch - processPackages [algokit-client-generator]: Skipping, unable to determine old version
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [algokit-client-generator] error
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [HOGBEN]: success
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [pyproject-parser]: success
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [pypcs]: success
+[2023-05-18 11:25:38] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 11:25:39] INFO root fetch - main [MainThread]: End processing [mcmc-statphys]: success
+[2023-05-18 11:25:40] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-05-18 11:25:40] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2023-05-18 11:25:41] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 11:25:41] INFO root fetch - main [MainThread]: Store serial: [18152069]
