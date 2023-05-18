@@ -13847,3 +13847,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:36:02] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
 [2023-05-18 13:36:02] INFO root fetch - main [MainThread]: End processing [validate-pyproject]: success
 [2023-05-18 13:36:02] INFO root fetch - main [MainThread]: Store serial: [18153346]
+[2023-05-18 13:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153346]
+[2023-05-18 13:41:11] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-dudi-CERT-2090
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnaclib
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: impetuous-gfa
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irene-pro
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tidbcloudy
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celerity
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hollihop-api-client
+[2023-05-18 13:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notebook-doc
+[2023-05-18 13:41:11] INFO root fetch - processPackages [irene-pro]: New version: [0.0.37] Old Version: [0.0.35]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230518.9.46.894574] Old Version: [20230517.14.48.145918]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: New version: [20230518.5.54.205193] Old Version: [20230518.11.3.909862]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [tidbcloudy]: New version: [1.1.0a2] Old Version: [1.1.0a1]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-18 13:41:11] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 13:41:12] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.1.tar.gz tmp/hollihop_api_client-0.0.2.tar.gz --markdown 20230518/h/hollihop-api-client/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [notebook-doc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-18 13:41:12] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-05-18 13:41:12] WARNING root fetch - processPackages [cnaclib]: Skipping, unable to determine old version
+[2023-05-18 13:41:12] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.35.tar.gz tmp/irene_pro-0.0.37.tar.gz --markdown 20230518/i/irene-pro/0.0.35-0.0.37/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [cnaclib]: Start processing: siru
+[2023-05-18 13:41:12] INFO root fetch - main [MainThread]: End processing [cnaclib] error
+[2023-05-18 13:41:12] INFO root fetch - processPackages [impetuous-gfa]: New version: [0.97.9] Old Version: [0.97.8]
+[2023-05-18 13:41:12] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230518/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230518/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/7d/a8/d72d10743e33a66f197da8326036a6c1f7ef3ea4622da0a5011ba692eafb/certora-cli-alpha-rahav-cert-1987_update_regTest-20230517.14.48.145918.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Downloading https://files.pythonhosted.org/packages/12/82/869516e1a903d0be43306c944888d54ce3f8e73e9f6c8cb6b47a1b6c5f1a/certora-cli-alpha-dudi-CERT-2090-20230518.11.3.909862.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [tidbcloudy]: Downloading https://files.pythonhosted.org/packages/d3/8a/e79153186aba9f56da8597e38322bfb3419c66ea80759e90679c430ad741/tidbcloudy-1.1.0a1.tar.gz
+[2023-05-18 13:41:12] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 38976328>=10485760
+[2023-05-18 13:41:12] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: SecuriPy
+[2023-05-18 13:41:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-18 13:41:12] INFO root fetch - processPackages [siru]: New version: [0.5] Old Version: [0.4]
+[2023-05-18 13:41:12] WARNING root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Skipping package: exceeds size limit 38976433>=10485760
+[2023-05-18 13:41:12] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Start processing: multidimensionalks
+[2023-05-18 13:41:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dudi-CERT-2090] error
+[2023-05-18 13:41:12] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 13:41:12] INFO root fetch - processPackages [impetuous-gfa]: Downloading https://files.pythonhosted.org/packages/96/3b/a06477b50e047caa4a6dc95da47c0fcc6e44d95d56744bdbd1d7f6da90d0/impetuous-gfa-0.97.8.tar.gz
+[2023-05-18 13:41:12] WARNING root fetch - processPackages [SecuriPy]: Skipping, unable to determine old version
+[2023-05-18 13:41:12] INFO root fetch - main [MainThread]: End processing [SecuriPy] error
+[2023-05-18 13:41:12] INFO root fetch - processPackages [notebook-doc]: Downloading https://files.pythonhosted.org/packages/7e/7f/c290521589b62e99bacf461b0418d025740cfdf59b1f623bb7c29e21d25f/notebook-doc-0.2.0.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [siru]: Downloading https://files.pythonhosted.org/packages/bf/0f/05dc08403aa535663d61b3a17c2d93b5e3a98a96cdb97b00e0f5f1695f11/siru-0.4.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [tidbcloudy]: Downloading https://files.pythonhosted.org/packages/cf/d4/476a5bc6d5b83fc413be285625d64ccf74166bef4cf053379db8d50426fc/tidbcloudy-1.1.0a2.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [notebook-doc]: Downloading https://files.pythonhosted.org/packages/19/9a/7d323e57f1352025aa08f955424cf42562d484988a3dfb84f8d325869f0b/notebook-doc-0.2.1.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [siru]: Downloading https://files.pythonhosted.org/packages/50/55/54d36d150df0e5440068ce149d3bce25107eef4bc6ab3ce9835ab8deaf79/siru-0.5.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [siru]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [siru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siru-0.4.tar.gz tmp/siru-0.5.tar.gz --markdown 20230518/s/siru/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [impetuous-gfa]: Downloading https://files.pythonhosted.org/packages/c5/67/c56317b909cfcee7d671d06d31b44520b2c5f553e11d71a3620c91554a59/impetuous-gfa-0.97.9.tar.gz
+[2023-05-18 13:41:12] INFO root fetch - processPackages [notebook-doc]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [notebook-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-doc-0.2.0.tar.gz tmp/notebook-doc-0.2.1.tar.gz --markdown 20230518/n/notebook-doc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [tidbcloudy]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [tidbcloudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidbcloudy-1.1.0a1.tar.gz tmp/tidbcloudy-1.1.0a2.tar.gz --markdown 20230518/t/tidbcloudy/1.1.0a1-1.1.0a2/diff.md --exclude *.pyd
+[2023-05-18 13:41:12] INFO root fetch - processPackages [impetuous-gfa]: executing diffoscope
+[2023-05-18 13:41:12] INFO root fetch - processPackages [impetuous-gfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impetuous-gfa-0.97.8.tar.gz tmp/impetuous-gfa-0.97.9.tar.gz --markdown 20230518/i/impetuous-gfa/0.97.8-0.97.9/diff.md --exclude *.pyd
+[2023-05-18 13:41:13] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-18 13:41:13] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-18 13:41:13] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-18 13:41:13] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-05-18 13:41:13] INFO root fetch - main [MainThread]: End processing [notebook-doc]: success
+[2023-05-18 13:41:14] INFO root fetch - main [MainThread]: End processing [impetuous-gfa]: success
+[2023-05-18 13:41:14] INFO root fetch - main [MainThread]: End processing [tidbcloudy]: success
+[2023-05-18 13:41:14] INFO root fetch - main [MainThread]: End processing [siru]: success
+[2023-05-18 13:41:18] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 13:41:18] INFO root fetch - main [MainThread]: Store serial: [18153397]
