@@ -5843,3 +5843,76 @@
 [2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
 [2023-05-18 05:35:22] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
 [2023-05-18 05:35:22] INFO root fetch - main [MainThread]: Store serial: [18149101]
+[2023-05-18 05:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149101]
+[2023-05-18 05:40:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hana-ml
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gravitorch
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-uom-unece
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitea-backup
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whois-rdap
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Daystar
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noise2read
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jwtools
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazi
+[2023-05-18 05:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weni-rp-apps
+[2023-05-18 05:40:31] INFO root fetch - processPackages [whois-rdap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gitea-backup]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [noise2read]: New version: [0.0.85] Old Version: [0.0.83]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [jwtools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [lazi]: New version: [1.8.119] Old Version: [1.7.87]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gitea-backup]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gitea-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitea-backup-2.0.1.tar.gz tmp/gitea-backup-2.0.2.tar.gz --markdown 20230518/g/gitea-backup/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [hana-ml]: New version: [2.9.21072600] Old Version: [2.9.21070902]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.83.tar.gz tmp/noise2read-0.0.85.tar.gz --markdown 20230518/n/noise2read/0.0.83-0.0.85/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [jwtools]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [jwtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtools-0.1.3.tar.gz tmp/jwtools-0.1.4.tar.gz --markdown 20230518/j/jwtools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [odoo12-addon-uom-unece]: New version: [12.0.1.1.0.99.dev8] Old Version: [12.0.1.1.0.99.dev6]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [Daystar]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.7.87.tar.gz tmp/lazi-1.8.119.tar.gz --markdown 20230518/l/lazi/1.7.87-1.8.119/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-18 05:40:31] INFO root fetch - processPackages [whois-rdap]: Downloading https://files.pythonhosted.org/packages/30/1f/e8e41477572b65b491bf404c9379a08f335a4d54e881817e8895ce40112c/whois-rdap-0.0.8.tar.gz
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/3c/eb/d596884cdb31e5198aa387878eb8ef895802e567d7d679b97f4a406e21ae/gravitorch-0.0.8.tar.gz
+[2023-05-18 05:40:31] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/bd/d0/0a066bb14a55ba8920480dd58c7e08c1decfd1102bf1b108546c61b21162/hana_ml-2.9.21070902-py3-none-any.whl
+[2023-05-18 05:40:31] INFO root fetch - processPackages [Daystar]: Downloading https://files.pythonhosted.org/packages/13/b6/68bd0bfa363e24ec5419f1c9eb2a0ec5e55fd8c289596f653349673a4225/Daystar-1.0.1-py3-none-any.whl
+[2023-05-18 05:40:31] INFO root fetch - processPackages [odoo12-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/72/33/fa9c6d330edfde4d85eacc59a7b59b61fceaaafb5512587112f2bb0a2ac7/odoo12_addon_uom_unece-12.0.1.1.0.99.dev6-py3-none-any.whl
+[2023-05-18 05:40:31] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/3a/b3/729d0e50119437cde45ea2416a988a5a3df380d42b8b4c080dd779c705e2/weni_rp_apps-2.4.2.tar.gz
+[2023-05-18 05:40:31] INFO root fetch - processPackages [Daystar]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [Daystar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Daystar-1.0.0-py3-none-any.whl.zip tmp/Daystar-1.0.1-py3-none-any.whl.zip --markdown 20230518/D/Daystar/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.1.tar.gz tmp/weni_rp_apps-2.4.2.tar.gz --markdown 20230518/w/weni-rp-apps/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-18 05:40:31] INFO root fetch - processPackages [whois-rdap]: Downloading https://files.pythonhosted.org/packages/82/db/10a7b273f3425cc35e0e63797df004ffd876f01b91a9282bd38b74983c79/whois-rdap-0.0.9.tar.gz
+[2023-05-18 05:40:31] INFO root fetch - processPackages [gravitorch]: Downloading https://files.pythonhosted.org/packages/d8/af/12bd29b316e1abfd4a89affc84ab78a2b03aaa0ebdf20315c6dc8c4c3886/gravitorch-0.0.9.tar.gz
+[2023-05-18 05:40:31] INFO root fetch - processPackages [hana-ml]: Downloading https://files.pythonhosted.org/packages/11/a4/1139c239a5357dfb4c7bf0d380f11f356195222a7feb2dde835c60f9d7a9/hana_ml-2.9.21072600-py3-none-any.whl
+[2023-05-18 05:40:31] INFO root fetch - processPackages [whois-rdap]: executing diffoscope
+[2023-05-18 05:40:31] INFO root fetch - processPackages [whois-rdap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois-rdap-0.0.8.tar.gz tmp/whois-rdap-0.0.9.tar.gz --markdown 20230518/w/whois-rdap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 05:40:32] INFO root fetch - processPackages [odoo12-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/1b/5e/b2bf5b07ad70f020c4b19f5bb4a76188d5312145b4c04998ddfa17819833/odoo12_addon_uom_unece-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-05-18 05:40:32] INFO root fetch - processPackages [hana-ml]: executing diffoscope
+[2023-05-18 05:40:32] INFO root fetch - processPackages [hana-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hana_ml-2.9.21070902-py3-none-any.whl.zip tmp/hana_ml-2.9.21072600-py3-none-any.whl.zip --markdown 20230518/h/hana-ml/2.9.21070902-2.9.21072600/diff.md --exclude *.pyd
+[2023-05-18 05:40:32] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-05-18 05:40:32] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230518/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 05:40:32] INFO root fetch - processPackages [odoo12-addon-uom-unece]: executing diffoscope
+[2023-05-18 05:40:32] INFO root fetch - processPackages [odoo12-addon-uom-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_uom_unece-12.0.1.1.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_uom_unece-12.0.1.1.0.99.dev8-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-uom-unece/12.0.1.1.0.99.dev6-12.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-18 05:40:32] INFO root fetch - processPackages [lazi]: Start processing: gitea-backup
+[2023-05-18 05:40:32] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-18 05:40:32] INFO root fetch - processPackages [gitea-backup]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-18 05:40:32] INFO root fetch - processPackages [jwtools]: Start processing: chainforge
+[2023-05-18 05:40:32] INFO root fetch - main [MainThread]: End processing [jwtools]: success
+[2023-05-18 05:40:32] WARNING root fetch - processPackages [chainforge]: Skipping, unable to determine old version
+[2023-05-18 05:40:32] INFO root fetch - main [MainThread]: End processing [chainforge] error
+[2023-05-18 05:40:33] INFO root fetch - processPackages [gitea-backup]: Downloading https://files.pythonhosted.org/packages/c2/00/76b8ad4d518d8695cb69460ddf06523f634edf62b034fe94ad5492e2a16e/gitea-backup-2.0.3.tar.gz
+[2023-05-18 05:40:33] INFO root fetch - main [MainThread]: End processing [Daystar]: success
+[2023-05-18 05:40:33] INFO root fetch - main [MainThread]: End processing [whois-rdap]: success
+[2023-05-18 05:40:33] INFO root fetch - processPackages [gitea-backup]: Downloading https://files.pythonhosted.org/packages/5f/c7/1f9c4c7653496a8815271fe3b01308071c587932f694677850d695a31407/gitea-backup-2.1.0.tar.gz
+[2023-05-18 05:40:33] INFO root fetch - main [MainThread]: End processing [gitea-backup]: success
+[2023-05-18 05:40:33] INFO root fetch - processPackages [gitea-backup]: executing diffoscope
+[2023-05-18 05:40:33] INFO root fetch - processPackages [gitea-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitea-backup-2.0.3.tar.gz tmp/gitea-backup-2.1.0.tar.gz --markdown 20230518/g/gitea-backup/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-18 05:40:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-uom-unece]: success
+[2023-05-18 05:40:34] INFO root fetch - main [MainThread]: End processing [hana-ml]: success
+[2023-05-18 05:40:34] INFO root fetch - main [MainThread]: End processing [gitea-backup]: success
+[2023-05-18 05:40:34] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-18 05:40:35] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-18 05:40:37] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-05-18 05:40:37] INFO root fetch - main [MainThread]: Store serial: [18149135]
