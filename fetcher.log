@@ -22386,3 +22386,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 19:49:04] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-05-18 19:49:44] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-05-18 19:49:44] INFO root fetch - main [MainThread]: Store serial: [18158081]
+[2023-05-18 19:54:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18158081]
+[2023-05-18 19:54:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: say-test
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndradex
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alacorder
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-czann-segment
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fstd2nc-deps
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdown-link-resolver
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyVLMP
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: s-exp-parser
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: planetcantile
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caft
+[2023-05-18 19:54:54] INFO root fetch - processPackages [s-exp-parser]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [fstd2nc-deps]: New version: [0.20200304.4] Old Version: [0.20200304.2]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [napari-czann-segment]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [planetcantile]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 19:54:54] WARNING root fetch - processPackages [say-test]: Skipping, unable to determine old version
+[2023-05-18 19:54:54] WARNING root fetch - processPackages [markdown-link-resolver]: Skipping, unable to determine old version
+[2023-05-18 19:54:54] INFO root fetch - processPackages [say-test]: Start processing: sqlglot
+[2023-05-18 19:54:54] INFO root fetch - processPackages [markdown-link-resolver]: Start processing: dagger-io
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ndradex]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-18 19:54:54] INFO root fetch - main [MainThread]: End processing [say-test] error
+[2023-05-18 19:54:54] WARNING root fetch - processPackages [caft]: Skipping, unable to determine old version
+[2023-05-18 19:54:54] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 19:54:54] INFO root fetch - main [MainThread]: End processing [markdown-link-resolver] error
+[2023-05-18 19:54:54] INFO root fetch - main [MainThread]: End processing [caft] error
+[2023-05-18 19:54:54] INFO root fetch - processPackages [fstd2nc-deps]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [fstd2nc-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstd2nc_deps-0.20200304.2.zip tmp/fstd2nc_deps-0.20200304.4.zip --markdown 20230518/f/fstd2nc-deps/0.20200304.2-0.20200304.4/diff.md --exclude *.pyd
+[2023-05-18 19:54:54] INFO root fetch - processPackages [alacorder]: New version: [80.6.4] Old Version: [80.6.3]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [s-exp-parser]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [s-exp-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s-exp-parser-1.2.0.tar.gz tmp/s-exp-parser-1.3.0.tar.gz --markdown 20230518/s/s-exp-parser/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 19:54:54] INFO root fetch - processPackages [dagger-io]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-18 19:54:54] INFO root fetch - processPackages [planetcantile]: Downloading https://files.pythonhosted.org/packages/93/c5/8c3b367384aefe9ec992bd9b77d729d831687596fabd54862d3bb2fa0c61/planetcantile-0.1.0.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [napari-czann-segment]: Downloading https://files.pythonhosted.org/packages/dc/57/4f211fc73833fa268eecc1c04f3a5143a9252978c47cd1cf7428fab2e7b6/napari-czann-segment-0.0.16.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/a0/f7/861b26a2dec9524b1ef6de23c369b7518de882a974b4e27877027e2341d3/pyVLMP-1.0.7.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/74/84/e54396ec35abe9de9d8dbebe6837998efa2d8049a2b693ac130afe21fa90/dagger_io-0.5.3.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ndradex]: Downloading https://files.pythonhosted.org/packages/c5/37/4ac7a4133a17a68363d0805959195c92526dbdc41259e148888233c41b54/ndradex-0.3.1.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/09/d2/5da7211582a20276eff724e70659aeeb9a951961b459671787b757457cc5/alacorder-80.6.4.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [pyVLMP]: Downloading https://files.pythonhosted.org/packages/a0/9f/de8c692e43885a1cd4df1121f56c201fa2127e8ef95a0256da68218dac3a/pyVLMP-1.0.8.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ndradex]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [ndradex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndradex-0.3.0.tar.gz tmp/ndradex-0.3.1.tar.gz --markdown 20230518/n/ndradex/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-18 19:54:54] INFO root fetch - processPackages [planetcantile]: Downloading https://files.pythonhosted.org/packages/e1/b0/9b2652cffe4f627709b4a16a47c5e35cf42a5544d2cda5c7996ad52b9d1b/planetcantile-0.2.0.tar.gz
+[2023-05-18 19:54:54] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.6.3.tar.gz tmp/alacorder-80.6.4.tar.gz --markdown 20230518/a/alacorder/80.6.3-80.6.4/diff.md --exclude *.pyd
+[2023-05-18 19:54:54] INFO root fetch - processPackages [planetcantile]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [planetcantile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetcantile-0.1.0.tar.gz tmp/planetcantile-0.2.0.tar.gz --markdown 20230518/p/planetcantile/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 19:54:54] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-18 19:54:54] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.7.tar.gz tmp/pyVLMP-1.0.8.tar.gz --markdown 20230518/p/pyVLMP/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 19:54:55] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/a0/cc/7cd0c5c468b36387324a7cad678ebf3c350671187c83643004370f162bb0/dagger_io-0.5.4.tar.gz
+[2023-05-18 19:54:55] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-05-18 19:54:55] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2023-05-18 19:54:55] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.5.3.tar.gz tmp/dagger_io-0.5.4.tar.gz --markdown 20230518/d/dagger-io/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-18 19:54:55] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-18 19:54:55] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230518/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-18 19:54:55] INFO root fetch - processPackages [napari-czann-segment]: Downloading https://files.pythonhosted.org/packages/0b/3d/71fb5480e8eb081d08ed4efc376d8cf1bd392eadc185d1f11e20a35570f2/napari-czann-segment-0.0.17.tar.gz
+[2023-05-18 19:54:55] WARNING root fetch - processPackages [napari-czann-segment]: Skipping package: exceeds size limit 11796916>=10485760
+[2023-05-18 19:54:55] INFO root fetch - main [MainThread]: End processing [napari-czann-segment] error
+[2023-05-18 19:54:55] INFO root fetch - main [MainThread]: End processing [s-exp-parser]: success
+[2023-05-18 19:54:56] INFO root fetch - main [MainThread]: End processing [ndradex]: success
+[2023-05-18 19:54:56] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-18 19:54:56] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2023-05-18 19:54:57] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-18 19:54:57] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-18 19:55:04] INFO root fetch - main [MainThread]: End processing [fstd2nc-deps]: success
+[2023-05-18 19:55:13] INFO root fetch - main [MainThread]: End processing [planetcantile]: success
+[2023-05-18 19:55:13] INFO root fetch - main [MainThread]: Store serial: [18158129]
