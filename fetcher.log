@@ -5972,3 +5972,30 @@
 [2023-05-18 05:56:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
 [2023-05-18 05:56:10] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-05-18 05:56:10] INFO root fetch - main [MainThread]: Store serial: [18149156]
+[2023-05-18 06:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149156]
+[2023-05-18 06:01:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-18 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantready-base
+[2023-05-18 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ekuiper
+[2023-05-18 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ekuiper
+[2023-05-18 06:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meow-sim
+[2023-05-18 06:01:20] WARNING root fetch - processPackages [quantready-base]: Skipping, unable to determine old version
+[2023-05-18 06:01:20] INFO root fetch - main [MainThread]: End processing [quantready-base] error
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-18 06:01:20] INFO root fetch - processPackages [meow-sim]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-18 06:01:20] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/12/9b/086790aa5b9b4d91666f1bd469977cee4348628d55fd8d3bc5d13cbcf716/meow-sim-0.2.0.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/75/f1/226a04cc28b4a204c67fec145930af9d57efa0019383e96ea6ab3978e99a/meow-sim-0.3.0.tar.gz
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20230518/e/ekuiper/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-05-18 06:01:20] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20230518/e/ekuiper/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-18 06:01:20] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-05-18 06:01:20] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.2.0.tar.gz tmp/meow-sim-0.3.0.tar.gz --markdown 20230518/m/meow-sim/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 06:01:21] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2023-05-18 06:01:21] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2023-05-18 06:02:01] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-05-18 06:02:01] INFO root fetch - main [MainThread]: Store serial: [18149170]
