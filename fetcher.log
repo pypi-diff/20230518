@@ -13294,3 +13294,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 12:54:12] INFO root fetch - main [MainThread]: End processing [agsi]: success
 [2023-05-18 12:54:13] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
 [2023-05-18 12:54:13] INFO root fetch - main [MainThread]: Store serial: [18152903]
+[2023-05-18 12:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152903]
+[2023-05-18 12:59:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ewoksjob
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixpeobssim
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qufit
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secapi-tl
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qyrm-pipinject4
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdcc
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartlogger
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: treibstoff
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: driveup
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cysecuretools
+[2023-05-18 12:59:22] INFO root fetch - processPackages [smartlogger]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [qufit]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [hdcc]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [driveup]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [treibstoff]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ewoksjob]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.5.0.tar.gz tmp/driveup-0.6.0.tar.gz --markdown 20230518/d/driveup/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [secapi-tl]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ixpeobssim]: New version: [30.3.0] Old Version: [30.2.3]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.6.tar.gz tmp/qufit-1.1.7.tar.gz --markdown 20230518/q/qufit/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] WARNING root fetch - processPackages [qyrm-pipinject4]: Skipping, unable to determine old version
+[2023-05-18 12:59:22] INFO root fetch - processPackages [qyrm-pipinject4]: Start processing: pipelineagents
+[2023-05-18 12:59:22] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject4] error
+[2023-05-18 12:59:22] INFO root fetch - processPackages [cysecuretools]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [hdcc]: Downloading https://files.pythonhosted.org/packages/97/28/23828cd9dfb8b945505777bfdc25252baa6b3c34321ac7eb10c24e397e7b/hdcc-0.5.0.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [treibstoff]: Downloading https://files.pythonhosted.org/packages/e9/a7/186056332e957b958bd0be539eda2d739eee6918cb837478216c86ccb81f/treibstoff-0.1.0-py3-none-any.whl
+[2023-05-18 12:59:22] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/99/60/8048b79f8562c3a9ea58581e69f7bc40a6065518ec5bde73fc447dc03c25/smartlogger-0.0.1.dev4.tar.gz
+[2023-05-18 12:59:22] WARNING root fetch - processPackages [pipelineagents]: Skipping, unable to determine old version
+[2023-05-18 12:59:22] INFO root fetch - processPackages [pipelineagents]: Start processing: robin-chat-input
+[2023-05-18 12:59:22] INFO root fetch - main [MainThread]: End processing [pipelineagents] error
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ewoksjob]: Downloading https://files.pythonhosted.org/packages/9a/0e/583173405aad8900dcbbc4043f0d7a2e6a3a2dc02618ab57be1f784bf75c/ewoksjob-0.2.1.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [robin-chat-input]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ixpeobssim]: Downloading https://files.pythonhosted.org/packages/b4/14/8e721fb8319f949802c08547f971c0014e7706067136e72bcc27b3060c05/ixpeobssim-30.2.3.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/d9/95/3c512ab0a3a1fff0a725ec51ce6951069e6c555ab88ff9719ad43638bf2f/secapi-tl-1.1.8.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [cysecuretools]: Downloading https://files.pythonhosted.org/packages/68/ae/b343e193778e1a993da2308e469b983e7f82b602daf2c5157baa9d8987eb/cysecuretools-4.1.0.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [hdcc]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [hdcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcc-0.4.0.tar.gz tmp/hdcc-0.5.0.tar.gz --markdown 20230518/h/hdcc/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [smartlogger]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [smartlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlogger-0.0.1.dev3.tar.gz tmp/smartlogger-0.0.1.dev4.tar.gz --markdown 20230518/s/smartlogger/0.0.1.dev3-0.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] WARNING root fetch - processPackages [ixpeobssim]: Skipping package: exceeds size limit 40523040>=10485760
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ixpeobssim]: Start processing: panml
+[2023-05-18 12:59:22] INFO root fetch - main [MainThread]: End processing [ixpeobssim] error
+[2023-05-18 12:59:22] INFO root fetch - processPackages [treibstoff]: Downloading https://files.pythonhosted.org/packages/95/35/0e2a8a8895acb73c846c8f16e76c611247a308d32877f43a39b3aea54f67/treibstoff-0.2.0.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [treibstoff]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [treibstoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treibstoff-0.1.0-py3-none-any.whl.zip tmp/treibstoff-0.2.0.tar.gz --markdown 20230518/t/treibstoff/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [robin-chat-input]: Downloading https://files.pythonhosted.org/packages/1a/bd/b7d511c0caeff81e2296f2e629bf51997c7f520faa247eea6d278585799b/robin-chat-input-0.0.7.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [cysecuretools]: Downloading https://files.pythonhosted.org/packages/38/20/97ba7fd4c5b08995a68df35c86ec519c9c5517d175cdc392408ed3aa9d76/cysecuretools-4.2.0.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [secapi-tl]: Downloading https://files.pythonhosted.org/packages/80/83/99fc96c467a56d028eabdea402bf22e1d9314d5b6b23a2b6045c812ef2a2/secapi-tl-1.1.9.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [panml]: New version: [0.0.12] Old Version: [0.0.10]
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ewoksjob]: Downloading https://files.pythonhosted.org/packages/12/e1/ec7c2a9fc50c034df4ebc2e3e184728017d5e093cdbf0f56b6b042c85c25/ewoksjob-0.2.2.tar.gz
+[2023-05-18 12:59:22] INFO root fetch - processPackages [secapi-tl]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [secapi-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secapi-tl-1.1.8.tar.gz tmp/secapi-tl-1.1.9.tar.gz --markdown 20230518/s/secapi-tl/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [robin-chat-input]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [robin-chat-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin-chat-input-0.0.6.tar.gz tmp/robin-chat-input-0.0.7.tar.gz --markdown 20230518/r/robin-chat-input/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [cysecuretools]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [cysecuretools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysecuretools-4.1.0.tar.gz tmp/cysecuretools-4.2.0.tar.gz --markdown 20230518/c/cysecuretools/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ewoksjob]: executing diffoscope
+[2023-05-18 12:59:22] INFO root fetch - processPackages [ewoksjob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksjob-0.2.1.tar.gz tmp/ewoksjob-0.2.2.tar.gz --markdown 20230518/e/ewoksjob/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 12:59:23] INFO root fetch - processPackages [panml]: Downloading https://files.pythonhosted.org/packages/61/e8/19082184cbef946de1bb13496c21fce1b9a375405285ca885e2d2bdcf6ca/panml-0.0.12.tar.gz
+[2023-05-18 12:59:23] INFO root fetch - processPackages [panml]: executing diffoscope
+[2023-05-18 12:59:23] INFO root fetch - processPackages [panml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panml-0.0.10.tar.gz tmp/panml-0.0.12.tar.gz --markdown 20230518/p/panml/0.0.10-0.0.12/diff.md --exclude *.pyd
+[2023-05-18 12:59:23] INFO root fetch - processPackages [driveup]: Start processing: frat-brain
+[2023-05-18 12:59:23] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-05-18 12:59:23] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-05-18 12:59:23] INFO root fetch - processPackages [frat-brain]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-18 12:59:23] INFO root fetch - main [MainThread]: End processing [smartlogger]: success
+[2023-05-18 12:59:24] INFO root fetch - main [MainThread]: End processing [hdcc]: success
+[2023-05-18 12:59:24] INFO root fetch - processPackages [frat-brain]: Downloading https://files.pythonhosted.org/packages/fc/0c/2fb883c78a1bc3c8d4be20c257a89cf1615d7f80af86cd35ba4a927382a0/frat_brain-1.5.2.tar.gz
+[2023-05-18 12:59:24] INFO root fetch - main [MainThread]: End processing [treibstoff]: success
+[2023-05-18 12:59:24] INFO root fetch - main [MainThread]: End processing [secapi-tl]: success
+[2023-05-18 12:59:24] INFO root fetch - processPackages [frat-brain]: executing diffoscope
+[2023-05-18 12:59:24] INFO root fetch - processPackages [frat-brain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frat_brain-1.5.1.tar.gz tmp/frat_brain-1.5.2.tar.gz --markdown 20230518/f/frat-brain/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-18 12:59:24] INFO root fetch - main [MainThread]: End processing [panml]: success
+[2023-05-18 12:59:24] INFO root fetch - main [MainThread]: End processing [ewoksjob]: success
+[2023-05-18 12:59:25] INFO root fetch - main [MainThread]: End processing [frat-brain]: success
+[2023-05-18 12:59:25] INFO root fetch - main [MainThread]: End processing [robin-chat-input]: success
+[2023-05-18 12:59:27] INFO root fetch - main [MainThread]: End processing [cysecuretools]: success
+[2023-05-18 12:59:27] INFO root fetch - main [MainThread]: Store serial: [18152948]
