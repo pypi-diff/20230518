@@ -5116,3 +5116,38 @@
 [2023-05-18 04:33:28] INFO root fetch - main [MainThread]: End processing [plib3.ui]: success
 [2023-05-18 04:34:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-18 04:34:14] INFO root fetch - main [MainThread]: Store serial: [18148743]
+[2023-05-18 04:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148743]
+[2023-05-18 04:39:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 04:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-queuey
+[2023-05-18 04:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motionrender
+[2023-05-18 04:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: config-joker
+[2023-05-18 04:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-expense-tax-adjust
+[2023-05-18 04:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peakrdl-regblock
+[2023-05-18 04:39:23] INFO root fetch - processPackages [config-joker]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-18 04:39:23] INFO root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.2]
+[2023-05-18 04:39:23] INFO root fetch - processPackages [motionrender]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 04:39:23] INFO root fetch - processPackages [peakrdl-regblock]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 04:39:23] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 04:39:23] INFO root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: Downloading https://files.pythonhosted.org/packages/c9/a3/0b67e57aeedf58011d7f2db3785a3bd309b8cadebd939b108424923581a7/odoo_addon_hr_expense_tax_adjust-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-18 04:39:24] INFO root fetch - processPackages [motionrender]: Downloading https://files.pythonhosted.org/packages/2b/ca/1cbce7a47c6952311fcf6f2d479dfba8f9dfe5ffab81235c92f7423f3a7d/motionrender-0.1.0.tar.gz
+[2023-05-18 04:39:24] INFO root fetch - processPackages [peakrdl-regblock]: Downloading https://files.pythonhosted.org/packages/a5/c3/25808aa15036ce03bc0df87d98669a6a911a00d6d2af4a0f14b7c508ca86/peakrdl-regblock-0.8.0.tar.gz
+[2023-05-18 04:39:24] INFO root fetch - processPackages [config-joker]: Downloading https://files.pythonhosted.org/packages/ac/5f/6f0a081613aaf5b462bb5422d559145d7bf9c7abb92236ee8fb914dde99f/config_joker-0.5.0.tar.gz
+[2023-05-18 04:39:24] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 04:39:24] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 04:39:24] INFO root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: Downloading https://files.pythonhosted.org/packages/1e/9e/a5294fc8e691b108158b05a0411e7807ce0d69fcc9ca3efd15c91579ada4/odoo_addon_hr_expense_tax_adjust-15.0.1.1.0-py3-none-any.whl
+[2023-05-18 04:39:24] INFO root fetch - processPackages [motionrender]: Downloading https://files.pythonhosted.org/packages/ad/d6/f795f424e5522fee644e1b4c7474c0e60fcccad9bbe8b6151aad1173ee00/motionrender-0.1.1.tar.gz
+[2023-05-18 04:39:24] INFO root fetch - processPackages [config-joker]: executing diffoscope
+[2023-05-18 04:39:24] INFO root fetch - processPackages [config-joker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_joker-0.4.0.tar.gz tmp/config_joker-0.5.0.tar.gz --markdown 20230518/c/config-joker/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-18 04:39:24] INFO root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: executing diffoscope
+[2023-05-18 04:39:24] INFO root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_tax_adjust-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_tax_adjust-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-hr-expense-tax-adjust/15.0.1.0.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-18 04:39:24] INFO root fetch - processPackages [motionrender]: executing diffoscope
+[2023-05-18 04:39:24] INFO root fetch - processPackages [motionrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motionrender-0.1.0.tar.gz tmp/motionrender-0.1.1.tar.gz --markdown 20230518/m/motionrender/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 04:39:24] INFO root fetch - processPackages [peakrdl-regblock]: Downloading https://files.pythonhosted.org/packages/50/6c/091eb6f1285fcbe0521d1f9860ebce378f165c5abc73024600637b03299b/peakrdl-regblock-0.9.0.tar.gz
+[2023-05-18 04:39:24] INFO root fetch - processPackages [peakrdl-regblock]: executing diffoscope
+[2023-05-18 04:39:24] INFO root fetch - processPackages [peakrdl-regblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-regblock-0.8.0.tar.gz tmp/peakrdl-regblock-0.9.0.tar.gz --markdown 20230518/p/peakrdl-regblock/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: End processing [config-joker]: success
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: End processing [motionrender]: success
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-tax-adjust]: success
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: End processing [peakrdl-regblock]: success
+[2023-05-18 04:39:25] INFO root fetch - main [MainThread]: Store serial: [18148767]
