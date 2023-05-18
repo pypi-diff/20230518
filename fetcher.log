@@ -18612,3 +18612,213 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:19:51] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1322]: success
 [2023-05-18 17:19:51] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
 [2023-05-18 17:19:51] INFO root fetch - main [MainThread]: Store serial: [18155942]
+[2023-05-18 17:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155942]
+[2023-05-18 17:25:00] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-ssd1325
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-ssd1331
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-ssd1351
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsquickview
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oqpy
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ynot3
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shipyard-jira
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantconnect-stubs
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: speechmatics-diarization-metrics
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: race-report
+[2023-05-18 17:25:00] INFO root fetch - processPackages [vsquickview]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [ynot3]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [race-report]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [shipyard-jira]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 17:25:00] WARNING root fetch - processPackages [speechmatics-diarization-metrics]: Skipping, unable to determine old version
+[2023-05-18 17:25:00] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-18 17:25:00] INFO root fetch - processPackages [oqpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-18 17:25:01] INFO root fetch - processPackages [speechmatics-diarization-metrics]: Start processing: TYAI-GradeSystemPRO
+[2023-05-18 17:25:01] INFO root fetch - main [MainThread]: End processing [speechmatics-diarization-metrics] error
+[2023-05-18 17:25:01] WARNING root fetch - processPackages [TYAI-GradeSystemPRO]: Skipping, unable to determine old version
+[2023-05-18 17:25:01] INFO root fetch - processPackages [TYAI-GradeSystemPRO]: Start processing: bert4torch
+[2023-05-18 17:25:01] INFO root fetch - main [MainThread]: End processing [TYAI-GradeSystemPRO] error
+[2023-05-18 17:25:01] INFO root fetch - processPackages [bert4torch]: New version: [0.2.8] Old Version: [0.2.7.post2]
+[2023-05-18 17:25:01] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-18 17:25:01] INFO root fetch - processPackages [race-report]: Downloading https://files.pythonhosted.org/packages/25/2a/8c3bc69b46755a56443e053e8b8892f773d52338a3d89062fe5f0f792504/race_report-0.0.1.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [ynot3]: Downloading https://files.pythonhosted.org/packages/97/41/f282d9714eeaff5306ee10e596fcf35a4f703611df9af8db8a0b04307021/ynot3-1.0.0.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230518/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: Downloading https://files.pythonhosted.org/packages/dd/20/c1377a52c7799bd634d257155a5d327636f90d9c88e1311273b5a468226c/adafruit-circuitpython-ssd1351-1.3.7.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [vsquickview]: Downloading https://files.pythonhosted.org/packages/fd/10/1b752e4c6bd1176a914ceb0154059ec4f8cff617c6ebc57522ea407611d3/vsquickview-0.2.6.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [shipyard-jira]: Downloading https://files.pythonhosted.org/packages/1f/9a/2a80eaf6a875cf8323b89402c01a1295d27a939066cb7d11b721bcf432e0/shipyard_jira-0.1.3.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: Downloading https://files.pythonhosted.org/packages/58/62/adb09ab5cdcdab2b883efe44170cb8c37f98e4fefbe7a297f22e9e872986/adafruit-circuitpython-ssd1331-1.3.7.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [oqpy]: Downloading https://files.pythonhosted.org/packages/fc/55/ffa1e9171b49ef0c0446713711c9639e6820571457b699ab71d96c0f3ea1/oqpy-0.2.0.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: Downloading https://files.pythonhosted.org/packages/61/41/c543ec7352bb32ac4f39d4047fb148a2aa3903721e53c23c822516910729/adafruit-circuitpython-ssd1325-1.4.8.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [shipyard-jira]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [shipyard-jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_jira-0.1.2.tar.gz tmp/shipyard_jira-0.1.3.tar.gz --markdown 20230518/s/shipyard-jira/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/f7/b9/5e789140622cd1e12a3f1e5ed3627462923494e7a58182b1bb39ec2a8d55/bert4torch-0.2.7.post2.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [ynot3]: Downloading https://files.pythonhosted.org/packages/89/45/1e5d5c8f191d130b58ff19eccd386078458ac52dc99e1193b3ff9ab2d389/ynot3-1.1.0.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [ynot3]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [ynot3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynot3-1.0.0.tar.gz tmp/ynot3-1.1.0.tar.gz --markdown 20230518/y/ynot3/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [vsquickview]: Downloading https://files.pythonhosted.org/packages/72/34/3def715581b79a50c5d83bde70de33fd42f02c1d3d44ae1ac828a912dbed/vsquickview-0.3.0.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [race-report]: Downloading https://files.pythonhosted.org/packages/de/9b/4169da36d2c29421ab43d7beb33e526d69c1b0c70303a4d3feb1c864744c/race_report-1.0.0.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [oqpy]: Downloading https://files.pythonhosted.org/packages/89/c1/6bb51b55d960014a92800f9e017c7587fd509a30fee7bf5a6380fcb4263d/oqpy-0.2.1.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [vsquickview]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [vsquickview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsquickview-0.2.6.tar.gz tmp/vsquickview-0.3.0.tar.gz --markdown 20230518/v/vsquickview/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [oqpy]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [oqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oqpy-0.2.0.tar.gz tmp/oqpy-0.2.1.tar.gz --markdown 20230518/o/oqpy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/e7/e9/4f5cc43434d2a5110e17e58e9286cf5086fd43c14eaa35dd77b7e797e41a/bert4torch-0.2.8.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: Downloading https://files.pythonhosted.org/packages/74/bc/f94ff8d3fa9aaa83a3f3cf1fa695460419cd3675d1326af988689c744d29/adafruit-circuitpython-ssd1351-1.3.8.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: Downloading https://files.pythonhosted.org/packages/2a/e3/22a0ed4cbbcd072f42c2ab04a320a257c525719658ff9f7bd72b37ea5120/adafruit-circuitpython-ssd1331-1.3.8.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: Downloading https://files.pythonhosted.org/packages/53/ab/5b3fe7c74438a41092ad806cf33afb0aaf89a3379efb2209ed663398364c/adafruit-circuitpython-ssd1325-1.4.9.tar.gz
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1351-1.3.7.tar.gz tmp/adafruit-circuitpython-ssd1351-1.3.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1351/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [race-report]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [race-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/race_report-0.0.1.tar.gz tmp/race_report-1.0.0.tar.gz --markdown 20230518/r/race-report/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1331-1.3.7.tar.gz tmp/adafruit-circuitpython-ssd1331-1.3.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1331/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1325-1.4.8.tar.gz tmp/adafruit-circuitpython-ssd1325-1.4.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1325/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:01] INFO root fetch - processPackages [bert4torch]: executing diffoscope
+[2023-05-18 17:25:01] INFO root fetch - processPackages [bert4torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4torch-0.2.7.post2.tar.gz tmp/bert4torch-0.2.8.tar.gz --markdown 20230518/b/bert4torch/0.2.7.post2-0.2.8/diff.md --exclude *.pyd
+[2023-05-18 17:25:02] INFO root fetch - processPackages [shipyard-jira]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:25:02] INFO root fetch - main [MainThread]: End processing [shipyard-jira]: success
+[2023-05-18 17:25:02] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-05-18 17:25:02] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Downloading https://files.pythonhosted.org/packages/65/c7/0f0a1d38df4a100ecc7a998c5bc3cb77de034bcdcc14b4fbc8f7ed11f506/apicurio_registry_python_sdk_preview-2.4.6.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ynot3]: Start processing: charex
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [ynot3]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [charex]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.5.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.6.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [race-report]: Start processing: ape-solidity
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [race-report]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [charex]: Downloading https://files.pythonhosted.org/packages/aa/f4/b8031b3fc9a32d4b5b6f32f0c3bd1e21c1778802c8d59441e31e7e017e81/charex-0.0.1.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ape-solidity]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [vsquickview]: Start processing: adafruit-circuitpython-ssd1608
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [vsquickview]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: New version: [1.2.9] Old Version: [1.2.18]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1351]: Start processing: pyside-app-core
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1351]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [pyside-app-core]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [oqpy]: Start processing: dataShepherd
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [oqpy]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [dataShepherd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1331]: Start processing: adafruit-circuitpython-st7735
+[2023-05-18 17:25:03] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1331]: success
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: Downloading https://files.pythonhosted.org/packages/0f/44/64fbc50eb2ae024bd57a5e4ed557c6d14e27bfa672a9da76f3910a3ad446/adafruit-circuitpython-ssd1608-1.2.18.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/c5/d2/fe83484fe7f2082b227da3c0d3a96b728bf800edb5c8a0d936b87b2b3d04/ape-solidity-0.6.3.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [charex]: Downloading https://files.pythonhosted.org/packages/40/7c/54b89aaa9a35ec5f3ee2641355cbe2667e2277ec07709822096dde363816/charex-0.0.2.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [dataShepherd]: Downloading https://files.pythonhosted.org/packages/71/b5/05b126c130c06e1634f7c5dfd6e9fa8ac34f06958267ce5768ceb20b9e15/dataShepherd-0.0.5-py3-none-any.whl
+[2023-05-18 17:25:03] INFO root fetch - processPackages [pyside-app-core]: Downloading https://files.pythonhosted.org/packages/bb/7c/a9de717f68a79bd67a2f9a0b17769e838a208cc3cd7865d61fbc5c1fca33/pyside-app-core-0.1.2.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [dataShepherd]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [dataShepherd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataShepherd-0.0.4-py3-none-any.whl.zip tmp/dataShepherd-0.0.5-py3-none-any.whl.zip --markdown 20230518/d/dataShepherd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: Downloading https://files.pythonhosted.org/packages/2a/e5/d3984bf4573685556bd8bead4c5d976df4155c03817f494fb0d1243e93ec/adafruit-circuitpython-st7735-1.2.8.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [charex]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [charex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charex-0.0.1.tar.gz tmp/charex-0.0.2.tar.gz --markdown 20230518/c/charex/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [pyside-app-core]: Downloading https://files.pythonhosted.org/packages/dd/67/905f0c6a5c35a04f618b8a456d0c739217d81bcf84c218e0f0c1345594e1/pyside-app-core-0.1.3.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ape-solidity]: Downloading https://files.pythonhosted.org/packages/7a/8a/6f798e3a7b8845ec63b77207265af586de7004dcdf09bbd78a6a391af699/ape-solidity-0.6.4.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: Downloading https://files.pythonhosted.org/packages/4b/a7/dce4b9bfbf0ce6d105819da4fe67919ffd57d724bd75937f8999c4507050/adafruit-circuitpython-ssd1608-1.2.9.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [pyside-app-core]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [pyside-app-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside-app-core-0.1.2.tar.gz tmp/pyside-app-core-0.1.3.tar.gz --markdown 20230518/p/pyside-app-core/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1608-1.2.18.tar.gz tmp/adafruit-circuitpython-ssd1608-1.2.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1608/1.2.18-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: Downloading https://files.pythonhosted.org/packages/59/c1/403cb1b63df0673e98b1ae21507da255bf8962045118cfca854f48bd0945/adafruit-circuitpython-st7735-1.2.9.tar.gz
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-st7735-1.2.8.tar.gz tmp/adafruit-circuitpython-st7735-1.2.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-st7735/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ape-solidity]: executing diffoscope
+[2023-05-18 17:25:03] INFO root fetch - processPackages [ape-solidity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-solidity-0.6.3.tar.gz tmp/ape-solidity-0.6.4.tar.gz --markdown 20230518/a/ape-solidity/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-18 17:25:04] INFO root fetch - processPackages [adafruit-circuitpython-ssd1325]: Start processing: augratin
+[2023-05-18 17:25:04] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1325]: success
+[2023-05-18 17:25:04] INFO root fetch - processPackages [augratin]: New version: [23.5.18] Old Version: [23.5.17.2]
+[2023-05-18 17:25:04] INFO root fetch - processPackages [augratin]: Downloading https://files.pythonhosted.org/packages/a9/21/306640094dbb0176da138bc1f349c6350b462f8a66e335c37e2b9a8ca2a4/augratin-23.5.17.2.tar.gz
+[2023-05-18 17:25:04] INFO root fetch - processPackages [augratin]: Downloading https://files.pythonhosted.org/packages/3d/e4/f0687768a1d16b7f5ae2abc0d56215f1163fafbbf4de1c3e592bd8fc61e1/augratin-23.5.18.tar.gz
+[2023-05-18 17:25:04] INFO root fetch - processPackages [augratin]: executing diffoscope
+[2023-05-18 17:25:04] INFO root fetch - processPackages [augratin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augratin-23.5.17.2.tar.gz tmp/augratin-23.5.18.tar.gz --markdown 20230518/a/augratin/23.5.17.2-23.5.18/diff.md --exclude *.pyd
+[2023-05-18 17:25:04] INFO root fetch - processPackages [dataShepherd]: Start processing: MulensModel
+[2023-05-18 17:25:04] INFO root fetch - main [MainThread]: End processing [dataShepherd]: success
+[2023-05-18 17:25:04] INFO root fetch - processPackages [MulensModel]: New version: [2.8.1] Old Version: [2.7.2]
+[2023-05-18 17:25:05] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: adafruit-circuitpython-stmpe610
+[2023-05-18 17:25:05] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:25:05] INFO root fetch - processPackages [MulensModel]: Downloading https://files.pythonhosted.org/packages/eb/77/fdd12bd51f343c0953af1cd100c830be774b3b6272f706bd2de270c0ea98/MulensModel-2.7.2.tar.gz
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: Downloading https://files.pythonhosted.org/packages/29/db/3903e8b48c0c0c249877f0e1c14643eda5a31bb937d6f53c13aa4fea26ae/adafruit-circuitpython-stmpe610-1.3.8.tar.gz
+[2023-05-18 17:25:05] INFO root fetch - processPackages [bert4torch]: Start processing: quant-invest-lab
+[2023-05-18 17:25:05] INFO root fetch - main [MainThread]: End processing [bert4torch]: success
+[2023-05-18 17:25:05] INFO root fetch - processPackages [quant-invest-lab]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-18 17:25:05] INFO root fetch - processPackages [MulensModel]: Downloading https://files.pythonhosted.org/packages/ff/7f/45899cc29af1b1f2cad2f266a4a80b43828cf320e5cc33e8e75dd455946b/MulensModel-2.8.1.tar.gz
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: Downloading https://files.pythonhosted.org/packages/f6/40/635b2be3683229627abd11866121454bc10bfc51f55af3f7d939e228c1ba/adafruit-circuitpython-stmpe610-1.3.9.tar.gz
+[2023-05-18 17:25:05] INFO root fetch - processPackages [pyside-app-core]: Start processing: adafruit-circuitpython-tla202x
+[2023-05-18 17:25:05] INFO root fetch - main [MainThread]: End processing [pyside-app-core]: success
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-tla202x]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: executing diffoscope
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-stmpe610-1.3.8.tar.gz tmp/adafruit-circuitpython-stmpe610-1.3.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-stmpe610/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:05] INFO root fetch - processPackages [MulensModel]: executing diffoscope
+[2023-05-18 17:25:05] INFO root fetch - processPackages [MulensModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MulensModel-2.7.2.tar.gz tmp/MulensModel-2.8.1.tar.gz --markdown 20230518/M/MulensModel/2.7.2-2.8.1/diff.md --exclude *.pyd
+[2023-05-18 17:25:05] INFO root fetch - processPackages [charex]: Start processing: adafruit-circuitpython-tlc5947
+[2023-05-18 17:25:05] INFO root fetch - main [MainThread]: End processing [charex]: success
+[2023-05-18 17:25:05] INFO root fetch - processPackages [adafruit-circuitpython-tlc5947]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 17:25:05] INFO root fetch - processPackages [quant-invest-lab]: Downloading https://files.pythonhosted.org/packages/ce/c1/4c5f85fec071621af7debe93be0bc78794a74784efbbec78ece81bcc0ea6/quant_invest_lab-0.2.6.tar.gz
+[2023-05-18 17:25:05] INFO root fetch - processPackages [quant-invest-lab]: executing diffoscope
+[2023-05-18 17:25:05] INFO root fetch - processPackages [quant-invest-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant_invest_lab-0.2.4.tar.gz tmp/quant_invest_lab-0.2.6.tar.gz --markdown 20230518/q/quant-invest-lab/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tla202x]: Downloading https://files.pythonhosted.org/packages/04/29/1c4381275006e1121e148176a08e90f040e3a23efd428ccbcf200a85eaea/adafruit-circuitpython-tla202x-1.0.8.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc5947]: Downloading https://files.pythonhosted.org/packages/6f/70/2d095070a928db525d6f423d4250ef9ee7e6ca2bec9e97893b3c8fdf8e5d/adafruit-circuitpython-tlc5947-1.3.8.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [augratin]: Start processing: adafruit-circuitpython-tlc59711
+[2023-05-18 17:25:06] INFO root fetch - main [MainThread]: End processing [augratin]: success
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc59711]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-18 17:25:06] INFO root fetch - processPackages [ape-solidity]: Start processing: adafruit-circuitpython-tmp006
+[2023-05-18 17:25:06] INFO root fetch - main [MainThread]: End processing [ape-solidity]: success
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tmp006]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-st7735]: Start processing: adafruit-circuitpython-trellis
+[2023-05-18 17:25:06] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-st7735]: success
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tla202x]: Downloading https://files.pythonhosted.org/packages/2c/a9/1df1ec5180b708db71eeb375ab8ad0e6589999b57161751d1d9cf844d2f3/adafruit-circuitpython-tla202x-1.0.9.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tla202x]: executing diffoscope
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tla202x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tla202x-1.0.8.tar.gz tmp/adafruit-circuitpython-tla202x-1.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tla202x/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc59711]: Downloading https://files.pythonhosted.org/packages/b9/fe/4dc100ee1d6e3ed9f0f93ebc2ea2ad21df26cc8502adda99aa97e1d818ae/adafruit-circuitpython-tlc59711-2.0.8.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc5947]: Downloading https://files.pythonhosted.org/packages/9f/2a/abe5fd2a278cd9da29ed788cd9bc427c665bc4d960689412b0bfc24d2f4a/adafruit-circuitpython-tlc5947-1.3.9.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tmp006]: Downloading https://files.pythonhosted.org/packages/89/87/082a9615a483bd0da1f60474f25d9c0f422f93ec07a37722ace816d91a92/adafruit-circuitpython-tmp006-2.1.8.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-trellis]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc5947]: executing diffoscope
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc5947]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tlc5947-1.3.8.tar.gz tmp/adafruit-circuitpython-tlc5947-1.3.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tlc5947/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-trellis]: Downloading https://files.pythonhosted.org/packages/ff/39/f0c05758ba6a7bc74c2598dc8098f31ebb294a7abb58f9a42a37dc3288f9/adafruit-circuitpython-trellis-1.3.8.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tmp006]: Downloading https://files.pythonhosted.org/packages/1d/a1/e737f2fe447cbaacb4b8caecb87500734e1f0a980782b35ef357a1778bd6/adafruit-circuitpython-tmp006-2.1.9.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tmp006]: executing diffoscope
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tmp006]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tmp006-2.1.8.tar.gz tmp/adafruit-circuitpython-tmp006-2.1.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tmp006/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc59711]: Downloading https://files.pythonhosted.org/packages/db/b7/4874b8323aa832484166bb2bf942ab06fb33b9c4f94c2143abd95c5189ff/adafruit-circuitpython-tlc59711-2.0.9.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc59711]: executing diffoscope
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-tlc59711]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tlc59711-2.0.8.tar.gz tmp/adafruit-circuitpython-tlc59711-2.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tlc59711/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-trellis]: Downloading https://files.pythonhosted.org/packages/e6/57/df12b5d9681ff06d193aab6df34f0cdde0fe42e02ecf410db566e1d1b847/adafruit-circuitpython-trellis-1.3.9.tar.gz
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-trellis]: executing diffoscope
+[2023-05-18 17:25:06] INFO root fetch - processPackages [adafruit-circuitpython-trellis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-trellis-1.3.8.tar.gz tmp/adafruit-circuitpython-trellis-1.3.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-trellis/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:07] INFO root fetch - processPackages [quantconnect-stubs]: Start processing: sihnpy
+[2023-05-18 17:25:07] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-18 17:25:07] INFO root fetch - processPackages [quant-invest-lab]: Start processing: adafruit-circuitpython-turtle
+[2023-05-18 17:25:07] INFO root fetch - main [MainThread]: End processing [quant-invest-lab]: success
+[2023-05-18 17:25:07] INFO root fetch - processPackages [sihnpy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-18 17:25:07] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-18 17:25:07] INFO root fetch - processPackages [adafruit-circuitpython-stmpe610]: Start processing: dataShepherd
+[2023-05-18 17:25:07] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-stmpe610]: success
+[2023-05-18 17:25:07] INFO root fetch - processPackages [dataShepherd]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 17:25:07] INFO root fetch - processPackages [adafruit-circuitpython-ssd1608]: Start processing: adafruit-circuitpython-uc8151d
+[2023-05-18 17:25:07] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1608]: success
+[2023-05-18 17:25:07] INFO root fetch - processPackages [sihnpy]: Downloading https://files.pythonhosted.org/packages/f8/65/fec38bcd256e37068bf71be651ebf4156c91187bc4bb114e784137a7d9ae/sihnpy-0.3.0.tar.gz
+[2023-05-18 17:25:07] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Downloading https://files.pythonhosted.org/packages/89/eb/a87741ba4a5bbf649eb2a4609d8e13750ea0a91f41d4196b6d263e77253c/adafruit-circuitpython-turtle-2.2.8.tar.gz
+[2023-05-18 17:25:07] INFO root fetch - processPackages [adafruit-circuitpython-uc8151d]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-18 17:25:07] WARNING root fetch - processPackages [sihnpy]: Skipping package: exceeds size limit 19561995>=10485760
+[2023-05-18 17:25:07] INFO root fetch - main [MainThread]: End processing [sihnpy] error
+[2023-05-18 17:25:07] INFO root fetch - processPackages [dataShepherd]: Downloading https://files.pythonhosted.org/packages/33/07/41591e217cf7fb95358ccf71ae547654cd6d4a0946867e4f8c45cbaa2cde/dataShepherd-0.0.6-py3-none-any.whl
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-uc8151d]: Downloading https://files.pythonhosted.org/packages/1a/9d/31cf654703ede112c86018145b611d569ca0c876b1f9bd097eb293c9ff2b/adafruit-circuitpython-uc8151d-1.2.0.tar.gz
+[2023-05-18 17:25:08] INFO root fetch - processPackages [dataShepherd]: executing diffoscope
+[2023-05-18 17:25:08] INFO root fetch - processPackages [dataShepherd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataShepherd-0.0.5-py3-none-any.whl.zip tmp/dataShepherd-0.0.6-py3-none-any.whl.zip --markdown 20230518/d/dataShepherd/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tmp006]: success
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: Downloading https://files.pythonhosted.org/packages/82/56/80bd8acf39d16b85234b3652a12e4ccafc0f577b8ee8887410277b9831ea/adafruit-circuitpython-turtle-2.2.9.tar.gz
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: executing diffoscope
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-turtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-turtle-2.2.8.tar.gz tmp/adafruit-circuitpython-turtle-2.2.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-turtle/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tlc5947]: success
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tla202x]: success
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-uc8151d]: Downloading https://files.pythonhosted.org/packages/7c/1a/022e3911b442960cfea8dca93c1e9351ab124d2b1b685ccb9fcf5310a5a0/adafruit-circuitpython-uc8151d-1.2.1.tar.gz
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-trellis]: success
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-uc8151d]: executing diffoscope
+[2023-05-18 17:25:08] INFO root fetch - processPackages [adafruit-circuitpython-uc8151d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-uc8151d-1.2.0.tar.gz tmp/adafruit-circuitpython-uc8151d-1.2.1.tar.gz --markdown 20230518/a/adafruit-circuitpython-uc8151d/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tlc59711]: success
+[2023-05-18 17:25:08] INFO root fetch - main [MainThread]: End processing [MulensModel]: success
+[2023-05-18 17:25:09] INFO root fetch - main [MainThread]: End processing [dataShepherd]: success
+[2023-05-18 17:25:09] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-turtle]: success
+[2023-05-18 17:25:10] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-uc8151d]: success
+[2023-05-18 17:25:10] INFO root fetch - main [MainThread]: Store serial: [18156060]
