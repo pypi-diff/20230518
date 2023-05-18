@@ -19128,3 +19128,357 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:35:52] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2023-05-18 17:38:02] INFO root fetch - main [MainThread]: End processing [google-ads-stubs]: success
 [2023-05-18 17:38:02] INFO root fetch - main [MainThread]: Store serial: [18156299]
+[2023-05-18 17:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156299]
+[2023-05-18 17:43:13] INFO root fetch - main [MainThread]: Found 53 changed packages
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-dotstar
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-ens160
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-fancyled
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbfs-package-sync
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-floppy
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-hashlib
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-jobs
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valmi-connector-lib
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataShepherd
+[2023-05-18 17:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenGeode-core
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: New version: [2.2.8] Old Version: [2.2.7]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dataShepherd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 17:43:14] WARNING root fetch - processPackages [dbfs-package-sync]: Skipping, unable to determine old version
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dbfs-package-sync]: Start processing: adafruit-circuitpython-hid
+[2023-05-18 17:43:14] INFO root fetch - main [MainThread]: End processing [dbfs-package-sync] error
+[2023-05-18 17:43:14] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.1.5]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hid]: New version: [5.3.5] Old Version: [5.3.4]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: Downloading https://files.pythonhosted.org/packages/91/7d/851e9af4208f4294cf3fc315d8217c57b4ca426deb66e9b587fe59185aae/adafruit-circuitpython-fancyled-1.4.8.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: Downloading https://files.pythonhosted.org/packages/e5/3f/48178c0d9e3880977b7bd548f2dcca10a5c11ee3ffecdf2727a3d99459ed/adafruit-circuitpython-dotstar-2.2.7.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dataShepherd]: Downloading https://files.pythonhosted.org/packages/99/90/df2a25b77b5e5750d50dcbe1a1c6bb0f614f96eb07ab265ffe2aefcf1f0b/dataShepherd-0.0.8-py3-none-any.whl
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: Downloading https://files.pythonhosted.org/packages/64/df/ecf176056658e6aefb3e6dadb259a58599dc808b5235a7a5c25d61972208/adafruit-circuitpython-hashlib-1.4.8.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/01/53/eacc9083d66c82c423ad51c2192b4f57ae90b53309e090b1a29d888c1a55/OpenGeode_core-14.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: Downloading https://files.pythonhosted.org/packages/6f/df/97b2e975e0418756121194dd35663f81bd66870cdd3519bee2ec53ea835d/adafruit-circuitpython-floppy-1.0.7.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: Downloading https://files.pythonhosted.org/packages/6b/0b/55dad4df97746f9140b56355b31c7441d08a9c884a57840eaa5c73dfd66e/adafruit-circuitpython-ens160-1.0.2.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hid]: Downloading https://files.pythonhosted.org/packages/f6/cb/51303b1c4bda4955528d47e4788ad5db301baf0cc0cc9c4bcb580193a5dd/adafruit-circuitpython-hid-5.3.4.tar.gz
+[2023-05-18 17:43:14] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 13906571>=10485760
+[2023-05-18 17:43:14] INFO root fetch - processPackages [OpenGeode-core]: Start processing: mongo-orchestration
+[2023-05-18 17:43:14] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-18 17:43:14] INFO root fetch - processPackages [mongo-orchestration]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: Downloading https://files.pythonhosted.org/packages/ce/07/64b5ee74fc446c7dc25405ec0a2db20b41d6348649271f820ca0f91d6612/adafruit-circuitpython-fancyled-1.4.9.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230518/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230518/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: Downloading https://files.pythonhosted.org/packages/01/16/5df2baae741f3c715bfd7d822f38b5589e14c1800663593012e42b74017a/adafruit-circuitpython-floppy-1.0.8.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: Downloading https://files.pythonhosted.org/packages/7f/27/75d320fb2a64b2b7e3263fa96564e2a502e60cf8fd99881378a54028e593/adafruit-circuitpython-hashlib-1.4.9.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-fancyled-1.4.8.tar.gz tmp/adafruit-circuitpython-fancyled-1.4.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-fancyled/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: Downloading https://files.pythonhosted.org/packages/0e/ef/987467864ed7a25c0d78b218fc07c8aa6313dee152b3f50876bea39ebc0a/adafruit-circuitpython-dotstar-2.2.8.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dataShepherd]: Downloading https://files.pythonhosted.org/packages/9b/e7/7655748933aac2e527ebdd6895254faad335c552c668cd52087ad4caf2c8/dataShepherd-0.0.9-py3-none-any.whl
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hid]: Downloading https://files.pythonhosted.org/packages/cd/00/196dbc8e34b57b912bcec6d50eccc5f72605a072af3838aa150d33f51573/adafruit-circuitpython-hid-5.3.5.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dataShepherd]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [dataShepherd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataShepherd-0.0.8-py3-none-any.whl.zip tmp/dataShepherd-0.0.9-py3-none-any.whl.zip --markdown 20230518/d/dataShepherd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hid]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-hid-5.3.4.tar.gz tmp/adafruit-circuitpython-hid-5.3.5.tar.gz --markdown 20230518/a/adafruit-circuitpython-hid/5.3.4-5.3.5/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [mongo-orchestration]: Downloading https://files.pythonhosted.org/packages/7a/df/245a0f19b54dbd8852b29f53d3448fd89df5283165eb9fe90a83bf59708e/mongo-orchestration-0.7.0.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: Downloading https://files.pythonhosted.org/packages/09/8a/a7d5dddaf35479f6ab03b3345bb89b68ea628c5912e51d7c22b40bc1c8ca/adafruit-circuitpython-ens160-1.0.3.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-floppy-1.0.7.tar.gz tmp/adafruit-circuitpython-floppy-1.0.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-floppy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-dotstar-2.2.7.tar.gz tmp/adafruit-circuitpython-dotstar-2.2.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-dotstar/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-hashlib-1.4.8.tar.gz tmp/adafruit-circuitpython-hashlib-1.4.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-hashlib/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ens160-1.0.2.tar.gz tmp/adafruit-circuitpython-ens160-1.0.3.tar.gz --markdown 20230518/a/adafruit-circuitpython-ens160/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:14] INFO root fetch - processPackages [mongo-orchestration]: Downloading https://files.pythonhosted.org/packages/80/bc/46ec328dcb9abcc8e9956c02378bfd4bfb053cb94fcf40b62b75f900d147/mongo-orchestration-0.8.0.tar.gz
+[2023-05-18 17:43:14] INFO root fetch - processPackages [mongo-orchestration]: executing diffoscope
+[2023-05-18 17:43:14] INFO root fetch - processPackages [mongo-orchestration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo-orchestration-0.7.0.tar.gz tmp/mongo-orchestration-0.8.0.tar.gz --markdown 20230518/m/mongo-orchestration/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 17:43:16] INFO root fetch - processPackages [leadguru-jobs]: Start processing: twinlab
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [twinlab]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [dataShepherd]: Start processing: adafruit-circuitpython-ht16k33
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [dataShepherd]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: New version: [4.6.4] Old Version: [4.6.3]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/de/57/6138e1d8125cd47389c11be9bbab9d888609cd79516abd651467b2d9e6b3/twinlab-1.1.0.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-fancyled]: Start processing: pyside-app-core
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-fancyled]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [pyside-app-core]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: platinumtools
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: Downloading https://files.pythonhosted.org/packages/bb/05/644a785b1227670294727bfe686097dc7b9f3de613d9899055b16043f577/adafruit-circuitpython-ht16k33-4.6.3.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [platinumtools]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/2a/4d/bcfa78c1dc25a85bbe70ecd7d6b8e5d3c667164ba1b90986bb26bb87e3fb/twinlab-1.1.1.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-floppy]: Start processing: adafruit-circuitpython-is31fl3731
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-floppy]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2023-05-18 17:43:16] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-1.1.0.tar.gz tmp/twinlab-1.1.1.tar.gz --markdown 20230518/t/twinlab/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-dotstar]: Start processing: domolibrary
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-dotstar]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: Downloading https://files.pythonhosted.org/packages/1a/f2/ab918641a24fac7a02034a520692963726486b32ee8239827f96371a1219/adafruit-circuitpython-ht16k33-4.6.4.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-hid]: Start processing: adafruit-circuitpython-lsm6ds
+[2023-05-18 17:43:16] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-hid]: success
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: executing diffoscope
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ht16k33-4.6.3.tar.gz tmp/adafruit-circuitpython-ht16k33-4.6.4.tar.gz --markdown 20230518/a/adafruit-circuitpython-ht16k33/4.6.3-4.6.4/diff.md --exclude *.pyd
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-05-18 17:43:16] INFO root fetch - processPackages [pyside-app-core]: Downloading https://files.pythonhosted.org/packages/ac/60/0f5b7da95c938f6605bf884f79e55da231db464b1ff81c6de0188e1d47d7/pyside-app-core-0.1.4.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [pyside-app-core]: executing diffoscope
+[2023-05-18 17:43:16] INFO root fetch - processPackages [pyside-app-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyside-app-core-0.1.3.tar.gz tmp/pyside-app-core-0.1.4.tar.gz --markdown 20230518/p/pyside-app-core/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: Downloading https://files.pythonhosted.org/packages/a5/3a/5e5526f4097ce011cbd4f506a409b46a1fd097a21d296cbd513f70302951/adafruit-circuitpython-is31fl3731-3.3.7.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [platinumtools]: Downloading https://files.pythonhosted.org/packages/44/2f/5fcde2b1e4849a3e12fda71ceb9cc8ad7c7c3971ce0798adab5a7f7dd29b/platinumtools-0.4.2.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [platinumtools]: executing diffoscope
+[2023-05-18 17:43:16] INFO root fetch - processPackages [platinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platinumtools-0.4.1.tar.gz tmp/platinumtools-0.4.2.tar.gz --markdown 20230518/p/platinumtools/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-18 17:43:16] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/e3/21/4720da5d616febdd12e875fe5900ec30fdebe3c7523e2db429341155ef60/domolibrary-0.1.8.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: Downloading https://files.pythonhosted.org/packages/e2/c4/db940484f8370490acc535cb9830659cae8f5a07e16ae256be743be4e8cb/adafruit-circuitpython-lsm6ds-4.5.8.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: Downloading https://files.pythonhosted.org/packages/03/f3/c6e6b163ecdc31c1058fea324545ba0cefb0a512e75a3bd837dfeb0fc168/adafruit-circuitpython-is31fl3731-3.3.8.tar.gz
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: executing diffoscope
+[2023-05-18 17:43:16] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-is31fl3731-3.3.7.tar.gz tmp/adafruit-circuitpython-is31fl3731-3.3.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-is31fl3731/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-ens160]: Start processing: adafruit-circuitpython-led-animation
+[2023-05-18 17:43:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ens160]: success
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: Downloading https://files.pythonhosted.org/packages/3a/4d/c417341c51da05df466575e05c699954892982b5fdb1baab9d6f7331e479/adafruit-circuitpython-lsm6ds-4.5.9.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-hashlib]: Start processing: adafruit-circuitpython-magtag
+[2023-05-18 17:43:17] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-hashlib]: success
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: executing diffoscope
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-lsm6ds-4.5.8.tar.gz tmp/adafruit-circuitpython-lsm6ds-4.5.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-lsm6ds/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: Downloading https://files.pythonhosted.org/packages/02/c2/ed3c6099e5168254e50c854630dfc818448d289d95a52d2ab41ab5f12372/adafruit-circuitpython-led-animation-2.7.0.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Downloading https://files.pythonhosted.org/packages/71/35/4915810ac2b14b9ae642531171765c98e548ebf6118a596930a0bab8dada/adafruit-circuitpython-magtag-2.2.4.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: Downloading https://files.pythonhosted.org/packages/26/6b/4dcaf6b9bc298c903e5e4c217902b71aa487832018175eccca07fc51325e/adafruit-circuitpython-led-animation-2.7.1.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: executing diffoscope
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-led-animation-2.7.0.tar.gz tmp/adafruit-circuitpython-led-animation-2.7.1.tar.gz --markdown 20230518/a/adafruit-circuitpython-led-animation/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Downloading https://files.pythonhosted.org/packages/42/d6/5ff74cb5c7000ce6e32fd605c215aa99d436db94fc1f0ef0874cfeb79b8e/adafruit-circuitpython-magtag-2.2.5.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-18 17:43:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230518/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:17] INFO root fetch - processPackages [mongo-orchestration]: Start processing: adafruit-circuitpython-matrixportal
+[2023-05-18 17:43:17] INFO root fetch - main [MainThread]: End processing [mongo-orchestration]: success
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: executing diffoscope
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-magtag-2.2.4.tar.gz tmp/adafruit-circuitpython-magtag-2.2.5.tar.gz --markdown 20230518/a/adafruit-circuitpython-magtag/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-18 17:43:17] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: Downloading https://files.pythonhosted.org/packages/37/86/4487bc0766eb87536b929aa2009fbe311773a527a5176c0f70f0707d248b/adafruit-circuitpython-matrixportal-3.0.8.tar.gz
+[2023-05-18 17:43:17] INFO root fetch - processPackages [twinlab]: Start processing: longPolling
+[2023-05-18 17:43:17] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2023-05-18 17:43:17] INFO root fetch - processPackages [longPolling]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: Downloading https://files.pythonhosted.org/packages/72/0f/e1898d62f187d0f4f93bd3d04f5c156d89c63be33cc0a2f9a67f49d67101/longPolling-0.0.2.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: Downloading https://files.pythonhosted.org/packages/5b/57/505e39600815b2517463f2cd66a08cbf77be84f6c0e7ce7a5126bffe96aa/adafruit-circuitpython-matrixportal-3.0.9.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: executing diffoscope
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-matrixportal-3.0.8.tar.gz tmp/adafruit-circuitpython-matrixportal-3.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-matrixportal/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:18] INFO root fetch - processPackages [platinumtools]: Start processing: longPolling
+[2023-05-18 17:43:18] INFO root fetch - main [MainThread]: End processing [platinumtools]: success
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: Downloading https://files.pythonhosted.org/packages/e7/45/27ae77b7ee7d11d05ce3d77a5243e1814f088db32db4634844b5bd3b2a96/longPolling-0.0.3.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-ht16k33]: Start processing: adafruit-circuitpython-mcp230xx
+[2023-05-18 17:43:18] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ht16k33]: success
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: executing diffoscope
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longPolling-0.0.2.tar.gz tmp/longPolling-0.0.3.tar.gz --markdown 20230518/l/longPolling/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:18] INFO root fetch - processPackages [pyside-app-core]: Start processing: adafruit-circuitpython-ov7670
+[2023-05-18 17:43:18] INFO root fetch - main [MainThread]: End processing [pyside-app-core]: success
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: executing diffoscope
+[2023-05-18 17:43:18] INFO root fetch - processPackages [longPolling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longPolling-0.0.2.tar.gz tmp/longPolling-0.0.3.tar.gz --markdown 20230518/l/longPolling/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: Downloading https://files.pythonhosted.org/packages/1f/82/df8703ad5f0da936863708c8bd18ab6c06a89642d1e638a8644dcec1c619/adafruit-circuitpython-mcp230xx-2.5.8.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-is31fl3731]: Start processing: adafruit-circuitpython-motor
+[2023-05-18 17:43:18] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-is31fl3731]: success
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-motor]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: Downloading https://files.pythonhosted.org/packages/b3/7a/994ba3cdc27da65f89f9225acee17b3302a9739493031837283229b20811/adafruit-circuitpython-ov7670-1.0.8.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-motor]: Downloading https://files.pythonhosted.org/packages/dd/54/06e92071cfec510ce1a92b053a259b3dfc52d65273f514121aceb4c42e0c/adafruit-circuitpython-motor-3.4.8.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: Downloading https://files.pythonhosted.org/packages/49/d2/77f2e45dba4cbaa5b56189eb112777e60cf555f14c5334939d14691884a5/adafruit-circuitpython-mcp230xx-2.5.9.tar.gz
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: executing diffoscope
+[2023-05-18 17:43:18] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-mcp230xx-2.5.8.tar.gz tmp/adafruit-circuitpython-mcp230xx-2.5.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-mcp230xx/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: Downloading https://files.pythonhosted.org/packages/5d/31/b39c786437d23fbd44655bfde15318d4a977949c1883affa5dae8813e117/adafruit-circuitpython-ov7670-1.0.9.tar.gz
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: executing diffoscope
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ov7670-1.0.8.tar.gz tmp/adafruit-circuitpython-ov7670-1.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-ov7670/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-lsm6ds]: Start processing: 21cmFAST
+[2023-05-18 17:43:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-lsm6ds]: success
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-motor]: Downloading https://files.pythonhosted.org/packages/1a/fc/3df3b749af94ca2db116fd9cf810af3faa73fe65e46b5e7fb770d58ca990/adafruit-circuitpython-motor-3.4.9.tar.gz
+[2023-05-18 17:43:19] INFO root fetch - processPackages [21cmFAST]: New version: [3.2.0] Old Version: [3.1.5]
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-motor]: executing diffoscope
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-motor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-motor-3.4.8.tar.gz tmp/adafruit-circuitpython-motor-3.4.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-motor/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:19] INFO root fetch - processPackages [21cmFAST]: Downloading https://files.pythonhosted.org/packages/bd/0e/b18fa777ed207c9954ecd170430096765b8877755db390483e48bad355fc/21cmFAST-3.1.5.tar.gz
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Start processing: adafruit-circuitpython-pca9685
+[2023-05-18 17:43:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-magtag]: success
+[2023-05-18 17:43:19] INFO root fetch - processPackages [longPolling]: Start processing: adafruit-circuitpython-pcf8591
+[2023-05-18 17:43:19] INFO root fetch - main [MainThread]: End processing [longPolling]: success
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-05-18 17:43:19] INFO root fetch - processPackages [adafruit-circuitpython-matrixportal]: Start processing: adafruit-circuitpython-requests
+[2023-05-18 17:43:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-matrixportal]: success
+[2023-05-18 17:43:20] INFO root fetch - processPackages [longPolling]: Start processing: sihnpy
+[2023-05-18 17:43:20] INFO root fetch - main [MainThread]: End processing [longPolling]: success
+[2023-05-18 17:43:20] INFO root fetch - processPackages [sihnpy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 17:43:20] INFO root fetch - processPackages [sihnpy]: Downloading https://files.pythonhosted.org/packages/f8/65/fec38bcd256e37068bf71be651ebf4156c91187bc4bb114e784137a7d9ae/sihnpy-0.3.0.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 17:43:20] WARNING root fetch - processPackages [sihnpy]: Skipping package: exceeds size limit 19561995>=10485760
+[2023-05-18 17:43:20] INFO root fetch - processPackages [sihnpy]: Start processing: riptable
+[2023-05-18 17:43:20] INFO root fetch - main [MainThread]: End processing [sihnpy] error
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: Downloading https://files.pythonhosted.org/packages/89/af/47a807e32aef1b428ee594be9ab6287b2bc03dddaa8dc5940bd44ce53461/adafruit-circuitpython-pca9685-3.4.8.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [domolibrary]: Start processing: bk7231tools
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: Downloading https://files.pythonhosted.org/packages/e9/d6/e03441a7f99ebf2e7587e74d78cde9945ed6e033e8f0e8641706494da4ea/adafruit-circuitpython-pcf8591-1.0.8.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-18 17:43:20] INFO root fetch - processPackages [riptable]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/7a/75/13bbc3c50d643889515b78c9cfc95eb47995df7538459e99fcaad3e95009/adafruit-circuitpython-requests-1.9.8.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [bk7231tools]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-led-animation]: Start processing: adafruit-circuitpython-rfm69
+[2023-05-18 17:43:20] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-led-animation]: success
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: Downloading https://files.pythonhosted.org/packages/8d/06/225d209f2531b7d47777b04e2517f0c89c99c78a4be27bca3bdd388f7a86/adafruit-circuitpython-pca9685-3.4.9.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [riptable]: Downloading https://files.pythonhosted.org/packages/ca/a8/74b804647a72c61b218144655cde8d1a4b3d2bcf804c319d7a3df8cc0033/riptable-1.7.0.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/a0/0b/413eb4417ae990eb0822830f84f4060bd05b75f51e0ea489915839cceb0e/adafruit-circuitpython-requests-1.9.9.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [bk7231tools]: Downloading https://files.pythonhosted.org/packages/f4/69/46725d892cd665ba223e076cee179dd4c451f958964820108193eb581ed1/bk7231tools-1.3.5.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pca9685-3.4.8.tar.gz tmp/adafruit-circuitpython-pca9685-3.4.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-pca9685/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Downloading https://files.pythonhosted.org/packages/83/50/96d2c9bb8fc2de988a1b18b83b412dfe1ca765a4ea6622752292b1848617/adafruit-circuitpython-rfm69-2.1.8.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-requests-1.9.8.tar.gz tmp/adafruit-circuitpython-requests-1.9.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-requests/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: Downloading https://files.pythonhosted.org/packages/03/20/12a54e6b99714f8740c1e38a6733a9d5651def01af450802465cb077627d/adafruit-circuitpython-pcf8591-1.0.9.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pcf8591-1.0.8.tar.gz tmp/adafruit-circuitpython-pcf8591-1.0.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-pcf8591/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:20] INFO root fetch - processPackages [riptable]: Downloading https://files.pythonhosted.org/packages/cc/87/5aa6fb7c2bbb2882a1aa453f58ec4a25d045c097d9eede40fdfbd898d932/riptable-1.8.0.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [bk7231tools]: Downloading https://files.pythonhosted.org/packages/a6/fd/ae567517f7544f728df0ba3f2b0f210bd8e83e9af3d7c76b178536abb04b/bk7231tools-1.3.6.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [21cmFAST]: Downloading https://files.pythonhosted.org/packages/5a/72/81b2e98570bd150c692ddffa927f5b61a994df4ee7f9ef9b9c80de050b69/21cmFAST-3.2.0.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Downloading https://files.pythonhosted.org/packages/ca/21/2d9b88db931a4d9ed46b3bdebfa1a0b14d848ddf0632f2e3461370685268/adafruit-circuitpython-rfm69-2.1.9.tar.gz
+[2023-05-18 17:43:20] INFO root fetch - processPackages [bk7231tools]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [bk7231tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk7231tools-1.3.5.tar.gz tmp/bk7231tools-1.3.6.tar.gz --markdown 20230518/b/bk7231tools/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-rfm69-2.1.8.tar.gz tmp/adafruit-circuitpython-rfm69-2.1.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-rfm69/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:20] INFO root fetch - processPackages [riptable]: executing diffoscope
+[2023-05-18 17:43:20] INFO root fetch - processPackages [riptable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptable-1.7.0.tar.gz tmp/riptable-1.8.0.tar.gz --markdown 20230518/r/riptable/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-18 17:43:21] INFO root fetch - processPackages [21cmFAST]: executing diffoscope
+[2023-05-18 17:43:21] INFO root fetch - processPackages [21cmFAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/21cmFAST-3.1.5.tar.gz tmp/21cmFAST-3.2.0.tar.gz --markdown 20230518/2/21cmFAST/3.1.5-3.2.0/diff.md --exclude *.pyd
+[2023-05-18 17:43:21] INFO root fetch - processPackages [adafruit-circuitpython-ov7670]: Start processing: adafruit-circuitpython-sd
+[2023-05-18 17:43:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ov7670]: success
+[2023-05-18 17:43:21] INFO root fetch - processPackages [adafruit-circuitpython-mcp230xx]: Start processing: obrpy
+[2023-05-18 17:43:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-mcp230xx]: success
+[2023-05-18 17:43:21] INFO root fetch - processPackages [obrpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 17:43:21] INFO root fetch - processPackages [adafruit-circuitpython-motor]: Start processing: gpt4all
+[2023-05-18 17:43:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-motor]: success
+[2023-05-18 17:43:21] INFO root fetch - processPackages [gpt4all]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 17:43:21] INFO root fetch - processPackages [adafruit-circuitpython-pca9685]: Start processing: adafruit-circuitpython-seesaw
+[2023-05-18 17:43:21] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pca9685]: success
+[2023-05-18 17:43:22] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-18 17:43:22] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.7.tar.gz tmp/obrpy-0.0.8.tar.gz --markdown 20230518/o/obrpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sd]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sd]: Downloading https://files.pythonhosted.org/packages/f4/eb/51661e7e2ba9fdf6b16923b7c44084c1d8d07f928033f83c2c83b85f6158/adafruit-circuitpython-sd-3.3.8.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Downloading https://files.pythonhosted.org/packages/58/82/580382c9dc55d82dc0ac9937a58a41e31bcd764577f7a3d52eeeb9dfbac4/adafruit-circuitpython-seesaw-1.9.1.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-18 17:43:22] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.2.1-py3-none-win_amd64.whl.zip tmp/gpt4all-0.2.2-py3-none-win_amd64.whl.zip --markdown 20230518/g/gpt4all/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-pcf8591]: Start processing: adafruit-circuitpython-si7021
+[2023-05-18 17:43:22] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pcf8591]: success
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Start processing: adafruit-circuitpython-sharpmemorydisplay
+[2023-05-18 17:43:22] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-rfm69]: success
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: New version: [4.1.8] Old Version: [4.1.7]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [bk7231tools]: Start processing: adafruit-circuitpython-ssd1675
+[2023-05-18 17:43:22] INFO root fetch - main [MainThread]: End processing [bk7231tools]: success
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Downloading https://files.pythonhosted.org/packages/3a/ad/107102a28b146570ef64147aede7a1b2604b597cbbbe9964b99f43667ffb/adafruit-circuitpython-seesaw-1.9.2.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: executing diffoscope
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-seesaw-1.9.1.tar.gz tmp/adafruit-circuitpython-seesaw-1.9.2.tar.gz --markdown 20230518/a/adafruit-circuitpython-seesaw/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Start processing: adafruit-circuitpython-spd1656
+[2023-05-18 17:43:22] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Downloading https://files.pythonhosted.org/packages/55/26/9e75c57475fef907107641c4dc4433f77910c5f056aa751da23d27223ffa/adafruit-circuitpython-si7021-4.1.7.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: Downloading https://files.pythonhosted.org/packages/64/dd/ff67ce2afb08e680a9ec439fac3b0f94bf0c6358f01ac0085262b0d9cda8/adafruit-circuitpython-sharpmemorydisplay-1.4.7.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sd]: Downloading https://files.pythonhosted.org/packages/d9/74/d972f3e4cf16b001da9d36227df7f7c9af2f2bcb115ab9ad1b3f8561d3fb/adafruit-circuitpython-sd-3.3.9.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sd]: executing diffoscope
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-sd-3.3.8.tar.gz tmp/adafruit-circuitpython-sd-3.3.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-sd/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: Downloading https://files.pythonhosted.org/packages/78/5d/0d58c6d81192536f218b4df7b170a1b1c902977f6ba76f12a4ec3da3f1d8/adafruit-circuitpython-ssd1675-1.2.0.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Downloading https://files.pythonhosted.org/packages/90/74/aaae269c743801a37ed8e727ea9756f589a22277f860d4b53940f7c2178d/adafruit-circuitpython-si7021-4.1.8.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: Downloading https://files.pythonhosted.org/packages/ff/43/91af33548cc2857acd405b439ff9852ae7bb3bbebf3fe10b9304ce97d053/adafruit-circuitpython-spd1656-0.8.2.tar.gz
+[2023-05-18 17:43:22] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: Downloading https://files.pythonhosted.org/packages/f4/f7/d5c76b6ffe971aba5dd156c74b683f73c29a2969f7f6e5620c23d18320d3/adafruit-circuitpython-sharpmemorydisplay-1.4.8.tar.gz
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: executing diffoscope
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-si7021-4.1.7.tar.gz tmp/adafruit-circuitpython-si7021-4.1.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-si7021/4.1.7-4.1.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: Downloading https://files.pythonhosted.org/packages/c7/2e/f40912cef28d6b0877a0f969b2fa407f7f85b0d7b1279f7a18fbf4180f1e/adafruit-circuitpython-ssd1675-1.2.1.tar.gz
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: executing diffoscope
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-sharpmemorydisplay-1.4.7.tar.gz tmp/adafruit-circuitpython-sharpmemorydisplay-1.4.8.tar.gz --markdown 20230518/a/adafruit-circuitpython-sharpmemorydisplay/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-05-18 17:43:23] INFO root fetch - processPackages [obrpy]: Start processing: arclet-alconna
+[2023-05-18 17:43:23] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: executing diffoscope
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1675-1.2.0.tar.gz tmp/adafruit-circuitpython-ssd1675-1.2.1.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1675/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: Downloading https://files.pythonhosted.org/packages/aa/ab/1d84f375fd491f7c0cfdfd05040463e9cbb49405ca87b0de22dd05553380/adafruit-circuitpython-spd1656-0.8.3.tar.gz
+[2023-05-18 17:43:23] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: executing diffoscope
+[2023-05-18 17:43:23] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-spd1656-0.8.2.tar.gz tmp/adafruit-circuitpython-spd1656-0.8.3.tar.gz --markdown 20230518/a/adafruit-circuitpython-spd1656/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:23] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/f0/55/9202a1ab4c826e68b0b215006775af0d48683b99870a47e33628d4199e91/arclet-alconna-1.7.2.tar.gz
+[2023-05-18 17:43:23] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/17/88/f9936624042a7b5767a70644b95fd8f727aa1a8f85a399a10537961c47e9/arclet-alconna-1.7.3.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-05-18 17:43:24] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.2.tar.gz tmp/arclet-alconna-1.7.3.tar.gz --markdown 20230518/a/arclet-alconna/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-seesaw]: Start processing: adafruit-circuitpython-ssd1681
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-seesaw]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: Downloading https://files.pythonhosted.org/packages/6a/24/407fb63503f9ec3c3a6a2aaef1ef63535235b625f70c1a8c1417e52de883/adafruit-circuitpython-ssd1681-1.0.9.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [21cmFAST]: Start processing: adafruit-circuitpython-ssd1680
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [21cmFAST]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-sd]: Start processing: adafruit-circuitpython-st7735r
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-sd]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-st7735r]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: Downloading https://files.pythonhosted.org/packages/cf/1a/912d663af54bae7daabe2f33aaef8cff121bdab1a344cdeb54bedb2d1c4a/adafruit-circuitpython-ssd1681-1.1.0.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-sharpmemorydisplay]: Start processing: gdptools-pygeoapi-plugin
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-sharpmemorydisplay]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: Downloading https://files.pythonhosted.org/packages/1e/c0/e29842c60a56dbda9f03c6af102f8158678a6dc3647f3ada8ec7f4f8f0d9/adafruit-circuitpython-ssd1680-1.1.0.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: executing diffoscope
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1681-1.0.9.tar.gz tmp/adafruit-circuitpython-ssd1681-1.1.0.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1681/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-st7735r]: Downloading https://files.pythonhosted.org/packages/10/d6/261185497fe7e12ec4edf961de7c43530432e47d644093b3c1d4d79898b6/adafruit-circuitpython-st7735r-1.5.8.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: New version: [0.0.7.dev0] Old Version: [0.0.6.dev0]
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: Start processing: adafruit-circuitpython-tinylora
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1675]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: Downloading https://files.pythonhosted.org/packages/d6/92/5406bfc025c26d2be2486e55cc4d3a762fcbd2929c1cae2670ae40539b6d/adafruit-circuitpython-ssd1680-1.1.1.tar.gz
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-si7021]: Start processing: adafruit-circuitpython-st7789
+[2023-05-18 17:43:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-si7021]: success
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-18 17:43:24] INFO root fetch - processPackages [adafruit-circuitpython-st7735r]: Downloading https://files.pythonhosted.org/packages/0c/07/529b716ce27969d0dc9add867b0248ae37bba979a523b6a418d939d50539/adafruit-circuitpython-st7735r-1.5.9.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7789]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-spd1656]: Start processing: alia
+[2023-05-18 17:43:25] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-spd1656]: success
+[2023-05-18 17:43:25] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Downloading https://files.pythonhosted.org/packages/68/24/f52f764ba942d5c87c7aad6f18c11ebea761b2a86ca42943993ba8ba6d7f/gdptools_pygeoapi_plugin-0.0.6.dev0.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1680-1.1.0.tar.gz tmp/adafruit-circuitpython-ssd1680-1.1.1.tar.gz --markdown 20230518/a/adafruit-circuitpython-ssd1680/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [alia]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7735r]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7735r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-st7735r-1.5.8.tar.gz tmp/adafruit-circuitpython-st7735r-1.5.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-st7735r/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: Downloading https://files.pythonhosted.org/packages/47/29/4ac97a8c06cb459b1ef91272137b2596db23b78fc338fa10158e5e41a391/adafruit-circuitpython-tinylora-2.2.8.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7789]: Downloading https://files.pythonhosted.org/packages/60/57/a749e4552d5dd2b75b366e37a3508b23c6da0c3f65f440621838d780f231/adafruit-circuitpython-st7789-1.5.8.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [alia]: Downloading https://files.pythonhosted.org/packages/f5/73/b9a33fdbd5137d546727aad556fd016b40ce27c695ee0d27fe7e3edd069f/alia-0.2.1.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: Downloading https://files.pythonhosted.org/packages/e5/79/e2b8ddaaca4c950f69ce875ccb431d18cbadc54bbf14fd238939060a404d/gdptools_pygeoapi_plugin-0.0.7.dev0.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7789]: Downloading https://files.pythonhosted.org/packages/21/1a/c5e9114ff032f0955939fae9c1ad4ee3334fd5fcbfba264cb81e8ad8c420/adafruit-circuitpython-st7789-1.5.9.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [gdptools-pygeoapi-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdptools_pygeoapi_plugin-0.0.6.dev0.tar.gz tmp/gdptools_pygeoapi_plugin-0.0.7.dev0.tar.gz --markdown 20230518/g/gdptools-pygeoapi-plugin/0.0.6.dev0-0.0.7.dev0/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [arclet-alconna]: Start processing: adafruit-circuitpython-tmp117
+[2023-05-18 17:43:25] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-05-18 17:43:25] INFO root fetch - processPackages [alia]: Downloading https://files.pythonhosted.org/packages/8d/9b/f6ce0d4eed649677f9e56cc15a6312389a87b53c931301a5b4a3509d564e/alia-0.2.2.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [alia]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tmp117]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-18 17:43:25] INFO root fetch - processPackages [alia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alia-0.2.1.tar.gz tmp/alia-0.2.2.tar.gz --markdown 20230518/a/alia/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7789]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-st7789]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-st7789-1.5.8.tar.gz tmp/adafruit-circuitpython-st7789-1.5.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-st7789/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: Downloading https://files.pythonhosted.org/packages/e8/46/5a06e05d88f1dfa0a19390d2d2c3cb0eedbaae3f0979cc26821e26cc54a2/adafruit-circuitpython-tinylora-2.2.9.tar.gz
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: executing diffoscope
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tinylora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tinylora-2.2.8.tar.gz tmp/adafruit-circuitpython-tinylora-2.2.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tinylora/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:25] INFO root fetch - processPackages [adafruit-circuitpython-tmp117]: Downloading https://files.pythonhosted.org/packages/2f/98/cc4bc0ac6cad79a994a27ec2ff999752a1605ab1f64a7b3421a5282b1d21/adafruit-circuitpython-tmp117-1.1.8.tar.gz
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-tmp117]: Downloading https://files.pythonhosted.org/packages/be/53/80d77d75081a24d4e31239052e5eafbdb53d0d35abf4cb3ae9d71db0f388/adafruit-circuitpython-tmp117-1.1.9.tar.gz
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-tmp117]: executing diffoscope
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-tmp117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tmp117-1.1.8.tar.gz tmp/adafruit-circuitpython-tmp117-1.1.9.tar.gz --markdown 20230518/a/adafruit-circuitpython-tmp117/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-ssd1681]: Start processing: adafruit-circuitpython-typing
+[2023-05-18 17:43:26] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1681]: success
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-typing]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-18 17:43:26] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1680]: success
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-typing]: Downloading https://files.pythonhosted.org/packages/e1/cf/030ab10f3aff916679ac459eacff4280d345f709edd904caa55ec2a40d9e/adafruit-circuitpython-typing-1.9.2.tar.gz
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-typing]: Downloading https://files.pythonhosted.org/packages/d0/63/8abb1b61f18ac137deccd8c1225b90911ad9703a5b5f2740d9a27315a429/adafruit-circuitpython-typing-1.9.3.tar.gz
+[2023-05-18 17:43:26] INFO root fetch - main [MainThread]: End processing [alia]: success
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-typing]: executing diffoscope
+[2023-05-18 17:43:26] INFO root fetch - processPackages [adafruit-circuitpython-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-typing-1.9.2.tar.gz tmp/adafruit-circuitpython-typing-1.9.3.tar.gz --markdown 20230518/a/adafruit-circuitpython-typing/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [gdptools-pygeoapi-plugin]: success
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tinylora]: success
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-st7735r]: success
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tmp117]: success
+[2023-05-18 17:43:27] INFO root fetch - main [MainThread]: End processing [riptable]: success
+[2023-05-18 17:43:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-st7789]: success
+[2023-05-18 17:43:28] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-typing]: success
+[2023-05-18 17:43:28] INFO root fetch - main [MainThread]: Store serial: [18156459]
