@@ -18141,3 +18141,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:03:29] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2023-05-18 17:03:29] INFO root fetch - main [MainThread]: End processing [quickstart-rhy]: success
 [2023-05-18 17:03:29] INFO root fetch - main [MainThread]: Store serial: [18155681]
+[2023-05-18 17:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155681]
+[2023-05-18 17:08:41] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IPRA
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat-enm
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qosd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pararamio
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anaml-client
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sysmon2df
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-text-nightly
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simplebox
+[2023-05-18 17:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-maintenance
+[2023-05-18 17:08:41] INFO root fetch - processPackages [IPRA]: New version: [3.17.49] Old Version: [3.17.48]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [qosd]: New version: [20230518] Old Version: [20230516]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [pararamio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [anaml-client]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a149] Old Version: [0.0.1a148]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [coiled]: New version: [0.6.5.dev9] Old Version: [0.6.5.dev7]
+[2023-05-18 17:08:41] WARNING root fetch - processPackages [sysmon2df]: Skipping, unable to determine old version
+[2023-05-18 17:08:41] INFO root fetch - processPackages [sysmon2df]: Start processing: manim-course-utils
+[2023-05-18 17:08:41] INFO root fetch - main [MainThread]: End processing [sysmon2df] error
+[2023-05-18 17:08:41] INFO root fetch - processPackages [mat-enm]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [manim-course-utils]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230518] Old Version: [2.14.0.dev20230517]
+[2023-05-18 17:08:41] INFO root fetch - processPackages [qosd]: Downloading https://files.pythonhosted.org/packages/24/97/ff00bf541ff766c0ae3f6c74b092f8ed3b9b9f18b7bcd5e1555a0fa6af23/qosd-20230516.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/e9/f8/acf87ef85411b2946b64beb75a3fa3c7cf3984257c3e51e91760cb7fb133/pararamio-1.0.8.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [anaml-client]: Downloading https://files.pythonhosted.org/packages/c8/bc/0faf2a5869f209c6630bcbdcb14b1eae1e100c06b5b4570aaaeeb7b7d775/anaml-client-0.8.0.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/1e/8e/cc5833b9653a1238e0eea8322f7ce80289c9dee118473b15d7e846f378a3/netbox-cisco-maintenance-0.0.4.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/85/63/dd5318e354e98929eaf62c565a59a1330514bee7fc0ae75271d89d6bb83a/simplebox-0.0.1a148-py3-none-any.whl
+[2023-05-18 17:08:41] INFO root fetch - processPackages [manim-course-utils]: Downloading https://files.pythonhosted.org/packages/2e/ba/5caac3f778427f6e6d109cca3339bf434eae8762409cc015c783d1db370e/manim_course_utils-0.8.0.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/dd/dc/7798ff7bf202ce7a37ed3ad620449752d44ce16b5d935a8acdaa9eb89ec8/mat_enm-0.0.7.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/e6/2d/e52789fc14be1ee26eb063402923c67d61937e80fab5ed84257837cb25c2/tensorflow_text_nightly-2.14.0.dev20230517-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 17:08:41] INFO root fetch - processPackages [manim-course-utils]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [manim-course-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_course_utils-0.7.0.tar.gz tmp/manim_course_utils-0.8.0.tar.gz --markdown 20230518/m/manim-course-utils/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [IPRA]: Downloading https://files.pythonhosted.org/packages/0d/79/d3126ca037e834e9a29b162cfa401463a61af6a8403c901ef48d5547b371/IPRA-3.17.49-py3-none-any.whl
+[2023-05-18 17:08:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.3.tar.gz tmp/netbox-cisco-maintenance-0.0.4.tar.gz --markdown 20230518/n/netbox-cisco-maintenance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [qosd]: Downloading https://files.pythonhosted.org/packages/ef/ec/4af94d70998d8d78862a5de21beb4803a7f72538d16d53d05a349c479a9d/qosd-20230518.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [pararamio]: Downloading https://files.pythonhosted.org/packages/5b/70/102908b952b358379e28a352f136f20fc1dea203df8f1a19d41c8426d64b/pararamio-1.0.9.tar.gz
+[2023-05-18 17:08:41] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev7.tar.gz tmp/coiled-0.6.5.dev9.tar.gz --markdown 20230518/c/coiled/0.6.5.dev7-0.6.5.dev9/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [mat-enm]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [mat-enm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_enm-0.0.5.tar.gz tmp/mat_enm-0.0.7.tar.gz --markdown 20230518/m/mat-enm/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/2a/a3/ee6c8ee78e49196d312b2705660253d027189d915e454ebed4a618e3e130/simplebox-0.0.1a149-py3-none-any.whl
+[2023-05-18 17:08:41] INFO root fetch - processPackages [IPRA]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [IPRA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPRA-3.17.48-py3-none-any.whl.zip tmp/IPRA-3.17.49-py3-none-any.whl.zip --markdown 20230518/I/IPRA/3.17.48-3.17.49/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [qosd]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [qosd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qosd-20230516.tar.gz tmp/qosd-20230518.tar.gz --markdown 20230518/q/qosd/20230516-20230518/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [pararamio]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [pararamio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pararamio-1.0.8.tar.gz tmp/pararamio-1.0.9.tar.gz --markdown 20230518/p/pararamio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-18 17:08:41] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a148-py3-none-any.whl.zip tmp/simplebox-0.0.1a149-py3-none-any.whl.zip --markdown 20230518/s/simplebox/0.0.1a148-0.0.1a149/diff.md --exclude *.pyd
+[2023-05-18 17:08:41] INFO root fetch - processPackages [anaml-client]: Downloading https://files.pythonhosted.org/packages/c1/b7/cf707126b04a65b169ecd4d213f0d66a00d8d3749a868c43ba56fec8d0ee/anaml-client-0.9.0.tar.gz
+[2023-05-18 17:08:42] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/8c/db/a08818dfa90bf50af64ba328cd4f495c8920d79114cc65e3f3bc2a1f0217/tensorflow_text_nightly-2.14.0.dev20230518-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 17:08:42] INFO root fetch - processPackages [anaml-client]: executing diffoscope
+[2023-05-18 17:08:42] INFO root fetch - processPackages [anaml-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaml-client-0.8.0.tar.gz tmp/anaml-client-0.9.0.tar.gz --markdown 20230518/a/anaml-client/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [manim-course-utils]: Start processing: race-report-by-ng
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [manim-course-utils]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [race-report-by-ng]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230517-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230518-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/t/tensorflow-text-nightly/2.14.0.dev20230517-2.14.0.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [race-report-by-ng]: Downloading https://files.pythonhosted.org/packages/48/16/b35559e032c63066976047ea57aa96cdb69ecc5482aacad8ca1936216a6d/race_report_by_ng-1.0.0.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: osm-fieldwork
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [mat-enm]: Start processing: pycanon
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [mat-enm]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.3.1rc1] Old Version: [0.3.1rc0]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [pycanon]: New version: [1.0.1.post1] Old Version: [1.0.1]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [qosd]: Start processing: ipywardley
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [qosd]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [ipywardley]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [race-report-by-ng]: Downloading https://files.pythonhosted.org/packages/07/af/805299738ba7f60ba3acfc29b89b009d7fb6357cb22eef6b5fc26a7f53ea/race_report_by_ng-1.0.1.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/87/c0/dfe50f9475fce224595ff9da06de31ea68147ab5baf2bb97a98c95a09d7e/osm-fieldwork-0.3.1rc0.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [ipywardley]: Downloading https://files.pythonhosted.org/packages/62/bb/3c3f29c4b9a77879bb88948eca1780d2af0de79e9929587d968f45038e13/ipywardley-0.0.4.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [race-report-by-ng]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [race-report-by-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/race_report_by_ng-1.0.0.tar.gz tmp/race_report_by_ng-1.0.1.tar.gz --markdown 20230518/r/race-report-by-ng/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [IPRA]: Start processing: netbox-lifecycle
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [IPRA]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [coiled]: Start processing: extr
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [pararamio]: Start processing: mat-enm
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [pararamio]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [netbox-lifecycle]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [mat-enm]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [pycanon]: Downloading https://files.pythonhosted.org/packages/8c/18/fd9daf8b68a536cae05846a6ee8aae518c0afb974cce6bfc34cb8369cffa/pycanon-1.0.1.post1.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/32/d9/4706a3fcf0f1d9c15c6502416eb94e9a748ec75f5220ac431981fdf18103/osm-fieldwork-0.3.1rc1.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [netbox-lifecycle]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [netbox-lifecycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-lifecycle-1.0.0b1.tar.gz tmp/netbox-lifecycle-1.0.0b2.tar.gz --markdown 20230518/n/netbox-lifecycle/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 17:08:43] INFO root fetch - processPackages [pycanon]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [pycanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanon-1.0.1.tar.gz tmp/pycanon-1.0.1.post1.tar.gz --markdown 20230518/p/pycanon/1.0.1-1.0.1.post1/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [ipywardley]: Downloading https://files.pythonhosted.org/packages/fa/20/c1a985b3cd62ad28adf83225c54cc93a236c70401f98484db47d801b931f/ipywardley-0.0.5.tar.gz
+[2023-05-18 17:08:43] INFO root fetch - processPackages [simplebox]: Start processing: wallaroo
+[2023-05-18 17:08:43] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-18 17:08:43] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.3.1rc0.tar.gz tmp/osm-fieldwork-0.3.1rc1.tar.gz --markdown 20230518/o/osm-fieldwork/0.3.1rc0-0.3.1rc1/diff.md --exclude *.pyd
+[2023-05-18 17:08:43] INFO root fetch - processPackages [ipywardley]: executing diffoscope
+[2023-05-18 17:08:43] INFO root fetch - processPackages [ipywardley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywardley-0.0.4.tar.gz tmp/ipywardley-0.0.5.tar.gz --markdown 20230518/i/ipywardley/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 17:08:44] INFO root fetch - processPackages [mat-enm]: Downloading https://files.pythonhosted.org/packages/4b/e2/8a3962636112e4183c8312503de9f01294eb3177867023d90eb92d84722b/mat_enm-0.0.8.tar.gz
+[2023-05-18 17:08:44] INFO root fetch - processPackages [wallaroo]: New version: [2023.2.0rc4] Old Version: [2023.2.0rc3]
+[2023-05-18 17:08:44] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-18 17:08:44] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230518/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:08:44] INFO root fetch - processPackages [wallaroo]: Downloading https://files.pythonhosted.org/packages/8d/db/3d754c22b2c8f969449dc574402582c252de577acae31c8d9a9a6a322a5c/wallaroo-2023.2.0rc3-py3-none-any.whl
+[2023-05-18 17:08:44] INFO root fetch - processPackages [mat-enm]: executing diffoscope
+[2023-05-18 17:08:44] INFO root fetch - processPackages [mat-enm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat_enm-0.0.7.tar.gz tmp/mat_enm-0.0.8.tar.gz --markdown 20230518/m/mat-enm/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 17:08:44] INFO root fetch - processPackages [wallaroo]: Downloading https://files.pythonhosted.org/packages/1c/22/3a9a6d021303e71e96a8a537a758f9d9fe68694caac9b62c0f2209d0452c/wallaroo-2023.2.0rc4-py3-none-any.whl
+[2023-05-18 17:08:44] INFO root fetch - processPackages [race-report-by-ng]: Start processing: pe-configurator
+[2023-05-18 17:08:44] INFO root fetch - main [MainThread]: End processing [race-report-by-ng]: success
+[2023-05-18 17:08:44] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-18 17:08:45] INFO root fetch - processPackages [wallaroo]: executing diffoscope
+[2023-05-18 17:08:45] INFO root fetch - processPackages [wallaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallaroo-2023.2.0rc3-py3-none-any.whl.zip tmp/wallaroo-2023.2.0rc4-py3-none-any.whl.zip --markdown 20230518/w/wallaroo/2023.2.0rc3-2023.2.0rc4/diff.md --exclude *.pyd
+[2023-05-18 17:08:45] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/2a/92/fa52440a536df2d62a717536fe2b1b5a376325069ce062e56f7caa2f3630/pe-configurator-0.1.8.tar.gz
+[2023-05-18 17:08:45] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-05-18 17:08:45] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.7.tar.gz tmp/pe-configurator-0.1.8.tar.gz --markdown 20230518/p/pe-configurator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-18 17:08:45] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-18 17:08:45] INFO root fetch - main [MainThread]: End processing [mat-enm]: success
+[2023-05-18 17:08:45] INFO root fetch - main [MainThread]: End processing [pycanon]: success
+[2023-05-18 17:08:45] INFO root fetch - main [MainThread]: End processing [netbox-lifecycle]: success
+[2023-05-18 17:08:46] INFO root fetch - main [MainThread]: End processing [anaml-client]: success
+[2023-05-18 17:08:46] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-05-18 17:08:46] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-05-18 17:08:48] INFO root fetch - main [MainThread]: End processing [ipywardley]: success
+[2023-05-18 17:08:49] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2023-05-18 17:08:55] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
+[2023-05-18 17:08:55] INFO root fetch - main [MainThread]: Store serial: [18155752]
