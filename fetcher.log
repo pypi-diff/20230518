@@ -6147,3 +6147,35 @@
 [2023-05-18 06:12:31] INFO root fetch - main [MainThread]: End processing [echolocator]: success
 [2023-05-18 06:12:31] INFO root fetch - main [MainThread]: End processing [odoo8-addon-delivery-carrier-label-gls]: success
 [2023-05-18 06:12:31] INFO root fetch - main [MainThread]: Store serial: [18149225]
+[2023-05-18 06:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149225]
+[2023-05-18 06:17:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 06:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Slpapy
+[2023-05-18 06:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Zeraora
+[2023-05-18 06:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: converge-load-forecasting
+[2023-05-18 06:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gtirb-rewriting
+[2023-05-18 06:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-das
+[2023-05-18 06:17:39] INFO root fetch - processPackages [gtirb-rewriting]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 06:17:39] INFO root fetch - processPackages [Slpapy]: New version: [0.3.17] Old Version: [0.3.16]
+[2023-05-18 06:17:39] INFO root fetch - processPackages [Zeraora]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 06:17:39] WARNING root fetch - processPackages [converge-load-forecasting]: Skipping, unable to determine old version
+[2023-05-18 06:17:39] INFO root fetch - main [MainThread]: End processing [converge-load-forecasting] error
+[2023-05-18 06:17:39] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.50]
+[2023-05-18 06:17:39] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-05-18 06:17:39] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.8.tar.gz tmp/Zeraora-0.2.9.tar.gz --markdown 20230518/Z/Zeraora/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 06:17:39] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/6a/12/02825d6653caf233a5c75be515b234743aa27a18b76d5112a4a61c7ed6fe/Slpapy-0.3.16.tar.gz
+[2023-05-18 06:17:39] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/a6/8a/401bbdd35cd199a116cbbb07935dfc0342cee37a920c4efe543ba37af147/antchain_das-1.1.50.tar.gz
+[2023-05-18 06:17:40] INFO root fetch - processPackages [gtirb-rewriting]: Downloading https://files.pythonhosted.org/packages/3d/95/3f19312dc53306e423db4f3c79f258a72b9fc81e4189fe8a3d99e61792ca/gtirb_rewriting-0.1.1-py3-none-any.whl
+[2023-05-18 06:17:40] INFO root fetch - processPackages [Slpapy]: Downloading https://files.pythonhosted.org/packages/97/64/1b3c65471958382249c48ea138beea03aade409be6c241c58c440149df66/Slpapy-0.3.17.tar.gz
+[2023-05-18 06:17:40] INFO root fetch - processPackages [gtirb-rewriting]: Downloading https://files.pythonhosted.org/packages/c7/27/ce9ebc78cf154fe0eb5992de525c22f0569362515db2fcb67df59a376905/gtirb_rewriting-0.1.2-py3-none-any.whl
+[2023-05-18 06:17:40] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-18 06:17:40] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-05-18 06:17:40] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.16.tar.gz tmp/Slpapy-0.3.17.tar.gz --markdown 20230518/S/Slpapy/0.3.16-0.3.17/diff.md --exclude *.pyd
+[2023-05-18 06:17:40] INFO root fetch - processPackages [gtirb-rewriting]: executing diffoscope
+[2023-05-18 06:17:40] INFO root fetch - processPackages [gtirb-rewriting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtirb_rewriting-0.1.1-py3-none-any.whl.zip tmp/gtirb_rewriting-0.1.2-py3-none-any.whl.zip --markdown 20230518/g/gtirb-rewriting/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 06:17:40] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-05-18 06:17:40] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.50.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230518/a/antchain-das/1.1.50-1.1.6/diff.md --exclude *.pyd
+[2023-05-18 06:17:40] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-05-18 06:17:41] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-18 06:17:41] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-05-18 06:17:41] INFO root fetch - main [MainThread]: End processing [gtirb-rewriting]: success
+[2023-05-18 06:17:41] INFO root fetch - main [MainThread]: Store serial: [18149241]
