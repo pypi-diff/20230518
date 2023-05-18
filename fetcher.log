@@ -21523,3 +21523,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 19:06:32] INFO root fetch - main [MainThread]: End processing [jupyter-manager]: success
 [2023-05-18 19:06:35] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-05-18 19:06:35] INFO root fetch - main [MainThread]: Store serial: [18157579]
+[2023-05-18 19:11:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157579]
+[2023-05-18 19:11:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-ape
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iloscar-win
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PatryksAutoAI
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plaid-python
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Orange3-Tools
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jcloud
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biometeo
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brighteyes-ism
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tendril-utils-www
+[2023-05-18 19:11:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metrics-layer
+[2023-05-18 19:11:45] INFO root fetch - processPackages [iloscar-win]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [brighteyes-ism]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [eth-ape]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-05-18 19:11:45] INFO root fetch - processPackages [plaid-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-05-18 19:11:46] INFO root fetch - processPackages [Orange3-Tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 19:11:46] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.8.tar.gz tmp/tendril-utils-www-0.2.9.tar.gz --markdown 20230518/t/tendril-utils-www/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [biometeo]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-18 19:11:46] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 19:11:46] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/37/2b/2db633eb65e756b90a999c067bd13028cb4c971c133a26e9f4728b8dd88b/iloscar-win-0.1.0.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/67/bd/a38e26f41f89e00f3dc10e217e8d85f76469e0bdccb826e323aeab8500c0/PatryksAutoAI-1.3.0.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [brighteyes-ism]: Downloading https://files.pythonhosted.org/packages/23/d8/67abe104467fdd1a37e9ac8857b9ee333a637b1bd7462f2b03284a7aab9a/brighteyes-ism-1.0.2.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/28/e4/50f6c63d4bdca16ae7556462bac3c36fe05191a2d2c5d288a171d1284ec1/plaid-python-9.8.0.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [Orange3-Tools]: Downloading https://files.pythonhosted.org/packages/4c/22/4d064119acd36ae6e15a158b0d84cf9ffc8f0aa1d16d51301b5beeacd122/Orange3-Tools-0.0.1.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [biometeo]: Downloading https://files.pythonhosted.org/packages/74/c4/2fecde7191eeed1166da173ad9281177e62684b70633f96b78e6ca5c5ad1/biometeo-0.2.3-cp39-cp39-win_amd64.whl
+[2023-05-18 19:11:46] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.2.9.tar.gz tmp/PatryksAutoAI-1.3.0.tar.gz --markdown 20230518/P/PatryksAutoAI/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [eth-ape]: Downloading https://files.pythonhosted.org/packages/8a/fb/c42cce1e99bd4c22fded116f2268b3940af53d404e2f8381c1fb3731533d/eth-ape-0.6.8.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230518/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [Orange3-Tools]: Downloading https://files.pythonhosted.org/packages/a0/e2/341d004166261b121cda2ab4ee16b3c43b7c98fbe3da1eb30496b26ce0b6/Orange3-Tools-0.0.2.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/2b/e2/cc8c3788c9fbf75c8b656c152b1f2ad5bfc935002c9f4530d2bbd6a3361b/iloscar-win-0.1.1.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [brighteyes-ism]: Downloading https://files.pythonhosted.org/packages/fb/51/c743dbd765382353b792b86b4aad3f47b4eec11dd444fc7fce63e4e7cd15/brighteyes-ism-1.1.0.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [biometeo]: Downloading https://files.pythonhosted.org/packages/1e/d0/7fab508a189666208029973b441dec05cba29d9ebb73075694bb5ca73ff8/biometeo-0.2.4-cp39-cp39-win_amd64.whl
+[2023-05-18 19:11:46] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/46/6b/fe3a5d709d398108f2f29d60802967bb5be57a563e9f7420a27ccd3da756/plaid-python-9.9.0.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [plaid-python]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [plaid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaid-python-9.8.0.tar.gz tmp/plaid-python-9.9.0.tar.gz --markdown 20230518/p/plaid-python/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230518/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [Orange3-Tools]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [Orange3-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-Tools-0.0.1.tar.gz tmp/Orange3-Tools-0.0.2.tar.gz --markdown 20230518/O/Orange3-Tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [iloscar-win]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [iloscar-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-win-0.1.0.tar.gz tmp/iloscar-win-0.1.1.tar.gz --markdown 20230518/i/iloscar-win/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [brighteyes-ism]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [brighteyes-ism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brighteyes-ism-1.0.2.tar.gz tmp/brighteyes-ism-1.1.0.tar.gz --markdown 20230518/b/brighteyes-ism/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [biometeo]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [biometeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biometeo-0.2.3-cp39-cp39-win_amd64.whl.zip tmp/biometeo-0.2.4-cp39-cp39-win_amd64.whl.zip --markdown 20230518/b/biometeo/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-18 19:11:46] INFO root fetch - processPackages [eth-ape]: Downloading https://files.pythonhosted.org/packages/db/79/5712c8c6e5d31a6f53189eb99957525f139468fd003bc798ca329e311605/eth-ape-0.6.9.tar.gz
+[2023-05-18 19:11:46] INFO root fetch - processPackages [eth-ape]: executing diffoscope
+[2023-05-18 19:11:46] INFO root fetch - processPackages [eth-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-ape-0.6.8.tar.gz tmp/eth-ape-0.6.9.tar.gz --markdown 20230518/e/eth-ape/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-18 19:11:47] INFO root fetch - processPackages [jcloud]: Start processing: pulumi-kubernetes
+[2023-05-18 19:11:47] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-18 19:11:47] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: deeplake
+[2023-05-18 19:11:47] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 19:11:48] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-18 19:11:48] INFO root fetch - main [MainThread]: End processing [biometeo]: success
+[2023-05-18 19:11:48] INFO root fetch - processPackages [deeplake]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-05-18 19:11:48] INFO root fetch - main [MainThread]: End processing [Orange3-Tools]: success
+[2023-05-18 19:11:48] INFO root fetch - main [MainThread]: End processing [iloscar-win]: success
+[2023-05-18 19:11:48] INFO root fetch - main [MainThread]: End processing [brighteyes-ism]: success
+[2023-05-18 19:11:48] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/ad/68/f9c919f42e4c87c9c8f2757a55dfe583ec6251e339146518fe60cf73569c/deeplake-3.5.1.tar.gz
+[2023-05-18 19:11:48] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-18 19:11:48] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-05-18 19:11:48] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230518/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-18 19:11:48] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-05-18 19:11:48] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.5.0.tar.gz tmp/deeplake-3.5.1.tar.gz --markdown 20230518/d/deeplake/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-05-18 19:11:50] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-05-18 19:11:52] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-05-18 19:11:52] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-18 19:11:53] INFO root fetch - main [MainThread]: End processing [eth-ape]: success
+[2023-05-18 19:12:00] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
+[2023-05-18 19:12:00] INFO root fetch - main [MainThread]: Store serial: [18157612]
