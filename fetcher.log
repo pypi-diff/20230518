@@ -7887,3 +7887,55 @@
 [2023-05-18 07:51:09] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
 [2023-05-18 07:51:11] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-05-18 07:51:11] INFO root fetch - main [MainThread]: Store serial: [18149899]
+[2023-05-18 07:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149899]
+[2023-05-18 07:56:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Lshengpackage
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-ak-68b3ee3230284cddaa19740dcaf251d8
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioinfor-tools
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-dudi-CERT-2090
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: algokit-utils
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azuread
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycelium
+[2023-05-18 07:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gluonts
+[2023-05-18 07:56:20] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: New version: [20230518.5.54.205193] Old Version: [20230517.7.41.774654]
+[2023-05-18 07:56:20] INFO root fetch - processPackages [Lshengpackage]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-18 07:56:20] INFO root fetch - processPackages [algokit-utils]: New version: [1.2.0b1] Old Version: [1.1.2b2]
+[2023-05-18 07:56:20] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 07:56:20] INFO root fetch - processPackages [bioinfor-tools]: New version: [0.2] Old Version: [0.1]
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pycelium]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 07:56:21] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-18 07:56:21] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.8.tar.gz tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.9.tar.gz --markdown 20230518/a/antchain-ak-68b3ee3230284cddaa19740dcaf251d8/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-05-18 07:56:21] INFO root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Downloading https://files.pythonhosted.org/packages/13/10/b7e32da6a1ae5396bb36e416216a46ab6d8a09e175e22a77b9a3d43626ef/certora-cli-alpha-dudi-CERT-2090-20230517.7.41.774654.tar.gz
+[2023-05-18 07:56:21] INFO root fetch - processPackages [Lshengpackage]: Downloading https://files.pythonhosted.org/packages/c8/48/7992f291898cfcfeb9f3d980f186500ce2969470b39e245d5a89d93fa4cc/Lshengpackage-0.4.1.tar.gz
+[2023-05-18 07:56:21] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/0b/33/dc6b84684bd5d9609564e33c6243c12e746e35efd221226115f7b7288869/algokit_utils-1.1.2b2-py3-none-any.whl
+[2023-05-18 07:56:21] INFO root fetch - processPackages [bioinfor-tools]: Downloading https://files.pythonhosted.org/packages/54/fc/b9bc97124dd3cfd09d9b386a1bae28fba21bd8f5e0cab7a120e80226973c/bioinfor_tools-0.1-py3-none-any.whl
+[2023-05-18 07:56:21] WARNING root fetch - processPackages [certora-cli-alpha-dudi-CERT-2090]: Skipping package: exceeds size limit 38976330>=10485760
+[2023-05-18 07:56:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dudi-CERT-2090] error
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/15/e2/ce6c8ff7b7a01d222a296e955a660d634bc2533ded5e78dd5420034a788e/pycelium-0.1.0.tar.gz
+[2023-05-18 07:56:21] INFO root fetch - processPackages [Lshengpackage]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [Lshengpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lshengpackage-0.4.0.tar.gz tmp/Lshengpackage-0.4.1.tar.gz --markdown 20230518/L/Lshengpackage/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-18 07:56:21] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/60/f7/d0ddd80a3d92edfb8f3c89386d86c59ef4105f9632ec7c2b9beed228df72/gluonts-0.9.8.tar.gz
+[2023-05-18 07:56:21] INFO root fetch - processPackages [bioinfor-tools]: Downloading https://files.pythonhosted.org/packages/39/b7/a40426cf6120d3410c002bf34c30281c42d9c0795e940aadd51f535a5c84/bioinfor_tools-0.2-py3-none-any.whl
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230518/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/92/79/17a11f0d688cc87a85c2bc38bdbbce4f166efe7c630e1c3baabd90f2b2b7/pycelium-0.1.1.linux-x86_64.tar.gz
+[2023-05-18 07:56:21] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/1b/e1/5da08fa172ad093a376943930c608a1ab0b727f62e6de69626c8453b329a/algokit_utils-1.2.0b1-py3-none-any.whl
+[2023-05-18 07:56:21] INFO root fetch - processPackages [bioinfor-tools]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [bioinfor-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioinfor_tools-0.1-py3-none-any.whl.zip tmp/bioinfor_tools-0.2-py3-none-any.whl.zip --markdown 20230518/b/bioinfor-tools/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.0.tar.gz tmp/pycelium-0.1.1.linux-x86_64.tar.gz --markdown 20230518/p/pycelium/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 07:56:21] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-18 07:56:21] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.2b2-py3-none-any.whl.zip tmp/algokit_utils-1.2.0b1-py3-none-any.whl.zip --markdown 20230518/a/algokit-utils/1.1.2b2-1.2.0b1/diff.md --exclude *.pyd
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [bioinfor-tools]: success
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: success
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [Lshengpackage]: success
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-18 07:56:22] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/f7/87/dfac0670fc583f4f815e8f67a47876c663c990e089c5d7a218bf3da607d2/gluonts-0.9.9.tar.gz
+[2023-05-18 07:56:22] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-05-18 07:56:24] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2023-05-18 07:56:24] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20230518/g/gluonts/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-18 07:56:37] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2023-05-18 07:56:37] INFO root fetch - main [MainThread]: Store serial: [18149919]
