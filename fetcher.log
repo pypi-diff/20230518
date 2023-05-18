@@ -19665,3 +19665,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 17:53:57] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2023-05-18 17:54:00] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
 [2023-05-18 17:54:00] INFO root fetch - main [MainThread]: Store serial: [18156570]
+[2023-05-18 17:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18156570]
+[2023-05-18 17:59:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Fletxible
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abqcy
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: obrpy
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apicurio-registry-python-sdk-preview
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-data
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-common
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyc3dtools
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enthought-sphinx-theme
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hordelib
+[2023-05-18 17:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JBPhD
+[2023-05-18 17:59:10] INFO root fetch - processPackages [Fletxible]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [obrpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [abqcy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [JBPhD]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [pyc3dtools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [enthought-sphinx-theme]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [hordelib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230518/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-18 17:59:10] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230518/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-18 17:59:10] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-05-18 17:59:10] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: executing diffoscope
+[2023-05-18 17:59:10] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apicurio_registry_python_sdk_preview-2.4.8.tar.gz tmp/apicurio_registry_python_sdk_preview-2.4.9.tar.gz --markdown 20230518/a/apicurio-registry-python-sdk-preview/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-18 17:59:10] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.0.8.tar.gz tmp/obrpy-0.0.9.tar.gz --markdown 20230518/o/obrpy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 17:59:10] INFO root fetch - processPackages [pyc3dtools]: Downloading https://files.pythonhosted.org/packages/fd/d1/fed88dd7442bad2c4dd526c5de9418b350340edac1f0cae3d1de0b4b1ebb/pyc3dtools-0.2.2.win-amd64.zip
+[2023-05-18 17:59:10] INFO root fetch - processPackages [abqcy]: Downloading https://files.pythonhosted.org/packages/a9/74/19f74713f1bdf6cec0157731a8be1832eec55a366fa925352c6a5cd533dc/abqcy-0.0.4.tar.gz
+[2023-05-18 17:59:10] INFO root fetch - processPackages [enthought-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/56/ad/4128748cfd971c70eb5876b02417228baf1cba5e7487583fffcf09f4200f/enthought_sphinx_theme-0.7.2.tar.gz
+[2023-05-18 17:59:10] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/d9/16/b4e021b9871f06ab916b60f3f6177f9924af364f392e4b839bedb3b00530/JBPhD-2.1.7.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/4b/ec/2d440e3b3da4c048eb02d30c8b1f8466efa5f1b3ef297972a23914d5b78f/hordelib-1.0.3.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [Fletxible]: Downloading https://files.pythonhosted.org/packages/e2/81/dad498536e3d30a3acf3102a68ad4ebaf7792535a21f08c303a0ea19746a/Fletxible-0.5.1.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [pyc3dtools]: Downloading https://files.pythonhosted.org/packages/47/80/18f2574d71baeaed19f242f5702ce267b7a86e58320db5697f6aac84efc9/pyc3dtools-0.2.3.win-amd64.zip
+[2023-05-18 17:59:11] INFO root fetch - processPackages [abqcy]: Downloading https://files.pythonhosted.org/packages/fb/f4/3aa2f661d99e787a8d50e1ab699308a5f332ea25f42f0d74f9813ee0af9e/abqcy-0.0.5.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/3d/44/9e605e68ce6c776a0fc8dd38e484d78298973363b24271b2b91737279c66/JBPhD-2.1.8-py3-none-any.whl
+[2023-05-18 17:59:11] INFO root fetch - processPackages [Fletxible]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [Fletxible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fletxible-0.5.0.tar.gz tmp/Fletxible-0.5.1.tar.gz --markdown 20230518/F/Fletxible/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-18 17:59:11] INFO root fetch - processPackages [pyc3dtools]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [pyc3dtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyc3dtools-0.2.2.win-amd64.zip tmp/pyc3dtools-0.2.3.win-amd64.zip --markdown 20230518/p/pyc3dtools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-18 17:59:11] INFO root fetch - processPackages [abqcy]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [abqcy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqcy-0.0.4.tar.gz tmp/abqcy-0.0.5.tar.gz --markdown 20230518/a/abqcy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 17:59:11] INFO root fetch - processPackages [enthought-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/d9/09/2df26e91d6987f1b4ced9fd44e6853ae6ad84670f17683a830ef5ace75ea/enthought_sphinx_theme-0.7.3.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/9d/d9/ef4fe356d700ebcec5eac66fcfc47a22596b72c43877836a3ae8f29e546a/hordelib-1.0.4.tar.gz
+[2023-05-18 17:59:11] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.1.7.tar.gz tmp/JBPhD-2.1.8-py3-none-any.whl.zip --markdown 20230518/J/JBPhD/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-05-18 17:59:11] INFO root fetch - processPackages [enthought-sphinx-theme]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [enthought-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enthought_sphinx_theme-0.7.2.tar.gz tmp/enthought_sphinx_theme-0.7.3.tar.gz --markdown 20230518/e/enthought-sphinx-theme/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-18 17:59:11] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-18 17:59:11] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-1.0.3.tar.gz tmp/hordelib-1.0.4.tar.gz --markdown 20230518/h/hordelib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-18 17:59:12] INFO root fetch - processPackages [leadguru-common]: Start processing: volcengine
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-18 17:59:12] INFO root fetch - processPackages [volcengine]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-05-18 17:59:12] INFO root fetch - processPackages [obrpy]: Start processing: gramspel
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-05-18 17:59:12] WARNING root fetch - processPackages [gramspel]: Skipping, unable to determine old version
+[2023-05-18 17:59:12] INFO root fetch - processPackages [gramspel]: Start processing: matcha-ml
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [gramspel] error
+[2023-05-18 17:59:12] INFO root fetch - processPackages [apicurio-registry-python-sdk-preview]: Start processing: pulumi-aws-native
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
+[2023-05-18 17:59:12] INFO root fetch - processPackages [matcha-ml]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-18 17:59:12] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-05-18 17:59:12] INFO root fetch - processPackages [leadguru-data]: Start processing: inference-search-client
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-18 17:59:12] INFO root fetch - processPackages [inference-search-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 17:59:12] INFO root fetch - processPackages [matcha-ml]: Downloading https://files.pythonhosted.org/packages/60/39/07e465bfa0858b3288563bb756bcef30ada6ef0157ff4fe63270d61ee3df/matcha_ml-0.2.2.tar.gz
+[2023-05-18 17:59:12] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/8e/a2/61a8e3c081e5a9a70fd41320b25906f609cba190274b6ace6d8c1619eed7/volcengine-1.0.91.tar.gz
+[2023-05-18 17:59:12] INFO root fetch - processPackages [inference-search-client]: Downloading https://files.pythonhosted.org/packages/05/9b/9edf3ba065a0306148fe3a8ed1cc96b14a7e5b42c9612c8ec10b563bc00b/inference_search_client-0.1.0.tar.gz
+[2023-05-18 17:59:12] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-05-18 17:59:12] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.90.tar.gz tmp/volcengine-1.0.91.tar.gz --markdown 20230518/v/volcengine/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [pyc3dtools]: success
+[2023-05-18 17:59:12] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-05-18 17:59:12] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230518/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-05-18 17:59:12] INFO root fetch - processPackages [matcha-ml]: Downloading https://files.pythonhosted.org/packages/5b/b3/b7b21009c73c67619977a4080e5cbd3c343cf7aeecf24e4733ae1d05a6aa/matcha_ml-0.2.3.tar.gz
+[2023-05-18 17:59:12] INFO root fetch - processPackages [inference-search-client]: Downloading https://files.pythonhosted.org/packages/a4/27/19ea387907a6955e0c1c4236eda60c41afdda2012c5db9db28b5579bfa04/inference_search_client-0.1.1.tar.gz
+[2023-05-18 17:59:12] INFO root fetch - processPackages [matcha-ml]: executing diffoscope
+[2023-05-18 17:59:12] INFO root fetch - processPackages [matcha-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matcha_ml-0.2.2.tar.gz tmp/matcha_ml-0.2.3.tar.gz --markdown 20230518/m/matcha-ml/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-18 17:59:12] INFO root fetch - main [MainThread]: End processing [Fletxible]: success
+[2023-05-18 17:59:13] INFO root fetch - processPackages [inference-search-client]: executing diffoscope
+[2023-05-18 17:59:13] INFO root fetch - processPackages [inference-search-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_search_client-0.1.0.tar.gz tmp/inference_search_client-0.1.1.tar.gz --markdown 20230518/i/inference-search-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 17:59:13] INFO root fetch - main [MainThread]: End processing [enthought-sphinx-theme]: success
+[2023-05-18 17:59:13] INFO root fetch - main [MainThread]: End processing [abqcy]: success
+[2023-05-18 17:59:14] INFO root fetch - main [MainThread]: End processing [inference-search-client]: success
+[2023-05-18 17:59:14] INFO root fetch - main [MainThread]: End processing [matcha-ml]: success
+[2023-05-18 17:59:14] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-18 17:59:19] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-05-18 17:59:20] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-18 17:59:36] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-05-18 17:59:36] INFO root fetch - main [MainThread]: Store serial: [18156618]
