@@ -9781,3 +9781,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:33:44] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
 [2023-05-18 09:33:50] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-05-18 09:33:50] INFO root fetch - main [MainThread]: Store serial: [18150721]
+[2023-05-18 09:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150721]
+[2023-05-18 09:39:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-base-custom-filter
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HousingPriceSP
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-ux
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-tier-validation
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-server-ux
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squander
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fenjing
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dockx-checker
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atomInSmiles
+[2023-05-18 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CADET-Process
+[2023-05-18 09:39:00] WARNING root fetch - processPackages [HousingPriceSP]: Skipping, unable to determine old version
+[2023-05-18 09:39:00] INFO root fetch - processPackages [HousingPriceSP]: Start processing: dia-adfpro
+[2023-05-18 09:39:00] INFO root fetch - main [MainThread]: End processing [HousingPriceSP] error
+[2023-05-18 09:39:00] WARNING root fetch - processPackages [atomInSmiles]: Skipping, unable to determine old version
+[2023-05-18 09:39:00] INFO root fetch - processPackages [atomInSmiles]: Start processing: nonebot-plugin-mystool
+[2023-05-18 09:39:00] INFO root fetch - main [MainThread]: End processing [atomInSmiles] error
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dockx-checker]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [fenjing]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dia-adfpro]: New version: [1.6.2] Old Version: [0.0.2]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.2]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev6]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230517.0] Old Version: [16.0.20230426.0]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230517.0] Old Version: [16.0.20230426.0]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [CADET-Process]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [squander]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-18 09:39:00] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.3.1.tar.gz tmp/fenjing-0.3.2.tar.gz --markdown 20230518/f/fenjing/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-18 09:39:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dockx-checker]: Downloading https://files.pythonhosted.org/packages/18/76/8ec697a789f25a823938ed350012f7b798e1901a860690d7740598ca7857/dockx_checker-0.0.5.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dia-adfpro]: Downloading https://files.pythonhosted.org/packages/cb/4b/247d6f8c2b8c7a9c930803a829f644647f80ebfe8627d837d0a2aba73041/dia-adfpro-0.0.2.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/a4/2b/00d9898ba1baa60cbdc39b7110cc62236a70f678549a8c53c7395fd2b1be/nonebot_plugin_mystool-0.2.8.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/6d/42/01d4540e8bd3b3ddb4f9ee47e7946d4fde152b601598509be413d8c71a6a/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/6d/42/01d4540e8bd3b3ddb4f9ee47e7946d4fde152b601598509be413d8c71a6a/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/82/0c/0127f53589433cf7e66e2be8b27cb64d9e2a13b2322b36fbc9b982c13ab6/odoo_addon_base_tier_validation-16.0.1.0.4.2-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [CADET-Process]: Downloading https://files.pythonhosted.org/packages/42/52/4efe5a48c1c1c448517f409a29a899e4d9dc45738be1f35670eb1c7ef81b/CADET-Process-0.7.1.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [squander]: Downloading https://files.pythonhosted.org/packages/40/ff/cb79ec897733dae19f713a3ef2debbcefaf8d72f9c75898dd4d9f501601f/squander-1.8.1.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dockx-checker]: executing diffoscope
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dockx-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockx_checker-0.0.4.tar.gz tmp/dockx_checker-0.0.5.tar.gz --markdown 20230518/d/dockx-checker/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: Downloading https://files.pythonhosted.org/packages/d6/86/27b06bb210e8f86b0d1d51edbda67174d3ac8f7a8743d02a16cc04875c8c/odoo14_addon_base_custom_filter-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: executing diffoscope
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_custom_filter-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_base_custom_filter-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-base-custom-filter/14.0.1.0.1.dev6-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-05-18 09:39:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/32/55/5d87995281016eb55dfb047bb217210a993e69bc759a0be13b7bc8792148/nonebot_plugin_mystool-0.2.9.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [squander]: Downloading https://files.pythonhosted.org/packages/11/fe/9cdfa011576805a3abd8c751425f5c4086b12d5b045a8c344236dc7b59e5/squander-1.8.2.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [CADET-Process]: Downloading https://files.pythonhosted.org/packages/30/af/b07713e28bb1280b3b3a4adef34598300d33c69f17e34c353711ae8a654e/CADET-Process-0.7.2.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/9c/6c/b3dd5f0b63d8b1ede008b2c97683bccbf748289135f3a047865b784350ac/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/d2/d8/fd3670e9a734765bcb7928609ea464cfc27a27d4962b46383ca773d0aed0/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl
+[2023-05-18 09:39:00] INFO root fetch - processPackages [dia-adfpro]: Downloading https://files.pythonhosted.org/packages/84/35/0f5dda7bf6b53f7eae3f01311fedcefff8365990aad103219832fe6e5569/dia-adfpro-1.6.2.tar.gz
+[2023-05-18 09:39:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/9c/6c/b3dd5f0b63d8b1ede008b2c97683bccbf748289135f3a047865b784350ac/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addons-oca-server-ux/16.0.20230426.0-16.0.20230517.0/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [CADET-Process]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [CADET-Process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-Process-0.7.1.tar.gz tmp/CADET-Process-0.7.2.tar.gz --markdown 20230518/C/CADET-Process/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addons-oca-server-ux/16.0.20230426.0-16.0.20230517.0/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [dia-adfpro]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [dia-adfpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-adfpro-0.0.2.tar.gz tmp/dia-adfpro-1.6.2.tar.gz --markdown 20230518/d/dia-adfpro/0.0.2-1.6.2/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-base-tier-validation/16.0.1.0.4.2-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [squander]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [squander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squander-1.8.1.tar.gz tmp/squander-1.8.2.tar.gz --markdown 20230518/s/squander/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-18 09:39:01] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-05-18 09:39:01] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-0.2.8.tar.gz tmp/nonebot_plugin_mystool-0.2.9.tar.gz --markdown 20230518/n/nonebot-plugin-mystool/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 09:39:02] INFO root fetch - processPackages [odoo14-addon-base-custom-filter]: Start processing: nvosscript
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-custom-filter]: success
+[2023-05-18 09:39:02] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0.2] Old Version: [1.3.0.1]
+[2023-05-18 09:39:02] INFO root fetch - processPackages [fenjing]: Start processing: nextaddatamodule
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-18 09:39:02] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Start processing: cads-sdk
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-05-18 09:39:02] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-18 09:39:02] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.1.tar.gz tmp/nvosscript-1.3.0.2.tar.gz --markdown 20230518/n/nvosscript/1.3.0.1-1.3.0.2/diff.md --exclude *.pyd
+[2023-05-18 09:39:02] WARNING root fetch - processPackages [nextaddatamodule]: Skipping, unable to determine old version
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [nextaddatamodule] error
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-05-18 09:39:02] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.18] Old Version: [0.0.17rc2]
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-05-18 09:39:02] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/94/5f/d054f8894bd49c124eea1e7f8ee6f629d182b85d0c270bca81aa27afaa7c/cads_sdk-0.0.17rc2-py3-none-any.whl
+[2023-05-18 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-05-18 09:39:03] INFO root fetch - main [MainThread]: End processing [CADET-Process]: success
+[2023-05-18 09:39:03] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/ab/78/081bc4628d1f0a6ed63eb89094eb1a9bc98785167d20cf302eead1a930c5/cads_sdk-0.0.18-py3-none-any.whl
+[2023-05-18 09:39:03] INFO root fetch - main [MainThread]: End processing [dia-adfpro]: success
+[2023-05-18 09:39:03] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-18 09:39:03] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-05-18 09:39:03] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.17rc2-py3-none-any.whl.zip tmp/cads_sdk-0.0.18-py3-none-any.whl.zip --markdown 20230518/c/cads-sdk/0.0.17rc2-0.0.18/diff.md --exclude *.pyd
+[2023-05-18 09:39:03] INFO root fetch - main [MainThread]: End processing [squander]: success
+[2023-05-18 09:39:04] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-05-18 09:39:05] INFO root fetch - main [MainThread]: End processing [dockx-checker]: success
+[2023-05-18 09:39:05] INFO root fetch - main [MainThread]: Store serial: [18150769]
