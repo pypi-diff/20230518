@@ -9108,3 +9108,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:50:06] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2023-05-18 08:50:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-18 08:50:12] INFO root fetch - main [MainThread]: Store serial: [18150355]
+[2023-05-18 08:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150355]
+[2023-05-18 08:55:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-testmon
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-request
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycelium
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: casadi
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvosscript
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cliptry1
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vim-python-framework
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-snowflake
+[2023-05-18 08:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spider-nest
+[2023-05-18 08:55:21] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.8] Old Version: [2.0.7b3]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [pycelium]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [kfish]: New version: [99.0.202305180650] Old Version: [99.0.202305171524]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [nvosscript]: New version: [1.3.0.1] Old Version: [1.3.0]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [cliptry1]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 08:55:21] WARNING root fetch - processPackages [spider-nest]: Skipping, unable to determine old version
+[2023-05-18 08:55:21] INFO root fetch - processPackages [casadi]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [spider-nest]: Start processing: gravitorch
+[2023-05-18 08:55:21] INFO root fetch - main [MainThread]: End processing [spider-nest] error
+[2023-05-18 08:55:21] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [gravitorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:55:21] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-05-18 08:55:21] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.7b3.tar.gz tmp/pytest-testmon-2.0.8.tar.gz --markdown 20230518/p/pytest-testmon/2.0.7b3-2.0.8/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [gravitorch]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [gravitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravitorch-0.0.8.tar.gz tmp/gravitorch-0.0.9.tar.gz --markdown 20230518/g/gravitorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/42/80/11ca9ad77dc50c83194d0dbc79ef1a184461db025eae6b21adf8e3460707/pycelium-0.1.6.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/6c/54/95a61d7f9960306a000ed66cd1d96b0265a5a184a5e5eb527877bca0f43b/vim-python-framework-0.1.3.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/81/32/70908dda8a9efc6475edcd49b06ad886379b164b0138af1343a1d8dd909b/cliptry1-0.1.1.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/89/59/9379b039d5e83820cff679221922bd051f375407a22dc0d134c62b49b9ab/casadi-3.6.2.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/ae/f6/7841923cdbc64723739ed89134e75e67cb943a1f5e244d5e62a347bf2bda/nvosscript-1.3.0.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0d/6d/0f8411da73cb321fe9c8ab5c79cb1ac74703aea960ce9bb2a458f08a5375/kfish-99.0.202305171524-py3-none-any.whl
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [vim-python-framework]: Downloading https://files.pythonhosted.org/packages/6a/e5/f3415591a4dbf03b30e86afe73665d8ef294cf48db0c90826d792518f3f1/vim-python-framework-0.1.4.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/0b/d7/c6764aab2e1505ef98d1a2d15d8fbe035657424345ae816807ae0b4e8d30/cliptry1-0.1.2.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/45/da/04e36a4bbfbb158fa0569a0858a03675c025823696c67ce0b0104d92db33/nvosscript-1.3.0.1.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9f/ee/433fe73afc635064436a3a9b10c757a01af2422246f9d39e2a8a76923428/kfish-99.0.202305180650-py3-none-any.whl
+[2023-05-18 08:55:22] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.3.tar.gz tmp/vim-python-framework-0.1.4.tar.gz --markdown 20230518/v/vim-python-framework/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.1.1.tar.gz tmp/cliptry1-0.1.2.tar.gz --markdown 20230518/c/cliptry1/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [casadi]: Downloading https://files.pythonhosted.org/packages/a2/92/8154ba1eacb6ec22862d1366d66be8cd75fc627921c83c2427bf797b409f/casadi-3.6.3-cp27-none-macosx_10_13_x86_64.macosx_10_13_intel.whl
+[2023-05-18 08:55:22] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.0.tar.gz tmp/nvosscript-1.3.0.1.tar.gz --markdown 20230518/n/nvosscript/1.3.0-1.3.0.1/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305171524-py3-none-any.whl.zip tmp/kfish-99.0.202305180650-py3-none-any.whl.zip --markdown 20230518/k/kfish/99.0.202305171524-99.0.202305180650/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] WARNING root fetch - processPackages [casadi]: Skipping package: exceeds size limit 40747998>=10485760
+[2023-05-18 08:55:22] INFO root fetch - processPackages [casadi]: Start processing: rtx-deep
+[2023-05-18 08:55:22] INFO root fetch - main [MainThread]: End processing [casadi] error
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/df/2f/f4a82bd123b6b28c594bb10502782643376ede4c72ab331d149474185ae0/pycelium-0.1.7.tar.gz
+[2023-05-18 08:55:22] INFO root fetch - processPackages [rtx-deep]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.6.tar.gz tmp/pycelium-0.1.7.tar.gz --markdown 20230518/p/pycelium/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-18 08:55:22] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230518/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-18 08:55:22] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/e4/76/8f9127f72ebc421f61a326923054ccb1860e54c5c7bc6c5a6b84960d6893/rtx_deep-1.3.7-py39-none-any.whl
+[2023-05-18 08:55:23] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/9f/50/e706df311079a106cf4aa536e113a78886a909a79214dc8f106bd7cbcd47/rtx_deep-1.3.8-py39-none-any.whl
+[2023-05-18 08:55:23] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-05-18 08:55:23] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.3.7-py39-none-any.whl.zip tmp/rtx_deep-1.3.8-py39-none-any.whl.zip --markdown 20230518/r/rtx-deep/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-18 08:55:23] INFO root fetch - processPackages [pytest-testmon]: Start processing: insights-core
+[2023-05-18 08:55:23] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-05-18 08:55:23] INFO root fetch - processPackages [vim-python-framework]: Start processing: pulumi-sumologic
+[2023-05-18 08:55:23] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 08:55:23] INFO root fetch - processPackages [insights-core]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-18 08:55:23] INFO root fetch - processPackages [kfish]: Start processing: jcmutils
+[2023-05-18 08:55:23] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-18 08:55:23] INFO root fetch - processPackages [cliptry1]: Start processing: pulumi-splunk
+[2023-05-18 08:55:23] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 08:55:23] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-05-18 08:55:23] INFO root fetch - processPackages [jcmutils]: New version: [1.5.0] Old Version: [1.4.7]
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1684390969] Old Version: [1.3.0a1684217628]
+[2023-05-18 08:55:24] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/f3/81/16f7a849f7cbc9bee8db9f5977d010b158789872781fa41fbd360186ba1d/insights-core-3.1.8.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/24/83/712b1743c2a4c170b5f4348a4a7bf8046fb2a021dc667bf5a779e2c13d68/jcmutils-1.4.7.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/74/65/9a5cecd127e056aa6e1295f742243c6d3c33330aee7105de1997e07c2934/pulumi_splunk-1.3.0a1684217628.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/43/67/4e1a907bd4e6bde60b0417b42686ac5c0e8f926df906b5c8c55ebaf12a77/jcmutils-1.5.0.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [insights-core]: Downloading https://files.pythonhosted.org/packages/f5/b2/60deb6f5b9efa1b3747c5a8d04cebd550974d0cf3d58f995c286096830b7/insights-core-3.1.9.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/0f/25/61a45233da52f78af30092091fcbfefdde142288ff7446528653068d84ec/pulumi_splunk-1.3.0a1684390969.tar.gz
+[2023-05-18 08:55:24] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-18 08:55:24] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.4.7.tar.gz tmp/jcmutils-1.5.0.tar.gz --markdown 20230518/j/jcmutils/1.4.7-1.5.0/diff.md --exclude *.pyd
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230518/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-05-18 08:55:24] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-05-18 08:55:24] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.1.8.tar.gz tmp/insights-core-3.1.9.tar.gz --markdown 20230518/i/insights-core/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-05-18 08:55:24] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1684217628.tar.gz tmp/pulumi_splunk-1.3.0a1684390969.tar.gz --markdown 20230518/p/pulumi-splunk/1.3.0a1684217628-1.3.0a1684390969/diff.md --exclude *.pyd
+[2023-05-18 08:55:25] INFO root fetch - processPackages [odoo-addon-purchase-request]: Start processing: pulumi-venafi
+[2023-05-18 08:55:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-05-18 08:55:25] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1684391394] Old Version: [1.6.0a1684218163]
+[2023-05-18 08:55:25] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-05-18 08:55:25] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/8f/bd/8fb85150d7c443a95b9c22c63791860415066bbaa5d0c9002f862ed0f3a4/pulumi_venafi-1.6.0a1684218163.tar.gz
+[2023-05-18 08:55:25] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/00/27/40234499e215e153a1a621c5db89d7b303de8e47d5d467c4e97d1648e59e/pulumi_venafi-1.6.0a1684391394.tar.gz
+[2023-05-18 08:55:25] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-05-18 08:55:25] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1684218163.tar.gz tmp/pulumi_venafi-1.6.0a1684391394.tar.gz --markdown 20230518/p/pulumi-venafi/1.6.0a1684218163-1.6.0a1684391394/diff.md --exclude *.pyd
+[2023-05-18 08:55:25] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-18 08:55:26] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-05-18 08:55:26] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
+[2023-05-18 08:55:26] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-05-18 08:55:26] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-05-18 08:55:27] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-05-18 08:55:27] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-18 08:55:47] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-05-18 08:55:56] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-18 08:55:56] INFO root fetch - main [MainThread]: Store serial: [18150402]
