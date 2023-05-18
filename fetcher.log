@@ -22655,3 +22655,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 20:05:47] INFO root fetch - main [MainThread]: End processing [qiskit-ibm-provider]: success
 [2023-05-18 20:05:49] INFO root fetch - main [MainThread]: End processing [flet-core]: success
 [2023-05-18 20:05:49] INFO root fetch - main [MainThread]: Store serial: [18158242]
+[2023-05-18 20:10:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18158242]
+[2023-05-18 20:10:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piperider-nightly
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimultiplicacion
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkpoint-tool
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystripe
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gracy
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: questdb-connect
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sf-hamilton
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opower
+[2023-05-18 20:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comgen
+[2023-05-18 20:10:58] WARNING root fetch - processPackages [mimultiplicacion]: Skipping, unable to determine old version
+[2023-05-18 20:10:58] INFO root fetch - main [MainThread]: End processing [mimultiplicacion] error
+[2023-05-18 20:10:58] INFO root fetch - processPackages [pystripe]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [comgen]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.75] Old Version: [0.0.74]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 20:10:58] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.74.tar.gz tmp/questdb-connect-0.0.75.tar.gz --markdown 20230518/q/questdb-connect/0.0.74-0.0.75/diff.md --exclude *.pyd
+[2023-05-18 20:10:58] INFO root fetch - processPackages [opower]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 20:10:58] INFO root fetch - processPackages [comgen]: Downloading https://files.pythonhosted.org/packages/36/65/2f97120877ed989e89b49f1031d77eb47e3b768cd421aae6bfc211b6343d/comgen-0.0.11-py3-none-any.whl
+[2023-05-18 20:10:58] INFO root fetch - processPackages [pystripe]: Downloading https://files.pythonhosted.org/packages/30/b2/f86b004e3ff384149766d10843d3c516fa0d7c43e040696f9066e8c9162b/pystripe-1.2.6.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/ed/55/cd22b17ec7c4123819be74c081044093a17cea6270d3d978bc6b6c914462/opower-0.0.6.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [pystripe]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/fc/90/759b64d8d24ae6594fa1ae3884bde25180f40b27e25b13ce7304bed07d7a/checkpoint_tool-0.7.8.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [pystripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystripe-1.2.5.tar.gz tmp/pystripe-1.2.6.tar.gz --markdown 20230518/p/pystripe/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.7.7.tar.gz tmp/checkpoint_tool-0.7.8.tar.gz --markdown 20230518/c/checkpoint-tool/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230518/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [comgen]: Downloading https://files.pythonhosted.org/packages/c7/c1/3ab19f79be13d2047669ec0ee14ebf52850e44d5537e7ebbe1c3ce9b9c55/comgen-0.0.12-py3-none-any.whl
+[2023-05-18 20:10:59] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230518/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/e2/1e/c8dc942351f14d97b9d43f784898503876d25d077e74e6fac49c7e9f91e7/opower-0.0.7.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [comgen]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [comgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comgen-0.0.11-py3-none-any.whl.zip tmp/comgen-0.0.12-py3-none-any.whl.zip --markdown 20230518/c/comgen/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-05-18 20:10:59] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.6.tar.gz tmp/opower-0.0.7.tar.gz --markdown 20230518/o/opower/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 20:10:59] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-05-18 20:10:59] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230518/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-05-18 20:11:00] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 20:11:00] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-18 20:11:00] INFO root fetch - main [MainThread]: End processing [comgen]: success
+[2023-05-18 20:11:00] INFO root fetch - main [MainThread]: End processing [pystripe]: success
+[2023-05-18 20:11:00] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-05-18 20:11:01] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-18 20:11:01] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-05-18 20:11:02] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-18 20:11:02] INFO root fetch - main [MainThread]: Store serial: [18158265]
