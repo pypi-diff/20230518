@@ -6929,3 +6929,42 @@
 [2023-05-18 07:00:08] INFO root fetch - main [MainThread]: End processing [always-updates]: success
 [2023-05-18 07:00:08] INFO root fetch - main [MainThread]: End processing [palom]: success
 [2023-05-18 07:00:08] INFO root fetch - main [MainThread]: Store serial: [18149517]
+[2023-05-18 07:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149517]
+[2023-05-18 07:05:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CyberBook
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdecoder
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-cuda
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltafi
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-cli-md
+[2023-05-18 07:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-05-18 07:05:17] INFO root fetch - processPackages [deltafi]: New version: [1.0.0rc1] Old Version: [0.999.998]
+[2023-05-18 07:05:17] INFO root fetch - processPackages [CyberBook]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 07:05:17] INFO root fetch - processPackages [chatgpt-cli-md]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 07:05:17] WARNING root fetch - processPackages [xdecoder]: Skipping, unable to determine old version
+[2023-05-18 07:05:17] INFO root fetch - main [MainThread]: End processing [xdecoder] error
+[2023-05-18 07:05:17] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230518] Old Version: [23.6.0a230517]
+[2023-05-18 07:05:17] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230518] Old Version: [0.1.1.dev20230517]
+[2023-05-18 07:05:17] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/2a/05/3804d8b2f4225b579e47dbf283b5c8cc95b0ece7b51a9870692bbb676d0a/deltafi-0.999.998.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [CyberBook]: Downloading https://files.pythonhosted.org/packages/92/ea/0d01820747457ba9fe84c949c962bd1b36ed89660716ef488961f0634f30/CyberBook-0.0.8.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [chatgpt-cli-md]: Downloading https://files.pythonhosted.org/packages/b3/23/1fb05dce27b5ea94f8940ffe2d55903117139019f93efe8668afd8777a1c/chatgpt-cli-md-0.1.8.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b8/5f/decca8091b16d7179bcf67eadff205074183a4e94816748ce5716374d777/dask-cuda-23.6.0a230517.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/dd/cd/3987ac46f71de71a9aedf03fd5a8c4e29be0ae5b5463db42c0459b859187/rapid_pe-0.1.1.dev20230517.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [CyberBook]: Downloading https://files.pythonhosted.org/packages/cd/58/410823995956e27e0a25c3ba2d553421a8b3fa73a69d48fb04581e939039/CyberBook-0.0.9.tar.gz
+[2023-05-18 07:05:17] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/58/b5/a60e42cce117db71df53541fdbdaf9fc77323d696666027bf6f80ad322d9/deltafi-1.0.0rc1.tar.gz
+[2023-05-18 07:05:18] INFO root fetch - processPackages [CyberBook]: executing diffoscope
+[2023-05-18 07:05:18] INFO root fetch - processPackages [CyberBook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CyberBook-0.0.8.tar.gz tmp/CyberBook-0.0.9.tar.gz --markdown 20230518/C/CyberBook/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 07:05:18] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/21/b4/74901d3e270f843978d39c58dabc686ee30b9dde8f1bd2db492ee4be94da/dask-cuda-23.6.0a230518.tar.gz
+[2023-05-18 07:05:18] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/37/7a/fb56b577abd87bea8a3957fae450c4171c20a92359f31bffcb5b5ee794a0/rapid_pe-0.1.1.dev20230518.tar.gz
+[2023-05-18 07:05:18] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-05-18 07:05:18] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.999.998.tar.gz tmp/deltafi-1.0.0rc1.tar.gz --markdown 20230518/d/deltafi/0.999.998-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-18 07:05:18] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-05-18 07:05:18] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230517.tar.gz tmp/dask-cuda-23.6.0a230518.tar.gz --markdown 20230518/d/dask-cuda/23.6.0a230517-23.6.0a230518/diff.md --exclude *.pyd
+[2023-05-18 07:05:18] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-18 07:05:18] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230517.tar.gz tmp/rapid_pe-0.1.1.dev20230518.tar.gz --markdown 20230518/r/rapid-pe/0.1.1.dev20230517-0.1.1.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 07:05:18] WARNING root fetch - processPackages [chatgpt-cli-md]: Skipping package: exceeds size limit 12235423>=10485760
+[2023-05-18 07:05:18] INFO root fetch - main [MainThread]: End processing [chatgpt-cli-md] error
+[2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [CyberBook]: success
+[2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-18 07:05:19] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-05-18 07:05:19] INFO root fetch - main [MainThread]: Store serial: [18149535]
