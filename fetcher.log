@@ -6909,3 +6909,23 @@
 [2023-05-18 06:54:57] INFO root fetch - main [MainThread]: End processing [purpleair-data-logger]: success
 [2023-05-18 06:54:57] INFO root fetch - main [MainThread]: End processing [restoreio]: success
 [2023-05-18 06:54:57] INFO root fetch - main [MainThread]: Store serial: [18149509]
+[2023-05-18 07:00:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149509]
+[2023-05-18 07:00:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-18 07:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-05-18 07:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palom
+[2023-05-18 07:00:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoFun
+[2023-05-18 07:00:06] INFO root fetch - processPackages [AutoFun]: New version: [0.3.8] Old Version: [0.3.7.1]
+[2023-05-18 07:00:06] INFO root fetch - processPackages [palom]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-18 07:00:06] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-18 07:00:07] INFO root fetch - processPackages [AutoFun]: Downloading https://files.pythonhosted.org/packages/8d/dd/fee8a9a2bcbd7c762bcbf3fca47b006b8c96228053a60d6f81b2acdc627f/AutoFun-0.3.8.tar.gz
+[2023-05-18 07:00:07] INFO root fetch - processPackages [palom]: Downloading https://files.pythonhosted.org/packages/54/52/c3b74e8f710f6f242c872644b51941ef085fa11567230bfcbd0cd690c835/palom-2023.5.2.tar.gz
+[2023-05-18 07:00:07] INFO root fetch - processPackages [AutoFun]: executing diffoscope
+[2023-05-18 07:00:07] INFO root fetch - processPackages [AutoFun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoFun-0.3.7.1.tar.gz tmp/AutoFun-0.3.8.tar.gz --markdown 20230518/A/AutoFun/0.3.7.1-0.3.8/diff.md --exclude *.pyd
+[2023-05-18 07:00:07] INFO root fetch - processPackages [palom]: executing diffoscope
+[2023-05-18 07:00:07] INFO root fetch - processPackages [palom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palom-2023.5.1.tar.gz tmp/palom-2023.5.2.tar.gz --markdown 20230518/p/palom/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-18 07:00:07] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-18 07:00:07] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230518/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-18 07:00:08] INFO root fetch - main [MainThread]: End processing [AutoFun]: success
+[2023-05-18 07:00:08] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-18 07:00:08] INFO root fetch - main [MainThread]: End processing [palom]: success
+[2023-05-18 07:00:08] INFO root fetch - main [MainThread]: Store serial: [18149517]
