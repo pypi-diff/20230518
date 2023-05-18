@@ -9332,3 +9332,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:01:12] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2023-05-18 09:01:17] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-18 09:01:17] INFO root fetch - main [MainThread]: Store serial: [18150461]
+[2023-05-18 09:06:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150461]
+[2023-05-18 09:06:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zoviz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bardapi
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-rma
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: delphix-dct-api
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apnews
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-rma
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-rma
+[2023-05-18 09:06:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-platform-utils
+[2023-05-18 09:06:27] INFO root fetch - processPackages [bardapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-05-18 09:06:27] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.5.tar.gz tmp/bardapi-0.1.6.tar.gz --markdown 20230518/b/bardapi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 09:06:27] INFO root fetch - processPackages [apnews]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev5] Old Version: [14.0.3.2.7.dev4]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.5] Old Version: [15.0.1.1.3.4]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [delphix-dct-api]: New version: [7.0.1rc1] Old Version: [7.0.0rc2]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [dm-platform-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/fa/e8/85f798f4ad4c605d500e23bcbd84d35e21e0886b828f0f2d73b2718b0286/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [apnews]: Downloading https://files.pythonhosted.org/packages/5b/86/99380516dde4ca7ce757ef0300b11e63b19567544eaa6bbf2934325abc08/apnews-0.1.0.tar.gz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [dm-platform-utils]: Downloading https://files.pythonhosted.org/packages/a7/eb/22695aae7477a679b3354360be4025f09fc79104b98a5d13fe1f686906c4/dm_platform_utils-1.3.8-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/31/4a/62add843fb3864b1b7e70178ddecd8e595500260c9370cb706386bcca30a/odoo_addon_rma-15.0.1.1.3.4-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/ae/1cd0a6ac0acfd6f9858372e8e61c453f84d80f6f90c1c0bddbdac7226739/odoo14_addon_rma-14.0.3.2.7.dev4-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/70/d6/5a8e55a38155460a411559f091cf158c0c6e06e0f802259d0f15e214a2c5/delphix-dct-api-7.0.0rc2.tar.gz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [apnews]: Downloading https://files.pythonhosted.org/packages/5b/7a/3cf672eafb61c0c256e1aadcee431407ce0e479b16f73c6d50b013c4afda/apnews-0.1.1.tar.gz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/be/32/9c6f5e97f171c704220f4f2fac066783347407f8a32836fc5ded13d5c0ff/odoo_addon_rma-15.0.1.1.3.5-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/ff/6b/807cd5cc8b55054db429d0cca4c01ba905e18261081cd6df7b9cfc2c8981/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-05-18 09:06:27] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-18 09:06:27] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230518/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-18 09:06:27] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-18 09:06:27] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230518/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-18 09:06:27] INFO root fetch - processPackages [dm-platform-utils]: Downloading https://files.pythonhosted.org/packages/0d/f3/1f5f529402973aa3f62bc04cc083f743c9c70e1c3ecda1ad403796c50d43/dm_platform_utils-1.3.9-py3-none-any.whl
+[2023-05-18 09:06:27] INFO root fetch - processPackages [apnews]: executing diffoscope
+[2023-05-18 09:06:27] INFO root fetch - processPackages [apnews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apnews-0.1.0.tar.gz tmp/apnews-0.1.1.tar.gz --markdown 20230518/a/apnews/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230518/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/a7/0e/0fa282055d07280a1f0ba8e5d4025b2c0d024e727d20f0a275f18df45e2c/delphix-dct-api-7.0.1rc1.tar.gz
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.4-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-rma/15.0.1.1.3.4-15.0.1.1.3.5/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [dm-platform-utils]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [dm-platform-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_platform_utils-1.3.8-py3-none-any.whl.zip tmp/dm_platform_utils-1.3.9-py3-none-any.whl.zip --markdown 20230518/d/dm-platform-utils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-7.0.0rc2.tar.gz tmp/delphix-dct-api-7.0.1rc1.tar.gz --markdown 20230518/d/delphix-dct-api/7.0.0rc2-7.0.1rc1/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/e0/e6/02d46f69581475c364dcd94504814139094f5947c42243faf302c4e5f8b2/odoo14_addon_rma-14.0.3.2.7.dev5-py3-none-any.whl
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev4-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-rma/14.0.3.2.7.dev4-14.0.3.2.7.dev5/diff.md --exclude *.pyd
+[2023-05-18 09:06:28] INFO root fetch - processPackages [bardapi]: Start processing: vim-python-framework
+[2023-05-18 09:06:28] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-05-18 09:06:28] INFO root fetch - processPackages [vim-python-framework]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 09:06:28] INFO root fetch - processPackages [vim-python-framework]: executing diffoscope
+[2023-05-18 09:06:28] INFO root fetch - processPackages [vim-python-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vim-python-framework-0.1.5.tar.gz tmp/vim-python-framework-0.1.6.tar.gz --markdown 20230518/v/vim-python-framework/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 09:06:29] INFO root fetch - processPackages [apnews]: Start processing: antchain-ak-609685d7c8c24357aad7b42f02b222d7
+[2023-05-18 09:06:29] INFO root fetch - main [MainThread]: End processing [apnews]: success
+[2023-05-18 09:06:29] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-05-18 09:06:29] WARNING root fetch - processPackages [antchain-ak-609685d7c8c24357aad7b42f02b222d7]: Skipping, unable to determine old version
+[2023-05-18 09:06:29] INFO root fetch - main [MainThread]: End processing [antchain-ak-609685d7c8c24357aad7b42f02b222d7] error
+[2023-05-18 09:06:29] INFO root fetch - main [MainThread]: End processing [dm-platform-utils]: success
+[2023-05-18 09:06:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2023-05-18 09:06:30] INFO root fetch - main [MainThread]: End processing [vim-python-framework]: success
+[2023-05-18 09:06:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-05-18 09:06:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-05-18 09:06:32] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-18 09:06:35] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-05-18 09:06:40] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-18 09:06:40] INFO root fetch - main [MainThread]: Store serial: [18150498]
