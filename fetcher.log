@@ -5308,3 +5308,54 @@
 [2023-05-18 04:50:03] INFO root fetch - main [MainThread]: End processing [delta-task]: success
 [2023-05-18 04:50:04] INFO root fetch - main [MainThread]: End processing [tepe]: success
 [2023-05-18 04:50:04] INFO root fetch - main [MainThread]: Store serial: [18148837]
+[2023-05-18 04:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148837]
+[2023-05-18 04:55:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-copilot
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyearth
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jwtools
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imap-structure
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Slpapy
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeno-build
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo9-addon-account-fiscal-position-rule
+[2023-05-18 04:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo10-addon-account-fiscal-position-rule
+[2023-05-18 04:55:13] INFO root fetch - processPackages [zeno-build]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [odoo10-addon-account-fiscal-position-rule]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [odoo9-addon-account-fiscal-position-rule]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [Slpapy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [jwtools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-18 04:55:13] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.8.tar.gz tmp/Slpapy-0.3.9.tar.gz --markdown 20230518/S/Slpapy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-18 04:55:13] INFO root fetch - processPackages [imap-structure]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 04:55:13] INFO root fetch - processPackages [zeno-build]: Downloading https://files.pythonhosted.org/packages/c3/41/15f3fd57623b2349780451245a29bbd49489079838dad46b7866f63f431f/zeno_build-0.0.0a2.tar.gz
+[2023-05-18 04:55:13] INFO root fetch - processPackages [odoo10-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/69/73/e22e394dde334056f39c11e75128328f4298e78821290f586f87b6bd6beb/odoo10_addon_account_fiscal_position_rule-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-18 04:55:13] INFO root fetch - processPackages [odoo9-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/bb/02/99716b1dcadd9df34c2b1c69931857c5a71d7ac01d22427462dbcad90a09/odoo9_addon_account_fiscal_position_rule-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-18 04:55:14] INFO root fetch - processPackages [jwtools]: Downloading https://files.pythonhosted.org/packages/73/40/4a7c16674bb436d56bd9884e64b8285f7af1f2e5f44b2e481ffce993f09d/jwtools-0.1.4.tar.gz
+[2023-05-18 04:55:14] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/59/93/c9bd230dad05c4149dbdafd0d45eadd7cc71707687fd5765472b295b35c9/imap_structure-0.1.0.tar.gz
+[2023-05-18 04:55:14] INFO root fetch - processPackages [jwtools]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [jwtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwtools-0.1.3.tar.gz tmp/jwtools-0.1.4.tar.gz --markdown 20230518/j/jwtools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.8.tar.gz tmp/deep_copilot-0.0.9.tar.gz --markdown 20230518/d/deep-copilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [zeno-build]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [zeno-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_build-0.0.0a1.tar.gz tmp/zeno_build-0.0.0a2.tar.gz --markdown 20230518/z/zeno-build/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230518/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo9-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/5e/1e/60c3c73a3f2a8822c92bb8af77bfdc735b4fd32add065df07513eb9c0686/odoo9_addon_account_fiscal_position_rule-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-18 04:55:14] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/c6/cc/7335fd5bb510baf448e7131ef61d6296aaa70d86ee4d7e720660d9c8bc3d/imap_structure-0.1.1.tar.gz
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo10-addon-account-fiscal-position-rule]: Downloading https://files.pythonhosted.org/packages/12/0e/cb4abd47bba8af6f91c9137132f692ecb053688f41fda46d6fd19f67bad9/odoo10_addon_account_fiscal_position_rule-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo9-addon-account-fiscal-position-rule]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo9-addon-account-fiscal-position-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_fiscal_position_rule-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_account_fiscal_position_rule-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230518/o/odoo9-addon-account-fiscal-position-rule/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [imap-structure]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [imap-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_structure-0.1.0.tar.gz tmp/imap_structure-0.1.1.tar.gz --markdown 20230518/i/imap-structure/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo10-addon-account-fiscal-position-rule]: executing diffoscope
+[2023-05-18 04:55:14] INFO root fetch - processPackages [odoo10-addon-account-fiscal-position-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_fiscal_position_rule-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_account_fiscal_position_rule-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230518/o/odoo10-addon-account-fiscal-position-rule/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [jwtools]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [zeno-build]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-fiscal-position-rule]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [imap-structure]: success
+[2023-05-18 04:55:15] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-05-18 04:55:17] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-fiscal-position-rule]: success
+[2023-05-18 04:55:17] INFO root fetch - main [MainThread]: Store serial: [18148858]
