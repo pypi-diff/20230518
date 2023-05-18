@@ -12677,3 +12677,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 12:07:47] INFO root fetch - main [MainThread]: End processing [agsi]: success
 [2023-05-18 12:08:34] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-05-18 12:08:34] INFO root fetch - main [MainThread]: Store serial: [18152508]
+[2023-05-18 12:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152508]
+[2023-05-18 12:13:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-roy-CERT-1955-quickfix
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xlwings
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcloud
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dea-tools
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: topotem-test
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TPEduBot
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contek-timbersaw
+[2023-05-18 12:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-control-cli
+[2023-05-18 12:13:43] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [dea-tools]: New version: [0.2.8.dev95] Old Version: [0.2.8.dev94]
+[2023-05-18 12:13:44] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-quickfix]: Skipping, unable to determine old version
+[2023-05-18 12:13:44] WARNING root fetch - processPackages [topotem-test]: Skipping, unable to determine old version
+[2023-05-18 12:13:44] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-quickfix]: Start processing: prodiapy
+[2023-05-18 12:13:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-quickfix] error
+[2023-05-18 12:13:44] INFO root fetch - processPackages [topotem-test]: Start processing: ezq
+[2023-05-18 12:13:44] INFO root fetch - main [MainThread]: End processing [topotem-test] error
+[2023-05-18 12:13:44] INFO root fetch - processPackages [contek-timbersaw]: New version: [2.5] Old Version: [2.4]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [qwak-core]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [vdk-control-cli]: New version: [1.3.870522728] Old Version: [1.3.864600569]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [xlwings]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ezq]: New version: [3.0.0] Old Version: [2.0.3]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [prodiapy]: New version: [2.6] Old Version: [2.5]
+[2023-05-18 12:13:44] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/6e/25/1c04be62b8c739b9743f0389c6f2f9102f17372de07fe78ece183591327a/dea-tools-0.2.8.dev94.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/7a/1c/c6f829467c409a77bafc4d5d7f2e1d41b00a561eb5a7288d72789d75be05/qwak_core-0.0.62.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/0d/d1/d7544bcf36d0a64b7a4a213be44ca19bf0eb8b7de232cf743eddceba7c8b/xlwings-0.9.2.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [contek-timbersaw]: Downloading https://files.pythonhosted.org/packages/f7/c6/1a98312b111580aaf1fb4b023998c29a55e90fd32540c312e2d8c2098373/contek-timbersaw-2.4.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/53/a8/8d1e5060ad060a0541491113a22f3f02d3eb5588bbe9f406ce981cbbf786/vdk-control-cli-1.3.864600569.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ezq]: Downloading https://files.pythonhosted.org/packages/54/84/5013faa1a5aca616f116dae55c18cca5ba8da13f8000d0d163b9c45ae703/ezq-2.0.3.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [contek-timbersaw]: Downloading https://files.pythonhosted.org/packages/7b/b2/202d4c5c35aaf3bb6963a14231f044dd9e1ab6628525cf009c6f64c7918a/contek-timbersaw-2.5.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/45/cf/46f3809ef17e53bc72c9611cfda57da6fad99216651c5aa01fca00e0a510/vdk-control-cli-1.3.870522728.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/73/00/10ebbc2a59bb04c174f9aeac640e8ab5ee376348a3b212664a58bc6d8bf7/prodiapy-2.6.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230518/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/31/d6/8b011e18e5c6de31d4f8ceb9d03291bc7701113344b0662e336db370ff46/dea-tools-0.2.8.dev95.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [xlwings]: Downloading https://files.pythonhosted.org/packages/98/93/a49777fac149cadd5687de9b05d87a423507769a75cbb922559cebc3d068/xlwings-0.9.3.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [contek-timbersaw]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [contek-timbersaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contek-timbersaw-2.4.tar.gz tmp/contek-timbersaw-2.5.tar.gz --markdown 20230518/c/contek-timbersaw/2.4-2.5/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230518/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/47/07/516a88f94b76f8865a51f91c5b5dbeed2e4c269d9329178c654ff51052c4/qwak_core-0.0.63.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [vdk-control-cli]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [vdk-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-cli-1.3.864600569.tar.gz tmp/vdk-control-cli-1.3.870522728.tar.gz --markdown 20230518/v/vdk-control-cli/1.3.864600569-1.3.870522728/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [xlwings]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [xlwings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwings-0.9.2.tar.gz tmp/xlwings-0.9.3.tar.gz --markdown 20230518/x/xlwings/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-2.5.tar.gz tmp/prodiapy-2.6.tar.gz --markdown 20230518/p/prodiapy/2.5-2.6/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ezq]: Downloading https://files.pythonhosted.org/packages/5a/2b/914c9675c8cfd558480363866461f256b53fb58e0b3002fa991810895305/ezq-3.0.0.tar.gz
+[2023-05-18 12:13:44] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.2.8.dev94.tar.gz tmp/dea-tools-0.2.8.dev95.tar.gz --markdown 20230518/d/dea-tools/0.2.8.dev94-0.2.8.dev95/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.62.tar.gz tmp/qwak_core-0.0.63.tar.gz --markdown 20230518/q/qwak-core/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ezq]: executing diffoscope
+[2023-05-18 12:13:44] INFO root fetch - processPackages [ezq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezq-2.0.3.tar.gz tmp/ezq-3.0.0.tar.gz --markdown 20230518/e/ezq/2.0.3-3.0.0/diff.md --exclude *.pyd
+[2023-05-18 12:13:46] INFO root fetch - processPackages [TPEduBot]: Start processing: cf-view
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 12:13:46] INFO root fetch - processPackages [cf-view]: New version: [3.2.22] Old Version: [3.1.0]
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [contek-timbersaw]: success
+[2023-05-18 12:13:46] INFO root fetch - processPackages [cf-view]: Downloading https://files.pythonhosted.org/packages/66/dc/ea5fdfd9fc2302f4213f49bc47527e86206e917926580534d54fffd7a080/cf-view-3.1.0.tar.gz
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2023-05-18 12:13:46] INFO root fetch - processPackages [cf-view]: Downloading https://files.pythonhosted.org/packages/da/ce/7a7a11a86923d4e4fcb8edb3253998794a1a9b794fcd5941209be2a93d21/cf-view-3.2.22.tar.gz
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [ezq]: success
+[2023-05-18 12:13:46] INFO root fetch - processPackages [cf-view]: executing diffoscope
+[2023-05-18 12:13:46] INFO root fetch - processPackages [cf-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-view-3.1.0.tar.gz tmp/cf-view-3.2.22.tar.gz --markdown 20230518/c/cf-view/3.1.0-3.2.22/diff.md --exclude *.pyd
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [vdk-control-cli]: success
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [xlwings]: success
+[2023-05-18 12:13:46] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-05-18 12:13:47] INFO root fetch - main [MainThread]: End processing [cf-view]: success
+[2023-05-18 12:13:47] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2023-05-18 12:13:49] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-18 12:13:53] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-18 12:13:53] INFO root fetch - main [MainThread]: Store serial: [18152587]
