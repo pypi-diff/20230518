@@ -21981,3 +21981,178 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 19:33:01] INFO root fetch - main [MainThread]: End processing [llm-bot]: success
 [2023-05-18 19:33:02] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
 [2023-05-18 19:33:02] INFO root fetch - main [MainThread]: Store serial: [18157829]
+[2023-05-18 19:38:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157829]
+[2023-05-18 19:38:13] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iloscar-win
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsml
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbine-py
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystripe
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pop-ml
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grai-source-mysql
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grai-source-redshift
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals-nightly
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioconnectors
+[2023-05-18 19:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grai-source-snowflake
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-redshift]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [turbine-py]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [tsml]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pystripe]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230517] Old Version: [1.0.3.dev20230516]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-mysql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pystripe]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [iloscar-win]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pystripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystripe-1.2.3.tar.gz tmp/pystripe-1.2.4.tar.gz --markdown 20230518/p/pystripe/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pop-ml]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-snowflake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [turbine-py]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [turbine-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbine-py-1.8.3.tar.gz tmp/turbine-py-1.9.0.tar.gz --markdown 20230518/t/turbine-py/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [aioconnectors]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-05-18 19:38:13] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230516.tar.gz tmp/evals-nightly-1.0.3.dev20230517.tar.gz --markdown 20230518/e/evals-nightly/1.0.3.dev20230516-1.0.3.dev20230517/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-redshift]: Downloading https://files.pythonhosted.org/packages/cb/de/bee85bb9896ed4eaadd19ce334f2ad0fd8bf0e5b20c7b246579294cc5523/grai_source_redshift-0.0.4.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/fd/21/781f3b21ccdfb9ecc33ebc2a5f1e988a1754b0589be38f1e89fb35c470eb/tsml-0.0.7.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/31/b9/78a7d24625e2093d9caae859b87da16979222503e9213880c6f58845a397/grai_source_mysql-0.0.8.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pop-ml]: Downloading https://files.pythonhosted.org/packages/d4/61/82e30f44312c6ceb4f0d9f9d8857544e6e03ddd550067643c5ce5dace1e1/pop-ml-0.1.1.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/6b/80/3ac3efc2b1f97bda4bd4758ddfa287d4bff64508d6c759421bb47b5d927f/grai_source_snowflake-0.0.8.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [aioconnectors]: Downloading https://files.pythonhosted.org/packages/2d/54/4c3353ea96fc8756b3b25f26c04e311c3e63c3ffafe59b68797c60f942a5/aioconnectors-1.6.2.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/66/e1/d9bc64c2b525f68742d41c2fbda2624f792dbc6e235380cbe9aed9121a16/iloscar_win-0.1.7.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/88/05/70693c7b05cf3a46b00abf1fee8e3013917955af43b0d4fe1ec4b8d3260f/tsml-0.1.0.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [iloscar-win]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [iloscar-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar_win-0.1.6.tar.gz tmp/iloscar_win-0.1.7.tar.gz --markdown 20230518/i/iloscar-win/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-redshift]: Downloading https://files.pythonhosted.org/packages/fc/f1/f2f3a827c96fa9d52b264c187dbf903a334b15ae11e799a715a37db23bf6/grai_source_redshift-0.0.5.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-mysql]: Downloading https://files.pythonhosted.org/packages/84/27/51123a553dd5bfb28748bcd4c356d47c5d7021dec5ca93d920c0b4c0d21f/grai_source_mysql-0.0.9.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [tsml]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [tsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsml-0.0.7.tar.gz tmp/tsml-0.1.0.tar.gz --markdown 20230518/t/tsml/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [aioconnectors]: Downloading https://files.pythonhosted.org/packages/04/32/466198301edc938dff7103e8751d89b58dd66b15e1e6b9ed8e77a4a21ac3/aioconnectors-1.6.3.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-snowflake]: Downloading https://files.pythonhosted.org/packages/f2/87/9fe93763b362cba570a74426e4e9f11d287431b4dda4423a869044d6ae27/grai_source_snowflake-0.0.9.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pop-ml]: Downloading https://files.pythonhosted.org/packages/7f/d8/34181c0ea3f8ab6b6f0978f9a9e59d443555c9bd2fd5f7a847d39f271628/pop-ml-0.2.0.tar.gz
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-mysql]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mysql-0.0.8.tar.gz tmp/grai_source_mysql-0.0.9.tar.gz --markdown 20230518/g/grai-source-mysql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-snowflake]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_snowflake-0.0.8.tar.gz tmp/grai_source_snowflake-0.0.9.tar.gz --markdown 20230518/g/grai-source-snowflake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pop-ml]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [pop-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-ml-0.1.1.tar.gz tmp/pop-ml-0.2.0.tar.gz --markdown 20230518/p/pop-ml/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-redshift]: executing diffoscope
+[2023-05-18 19:38:13] INFO root fetch - processPackages [grai-source-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_redshift-0.0.4.tar.gz tmp/grai_source_redshift-0.0.5.tar.gz --markdown 20230518/g/grai-source-redshift/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 19:38:14] INFO root fetch - processPackages [aioconnectors]: executing diffoscope
+[2023-05-18 19:38:14] INFO root fetch - processPackages [aioconnectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioconnectors-1.6.2.tar.gz tmp/aioconnectors-1.6.3.tar.gz --markdown 20230518/a/aioconnectors/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-05-18 19:38:14] INFO root fetch - processPackages [pystripe]: Start processing: grai-source-mssql
+[2023-05-18 19:38:14] INFO root fetch - main [MainThread]: End processing [pystripe]: success
+[2023-05-18 19:38:14] INFO root fetch - processPackages [grai-source-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/57/e5/060b31752bc15a5f0accdcbeb93bd5611b8e8cd7f280a9df0bc4dcbd9016/grai_source_mssql-0.0.8.tar.gz
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-snowflake]: Start processing: jppype
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [grai-source-snowflake]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-mssql]: Downloading https://files.pythonhosted.org/packages/a4/cb/002467283ef3818efcb2835e23c1747834ecda5a52dfdf4ee41eb801e862/grai_source_mssql-0.0.9.tar.gz
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-mysql]: Start processing: flytekit
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [grai-source-mysql]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [turbine-py]: Start processing: ephysiopy
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [turbine-py]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-redshift]: Start processing: flytekitplugins-athena
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [grai-source-redshift]: success
+[2023-05-18 19:38:15] WARNING root fetch - processPackages [jppype]: Skipping, unable to determine old version
+[2023-05-18 19:38:15] INFO root fetch - processPackages [jppype]: Start processing: flytekitplugins-awsbatch
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [jppype] error
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-mssql]: executing diffoscope
+[2023-05-18 19:38:15] INFO root fetch - processPackages [grai-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_mssql-0.0.8.tar.gz tmp/grai_source_mssql-0.0.9.tar.gz --markdown 20230518/g/grai-source-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekit]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.18] Old Version: [1.9.17]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-athena]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-awsbatch]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [iloscar-win]: Start processing: flytekitplugins-awssagemaker
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [iloscar-win]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/77/c7/a05ab91094c09e65f5cadffd39bb9318f58bc3fe8ac86a3c31760bbbe0f8/ephysiopy-1.9.17.tar.gz
+[2023-05-18 19:38:15] INFO root fetch - processPackages [pop-ml]: Start processing: flytekitplugins-bigquery
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [pop-ml]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-bigquery]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekit]: executing diffoscope
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekit-1.6.1.tar.gz tmp/flytekit-1.6.1b0.tar.gz --markdown 20230518/f/flytekit/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-athena]: executing diffoscope
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-athena-1.6.1.tar.gz tmp/flytekitplugins-athena-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-athena/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:15] INFO root fetch - processPackages [aioconnectors]: Start processing: flytekitplugins-data-fsspec
+[2023-05-18 19:38:15] INFO root fetch - main [MainThread]: End processing [aioconnectors]: success
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-awsbatch]: executing diffoscope
+[2023-05-18 19:38:15] INFO root fetch - processPackages [flytekitplugins-awsbatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-awsbatch-1.6.1.tar.gz tmp/flytekitplugins-awsbatch-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-awsbatch/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:15] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/b5/58/c79ab50ec59a4dc7b8069ae6a61fa1164f93bdf4a79cecdcbd18aa8d29b4/ephysiopy-1.9.18.tar.gz
+[2023-05-18 19:38:16] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.17.tar.gz tmp/ephysiopy-1.9.18.tar.gz --markdown 20230518/e/ephysiopy/1.9.17-1.9.18/diff.md --exclude *.pyd
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-awssagemaker-1.6.1.tar.gz tmp/flytekitplugins-awssagemaker-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-awssagemaker/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:16] INFO root fetch - processPackages [evals-nightly]: Start processing: flytekitplugins-dbt
+[2023-05-18 19:38:16] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-bigquery]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-bigquery-1.6.1.tar.gz tmp/flytekitplugins-bigquery-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-bigquery/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-dbt]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-data-fsspec-1.6.1.tar.gz tmp/flytekitplugins-data-fsspec-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-data-fsspec/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:16] INFO root fetch - processPackages [grai-source-mssql]: Start processing: sfkit
+[2023-05-18 19:38:16] INFO root fetch - main [MainThread]: End processing [grai-source-mssql]: success
+[2023-05-18 19:38:16] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 19:38:16] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230518/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-dbt]: executing diffoscope
+[2023-05-18 19:38:16] INFO root fetch - processPackages [flytekitplugins-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-dbt-1.6.1.tar.gz tmp/flytekitplugins-dbt-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-dbt/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-athena]: Start processing: flytekitplugins-deck-standard
+[2023-05-18 19:38:17] INFO root fetch - main [MainThread]: End processing [flytekitplugins-athena]: success
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Start processing: flytekitplugins-dolt
+[2023-05-18 19:38:17] INFO root fetch - main [MainThread]: End processing [flytekitplugins-awsbatch]: success
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-deck-standard]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-dolt]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-bigquery]: Start processing: flytekitplugins-duckdb
+[2023-05-18 19:38:17] INFO root fetch - main [MainThread]: End processing [flytekitplugins-bigquery]: success
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-duckdb]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-deck-standard]: executing diffoscope
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-deck-standard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-deck-standard-1.6.1.tar.gz tmp/flytekitplugins-deck-standard-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-deck-standard/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-dolt]: executing diffoscope
+[2023-05-18 19:38:17] INFO root fetch - processPackages [flytekitplugins-dolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-dolt-1.6.1.tar.gz tmp/flytekitplugins-dolt-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-dolt/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Start processing: flytekitplugins-envd
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [flytekitplugins-data-fsspec]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-envd]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:18] INFO root fetch - processPackages [tsml]: Start processing: flytekitplugins-great-expectations
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [tsml]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Start processing: flytekitplugins-hive
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [flytekitplugins-awssagemaker]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-great-expectations]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-dbt]: Start processing: ndradex
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [flytekitplugins-dbt]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-duckdb]: executing diffoscope
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-duckdb-1.6.1.tar.gz tmp/flytekitplugins-duckdb-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-duckdb/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-hive]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:18] INFO root fetch - processPackages [sfkit]: Start processing: flytekitplugins-huggingface
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [ndradex]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-envd]: executing diffoscope
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-envd-1.6.1.tar.gz tmp/flytekitplugins-envd-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-envd/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-great-expectations]: executing diffoscope
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-great_expectations-1.6.1.tar.gz tmp/flytekitplugins-great_expectations-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-great-expectations/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekit]: Start processing: flytekitplugins-pod
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [flytekit]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-huggingface]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:18] INFO root fetch - processPackages [ndradex]: Downloading https://files.pythonhosted.org/packages/d4/ae/d53e92c14f624d24796bdefa02063278c7b4c6470a1e50f176f11a5c02dc/ndradex-0.2.2.tar.gz
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-hive]: executing diffoscope
+[2023-05-18 19:38:18] INFO root fetch - processPackages [flytekitplugins-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-hive-1.6.1.tar.gz tmp/flytekitplugins-hive-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-hive/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:18] INFO root fetch - processPackages [ephysiopy]: Start processing: flytekitplugins-kfmpi
+[2023-05-18 19:38:18] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-05-18 19:38:18] INFO root fetch - processPackages [ndradex]: Downloading https://files.pythonhosted.org/packages/c0/53/22c6aef03b1a44286aa9832031143af0717ee8dd1191b78f528b22b914b7/ndradex-0.3.0.tar.gz
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-huggingface]: executing diffoscope
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-huggingface-1.6.1.tar.gz tmp/flytekitplugins-huggingface-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-huggingface/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:19] INFO root fetch - processPackages [ndradex]: executing diffoscope
+[2023-05-18 19:38:19] INFO root fetch - processPackages [ndradex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndradex-0.2.2.tar.gz tmp/ndradex-0.3.0.tar.gz --markdown 20230518/n/ndradex/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-kfmpi]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:19] INFO root fetch - main [MainThread]: End processing [flytekitplugins-deck-standard]: success
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-pod]: New version: [1.6.1b0] Old Version: [1.6.1]
+[2023-05-18 19:38:19] INFO root fetch - main [MainThread]: End processing [flytekitplugins-dolt]: success
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-kfmpi]: executing diffoscope
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-kfmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-kfmpi-1.6.1.tar.gz tmp/flytekitplugins-kfmpi-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-kfmpi/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:19] INFO root fetch - main [MainThread]: End processing [flytekitplugins-duckdb]: success
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-pod]: executing diffoscope
+[2023-05-18 19:38:19] INFO root fetch - processPackages [flytekitplugins-pod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-pod-1.6.1.tar.gz tmp/flytekitplugins-pod-1.6.1b0.tar.gz --markdown 20230518/f/flytekitplugins-pod/1.6.1-1.6.1b0/diff.md --exclude *.pyd
+[2023-05-18 19:38:19] INFO root fetch - main [MainThread]: End processing [flytekitplugins-envd]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-great-expectations]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-hive]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-huggingface]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [ndradex]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-kfmpi]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-pod]: success
+[2023-05-18 19:38:20] INFO root fetch - main [MainThread]: Store serial: [18157926]
