@@ -16614,3 +16614,116 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:30:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-05-18 15:30:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-18 15:30:42] INFO root fetch - main [MainThread]: Store serial: [18154810]
+[2023-05-18 15:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154810]
+[2023-05-18 15:35:52] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cai-causal-graph
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parse-it
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-pygenerator
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shahid-ip-module
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: socialmediaborders
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspeaker
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mat-enm
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shahid-ip-module
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb
+[2023-05-18 15:35:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-client
+[2023-05-18 15:35:52] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:35:52] WARNING root fetch - processPackages [mat-enm]: Skipping, unable to determine old version
+[2023-05-18 15:35:52] INFO root fetch - processPackages [mat-enm]: Start processing: nucliadb-dataset
+[2023-05-18 15:35:52] INFO root fetch - main [MainThread]: End processing [mat-enm] error
+[2023-05-18 15:35:52] WARNING root fetch - processPackages [socialmediaborders]: Skipping, unable to determine old version
+[2023-05-18 15:35:52] INFO root fetch - processPackages [socialmediaborders]: Start processing: nucliadb-models
+[2023-05-18 15:35:52] INFO root fetch - main [MainThread]: End processing [socialmediaborders] error
+[2023-05-18 15:35:52] WARNING root fetch - processPackages [cai-causal-graph]: Skipping, unable to determine old version
+[2023-05-18 15:35:52] INFO root fetch - processPackages [cai-causal-graph]: Start processing: nucliadb-protos
+[2023-05-18 15:35:52] INFO root fetch - main [MainThread]: End processing [cai-causal-graph] error
+[2023-05-18 15:35:52] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [shahid-ip-module]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 15:35:52] WARNING root fetch - processPackages [pyspeaker]: Skipping, unable to determine old version
+[2023-05-18 15:35:52] INFO root fetch - processPackages [shahid-ip-module]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [pyspeaker]: Start processing: nucliadb-sdk
+[2023-05-18 15:35:52] INFO root fetch - main [MainThread]: End processing [pyspeaker] error
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb-client]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:52] INFO root fetch - processPackages [shahid-ip-module]: Downloading https://files.pythonhosted.org/packages/a5/d1/38fa3218af346ccfa20ae202a7c4cac14a6ade56398bd6b19a2be3bc1ba4/shahid_ip_module-0.0.1.tar.gz
+[2023-05-18 15:35:52] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-05-18 15:35:52] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_pygenerator-0.0.8.tar.gz tmp/openai_pygenerator-0.0.9.tar.gz --markdown 20230518/o/openai-pygenerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:35:52] INFO root fetch - processPackages [shahid-ip-module]: Downloading https://files.pythonhosted.org/packages/a5/d1/38fa3218af346ccfa20ae202a7c4cac14a6ade56398bd6b19a2be3bc1ba4/shahid_ip_module-0.0.1.tar.gz
+[2023-05-18 15:35:52] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_client-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-client/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: Downloading https://files.pythonhosted.org/packages/ce/a5/df8a57353e96bb2dd611b17d7cf7c6ee99778ee4508f68e782d144120251/shahid_ip_module-0.0.2.tar.gz
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: Downloading https://files.pythonhosted.org/packages/ce/a5/df8a57353e96bb2dd611b17d7cf7c6ee99778ee4508f68e782d144120251/shahid_ip_module-0.0.2.tar.gz
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shahid_ip_module-0.0.1.tar.gz tmp/shahid_ip_module-0.0.2.tar.gz --markdown 20230518/s/shahid-ip-module/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [shahid-ip-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shahid_ip_module-0.0.1.tar.gz tmp/shahid_ip_module-0.0.2.tar.gz --markdown 20230518/s/shahid-ip-module/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:35:53] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-05-18 15:35:53] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-18 15:35:53] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230518/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-18 15:35:54] INFO root fetch - processPackages [openai-pygenerator]: Start processing: nucliadb-utils
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-client]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: jupyterlab-optumi
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20230518/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2023-05-18 15:35:54] INFO root fetch - processPackages [shahid-ip-module]: Start processing: optumi-api
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [shahid-ip-module]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [shahid-ip-module]: Start processing: gpt-term
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [shahid-ip-module]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-05-18 15:35:54] INFO root fetch - processPackages [nucliadb-models]: Start processing: resqpy
+[2023-05-18 15:35:54] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-18 15:35:54] INFO root fetch - processPackages [optumi-api]: New version: [3.15.8] Old Version: [3.15.7]
+[2023-05-18 15:35:54] INFO root fetch - processPackages [gpt-term]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-18 15:35:54] INFO root fetch - processPackages [resqpy]: New version: [4.8.6] Old Version: [4.8.5]
+[2023-05-18 15:35:55] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/0f/f1/00e3404aaeb9e202eb7b293139cb11434a2e1d01ee52a64f28e9049e9c13/optumi-api-3.15.7.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nonebot-plugin-hoshino-sign
+[2023-05-18 15:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-18 15:35:55] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-18 15:35:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-18 15:35:55] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230518/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:35:55] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-18 15:35:55] INFO root fetch - processPackages [nonebot-plugin-hoshino-sign]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-18 15:35:55] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/4f/d3/37c53d288732597be0459d554f12c7e781e6622337b6589ca7225552f1a2/resqpy-4.8.5.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/f4/ca/443e21d03c3ab31eb428943831dc188021436fb884556413515f7ef38530/optumi-api-3.15.8.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [gpt-term]: Downloading https://files.pythonhosted.org/packages/40/8a/cff3e19fa42924918945fc4b9d8e39cf07f99fd4d47f77654d3152669049/gpt-term-1.1.0.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [optumi-api]: executing diffoscope
+[2023-05-18 15:35:55] INFO root fetch - processPackages [optumi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi-api-3.15.7.tar.gz tmp/optumi-api-3.15.8.tar.gz --markdown 20230518/o/optumi-api/3.15.7-3.15.8/diff.md --exclude *.pyd
+[2023-05-18 15:35:55] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/4b/42/4124a68cf45b9ff2ac891d58ecdad964ca12cc26a2556861a4fcaa47559a/resqpy-4.8.6.tar.gz
+[2023-05-18 15:35:55] INFO root fetch - processPackages [nonebot-plugin-hoshino-sign]: Downloading https://files.pythonhosted.org/packages/08/b8/69313b0df04e2ee1a6c57094a36813d0a880b11a0183c8d1db829886a593/nonebot_plugin_hoshino_sign-2.0.7.tar.gz
+[2023-05-18 15:35:55] WARNING root fetch - processPackages [nonebot-plugin-hoshino-sign]: Skipping package: exceeds size limit 40700043>=10485760
+[2023-05-18 15:35:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hoshino-sign] error
+[2023-05-18 15:35:55] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-05-18 15:35:55] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.8.5.tar.gz tmp/resqpy-4.8.6.tar.gz --markdown 20230518/r/resqpy/4.8.5-4.8.6/diff.md --exclude *.pyd
+[2023-05-18 15:35:56] INFO root fetch - processPackages [gpt-term]: executing diffoscope
+[2023-05-18 15:35:56] INFO root fetch - processPackages [gpt-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-term-1.0.5.tar.gz tmp/gpt-term-1.1.0.tar.gz --markdown 20230518/g/gpt-term/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 15:35:56] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-18 15:35:56] INFO root fetch - main [MainThread]: End processing [optumi-api]: success
+[2023-05-18 15:35:56] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-18 15:35:56] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-18 15:35:57] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2023-05-18 15:35:57] INFO root fetch - main [MainThread]: End processing [gpt-term]: success
+[2023-05-18 15:35:57] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-05-18 15:35:58] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-05-18 15:35:58] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230518/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-05-18 15:36:09] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-05-18 15:36:09] INFO root fetch - main [MainThread]: Store serial: [18154868]
