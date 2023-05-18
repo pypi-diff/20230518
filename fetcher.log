@@ -6093,3 +6093,57 @@
 [2023-05-18 06:07:18] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-18 06:07:18] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
 [2023-05-18 06:07:18] INFO root fetch - main [MainThread]: Store serial: [18149205]
+[2023-05-18 06:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149205]
+[2023-05-18 06:12:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-delivery-carrier-label-gls
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-delivery-carrier-deposit
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-stock-picking-delivery-rate
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echolocator
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cubetools
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerv
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-bottle
+[2023-05-18 06:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imap-structure
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.0.5] Old Version: [1.0.0.4]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: New version: [9.0.0.1.1.99.dev9] Old Version: [9.0.0.1.1.99.dev8]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo8-addon-delivery-carrier-label-gls]: New version: [8.0.0.1.1.99.dev2] Old Version: [8.0.0.1.1.99.dev1]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nerv]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [echolocator]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [cubetools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [imap-structure]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0.4.tar.gz tmp/nonebot_plugin_bottle-1.0.0.5.tar.gz --markdown 20230518/n/nonebot-plugin-bottle/1.0.0.4-1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo8-addon-delivery-carrier-label-gls]: executing diffoscope
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo8-addon-delivery-carrier-label-gls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_delivery_carrier_label_gls-8.0.0.1.1.99.dev1-py2-none-any.whl.zip tmp/odoo8_addon_delivery_carrier_label_gls-8.0.0.1.1.99.dev2-py2-none-any.whl.zip --markdown 20230518/o/odoo8-addon-delivery-carrier-label-gls/8.0.0.1.1.99.dev1-8.0.0.1.1.99.dev2/diff.md --exclude *.pyd
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/a9/a3/9c6d3972c487b511ba39c08e90f167c270ee1f604b09bfa0c518688db59a/nerv-0.1.1.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/18/7f/4b30a9a24843dda2982169bf12d17f1c84cd60bf09d832ba25a7bb37bd38/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: Downloading https://files.pythonhosted.org/packages/13/3e/1e02bc52891611aef9895c01429bf9c59eef1bb912ca2fb9d889c4db1974/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-18 06:12:28] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/cd/9f/a68de426763b0df755452f0f51844fdab8d92bab24f77be59d0b1248be8c/cubetools-0.3.1.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/f7/e8/358bb03157c5102a8e7f47426ae556c176ae3293988e60f0a8067bfd8bde/echolocator-1.3.0.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/d2/cd/a97f811cb280cc223ad7fbceeee70e5893fdd1604d20b118af38c7a3649e/imap_structure-0.1.2.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [imap-structure]: executing diffoscope
+[2023-05-18 06:12:28] INFO root fetch - processPackages [imap-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_structure-0.1.1.tar.gz tmp/imap_structure-0.1.2.tar.gz --markdown 20230518/i/imap-structure/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/46/1e/afb835225db98f13b423eee0b15b897bd33f7c7b86aee77ad1fd4ae46303/nerv-0.2.0.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/4a/6b/ee38f6ecb21d2c2087b9bc68b1a8d88e7bcb57d676a24ca76c2c525581e2/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev9-py2-none-any.whl
+[2023-05-18 06:12:28] INFO root fetch - processPackages [cubetools]: Downloading https://files.pythonhosted.org/packages/95/8b/12e271bdaf3417100b3dcc7b923d904665bfaa42eb988c6933ee4fb5f38b/cubetools-0.3.2.tar.gz
+[2023-05-18 06:12:28] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: Downloading https://files.pythonhosted.org/packages/d1/a0/aafb1da2b69af800ce222beeb8b279289990f80d99807d856451583b6e27/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nerv]: executing diffoscope
+[2023-05-18 06:12:28] INFO root fetch - processPackages [nerv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerv-0.1.1.tar.gz tmp/nerv-0.2.0.tar.gz --markdown 20230518/n/nerv/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 06:12:28] INFO root fetch - processPackages [cubetools]: executing diffoscope
+[2023-05-18 06:12:28] INFO root fetch - processPackages [cubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubetools-0.3.1.tar.gz tmp/cubetools-0.3.2.tar.gz --markdown 20230518/c/cubetools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-18 06:12:29] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: executing diffoscope
+[2023-05-18 06:12:29] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230518/o/odoo9-addon-delivery-carrier-deposit/9.0.0.1.1.99.dev8-9.0.0.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 06:12:29] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/8b/f2/a5b68237b21c7ce5bb8e5bf6e498afc0f93311fb36f7f3722ffbc48b79cf/echolocator-1.3.2.tar.gz
+[2023-05-18 06:12:29] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: executing diffoscope
+[2023-05-18 06:12:29] INFO root fetch - processPackages [odoo9-addon-stock-picking-delivery-rate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_stock_picking_delivery_rate-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230518/o/odoo9-addon-stock-picking-delivery-rate/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-18 06:12:29] INFO root fetch - processPackages [echolocator]: executing diffoscope
+[2023-05-18 06:12:29] INFO root fetch - processPackages [echolocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolocator-1.3.0.tar.gz tmp/echolocator-1.3.2.tar.gz --markdown 20230518/e/echolocator/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-05-18 06:12:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-05-18 06:12:29] INFO root fetch - main [MainThread]: End processing [imap-structure]: success
+[2023-05-18 06:12:30] INFO root fetch - main [MainThread]: End processing [nerv]: success
+[2023-05-18 06:12:30] INFO root fetch - main [MainThread]: End processing [cubetools]: success
+[2023-05-18 06:12:30] INFO root fetch - main [MainThread]: End processing [odoo9-addon-delivery-carrier-deposit]: success
+[2023-05-18 06:12:30] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-picking-delivery-rate]: success
+[2023-05-18 06:12:31] INFO root fetch - main [MainThread]: End processing [echolocator]: success
+[2023-05-18 06:12:31] INFO root fetch - main [MainThread]: End processing [odoo8-addon-delivery-carrier-label-gls]: success
+[2023-05-18 06:12:31] INFO root fetch - main [MainThread]: Store serial: [18149225]
