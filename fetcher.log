@@ -16212,3 +16212,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:07:58] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-18 15:08:31] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-18 15:08:31] INFO root fetch - main [MainThread]: Store serial: [18154551]
+[2023-05-18 15:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154551]
+[2023-05-18 15:13:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paitest
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-management
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audapa
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspeaker
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asimov-gwdata
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-pbx-admin
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pytorch
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multidimensionalks
+[2023-05-18 15:13:41] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [pyspeaker]: New version: [1.2] Old Version: [1.1]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [paitest]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [asimov-gwdata]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [audapa]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-05-18 15:13:41] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230518/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 15:13:41] INFO root fetch - processPackages [ml-management]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:13:41] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 15:13:41] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:13:42] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/e0/64/dda8eba852c46aebf93c8a866e2459b5b7e249f263b6f40b694b36adea20/pyspeaker-1.2.win-amd64.zip
+[2023-05-18 15:13:42] INFO root fetch - processPackages [paitest]: Downloading https://files.pythonhosted.org/packages/32/40/8c3101cd1fa21a59ca15dfada980a22dbca390f7de933405f7e7e564caf6/paitest-1.0.1-py3-none-any.whl
+[2023-05-18 15:13:42] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/e4/02/23dadd23b2903ceafb94e182d492c90497f254d1abaa4890108c5b486bc5/ml-management-0.0.31.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/0f/df/5b0cdf2d588c746e58984ec47584774695b0cfe8b3884ad75c994204713b/asimov-gwdata-0.1.4.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [audapa]: Downloading https://files.pythonhosted.org/packages/e8/da/6aad30e271da1afdc2a1ea6e55380bb2c52183925c7e72fbe29fcf9a8cbd/audapa-1.0.6.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-1.1.win-amd64.zip tmp/pyspeaker-1.2.win-amd64.zip --markdown 20230518/p/pyspeaker/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/12/d3/9ce5be8339fb84ea3fe9c358f1f3833291ea43981d0fcf0c5a18e60615c3/ml-management-0.0.32.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230518/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [asimov-gwdata]: Downloading https://files.pythonhosted.org/packages/f6/e7/80124c9fdfb3c344f92c2365a96ea0b76642451233db91cdbbbaa2057b92/asimov-gwdata-0.1.5.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230518/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [paitest]: Downloading https://files.pythonhosted.org/packages/04/6b/ec90348821cdde72c61b34578dce289bbf39ce59a25ee85b84d2471340f3/paitest-1.1.0-py3-none-any.whl
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230518/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.31.tar.gz tmp/ml-management-0.0.32.tar.gz --markdown 20230518/m/ml-management/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [paitest]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [paitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paitest-1.0.1-py3-none-any.whl.zip tmp/paitest-1.1.0-py3-none-any.whl.zip --markdown 20230518/p/paitest/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [audapa]: Downloading https://files.pythonhosted.org/packages/ee/2b/d3f8aa47d026ec1a383816c651a6aaaacf86d68a75d8d10101142f8e2d6c/audapa-1.0.8.tar.gz
+[2023-05-18 15:13:42] INFO root fetch - processPackages [asimov-gwdata]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [asimov-gwdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-gwdata-0.1.4.tar.gz tmp/asimov-gwdata-0.1.5.tar.gz --markdown 20230518/a/asimov-gwdata/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 15:13:42] INFO root fetch - processPackages [audapa]: executing diffoscope
+[2023-05-18 15:13:42] INFO root fetch - processPackages [audapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audapa-1.0.6.tar.gz tmp/audapa-1.0.8.tar.gz --markdown 20230518/a/audapa/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 15:13:43] INFO root fetch - processPackages [pyspeaker]: Start processing: nbdev-scipy
+[2023-05-18 15:13:43] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-18 15:13:43] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 15:13:43] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: scitools-iris
+[2023-05-18 15:13:43] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-18 15:13:43] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-18 15:13:43] INFO root fetch - main [MainThread]: End processing [paitest]: success
+[2023-05-18 15:13:43] INFO root fetch - processPackages [scitools-iris]: New version: [3.6.0rc0] Old Version: [3.6.0]
+[2023-05-18 15:13:44] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-05-18 15:13:44] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/30/81/8eea40eb865c469d247679f976f2a516596ea673b8b99b996d19959bc81e/scitools-iris-3.6.0.tar.gz
+[2023-05-18 15:13:44] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-18 15:13:44] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230518/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 15:13:44] INFO root fetch - main [MainThread]: End processing [asimov-gwdata]: success
+[2023-05-18 15:13:44] INFO root fetch - main [MainThread]: End processing [audapa]: success
+[2023-05-18 15:13:44] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-18 15:13:44] INFO root fetch - processPackages [scitools-iris]: Downloading https://files.pythonhosted.org/packages/f5/2d/fa5b170d362437e8a3f14b1d9078733c313dc4e3963910521cda85b55dfb/scitools-iris-3.6.0rc0.tar.gz
+[2023-05-18 15:13:44] INFO root fetch - processPackages [scitools-iris]: executing diffoscope
+[2023-05-18 15:13:44] INFO root fetch - processPackages [scitools-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitools-iris-3.6.0.tar.gz tmp/scitools-iris-3.6.0rc0.tar.gz --markdown 20230518/s/scitools-iris/3.6.0-3.6.0rc0/diff.md --exclude *.pyd
+[2023-05-18 15:13:45] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-18 15:13:48] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 15:13:48] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-05-18 15:14:08] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
+[2023-05-18 15:14:08] INFO root fetch - main [MainThread]: Store serial: [18154592]
