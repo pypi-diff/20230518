@@ -17775,3 +17775,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:46:38] INFO root fetch - main [MainThread]: End processing [apicurio-registry-python-sdk-preview]: success
 [2023-05-18 16:46:39] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-05-18 16:46:39] INFO root fetch - main [MainThread]: Store serial: [18155503]
+[2023-05-18 16:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155503]
+[2023-05-18 16:51:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pe-configurator
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytmv1
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prowler
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkwasm-dicom-emscripten
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sym-flow-cli
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multidecoder
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hnhm
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cursesplus
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-05-18 16:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syngenta-digital-adapt
+[2023-05-18 16:51:49] INFO root fetch - processPackages [prowler]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [pytmv1]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [pe-configurator]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [multidecoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [cursesplus]: New version: [2.1] Old Version: [2.0.6]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [hnhm]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [syngenta-digital-adapt]: New version: [0.0.0b1] Old Version: [0.0.0]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [policyengine-us]: New version: [0.317.1] Old Version: [0.317.0]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [sym-flow-cli]: New version: [8.0.0] Old Version: [7.4.0]
+[2023-05-18 16:51:49] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/75/04/aaadf46242a36737cc2f751f819077814f2fb3b927c000553acf6fe48895/cursesplus-2.0.6.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/d6/69/2c322196bb6f1e526dd628ab352a081def79f8b1af08cd61d84c00948660/prowler-3.5.1.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [syngenta-digital-adapt]: Downloading https://files.pythonhosted.org/packages/0a/df/f136f203a2c92b1b61ebb9be576184e3d5d7e5d16146574198a190391388/syngenta_digital_adapt-0.0.0.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [multidecoder]: Downloading https://files.pythonhosted.org/packages/9a/72/ad056863c8e118de542ccde6753e8bd4e7efd6108e692081be5e4f20ec49/multidecoder-0.0.8.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [sym-flow-cli]: Downloading https://files.pythonhosted.org/packages/0a/05/a197d8144957c2cd18affe4c20066fa17ec394206f36b609fd3f277167c9/sym_flow_cli-7.4.0.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/84/4a/151a3b705822fa300badfe3def78658424c5d3569c32d12efa1906018565/itkwasm_dicom_emscripten-2.0.1.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/c4/74/8a856ea2266149d68dac5c65e78419aab7244c5067d373c5f89c0591417f/pe-configurator-0.1.6.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [hnhm]: Downloading https://files.pythonhosted.org/packages/ff/52/387edc77911cc83a1a39d0d500b75c684841f09eb6231cfdc1d2f51d416f/hnhm-0.0.6.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/af/d4/4280694f381c30609e799e8b747b91b822a094461f1262a2e9bb0344f152/policyengine-us-0.317.0.tar.gz
+[2023-05-18 16:51:49] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/5b/fc/9f55576a889a58450bb09f00c8a651e63da439ed274bc304e0f68fd70a2a/pytmv1-0.5.1.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/cf/4e/566dd571f2de3dcd74a9e932f71fb4a9585f4a45d9ea0d48cd9a0551d1bf/cursesplus-2.1.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [syngenta-digital-adapt]: Downloading https://files.pythonhosted.org/packages/dc/c3/e2c02d5c3ee4246c702059ba605241d8db62560617574ad11f53b939c5e4/syngenta_digital_adapt-0.0.0b1.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/8a/b0/03a9ef96bf28ba80fde862f541ac898c099d2601342440b5f63e11f54b04/prowler-3.5.2.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [sym-flow-cli]: Downloading https://files.pythonhosted.org/packages/41/cc/f466b014d930488cf02cb12a51b4791d1034334b7ea640db5aa06d912917/sym_flow_cli-8.0.0.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [pytmv1]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [pytmv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmv1-0.5.0.tar.gz tmp/pytmv1-0.5.1.tar.gz --markdown 20230518/p/pytmv1/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.0.6.tar.gz tmp/cursesplus-2.1.tar.gz --markdown 20230518/c/cursesplus/2.0.6-2.1/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [multidecoder]: Downloading https://files.pythonhosted.org/packages/65/1b/bd2a37581aea6c55355343973ecd108eb9a6f60b8902473ee14db5c856e3/multidecoder-0.0.9.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [pe-configurator]: Downloading https://files.pythonhosted.org/packages/13/c6/005d96971d3dc9f74e7f579d8be8960d4818664caa9276b8d1585f356384/pe-configurator-0.1.7.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Downloading https://files.pythonhosted.org/packages/1b/fa/dad3ee9430bc940bdd439d91a93a7e5761a3d3063d65949de168c7dc7168/itkwasm_dicom_emscripten-2.0.2.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/19/3d/18862cd000d563098351742a789fbee470e473fca4409ebdae3c8bd2a562/policyengine-us-0.317.1.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [hnhm]: Downloading https://files.pythonhosted.org/packages/bb/30/889772341539e2524016f2be24e97199ee0f2e69e579aa446ad78dd1cac6/hnhm-0.0.7.tar.gz
+[2023-05-18 16:51:50] INFO root fetch - processPackages [sym-flow-cli]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [sym-flow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sym_flow_cli-7.4.0.tar.gz tmp/sym_flow_cli-8.0.0.tar.gz --markdown 20230518/s/sym-flow-cli/7.4.0-8.0.0/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [multidecoder]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [multidecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidecoder-0.0.8.tar.gz tmp/multidecoder-0.0.9.tar.gz --markdown 20230518/m/multidecoder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_emscripten-2.0.1.tar.gz tmp/itkwasm_dicom_emscripten-2.0.2.tar.gz --markdown 20230518/i/itkwasm-dicom-emscripten/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [syngenta-digital-adapt]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [syngenta-digital-adapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngenta_digital_adapt-0.0.0.tar.gz tmp/syngenta_digital_adapt-0.0.0b1.tar.gz --markdown 20230518/s/syngenta-digital-adapt/0.0.0-0.0.0b1/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [hnhm]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [hnhm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnhm-0.0.6.tar.gz tmp/hnhm-0.0.7.tar.gz --markdown 20230518/h/hnhm/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [pe-configurator]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [pe-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pe-configurator-0.1.6.tar.gz tmp/pe-configurator-0.1.7.tar.gz --markdown 20230518/p/pe-configurator/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.5.1.tar.gz tmp/prowler-3.5.2.tar.gz --markdown 20230518/p/prowler/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:50] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-18 16:51:50] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.317.0.tar.gz tmp/policyengine-us-0.317.1.tar.gz --markdown 20230518/p/policyengine-us/0.317.0-0.317.1/diff.md --exclude *.pyd
+[2023-05-18 16:51:51] INFO root fetch - processPackages [syngenta-digital-adapt]: Start processing: itkwasm-dicom-wasi
+[2023-05-18 16:51:51] INFO root fetch - main [MainThread]: End processing [syngenta-digital-adapt]: success
+[2023-05-18 16:51:51] INFO root fetch - processPackages [itkwasm-dicom-wasi]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-18 16:51:51] INFO root fetch - processPackages [pytmv1]: Start processing: netbox-cisco-maintenance
+[2023-05-18 16:51:51] INFO root fetch - main [MainThread]: End processing [pytmv1]: success
+[2023-05-18 16:51:51] INFO root fetch - processPackages [cursesplus]: Start processing: pioneer-sdk
+[2023-05-18 16:51:51] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-05-18 16:51:51] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 16:51:51] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/41/a1/d6b90ef75c9eb9083bb70cb5c7101697958a5e406467cb5a66cbc26e36bf/itkwasm_dicom_wasi-2.0.1.tar.gz
+[2023-05-18 16:51:51] INFO root fetch - processPackages [pioneer-sdk]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-18 16:51:51] INFO root fetch - processPackages [itkwasm-dicom-emscripten]: Start processing: itkwasm-dicom
+[2023-05-18 16:51:51] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-emscripten]: success
+[2023-05-18 16:51:51] INFO root fetch - processPackages [itkwasm-dicom]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-18 16:51:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/a2/ff/42dda72d5c10bf687ddc5a1773a3f0df07ed87f93722f481ab427d25f7f7/netbox-cisco-maintenance-0.0.3.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [pioneer-sdk]: Downloading https://files.pythonhosted.org/packages/80/15/3b72a247907f4209aca2e9bd1a3fe31b977ee6020bcce110274cbdc31764/pioneer_sdk-0.5.2.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [hnhm]: Start processing: capsulecorp
+[2023-05-18 16:51:52] INFO root fetch - main [MainThread]: End processing [hnhm]: success
+[2023-05-18 16:51:52] INFO root fetch - processPackages [capsulecorp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/d2/9c/e58423b15f0a670acb501b69058d59fc1c3ee4715509ceaf5e85267987d8/itkwasm_dicom-2.0.1.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.2.tar.gz tmp/netbox-cisco-maintenance-0.0.3.tar.gz --markdown 20230518/n/netbox-cisco-maintenance/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom]: Downloading https://files.pythonhosted.org/packages/64/a1/d73065dbbcd4d6340832504cc74b2f3e023dddf03b055c97dbee8d431e5e/itkwasm_dicom-2.0.2.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [pioneer-sdk]: Downloading https://files.pythonhosted.org/packages/04/ee/c929555f1dcf2c503b7bef9759c31d1ea5a80845f3ce29233427cc63101d/pioneer_sdk-0.5.3.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [multidecoder]: Start processing: race-report-by-ng
+[2023-05-18 16:51:52] INFO root fetch - main [MainThread]: End processing [multidecoder]: success
+[2023-05-18 16:51:52] WARNING root fetch - processPackages [race-report-by-ng]: Skipping, unable to determine old version
+[2023-05-18 16:51:52] INFO root fetch - processPackages [race-report-by-ng]: Start processing: meter-gear
+[2023-05-18 16:51:52] INFO root fetch - main [MainThread]: End processing [race-report-by-ng] error
+[2023-05-18 16:51:52] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 16:51:52] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/7c/fa/eff6ae0dcc984955282e437a9593de8c45fe7cbf1bc421493ad81e919448/capsulecorp-0.0.8.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [pioneer-sdk]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [pioneer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioneer_sdk-0.5.2.tar.gz tmp/pioneer_sdk-0.5.3.tar.gz --markdown 20230518/p/pioneer-sdk/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom-2.0.1.tar.gz tmp/itkwasm_dicom-2.0.2.tar.gz --markdown 20230518/i/itkwasm-dicom/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom-wasi]: Downloading https://files.pythonhosted.org/packages/f0/7e/b96a5a90dbb0c3c00c0f366664d352395026d1a7746ee513481440b99e49/itkwasm_dicom_wasi-2.0.2.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [capsulecorp]: Downloading https://files.pythonhosted.org/packages/15/3c/e5aed88348ec376ddb8a741ec16cf43a6089a213830b46c90e6b9f181116/capsulecorp-0.0.9.tar.gz
+[2023-05-18 16:51:52] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230518/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 16:51:52] INFO root fetch - processPackages [capsulecorp]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [capsulecorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsulecorp-0.0.8.tar.gz tmp/capsulecorp-0.0.9.tar.gz --markdown 20230518/c/capsulecorp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom-wasi]: executing diffoscope
+[2023-05-18 16:51:52] INFO root fetch - processPackages [itkwasm-dicom-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_dicom_wasi-2.0.1.tar.gz tmp/itkwasm_dicom_wasi-2.0.2.tar.gz --markdown 20230518/i/itkwasm-dicom-wasi/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:53] INFO root fetch - processPackages [sym-flow-cli]: Start processing: prowler-cloud
+[2023-05-18 16:51:53] INFO root fetch - main [MainThread]: End processing [sym-flow-cli]: success
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prowler-cloud]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-05-18 16:51:53] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: prose
+[2023-05-18 16:51:53] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prose]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/61/0a/654e21195bc9dc0f454cd409ad90d3f42160d54f2ccf95e21a99c036992e/prowler_cloud-3.5.1.tar.gz
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prose]: Downloading https://files.pythonhosted.org/packages/31/90/373b9dbd194ed8192bead6cad5762cbfe9a606ec68913a31fff6db0f728b/prose-3.0.2.tar.gz
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prose]: executing diffoscope
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prose-3.0.1.tar.gz tmp/prose-3.0.2.tar.gz --markdown 20230518/p/prose/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:53] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/3a/a8/13615ad0d788ea6b8f46f6e8866f26781e8552d3ad9e97bf82827bb354d1/prowler_cloud-3.5.2.tar.gz
+[2023-05-18 16:51:54] INFO root fetch - processPackages [capsulecorp]: Start processing: siru
+[2023-05-18 16:51:54] INFO root fetch - main [MainThread]: End processing [capsulecorp]: success
+[2023-05-18 16:51:54] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-05-18 16:51:54] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.5.1.tar.gz tmp/prowler_cloud-3.5.2.tar.gz --markdown 20230518/p/prowler-cloud/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-05-18 16:51:54] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-18 16:51:54] INFO root fetch - processPackages [siru]: New version: [0.7] Old Version: [0.6]
+[2023-05-18 16:51:54] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom]: success
+[2023-05-18 16:51:54] INFO root fetch - processPackages [siru]: Downloading https://files.pythonhosted.org/packages/be/8c/849d72168b8d09a7263f513c356fd5a89356c62aa684fb181490da637ecc/siru-0.6.tar.gz
+[2023-05-18 16:51:54] INFO root fetch - processPackages [siru]: Downloading https://files.pythonhosted.org/packages/a0/27/b1c20c8bab91f49306f7ae11323a2147f1ddbe41260c04983d9f7921c5a1/siru-0.7.tar.gz
+[2023-05-18 16:51:54] INFO root fetch - main [MainThread]: End processing [pioneer-sdk]: success
+[2023-05-18 16:51:54] INFO root fetch - processPackages [siru]: executing diffoscope
+[2023-05-18 16:51:54] INFO root fetch - processPackages [siru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siru-0.6.tar.gz tmp/siru-0.7.tar.gz --markdown 20230518/s/siru/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-18 16:51:55] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi]: success
+[2023-05-18 16:51:55] INFO root fetch - main [MainThread]: End processing [prose]: success
+[2023-05-18 16:51:56] INFO root fetch - main [MainThread]: End processing [siru]: success
+[2023-05-18 16:51:56] INFO root fetch - main [MainThread]: End processing [pe-configurator]: success
+[2023-05-18 16:52:10] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-05-18 16:52:11] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-05-18 16:53:00] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-18 16:53:00] INFO root fetch - main [MainThread]: Store serial: [18155566]
