@@ -7414,3 +7414,36 @@
 [2023-05-18 07:29:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
 [2023-05-18 07:29:43] INFO root fetch - main [MainThread]: End processing [capabilities]: success
 [2023-05-18 07:29:43] INFO root fetch - main [MainThread]: Store serial: [18149729]
+[2023-05-18 07:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149729]
+[2023-05-18 07:34:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-18 07:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edx-event-routing-backends
+[2023-05-18 07:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-05-18 07:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abqcy
+[2023-05-18 07:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imap-structure
+[2023-05-18 07:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: file-managers
+[2023-05-18 07:34:53] INFO root fetch - processPackages [imap-structure]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 07:34:53] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 07:34:53] INFO root fetch - processPackages [edx-event-routing-backends]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-05-18 07:34:53] INFO root fetch - processPackages [abqcy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 07:34:53] INFO root fetch - processPackages [file-managers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 07:34:53] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-18 07:34:53] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230518/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 07:34:53] INFO root fetch - processPackages [file-managers]: executing diffoscope
+[2023-05-18 07:34:53] INFO root fetch - processPackages [file-managers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file-managers-0.8.0.tar.gz tmp/file-managers-0.9.0.tar.gz --markdown 20230518/f/file-managers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 07:34:53] INFO root fetch - processPackages [imap-structure]: Downloading https://files.pythonhosted.org/packages/7b/db/4e6c011ef783b201a797fe555315c0356660f2c1d6208ebf702ea5574a2b/imap_structure-0.1.4.tar.gz
+[2023-05-18 07:34:53] INFO root fetch - processPackages [edx-event-routing-backends]: Downloading https://files.pythonhosted.org/packages/d8/b9/dc6fa9ded07a59fe5dff3a7ef778f5172c4893aa23c6843d937d979c31eb/edx-event-routing-backends-5.3.0.tar.gz
+[2023-05-18 07:34:53] INFO root fetch - processPackages [abqcy]: Downloading https://files.pythonhosted.org/packages/7e/50/e1fd625a894e9535295a2298fee7f9dd62ce990fcd8904f372b543170edf/abqcy-0.0.2.tar.gz
+[2023-05-18 07:34:53] INFO root fetch - processPackages [imap-structure]: executing diffoscope
+[2023-05-18 07:34:53] INFO root fetch - processPackages [imap-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_structure-0.1.3.tar.gz tmp/imap_structure-0.1.4.tar.gz --markdown 20230518/i/imap-structure/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 07:34:53] INFO root fetch - processPackages [abqcy]: Downloading https://files.pythonhosted.org/packages/e8/e5/b16b750b1f9b76c7e5736d64230c5e62a3083b02b6ea5aef6fa809698877/abqcy-0.0.3.tar.gz
+[2023-05-18 07:34:53] INFO root fetch - processPackages [edx-event-routing-backends]: Downloading https://files.pythonhosted.org/packages/b0/22/6d0fd7c353e562dcd50da4ca59df52a54597b65b31268e4426ff4988ebdc/edx-event-routing-backends-5.3.1.tar.gz
+[2023-05-18 07:34:53] INFO root fetch - processPackages [abqcy]: executing diffoscope
+[2023-05-18 07:34:53] INFO root fetch - processPackages [abqcy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqcy-0.0.2.tar.gz tmp/abqcy-0.0.3.tar.gz --markdown 20230518/a/abqcy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:34:53] INFO root fetch - processPackages [edx-event-routing-backends]: executing diffoscope
+[2023-05-18 07:34:53] INFO root fetch - processPackages [edx-event-routing-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-event-routing-backends-5.3.0.tar.gz tmp/edx-event-routing-backends-5.3.1.tar.gz --markdown 20230518/e/edx-event-routing-backends/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-05-18 07:34:54] INFO root fetch - main [MainThread]: End processing [file-managers]: success
+[2023-05-18 07:34:54] INFO root fetch - main [MainThread]: End processing [imap-structure]: success
+[2023-05-18 07:34:54] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-18 07:34:54] INFO root fetch - main [MainThread]: End processing [abqcy]: success
+[2023-05-18 07:34:55] INFO root fetch - main [MainThread]: End processing [edx-event-routing-backends]: success
+[2023-05-18 07:34:55] INFO root fetch - main [MainThread]: Store serial: [18149743]
