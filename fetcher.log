@@ -5948,3 +5948,27 @@
 [2023-05-18 05:50:54] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
 [2023-05-18 05:50:56] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-05-18 05:50:56] INFO root fetch - main [MainThread]: Store serial: [18149148]
+[2023-05-18 05:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149148]
+[2023-05-18 05:56:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-contract
+[2023-05-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baba
+[2023-05-18 05:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evadb
+[2023-05-18 05:56:04] INFO root fetch - processPackages [baba]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2023-05-18 05:56:04] INFO root fetch - processPackages [evadb]: New version: [0.2.4] Old Version: [0.2.3.post0]
+[2023-05-18 05:56:04] INFO root fetch - processPackages [odoo14-addon-contract]: New version: [14.0.2.9.6.dev2] Old Version: [14.0.2.9.5.dev2]
+[2023-05-18 05:56:05] INFO root fetch - processPackages [baba]: Downloading https://files.pythonhosted.org/packages/23/56/254dd027e423eb680a04b9727aa3bdeaea9ccc706fc2d4baf44bc2823dcc/baba-0.1.8b0.tar.gz
+[2023-05-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/85/80/fa2b3f96da4d6346224a003ef95545165051c2cc98d411b8865efbad54c8/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl
+[2023-05-18 05:56:05] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/ca/d4/3316bc141be4c71dd3e68436049529a7b6b76f003add95889e1bcc4a748e/evadb-0.2.3.post0.tar.gz
+[2023-05-18 05:56:05] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/de/67/bbc69285f5d38e01499beec7a02fc6315b310ec90b7539501f63cdf9a4ba/evadb-0.2.4.tar.gz
+[2023-05-18 05:56:05] INFO root fetch - processPackages [baba]: Downloading https://files.pythonhosted.org/packages/bc/cd/706dc5e75f7f6da17d86e37cb7d67be0e20f209677ca2a1e655d6f392981/baba-0.1.9b0.tar.gz
+[2023-05-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-contract]: Downloading https://files.pythonhosted.org/packages/4a/2f/b3078b338fe555715925883d6240b40dd6e3948466f24e9693b5bbf985c6/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl
+[2023-05-18 05:56:05] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-05-18 05:56:05] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.3.post0.tar.gz tmp/evadb-0.2.4.tar.gz --markdown 20230518/e/evadb/0.2.3.post0-0.2.4/diff.md --exclude *.pyd
+[2023-05-18 05:56:05] INFO root fetch - processPackages [baba]: executing diffoscope
+[2023-05-18 05:56:05] INFO root fetch - processPackages [baba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baba-0.1.8b0.tar.gz tmp/baba-0.1.9b0.tar.gz --markdown 20230518/b/baba/0.1.8b0-0.1.9b0/diff.md --exclude *.pyd
+[2023-05-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-contract]: executing diffoscope
+[2023-05-18 05:56:05] INFO root fetch - processPackages [odoo14-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract-14.0.2.9.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_contract-14.0.2.9.6.dev2-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-contract/14.0.2.9.5.dev2-14.0.2.9.6.dev2/diff.md --exclude *.pyd
+[2023-05-18 05:56:06] INFO root fetch - main [MainThread]: End processing [baba]: success
+[2023-05-18 05:56:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract]: success
+[2023-05-18 05:56:10] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-05-18 05:56:10] INFO root fetch - main [MainThread]: Store serial: [18149156]
