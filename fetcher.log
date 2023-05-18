@@ -4052,3 +4052,70 @@
 [2023-05-18 02:54:30] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
 [2023-05-18 02:54:49] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-18 02:54:49] INFO root fetch - main [MainThread]: Store serial: [18148169]
+[2023-05-18 02:59:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148169]
+[2023-05-18 02:59:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-05-18 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meter-gear
+[2023-05-18 02:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arraykit
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazi
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-curl
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: structure-py
+[2023-05-18 02:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meter-gear
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [coiled]: New version: [0.6.5.dev9] Old Version: [0.6.5.dev7]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230517] Old Version: [0.0.8.dev20230516]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [structure-py]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/31/9f/bae48e640532723de38549dca5c34503733d805559d4cd64a737cf4fb87b/aemcmc-nightly-0.0.8.dev20230516.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/ab/54/301df64e96dfc4a5c71842f38f38cbb5c9b1f036bedfb8ce5c29f3c78523/structure_py-0.8.4-py3-none-any.whl
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [lazi]: New version: [1.8.119] Old Version: [1.7.87]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.5.dev7.tar.gz tmp/coiled-0.6.5.dev9.tar.gz --markdown 20230518/c/coiled/0.6.5.dev7-0.6.5.dev9/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [arraykit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-18 02:59:59] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a3/6e/98234b66c3ce7d92f6b957ee2fd5b07749190eed5bd99f47651d736e0bc7/structure_py-0.9.0.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/76/e5/e3171fbf4f6eea0ac95c173ff63d0e53fed2e2bbd4fa0123ac910992b190/lazi-1.7.87.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/35/5d/3c7e585d83e983b9e2b9769b5831f699db890394acd1b0e5bffda676eb34/arraykit-0.4.0.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230518/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230518/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.4-py3-none-any.whl.zip tmp/structure_py-0.9.0.tar.gz --markdown 20230518/s/structure-py/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/4f/bc/17820db2ac3acb4c3c6ad5a2cb5efbe5a0f1bd1803c1ed31c9eb4c98d5d9/lazi-1.8.119.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/cf/05/7c8af1f584d130e0b910d7823c09fe753ed8023f10d0db1f3033fa495590/arraykit-0.4.1.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.7.87.tar.gz tmp/lazi-1.8.119.tar.gz --markdown 20230518/l/lazi/1.7.87-1.8.119/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.4.0.tar.gz tmp/arraykit-0.4.1.tar.gz --markdown 20230518/a/arraykit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-18 02:59:59] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/31/ce/e4a1c6ccba24c160f06f0762145faf5d0bf3dd224a7117147ca22704707f/aemcmc-nightly-0.0.8.dev20230517.tar.gz
+[2023-05-18 02:59:59] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-18 02:59:59] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230516.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230517.tar.gz --markdown 20230518/a/aemcmc-nightly/0.0.8.dev20230516-0.0.8.dev20230517/diff.md --exclude *.pyd
+[2023-05-18 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-05-18 03:00:00] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-18 03:00:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-05-18 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-05-18 03:00:00] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-18 03:00:00] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-05-18 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-18 03:00:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230518/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:00:00] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-18 03:00:01] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-18 03:00:01] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-18 03:00:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-18 03:00:01] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230518/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:00:01] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-18 03:00:02] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-18 03:00:02] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-18 03:00:02] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230518/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:00:03] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-18 03:00:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-18 03:00:03] INFO root fetch - main [MainThread]: Store serial: [18148240]
