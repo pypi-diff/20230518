@@ -7939,3 +7939,77 @@
 [2023-05-18 07:56:24] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20230518/g/gluonts/0.9.8-0.9.9/diff.md --exclude *.pyd
 [2023-05-18 07:56:37] INFO root fetch - main [MainThread]: End processing [gluonts]: success
 [2023-05-18 07:56:37] INFO root fetch - main [MainThread]: Store serial: [18149919]
+[2023-05-18 08:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149919]
+[2023-05-18 08:01:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cliptry1
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpqcv
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-databricks
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syssqlitedbmodsV2
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nprr
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudflare
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gravity-auto-exit
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-consul
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syssqlitedbmodsV2
+[2023-05-18 08:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: milvus-ingestion
+[2023-05-18 08:01:46] INFO root fetch - processPackages [cliptry1]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [mpqcv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [nprr]: New version: [0.1.2] Old Version: [0.1]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [syssqlitedbmodsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [syssqlitedbmodsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-18 08:01:46] WARNING root fetch - processPackages [milvus-ingestion]: Skipping, unable to determine old version
+[2023-05-18 08:01:46] INFO root fetch - processPackages [milvus-ingestion]: Start processing: je-auto-control-dev
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1684387460] Old Version: [3.9.0a1684214643]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-05-18 08:01:46] INFO root fetch - main [MainThread]: End processing [milvus-ingestion] error
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.3.0a1684387402] Old Version: [5.2.0a1684214479]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [syssqlitedbmodsV2]: Downloading https://files.pythonhosted.org/packages/8f/f4/34aa8e72ddcc690c60ef5e05ed721f1324ca2abc63849f74712fd2f81654/syssqlitedbmodsV2-1.0.0.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [syssqlitedbmodsV2]: Downloading https://files.pythonhosted.org/packages/8f/f4/34aa8e72ddcc690c60ef5e05ed721f1324ca2abc63849f74712fd2f81654/syssqlitedbmodsV2-1.0.0.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/e1/6c/653d60798bf5fa6005a3108521fa6115627699e04dd17a68347e46562a07/gravity_auto_exit-1.8.2-py3-none-any.whl
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/cc/25/8e4039c5a41b03d4b5008ba696b49e2978adc10a917d4404ebbceaf3d14c/mpqcv-0.0.8.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/79/2b/c23063ab846775df0b7f2ccf75533b8a1211e7c015d2884dbf20d9dfd0ea/pulumi_consul-3.9.0a1684214643.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:01:46] INFO root fetch - processPackages [nprr]: Downloading https://files.pythonhosted.org/packages/6c/bc/6b43e97739406039dfd6e3ef9db1949e1af278ccf822f2d08134640ef330/nprr-0.1-py3-none-any.whl
+[2023-05-18 08:01:46] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/9d/8c/0ec61a86ac23f2cbf8145595c2c197d697c08d43c3674bb8d938dbff6f69/pulumi_cloudflare-5.3.0a1684387402.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/af/9d/0662c11a9aaba62d19701efda6983bac51002f3b9cf57017f0e7b5b95e1e/cliptry1-0.0.6.tar.gz
+[2023-05-18 08:01:46] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 08:01:46] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.5.tar.gz tmp/cliptry1-0.0.6.tar.gz --markdown 20230518/c/cliptry1/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: Downloading https://files.pythonhosted.org/packages/bb/e2/d9ebbb398fd0501c32b1bea06716fdac374ce8cbb0e1f501f134e5c88620/syssqlitedbmodsV2-1.1.0.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: Downloading https://files.pythonhosted.org/packages/bb/e2/d9ebbb398fd0501c32b1bea06716fdac374ce8cbb0e1f501f134e5c88620/syssqlitedbmodsV2-1.1.0.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.2.0a1684214479.tar.gz tmp/pulumi_cloudflare-5.3.0a1684387402.tar.gz --markdown 20230518/p/pulumi-cloudflare/5.2.0a1684214479-5.3.0a1684387402/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlitedbmodsV2-1.0.0.tar.gz tmp/syssqlitedbmodsV2-1.1.0.tar.gz --markdown 20230518/s/syssqlitedbmodsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [nprr]: Downloading https://files.pythonhosted.org/packages/62/8f/8cf2b11b5f496ccc83c73a97fcb534db5be373e3af4c8bd9361036625f21/nprr-0.1.2.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [mpqcv]: Downloading https://files.pythonhosted.org/packages/38/4f/f9ec1c5dea651268e7ffd3acfd8dc8f8617f68cf1b2b1cea9e7bb8a12019/mpqcv-0.0.9.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [syssqlitedbmodsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlitedbmodsV2-1.0.0.tar.gz tmp/syssqlitedbmodsV2-1.1.0.tar.gz --markdown 20230518/s/syssqlitedbmodsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/db/b5/964279c84a1192ffc12d6e05c1107aa4dd553b8315a6250d6eba5e6a34e0/je_auto_control_dev-0.0.8.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [nprr]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [nprr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nprr-0.1-py3-none-any.whl.zip tmp/nprr-0.1.2.tar.gz --markdown 20230518/n/nprr/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [mpqcv]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [mpqcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqcv-0.0.8.tar.gz tmp/mpqcv-0.0.9.tar.gz --markdown 20230518/m/mpqcv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/ff/82/621b5967cbb8d4d2fb638c76ed84d9f47ec13d98bcced6b15a695476e1c8/gravity_auto_exit-1.8.3-py3-none-any.whl
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/44/04/9dcd1a492ae830c6b28ac0843f5683b29d658425fa22bca389c73b87932a/pulumi_consul-3.9.0a1684387460.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230518/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.2-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.3-py3-none-any.whl.zip --markdown 20230518/g/gravity-auto-exit/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1684214643.tar.gz tmp/pulumi_consul-3.9.0a1684387460.tar.gz --markdown 20230518/p/pulumi-consul/3.9.0a1684214643-3.9.0a1684387460/diff.md --exclude *.pyd
+[2023-05-18 08:01:47] INFO root fetch - processPackages [je-auto-control-dev]: Downloading https://files.pythonhosted.org/packages/3f/18/c1256a11fba6e6775f29770a7c2be8cd89480834118945a6219eaec906ac/je_auto_control_dev-0.0.9.tar.gz
+[2023-05-18 08:01:47] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-05-18 08:01:47] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.8.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230518/j/je-auto-control-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:01:48] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 08:01:48] INFO root fetch - main [MainThread]: End processing [syssqlitedbmodsV2]: success
+[2023-05-18 08:01:48] INFO root fetch - main [MainThread]: End processing [syssqlitedbmodsV2]: success
+[2023-05-18 08:01:48] INFO root fetch - main [MainThread]: End processing [nprr]: success
+[2023-05-18 08:01:48] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-18 08:01:49] INFO root fetch - main [MainThread]: End processing [mpqcv]: success
+[2023-05-18 08:01:50] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-05-18 08:01:50] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-05-18 08:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-05-18 08:01:54] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-18 08:01:54] INFO root fetch - main [MainThread]: Store serial: [18149949]
