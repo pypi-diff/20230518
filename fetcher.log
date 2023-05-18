@@ -16376,3 +16376,128 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 15:19:22] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2023-05-18 15:19:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-18 15:19:31] INFO root fetch - main [MainThread]: Store serial: [18154637]
+[2023-05-18 15:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154637]
+[2023-05-18 15:24:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcvit
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspeaker
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pointcloudqueries
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celerity
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sec-certs
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liteindex
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vega-sim
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multidimensionalks
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightgbm-callbacks
+[2023-05-18 15:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anospp-analysis
+[2023-05-18 15:24:40] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [anospp-analysis]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [vega-sim]: New version: [1.0.1] Old Version: [0.67.0]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-05-18 15:24:40] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230518/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 15:24:40] INFO root fetch - processPackages [pyspeaker]: New version: [1.5] Old Version: [1.2]
+[2023-05-18 15:24:40] WARNING root fetch - processPackages [lightgbm-callbacks]: Skipping, unable to determine old version
+[2023-05-18 15:24:40] WARNING root fetch - processPackages [pointcloudqueries]: Skipping, unable to determine old version
+[2023-05-18 15:24:40] INFO root fetch - processPackages [lightgbm-callbacks]: Start processing: pysparse-array
+[2023-05-18 15:24:40] INFO root fetch - processPackages [pointcloudqueries]: Start processing: freeplay
+[2023-05-18 15:24:40] INFO root fetch - main [MainThread]: End processing [lightgbm-callbacks] error
+[2023-05-18 15:24:40] INFO root fetch - processPackages [gcvit]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-18 15:24:40] INFO root fetch - main [MainThread]: End processing [pointcloudqueries] error
+[2023-05-18 15:24:40] INFO root fetch - processPackages [sec-certs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-18 15:24:40] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230518/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 15:24:40] INFO root fetch - processPackages [anospp-analysis]: executing diffoscope
+[2023-05-18 15:24:40] INFO root fetch - processPackages [anospp-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anospp_analysis-0.1.3.tar.gz tmp/anospp_analysis-0.2.0.tar.gz --markdown 20230518/a/anospp-analysis/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 15:24:40] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 15:24:40] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 15:24:40] WARNING root fetch - processPackages [freeplay]: Skipping, unable to determine old version
+[2023-05-18 15:24:40] INFO root fetch - processPackages [freeplay]: Start processing: kfish
+[2023-05-18 15:24:40] INFO root fetch - main [MainThread]: End processing [freeplay] error
+[2023-05-18 15:24:40] INFO root fetch - processPackages [kfish]: New version: [99.0.202305180756] Old Version: [99.0.202305180650]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [vega-sim]: Downloading https://files.pythonhosted.org/packages/ca/cb/dc14c0f0609918287a6ee7b80b64ec76bf3e3444c70f11099dc30271d402/vega_sim-0.67.0.tar.gz
+[2023-05-18 15:24:40] INFO root fetch - processPackages [pysparse-array]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 15:24:40] INFO root fetch - processPackages [gcvit]: Downloading https://files.pythonhosted.org/packages/d3/9b/74f218980d5c7e8bed3d2ab1a8ffb3ec5fd73763162bc364ba8c53f4d368/gcvit-1.1.3.tar.gz
+[2023-05-18 15:24:40] INFO root fetch - processPackages [sec-certs]: Downloading https://files.pythonhosted.org/packages/a0/fc/bbcbfebb50a58979b390aeb428e297aed97723026b83989e2a2102ac5b1e/sec-certs-0.1.4.tar.gz
+[2023-05-18 15:24:40] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-05-18 15:24:40] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202305180650-py3-none-any.whl.zip tmp/kfish-99.0.202305180756-py3-none-any.whl.zip --markdown 20230518/k/kfish/99.0.202305180650-99.0.202305180756/diff.md --exclude *.pyd
+[2023-05-18 15:24:40] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/fc/8f/6c474ad478c7bb56805fa69d4b53e85b452d6ca948ea430a982fec4c64ee/pyspeaker-1.5.tar.gz
+[2023-05-18 15:24:40] INFO root fetch - processPackages [pysparse-array]: Downloading https://files.pythonhosted.org/packages/cb/7d/e5b2cbba62953dde195f9bd045296ca5f56c6126636486b6eb72a97d3f85/pysparse-array-0.1.4.tar.gz
+[2023-05-18 15:24:40] INFO root fetch - processPackages [gcvit]: Downloading https://files.pythonhosted.org/packages/f3/00/b2fea9cffb5a846aefb792c89d356e1cc9a628f98e0393b778f23b209e20/gcvit-1.1.4.tar.gz
+[2023-05-18 15:24:41] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-18 15:24:41] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-1.2.win-amd64.zip tmp/pyspeaker-1.5.tar.gz --markdown 20230518/p/pyspeaker/1.2-1.5/diff.md --exclude *.pyd
+[2023-05-18 15:24:41] INFO root fetch - processPackages [sec-certs]: Downloading https://files.pythonhosted.org/packages/65/9f/94bf404cd9c11b5ff2167b085dc5c3791d24fc547711134303b06d34b5ee/sec-certs-0.1.5.tar.gz
+[2023-05-18 15:24:41] INFO root fetch - processPackages [gcvit]: executing diffoscope
+[2023-05-18 15:24:41] INFO root fetch - processPackages [gcvit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcvit-1.1.3.tar.gz tmp/gcvit-1.1.4.tar.gz --markdown 20230518/g/gcvit/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-18 15:24:41] INFO root fetch - processPackages [vega-sim]: Downloading https://files.pythonhosted.org/packages/25/af/cb2ebdae87da9a60c81e5f585c00b901b2af9e68fc3298c72e8fe2ea13aa/vega_sim-1.0.1.tar.gz
+[2023-05-18 15:24:41] INFO root fetch - processPackages [pysparse-array]: Downloading https://files.pythonhosted.org/packages/2e/10/b3866c0271a0bb93d917308f3f3052ca18c31d901dce2e42b8dc1c19194c/pysparse-array-0.1.5.tar.gz
+[2023-05-18 15:24:41] INFO root fetch - processPackages [sec-certs]: executing diffoscope
+[2023-05-18 15:24:41] INFO root fetch - processPackages [sec-certs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sec-certs-0.1.4.tar.gz tmp/sec-certs-0.1.5.tar.gz --markdown 20230518/s/sec-certs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 15:24:41] INFO root fetch - processPackages [pysparse-array]: executing diffoscope
+[2023-05-18 15:24:41] INFO root fetch - processPackages [pysparse-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparse-array-0.1.4.tar.gz tmp/pysparse-array-0.1.5.tar.gz --markdown 20230518/p/pysparse-array/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 15:24:41] INFO root fetch - processPackages [vega-sim]: executing diffoscope
+[2023-05-18 15:24:41] INFO root fetch - processPackages [vega-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vega_sim-0.67.0.tar.gz tmp/vega_sim-1.0.1.tar.gz --markdown 20230518/v/vega-sim/0.67.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 15:24:41] INFO root fetch - processPackages [liteindex]: Start processing: openai-pygenerator
+[2023-05-18 15:24:41] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-05-18 15:24:41] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [celerity]: Start processing: MotorDeCalidad
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/33/8d/b3a8d8664e1fff1174c86690d658d5cae24b20eb6396dbc1e365ace97490/openai_pygenerator-0.0.9.tar.gz
+[2023-05-18 15:24:42] INFO root fetch - processPackages [kfish]: Start processing: regpredict
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-05-18 15:24:42] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_pygenerator-0.0.8.tar.gz tmp/openai_pygenerator-0.0.9.tar.gz --markdown 20230518/o/openai-pygenerator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:24:42] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-18 15:24:42] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230518/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 15:24:42] INFO root fetch - processPackages [pyspeaker]: Start processing: fbgemm-gpu-nightly
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.17] Old Version: [2023.5.16]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [anospp-analysis]: Start processing: uzcloud-billing
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [anospp-analysis]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-05-18 15:24:42] INFO root fetch - processPackages [uzcloud-billing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/b3/58/25ef65a0ab83730306e48afdf899702f1a7bd1f5475e69d3915f13c23dec/fbgemm_gpu_nightly-2023.5.16-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-18 15:24:42] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 270543452>=10485760
+[2023-05-18 15:24:42] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: quantready-base
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-18 15:24:42] INFO root fetch - processPackages [quantready-base]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [uzcloud-billing]: Downloading https://files.pythonhosted.org/packages/8a/8a/af7ceba11a01c59f4fc9c9fa59893174e890ebad94ffa02605abb9b62f8c/uzcloud-billing-0.2.8.tar.gz
+[2023-05-18 15:24:42] INFO root fetch - processPackages [gcvit]: Start processing: data-eng-utils
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [gcvit]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [quantready-base]: executing diffoscope
+[2023-05-18 15:24:42] INFO root fetch - processPackages [quantready-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantready_base-0.1.0.tar.gz tmp/quantready_base-0.2.0.tar.gz --markdown 20230518/q/quantready-base/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 15:24:42] INFO root fetch - processPackages [pysparse-array]: Start processing: smartlogger
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [pysparse-array]: success
+[2023-05-18 15:24:42] INFO root fetch - processPackages [smartlogger]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2023-05-18 15:24:42] WARNING root fetch - processPackages [data-eng-utils]: Skipping, unable to determine old version
+[2023-05-18 15:24:42] INFO root fetch - processPackages [data-eng-utils]: Start processing: netbox-cisco-maintenance
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [data-eng-utils] error
+[2023-05-18 15:24:42] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-05-18 15:24:42] WARNING root fetch - processPackages [netbox-cisco-maintenance]: Skipping, unable to determine old version
+[2023-05-18 15:24:42] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: openmc-plot
+[2023-05-18 15:24:42] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance] error
+[2023-05-18 15:24:42] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-05-18 15:24:42] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230518/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:24:42] INFO root fetch - processPackages [openmc-plot]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-18 15:24:42] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/4f/ff/fc6010eabb32fb8b9918aa9ad08081686614df348b6170485af9c5f8cc38/smartlogger-0.0.1.dev5.tar.gz
+[2023-05-18 15:24:43] INFO root fetch - processPackages [smartlogger]: executing diffoscope
+[2023-05-18 15:24:43] INFO root fetch - processPackages [smartlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlogger-0.0.1.dev4.tar.gz tmp/smartlogger-0.0.1.dev5.tar.gz --markdown 20230518/s/smartlogger/0.0.1.dev4-0.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-18 15:24:43] INFO root fetch - processPackages [uzcloud-billing]: Downloading https://files.pythonhosted.org/packages/5f/79/338c84d66f6e6032d1af8922827315b189537ea0bb3c58e8c42e12fbfc69/uzcloud-billing-0.2.9.tar.gz
+[2023-05-18 15:24:43] INFO root fetch - processPackages [openmc-plot]: Downloading https://files.pythonhosted.org/packages/75/c0/4674701654deaa5b472e90517a05de7b8f0c04c8611eb032766575648fae/openmc_plot-0.2.2.tar.gz
+[2023-05-18 15:24:43] INFO root fetch - processPackages [uzcloud-billing]: executing diffoscope
+[2023-05-18 15:24:43] INFO root fetch - processPackages [uzcloud-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uzcloud-billing-0.2.8.tar.gz tmp/uzcloud-billing-0.2.9.tar.gz --markdown 20230518/u/uzcloud-billing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 15:24:43] INFO root fetch - processPackages [openmc-plot]: Downloading https://files.pythonhosted.org/packages/98/1d/6cc599e5173d463b9ebf21021071d1c92f873a97adb3ce78134615bf82f4/openmc_plot-0.3.0.tar.gz
+[2023-05-18 15:24:43] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-05-18 15:24:43] INFO root fetch - processPackages [openmc-plot]: executing diffoscope
+[2023-05-18 15:24:43] INFO root fetch - processPackages [openmc-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_plot-0.2.2.tar.gz tmp/openmc_plot-0.3.0.tar.gz --markdown 20230518/o/openmc-plot/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 15:24:43] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-18 15:24:44] INFO root fetch - main [MainThread]: End processing [quantready-base]: success
+[2023-05-18 15:24:44] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-05-18 15:24:44] INFO root fetch - main [MainThread]: End processing [vega-sim]: success
+[2023-05-18 15:24:44] INFO root fetch - main [MainThread]: End processing [uzcloud-billing]: success
+[2023-05-18 15:24:45] INFO root fetch - main [MainThread]: End processing [openmc-plot]: success
+[2023-05-18 15:24:46] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 15:24:47] INFO root fetch - main [MainThread]: End processing [sec-certs]: success
+[2023-05-18 15:25:22] INFO root fetch - main [MainThread]: End processing [smartlogger]: success
+[2023-05-18 15:25:22] INFO root fetch - main [MainThread]: Store serial: [18154729]
