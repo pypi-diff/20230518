@@ -14658,3 +14658,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 14:29:49] INFO root fetch - main [MainThread]: End processing [mokkari]: success
 [2023-05-18 14:29:49] INFO root fetch - main [MainThread]: End processing [glasswall]: success
 [2023-05-18 14:29:49] INFO root fetch - main [MainThread]: Store serial: [18153872]
+[2023-05-18 14:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153872]
+[2023-05-18 14:34:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aitomatic
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uidom
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-storage-logging-updated
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: copatrec
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axion
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: os-aaron-alphabet
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: svrkit
+[2023-05-18 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onnx2kerastl
+[2023-05-18 14:34:58] WARNING root fetch - processPackages [aitomatic]: Skipping, unable to determine old version
+[2023-05-18 14:34:58] INFO root fetch - main [MainThread]: End processing [aitomatic] error
+[2023-05-18 14:34:58] INFO root fetch - processPackages [uidom]: New version: [0.2a4] Old Version: [0.2a3]
+[2023-05-18 14:34:58] INFO root fetch - processPackages [azure-storage-logging-updated]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-18 14:34:58] WARNING root fetch - processPackages [svrkit]: Skipping, unable to determine old version
+[2023-05-18 14:34:58] INFO root fetch - main [MainThread]: End processing [svrkit] error
+[2023-05-18 14:34:58] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 14:34:58] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-05-18 14:34:58] INFO root fetch - processPackages [os-aaron-alphabet]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 14:34:58] INFO root fetch - processPackages [copatrec]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 14:34:58] INFO root fetch - processPackages [axion]: New version: [3.3.3] Old Version: [3.3.1]
+[2023-05-18 14:34:59] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/66/21/0a021afe5a385ab63497998d73a2c378ed644f975cc4bed178abb3442b56/uidom-0.2a4.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [os-aaron-alphabet]: Downloading https://files.pythonhosted.org/packages/7d/1f/0b4f80927331bbeafd42ec8e33a653890a2552b0823020f0ccca308f1129/os-aaron-alphabet-0.0.2.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.2a3.tar.gz tmp/uidom-0.2a4.tar.gz --markdown 20230518/u/uidom/0.2a3-0.2a4/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [azure-storage-logging-updated]: Downloading https://files.pythonhosted.org/packages/e6/52/8df7232347cfaac54f2f20c2ac7e640e75dcbd69be5312a61c61cb73ef38/azure-storage-logging_updated-0.6.0.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [copatrec]: Downloading https://files.pythonhosted.org/packages/11/5c/27b5c3e0a1df04e1643d026a9cfdf785546961d4f0cf7071b59b4560d30c/copatrec-0.0.6.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/44/92/43906d659b5121abfe62b4bb2f03684435a3eb3bf70b383b3500572acf91/axion-3.3.3-cp311-cp311-macosx_10_9_universal2.whl
+[2023-05-18 14:34:59] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.92.tar.gz tmp/onnx2kerastl-0.0.93.tar.gz --markdown 20230518/o/onnx2kerastl/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230518/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [os-aaron-alphabet]: Downloading https://files.pythonhosted.org/packages/69/c9/cac8d03331d6b7bb14bd18bd1b2245b781dd74b29193f3517bde296a7ec2/os-aaron-alphabet-0.0.3.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [azure-storage-logging-updated]: Downloading https://files.pythonhosted.org/packages/18/c9/25a5f35e26ade8a5254119db8ff278bba4e292ab6124988526d5cb70d794/azure-storage-logging_updated-0.7.0.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [os-aaron-alphabet]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [os-aaron-alphabet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-aaron-alphabet-0.0.2.tar.gz tmp/os-aaron-alphabet-0.0.3.tar.gz --markdown 20230518/o/os-aaron-alphabet/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [copatrec]: Downloading https://files.pythonhosted.org/packages/4e/37/7d94aca6c35414751075e2fa2d2fabcf61819fcef413be28ec9b7a012cbf/copatrec-0.0.7.tar.gz
+[2023-05-18 14:34:59] INFO root fetch - processPackages [azure-storage-logging-updated]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [azure-storage-logging-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-storage-logging_updated-0.6.0.tar.gz tmp/azure-storage-logging_updated-0.7.0.tar.gz --markdown 20230518/a/azure-storage-logging-updated/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [copatrec]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [copatrec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copatrec-0.0.6.tar.gz tmp/copatrec-0.0.7.tar.gz --markdown 20230518/c/copatrec/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 14:34:59] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-05-18 14:34:59] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.3.1-cp311-cp311-win_amd64.whl.zip tmp/axion-3.3.3-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230518/a/axion/3.3.1-3.3.3/diff.md --exclude *.pyd
+[2023-05-18 14:35:00] INFO root fetch - main [MainThread]: End processing [os-aaron-alphabet]: success
+[2023-05-18 14:35:00] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-05-18 14:35:00] INFO root fetch - main [MainThread]: End processing [copatrec]: success
+[2023-05-18 14:35:01] INFO root fetch - main [MainThread]: End processing [azure-storage-logging-updated]: success
+[2023-05-18 14:35:01] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-18 14:35:01] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-05-18 14:35:01] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-18 14:35:01] INFO root fetch - main [MainThread]: Store serial: [18153908]
