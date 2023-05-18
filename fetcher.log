@@ -13106,3 +13106,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 12:43:18] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
 [2023-05-18 12:43:25] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-18 12:43:25] INFO root fetch - main [MainThread]: Store serial: [18152829]
+[2023-05-18 12:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152829]
+[2023-05-18 12:48:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-radiance-postprocess
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bm-utilities
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-code-ui
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vid2info
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postodon
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ds-caselaw-utils
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: canals
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-api-python-client-stubs
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-code-ui
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hdcc
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.3] Old Version: [0.42.2]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [hdcc]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.3] Old Version: [0.42.2]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [bm-utilities]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ds-caselaw-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [postodon]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [canals]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [google-api-python-client-stubs]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [vid2info]: New version: [1.99] Old Version: [1.98]
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.2.tar.gz tmp/gpt_code_ui-0.42.3.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.2-0.42.3/diff.md --exclude *.pyd
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 12:48:34] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.2.tar.gz tmp/gpt_code_ui-0.42.3.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.2-0.42.3/diff.md --exclude *.pyd
+[2023-05-18 12:48:34] INFO root fetch - processPackages [hdcc]: Downloading https://files.pythonhosted.org/packages/fd/89/95d1690a757c62c5b53ec1491e4ca33c1c69d0d4ac9e084f0938d1bc1e76/hdcc-0.4.0.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/1d/ed/316b4c2600af710c493060b4ed6697eda54bf966f6ec90d58216c2ba2d8f/canals-0.1.2.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/73/ee/d39a17f4a2beaa8933be332a5ab5b2598bd825be91baf569dcd15e8748b9/bm_utilities-0.0.9.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [ds-caselaw-utils]: Downloading https://files.pythonhosted.org/packages/37/31/226cf0afb3ffe75d6d8c2282359bf7e1395ae77a4eb5388878abcb564e01/ds_caselaw_utils-1.0.0.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [postodon]: Downloading https://files.pythonhosted.org/packages/38/ec/8cbc76e787c1eaa7c33a9050685ad08450499345bd056f13e66ac25c803d/postodon-0.0.3.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [google-api-python-client-stubs]: Downloading https://files.pythonhosted.org/packages/f5/fe/37b9c56610f680f95cf8c3ce8f2e441af08254e30be143677328eae958ca/google-api-python-client-stubs-1.8.0.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [vid2info]: Downloading https://files.pythonhosted.org/packages/e4/e9/11a97a56dd6325a4d346cb43d94f7a07c8f21bcd3aec1862d3cf616d1d22/vid2info-1.98.tar.gz
+[2023-05-18 12:48:34] INFO root fetch - processPackages [hdcc]: executing diffoscope
+[2023-05-18 12:48:34] INFO root fetch - processPackages [hdcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcc-0.3.0.tar.gz tmp/hdcc-0.4.0.tar.gz --markdown 20230518/h/hdcc/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [bm-utilities]: Downloading https://files.pythonhosted.org/packages/d6/66/3fe90b2b197920e3da610c8358a4177eef58a89853644a4d603b209bae25/bm_utilities-0.1.0.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [ds-caselaw-utils]: Downloading https://files.pythonhosted.org/packages/29/85/90c62aae9bf7a8bbdb1ad5bd74c000c67abb0943c46a82655951e6421c8e/ds_caselaw_utils-1.0.1.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [postodon]: Downloading https://files.pythonhosted.org/packages/03/a1/17992649e820c2aff6114e56b46a1a9bf3ca18d7369aa12d897bfbce3b83/postodon-0.0.4.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [canals]: Downloading https://files.pythonhosted.org/packages/89/c7/d74421abe95a6f66e36c05d43e8843ce43b1eee9ed6048535a6a8fad02ef/canals-0.2.0.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [bm-utilities]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [bm-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bm_utilities-0.0.9.tar.gz tmp/bm_utilities-0.1.0.tar.gz --markdown 20230518/b/bm-utilities/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [postodon]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [postodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postodon-0.0.3.tar.gz tmp/postodon-0.0.4.tar.gz --markdown 20230518/p/postodon/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230518/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [canals]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [canals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canals-0.1.2.tar.gz tmp/canals-0.2.0.tar.gz --markdown 20230518/c/canals/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [ds-caselaw-utils]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [ds-caselaw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_utils-1.0.0.tar.gz tmp/ds_caselaw_utils-1.0.1.tar.gz --markdown 20230518/d/ds-caselaw-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [vid2info]: Downloading https://files.pythonhosted.org/packages/58/67/1e29c67458d5fd032231482eaca537df8ae29132a7edc8445a056523084e/vid2info-1.99.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [google-api-python-client-stubs]: Downloading https://files.pythonhosted.org/packages/34/5a/1ab0186bf91dc78fac2935dc1497b56959333dec85fd13d3708f413cc29c/google-api-python-client-stubs-1.9.0.tar.gz
+[2023-05-18 12:48:35] INFO root fetch - processPackages [google-api-python-client-stubs]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [google-api-python-client-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-api-python-client-stubs-1.8.0.tar.gz tmp/google-api-python-client-stubs-1.9.0.tar.gz --markdown 20230518/g/google-api-python-client-stubs/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 12:48:35] INFO root fetch - processPackages [vid2info]: executing diffoscope
+[2023-05-18 12:48:35] INFO root fetch - processPackages [vid2info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vid2info-1.98.tar.gz tmp/vid2info-1.99.tar.gz --markdown 20230518/v/vid2info/1.98-1.99/diff.md --exclude *.pyd
+[2023-05-18 12:48:36] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 12:48:36] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 12:48:36] INFO root fetch - main [MainThread]: End processing [hdcc]: success
+[2023-05-18 12:48:36] INFO root fetch - main [MainThread]: End processing [postodon]: success
+[2023-05-18 12:48:36] INFO root fetch - main [MainThread]: End processing [ds-caselaw-utils]: success
+[2023-05-18 12:48:37] INFO root fetch - main [MainThread]: End processing [canals]: success
+[2023-05-18 12:48:37] INFO root fetch - main [MainThread]: End processing [bm-utilities]: success
+[2023-05-18 12:48:37] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-18 12:48:38] INFO root fetch - main [MainThread]: End processing [vid2info]: success
+[2023-05-18 12:48:59] INFO root fetch - main [MainThread]: End processing [google-api-python-client-stubs]: success
+[2023-05-18 12:48:59] INFO root fetch - main [MainThread]: Store serial: [18152868]
