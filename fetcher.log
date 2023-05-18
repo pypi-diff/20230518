@@ -17543,3 +17543,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 16:30:50] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
 [2023-05-18 16:30:51] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-18 16:30:51] INFO root fetch - main [MainThread]: Store serial: [18155386]
+[2023-05-18 16:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18155386]
+[2023-05-18 16:36:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-shays-CERT-2259
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datafun
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-sqlalchemy-session
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspeaker
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantconnect-stubs
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-engine
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adv-ml
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: animo-trainer
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyopslib
+[2023-05-18 16:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipe21
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pytest-sqlalchemy-session]: New version: [0.3.3b1] Old Version: [0.3.2b1]
+[2023-05-18 16:36:00] WARNING root fetch - processPackages [certora-cli-alpha-shays-CERT-2259]: Skipping, unable to determine old version
+[2023-05-18 16:36:00] INFO root fetch - processPackages [certora-cli-alpha-shays-CERT-2259]: Start processing: inverter-connect
+[2023-05-18 16:36:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shays-CERT-2259] error
+[2023-05-18 16:36:00] WARNING root fetch - processPackages [pyspeaker]: Skipping, unable to determine old version
+[2023-05-18 16:36:00] INFO root fetch - main [MainThread]: End processing [pyspeaker] error
+[2023-05-18 16:36:00] INFO root fetch - processPackages [adv-ml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [datafun]: New version: [0.4.5] Old Version: [0.4.3]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [inverter-connect]: New version: [0.7.0rc2] Old Version: [0.7.0rc1]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [animo-trainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pipe21]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pyopslib]: New version: [0.1] Old Version: [0.0.3]
+[2023-05-18 16:36:00] INFO root fetch - processPackages [datafun]: Downloading https://files.pythonhosted.org/packages/42/65/a587879e894567d48953998290c7c237f1a9c52876c1063d559c911acefe/datafun-0.4.3.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [adv-ml]: Downloading https://files.pythonhosted.org/packages/1b/ae/82c6c8fa200e79662c020b15a2cb735cf78dc4b77c6ce4be823b46a4fc41/adv-ml-0.0.1.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/9f/92/80041b4c67acbbf90ed04bf292d59f0ce014dc89862a7f0abda6cfaa02b3/xia_engine-0.8.8-cp39-none-win_amd64.whl
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/9c/66/a434908115e0b191f8aaf3436c72f9bf5ad59654e0f635d665263e7a5f5e/pytest-sqlalchemy-session-0.3.3b1.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/24/e7/c9d4845ddd4622773658e396152bd064a6ede608bd9e71e2aa043e9935fe/inverter-connect-0.7.0rc1.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/b8/3e/a80559f3dd845852c1f2cc55ff258a77d0ca88bc8a457ea3b7690b518f2e/animo_trainer-0.1.8.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pyopslib]: Downloading https://files.pythonhosted.org/packages/f7/60/5214ca8e549e67c6a0ef5dc1e542fc8aa3235667e4cc4e1ccddf37b01888/pyopslib-0.0.3.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pytest-sqlalchemy-session]: executing diffoscope
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pytest-sqlalchemy-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sqlalchemy-session-0.3.2b1.tar.gz tmp/pytest-sqlalchemy-session-0.3.3b1.tar.gz --markdown 20230518/p/pytest-sqlalchemy-session/0.3.2b1-0.3.3b1/diff.md --exclude *.pyd
+[2023-05-18 16:36:00] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-18 16:36:00] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230518/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-18 16:36:00] INFO root fetch - processPackages [adv-ml]: Downloading https://files.pythonhosted.org/packages/6c/14/3207da0513e00cf1078c8089d69ec611d0a5a64ee53adff1b5a1b85f2c63/adv-ml-0.0.2.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/51/39/24c442c6db5e924109871bfd746531a14c6069a8f9b3e456e72c8efa05cd/pipe21-1.8.0.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [datafun]: Downloading https://files.pythonhosted.org/packages/e1/48/a4ff418bddc94016742e5b8266fb5835a4eb810cd1979d11db3dd9530295/datafun-0.4.5.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [pyopslib]: Downloading https://files.pythonhosted.org/packages/82/e1/b902459fb45848e53c8525e896e5f9b4d28f48b43844ab6edf74631b886f/pyopslib-0.1.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [inverter-connect]: Downloading https://files.pythonhosted.org/packages/a8/66/4f5e5d24eae3cb9625341276cefff7044c3d2f687c4a18f95901b635572d/inverter-connect-0.7.0rc2.tar.gz
+[2023-05-18 16:36:00] INFO root fetch - processPackages [adv-ml]: executing diffoscope
+[2023-05-18 16:36:00] INFO root fetch - processPackages [adv-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adv-ml-0.0.1.tar.gz tmp/adv-ml-0.0.2.tar.gz --markdown 20230518/a/adv-ml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [datafun]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [datafun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafun-0.4.3.tar.gz tmp/datafun-0.4.5.tar.gz --markdown 20230518/d/datafun/0.4.3-0.4.5/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/68/c6/91aa2599a7a5a0a4f2de8aa02299ae970d77f07adf24975d5df59dd425ca/animo_trainer-0.1.9.tar.gz
+[2023-05-18 16:36:01] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.7.0rc1.tar.gz tmp/inverter-connect-0.7.0rc2.tar.gz --markdown 20230518/i/inverter-connect/0.7.0rc1-0.7.0rc2/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [pyopslib]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [pyopslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopslib-0.0.3.tar.gz tmp/pyopslib-0.1.tar.gz --markdown 20230518/p/pyopslib/0.0.3-0.1/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/02/d1/b8319143e6d2753c5c16b4ef1c4205148fb75b6883f79daa8d4fa2c1d8c0/xia_engine-0.8.9-cp39-none-win_amd64.whl
+[2023-05-18 16:36:01] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/06/d2/ce18067a3e0d49128faaaa14a4a4c575a2c94bb1d4faf3fdbfec1625ee96/pipe21-1.9.0.tar.gz
+[2023-05-18 16:36:01] INFO root fetch - processPackages [pipe21]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [pipe21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe21-1.8.0.tar.gz tmp/pipe21-1.9.0.tar.gz --markdown 20230518/p/pipe21/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [animo-trainer]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [animo-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animo_trainer-0.1.8.tar.gz tmp/animo_trainer-0.1.9.tar.gz --markdown 20230518/a/animo-trainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 16:36:01] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-05-18 16:36:01] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-win_amd64.whl.zip --markdown 20230518/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [adv-ml]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [datafun]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [pipe21]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [pyopslib]: success
+[2023-05-18 16:36:02] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-05-18 16:36:03] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
+[2023-05-18 16:36:08] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-18 16:36:08] INFO root fetch - main [MainThread]: Store serial: [18155421]
