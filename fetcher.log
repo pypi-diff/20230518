@@ -4980,3 +4980,48 @@
 [2023-05-18 04:22:58] INFO root fetch - main [MainThread]: End processing [ampapi]: success
 [2023-05-18 04:22:59] INFO root fetch - main [MainThread]: End processing [tepe]: success
 [2023-05-18 04:22:59] INFO root fetch - main [MainThread]: Store serial: [18148683]
+[2023-05-18 04:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148683]
+[2023-05-18 04:28:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smb3-video-autosplitter
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdriver
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tyadmin-api-cli
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: askCO
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-talk-with-chatgpt
+[2023-05-18 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iam-actions
+[2023-05-18 04:28:08] INFO root fetch - processPackages [smb3-video-autosplitter]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [arkdriver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [askCO]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [tyadmin-api-cli]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230517] Old Version: [1.2.20230516]
+[2023-05-18 04:28:08] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f4/f6/de4bcaa09b05096fc9c84fcf97b4ae9f41117dd89a8fc1e492dafeaae968/iam_actions-1.2.20230516.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/1f/96/3f637b3d30172edc5ece893d0c8e0f5f7c8aaae256b4b746d1b55dab1e0d/smb3-video-autosplitter-0.0.5.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/25/d1/2cd56af9a00e4baa5a1fca6994e965da6fa1c24fb8e33d15b35905d20a7c/arkdriver-1.0.8.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [tyadmin-api-cli]: Downloading https://files.pythonhosted.org/packages/96/7b/8e1e64cb983940376bb7987ea5fbf8b1524f20dbc094c5b1bff146a6afec/tyadmin_api_cli-0.8.2-py2.py3-none-any.whl
+[2023-05-18 04:28:08] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/6b/98/55426e6559496a49c893dfcf8d7b99b8c189f7f52a8ce87ed211b1a96711/askCO-0.0.1.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/d6/3d/138902682a2e6d8c628e6b823c9c0edcc42b91d773516569d6e1a2fcd84b/nonebot_plugin_talk_with_chatgpt-0.4.1.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d4/62/4a713886e99fe584e8ca9d0d0b9eb9551a2cbe9c8f115dac8ebad7cc048e/iam_actions-1.2.20230517.tar.gz
+[2023-05-18 04:28:08] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/3f/98/383f2f4d2ac0465cf0ca46f50d8f13c9393812f83a349b0ed9cc4bc01cdb/smb3-video-autosplitter-0.1.0.tar.gz
+[2023-05-18 04:28:09] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [askCO]: Downloading https://files.pythonhosted.org/packages/84/e8/9ff7d6bedec48df76fe44eb821831a55bf1f7e7058fc58e46bfd5b910746/askCO-0.0.2.tar.gz
+[2023-05-18 04:28:09] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230516.tar.gz tmp/iam_actions-1.2.20230517.tar.gz --markdown 20230518/i/iam-actions/1.2.20230516-1.2.20230517/diff.md --exclude *.pyd
+[2023-05-18 04:28:09] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: Downloading https://files.pythonhosted.org/packages/62/61/92c0c735739b24fa5b339b5379b0fa3d9e1e01d8a07e9f26a464268828f6/nonebot_plugin_talk_with_chatgpt-0.4.2.tar.gz
+[2023-05-18 04:28:09] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/15/6e/3e574dee52ba1b5442b8257a8437806ce83ab5dbee089f49e26ada0a247d/arkdriver-1.0.9.tar.gz
+[2023-05-18 04:28:09] INFO root fetch - processPackages [tyadmin-api-cli]: Downloading https://files.pythonhosted.org/packages/2d/1a/3d7445cf8a125be13538552f43481af22dbfe2a24c25b81ff4a2358a661c/tyadmin_api_cli-0.8.3-py2.py3-none-any.whl
+[2023-05-18 04:28:09] INFO root fetch - processPackages [smb3-video-autosplitter]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [smb3-video-autosplitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb3-video-autosplitter-0.0.5.tar.gz tmp/smb3-video-autosplitter-0.1.0.tar.gz --markdown 20230518/s/smb3-video-autosplitter/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 04:28:09] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.8.tar.gz tmp/arkdriver-1.0.9.tar.gz --markdown 20230518/a/arkdriver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 04:28:09] INFO root fetch - processPackages [askCO]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [askCO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askCO-0.0.1.tar.gz tmp/askCO-0.0.2.tar.gz --markdown 20230518/a/askCO/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 04:28:09] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [nonebot-plugin-talk-with-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_talk_with_chatgpt-0.4.1.tar.gz tmp/nonebot_plugin_talk_with_chatgpt-0.4.2.tar.gz --markdown 20230518/n/nonebot-plugin-talk-with-chatgpt/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-18 04:28:09] INFO root fetch - processPackages [tyadmin-api-cli]: executing diffoscope
+[2023-05-18 04:28:09] INFO root fetch - processPackages [tyadmin-api-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyadmin_api_cli-0.8.2-py2.py3-none-any.whl.zip tmp/tyadmin_api_cli-0.8.3-py2.py3-none-any.whl.zip --markdown 20230518/t/tyadmin-api-cli/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-18 04:28:10] INFO root fetch - main [MainThread]: End processing [smb3-video-autosplitter]: success
+[2023-05-18 04:28:10] INFO root fetch - main [MainThread]: End processing [askCO]: success
+[2023-05-18 04:28:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-talk-with-chatgpt]: success
+[2023-05-18 04:28:10] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-05-18 04:28:12] INFO root fetch - main [MainThread]: End processing [tyadmin-api-cli]: success
+[2023-05-18 04:28:14] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-18 04:28:14] INFO root fetch - main [MainThread]: Store serial: [18148700]
