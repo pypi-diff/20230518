@@ -9962,3 +9962,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 09:44:23] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-18 09:44:44] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-05-18 09:44:44] INFO root fetch - main [MainThread]: Store serial: [18150818]
+[2023-05-18 09:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150818]
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DatastreamUCS
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextaddatamodule
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CirclesGenderDetectorPython
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WeedyDev
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-optimizer
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tesla-ce-provider-pt-tpt-lib
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keras-nightly
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-procurement-auto-create-group
+[2023-05-18 09:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robot-package
+[2023-05-18 09:49:53] WARNING root fetch - processPackages [DatastreamUCS]: Skipping, unable to determine old version
+[2023-05-18 09:49:53] INFO root fetch - processPackages [DatastreamUCS]: Start processing: odoo12-addon-stock-request
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: End processing [DatastreamUCS] error
+[2023-05-18 09:49:53] INFO root fetch - processPackages [nextaddatamodule]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 09:49:53] INFO root fetch - processPackages [robot-package]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 09:49:53] WARNING root fetch - processPackages [tesla-ce-provider-pt-tpt-lib]: Skipping, unable to determine old version
+[2023-05-18 09:49:53] WARNING root fetch - processPackages [CirclesGenderDetectorPython]: Skipping, unable to determine old version
+[2023-05-18 09:49:53] INFO root fetch - processPackages [tesla-ce-provider-pt-tpt-lib]: Start processing: doing-cli
+[2023-05-18 09:49:53] INFO root fetch - processPackages [CirclesGenderDetectorPython]: Start processing: odoo12-addon-stock-move-location
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: End processing [tesla-ce-provider-pt-tpt-lib] error
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: End processing [CirclesGenderDetectorPython] error
+[2023-05-18 09:49:53] WARNING root fetch - processPackages [prompt-optimizer]: Skipping, unable to determine old version
+[2023-05-18 09:49:53] INFO root fetch - processPackages [prompt-optimizer]: Start processing: sql-pylib
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: End processing [prompt-optimizer] error
+[2023-05-18 09:49:53] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-05-18 09:49:53] WARNING root fetch - processPackages [WeedyDev]: Skipping, unable to determine old version
+[2023-05-18 09:49:53] INFO root fetch - processPackages [robot-package]: executing diffoscope
+[2023-05-18 09:49:53] INFO root fetch - main [MainThread]: End processing [WeedyDev] error
+[2023-05-18 09:49:53] INFO root fetch - processPackages [robot-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot_package-1.0.1.tar.gz tmp/robot_package-1.0.2.tar.gz --markdown 20230518/r/robot-package/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 09:49:53] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2023-05-18 09:49:53] INFO root fetch - processPackages [algokit-utils]: New version: [1.2.0b2] Old Version: [1.2.0b1]
+[2023-05-18 09:49:54] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-18 09:49:54] INFO root fetch - processPackages [nextaddatamodule]: Downloading https://files.pythonhosted.org/packages/3c/1a/3124cb28fafe0448e1ff0ce42a986a5055fcfd89d16fe696351bba79e08d/nextaddatamodule-0.0.1.tar.gz
+[2023-05-18 09:49:54] INFO root fetch - processPackages [doing-cli]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: New version: [12.0.2.2.0.99.dev9] Old Version: [12.0.2.2.0.99.dev8]
+[2023-05-18 09:49:54] WARNING root fetch - processPackages [sql-pylib]: Skipping, unable to determine old version
+[2023-05-18 09:49:54] INFO root fetch - main [MainThread]: End processing [sql-pylib] error
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/bb/57/a76f152e753528b2ea0af551194ac498089a9d5f21be7ff8eaeda01ccd15/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/3a/dc/bc42f5c4c46cdaa7720386252d0f19d321794211e108148c3930ace4cd32/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/d7/4b/a6853f0f09d14b8f1ea58742f9d1a6bcf618334b2f0c2025c04eb6cfb5ff/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev8-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [doing-cli]: Downloading https://files.pythonhosted.org/packages/2f/14/19db0c2016af8b988d9617a4420b21655c945f7e55934868721f4276fbf0/doing-cli-1.5.2.tar.gz
+[2023-05-18 09:49:54] INFO root fetch - processPackages [nextaddatamodule]: Downloading https://files.pythonhosted.org/packages/e7/2d/9486953764db72892515bb31c0d323084e48a010dcb3ead91487cca12bfd/nextaddatamodule-0.0.2.tar.gz
+[2023-05-18 09:49:54] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230518/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/bb/70/3e79eee65240836bd36f932e080ebf01868d51ef7fe94a70649195fe8435/algokit_utils-1.2.0b2-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [nextaddatamodule]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [nextaddatamodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextaddatamodule-0.0.1.tar.gz tmp/nextaddatamodule-0.0.2.tar.gz --markdown 20230518/n/nextaddatamodule/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [doing-cli]: Downloading https://files.pythonhosted.org/packages/12/c7/3902ce691cc39a30b1c776457bdbf78d190053458534e8e2a7982524498d/doing-cli-1.5.3.tar.gz
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/32/8d/fc79e51e2315e24d32a7ea9f2572c4b8dee07614f3448940453c84f92dcc/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev9-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.2.0b1-py3-none-any.whl.zip tmp/algokit_utils-1.2.0b2-py3-none-any.whl.zip --markdown 20230518/a/algokit-utils/1.2.0b1-1.2.0b2/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ac/b2/a9bece9f7386e26cb70f57438f2ad264677d4ce0c0eaec498fc9fb40d7d2/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: Downloading https://files.pythonhosted.org/packages/06/b9/25866fcd7b7741038bd9036778cd94e7bf8f1182bce81cd7f9a2b9398090/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-05-18 09:49:54] INFO root fetch - processPackages [doing-cli]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [doing-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doing-cli-1.5.2.tar.gz tmp/doing-cli-1.5.3.tar.gz --markdown 20230518/d/doing-cli/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-stock-move-location/12.0.2.2.0.99.dev8-12.0.2.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: executing diffoscope
+[2023-05-18 09:49:54] INFO root fetch - processPackages [odoo12-addon-procurement-auto-create-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_procurement_auto_create_group-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-procurement-auto-create-group/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 09:49:55] INFO root fetch - main [MainThread]: End processing [robot-package]: success
+[2023-05-18 09:49:55] INFO root fetch - main [MainThread]: End processing [nextaddatamodule]: success
+[2023-05-18 09:49:55] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-18 09:49:56] INFO root fetch - main [MainThread]: End processing [doing-cli]: success
+[2023-05-18 09:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-move-location]: success
+[2023-05-18 09:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-procurement-auto-create-group]: success
+[2023-05-18 09:49:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2023-05-18 09:50:04] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-18 09:50:04] INFO root fetch - main [MainThread]: Store serial: [18150870]
