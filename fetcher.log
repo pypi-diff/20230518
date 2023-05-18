@@ -6859,3 +6859,53 @@
 [2023-05-18 06:49:08] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-18 06:49:45] INFO root fetch - main [MainThread]: End processing [nerv]: success
 [2023-05-18 06:49:45] INFO root fetch - main [MainThread]: Store serial: [18149491]
+[2023-05-18 06:54:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149491]
+[2023-05-18 06:54:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-document-page
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-document-page
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rayasdk
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: purpleair-data-logger
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enn-trainer
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: restoreio
+[2023-05-18 06:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nerv
+[2023-05-18 06:54:54] INFO root fetch - processPackages [rayasdk]: New version: [1.1.0.dev6] Old Version: [1.1.0.dev5]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo14-addon-document-page]: New version: [14.0.1.2.3.dev9] Old Version: [14.0.1.2.3.dev7]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [restoreio]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [enn-trainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [nerv]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [purpleair-data-logger]: New version: [1.2.1a1] Old Version: [1.2.0a2]
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/81/db/faf5895c6c6244565b88ac5fdc9c33a506e8b56b17b596382e0d8a85e1ad/odoo14_addon_document_page-14.0.1.2.3.dev7-py3-none-any.whl
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-05-18 06:54:54] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/a7/0b/c64bba5dffe31eccfc68def6a86cb9ff32cb3e49f9f35997aa943f666854/restoreio-0.3.2.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/96/20/ee0788acf0b6508c6160347e6f1a9801929d49784b3d5d6b2123c86af135/rayasdk-1.1.0.dev6.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [enn-trainer]: Downloading https://files.pythonhosted.org/packages/85/13/e8b8ed088dbf2c09070fbe10a4a3153aa9f5e7b89a58d54fc4bad076fb4b/enn-trainer-0.1.8.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [purpleair-data-logger]: Downloading https://files.pythonhosted.org/packages/33/55/ea10f39d5a5d36c716ebd68d095eecdfeba0ab8256fe7303ecde211ef880/purpleair_data_logger-1.2.0a2.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/85/bd/68c4d19294c9559c9d773de727adeae3c2a273f3124b438f48360ee32278/nerv-0.2.2.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2023-05-18 06:54:54] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-1.1.0.dev5.tar.gz tmp/rayasdk-1.1.0.dev6.tar.gz --markdown 20230518/r/rayasdk/1.1.0.dev5-1.1.0.dev6/diff.md --exclude *.pyd
+[2023-05-18 06:54:54] INFO root fetch - processPackages [nerv]: executing diffoscope
+[2023-05-18 06:54:54] INFO root fetch - processPackages [nerv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerv-0.2.1.tar.gz tmp/nerv-0.2.2.tar.gz --markdown 20230518/n/nerv/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 06:54:54] INFO root fetch - processPackages [purpleair-data-logger]: Downloading https://files.pythonhosted.org/packages/70/66/57c68af9aaded1b6bd7b9d188d2fb4ea432ff46fdf39f4c9414e7b123794/purpleair_data_logger-1.2.1a1.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-05-18 06:54:54] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/51/72/d31486f797391ad477a55f47dd4e2805430713f7ad8c3514e245e7597d7a/restoreio-0.3.3.tar.gz
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/d2/c1/2f7cd4b3b994e78a8006727b6146f6592be41922ac5fd5005241569c268b/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl
+[2023-05-18 06:54:54] INFO root fetch - processPackages [purpleair-data-logger]: executing diffoscope
+[2023-05-18 06:54:54] INFO root fetch - processPackages [purpleair-data-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purpleair_data_logger-1.2.0a2.tar.gz tmp/purpleair_data_logger-1.2.1a1.tar.gz --markdown 20230518/p/purpleair-data-logger/1.2.0a2-1.2.1a1/diff.md --exclude *.pyd
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo14-addon-document-page]: executing diffoscope
+[2023-05-18 06:54:54] INFO root fetch - processPackages [odoo14-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page-14.0.1.2.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-document-page/14.0.1.2.3.dev7-14.0.1.2.3.dev9/diff.md --exclude *.pyd
+[2023-05-18 06:54:55] INFO root fetch - processPackages [enn-trainer]: Downloading https://files.pythonhosted.org/packages/71/d2/98edaa7d266524984634720eeb7bf2cf91c38e482fd80553a967a80a3311/enn-trainer-0.1.9.tar.gz
+[2023-05-18 06:54:55] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-05-18 06:54:55] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.3.2.tar.gz tmp/restoreio-0.3.3.tar.gz --markdown 20230518/r/restoreio/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-18 06:54:55] INFO root fetch - processPackages [enn-trainer]: executing diffoscope
+[2023-05-18 06:54:55] INFO root fetch - processPackages [enn-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enn-trainer-0.1.8.tar.gz tmp/enn-trainer-0.1.9.tar.gz --markdown 20230518/e/enn-trainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 06:54:55] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2023-05-18 06:54:56] INFO root fetch - main [MainThread]: End processing [nerv]: success
+[2023-05-18 06:54:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-05-18 06:54:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
+[2023-05-18 06:54:56] INFO root fetch - main [MainThread]: End processing [enn-trainer]: success
+[2023-05-18 06:54:57] INFO root fetch - main [MainThread]: End processing [purpleair-data-logger]: success
+[2023-05-18 06:54:57] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-05-18 06:54:57] INFO root fetch - main [MainThread]: Store serial: [18149509]
