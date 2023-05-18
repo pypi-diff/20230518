@@ -13995,3 +13995,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:46:31] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-05-18 13:46:35] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-18 13:46:35] INFO root fetch - main [MainThread]: Store serial: [18153438]
+[2023-05-18 13:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153438]
+[2023-05-18 13:51:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horde-model-reference
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cnaclib
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-shelly-touchupDump
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petisco
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-honeybee
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-financial-report-operating-unit
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-parallel-toolkit
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-docker
+[2023-05-18 13:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stackoperator
+[2023-05-18 13:51:44] INFO root fetch - processPackages [horde-model-reference]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [robotframework-docker]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-05-18 13:51:44] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.0.7-py3-none-any.whl.zip tmp/horde_model_reference-0.0.9-py3-none-any.whl.zip --markdown 20230518/h/horde-model-reference/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 13:51:44] WARNING root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Skipping, unable to determine old version
+[2023-05-18 13:51:44] INFO root fetch - processPackages [certora-cli-alpha-shelly-touchupDump]: Start processing: netsuitesdk
+[2023-05-18 13:51:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-touchupDump] error
+[2023-05-18 13:51:44] WARNING root fetch - processPackages [cnaclib]: Skipping, unable to determine old version
+[2023-05-18 13:51:44] WARNING root fetch - processPackages [odoo-addon-account-financial-report-operating-unit]: Skipping, unable to determine old version
+[2023-05-18 13:51:44] INFO root fetch - processPackages [cnaclib]: Start processing: xpanther
+[2023-05-18 13:51:44] INFO root fetch - main [MainThread]: End processing [cnaclib] error
+[2023-05-18 13:51:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report-operating-unit] error
+[2023-05-18 13:51:44] WARNING root fetch - processPackages [stackoperator]: Skipping, unable to determine old version
+[2023-05-18 13:51:44] INFO root fetch - main [MainThread]: End processing [stackoperator] error
+[2023-05-18 13:51:44] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [0.2] Old Version: [0.1]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [xpanther]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [petisco]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-18 13:51:44] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230518/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-18 13:51:44] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-18 13:51:44] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230518/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-18 13:51:44] INFO root fetch - processPackages [robotframework-docker]: Downloading https://files.pythonhosted.org/packages/72/96/a0373666c697534859d033af721724c30f5c4d4973938be900c83379ba0f/robotframework-docker-1.4.0.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-18 13:51:44] INFO root fetch - processPackages [xpanther]: Downloading https://files.pythonhosted.org/packages/c4/83/47b0c6a797b024916f5a11d32bbc00a2b6538f31c9a2bcc396182068cd06/xpanther-1.0.5.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/bb/2f/37f2d35d9f897499aabbfa46d7146105f765265b74e461f9ce0516596551/petisco-1.9.8.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/34/12/17882d743c626baf4e9da46e67db03c9c72641a64f32c5ec554faccdf8f0/openai_parallel_toolkit-0.1.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/e5/08/0a16a5ae184a2bcd174b7255fe02bb05ffe69fd215ac0b74729faa6da08a/netsuitesdk-2.8.0.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [robotframework-docker]: Downloading https://files.pythonhosted.org/packages/aa/a3/036595b8ba3d56de7ca9ed240dbbcc9d7507a752054f43bb76a0839d9d2e/robotframework-docker-1.4.1.tar.gz
+[2023-05-18 13:51:44] INFO root fetch - processPackages [robotframework-docker]: executing diffoscope
+[2023-05-18 13:51:44] INFO root fetch - processPackages [robotframework-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-docker-1.4.0.tar.gz tmp/robotframework-docker-1.4.1.tar.gz --markdown 20230518/r/robotframework-docker/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-18 13:51:45] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/89/5e/d19d08dde3196f9307b06251e80c9a77180aab7de5dc95dd95f174c26645/petisco-1.9.9.tar.gz
+[2023-05-18 13:51:45] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/a5/89/3c29e796529d186b729c982d3970f07191377c6441978b5186d20b3be63d/openai_parallel_toolkit-0.2.tar.gz
+[2023-05-18 13:51:45] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/f4/b0/f6cad2ab7a9d5d66e6245bbb1a53d175f89152e49f7c8d2d01e6e17453f7/netsuitesdk-2.9.0.tar.gz
+[2023-05-18 13:51:45] INFO root fetch - processPackages [xpanther]: Downloading https://files.pythonhosted.org/packages/fa/d7/c576b0e366783d6366cac9a12d90b5d03f3576e30d28c675ee18f9de8680/xpanther-1.0.6.tar.gz
+[2023-05-18 13:51:45] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-05-18 13:51:45] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.8.tar.gz tmp/petisco-1.9.9.tar.gz --markdown 20230518/p/petisco/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 13:51:45] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-05-18 13:51:45] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-0.1.tar.gz tmp/openai_parallel_toolkit-0.2.tar.gz --markdown 20230518/o/openai-parallel-toolkit/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-18 13:51:45] INFO root fetch - processPackages [xpanther]: executing diffoscope
+[2023-05-18 13:51:45] INFO root fetch - processPackages [xpanther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanther-1.0.5.tar.gz tmp/xpanther-1.0.6.tar.gz --markdown 20230518/x/xpanther/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 13:51:45] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2023-05-18 13:51:45] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20230518/n/netsuitesdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-18 13:51:45] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-18 13:51:45] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-05-18 13:51:45] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-18 13:51:46] INFO root fetch - main [MainThread]: End processing [robotframework-docker]: success
+[2023-05-18 13:51:46] INFO root fetch - main [MainThread]: End processing [xpanther]: success
+[2023-05-18 13:51:46] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-05-18 13:51:46] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-05-18 13:52:27] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2023-05-18 13:52:27] INFO root fetch - main [MainThread]: Store serial: [18153479]
