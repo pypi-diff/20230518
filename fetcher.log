@@ -14794,3 +14794,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 14:40:13] INFO root fetch - main [MainThread]: End processing [splunktaucclib]: success
 [2023-05-18 14:40:19] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
 [2023-05-18 14:40:19] INFO root fetch - main [MainThread]: Store serial: [18153976]
+[2023-05-18 14:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153976]
+[2023-05-18 14:45:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunpy
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stackoperator
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmos-ai-tools
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h5parm
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hagis
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biochart
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: colordot
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sealights-python-agent
+[2023-05-18 14:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colorsysx
+[2023-05-18 14:45:29] INFO root fetch - processPackages [stackoperator]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sealights-python-agent]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [h5parm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-1.0.5.tar.gz tmp/sealights-python-agent-1.0.6.tar.gz --markdown 20230518/s/sealights-python-agent/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230518] Old Version: [0.9.1.dev20230517]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [hagis]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-05-18 14:45:29] WARNING root fetch - processPackages [colordot]: Skipping, unable to determine old version
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colordot]: Start processing: malariagen-data
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colorsysx]: New version: [1.0a1] Old Version: [0.2a2]
+[2023-05-18 14:45:29] INFO root fetch - main [MainThread]: End processing [colordot] error
+[2023-05-18 14:45:29] INFO root fetch - processPackages [stackoperator]: executing diffoscope
+[2023-05-18 14:45:29] WARNING root fetch - processPackages [biochart]: Skipping, unable to determine old version
+[2023-05-18 14:45:29] INFO root fetch - processPackages [stackoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackoperator-0.0.3.tar.gz tmp/stackoperator-0.1.0.tar.gz --markdown 20230518/s/stackoperator/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [biochart]: Start processing: jellyash
+[2023-05-18 14:45:29] INFO root fetch - main [MainThread]: End processing [biochart] error
+[2023-05-18 14:45:29] INFO root fetch - processPackages [xmos-ai-tools]: New version: [0.2.2.dev91] Old Version: [0.2.2.dev51]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sunpy]: New version: [5.0.0rc1] Old Version: [4.1rc1]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [h5parm]: Downloading https://files.pythonhosted.org/packages/5e/0a/daa601239bae482950ff7d7c4aa9ee7971b84137cd152fcf13823ab40c7f/h5parm-1.0.3.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [jellyash]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [malariagen-data]: New version: [7.7.0] Old Version: [7.6.0]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colorsysx]: Downloading https://files.pythonhosted.org/packages/e3/cf/68fdb4bbb5ee5896015f5220d93c727d9c9645a4b592f48634bdef111c8f/colorsysx-0.2a2.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/fd/78/b668e0f3f6d6d1eea6d2ea9223c34016b40867d4f100d76024ce2a59a834/tensorcircuit-nightly-0.9.1.dev20230517.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/45/ec/1596423fa6f0d2c54b1d97912de474f453e7e855296ee673b664073e93ea/xmos_ai_tools-0.2.2.dev51-py3-none-win_amd64.whl
+[2023-05-18 14:45:29] INFO root fetch - processPackages [h5parm]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [h5parm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5parm-1.0.2.tar.gz tmp/h5parm-1.0.3.tar.gz --markdown 20230518/h/h5parm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/3e/b4/d36617114021249239037433a53f36ae743b0db538c88193285421ae6a8a/sunpy-4.1rc1.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/09/a2/f31072d1b5f0e77d42c1c36b7140b9177868ecdfc53ef2efaf0b4ca6c9a6/jellyash-0.3.4.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/d2/4c/700b7bfedc1d636ba6c3ee4a1b5f198b8e3dd7eebac38e862705822602f4/malariagen_data-7.6.0.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/da/16/5e53c2f90edcc365176744479ff9ec871a59474a24098d1405dbd538bcef/hagis-0.8.0.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colorsysx]: Downloading https://files.pythonhosted.org/packages/52/9c/e84d824d665346baae6c9f66f4599333f0eb23f4e066ba2194c35d91aab7/colorsysx-1.0a1.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/f7/bb/e422d79ed9db2ce65a055110d440ae59b75f3cd48bfc42fc3214e910e1fd/tensorcircuit-nightly-0.9.1.dev20230518.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colorsysx]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [colorsysx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorsysx-0.2a2.tar.gz tmp/colorsysx-1.0a1.tar.gz --markdown 20230518/c/colorsysx/0.2a2-1.0a1/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.7.4.tar.gz tmp/hagis-0.8.0.tar.gz --markdown 20230518/h/hagis/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230517.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230518.tar.gz --markdown 20230518/t/tensorcircuit-nightly/0.9.1.dev20230517-0.9.1.dev20230518/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [malariagen-data]: Downloading https://files.pythonhosted.org/packages/a0/b8/4c2680393db956f3fe5040bd34c45e5bca7b6ebafaa0983ed9d7cf1e8f2e/malariagen_data-7.7.0.tar.gz
+[2023-05-18 14:45:29] INFO root fetch - processPackages [jellyash]: Downloading https://files.pythonhosted.org/packages/98/0d/9b1ef9a34f2a917c475f57103f6a6aa68d008608022196838133ddb3ced8/jellyash-0.4.0.tar.gz
+[2023-05-18 14:45:29] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 12231762>=10485760
+[2023-05-18 14:45:29] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: sunpy
+[2023-05-18 14:45:29] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-05-18 14:45:29] INFO root fetch - processPackages [malariagen-data]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [malariagen-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malariagen_data-7.6.0.tar.gz tmp/malariagen_data-7.7.0.tar.gz --markdown 20230518/m/malariagen-data/7.6.0-7.7.0/diff.md --exclude *.pyd
+[2023-05-18 14:45:29] INFO root fetch - processPackages [sunpy]: New version: [5.0.0rc1] Old Version: [4.1rc1]
+[2023-05-18 14:45:29] INFO root fetch - processPackages [jellyash]: executing diffoscope
+[2023-05-18 14:45:29] INFO root fetch - processPackages [jellyash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyash-0.3.4.tar.gz tmp/jellyash-0.4.0.tar.gz --markdown 20230518/j/jellyash/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/5c/9f/882b90148baaa67e941ed4f06f5a1c50c82f599d18ad8284ed451784d407/sunpy-5.0.0rc1.tar.gz
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/5c/9f/882b90148baaa67e941ed4f06f5a1c50c82f599d18ad8284ed451784d407/sunpy-5.0.0rc1.tar.gz
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: executing diffoscope
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-4.1rc1.tar.gz tmp/sunpy-5.0.0rc1.tar.gz --markdown 20230518/s/sunpy/4.1rc1-5.0.0rc1/diff.md --exclude *.pyd
+[2023-05-18 14:45:30] INFO root fetch - processPackages [stackoperator]: Start processing: GuiConsoles
+[2023-05-18 14:45:30] INFO root fetch - main [MainThread]: End processing [stackoperator]: success
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: executing diffoscope
+[2023-05-18 14:45:30] INFO root fetch - processPackages [sunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-4.1rc1.tar.gz tmp/sunpy-5.0.0rc1.tar.gz --markdown 20230518/s/sunpy/4.1rc1-5.0.0rc1/diff.md --exclude *.pyd
+[2023-05-18 14:45:30] WARNING root fetch - processPackages [GuiConsoles]: Skipping, unable to determine old version
+[2023-05-18 14:45:30] INFO root fetch - processPackages [GuiConsoles]: Start processing: python3-commons
+[2023-05-18 14:45:30] INFO root fetch - main [MainThread]: End processing [GuiConsoles] error
+[2023-05-18 14:45:30] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 14:45:30] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-05-18 14:45:30] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230518/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 14:45:31] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-05-18 14:45:31] INFO root fetch - main [MainThread]: End processing [colorsysx]: success
+[2023-05-18 14:45:31] INFO root fetch - main [MainThread]: End processing [jellyash]: success
+[2023-05-18 14:45:32] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-18 14:45:32] INFO root fetch - main [MainThread]: End processing [malariagen-data]: success
+[2023-05-18 14:45:32] INFO root fetch - main [MainThread]: End processing [h5parm]: success
+[2023-05-18 14:45:32] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-05-18 14:45:33] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2023-05-18 14:45:41] INFO root fetch - main [MainThread]: End processing [sunpy]: success
+[2023-05-18 14:45:42] INFO root fetch - main [MainThread]: End processing [sunpy]: success
+[2023-05-18 14:45:42] INFO root fetch - main [MainThread]: Store serial: [18154045]
