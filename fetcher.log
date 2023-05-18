@@ -8544,3 +8544,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:23:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-18 08:23:38] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-18 08:23:38] INFO root fetch - main [MainThread]: Store serial: [18150142]
+[2023-05-18 08:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150142]
+[2023-05-18 08:28:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mysql
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpyl
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-pos-order-product-search
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: denmarf
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: references-parser
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-okta
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-docker
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mentpy
+[2023-05-18 08:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-pos
+[2023-05-18 08:28:47] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-18 08:28:47] WARNING root fetch - processPackages [denmarf]: Skipping, unable to determine old version
+[2023-05-18 08:28:47] INFO root fetch - processPackages [denmarf]: Start processing: QuNet
+[2023-05-18 08:28:47] INFO root fetch - main [MainThread]: End processing [denmarf] error
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1684389224] Old Version: [3.2.0a1684215957]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [references-parser]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mentpy]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20230517.0] Old Version: [16.0.20230503.0]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-okta]: New version: [3.9.0a1652715097] Old Version: [3.9.0a1650909822]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1684388470] Old Version: [4.3.0a1684267601]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mpyl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:28:47] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-18 08:28:47] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230518/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:28:47] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/80/ce/c85d1e4851ea7faadba3474756c224d0e22f80f45047c6f0ca1e5a364633/tracebloc_package-dev-0.3.8.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/69/ed/eb1bf290a9f2b458f7b7e31815979f70866093eb5531544c0e5ff106928c/odoo_addons_oca_pos-16.0.20230503.0-py3-none-any.whl
+[2023-05-18 08:28:47] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: Downloading https://files.pythonhosted.org/packages/7a/32/37d23700343b940a89bb03fe7cf926cf50e6937b446dd1061adca9232905/odoo14_addon_pos_order_product_search-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/57/2f/01eaf375eca4e671168440537e73e6cbfb86563a0be556ee46693fff20c5/pulumi_mysql-3.2.0a1684215957.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [references-parser]: Downloading https://files.pythonhosted.org/packages/8e/92/a6aad6aa03e6d6a7d2b6f6f6b48fbd0e1449aaf444adff9c2b0136ae5f6f/references_parser-0.2.4.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mentpy]: Downloading https://files.pythonhosted.org/packages/50/c1/b8b5782d891d94683dd4602a9a824a96a2f910dd524ff855113f001f43d0/mentpy-0.1.0a4.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f5/a4/2f4087cfeedaf6c2e5db7486ef05c0f2ac7ff8223bdb8b12027e4ea02112/pulumi_okta-3.9.0a1650909822.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/6a/cd/50a27a875f041fcf67cdd063c04dab3324046f3c7c610bca5501f139f922/pulumi_docker-4.3.0a1684267601.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-05-18 08:28:47] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.3.7.tar.gz tmp/tracebloc_package-dev-0.3.8.tar.gz --markdown 20230518/t/tracebloc-package-dev/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-18 08:28:47] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: Downloading https://files.pythonhosted.org/packages/a6/3b/b73fd4f2f8b367e86aefbc8195580bc96cd43a16db4eead5ee1a311bd463/odoo14_addon_pos_order_product_search-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mpyl]: executing diffoscope
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyl-0.0.8-py3-none-any.whl.zip tmp/mpyl-0.0.9-py3-none-any.whl.zip --markdown 20230518/m/mpyl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:28:47] INFO root fetch - processPackages [references-parser]: Downloading https://files.pythonhosted.org/packages/2e/5a/def95524068989217088095353f61a0284189c324b2dd3314e09aeeb46be/references_parser-1.0.0.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [mentpy]: Downloading https://files.pythonhosted.org/packages/6e/45/a2b703b5ba6a7a7a1625d3e277a8281210e464ab5a1743f173f5a46fdf62/mentpy-0.1.0a5.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/e4/a8/83d3dea58dcc144474e5d47f99996970315940297021d555d8c4534ad7ba/pulumi_mysql-3.2.0a1684389224.tar.gz
+[2023-05-18 08:28:47] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/28/77/9cac08a053dcd062573f880bc31c233f2cb7cb6209a68806620bc331d404/pulumi_docker-4.3.0a1684388470.tar.gz
+[2023-05-18 08:28:48] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_order_product_search-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_pos_order_product_search-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-pos-order-product-search/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/db/86/2f29a860daa2788a2fa7a77807006df6a3a8957af331cc2829473c245195/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d8/2c/5d5f7005f00e1dba3bd8b51ceaca9a35c45e1f1b54574d0a70abc34b825a/pulumi_okta-3.9.0a1652715097.tar.gz
+[2023-05-18 08:28:48] INFO root fetch - processPackages [references-parser]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [references-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/references_parser-0.2.4.tar.gz tmp/references_parser-1.0.0.tar.gz --markdown 20230518/r/references-parser/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20230503.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl.zip --markdown 20230518/o/odoo-addons-oca-pos/16.0.20230503.0-16.0.20230517.0/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [mentpy]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [mentpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentpy-0.1.0a4.tar.gz tmp/mentpy-0.1.0a5.tar.gz --markdown 20230518/m/mentpy/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1684215957.tar.gz tmp/pulumi_mysql-3.2.0a1684389224.tar.gz --markdown 20230518/p/pulumi-mysql/3.2.0a1684215957-3.2.0a1684389224/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1684267601.tar.gz tmp/pulumi_docker-4.3.0a1684388470.tar.gz --markdown 20230518/p/pulumi-docker/4.3.0a1684267601-4.3.0a1684388470/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-05-18 08:28:48] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-3.9.0a1650909822.tar.gz tmp/pulumi_okta-3.9.0a1652715097.tar.gz --markdown 20230518/p/pulumi-okta/3.9.0a1650909822-3.9.0a1652715097/diff.md --exclude *.pyd
+[2023-05-18 08:28:48] INFO root fetch - processPackages [QuNet]: Start processing: bardapi
+[2023-05-18 08:28:48] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-18 08:28:48] INFO root fetch - processPackages [bardapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 08:28:49] INFO root fetch - processPackages [tracebloc-package-dev]: Start processing: PyCQuery
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-05-18 08:28:49] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/32/8b/2138113f32ccf0ac16d1c4d020ef7d07e573fa57a76e0640bf52c69757e9/bardapi-0.1.6.tar.gz
+[2023-05-18 08:28:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Start processing: rdf-doctor
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2023-05-18 08:28:49] INFO root fetch - processPackages [PyCQuery]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-05-18 08:28:49] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-05-18 08:28:49] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.5.tar.gz tmp/bardapi-0.1.6.tar.gz --markdown 20230518/b/bardapi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 08:28:49] INFO root fetch - processPackages [odoo14-addon-pos-order-product-search]: Start processing: cliptry1
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-order-product-search]: success
+[2023-05-18 08:28:49] WARNING root fetch - processPackages [rdf-doctor]: Skipping, unable to determine old version
+[2023-05-18 08:28:49] INFO root fetch - processPackages [rdf-doctor]: Start processing: pulumi-nomad
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [rdf-doctor] error
+[2023-05-18 08:28:49] INFO root fetch - processPackages [references-parser]: Start processing: pulumi-newrelic
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [references-parser]: success
+[2023-05-18 08:28:49] INFO root fetch - processPackages [cliptry1]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-18 08:28:49] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-05-18 08:28:49] INFO root fetch - processPackages [PyCQuery]: Downloading https://files.pythonhosted.org/packages/7d/8d/ab5228800194d652646f9670c6c0ade0cd21036404bc9344b9ecf19aa564/PyCQuery-1.0.4.tar.gz
+[2023-05-18 08:28:49] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1684389286] Old Version: [0.4.2a1684215982]
+[2023-05-18 08:28:49] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-05-18 08:28:49] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230518/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-05-18 08:28:49] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 08:28:49] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.6.tar.gz tmp/cliptry1-0.1.0.tar.gz --markdown 20230518/c/cliptry1/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [mpyl]: success
+[2023-05-18 08:28:49] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/88/d6/d7f9637ac8db48b8b941d701c2d9af77844eab25a549c89e753edfbefcd1/pulumi_nomad-0.4.2a1684215982.tar.gz
+[2023-05-18 08:28:49] INFO root fetch - main [MainThread]: End processing [mentpy]: success
+[2023-05-18 08:28:50] INFO root fetch - processPackages [PyCQuery]: Downloading https://files.pythonhosted.org/packages/f1/51/45a2d97df7e06c9ffc2120cbb4176549bdcbcc6afff15511b01702faa830/PyCQuery-1.0.6.tar.gz
+[2023-05-18 08:28:50] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-05-18 08:28:50] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/6b/e9/9150abdb18ac120e25961eb0f411350bfcc9d185f9608ada8fd7641af090/pulumi_nomad-0.4.2a1684389286.tar.gz
+[2023-05-18 08:28:50] INFO root fetch - processPackages [PyCQuery]: executing diffoscope
+[2023-05-18 08:28:50] INFO root fetch - processPackages [PyCQuery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCQuery-1.0.4.tar.gz tmp/PyCQuery-1.0.6.tar.gz --markdown 20230518/P/PyCQuery/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 08:28:50] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-05-18 08:28:50] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1684215982.tar.gz tmp/pulumi_nomad-0.4.2a1684389286.tar.gz --markdown 20230518/p/pulumi-nomad/0.4.2a1684215982-0.4.2a1684389286/diff.md --exclude *.pyd
+[2023-05-18 08:28:50] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-05-18 08:28:50] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 08:28:51] INFO root fetch - main [MainThread]: End processing [PyCQuery]: success
+[2023-05-18 08:28:51] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-18 08:28:51] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-05-18 08:28:51] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-05-18 08:28:57] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-05-18 08:28:57] INFO root fetch - main [MainThread]: Store serial: [18150189]
