@@ -11476,3 +11476,154 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:04:23] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2023-05-18 11:04:24] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
 [2023-05-18 11:04:24] INFO root fetch - main [MainThread]: Store serial: [18151813]
+[2023-05-18 11:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18151813]
+[2023-05-18 11:09:33] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.multimodal
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.timeseries
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.cloud
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.eda
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tkinter-bounce-game
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-daf-relation
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: template-pptx-jinja-my
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-pipe-base
+[2023-05-18 11:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-mpexec
+[2023-05-18 11:09:33] INFO root fetch - processPackages [tkinter-bounce-game]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [template-pptx-jinja-my]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230518] Old Version: [0.7.1b20230517]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230518] Old Version: [0.7.1b20230517]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230518] Old Version: [0.2.1b20230517]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230518] Old Version: [0.7.1b20230517]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230518] Old Version: [0.7.1b20230517]
+[2023-05-18 11:09:34] INFO root fetch - processPackages [tkinter-bounce-game]: Downloading https://files.pythonhosted.org/packages/45/9c/bd15c77d624089f6c75bafe40f4e16303cd9c81663e1abf7ad6a404db6c5/tkinter_bounce_game-0.2.0.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [template-pptx-jinja-my]: Downloading https://files.pythonhosted.org/packages/14/1d/0bec99d4a83e5a566fd64f7a058b24c1e14d6b333e154a32b89c9f5c0b00/template-pptx-jinja-my-0.0.1.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ee/0c/4c85ae67b675be83f30fe342029a284429b8bc6dd48d8e6cb68b681ca149/autogluon.multimodal-0.7.1b20230517.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/9d/43/5189e6e6d4e506adb0f3cf59389f9f8581af5ff512893d3261d1625d66c7/autogluon.eda-0.7.1b20230517.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/67/9b/0d7d67541ef5d1dada74b247d129ce15ecd4ed44bd3a0b1315d6ec123fa5/autogluon.timeseries-0.7.1b20230517.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/ff/e8/435db2f7252ada08b02ff362486e89f9154ca36aae82ddab7a7059f0ece0/autogluon-0.7.1b20230517.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/17/23/f01924acd104c78b8f3e207587ce2d15ee945dd3b9607491fd37ce259d8f/autogluon.cloud-0.2.1b20230518.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [tkinter-bounce-game]: Downloading https://files.pythonhosted.org/packages/89/f3/7c301abea828e285a41c164407a5ff0332cde25452f648a34cf14b2271e8/tkinter_bounce_game-0.2.1.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [template-pptx-jinja-my]: Downloading https://files.pythonhosted.org/packages/c9/e7/738a83576d86cb2119eddeb90b53f71e73e8c1ba2c785a4ddc1991988b7a/template-pptx-jinja-my-0.0.2.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/15/53/00807ee762fd27372fc71a5aa565279e716a43d7f7b3a7a6b55736ff4986/autogluon.eda-0.7.1b20230518.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/55/ee/ea06236259e30db8ebf04462552a62bb577ef99ed2afa8ac1c97ff8a0133/autogluon.timeseries-0.7.1b20230518.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [tkinter-bounce-game]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [tkinter-bounce-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinter_bounce_game-0.2.0.tar.gz tmp/tkinter_bounce_game-0.2.1.tar.gz --markdown 20230518/t/tkinter-bounce-game/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/37/c8/40c9143c0877e0cf71cdeb20a6b0373bf5ad3424e1fe74806363b6a3ef0d/autogluon.multimodal-0.7.1b20230518.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230517.tar.gz tmp/autogluon.cloud-0.2.1b20230518.tar.gz --markdown 20230518/a/autogluon.cloud/0.2.1b20230517-0.2.1b20230518/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [template-pptx-jinja-my]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [template-pptx-jinja-my]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-my-0.0.1.tar.gz tmp/template-pptx-jinja-my-0.0.2.tar.gz --markdown 20230518/t/template-pptx-jinja-my/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/87/75/b3562eb55fa140a5a96e56160df66e7e7377394b1b058bd7503173cd9eb6/autogluon-0.7.1b20230518.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230517.tar.gz tmp/autogluon.eda-0.7.1b20230518.tar.gz --markdown 20230518/a/autogluon.eda/0.7.1b20230517-0.7.1b20230518/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230517.tar.gz tmp/autogluon.timeseries-0.7.1b20230518.tar.gz --markdown 20230518/a/autogluon.timeseries/0.7.1b20230517-0.7.1b20230518/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230518/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230518/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230517.tar.gz tmp/autogluon.multimodal-0.7.1b20230518.tar.gz --markdown 20230518/a/autogluon.multimodal/0.7.1b20230517-0.7.1b20230518/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230517.tar.gz tmp/autogluon-0.7.1b20230518.tar.gz --markdown 20230518/a/autogluon/0.7.1b20230517-0.7.1b20230518/diff.md --exclude *.pyd
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-05-18 11:09:34] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230518/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-18 11:09:36] INFO root fetch - processPackages [tkinter-bounce-game]: Start processing: sql-pylib
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [tkinter-bounce-game]: success
+[2023-05-18 11:09:36] INFO root fetch - processPackages [sql-pylib]: New version: [0.12] Old Version: [0.11]
+[2023-05-18 11:09:36] INFO root fetch - processPackages [template-pptx-jinja-my]: Start processing: h5parm
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-my]: success
+[2023-05-18 11:09:36] INFO root fetch - processPackages [sql-pylib]: executing diffoscope
+[2023-05-18 11:09:36] INFO root fetch - processPackages [sql-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql-pylib-0.11.tar.gz tmp/sql-pylib-0.12.tar.gz --markdown 20230518/s/sql-pylib/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-18 11:09:36] INFO root fetch - processPackages [h5parm]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 11:09:36] INFO root fetch - processPackages [autogluon.eda]: Start processing: kooplearn
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-05-18 11:09:36] INFO root fetch - processPackages [kooplearn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 11:09:36] INFO root fetch - processPackages [kooplearn]: executing diffoscope
+[2023-05-18 11:09:36] INFO root fetch - processPackages [kooplearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kooplearn-0.1.8.tar.gz tmp/kooplearn-0.1.9.tar.gz --markdown 20230518/k/kooplearn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 11:09:36] INFO root fetch - processPackages [autogluon]: Start processing: pybrary
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-05-18 11:09:36] INFO root fetch - processPackages [h5parm]: Downloading https://files.pythonhosted.org/packages/86/1b/5356e31f30491bb2a2a7cfe8c4c683abf58776fe83d4be51ece35a55a9aa/h5parm-1.0.1.tar.gz
+[2023-05-18 11:09:36] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2320.0]
+[2023-05-18 11:09:36] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Start processing: exshll
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-05-18 11:09:36] INFO root fetch - processPackages [h5parm]: Downloading https://files.pythonhosted.org/packages/13/46/a07a0a748b5949eb9d183017fae5668ae2a0605cd1011d5cfc4706ec961c/h5parm-1.0.2.tar.gz
+[2023-05-18 11:09:36] WARNING root fetch - processPackages [exshll]: Skipping, unable to determine old version
+[2023-05-18 11:09:36] INFO root fetch - processPackages [exshll]: Start processing: dql-alpha
+[2023-05-18 11:09:36] INFO root fetch - main [MainThread]: End processing [exshll] error
+[2023-05-18 11:09:36] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/43/31/ef9ef2995b046375d459632abd1eaebdd33c4215254e7570be960fcba3bc/pybrary-0.2320.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [h5parm]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [h5parm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5parm-1.0.1.tar.gz tmp/h5parm-1.0.2.tar.gz --markdown 20230518/h/h5parm/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [lsst-pipe-base]: Start processing: panml
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 11:09:37] WARNING root fetch - processPackages [panml]: Skipping, unable to determine old version
+[2023-05-18 11:09:37] INFO root fetch - processPackages [panml]: Start processing: longpython
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [panml] error
+[2023-05-18 11:09:37] INFO root fetch - processPackages [autogluon.cloud]: Start processing: cads-sdk
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [longpython]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 11:09:37] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-05-18 11:09:37] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2320.0.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20230518/p/pybrary/0.2320.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: PatryksAutoAI
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-18 11:09:37] INFO root fetch - processPackages [longpython]: Downloading https://files.pythonhosted.org/packages/69/2f/600c688f6cebce244fcb870418dd7622b6d4ec55db86d0c9f8d54cffa640/longpython-0.1.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [cads-sdk]: Downloading https://files.pythonhosted.org/packages/ae/c5/81783decd7fc858c1b0e2a8c327570e4b3d945398e517fbd513a24f8bce2/cads_sdk-0.0.19-py3-none-any.whl
+[2023-05-18 11:09:37] INFO root fetch - processPackages [sql-pylib]: Start processing: multidimensionalks
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [sql-pylib]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.18-py3-none-any.whl.zip tmp/cads_sdk-0.0.19-py3-none-any.whl.zip --markdown 20230518/c/cads-sdk/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [multidimensionalks]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 11:09:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/3c/5b/faa36b0afa17ec3a55999ac235635a4abfc8e7b2da76f494ce07d616e6a5/PatryksAutoAI-1.2.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [longpython]: Downloading https://files.pythonhosted.org/packages/3a/05/a3eebcdb2adc4d31d7fd868fa40851b692b5a03e870265f4985b83cefd17/longpython-0.1.1.tar.gz
+[2023-05-18 11:09:37] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-1.1.9.tar.gz tmp/PatryksAutoAI-1.2.0.tar.gz --markdown 20230518/P/PatryksAutoAI/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230518/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [multidimensionalks]: Downloading https://files.pythonhosted.org/packages/ee/ae/003741fa346ec989a10e6e8eb7df72e33b41c3e0aa58e6b321145f02bca2/multidimensionalks-0.1.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 11:09:37] INFO root fetch - processPackages [longpython]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [longpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longpython-0.1.0.tar.gz tmp/longpython-0.1.1.tar.gz --markdown 20230518/l/longpython/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: template-pptx-jinja-my
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [template-pptx-jinja-my]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 11:09:37] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: lazy-alchemy
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [kooplearn]: Start processing: TPEduBot
+[2023-05-18 11:09:37] INFO root fetch - main [MainThread]: End processing [kooplearn]: success
+[2023-05-18 11:09:37] INFO root fetch - processPackages [template-pptx-jinja-my]: executing diffoscope
+[2023-05-18 11:09:37] INFO root fetch - processPackages [template-pptx-jinja-my]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/template-pptx-jinja-my-0.0.1.tar.gz tmp/template-pptx-jinja-my-0.0.2.tar.gz --markdown 20230518/t/template-pptx-jinja-my/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 11:09:37] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 11:09:38] INFO root fetch - processPackages [multidimensionalks]: executing diffoscope
+[2023-05-18 11:09:38] INFO root fetch - processPackages [multidimensionalks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidimensionalks-0.1.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/multidimensionalks-0.1.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230518/m/multidimensionalks/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 11:09:38] INFO root fetch - processPackages [lazy-alchemy]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-18 11:09:38] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 11:09:38] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 11:09:38] INFO root fetch - processPackages [lazy-alchemy]: Downloading https://files.pythonhosted.org/packages/e8/cc/dd59c8beaa3a507a9d0f8542b8b0e0a61879969765c5e32747d4611d6393/lazy_alchemy-0.0.3.tar.gz
+[2023-05-18 11:09:38] INFO root fetch - processPackages [lazy-alchemy]: Downloading https://files.pythonhosted.org/packages/47/42/efb734469209cf55226169b8fd8f133b356938b835cbbe7d5b3ec5380781/lazy_alchemy-1.0.0.tar.gz
+[2023-05-18 11:09:38] INFO root fetch - processPackages [lazy-alchemy]: executing diffoscope
+[2023-05-18 11:09:38] INFO root fetch - processPackages [lazy-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_alchemy-0.0.3.tar.gz tmp/lazy_alchemy-1.0.0.tar.gz --markdown 20230518/l/lazy-alchemy/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 11:09:38] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [longpython]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [h5parm]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [template-pptx-jinja-my]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [lazy-alchemy]: success
+[2023-05-18 11:09:39] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 11:09:44] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
+[2023-05-18 11:09:44] INFO root fetch - main [MainThread]: Store serial: [18151901]
