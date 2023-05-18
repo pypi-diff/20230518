@@ -7447,3 +7447,45 @@
 [2023-05-18 07:34:54] INFO root fetch - main [MainThread]: End processing [abqcy]: success
 [2023-05-18 07:34:55] INFO root fetch - main [MainThread]: End processing [edx-event-routing-backends]: success
 [2023-05-18 07:34:55] INFO root fetch - main [MainThread]: Store serial: [18149743]
+[2023-05-18 07:39:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149743]
+[2023-05-18 07:40:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytdl-sub
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpqhsi
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-speech
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-maintenance-plan
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-plan
+[2023-05-18 07:40:04] INFO root fetch - processPackages [mpqhsi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.5.18] Old Version: [2023.4.5.post1]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo14-addon-maintenance-plan]: New version: [14.0.1.6.1.dev5] Old Version: [14.0.1.6.1.dev3]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [neon-speech]: New version: [3.3.2a4] Old Version: [3.3.2a3]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230518.5.35.71686] Old Version: [20230517.22.52.272043]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: New version: [15.0.1.7.0.3] Old Version: [15.0.1.7.0.2]
+[2023-05-18 07:40:04] INFO root fetch - processPackages [mpqhsi]: Downloading https://files.pythonhosted.org/packages/68/96/bd18c2dee51de14f0d4f1847511e49e627d3a191b69c41a08a8c072f84d8/mpqhsi-0.0.6.tar.gz
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo14-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/ef/b3/6ad1b7a926c835c8fb4ccec3c888880386b37bd7307cdf5adf1955e07622/odoo14_addon_maintenance_plan-14.0.1.6.1.dev3-py3-none-any.whl
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/6c/28/d4bc8b2551b15b7674c691960d1f97dc4617496e0befdf57360738deaf9a/ytdl-sub-2023.4.5.post1.tar.gz
+[2023-05-18 07:40:04] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/27/3f/f0121e18b15170d1e2277591d166b20937d786fd5d289f3d41d2ec56eb2f/certora-cli-alpha-master-20230517.22.52.272043.tar.gz
+[2023-05-18 07:40:04] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/1d/29/58817173321e4fd8cd42947f358b4c15d4be1a130b5e51345e1abe37e97a/neon_speech-3.3.2a4-py3-none-any.whl
+[2023-05-18 07:40:04] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38975782>=10485760
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/d7/a7/afb4dca65696d73d7d30d08b232ec2c59a7f237e84ac4704b20a6c186f75/odoo_addon_maintenance_plan-15.0.1.7.0.2-py3-none-any.whl
+[2023-05-18 07:40:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-18 07:40:04] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-05-18 07:40:04] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.2a3-py3-none-any.whl.zip tmp/neon_speech-3.3.2a4-py3-none-any.whl.zip --markdown 20230518/n/neon-speech/3.3.2a3-3.3.2a4/diff.md --exclude *.pyd
+[2023-05-18 07:40:04] INFO root fetch - processPackages [mpqhsi]: Downloading https://files.pythonhosted.org/packages/71/98/fc2b8296ab4adc766ae2b4c40dad76c13094a5a234d38257f0e39b0db7ef/mpqhsi-0.0.7.tar.gz
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo14-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/6f/13/4915df7b8199c41fdd9e5d68688e092ff694e061804b8f74df52bcc37c5a/odoo14_addon_maintenance_plan-14.0.1.6.1.dev5-py3-none-any.whl
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/bd/58/bca373ac91aa60f71e04cc8f66ca5e57c3110225a23535646337d4987fe9/odoo_addon_maintenance_plan-15.0.1.7.0.3-py3-none-any.whl
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/0e/22/c929cdb77c092a6079712eab9864d727de851af7515facf67b3de2546eba/ytdl-sub-2023.5.18.tar.gz
+[2023-05-18 07:40:04] INFO root fetch - processPackages [mpqhsi]: executing diffoscope
+[2023-05-18 07:40:04] INFO root fetch - processPackages [mpqhsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpqhsi-0.0.6.tar.gz tmp/mpqhsi-0.0.7.tar.gz --markdown 20230518/m/mpqhsi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo14-addon-maintenance-plan]: executing diffoscope
+[2023-05-18 07:40:04] INFO root fetch - processPackages [odoo14-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_maintenance_plan-14.0.1.6.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_maintenance_plan-14.0.1.6.1.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-maintenance-plan/14.0.1.6.1.dev3-14.0.1.6.1.dev5/diff.md --exclude *.pyd
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-05-18 07:40:04] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.4.5.post1.tar.gz tmp/ytdl-sub-2023.5.18.tar.gz --markdown 20230518/y/ytdl-sub/2023.4.5.post1-2023.5.18/diff.md --exclude *.pyd
+[2023-05-18 07:40:05] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: executing diffoscope
+[2023-05-18 07:40:05] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_plan-15.0.1.7.0.2-py3-none-any.whl.zip tmp/odoo_addon_maintenance_plan-15.0.1.7.0.3-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-maintenance-plan/15.0.1.7.0.2-15.0.1.7.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:40:05] INFO root fetch - main [MainThread]: End processing [mpqhsi]: success
+[2023-05-18 07:40:05] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-05-18 07:40:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-maintenance-plan]: success
+[2023-05-18 07:40:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-plan]: success
+[2023-05-18 07:40:06] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-05-18 07:40:06] INFO root fetch - main [MainThread]: Store serial: [18149762]
