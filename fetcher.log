@@ -12554,3 +12554,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 11:57:18] INFO root fetch - main [MainThread]: End processing [cloud-toolkit-aws]: success
 [2023-05-18 11:57:19] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
 [2023-05-18 11:57:19] INFO root fetch - main [MainThread]: Store serial: [18152436]
+[2023-05-18 12:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152436]
+[2023-05-18 12:02:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cliptry1
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpctools
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Phanatic
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ak-50c620ebd72240219637191db5c3441d
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dls-utilpack
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ja3requests
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-apps
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-ak-ee637c8293f64104af9686dc12e0cd18
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.88]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [cliptry1]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 12:02:29] WARNING root fetch - processPackages [Phanatic]: Skipping, unable to determine old version
+[2023-05-18 12:02:29] INFO root fetch - processPackages [Phanatic]: Start processing: TPEduBot
+[2023-05-18 12:02:29] INFO root fetch - main [MainThread]: End processing [Phanatic] error
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [mpctools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ja3requests]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [dls-utilpack]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-18 12:02:29] WARNING root fetch - processPackages [jupyter-apps]: Skipping, unable to determine old version
+[2023-05-18 12:02:29] INFO root fetch - processPackages [jupyter-apps]: Start processing: rosa-python-client
+[2023-05-18 12:02:29] INFO root fetch - main [MainThread]: End processing [jupyter-apps] error
+[2023-05-18 12:02:29] INFO root fetch - processPackages [TPEduBot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: executing diffoscope
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz --markdown 20230518/a/antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 12:02:29] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/4c/f5/177b92371f3fd32192dddabc13e400116e5ba00074bf91b9875f1ab0cb8a/akshare-1.9.88.tar.gz
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: executing diffoscope
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-50c620ebd72240219637191db5c3441d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.4.tar.gz tmp/antchain_ak_50c620ebd72240219637191db5c3441d-1.0.5.tar.gz --markdown 20230518/a/antchain-ak-50c620ebd72240219637191db5c3441d/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-18 12:02:29] INFO root fetch - processPackages [TPEduBot]: executing diffoscope
+[2023-05-18 12:02:29] INFO root fetch - processPackages [TPEduBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPEduBot-0.5.8.tar.gz tmp/TPEduBot-0.5.9.tar.gz --markdown 20230518/T/TPEduBot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-18 12:02:29] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/af/63/13e71bd8cd027b49bcebf038075a3bdf438fc3dc80811a3988d9de067626/cliptry1-0.1.4.tar.gz
+[2023-05-18 12:02:29] INFO root fetch - processPackages [ja3requests]: Downloading https://files.pythonhosted.org/packages/9a/99/6a0977e040d6ab6079443646f10f0dd4bee298bf5a71ba1c48042bdc4b1a/ja3requests-0.0.3.tar.gz
+[2023-05-18 12:02:29] INFO root fetch - processPackages [mpctools]: Downloading https://files.pythonhosted.org/packages/97/be/633788bd00933a4301f487a45866ff53a75f200e912e92c3a5e63e9fd8a1/mpctools-0.8.0.tar.gz
+[2023-05-18 12:02:29] WARNING root fetch - processPackages [rosa-python-client]: Skipping, unable to determine old version
+[2023-05-18 12:02:29] INFO root fetch - main [MainThread]: End processing [rosa-python-client] error
+[2023-05-18 12:02:29] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Downloading https://files.pythonhosted.org/packages/b2/e7/108ba321d919b0480c8a8d1d94ca9afb00d8819f8ad356900391aed0f661/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz
+[2023-05-18 12:02:29] INFO root fetch - processPackages [dls-utilpack]: Downloading https://files.pythonhosted.org/packages/4e/21/1c4f59fab1125b50fdc526196fbf75691068d90eee6a14e6d6c8a2fdba6f/dls-utilpack-1.4.0.tar.gz
+[2023-05-18 12:02:30] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.88.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230518/a/akshare/1.9.88-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 12:02:30] INFO root fetch - processPackages [dls-utilpack]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [dls-utilpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-utilpack-1.3.1.tar.gz tmp/dls-utilpack-1.4.0.tar.gz --markdown 20230518/d/dls-utilpack/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-18 12:02:30] INFO root fetch - processPackages [ja3requests]: Downloading https://files.pythonhosted.org/packages/3b/02/faa77c23868489e24984acebc492a0ea1e3ff388dbb5c82e6ddfbd0bd826/ja3requests-1.0.0.tar.gz
+[2023-05-18 12:02:30] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/46/c1/f56ab891e411939a9f68f2237f69c4303c73aafe55082dc32695b65dea3b/cliptry1-0.1.5.tar.gz
+[2023-05-18 12:02:30] INFO root fetch - processPackages [mpctools]: Downloading https://files.pythonhosted.org/packages/de/37/1eb4b4cd8af43d9e5c32adfc6f5c9a0bb119f03e2a2ee0b012a6bdf66e7b/mpctools-0.9.0.tar.gz
+[2023-05-18 12:02:30] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Downloading https://files.pythonhosted.org/packages/8f/3f/d7e2bc007bb50cec590a2a345fed620dff8342a8d98cbdcd3cbdd0d3dcae/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.1.0.tar.gz
+[2023-05-18 12:02:30] INFO root fetch - processPackages [mpctools]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [mpctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpctools-0.8.0.tar.gz tmp/mpctools-0.9.0.tar.gz --markdown 20230518/m/mpctools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 12:02:30] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [ja3requests]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.1.4.tar.gz tmp/cliptry1-0.1.5.tar.gz --markdown 20230518/c/cliptry1/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 12:02:30] INFO root fetch - processPackages [ja3requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ja3requests-0.0.3.tar.gz tmp/ja3requests-1.0.0.tar.gz --markdown 20230518/j/ja3requests/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-18 12:02:30] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: executing diffoscope
+[2023-05-18 12:02:30] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.1.0.tar.gz --markdown 20230518/a/antchain-ak-ee637c8293f64104af9686dc12e0cd18/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [antchain-ak-50c620ebd72240219637191db5c3441d]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [ja3requests]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [dls-utilpack]: success
+[2023-05-18 12:02:31] INFO root fetch - main [MainThread]: End processing [TPEduBot]: success
+[2023-05-18 12:02:32] INFO root fetch - main [MainThread]: End processing [mpctools]: success
+[2023-05-18 12:02:35] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-18 12:02:35] INFO root fetch - main [MainThread]: Store serial: [18152475]
