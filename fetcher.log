@@ -8122,3 +8122,192 @@
 [2023-05-18 08:07:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-05-18 08:07:10] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2023-05-18 08:07:10] INFO root fetch - main [MainThread]: Store serial: [18149990]
+[2023-05-18 08:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149990]
+[2023-05-18 08:12:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gravity-auto-exit
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cliptry1
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cm-two
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-sale-multi-operating-unit
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-github
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-mailgun
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-hcloud
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wyzard
+[2023-05-18 08:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-auto-control
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cm-two]: New version: [2.3.12] Old Version: [2.3.11]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cliptry1]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1684388767] Old Version: [3.5.0a1684215476]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: New version: [12.0.1.0.0.99.dev33] Old Version: [12.0.1.0.0.99.dev32]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [gravity-auto-exit]: New version: [1.8.31] Old Version: [1.8.3]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683752304] Old Version: [5.9.0a1683610445]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [wyzard]: New version: [1.0] Old Version: [0.1b1]
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cliptry1]: Downloading https://files.pythonhosted.org/packages/d1/d2/022a34afddf092687defa61a0d1ba1f6568f907d694f17f959ae581d9368/cliptry1-0.1.0.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/bc/6f/46d11d9ab77fa1ff14644b4dbf49362981cae040bed559a6d6429fc6b6b7/cm_two-2.3.11-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/e4/5d/878ae3d4a843ec8dd27f22c555c0a554c1db0e11d477f1b912909c1140d2/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev32-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [wyzard]: Downloading https://files.pythonhosted.org/packages/0f/90/7222313b9355eb702c008d9415344f9dc7fa43e7750bbe5ecf566fff863c/wyzard-1.0.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/0c/11/75bbd52c596f08a3a9cd8ffc2a4a9fae49d8778a5ebc41f16dbdbb5b9075/pulumi_mailgun-3.5.0a1684215476.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [gravity-auto-exit]: Downloading https://files.pythonhosted.org/packages/db/20/93e7fd871155909bf500dd447eca701e1a559f1878bd44b763ff150319ca/gravity_auto_exit-1.8.31-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/41/be/9f6a13f0f70160a1e153ade3473128ae8c47be033e7fcd1c5b6673be4441/je_auto_control-0.0.97.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/b6/3b/48dc074080bc303234e70848d796b0567c22726e38ca1e7b207ca6bb2d81/pulumi_github-5.9.0a1683610445.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cliptry1]: executing diffoscope
+[2023-05-18 08:12:19] INFO root fetch - processPackages [cliptry1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliptry1-0.0.6.tar.gz tmp/cliptry1-0.1.0.tar.gz --markdown 20230518/c/cliptry1/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 08:12:19] INFO root fetch - processPackages [gravity-auto-exit]: executing diffoscope
+[2023-05-18 08:12:19] INFO root fetch - processPackages [wyzard]: executing diffoscope
+[2023-05-18 08:12:19] INFO root fetch - processPackages [gravity-auto-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gravity_auto_exit-1.8.3-py3-none-any.whl.zip tmp/gravity_auto_exit-1.8.31-py3-none-any.whl.zip --markdown 20230518/g/gravity-auto-exit/1.8.3-1.8.31/diff.md --exclude *.pyd
+[2023-05-18 08:12:19] INFO root fetch - processPackages [wyzard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyzard-0.1b1.tar.gz tmp/wyzard-1.0.tar.gz --markdown 20230518/w/wyzard/0.1b1-1.0/diff.md --exclude *.pyd
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Downloading https://files.pythonhosted.org/packages/e9/bc/b16502480d1c2d10fa185547faac4883771b74667da14a37074cededb334/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev33-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [je-auto-control]: Downloading https://files.pythonhosted.org/packages/78/55/4dc015599bcd379abbfd417a41e41cde28b8d30c1067f1ac0bcb165c780d/je_auto_control-0.0.99.tar.gz
+[2023-05-18 08:12:19] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-05-18 08:12:19] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-05-18 08:12:20] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230518/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-05-18 08:12:20] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev32-py3-none-any.whl.zip tmp/odoo12_addon_sale_multi_operating_unit-12.0.1.0.0.99.dev33-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-sale-multi-operating-unit/12.0.1.0.0.99.dev32-12.0.1.0.0.99.dev33/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683610445.tar.gz tmp/pulumi_github-5.9.0a1683752304.tar.gz --markdown 20230518/p/pulumi-github/5.9.0a1683610445-5.9.0a1683752304/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/b9/bd/69b5fa13fa50948d8b2db4446460812de768157fbed698498c0a9e045c3f/pulumi_mailgun-3.5.0a1684388767.tar.gz
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230518/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/21/f5/172b51f5aae3fd8bd27701b8c791612f3e8e18d2b0cd449577b90939fa0d/cm_two-2.3.12-py3-none-any.whl
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1684215476.tar.gz tmp/pulumi_mailgun-3.5.0a1684388767.tar.gz --markdown 20230518/p/pulumi-mailgun/3.5.0a1684215476-3.5.0a1684388767/diff.md --exclude *.pyd
+[2023-05-18 08:12:20] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-05-18 08:12:20] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.11-py3-none-any.whl.zip tmp/cm_two-2.3.12-py3-none-any.whl.zip --markdown 20230518/c/cm-two/2.3.11-2.3.12/diff.md --exclude *.pyd
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cliptry1]: Start processing: pulumi-equinix-metal
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [cliptry1]: success
+[2023-05-18 08:12:21] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1684388257] Old Version: [3.3.0a1684215116]
+[2023-05-18 08:12:21] INFO root fetch - processPackages [gravity-auto-exit]: Start processing: cyberdrop-dl
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [gravity-auto-exit]: success
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.28] Old Version: [4.2.27]
+[2023-05-18 08:12:21] INFO root fetch - processPackages [wyzard]: Start processing: fyle-accounting-mappings
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [wyzard]: success
+[2023-05-18 08:12:21] INFO root fetch - processPackages [fyle-accounting-mappings]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-18 08:12:21] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/17/2c/08b63b14b49539f11da5f0a5608a8564a1b41f1856cd2647261508fbac4c/pulumi_equinix_metal-3.3.0a1684215116.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ea/83/67fbb505851c3a88f44458dfed59afb0459587b4aaff1e92d1361427f31e/cyberdrop-dl-4.2.27.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/ee/e4/584f8a92de035d96a9702ffb19955efc4d93d5610034bbfaa3eb3e345586/fyle-accounting-mappings-1.8.0.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/5d/cc/ebb89a0a7c3df9082c252c520488bdb538223e37fc1f31c84d96970095f9/pulumi_equinix_metal-3.3.0a1684388257.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/dc/71/52cfcb9c9799cbc390e9338d82065ad79f4aaec3023c24d96e4c0b788088/cyberdrop-dl-4.2.28.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [odoo12-addon-sale-multi-operating-unit]: Start processing: DeepRetail
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-multi-operating-unit]: success
+[2023-05-18 08:12:21] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-05-18 08:12:21] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1684215116.tar.gz tmp/pulumi_equinix_metal-3.3.0a1684388257.tar.gz --markdown 20230518/p/pulumi-equinix-metal/3.3.0a1684215116-3.3.0a1684388257/diff.md --exclude *.pyd
+[2023-05-18 08:12:21] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/0e/69/e0030f5b6d0b91631cfdb65f832ec00fda7e938ac982a3a43b6587639e62/fyle-accounting-mappings-1.9.0.tar.gz
+[2023-05-18 08:12:21] INFO root fetch - processPackages [DeepRetail]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-18 08:12:21] INFO root fetch - processPackages [fyle-accounting-mappings]: executing diffoscope
+[2023-05-18 08:12:21] INFO root fetch - processPackages [fyle-accounting-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-accounting-mappings-1.8.0.tar.gz tmp/fyle-accounting-mappings-1.9.0.tar.gz --markdown 20230518/f/fyle-accounting-mappings/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-18 08:12:21] INFO root fetch - processPackages [je-auto-control]: Start processing: Alpha-Rabbit
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-05-18 08:12:21] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.27.tar.gz tmp/cyberdrop-dl-4.2.28.tar.gz --markdown 20230518/c/cyberdrop-dl/4.2.27-4.2.28/diff.md --exclude *.pyd
+[2023-05-18 08:12:21] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-05-18 08:12:21] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-05-18 08:12:21] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-18 08:12:21] INFO root fetch - processPackages [DeepRetail]: Downloading https://files.pythonhosted.org/packages/40/56/935b4335d11394f328dc7a7cde3bff8d49a125e7be8948dff1a3e9210b7c/DeepRetail-0.0.6.tar.gz
+[2023-05-18 08:12:22] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-05-18 08:12:22] INFO root fetch - processPackages [DeepRetail]: Downloading https://files.pythonhosted.org/packages/7a/e5/231234dc720adaa145e92861901b639f83cb6121394801dc87fad031130e/DeepRetail-0.0.7.tar.gz
+[2023-05-18 08:12:22] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-05-18 08:12:22] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-18 08:12:22] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230518/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-18 08:12:22] INFO root fetch - processPackages [DeepRetail]: executing diffoscope
+[2023-05-18 08:12:22] INFO root fetch - processPackages [DeepRetail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepRetail-0.0.6.tar.gz tmp/DeepRetail-0.0.7.tar.gz --markdown 20230518/D/DeepRetail/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-18 08:12:22] INFO root fetch - main [MainThread]: End processing [fyle-accounting-mappings]: success
+[2023-05-18 08:12:23] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-05-18 08:12:23] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-18 08:12:24] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-18 08:12:24] INFO root fetch - main [MainThread]: End processing [DeepRetail]: success
+[2023-05-18 08:12:25] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-05-18 08:12:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-05-18 08:12:27] INFO root fetch - main [MainThread]: Store serial: [18150032]
