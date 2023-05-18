@@ -4119,3 +4119,59 @@
 [2023-05-18 03:00:03] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-05-18 03:00:03] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-18 03:00:03] INFO root fetch - main [MainThread]: Store serial: [18148240]
+[2023-05-18 03:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148240]
+[2023-05-18 03:05:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 03:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FMLEngine
+[2023-05-18 03:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motionrender
+[2023-05-18 03:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrSpiders
+[2023-05-18 03:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kedro-prefect-oliver
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyt-gpt
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vkbasalt-cli
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: validmind
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lanarky
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imessagedb
+[2023-05-18 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sysidentpy
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [FMLEngine]: Skipping, unable to determine old version
+[2023-05-18 03:05:13] INFO root fetch - processPackages [FMLEngine]: Start processing: PyRVCTestF
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [FMLEngine] error
+[2023-05-18 03:05:13] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [kedro-prefect-oliver]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [lanarky]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [validmind]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [imessagedb]: New version: [1.2.0] Old Version: [1.0.1]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/b7/ed/30fc6abae749c7a21e0b046e5a2c4b89afb73f04da28fb873b75c36b2f7d/hyt-gpt-0.3.8.tar.gz
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [motionrender]: Skipping, unable to determine old version
+[2023-05-18 03:05:13] INFO root fetch - processPackages [motionrender]: Start processing: firefox-parser
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [motionrender] error
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [vkbasalt-cli]: Skipping, unable to determine old version
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [vkbasalt-cli] error
+[2023-05-18 03:05:13] INFO root fetch - processPackages [sysidentpy]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-18 03:05:13] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.5-py3-none-any.whl.zip tmp/PrSpiders-0.4.6.tar.gz --markdown 20230518/P/PrSpiders/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-18 03:05:13] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.0.1.tar.gz tmp/imessagedb-1.2.0.tar.gz --markdown 20230518/i/imessagedb/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-18 03:05:13] INFO root fetch - processPackages [validmind]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [validmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validmind-1.9.6.tar.gz tmp/validmind-1.9.7.tar.gz --markdown 20230518/v/validmind/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [PyRVCTestF]: Skipping, unable to determine old version
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [PyRVCTestF] error
+[2023-05-18 03:05:13] INFO root fetch - processPackages [lanarky]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [lanarky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanarky-0.6.0.tar.gz tmp/lanarky-0.6.1.tar.gz --markdown 20230518/l/lanarky/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [firefox-parser]: Skipping, unable to determine old version
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [firefox-parser] error
+[2023-05-18 03:05:13] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/08/b0/e60924dcbd4d2e8a6a16cac2255a030aa2547e8b0ec4a4e55f77d4289396/hyt-gpt-0.3.9.tar.gz
+[2023-05-18 03:05:13] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.8.tar.gz tmp/hyt-gpt-0.3.9.tar.gz --markdown 20230518/h/hyt-gpt/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-18 03:05:13] INFO root fetch - processPackages [sysidentpy]: Downloading https://files.pythonhosted.org/packages/ca/3c/d0d8f8d69ce72d423ba266e255178d201843909c7b9266bf1110791f7ce3/sysidentpy-0.3.0.tar.gz
+[2023-05-18 03:05:13] INFO root fetch - processPackages [kedro-prefect-oliver]: Downloading https://files.pythonhosted.org/packages/2d/54/758d83a96181e262deeeef751739419577db3401c03b375cd202a49133f0/kedro-prefect-oliver-0.1.6.tar.gz
+[2023-05-18 03:05:13] WARNING root fetch - processPackages [sysidentpy]: Skipping package: exceeds size limit 37922164>=10485760
+[2023-05-18 03:05:13] INFO root fetch - main [MainThread]: End processing [sysidentpy] error
+[2023-05-18 03:05:13] INFO root fetch - processPackages [kedro-prefect-oliver]: executing diffoscope
+[2023-05-18 03:05:13] INFO root fetch - processPackages [kedro-prefect-oliver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-prefect-oliver-0.1.5.tar.gz tmp/kedro-prefect-oliver-0.1.6.tar.gz --markdown 20230518/k/kedro-prefect-oliver/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 03:05:14] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-05-18 03:05:14] INFO root fetch - main [MainThread]: End processing [lanarky]: success
+[2023-05-18 03:05:14] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-18 03:05:14] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-18 03:05:14] INFO root fetch - main [MainThread]: End processing [kedro-prefect-oliver]: success
+[2023-05-18 03:05:16] INFO root fetch - main [MainThread]: End processing [validmind]: success
+[2023-05-18 03:05:16] INFO root fetch - main [MainThread]: Store serial: [18148284]
