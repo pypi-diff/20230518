@@ -8311,3 +8311,143 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 08:12:25] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
 [2023-05-18 08:12:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-05-18 08:12:27] INFO root fetch - main [MainThread]: Store serial: [18150032]
+[2023-05-18 08:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18150032]
+[2023-05-18 08:17:36] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deep-copilot
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-libvirt
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-scenes
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gefpy
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nprr
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tracebloc-package-dev
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdict
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bc-detect-secrets
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fenjing
+[2023-05-18 08:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-mongodbatlas
+[2023-05-18 08:17:36] INFO root fetch - processPackages [deep-copilot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [jupyterlab-scenes]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1684388513] Old Version: [0.4.1a1684215420]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [gefpy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [nprr]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [bigdict]: New version: [22.5.29] Old Version: [21.4.11]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [fenjing]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-18 08:17:36] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1684388792] Old Version: [3.9.0a1684218609]
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/a2/23/a92e4dd2a6d1d3532e79c77d0021ae63edce1919e2f1d537537b6422138f/bc-detect-secrets-1.4.8.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/50/5c/79e02ff0b17e4156b066ff2e387854be48d677866686ad50fd15b36bfc69/pulumi_libvirt-0.4.1a1684215420.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/33/67/2479e84e44262cd0035ae794e0fc86456a405652771841a7a3c4b20c4d0c/fenjing-0.3.2.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/31/a9/67e70ab54cdaf33309ffa5bea2e329419edff04545fd95711e2a14340ab7/pulumi_mongodbatlas-3.9.0a1684218609.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/45/e9/f2fb866aaddb514b982984a745f5a2c145d627971fdcae2928c558022c60/tracebloc_package-dev-0.3.6.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [jupyterlab-scenes]: Downloading https://files.pythonhosted.org/packages/dd/ea/bbd46b52ad92dc00bef93822c1b10ada28a0f5aa1e9bf6c6b6bc404fa92f/jupyterlab_scenes-2.0.0a1.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/f7/18/33e959e923464987fcf64978bec72af113ca03d0ab606f69a290b00505b0/bigdict-21.4.11.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/41/d5/24e7698e63e60ced965283a80d676ed4b0d1b15555fb702520831f04ea27/gefpy-0.6.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-18 08:17:37] INFO root fetch - processPackages [nprr]: Downloading https://files.pythonhosted.org/packages/0e/eb/f802a17ff44f7c871a5e5c0ef92c6d8040c194508717c3a3e38868fdad07/nprr-0.1.4.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.3.1.tar.gz tmp/fenjing-0.3.2.tar.gz --markdown 20230518/f/fenjing/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [nprr]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [nprr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nprr-0.1.3.tar.gz tmp/nprr-0.1.4.tar.gz --markdown 20230518/n/nprr/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/af/0a/31956045fff7f08234df272c2d33b7cfcb41626174199f17abee79e90dd9/pulumi_libvirt-0.4.1a1684388513.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [deep-copilot]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [deep-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_copilot-0.0.8.tar.gz tmp/deep_copilot-0.0.9.tar.gz --markdown 20230518/d/deep-copilot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/59/76/9a315d74d1668c67863133b42b9ef8ae238cb633aece471b4f6e0c9ea45d/tracebloc_package-dev-0.3.7.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/a8/bc/4dc98e76dbcf54780e3c85410b99170cc7087a15f15e6736887e99758c98/pulumi_mongodbatlas-3.9.0a1684388792.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bigdict]: Downloading https://files.pythonhosted.org/packages/95/08/4f9bce50947e28ff11db762c8667bcb834a99a7210b487fe9023132dcba0/bigdict-22.5.29.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1684215420.tar.gz tmp/pulumi_libvirt-0.4.1a1684388513.tar.gz --markdown 20230518/p/pulumi-libvirt/0.4.1a1684215420-0.4.1a1684388513/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [jupyterlab-scenes]: Downloading https://files.pythonhosted.org/packages/dc/57/dc40072a0bd716225faa0fa6aa6330caedd1a6cec5bcafe9b4e81432d337/jupyterlab_scenes-2.0.0a2.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.3.6.tar.gz tmp/tracebloc_package-dev-0.3.7.tar.gz --markdown 20230518/t/tracebloc-package-dev/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bigdict]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bigdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdict-21.4.11.tar.gz tmp/bigdict-22.5.29.tar.gz --markdown 20230518/b/bigdict/21.4.11-22.5.29/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 30509572>=10485760
+[2023-05-18 08:17:37] INFO root fetch - processPackages [gefpy]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-18 08:17:37] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-05-18 08:17:37] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/02/f2/d1d870d526c722f22a491ebad1680e02ce935097d42af758a7a0e278f3c4/bc-detect-secrets-1.4.9.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [jupyterlab-scenes]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [jupyterlab-scenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_scenes-2.0.0a1.tar.gz tmp/jupyterlab_scenes-2.0.0a2.tar.gz --markdown 20230518/j/jupyterlab-scenes/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1684218609.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1684388792.tar.gz --markdown 20230518/p/pulumi-mongodbatlas/3.9.0a1684218609-3.9.0a1684388792/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/6e/3e/00190acb2a2029c9a93ca2fefe06324e42c68a0580dc4b76af4648d0e7fd/aws_prototyping_sdk.aws_arch-0.18.8.tar.gz
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2023-05-18 08:17:37] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.4.8.tar.gz tmp/bc-detect-secrets-1.4.9.tar.gz --markdown 20230518/b/bc-detect-secrets/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-18 08:17:37] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19296794>=10485760
+[2023-05-18 08:17:37] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: questdb-connect
+[2023-05-18 08:17:37] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-18 08:17:37] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-05-18 08:17:37] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/28/e5/54d446218db8ed7309d30bf05f3b1d16247292b5563025dbc17dcdbda98f/questdb-connect-0.0.64.tar.gz
+[2023-05-18 08:17:38] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/02/d7/851f0dd996077182cd6bbfcdece55b3682962fa22524744537fbb8da047b/questdb-connect-0.0.65.tar.gz
+[2023-05-18 08:17:38] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-18 08:17:38] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.64.tar.gz tmp/questdb-connect-0.0.65.tar.gz --markdown 20230518/q/questdb-connect/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-05-18 08:17:38] INFO root fetch - processPackages [fenjing]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-18 08:17:38] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-05-18 08:17:38] INFO root fetch - processPackages [nprr]: Start processing: lockss-turtles
+[2023-05-18 08:17:38] INFO root fetch - main [MainThread]: End processing [nprr]: success
+[2023-05-18 08:17:38] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:38] INFO root fetch - processPackages [lockss-turtles]: New version: [0.4.0.dev4] Old Version: [0.4.0.dev3]
+[2023-05-18 08:17:38] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-18 08:17:38] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:38] INFO root fetch - processPackages [bigdict]: Start processing: aws-prototyping-sdk.identity
+[2023-05-18 08:17:38] INFO root fetch - main [MainThread]: End processing [bigdict]: success
+[2023-05-18 08:17:38] INFO root fetch - processPackages [lockss-turtles]: Downloading https://files.pythonhosted.org/packages/69/a6/c3e8e8be5f04cb7e2bbf825f752651e6ecbc8e6bcaf97ca891c2e63b2eeb/lockss_turtles-0.4.0.dev3.tar.gz
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:39] INFO root fetch - processPackages [lockss-turtles]: Downloading https://files.pythonhosted.org/packages/9a/e4/d7b303a2bb7851c6392cad0f3504cb4716ab3e7c8b3dbc2ddd949f4baab3/lockss_turtles-0.4.0.dev4.tar.gz
+[2023-05-18 08:17:39] INFO root fetch - processPackages [tracebloc-package-dev]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-18 08:17:39] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:39] INFO root fetch - processPackages [lockss-turtles]: executing diffoscope
+[2023-05-18 08:17:39] INFO root fetch - processPackages [lockss-turtles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_turtles-0.4.0.dev3.tar.gz tmp/lockss_turtles-0.4.0.dev4.tar.gz --markdown 20230518/l/lockss-turtles/0.4.0.dev3-0.4.0.dev4/diff.md --exclude *.pyd
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-18 08:17:39] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:39] INFO root fetch - processPackages [deep-copilot]: Start processing: pulumi-minio
+[2023-05-18 08:17:39] INFO root fetch - main [MainThread]: End processing [deep-copilot]: success
+[2023-05-18 08:17:39] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-18 08:17:39] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-05-18 08:17:39] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230518/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: pulumi-onelogin
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1684389387] Old Version: [0.6.1a1684216443]
+[2023-05-18 08:17:40] INFO root fetch - processPackages [questdb-connect]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:40] INFO root fetch - processPackages [jupyterlab-scenes]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-scenes]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/cc/37/cb5fc299b14b6feaab6348dc36836bd7d336ad59f54255e98d298577f776/pulumi_onelogin-0.6.1a1684216443.tar.gz
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:40] INFO root fetch - processPackages [lockss-turtles]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [lockss-turtles]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230518/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/83/5f/f09c3624e1652626479b85c264bd699c844fe3314f1890d74456161aa059/pulumi_onelogin-0.6.1a1684389387.tar.gz
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-18 08:17:40] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.18.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.18.9.tar.gz --markdown 20230518/a/aws-prototyping-sdk.type-safe-api/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-05-18 08:17:40] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1684216443.tar.gz tmp/pulumi_onelogin-0.6.1a1684389387.tar.gz --markdown 20230518/p/pulumi-onelogin/0.6.1a1684216443-0.6.1a1684389387/diff.md --exclude *.pyd
+[2023-05-18 08:17:41] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2023-05-18 08:17:41] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-18 08:17:42] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-18 08:17:42] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-18 08:17:42] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-18 08:17:42] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-18 08:17:42] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-05-18 08:17:44] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-05-18 08:18:21] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-18 08:18:21] INFO root fetch - main [MainThread]: Store serial: [18150102]
