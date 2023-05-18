@@ -14370,3 +14370,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 14:08:49] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-18 14:08:49] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-18 14:08:49] INFO root fetch - main [MainThread]: Store serial: [18153651]
+[2023-05-18 14:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153651]
+[2023-05-18 14:13:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arthub-api
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veetility
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypck
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svrkit
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tompy
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: urturn
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: revproxy-auth
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hollihop-api-client
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pypipr
+[2023-05-18 14:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-code-ui
+[2023-05-18 14:13:59] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.6] Old Version: [0.42.5]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [tompy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [hollihop-api-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [urturn]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypck]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-18 14:13:59] WARNING root fetch - processPackages [svrkit]: Skipping, unable to determine old version
+[2023-05-18 14:13:59] INFO root fetch - processPackages [svrkit]: Start processing: h2o-pysparkling-3.4
+[2023-05-18 14:13:59] INFO root fetch - main [MainThread]: End processing [svrkit] error
+[2023-05-18 14:13:59] INFO root fetch - processPackages [arthub-api]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [revproxy-auth]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypipr]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230518/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [urturn]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [urturn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urturn-0.1.0.tar.gz tmp/urturn-0.1.1.tar.gz --markdown 20230518/u/urturn/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] WARNING root fetch - processPackages [h2o-pysparkling-3.4]: Skipping, unable to determine old version
+[2023-05-18 14:13:59] INFO root fetch - processPackages [h2o-pysparkling-3.4]: Start processing: facebook-page-info-scraper
+[2023-05-18 14:13:59] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.4] error
+[2023-05-18 14:13:59] INFO root fetch - processPackages [hollihop-api-client]: Downloading https://files.pythonhosted.org/packages/4d/5e/c7a4a1d1bf5b76e377e7e4e063988b0e312f66be56d772e74a56c9b8a2d1/hollihop_api_client-0.0.3.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [tompy]: Downloading https://files.pythonhosted.org/packages/38/0f/9f6a9408589c7bd4111d39c92db4b73281ed2c07ac645566655db838370c/tompy-0.8.0.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/36/43/49f292f5622aeed94ae0197afa563ac0a14f63e4e910d6a573afc67beaf2/gpt_code_ui-0.42.6.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypck]: Downloading https://files.pythonhosted.org/packages/e0/f6/0841394b4b38b3e02f4e9ebc0c5ca543c5f725521631dbaa2dfc1930461c/pypck-0.7.8.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [hollihop-api-client]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [hollihop-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hollihop_api_client-0.0.2.tar.gz tmp/hollihop_api_client-0.0.3.tar.gz --markdown 20230518/h/hollihop-api-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [facebook-page-info-scraper]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-18 14:13:59] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/87/d5/d9e4b5b66dcb12be62301b942dec857be1459e6f198456921140a0e72a2b/revproxy_auth-0.0.9.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.5.tar.gz tmp/gpt_code_ui-0.42.6.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.5-0.42.6/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/74/f9/38d8fbe86a407c8fabca97625677f601040e1986790c7e0a4db6071bd725/arthub_api-1.6.8.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [facebook-page-info-scraper]: Downloading https://files.pythonhosted.org/packages/8c/40/132bbf2b83646f815202386e5988773a1698154d66cfee63d158dfeaedfc/facebook-page-info-scraper-1.0.5.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.94.tar.gz tmp/pypipr-0.1.95.tar.gz --markdown 20230518/p/pypipr/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypck]: Downloading https://files.pythonhosted.org/packages/ef/d9/4fd185ab18b40b7ca22a627bf6b82e02e9554b8dbecd143fc38f3b29c247/pypck-0.7.9.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [tompy]: Downloading https://files.pythonhosted.org/packages/4d/d7/d824de485c0fbc3e510f7ee38f11adda2cbcfb5837b4601cfab9eb970f0f/tompy-0.9.0.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/2b/82/8ead50823e5eff1041ad63235791db149c61dd4f71bcc60564ecb4f23281/revproxy_auth-0.1.0.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.6.7.tar.gz tmp/arthub_api-1.6.8.tar.gz --markdown 20230518/a/arthub-api/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypck]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [pypck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypck-0.7.8.tar.gz tmp/pypck-0.7.9.tar.gz --markdown 20230518/p/pypck/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [facebook-page-info-scraper]: Downloading https://files.pythonhosted.org/packages/1c/4d/21823b8d4b9b6d26f5447cfb150678810db4c85e4cf074f3072654e2b292/facebook-page-info-scraper-1.0.6.tar.gz
+[2023-05-18 14:13:59] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.0.9.tar.gz tmp/revproxy_auth-0.1.0.tar.gz --markdown 20230518/r/revproxy-auth/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [tompy]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [tompy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tompy-0.8.0.tar.gz tmp/tompy-0.9.0.tar.gz --markdown 20230518/t/tompy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 14:13:59] INFO root fetch - processPackages [facebook-page-info-scraper]: executing diffoscope
+[2023-05-18 14:13:59] INFO root fetch - processPackages [facebook-page-info-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-page-info-scraper-1.0.5.tar.gz tmp/facebook-page-info-scraper-1.0.6.tar.gz --markdown 20230518/f/facebook-page-info-scraper/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-18 14:14:00] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-18 14:14:00] INFO root fetch - main [MainThread]: End processing [urturn]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [hollihop-api-client]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [facebook-page-info-scraper]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [pypck]: success
+[2023-05-18 14:14:01] INFO root fetch - main [MainThread]: End processing [tompy]: success
+[2023-05-18 14:14:02] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 14:14:02] INFO root fetch - main [MainThread]: Store serial: [18153691]
