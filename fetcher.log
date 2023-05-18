@@ -5916,3 +5916,35 @@
 [2023-05-18 05:40:35] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
 [2023-05-18 05:40:37] INFO root fetch - main [MainThread]: End processing [gravitorch]: success
 [2023-05-18 05:40:37] INFO root fetch - main [MainThread]: Store serial: [18149135]
+[2023-05-18 05:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149135]
+[2023-05-18 05:45:46] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-18 05:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149135]
+[2023-05-18 05:50:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-18 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exergenics-etl
+[2023-05-18 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funasr
+[2023-05-18 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raya
+[2023-05-18 05:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rayasdk
+[2023-05-18 05:50:52] INFO root fetch - processPackages [raya]: New version: [3.4.1.dev3] Old Version: [3.4.1.dev0]
+[2023-05-18 05:50:52] INFO root fetch - processPackages [exergenics-etl]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-18 05:50:52] INFO root fetch - processPackages [funasr]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-18 05:50:52] INFO root fetch - processPackages [rayasdk]: New version: [1.1.0.dev3] Old Version: [1.1.0.dev2]
+[2023-05-18 05:50:52] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/60/01/0354cc3bb35358ad2a6299311c62eb3a9a9d91eb9b9e8c63370eeb608567/raya-3.4.1.dev0.tar.gz
+[2023-05-18 05:50:52] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/97/25/8faba650180ec7693fdcc66c042448bb31e97bd96e852f01e639ec1143a3/exergenics-etl-0.0.1.tar.gz
+[2023-05-18 05:50:52] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/4e/d4/97a71da16d5000db77265e52960a3f952682302a9c1f512b6f77b59b2166/funasr-0.5.3.tar.gz
+[2023-05-18 05:50:52] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/4c/f2/da35ce84ba5ac1822461fb0c95294389598f8e1eb5b9643d559d7094e674/rayasdk-1.1.0.dev2.tar.gz
+[2023-05-18 05:50:52] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-18 05:50:52] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.2.tar.gz tmp/funasr-0.5.3.tar.gz --markdown 20230518/f/funasr/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-18 05:50:53] INFO root fetch - processPackages [raya]: Downloading https://files.pythonhosted.org/packages/9f/0e/f131dece099d5e8136f23fbdda1ff0a400ab694ad630b82c545bf4c80fd3/raya-3.4.1.dev3.tar.gz
+[2023-05-18 05:50:53] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/62/18/de9a245d2980f2ba4db100fafbd8fe1573d785c75c54b0f33cc93f73d903/exergenics-etl-0.1.0.tar.gz
+[2023-05-18 05:50:53] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/bb/ba/9fecaffe583d69629c562d87bf0455740011234ce5ce3bd1c58349a01342/rayasdk-1.1.0.dev3.tar.gz
+[2023-05-18 05:50:53] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-05-18 05:50:53] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-0.0.1.tar.gz tmp/exergenics-etl-0.1.0.tar.gz --markdown 20230518/e/exergenics-etl/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 05:50:53] INFO root fetch - processPackages [raya]: executing diffoscope
+[2023-05-18 05:50:53] INFO root fetch - processPackages [raya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raya-3.4.1.dev0.tar.gz tmp/raya-3.4.1.dev3.tar.gz --markdown 20230518/r/raya/3.4.1.dev0-3.4.1.dev3/diff.md --exclude *.pyd
+[2023-05-18 05:50:53] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2023-05-18 05:50:53] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-1.1.0.dev2.tar.gz tmp/rayasdk-1.1.0.dev3.tar.gz --markdown 20230518/r/rayasdk/1.1.0.dev2-1.1.0.dev3/diff.md --exclude *.pyd
+[2023-05-18 05:50:54] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-05-18 05:50:54] INFO root fetch - main [MainThread]: End processing [raya]: success
+[2023-05-18 05:50:54] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2023-05-18 05:50:56] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-18 05:50:56] INFO root fetch - main [MainThread]: Store serial: [18149148]
