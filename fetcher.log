@@ -4661,3 +4661,59 @@
 [2023-05-18 03:51:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
 [2023-05-18 03:51:40] INFO root fetch - main [MainThread]: End processing [libecc]: success
 [2023-05-18 03:51:40] INFO root fetch - main [MainThread]: Store serial: [18148535]
+[2023-05-18 03:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148535]
+[2023-05-18 03:56:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-jwt-knox
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitroom
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deltafi
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-stlr
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timepunch
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phanterpwa
+[2023-05-18 03:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imessagedb
+[2023-05-18 03:56:51] INFO root fetch - processPackages [bitroom]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [deltafi]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [drf-jwt-knox]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [antchain-stlr]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [imessagedb]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.6] Old Version: [13.13.4]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [timepunch]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [BioSAK]: New version: [1.64.9] Old Version: [1.64.8]
+[2023-05-18 03:56:51] INFO root fetch - processPackages [drf-jwt-knox]: Downloading https://files.pythonhosted.org/packages/e6/85/d44e707b0852edc0f64434804740e4984aad63b48d1c28b56360258dbd94/drf-jwt-knox-0.1.2.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/62/87/e3cc543e19a685148aa4d277b98c59a2d600391f68e6d2461bc95090c2a0/antchain_stlr-2.1.3.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/18/9f/14ffd0ac0bbdb8bf7e262fa40a4cf3f18b1d45dcee7e2ed950dc02a531d7/phanterpwa-13.13.4.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [imessagedb]: Downloading https://files.pythonhosted.org/packages/56/54/2c29cff35465dac9f42807012b239e6d61a3613277a280062542dd41201d/imessagedb-1.2.6.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/e5/f8/236e8805990b60ffcdaac35919630085374f687fd7c4782f76db5bf15b42/deltafi-0.99.7.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/f9/a4/e9986ffd2e1f64be085e51d19322e585ce922c2749e2db9b561595d911cc/BioSAK-1.64.8.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [bitroom]: Downloading https://files.pythonhosted.org/packages/64/7e/3433365478e759e50b5cc63b9c0fb37f741cf1954fcfe35ab0a0cc3607cf/bitroom-0.1.4.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [timepunch]: Downloading https://files.pythonhosted.org/packages/89/47/faa7edfd300fdab7eec0fdd1aa7c9a08fc38ab967d697985037f72c92a3e/timepunch-1.0.0.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.2.5.tar.gz tmp/imessagedb-1.2.6.tar.gz --markdown 20230518/i/imessagedb/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-18 03:56:51] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 21171011>=10485760
+[2023-05-18 03:56:51] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-18 03:56:51] INFO root fetch - processPackages [drf-jwt-knox]: Downloading https://files.pythonhosted.org/packages/25/6e/e244762bc2bbe9531bc3961346bd1072f3e213b19d751bbbb369b011b8da/drf_jwt_knox-0.2.0.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [timepunch]: Downloading https://files.pythonhosted.org/packages/29/c6/02b5725544293d776c70fa0877516008b5876307fd772481627783fe3103/timepunch-1.0.1.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [antchain-stlr]: Downloading https://files.pythonhosted.org/packages/f4/76/e9b94a5aeb992a6e2e483d67a285c7b391c07f0ac6f2b8e48b125d502db1/antchain_stlr-2.2.0.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [drf-jwt-knox]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [drf-jwt-knox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-jwt-knox-0.1.2.tar.gz tmp/drf_jwt_knox-0.2.0.tar.gz --markdown 20230518/d/drf-jwt-knox/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-18 03:56:51] INFO root fetch - processPackages [bitroom]: Downloading https://files.pythonhosted.org/packages/00/fa/5f71f560ef4eeb0f989fb6e00f98626e9a3e752335c9fee007277c43abb7/bitroom-0.1.5.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/58/b9/f37d0ee984101ded21f6250f64c03cddeeef3a4bbe18f51bbc7be71b793d/deltafi-0.99.8.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [timepunch]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [timepunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timepunch-1.0.0.tar.gz tmp/timepunch-1.0.1.tar.gz --markdown 20230518/t/timepunch/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 03:56:51] INFO root fetch - processPackages [bitroom]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [bitroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitroom-0.1.4.tar.gz tmp/bitroom-0.1.5.tar.gz --markdown 20230518/b/bitroom/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-18 03:56:51] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/ee/ea/db491baff6f2b2ce14e8f00fda94bd03f8945818d52ce4d4d0f69ce8f6f4/phanterpwa-13.13.6.tar.gz
+[2023-05-18 03:56:51] INFO root fetch - processPackages [antchain-stlr]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [antchain-stlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_stlr-2.1.3.tar.gz tmp/antchain_stlr-2.2.0.tar.gz --markdown 20230518/a/antchain-stlr/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-05-18 03:56:51] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-05-18 03:56:51] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.99.7.tar.gz tmp/deltafi-0.99.8.tar.gz --markdown 20230518/d/deltafi/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-05-18 03:56:52] INFO root fetch - main [MainThread]: End processing [drf-jwt-knox]: success
+[2023-05-18 03:56:52] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-05-18 03:56:52] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.13.4.tar.gz tmp/phanterpwa-13.13.6.tar.gz --markdown 20230518/p/phanterpwa/13.13.4-13.13.6/diff.md --exclude *.pyd
+[2023-05-18 03:56:52] INFO root fetch - main [MainThread]: End processing [bitroom]: success
+[2023-05-18 03:56:52] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-18 03:56:53] INFO root fetch - main [MainThread]: End processing [timepunch]: success
+[2023-05-18 03:56:53] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-05-18 03:56:54] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
+[2023-05-18 03:56:57] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-05-18 03:56:57] INFO root fetch - main [MainThread]: Store serial: [18148559]
