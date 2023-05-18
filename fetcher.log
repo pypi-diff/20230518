@@ -4515,3 +4515,65 @@
 [2023-05-18 03:41:04] INFO root fetch - main [MainThread]: End processing [smb3-video-autosplitter]: success
 [2023-05-18 03:41:06] INFO root fetch - main [MainThread]: End processing [VSautomatic]: success
 [2023-05-18 03:41:06] INFO root fetch - main [MainThread]: Store serial: [18148469]
+[2023-05-18 03:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148469]
+[2023-05-18 03:46:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fairbench
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opvious
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: js-code
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smb3-video-autosplitter
+[2023-05-18 03:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BioSAK
+[2023-05-18 03:46:15] INFO root fetch - processPackages [fairbench]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [js-code]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [smb3-video-autosplitter]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.779] Old Version: [0.0.778]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-18 03:46:15] INFO root fetch - processPackages [BioSAK]: New version: [1.64.7] Old Version: [1.64.6]
+[2023-05-18 03:46:15] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-18 03:46:15] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-18 03:46:15] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230518/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [js-code]: Downloading https://files.pythonhosted.org/packages/65/d6/9cf5af64ed14fbeeb5db1e9c9bc0bcb37080f7cf7b53a2866705604c3aa4/js_code-0.0.2.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/26/1f/b75dd55c4e054ea04eaddfd0acb9a93b99f065b957f3387a154e686fce61/fairbench-0.1.4-py3-none-any.whl
+[2023-05-18 03:46:15] INFO root fetch - processPackages [smb3-video-autosplitter]: Downloading https://files.pythonhosted.org/packages/a5/7b/e4979a5d0f130ced70eb45b5f80e24f62286df7908440bed5b4cb93878ed/smb3-video-autosplitter-0.0.4.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a1/39/ddcf40ec432e6c5cda1aabf0c44d4b954bd6479074bdd6135cc2eb3eecfb/nbdev-apl-0.0.778.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [smb3-video-autosplitter]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [smb3-video-autosplitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smb3-video-autosplitter-0.0.3.tar.gz tmp/smb3-video-autosplitter-0.0.4.tar.gz --markdown 20230518/s/smb3-video-autosplitter/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [js-code]: Downloading https://files.pythonhosted.org/packages/52/0d/0fcd7a00245e2aa11f63fb92b143aad9ceba8edba6ed9eaeca85d2b64afe/js_code-0.1.0.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [js-code]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [js-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/js_code-0.0.2.tar.gz tmp/js_code-0.1.0.tar.gz --markdown 20230518/j/js-code/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/80/ca/4919b7d6eed61ab1e8415eae3d69e9b292cdd6ca64a822e0b8ca239189bb/nbdev-apl-0.0.779.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230518/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [fairbench]: Downloading https://files.pythonhosted.org/packages/83/bc/f5e377523c25ed424a366c0240848a794195d251bb8000918b5e6b0a2c8f/fairbench-0.1.6-py3-none-any.whl
+[2023-05-18 03:46:15] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/a0/b4/97b7f8a169e893c9e3d1055561fc90598852fe30430936f2df45fb4a4c2d/BioSAK-1.64.6.tar.gz
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.778.tar.gz tmp/nbdev-apl-0.0.779.tar.gz --markdown 20230518/n/nbdev-apl/0.0.778-0.0.779/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230518/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [fairbench]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [fairbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbench-0.1.4-py3-none-any.whl.zip tmp/fairbench-0.1.6-py3-none-any.whl.zip --markdown 20230518/f/fairbench/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-18 03:46:15] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230518/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-18 03:46:15] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 20917816>=10485760
+[2023-05-18 03:46:15] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-18 03:46:16] INFO root fetch - main [MainThread]: End processing [js-code]: success
+[2023-05-18 03:46:16] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-05-18 03:46:16] INFO root fetch - main [MainThread]: End processing [smb3-video-autosplitter]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: End processing [fairbench]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-18 03:46:17] INFO root fetch - main [MainThread]: Store serial: [18148496]
