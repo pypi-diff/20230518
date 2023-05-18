@@ -5415,3 +5415,36 @@
 [2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
 [2023-05-18 05:00:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-fiscal-position-rule]: success
 [2023-05-18 05:00:28] INFO root fetch - main [MainThread]: Store serial: [18148884]
+[2023-05-18 05:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148884]
+[2023-05-18 05:05:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bohrium-sdk
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitea-backup
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfg-argparser
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitea-backup
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-queuey
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Nuitka-winsvc
+[2023-05-18 05:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitea-backup
+[2023-05-18 05:05:37] WARNING root fetch - processPackages [bohrium-sdk]: Skipping, unable to determine old version
+[2023-05-18 05:05:37] INFO root fetch - main [MainThread]: End processing [bohrium-sdk] error
+[2023-05-18 05:05:37] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 05:05:37] WARNING root fetch - processPackages [gitea-backup]: Skipping, unable to determine old version
+[2023-05-18 05:05:37] INFO root fetch - main [MainThread]: End processing [gitea-backup] error
+[2023-05-18 05:05:37] WARNING root fetch - processPackages [gitea-backup]: Skipping, unable to determine old version
+[2023-05-18 05:05:37] INFO root fetch - main [MainThread]: End processing [gitea-backup] error
+[2023-05-18 05:05:37] WARNING root fetch - processPackages [gitea-backup]: Skipping, unable to determine old version
+[2023-05-18 05:05:37] INFO root fetch - processPackages [cfg-argparser]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-05-18 05:05:37] INFO root fetch - main [MainThread]: End processing [gitea-backup] error
+[2023-05-18 05:05:37] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-05-18 05:05:37] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 05:05:37] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 05:05:37] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/bf/ab/901646d59e2bbd1d6fb5dd4f4f7fece576d41f24f997d5df3b4a24215423/cfg-argparser-1.1.4.tar.gz
+[2023-05-18 05:05:37] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/d7/4c/344b17ce54810cc7bd8da52ff2c153d2c64cf9356d270a002feaedb4679e/Nuitka-winsvc-1.5.6.tar.gz
+[2023-05-18 05:05:37] INFO root fetch - processPackages [cfg-argparser]: executing diffoscope
+[2023-05-18 05:05:37] INFO root fetch - processPackages [cfg-argparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfg-argparser-1.1.2.tar.gz tmp/cfg-argparser-1.1.4.tar.gz --markdown 20230518/c/cfg-argparser/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-05-18 05:05:38] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/c2/85/902d633b8f77eff4dcee48cddd27b53655eca79ac6fe502f98667d559297/Nuitka-winsvc-1.5.7.tar.gz
+[2023-05-18 05:05:38] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2023-05-18 05:05:38] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-winsvc-1.5.6.tar.gz tmp/Nuitka-winsvc-1.5.7.tar.gz --markdown 20230518/N/Nuitka-winsvc/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-05-18 05:05:38] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 05:05:38] INFO root fetch - main [MainThread]: End processing [cfg-argparser]: success
+[2023-05-18 05:06:05] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2023-05-18 05:06:05] INFO root fetch - main [MainThread]: Store serial: [18148910]
