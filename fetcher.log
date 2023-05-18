@@ -13699,3 +13699,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 13:25:36] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-18 13:25:36] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-05-18 13:25:36] INFO root fetch - main [MainThread]: Store serial: [18153236]
+[2023-05-18 13:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18153236]
+[2023-05-18 13:30:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltafi
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medaka
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sse-starlette
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-workflow-archiver-nightly
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medaka-cpu
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twilio-tap-zendesk
+[2023-05-18 13:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: algokit-client-generator
+[2023-05-18 13:30:46] INFO root fetch - processPackages [deltafi]: New version: [1.0.0rc1] Old Version: [0.999.998]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [twilio-tap-zendesk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.999.998.tar.gz tmp/deltafi-1.0.0rc1.tar.gz --markdown 20230518/d/deltafi/0.999.998-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-18 13:30:46] INFO root fetch - processPackages [medaka]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [sse-starlette]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [medaka-cpu]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-18 13:30:46] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/91/37/d8411387ccb2fc6ad4568a9b95c28f2e68ae8c541d22e7b38665769b01e5/algokit_client_generator-0.1.0b1-py3-none-any.whl
+[2023-05-18 13:30:46] INFO root fetch - processPackages [twilio-tap-zendesk]: Downloading https://files.pythonhosted.org/packages/a4/dc/0fd06da995660c40529b2098e674235e97a27322f34f93ca3d748437d8ce/twilio-tap-zendesk-1.0.8.tar.gz
+[2023-05-18 13:30:46] INFO root fetch - processPackages [sse-starlette]: Downloading https://files.pythonhosted.org/packages/5d/9c/05ff547415c13f0170282338002589c6d3a6a8740c19415c4c9c8379f160/sse-starlette-1.6.0.tar.gz
+[2023-05-18 13:30:46] INFO root fetch - processPackages [medaka]: Downloading https://files.pythonhosted.org/packages/c4/64/75fd6b5cdb51cac2316418ca25ac019b4ae9ebfb382e348d36727f5878e5/medaka-1.7.3.tar.gz
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-18 13:30:46] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-18 13:30:46] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-18 13:30:46] INFO root fetch - processPackages [medaka-cpu]: Downloading https://files.pythonhosted.org/packages/08/c9/bce6ac27749b5e3b8166babaa173297156763f74b37fb7eab3b8b0013bc3/medaka_cpu-1.7.3-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-05-18 13:30:46] WARNING root fetch - processPackages [medaka]: Skipping package: exceeds size limit 40393643>=10485760
+[2023-05-18 13:30:46] INFO root fetch - main [MainThread]: End processing [medaka] error
+[2023-05-18 13:30:46] WARNING root fetch - processPackages [medaka-cpu]: Skipping package: exceeds size limit 42552938>=10485760
+[2023-05-18 13:30:46] INFO root fetch - main [MainThread]: End processing [medaka-cpu] error
+[2023-05-18 13:30:46] INFO root fetch - processPackages [twilio-tap-zendesk]: Downloading https://files.pythonhosted.org/packages/c9/12/87fd24075248362d95a2d5bbc759787197a0ded3966d2ae422ba9860be8b/twilio-tap-zendesk-1.0.9.tar.gz
+[2023-05-18 13:30:46] INFO root fetch - processPackages [sse-starlette]: Downloading https://files.pythonhosted.org/packages/40/88/0af7f586894cfe61bd212f33e571785c4570085711b24fb7445425a5eeb0/sse-starlette-1.6.1.tar.gz
+[2023-05-18 13:30:46] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/f5/d0/267330d388f0c412c5309297e4dfbd1acfe484884d880195f56a31468b67/algokit_client_generator-0.1.0b2-py3-none-any.whl
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230518/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 13:30:46] INFO root fetch - processPackages [twilio-tap-zendesk]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [twilio-tap-zendesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-tap-zendesk-1.0.8.tar.gz tmp/twilio-tap-zendesk-1.0.9.tar.gz --markdown 20230518/t/twilio-tap-zendesk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230518/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-18 13:30:46] INFO root fetch - processPackages [sse-starlette]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [sse-starlette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sse-starlette-1.6.0.tar.gz tmp/sse-starlette-1.6.1.tar.gz --markdown 20230518/s/sse-starlette/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-18 13:30:46] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-05-18 13:30:46] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b1-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b2-py3-none-any.whl.zip --markdown 20230518/a/algokit-client-generator/0.1.0b1-0.1.0b2/diff.md --exclude *.pyd
+[2023-05-18 13:30:47] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-05-18 13:30:47] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-18 13:30:48] INFO root fetch - main [MainThread]: End processing [twilio-tap-zendesk]: success
+[2023-05-18 13:30:48] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-05-18 13:30:48] INFO root fetch - main [MainThread]: End processing [sse-starlette]: success
+[2023-05-18 13:30:48] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-18 13:30:48] INFO root fetch - main [MainThread]: Store serial: [18153284]
