@@ -5640,3 +5640,115 @@
 [2023-05-18 05:19:29] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-05-18 05:19:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
 [2023-05-18 05:19:34] INFO root fetch - main [MainThread]: Store serial: [18149004]
+[2023-05-18 05:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149004]
+[2023-05-18 05:24:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-account-banking-mandate
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ksconf
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kintyre-splunk-conf
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-account-banking-mandate
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imessagedb
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bohrium-sdk
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-banking-mandate
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-payment-order
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-resource
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-banking-mandate
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [ksconf]: New version: [0.11.3b4] Old Version: [0.11.3b3]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: New version: [12.0.2.0.3.99.dev8] Old Version: [12.0.2.0.3.99.dev7]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [imessagedb]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.4] Old Version: [16.0.1.0.2.1]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: New version: [14.0.2.0.1.dev9] Old Version: [14.0.2.0.1.dev7]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.3.dev5] Old Version: [14.0.2.0.3.dev4]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [azure-mgmt-resource]: New version: [9.0.0] Old Version: [8.0.1]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [kintyre-splunk-conf]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-18 05:24:43] INFO root fetch - processPackages [imessagedb]: executing diffoscope
+[2023-05-18 05:24:43] INFO root fetch - processPackages [imessagedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imessagedb-1.2.8.tar.gz tmp/imessagedb-1.2.9.tar.gz --markdown 20230518/i/imessagedb/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-18 05:24:43] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/71/4c/3d525a3151f066a3eca1a39257f88abfade1774b1c1ce40ca4bd4dec29ca/bohrium-sdk-0.0.5.tar.gz
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/fd/de/a09415317cf89a467b36e4cb933ec7b35988be1e20b155d056af2dfbdf9b/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/2b/3d/1a424ced874c2c867b2d2409928ba421bc11a090b9eda6eabe09c1561066/odoo_addon_account_banking_mandate-16.0.1.0.2.1-py3-none-any.whl
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/6b/ef/e078194a09777a408482b0151215682e99fd098e08cc9154d4eaa1daca12/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl
+[2023-05-18 05:24:43] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/a7/95/d579825c509242853233a7a65f0ee5cd2fcd4dfd4c24f7f723a8d91b6bba/azure-mgmt-resource-8.0.1.zip
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/6e/5b/01bda8ee20c598e2785c2bcd857ec760d0580607c6580609e4f16c57eaa4/odoo14_addon_account_payment_order-14.0.2.0.3.dev4-py3-none-any.whl
+[2023-05-18 05:24:43] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/fd/c0/fa5c3ae8961ae26054dc4b83c91df012b22cdf1179b57d88302c25a409da/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [ksconf]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [ksconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ksconf-0.11.3b3.tar.gz tmp/ksconf-0.11.3b4.tar.gz --markdown 20230518/k/ksconf/0.11.3b3-0.11.3b4/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [kintyre-splunk-conf]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [kintyre-splunk-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kintyre-splunk-conf-0.9.2.tar.gz tmp/kintyre-splunk-conf-0.9.3.tar.gz --markdown 20230518/k/kintyre-splunk-conf/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [bohrium-sdk]: Downloading https://files.pythonhosted.org/packages/40/85/7460478b2706a2a39c1667899dc3d6f01b1b9b6e73fd02cfcc868907ddd4/bohrium-sdk-0.0.6.tar.gz
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/16/56/2a3f666d883af1c43856691989211cd4c49b5a6f7a61f13f3f3fad0c6a9e/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/7d/47/22986bfd8e5955731d053d5dfd1f7ef573b43c5e0275801d92a34660a559/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/1a/26/9afc2b3eaf6142fa562b59ed4da5628324a6987b89e633d245f0e785e88a/odoo14_addon_account_payment_order-14.0.2.0.3.dev5-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/ae/e7/fbd083e2c5404453a1dba7dafa24761c74693b4be3de5b5df57095257d79/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo13-addon-account-banking-mandate/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.5.tar.gz tmp/bohrium-sdk-0.0.6.tar.gz --markdown 20230518/b/bohrium-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_mandate-14.0.2.0.1.dev9-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-account-banking-mandate/14.0.2.0.1.dev7-14.0.2.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/b0/a4/39879a7fb490fc96bce98d61b5b4bdc973247c62c2d3a3cda4b67622ef8d/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl
+[2023-05-18 05:24:44] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/f7/27/f4ee7662fa0d5ac043d4e9daff5e8b0299a6a4f57d3b572a30da36e1b0e1/azure-mgmt-resource-9.0.0.zip
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-banking-mandate/16.0.1.0.2.1-16.0.1.0.2.4/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.3.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.3.dev5-py3-none-any.whl.zip --markdown 20230518/o/odoo14-addon-account-payment-order/14.0.2.0.3.dev4-14.0.2.0.3.dev5/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [odoo12-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_banking_mandate-12.0.2.0.3.99.dev8-py3-none-any.whl.zip --markdown 20230518/o/odoo12-addon-account-banking-mandate/12.0.2.0.3.99.dev7-12.0.2.0.3.99.dev8/diff.md --exclude *.pyd
+[2023-05-18 05:24:44] INFO root fetch - processPackages [azure-mgmt-resource]: executing diffoscope
+[2023-05-18 05:24:44] INFO root fetch - processPackages [azure-mgmt-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-resource-8.0.1.zip tmp/azure-mgmt-resource-9.0.0.zip --markdown 20230518/a/azure-mgmt-resource/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2023-05-18 05:24:45] INFO root fetch - processPackages [imessagedb]: Start processing: bohrium-sdk
+[2023-05-18 05:24:45] INFO root fetch - main [MainThread]: End processing [imessagedb]: success
+[2023-05-18 05:24:45] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 05:24:45] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-18 05:24:45] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.5.tar.gz tmp/bohrium-sdk-0.0.6.tar.gz --markdown 20230518/b/bohrium-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 05:24:45] INFO root fetch - processPackages [kintyre-splunk-conf]: Start processing: odoo-addon-account-banking-mandate
+[2023-05-18 05:24:45] INFO root fetch - main [MainThread]: End processing [kintyre-splunk-conf]: success
+[2023-05-18 05:24:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.4] Old Version: [16.0.1.0.2.1]
+[2023-05-18 05:24:45] INFO root fetch - processPackages [bohrium-sdk]: Start processing: odoo-addon-account-payment-order
+[2023-05-18 05:24:45] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-18 05:24:45] INFO root fetch - processPackages [ksconf]: Start processing: odoo-addon-account-payment-order-grouped-output
+[2023-05-18 05:24:45] INFO root fetch - main [MainThread]: End processing [ksconf]: success
+[2023-05-18 05:24:45] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1]
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.4-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-banking-mandate/16.0.1.0.2.1-16.0.1.0.2.4/diff.md --exclude *.pyd
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.2]
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/cc/3b/944328874710e971d28ea6af1fded06803c0a8d35d228dd382b524c4f26b/odoo_addon_account_payment_order-16.0.1.1.1-py3-none-any.whl
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/cc/5d/2b94c9fd790cd7df615f06a3eb2fdbb75f5589e6e10762dfa77b566d19dd/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: Start processing: LESim
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo14-addon-account-banking-mandate]: Start processing: bohrium-sdk
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-mandate]: success
+[2023-05-18 05:24:46] WARNING root fetch - processPackages [LESim]: Skipping, unable to determine old version
+[2023-05-18 05:24:46] INFO root fetch - processPackages [LESim]: Start processing: bsl-appcli
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [LESim] error
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bohrium-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bsl-appcli]: New version: [2.0.0] Old Version: [1.5.1]
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Start processing: perspective-python
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/74/dc/6fdb6561ed877c331ad7b0177e84657f8f7e1a90107ceaf53d171e9078b7/odoo_addon_account_payment_order-16.0.1.1.1.2-py3-none-any.whl
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-banking-mandate]: success
+[2023-05-18 05:24:46] INFO root fetch - processPackages [perspective-python]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bohrium-sdk]: executing diffoscope
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bohrium-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohrium-sdk-0.0.5.tar.gz tmp/bohrium-sdk-0.0.6.tar.gz --markdown 20230518/b/bohrium-sdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/8e/f1/9121b31f2c3324c9c098c7be0a2cffa2be998ce6b5cc257895e555a41deb/bsl-appcli-1.5.1.tar.gz
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-payment-order/16.0.1.1.1-16.0.1.1.1.2/diff.md --exclude *.pyd
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/1d/9d/0290eeb1c40f5389c221484fdd57e1987816b8df72d3bc21e6800268ab8c/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.4-py3-none-any.whl
+[2023-05-18 05:24:46] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/1d/d3/e7f86161de9095bdf3e9d9b1129bf54ae0df6074331e3bbc380df4f3f6a0/perspective-python-2.1.2.tar.gz
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: executing diffoscope
+[2023-05-18 05:24:46] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-payment-order-grouped-output/16.0.1.0.1.2-16.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-05-18 05:24:46] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/de/51/c69c28ab34222c2f2784a22b74725ac6aa66acc2d71697da82f16597fcf7/bsl-appcli-2.0.0.tar.gz
+[2023-05-18 05:24:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-05-18 05:24:47] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-05-18 05:24:47] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-1.5.1.tar.gz tmp/bsl-appcli-2.0.0.tar.gz --markdown 20230518/b/bsl-appcli/1.5.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-18 05:24:47] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-18 05:24:47] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/88/b1/51a201dfad87961d086e4c8de0ee2b707508e554c4aea5b208e4f1f44d84/perspective_python-2.1.3-cp310-cp310-macosx_11_0_arm64.whl
+[2023-05-18 05:24:47] WARNING root fetch - processPackages [perspective-python]: Skipping package: exceeds size limit 24405376>=10485760
+[2023-05-18 05:24:47] INFO root fetch - main [MainThread]: End processing [perspective-python] error
+[2023-05-18 05:24:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-05-18 05:24:47] INFO root fetch - main [MainThread]: End processing [bohrium-sdk]: success
+[2023-05-18 05:24:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-grouped-output]: success
+[2023-05-18 05:24:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2023-05-18 05:24:49] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-05-18 05:24:55] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resource]: success
+[2023-05-18 05:24:55] INFO root fetch - main [MainThread]: Store serial: [18149046]
