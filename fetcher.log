@@ -4717,3 +4717,29 @@
 [2023-05-18 03:56:54] INFO root fetch - main [MainThread]: End processing [antchain-stlr]: success
 [2023-05-18 03:56:57] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
 [2023-05-18 03:56:57] INFO root fetch - main [MainThread]: Store serial: [18148559]
+[2023-05-18 04:02:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18148559]
+[2023-05-18 04:02:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-18 04:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featurepy
+[2023-05-18 04:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-18 04:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transliter
+[2023-05-18 04:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kestrel-jupyter
+[2023-05-18 04:02:06] INFO root fetch - processPackages [kestrel-jupyter]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-18 04:02:06] INFO root fetch - processPackages [featurepy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 04:02:06] WARNING root fetch - processPackages [transliter]: Skipping, unable to determine old version
+[2023-05-18 04:02:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1684375083] Old Version: [0.1.1684345296]
+[2023-05-18 04:02:06] INFO root fetch - main [MainThread]: End processing [transliter] error
+[2023-05-18 04:02:06] INFO root fetch - processPackages [kestrel-jupyter]: Downloading https://files.pythonhosted.org/packages/02/e1/0ea86cddc4886b70a9d1f42fdd22d81ca8736154634b437ed944213d951a/kestrel-jupyter-1.0.7.tar.gz
+[2023-05-18 04:02:06] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/c9/50/0240c6593319bb883a119dd8630305741c96df3612b0dd238a361ccdac7c/featurepy-0.1.0.tar.gz
+[2023-05-18 04:02:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/17/f7/5905afc83d33bc06b1b0f2f0a0ddb457d27b63bc09c56a7fc1e05d00cbd8/eia-odin-pkg-rioatmadja2018-0.1.1684375083.tar.gz
+[2023-05-18 04:02:06] INFO root fetch - processPackages [kestrel-jupyter]: Downloading https://files.pythonhosted.org/packages/e0/3e/16f91415897ed3a1e8caa9a01e2a8449bc2165fa68b87f96d0185b1c98f3/kestrel-jupyter-1.0.8.tar.gz
+[2023-05-18 04:02:06] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/25/e5/e9d0332045594dc10766b35bba8612482dd7f259307ed8f9259970abba7c/featurepy-0.1.1.tar.gz
+[2023-05-18 04:02:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-18 04:02:06] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1684345296.tar.gz tmp/eia-odin-pkg-rioatmadja2018-0.1.1684375083.tar.gz --markdown 20230518/e/eia-odin-pkg-rioatmadja2018/0.1.1684345296-0.1.1684375083/diff.md --exclude *.pyd
+[2023-05-18 04:02:06] INFO root fetch - processPackages [kestrel-jupyter]: executing diffoscope
+[2023-05-18 04:02:06] INFO root fetch - processPackages [kestrel-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kestrel-jupyter-1.0.7.tar.gz tmp/kestrel-jupyter-1.0.8.tar.gz --markdown 20230518/k/kestrel-jupyter/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-18 04:02:06] INFO root fetch - processPackages [featurepy]: executing diffoscope
+[2023-05-18 04:02:06] INFO root fetch - processPackages [featurepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurepy-0.1.0.tar.gz tmp/featurepy-0.1.1.tar.gz --markdown 20230518/f/featurepy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 04:02:07] INFO root fetch - main [MainThread]: End processing [featurepy]: success
+[2023-05-18 04:02:07] INFO root fetch - main [MainThread]: End processing [kestrel-jupyter]: success
+[2023-05-18 04:02:08] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-18 04:02:08] INFO root fetch - main [MainThread]: Store serial: [18148572]
