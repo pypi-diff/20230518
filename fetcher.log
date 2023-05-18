@@ -7207,3 +7207,210 @@
 [2023-05-18 07:23:53] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-18 07:24:23] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-05-18 07:24:23] INFO root fetch - main [MainThread]: Store serial: [18149646]
+[2023-05-18 07:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149646]
+[2023-05-18 07:29:33] INFO root fetch - main [MainThread]: Found 35 changed packages
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qyrm-pipinject1
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nerv
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snk
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ats-case
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-es-aeat
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-es-aeat-mod111
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-es-aeat-mod115
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-config-validate
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-aeat-mod216
+[2023-05-18 07:29:33] INFO root fetch - processPackages [nerv]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-18 07:29:33] WARNING root fetch - processPackages [qyrm-pipinject1]: Skipping, unable to determine old version
+[2023-05-18 07:29:33] INFO root fetch - processPackages [qyrm-pipinject1]: Start processing: odoo-addon-l10n-es-aeat-mod190
+[2023-05-18 07:29:33] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject1] error
+[2023-05-18 07:29:33] INFO root fetch - processPackages [ats-case]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [snk]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-18 07:29:33] WARNING root fetch - processPackages [oc-config-validate]: Skipping, unable to determine old version
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [oc-config-validate]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-05-18 07:29:33] INFO root fetch - main [MainThread]: End processing [oc-config-validate] error
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.0.3.1] Old Version: [16.0.2.0.3]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-05-18 07:29:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.3.0.3] Old Version: [16.0.1.3.0.1]
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/4f/c9/4976782569539a8ec11f7e08a561796bd78079b9d983a4704011830ff3cf/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/4b/5d/999041d6ee1948ac54afc21f92130286d09e49bb3d76d75f0c4715f6c78e/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/3d/fb/08a1e19df69caf6b1a295bfb6fcdd44652e7beb5b41cdcba0365b3b6e7dc/snk-0.6.3.tar.gz
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/8b/04/35e1b2997bb972029885d99daee487b763c99f68e9572620958a7dc205bd/odoo_addon_l10n_es_aeat-16.0.2.0.3-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/06/51/ae6f94c3c548bfc2bc1da17de10355f78d57bfa0f67a777e6827920f9e7e/ats_case-0.7.3.tar.gz
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/1b/1e/b897dcc5316c27acc10f6ed4f0cae96f0deb1d1c9ebe22c039204100750d/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.1-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/30/54/b4156af85832fac45e2e634ff61fd4c933b1c052827be48467a967ebb187/nerv-0.2.4.tar.gz
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/a3/7e/b5cc72116cf8a95b5073501cc6e2659201b3805999422c0a6567d2d09f3c/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/03/ff/8168f4aa2c545160a238f0f6a56ec8c14c376101749d281e948be6c2393e/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/5d/db/4493d88cfd2bd6a0d579e0af211efa17bbb548954ec1b199432b7a32b67e/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [nerv]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [nerv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerv-0.2.3.tar.gz tmp/nerv-0.2.4.tar.gz --markdown 20230518/n/nerv/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/75/51/810dd486db3e3f2332a12fe0c02002db85023cd87d405ee67752db4d0356/snk-0.6.4.tar.gz
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/d7/74/0a441de402dbd9ed7605d3479cb1321b1a1d14520900a5e23235a8c9250c/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Downloading https://files.pythonhosted.org/packages/70/72/e24a8f3bb73049aa08d60bbd1df3a090bc1b2150adb8f5901e1b9357721b/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/0b/e1/050ea6556f734034558bf2c33e581c4adcea73f1473727de0785c222b193/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/f9/94/5dd0c74d16e56ab993c47f4dfe868a4c243aae1567c062a7cfaf9e925d93/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.3.tar.gz tmp/snk-0.6.4.tar.gz --markdown 20230518/s/snk/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/b1/fd/b766bd599b2a629c694a8d72f46b94c8d76e70bf6e0cf89694a2ae07cd22/odoo_addon_l10n_es_aeat-16.0.2.0.3.1-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod115/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Downloading https://files.pythonhosted.org/packages/e4/95/2e7b9350c8e053a310d95015b8effdf02071b12a7fc985a4c010b2dfaae0/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod216/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/fb/ef/d62226fea5b5712c4f6fa4335a86d85fd01fc6b52c7758a2b1a8b1a3702b/ats_case-0.7.4.tar.gz
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.3.0.1-16.0.1.3.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod111/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/6b/dc/d5690e892528be2b31137553ebd44244e8c8c74fffc5f49d6ab46d49523f/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:34] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.7.3.tar.gz tmp/ats_case-0.7.4.tar.gz --markdown 20230518/a/ats-case/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod123/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod190/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-05-18 07:29:34] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.0.3.1-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat/16.0.2.0.3-16.0.2.0.3.1/diff.md --exclude *.pyd
+[2023-05-18 07:29:36] INFO root fetch - processPackages [nerv]: Start processing: qyrm-pipinject2
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [nerv]: success
+[2023-05-18 07:29:36] WARNING root fetch - processPackages [qyrm-pipinject2]: Skipping, unable to determine old version
+[2023-05-18 07:29:36] INFO root fetch - processPackages [qyrm-pipinject2]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject2] error
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [16.0.2.3.0.3] Old Version: [16.0.2.3.0.1]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [ats-case]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod123/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/35/1f/7d644e6a95be6aa40bb24beaf44d22b1c2ff1d75d3dcf50de84b644eae88/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.1-py3-none-any.whl
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod115]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [16.0.2.2.0.2] Old Version: [16.0.2.2.0]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Start processing: odoo-addon-l10n-es-aeat
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Start processing: odoo-addon-l10n-es-aeat-mod349
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod216]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [16.0.2.0.3.1] Old Version: [16.0.2.0.3]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/03/88/2f1b27982811e228e8bc8f63942f8f1c5f40426dbb018b4a26696305b60c/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0-py3-none-any.whl
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Downloading https://files.pythonhosted.org/packages/9e/23/600560aaee60b52ef0eb40fd2d1569d01f16807c6401ad96a0e562d21361/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.3-py3-none-any.whl
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.3-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod303/16.0.2.3.0.1-16.0.2.3.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-16.0.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-16.0.2.0.3.1-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat/16.0.2.0.3-16.0.2.0.3.1/diff.md --exclude *.pyd
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Start processing: odoo-addon-l10n-es-aeat-mod111
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Start processing: odoo-addon-l10n-es-aeat-mod115
+[2023-05-18 07:29:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod111]: success
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/7a/59/ac136a99338e96a0c13f651525ecfa76a7240bfceca8de6ddd5538aac17d/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0-py3-none-any.whl
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/39/b5/42bea565765705af9354d49ec66379a25e7520d0f5c4889150821e07c715/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.2-py3-none-any.whl
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: executing diffoscope
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod111-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod111/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: executing diffoscope
+[2023-05-18 07:29:36] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod115/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.2.0-16.0.2.2.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Start processing: odoo-addon-l10n-es-aeat-mod216
+[2023-05-18 07:29:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: executing diffoscope
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod216-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod216/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: Downloading https://files.pythonhosted.org/packages/0f/75/bf43d47c60d31bb028b56a20c3647c33a847b86c60570059420466b72ca4/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.2-py3-none-any.whl
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: executing diffoscope
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod349/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:37] INFO root fetch - processPackages [snk]: Start processing: odoo-addon-l10n-es-vat-book
+[2023-05-18 07:29:37] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [16.0.1.3.0.2] Old Version: [16.0.1.3.0]
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Start processing: qyrm-pipinject3
+[2023-05-18 07:29:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-05-18 07:29:37] WARNING root fetch - processPackages [qyrm-pipinject3]: Skipping, unable to determine old version
+[2023-05-18 07:29:37] INFO root fetch - processPackages [qyrm-pipinject3]: Start processing: odoo-addon-l10n-es-aeat-mod296
+[2023-05-18 07:29:37] INFO root fetch - main [MainThread]: End processing [qyrm-pipinject3] error
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-05-18 07:29:37] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/a6/85/739cfb7bf03bc0ef40b75a01d34c01662692060e31bfb9d01097a35a59e5/odoo_addon_l10n_es_vat_book-16.0.1.3.0-py3-none-any.whl
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: Downloading https://files.pythonhosted.org/packages/a2/04/29c9362cf44b6bdd5cfc07ba6a871b7b72962031d4d1a7598dc338826b45/odoo_addon_l10n_es_aeat_mod296-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/12/72/9fcc1ecb3a30a8c17d3ca836c8187f0d1661673f37b3b506d4ce17b4153d/odoo_addon_l10n_es_vat_book-16.0.1.3.0.2-py3-none-any.whl
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-16.0.1.3.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-vat-book/16.0.1.3.0-16.0.1.3.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: Downloading https://files.pythonhosted.org/packages/bb/28/2f8ea27af6f158dee6bb162786e427e76c7b51865590943a10d43bde5b2f/odoo_addon_l10n_es_aeat_mod296-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: executing diffoscope
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod296-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod296-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod296/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-05-18 07:29:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.3.0.3] Old Version: [16.0.1.3.0.1]
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.3.0.1-16.0.1.3.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Start processing: odoo-addon-l10n-es-aeat-mod303
+[2023-05-18 07:29:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod115]: success
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: New version: [16.0.2.3.0.3] Old Version: [16.0.2.3.0.1]
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: executing diffoscope
+[2023-05-18 07:29:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303-16.0.2.3.0.3-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod303/16.0.2.3.0.1-16.0.2.3.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod216]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2023-05-18 07:29:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod216]: success
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [16.0.2.2.0.2] Old Version: [16.0.2.2.0]
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.2.0-16.0.2.2.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod111]: Start processing: odoo-addon-l10n-es-aeat-mod349
+[2023-05-18 07:29:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod111]: success
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: executing diffoscope
+[2023-05-18 07:29:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod349]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod349-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-aeat-mod349/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Start processing: odoo-addon-l10n-es-vat-book
+[2023-05-18 07:29:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [16.0.1.3.0.2] Old Version: [16.0.1.3.0]
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-16.0.1.3.0.2-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-l10n-es-vat-book/16.0.1.3.0-16.0.1.3.0.2/diff.md --exclude *.pyd
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod296]: Start processing: crazy-thursday
+[2023-05-18 07:29:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod296]: success
+[2023-05-18 07:29:40] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-18 07:29:40] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-18 07:29:40] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230518/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Start processing: capabilities
+[2023-05-18 07:29:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2023-05-18 07:29:40] INFO root fetch - processPackages [capabilities]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-18 07:29:40] INFO root fetch - processPackages [capabilities]: Downloading https://files.pythonhosted.org/packages/fe/6c/20d77998b0b96a3c16b0d5e64b5f2d172b47d5475879432de866ebadf235/capabilities-0.3.5.tar.gz
+[2023-05-18 07:29:40] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Start processing: auto-editor
+[2023-05-18 07:29:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2023-05-18 07:29:40] INFO root fetch - processPackages [auto-editor]: New version: [23.8.1] Old Version: [23.4.1]
+[2023-05-18 07:29:40] INFO root fetch - processPackages [capabilities]: Downloading https://files.pythonhosted.org/packages/69/7e/b7cb1b98d2210167e031b24f10d559f00fec772e89da43e949515a8fa0ed/capabilities-0.3.6.tar.gz
+[2023-05-18 07:29:40] INFO root fetch - processPackages [capabilities]: executing diffoscope
+[2023-05-18 07:29:40] INFO root fetch - processPackages [capabilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capabilities-0.3.5.tar.gz tmp/capabilities-0.3.6.tar.gz --markdown 20230518/c/capabilities/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-18 07:29:40] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/61/ce/f2339cfa4e5ff5ec776a3121d3f99050c6d45ec0efa54bdc458fefb12d96/auto-editor-23.4.1.tar.gz
+[2023-05-18 07:29:41] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Start processing: fesutils
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2023-05-18 07:29:41] INFO root fetch - processPackages [fesutils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-18 07:29:41] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/81/fb/7d378ea008a385ac90effc7ebdc31a455182328179d84fe7b53a563ef973/auto-editor-23.8.1.tar.gz
+[2023-05-18 07:29:41] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303]: Start processing: noise2read
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2023-05-18 07:29:41] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Start processing: nerv
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-05-18 07:29:41] INFO root fetch - processPackages [noise2read]: New version: [0.0.88] Old Version: [0.0.85]
+[2023-05-18 07:29:41] INFO root fetch - processPackages [nerv]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-18 07:29:41] INFO root fetch - processPackages [fesutils]: Downloading https://files.pythonhosted.org/packages/7a/a9/0e5aae7699c02dabc0cff4a9d8fa82d9b390e3395c483976568f31b96f8d/fesutils-1.0.2-py3-none-any.whl
+[2023-05-18 07:29:41] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2023-05-18 07:29:41] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-23.4.1.tar.gz tmp/auto-editor-23.8.1.tar.gz --markdown 20230518/a/auto-editor/23.4.1-23.8.1/diff.md --exclude *.pyd
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
+[2023-05-18 07:29:41] INFO root fetch - processPackages [nerv]: Downloading https://files.pythonhosted.org/packages/4d/69/1af74537b32bade927758269505d381be599855dc59071f3c6f35d84a14e/nerv-0.2.5.tar.gz
+[2023-05-18 07:29:41] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/27/db/5aec2a7e4a0f18e2275f96fff91f1977c1c2c3b46049e9d7af47b63ceec9/noise2read-0.0.88.tar.gz
+[2023-05-18 07:29:41] INFO root fetch - processPackages [fesutils]: Downloading https://files.pythonhosted.org/packages/7b/af/bd455e5dbf3c8f45b3030e0a7da970fa6f130d1727cbcddb7d29d6b41f22/fesutils-1.0.3-py3-none-any.whl
+[2023-05-18 07:29:41] INFO root fetch - processPackages [fesutils]: executing diffoscope
+[2023-05-18 07:29:41] INFO root fetch - processPackages [fesutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fesutils-1.0.2-py3-none-any.whl.zip tmp/fesutils-1.0.3-py3-none-any.whl.zip --markdown 20230518/f/fesutils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-18 07:29:41] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-18 07:29:41] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.85.tar.gz tmp/noise2read-0.0.88.tar.gz --markdown 20230518/n/noise2read/0.0.85-0.0.88/diff.md --exclude *.pyd
+[2023-05-18 07:29:41] INFO root fetch - processPackages [nerv]: executing diffoscope
+[2023-05-18 07:29:41] INFO root fetch - processPackages [nerv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerv-0.2.4.tar.gz tmp/nerv-0.2.5.tar.gz --markdown 20230518/n/nerv/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-18 07:29:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303]: success
+[2023-05-18 07:29:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2023-05-18 07:29:42] INFO root fetch - main [MainThread]: End processing [fesutils]: success
+[2023-05-18 07:29:42] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2023-05-18 07:29:42] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-18 07:29:43] INFO root fetch - main [MainThread]: End processing [nerv]: success
+[2023-05-18 07:29:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod349]: success
+[2023-05-18 07:29:43] INFO root fetch - main [MainThread]: End processing [capabilities]: success
+[2023-05-18 07:29:43] INFO root fetch - main [MainThread]: Store serial: [18149729]
