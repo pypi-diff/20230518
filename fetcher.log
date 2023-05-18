@@ -13018,3 +13018,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-05-18 12:35:44] INFO root fetch - main [MainThread]: End processing [multidimensionalks]: success
 [2023-05-18 12:38:04] INFO root fetch - main [MainThread]: End processing [google-ads-stubs]: success
 [2023-05-18 12:38:04] INFO root fetch - main [MainThread]: Store serial: [18152780]
+[2023-05-18 12:43:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18152780]
+[2023-05-18 12:43:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strictdoc
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-code-ui
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qufit
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm-slack
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ev-fleet-sim
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gptsubtitler
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py21cmemu
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartlogger
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hdcc
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-naftali-test-submodule-codeowner
+[2023-05-18 12:43:14] WARNING root fetch - processPackages [smartlogger]: Skipping, unable to determine old version
+[2023-05-18 12:43:14] INFO root fetch - processPackages [smartlogger]: Start processing: gpt-code-ui
+[2023-05-18 12:43:14] INFO root fetch - main [MainThread]: End processing [smartlogger] error
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [hdcc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [qufit]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [pm-slack]: New version: [0.2.2] Old Version: [0.2.13]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.7.tar.gz tmp/gptsubtitler-0.0.8.tar.gz --markdown 20230518/g/gptsubtitler/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-18 12:43:14] WARNING root fetch - processPackages [certora-cli-alpha-naftali-test-submodule-codeowner]: Skipping, unable to determine old version
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.3] Old Version: [0.42.2]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-test-submodule-codeowner]: Start processing: cloudsmith-cli
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: New version: [0.42.3] Old Version: [0.42.2]
+[2023-05-18 12:43:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-test-submodule-codeowner] error
+[2023-05-18 12:43:14] INFO root fetch - processPackages [py21cmemu]: New version: [1.0.5.dev0] Old Version: [1.0.4]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [cloudsmith-cli]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/b4/18/eb0025b8a9ae4ebc00c76b61419635b8f5869541245212acfc659a0771aa/gpt_code_ui-0.42.2.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [pm-slack]: Downloading https://files.pythonhosted.org/packages/55/f1/0d766e64c28b55e7b8356e6a6b9c30257841ee83802f0213879a1dafc83a/pm_slack-0.2.13.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/0d/70/35718adde045803f4014159b9551624db615c887a2a63eb8b936953ce2eb/qufit-1.1.6.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/b4/18/eb0025b8a9ae4ebc00c76b61419635b8f5869541245212acfc659a0771aa/gpt_code_ui-0.42.2.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [hdcc]: Downloading https://files.pythonhosted.org/packages/a7/29/2d7ef5000392df2c50c499d82231beba310b9daff8cce9fc559413e68cf5/hdcc-0.3.0.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [cloudsmith-cli]: executing diffoscope
+[2023-05-18 12:43:14] INFO root fetch - processPackages [cloudsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_cli-0.8.2-py2.py3-none-any.whl.zip tmp/cloudsmith_cli-0.9.0-py2.py3-none-any.whl.zip --markdown 20230518/c/cloudsmith-cli/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 12:43:14] INFO root fetch - processPackages [py21cmemu]: Downloading https://files.pythonhosted.org/packages/68/1a/347dfecbbeae7a3485832edc4c502e728fec8028c413fcc011a2a2539b06/py21cmemu-1.0.4.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [hdcc]: executing diffoscope
+[2023-05-18 12:43:14] INFO root fetch - processPackages [hdcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcc-0.2.0.tar.gz tmp/hdcc-0.3.0.tar.gz --markdown 20230518/h/hdcc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/c6/42/2bbc6c3a9e21f86d48592b986cbb580ab417ea27d6d542e6788b8a283096/gpt_code_ui-0.42.3.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [gpt-code-ui]: Downloading https://files.pythonhosted.org/packages/c6/42/2bbc6c3a9e21f86d48592b986cbb580ab417ea27d6d542e6788b8a283096/gpt_code_ui-0.42.3.tar.gz
+[2023-05-18 12:43:14] INFO root fetch - processPackages [qufit]: Downloading https://files.pythonhosted.org/packages/74/4a/2905b09f5761a74df1e5d63a9ada985e815d3dd454c82d7538a2464ba2ca/qufit-1.1.7.tar.gz
+[2023-05-18 12:43:15] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230518/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [py21cmemu]: Downloading https://files.pythonhosted.org/packages/2f/0e/0d6b22bcc739372ac33d6a6ac423f4146069d417ec4a888790fb3f90a0eb/py21cmemu-1.0.5.dev0.tar.gz
+[2023-05-18 12:43:15] INFO root fetch - processPackages [qufit]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [qufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qufit-1.1.6.tar.gz tmp/qufit-1.1.7.tar.gz --markdown 20230518/q/qufit/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [pm-slack]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [pm-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm_slack-0.2.13.tar.gz tmp/pm_slack-0.2.2.tar.gz --markdown 20230518/p/pm-slack/0.2.13-0.2.2/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.2.tar.gz tmp/gpt_code_ui-0.42.3.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.2-0.42.3/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [gpt-code-ui]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [gpt-code-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_ui-0.42.2.tar.gz tmp/gpt_code_ui-0.42.3.tar.gz --markdown 20230518/g/gpt-code-ui/0.42.2-0.42.3/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2023-05-18 12:43:15] INFO root fetch - processPackages [py21cmemu]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [py21cmemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py21cmemu-1.0.4.tar.gz tmp/py21cmemu-1.0.5.dev0.tar.gz --markdown 20230518/p/py21cmemu/1.0.4-1.0.5.dev0/diff.md --exclude *.pyd
+[2023-05-18 12:43:15] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-05-18 12:43:15] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230518/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 12:43:16] INFO root fetch - processPackages [gptsubtitler]: Start processing: geoproject
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-18 12:43:16] WARNING root fetch - processPackages [geoproject]: Skipping, unable to determine old version
+[2023-05-18 12:43:16] INFO root fetch - processPackages [geoproject]: Start processing: vgs-api-client
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [geoproject] error
+[2023-05-18 12:43:16] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-05-18 12:43:16] INFO root fetch - processPackages [hdcc]: Start processing: mlrun
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [hdcc]: success
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [cloudsmith-cli]: success
+[2023-05-18 12:43:16] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc5] Old Version: [1.4.0rc4]
+[2023-05-18 12:43:16] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [qufit]: success
+[2023-05-18 12:43:16] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/52/2a/6845f86c442e243c3125923eeafb02d2fd989c88d378e04afdc5c1147314/mlrun-1.4.0rc4-py3-none-any.whl
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [pm-slack]: success
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [gpt-code-ui]: success
+[2023-05-18 12:43:16] INFO root fetch - main [MainThread]: End processing [py21cmemu]: success
+[2023-05-18 12:43:16] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-05-18 12:43:17] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-05-18 12:43:17] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230518/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-05-18 12:43:17] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/02/08/e7caef9441b2e07eab8e9eaec5f8e135f3b94410d38fbea74c0641d5f64d/mlrun-1.4.0rc5-py3-none-any.whl
+[2023-05-18 12:43:17] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-05-18 12:43:17] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-18 12:43:17] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc4-py3-none-any.whl.zip tmp/mlrun-1.4.0rc5-py3-none-any.whl.zip --markdown 20230518/m/mlrun/1.4.0rc4-1.4.0rc5/diff.md --exclude *.pyd
+[2023-05-18 12:43:18] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-18 12:43:18] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-05-18 12:43:25] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-18 12:43:25] INFO root fetch - main [MainThread]: Store serial: [18152829]
