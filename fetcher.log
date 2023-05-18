@@ -21881,3 +21881,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 19:27:46] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2023-05-18 19:27:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-quant-manual-assign]: success
 [2023-05-18 19:27:47] INFO root fetch - main [MainThread]: Store serial: [18157759]
+[2023-05-18 19:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157759]
+[2023-05-18 19:32:57] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwsearch-utils
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunsolve
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iloscar-win
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Log-Api
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: causal-ai
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastdup
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuNet
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grai-source-bigquery
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybsc
+[2023-05-18 19:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dblite
+[2023-05-18 19:32:57] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [dblite]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [sunsolve]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-05-18 19:32:57] WARNING root fetch - processPackages [causal-ai]: Skipping, unable to determine old version
+[2023-05-18 19:32:57] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [causal-ai]: Start processing: pystripe
+[2023-05-18 19:32:57] INFO root fetch - main [MainThread]: End processing [causal-ai] error
+[2023-05-18 19:32:57] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [Log-Api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [fastdup]: New version: [1.1] Old Version: [1.0]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [iloscar-win]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [pybsc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/e0/c6/a15f558e17c9cad1f4ef18bb66c46d4816c499eefc567904af4f9232665c/grai_source_bigquery-0.0.4.tar.gz
+[2023-05-18 19:32:57] INFO root fetch - processPackages [dblite]: Downloading https://files.pythonhosted.org/packages/77/92/7353e46469de5fbf8e2c430611b59e29d2a2f43a686a078a307f03efcea4/dblite-1.3.0.tar.gz
+[2023-05-18 19:32:57] INFO root fetch - processPackages [sunsolve]: Downloading https://files.pythonhosted.org/packages/b4/5c/47efcd0e38fbe11e381051df0f827ad82d305a2c465460ba312425ec5837/sunsolve-0.0.1.tar.gz
+[2023-05-18 19:32:57] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/33/c2/d19dee99879c8d4850baea7e3d430691ddb52529d781d5cb5436631ffcfb/fastdup-1.0-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-05-18 19:32:57] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/4c/84/9e3a3825c438d492327d2d26030c752a0617d74be15354c4ef2f30f04252/pybsc-0.1.8.tar.gz
+[2023-05-18 19:32:57] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75112173>=10485760
+[2023-05-18 19:32:57] INFO root fetch - processPackages [fastdup]: Start processing: inverter-connect
+[2023-05-18 19:32:57] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-05-18 19:32:57] INFO root fetch - processPackages [inverter-connect]: New version: [0.7.0rc2] Old Version: [0.7.0rc1]
+[2023-05-18 19:32:57] INFO root fetch - processPackages [iloscar-win]: Downloading https://files.pythonhosted.org/packages/f6/8e/e86e4606cc14d810fe66383f10dfe8249446fc37b2871c846526d7c58cc1/iloscar_win-0.1.6.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pystripe]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-18 19:32:58] INFO root fetch - processPackages [Log-Api]: Downloading https://files.pythonhosted.org/packages/df/bb/7a315e48910633d7ef93a0b8c28de75479b48dd68a86df94f33c26960666/Log_Api-0.0.6.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230518/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [inverter-connect]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [inverter-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverter-connect-0.7.0rc1.tar.gz tmp/inverter-connect-0.7.0rc2.tar.gz --markdown 20230518/i/inverter-connect/0.7.0rc1-0.7.0rc2/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230518/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [iloscar-win]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [iloscar-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar_win-0.1.5.tar.gz tmp/iloscar_win-0.1.6.tar.gz --markdown 20230518/i/iloscar-win/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [sunsolve]: Downloading https://files.pythonhosted.org/packages/1a/58/d31f2366c5dfedfa980d9fc345b44160576e2a2cc574f198fdc8c9a73bdf/sunsolve-0.0.4.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/72/ea/f5c8c967877d087400945f3bfbd6823fec098b13acdde1a60899e9d4e406/pybsc-0.1.9.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [dblite]: Downloading https://files.pythonhosted.org/packages/bb/49/ec977c0d62298039398d07542d250f712f22d5a424a38fc0fe77ef4e55cc/dblite-1.3.1.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pybsc]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pybsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsc-0.1.8.tar.gz tmp/pybsc-0.1.9.tar.gz --markdown 20230518/p/pybsc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [Log-Api]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [Log-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Log_Api-0.0.5.tar.gz tmp/Log_Api-0.0.6.tar.gz --markdown 20230518/L/Log-Api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pystripe]: Downloading https://files.pythonhosted.org/packages/1c/b9/6f6732717b1919fd297283e696ac5266c863fb3345aefdc33495052271f7/pystripe-1.2.3.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [dblite]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [dblite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblite-1.3.0.tar.gz tmp/dblite-1.3.1.tar.gz --markdown 20230518/d/dblite/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [sunsolve]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [sunsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunsolve-0.0.1.tar.gz tmp/sunsolve-0.0.4.tar.gz --markdown 20230518/s/sunsolve/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pystripe]: Downloading https://files.pythonhosted.org/packages/7c/8c/b10880953203eb56e2c1574e41e7ee9b074160ac844c9c78942b688b3167/pystripe-1.2.4.tar.gz
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pystripe]: executing diffoscope
+[2023-05-18 19:32:58] INFO root fetch - processPackages [pystripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystripe-1.2.3.tar.gz tmp/pystripe-1.2.4.tar.gz --markdown 20230518/p/pystripe/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-18 19:32:58] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/03/c0/ddb2015ed5ee5ba721dd6482116d577c408e09230de1d3a1cd6ef14cf2d6/grai_source_bigquery-0.0.5.tar.gz
+[2023-05-18 19:32:59] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-05-18 19:32:59] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.0.4.tar.gz tmp/grai_source_bigquery-0.0.5.tar.gz --markdown 20230518/g/grai-source-bigquery/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-18 19:32:59] INFO root fetch - processPackages [cwsearch-utils]: Start processing: odoo-addon-module-analysis
+[2023-05-18 19:32:59] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-05-18 19:32:59] INFO root fetch - processPackages [QuNet]: Start processing: CrewCo-API
+[2023-05-18 19:32:59] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-18 19:32:59] WARNING root fetch - processPackages [CrewCo-API]: Skipping, unable to determine old version
+[2023-05-18 19:32:59] INFO root fetch - processPackages [CrewCo-API]: Start processing: mkdocs-exporter
+[2023-05-18 19:32:59] INFO root fetch - main [MainThread]: End processing [CrewCo-API] error
+[2023-05-18 19:32:59] INFO root fetch - processPackages [odoo-addon-module-analysis]: New version: [16.0.1.0.0.11] Old Version: [16.0.1.0.0.10]
+[2023-05-18 19:32:59] INFO root fetch - processPackages [iloscar-win]: Start processing: llm-bot
+[2023-05-18 19:32:59] INFO root fetch - main [MainThread]: End processing [iloscar-win]: success
+[2023-05-18 19:32:59] INFO root fetch - processPackages [mkdocs-exporter]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-05-18 19:32:59] INFO root fetch - processPackages [sunsolve]: Start processing: tree-sitter-talon
+[2023-05-18 19:32:59] INFO root fetch - main [MainThread]: End processing [sunsolve]: success
+[2023-05-18 19:32:59] INFO root fetch - processPackages [odoo-addon-module-analysis]: executing diffoscope
+[2023-05-18 19:32:59] INFO root fetch - processPackages [odoo-addon-module-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_module_analysis-16.0.1.0.0.10-py3-none-any.whl.zip tmp/odoo_addon_module_analysis-16.0.1.0.0.11-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-module-analysis/16.0.1.0.0.10-16.0.1.0.0.11/diff.md --exclude *.pyd
+[2023-05-18 19:32:59] INFO root fetch - processPackages [tree-sitter-talon]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-18 19:32:59] INFO root fetch - processPackages [llm-bot]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2023-05-18 19:32:59] INFO root fetch - processPackages [tree-sitter-talon]: executing diffoscope
+[2023-05-18 19:32:59] INFO root fetch - processPackages [tree-sitter-talon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_talon-3.1.0.tar.gz tmp/tree_sitter_talon-3.1.1.tar.gz --markdown 20230518/t/tree-sitter-talon/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-18 19:33:00] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/4d/e4/b6f0eec8d36c99b60551b4c105219d36bae941feaccb948fbd6c708c7ee0/mkdocs_exporter-1.2.2.tar.gz
+[2023-05-18 19:33:00] INFO root fetch - processPackages [llm-bot]: Downloading https://files.pythonhosted.org/packages/63/9c/9c448845d3a0783ec8807e9f95c11fb5e5be86cfce45c4e1b3ad9c55e9bc/llm_bot-0.0.3a1.tar.gz
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [dblite]: success
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [pystripe]: success
+[2023-05-18 19:33:00] INFO root fetch - processPackages [mkdocs-exporter]: Downloading https://files.pythonhosted.org/packages/2e/1e/459af6361250cbb0053fdf4b6eed22d09c7f6b1af4f415503950b48b899b/mkdocs_exporter-1.3.0.tar.gz
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [pybsc]: success
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [Log-Api]: success
+[2023-05-18 19:33:00] INFO root fetch - processPackages [llm-bot]: Downloading https://files.pythonhosted.org/packages/82/99/14c83e5a829e9698e1f216e889f47df21f1351ba5aa5511495e095cb1770/llm_bot-0.0.3a2.tar.gz
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-05-18 19:33:00] INFO root fetch - processPackages [llm-bot]: executing diffoscope
+[2023-05-18 19:33:00] INFO root fetch - processPackages [llm-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bot-0.0.3a1.tar.gz tmp/llm_bot-0.0.3a2.tar.gz --markdown 20230518/l/llm-bot/0.0.3a1-0.0.3a2/diff.md --exclude *.pyd
+[2023-05-18 19:33:00] INFO root fetch - main [MainThread]: End processing [inverter-connect]: success
+[2023-05-18 19:33:01] INFO root fetch - processPackages [mkdocs-exporter]: executing diffoscope
+[2023-05-18 19:33:01] INFO root fetch - processPackages [mkdocs-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_exporter-1.2.2.tar.gz tmp/mkdocs_exporter-1.3.0.tar.gz --markdown 20230518/m/mkdocs-exporter/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-05-18 19:33:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-module-analysis]: success
+[2023-05-18 19:33:01] INFO root fetch - main [MainThread]: End processing [tree-sitter-talon]: success
+[2023-05-18 19:33:01] INFO root fetch - main [MainThread]: End processing [llm-bot]: success
+[2023-05-18 19:33:02] INFO root fetch - main [MainThread]: End processing [mkdocs-exporter]: success
+[2023-05-18 19:33:02] INFO root fetch - main [MainThread]: Store serial: [18157829]
