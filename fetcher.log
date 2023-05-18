@@ -5752,3 +5752,60 @@
 [2023-05-18 05:24:49] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
 [2023-05-18 05:24:55] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resource]: success
 [2023-05-18 05:24:55] INFO root fetch - main [MainThread]: Store serial: [18149046]
+[2023-05-18 05:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18149046]
+[2023-05-18 05:30:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-queuey
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-statement-import-ofx
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-statement-import-file
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: histcite-python
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baba
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hagworm
+[2023-05-18 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funasr
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [histcite-python]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [pypipr]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [baba]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [hagworm]: New version: [5.4.7] Old Version: [5.4.6]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230518/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-18 05:30:05] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230518/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-18 05:30:05] INFO root fetch - processPackages [histcite-python]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [histcite-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histcite-python-0.2.1.tar.gz tmp/histcite-python-0.3.0.tar.gz --markdown 20230518/h/histcite-python/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-18 05:30:05] INFO root fetch - processPackages [funasr]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Downloading https://files.pythonhosted.org/packages/11/d7/2c833d237bfa3fb393eadc5c3e6285871283dea311a4e5cbe259a1f8f581/odoo_addon_account_statement_import_ofx-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/a6/52/74e19c1cc225631938b96c18c0678d250e0c4ad3025bbe8998cbb7e1d41f/odoo_addon_account_statement_import_file-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-18 05:30:05] INFO root fetch - processPackages [baba]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [baba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baba-0.1.6.tar.gz tmp/baba-0.1.7.tar.gz --markdown 20230518/b/baba/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-18 05:30:05] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/3f/6c/8acbbf124f4406a711848a31407913a65601da8a40ab5c3e92d0995be2b7/hagworm-5.4.6.tar.gz
+[2023-05-18 05:30:05] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/14/ae/f1ca6c3d4bf41274bdbe568bf4a8dd1f579981d21a22bc387f370ac041aa/pypipr-0.1.93.tar.gz
+[2023-05-18 05:30:05] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/e4/2f/759e0d45d14fb7a42c98b7a4b2c819f43c37f6be48529b96a67d1dc73e38/funasr-0.5.1.tar.gz
+[2023-05-18 05:30:05] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.92.tar.gz tmp/pypipr-0.1.93.tar.gz --markdown 20230518/p/pypipr/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Downloading https://files.pythonhosted.org/packages/13/e0/74681e5de600af3151383bb0e7a89ab7b2b022a51e23afd73e1b74d75bfe/odoo_addon_account_statement_import_ofx-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: executing diffoscope
+[2023-05-18 05:30:05] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-statement-import-ofx/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-18 05:30:06] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: Downloading https://files.pythonhosted.org/packages/75/2f/6f7930e65a9a5db3610d61703874fc6f2a185b756adca597cd4ab186d9f0/odoo_addon_account_statement_import_file-16.0.1.0.0.5-py3-none-any.whl
+[2023-05-18 05:30:06] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/b5/48/25ce68e2a3d06c4cd2e03960d781f8412c82a323a1ae1dadf51ef3f6ef5a/hagworm-5.4.7.tar.gz
+[2023-05-18 05:30:06] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/99/67/090132eab8198b7a1f14a3cd4126df29ba0d52831bdd25cd6e08450df711/funasr-0.5.2.tar.gz
+[2023-05-18 05:30:06] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: executing diffoscope
+[2023-05-18 05:30:06] INFO root fetch - processPackages [odoo-addon-account-statement-import-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_file-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_file-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230518/o/odoo-addon-account-statement-import-file/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-05-18 05:30:06] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-05-18 05:30:06] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.4.6.tar.gz tmp/hagworm-5.4.7.tar.gz --markdown 20230518/h/hagworm/5.4.6-5.4.7/diff.md --exclude *.pyd
+[2023-05-18 05:30:06] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-18 05:30:06] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.1.tar.gz tmp/funasr-0.5.2.tar.gz --markdown 20230518/f/funasr/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-18 05:30:06] INFO root fetch - main [MainThread]: End processing [baba]: success
+[2023-05-18 05:30:07] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-18 05:30:07] INFO root fetch - main [MainThread]: End processing [histcite-python]: success
+[2023-05-18 05:30:07] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-18 05:30:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-ofx]: success
+[2023-05-18 05:30:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-file]: success
+[2023-05-18 05:30:08] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-18 05:30:09] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-05-18 05:30:11] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-18 05:30:11] INFO root fetch - main [MainThread]: Store serial: [18149086]
