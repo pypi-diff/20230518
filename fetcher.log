@@ -16029,3 +16029,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 14:57:08] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkvpc]: success
 [2023-05-18 14:57:13] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
 [2023-05-18 14:57:13] INFO root fetch - main [MainThread]: Store serial: [18154421]
+[2023-05-18 15:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18154421]
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huaweicloudsdkworkspace
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspeaker
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protopunica
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-shay-Lexp
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alfred-cli
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-react-admin
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moat-src
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sb6
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: isoCycle
+[2023-05-18 15:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isoCycle
+[2023-05-18 15:02:23] INFO root fetch - processPackages [pyspeaker]: New version: [1.1] Old Version: [1.0]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [alfred-cli]: New version: [2.0.0b1] Old Version: [1.2.0]
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [fastapi-react-admin]: Skipping, unable to determine old version
+[2023-05-18 15:02:23] INFO root fetch - processPackages [fastapi-react-admin]: Start processing: gptsubtitler
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [certora-cli-alpha-shay-Lexp]: Skipping, unable to determine old version
+[2023-05-18 15:02:23] INFO root fetch - processPackages [certora-cli-alpha-shay-Lexp]: Start processing: facety
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [fastapi-react-admin] error
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shay-Lexp] error
+[2023-05-18 15:02:23] INFO root fetch - processPackages [huaweicloudsdkworkspace]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [gptsubtitler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [protopunica]: New version: [0.14.8rc3] Old Version: [0.14.8rc2]
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [moat-src]: Skipping, unable to determine old version
+[2023-05-18 15:02:23] INFO root fetch - processPackages [moat-src]: Start processing: lintel
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [moat-src] error
+[2023-05-18 15:02:23] INFO root fetch - processPackages [huaweicloudsdkworkspace]: executing diffoscope
+[2023-05-18 15:02:23] INFO root fetch - processPackages [sb6]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [huaweicloudsdkworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkworkspace-3.1.8-py2.py3-none-any.whl.zip tmp/huaweicloudsdkworkspace-3.1.9-py2.py3-none-any.whl.zip --markdown 20230518/h/huaweicloudsdkworkspace/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-18 15:02:23] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/0f/19/503b842c3b2017e2a0797d849f7b227a0648ed8c3ada7d9ba8d24e36aaf3/pyspeaker-1.0.win-amd64.zip
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [facety]: Skipping, unable to determine old version
+[2023-05-18 15:02:23] INFO root fetch - processPackages [facety]: Start processing: MotorDeCalidad
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [facety] error
+[2023-05-18 15:02:23] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [alfred-cli]: Downloading https://files.pythonhosted.org/packages/79/6d/d361a38d352fb883a807abc0eec30329274f94932c86c50aacd022e9c801/alfred-cli-1.2.0.tar.gz
+[2023-05-18 15:02:23] INFO root fetch - processPackages [protopunica]: Downloading https://files.pythonhosted.org/packages/e4/35/2890149d21530fc55017a040909dc8fb81700fc730b7005294fee0c45e88/protopunica-0.14.8rc2.tar.gz
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/60/03/c93166c7eb85d7f983a45bbadfe3b7572e679974b4d9c27b3c5526f96a42/isoCycle-0.0.12.tar.gz
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: Downloading https://files.pythonhosted.org/packages/60/03/c93166c7eb85d7f983a45bbadfe3b7572e679974b4d9c27b3c5526f96a42/isoCycle-0.0.12.tar.gz
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [lintel]: Skipping, unable to determine old version
+[2023-05-18 15:02:23] INFO root fetch - processPackages [lintel]: Start processing: solidipes
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [lintel] error
+[2023-05-18 15:02:23] INFO root fetch - processPackages [gptsubtitler]: Downloading https://files.pythonhosted.org/packages/c1/58/1c60ea4f20fc1f4d3b1ded880cc3ee47c1a77941aab802477b318bb533a0/gptsubtitler-0.0.9.tar.gz
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17931135>=10485760
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: Start processing: piqa
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-18 15:02:23] WARNING root fetch - processPackages [isoCycle]: Skipping package: exceeds size limit 17931135>=10485760
+[2023-05-18 15:02:23] INFO root fetch - processPackages [isoCycle]: Start processing: theonerig
+[2023-05-18 15:02:23] INFO root fetch - main [MainThread]: End processing [isoCycle] error
+[2023-05-18 15:02:23] INFO root fetch - processPackages [sb6]: Downloading https://files.pythonhosted.org/packages/d0/ae/61242a28b4f3a9128930b702e28a02594794ba92b38da3eb1a7f78088e2b/sb6-0.0.1.tar.gz
+[2023-05-18 15:02:23] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-05-18 15:02:23] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230518/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-18 15:02:23] INFO root fetch - processPackages [solidipes]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 15:02:23] INFO root fetch - processPackages [gptsubtitler]: executing diffoscope
+[2023-05-18 15:02:23] INFO root fetch - processPackages [gptsubtitler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptsubtitler-0.0.8.tar.gz tmp/gptsubtitler-0.0.9.tar.gz --markdown 20230518/g/gptsubtitler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [pyspeaker]: Downloading https://files.pythonhosted.org/packages/6f/1b/7a8b4f7d4fc1f99263b4e22b0865c90a54d358937082d9ad17777a53de77/pyspeaker-1.1.win-amd64.zip
+[2023-05-18 15:02:24] INFO root fetch - processPackages [theonerig]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-18 15:02:24] INFO root fetch - processPackages [piqa]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-18 15:02:24] INFO root fetch - processPackages [alfred-cli]: Downloading https://files.pythonhosted.org/packages/7b/af/60d2cfcbd5f8ac2cc304889d3ad8c5fbd3bc19e10e5040c8683c64920ea5/alfred_cli-2.0.0b1.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspeaker-1.0.win-amd64.zip tmp/pyspeaker-1.1.win-amd64.zip --markdown 20230518/p/pyspeaker/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [protopunica]: Downloading https://files.pythonhosted.org/packages/fa/75/c45347c0bb9e37282ee9ecf30b848452f6a5349cb64845f857bff0cdc384/protopunica-0.14.8rc3.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [sb6]: Downloading https://files.pythonhosted.org/packages/df/82/49c46d9dc3030a8f091e6a9d51239e8b891db4801e3b1751498b53cc8e5d/sb6-0.0.2.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [alfred-cli]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [alfred-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred-cli-1.2.0.tar.gz tmp/alfred_cli-2.0.0b1.tar.gz --markdown 20230518/a/alfred-cli/1.2.0-2.0.0b1/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [solidipes]: Downloading https://files.pythonhosted.org/packages/bc/82/3723c4930ebb8c855e0c7dea63effabcdf0c14a8192bfed030e65ee64476/solidipes-0.1.1.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [theonerig]: Downloading https://files.pythonhosted.org/packages/c7/53/9527111d507cf710645b62f828a48a197f13ccb41049bca5aef3b5661f10/theonerig-1.0.1.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [sb6]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [sb6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb6-0.0.1.tar.gz tmp/sb6-0.0.2.tar.gz --markdown 20230518/s/sb6/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [piqa]: Downloading https://files.pythonhosted.org/packages/bc/7b/a8e781a151f2c7adf8936e88cea3a251640b2516ac4000dcc24b3672cc35/piqa-1.3.0.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [theonerig]: Downloading https://files.pythonhosted.org/packages/a6/53/70333f943cb9bce60091fed280684e241867256ac2cf29bb20288a155ea5/theonerig-1.0.2.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [solidipes]: Downloading https://files.pythonhosted.org/packages/80/38/aa35c4659daee5707ddaf4431ce44ebeb122ccb59bcbecc621344cc986cb/solidipes-0.1.2.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [theonerig]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [theonerig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theonerig-1.0.1.tar.gz tmp/theonerig-1.0.2.tar.gz --markdown 20230518/t/theonerig/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [solidipes]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [solidipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidipes-0.1.1.tar.gz tmp/solidipes-0.1.2.tar.gz --markdown 20230518/s/solidipes/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [piqa]: Downloading https://files.pythonhosted.org/packages/99/b4/88830e17f527221643698f8edbb65fe347afe2b202c4ed67a3119aea8034/piqa-1.3.1.tar.gz
+[2023-05-18 15:02:24] INFO root fetch - processPackages [piqa]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [piqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piqa-1.3.0.tar.gz tmp/piqa-1.3.1.tar.gz --markdown 20230518/p/piqa/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-18 15:02:24] INFO root fetch - processPackages [protopunica]: executing diffoscope
+[2023-05-18 15:02:24] INFO root fetch - processPackages [protopunica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protopunica-0.14.8rc2.tar.gz tmp/protopunica-0.14.8rc3.tar.gz --markdown 20230518/p/protopunica/0.14.8rc2-0.14.8rc3/diff.md --exclude *.pyd
+[2023-05-18 15:02:25] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-18 15:02:25] INFO root fetch - main [MainThread]: End processing [gptsubtitler]: success
+[2023-05-18 15:02:25] INFO root fetch - main [MainThread]: End processing [sb6]: success
+[2023-05-18 15:02:25] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-05-18 15:02:25] INFO root fetch - main [MainThread]: End processing [alfred-cli]: success
+[2023-05-18 15:02:26] INFO root fetch - main [MainThread]: End processing [theonerig]: success
+[2023-05-18 15:02:26] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspace]: success
+[2023-05-18 15:02:26] INFO root fetch - main [MainThread]: End processing [solidipes]: success
+[2023-05-18 15:02:26] INFO root fetch - main [MainThread]: End processing [piqa]: success
+[2023-05-18 15:02:28] INFO root fetch - main [MainThread]: End processing [protopunica]: success
+[2023-05-18 15:02:28] INFO root fetch - main [MainThread]: Store serial: [18154494]
