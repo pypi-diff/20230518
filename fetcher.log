@@ -21032,3 +21032,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-18 18:44:23] INFO root fetch - main [MainThread]: End processing [bittensor]: success
 [2023-05-18 18:44:25] INFO root fetch - main [MainThread]: End processing [Monei]: success
 [2023-05-18 18:44:25] INFO root fetch - main [MainThread]: Store serial: [18157250]
+[2023-05-18 18:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18157250]
+[2023-05-18 18:49:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bittensor
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrle
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapt-ble
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycaret
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panel
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: network-diffusion
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sardem
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbfs-package-sync
+[2023-05-18 18:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-iris
+[2023-05-18 18:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: weighted-kdtree
+[2023-05-18 18:49:35] WARNING root fetch - processPackages [dbfs-package-sync]: Skipping, unable to determine old version
+[2023-05-18 18:49:35] INFO root fetch - processPackages [dbfs-package-sync]: Start processing: asimov
+[2023-05-18 18:49:35] INFO root fetch - main [MainThread]: End processing [dbfs-package-sync] error
+[2023-05-18 18:49:35] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pyrle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pycaret]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [weighted-kdtree]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [rapt-ble]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [network-diffusion]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [bittensor]: New version: [5.0.0] Old Version: [4.1.0rc1.post3]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [panel]: New version: [1.0.2a1] Old Version: [1.0.1]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sardem]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230518/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/a2/ef/c3591be9b5d9ea51807a6d3c02af66ba6b54b330d1d73e363f0665e9d4f9/pycaret-3.0.1-py3-none-any.whl
+[2023-05-18 18:49:35] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/31/07/8b415bbd0cce5d8c54f10ca2e9441fdbff6d9e3ce91e58f44843f41d2335/network_diffusion-0.8.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [rapt-ble]: Downloading https://files.pythonhosted.org/packages/e4/89/0ac07a5587c10afe854e446a6a20fbf43614cdee861cb88cf9802b8ea825/rapt_ble-0.1.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [weighted-kdtree]: Downloading https://files.pythonhosted.org/packages/25/38/1e9ef05c2c64a598eb4e9d3d3347ab749d1c4f7401a9b973ed3b1cb713fb/weighted_kdtree-0.1.1-py3-none-any.whl
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sardem]: Downloading https://files.pythonhosted.org/packages/a8/54/3c950ab65e84ca7411068c7e4f45f036a5bdfeee9d04bc0abcd08ecf6a70/sardem-0.9.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/61/02/892d237bce05c62c2caff51593292df0192d31121b665956338b054280c1/panel-1.0.1.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/2a/92/b5039af77d45b5988798a5ee438ea987c01c631000ddba8faf613b1d7d95/bittensor-5.0.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/81/1a/b6692ce2d9c366a1672e75b7adbd512df91035714fadccd1a9f35515bd8e/network_diffusion-0.9.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pyrle]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pyrle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrle-0.0.8.tar.gz tmp/pyrle-0.0.9.tar.gz --markdown 20230518/p/pyrle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/da/26/7af21f4a74e1f95bf574186cb00cdf7f49cc1b57bc841da93c580939231a/pycaret-3.0.2-py3-none-any.whl
+[2023-05-18 18:49:35] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25659454>=10485760
+[2023-05-18 18:49:35] INFO root fetch - processPackages [panel]: Start processing: byteplus-sdk
+[2023-05-18 18:49:35] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-05-18 18:49:35] INFO root fetch - processPackages [rapt-ble]: Downloading https://files.pythonhosted.org/packages/4e/8c/b8d6a93fc457cb08bf0367fd12cebf4f5cfa8586ae4ecdfdd860d3f57ce0/rapt_ble-0.1.1.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [weighted-kdtree]: Downloading https://files.pythonhosted.org/packages/b3/d1/a3afef2efd0d0bfc47c2297ab47d22b3d7cdc51624dde6bc72b3a04bf841/weighted_kdtree-0.1.2-py3-none-any.whl
+[2023-05-18 18:49:35] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-4.1.0rc1.post3.tar.gz tmp/bittensor-5.0.0.tar.gz --markdown 20230518/b/bittensor/4.1.0rc1.post3-5.0.0/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sardem]: Downloading https://files.pythonhosted.org/packages/78/6e/ad2cdb1ad021dc8d15e7b9fb4146a59a901432493da605cb394bcdd09e67/sardem-0.9.1.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [network-diffusion]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [network-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_diffusion-0.8.0.tar.gz tmp/network_diffusion-0.9.0.tar.gz --markdown 20230518/n/network-diffusion/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [byteplus-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-18 18:49:35] INFO root fetch - processPackages [rapt-ble]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [rapt-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapt_ble-0.1.0.tar.gz tmp/rapt_ble-0.1.1.tar.gz --markdown 20230518/r/rapt-ble/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pycaret]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [pycaret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaret-3.0.1-py3-none-any.whl.zip tmp/pycaret-3.0.2-py3-none-any.whl.zip --markdown 20230518/p/pycaret/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [weighted-kdtree]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sardem]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [weighted-kdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weighted_kdtree-0.1.1-py3-none-any.whl.zip tmp/weighted_kdtree-0.1.2-py3-none-any.whl.zip --markdown 20230518/w/weighted-kdtree/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sardem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardem-0.9.0.tar.gz tmp/sardem-0.9.1.tar.gz --markdown 20230518/s/sardem/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-05-18 18:49:35] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230518/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:49:35] INFO root fetch - processPackages [byteplus-sdk]: Downloading https://files.pythonhosted.org/packages/a8/bd/3f0fb8da63fb990b5af0b9f1f4a0d6ea7d936f943fc6677b6e4810a21274/byteplus-sdk-1.0.8.tar.gz
+[2023-05-18 18:49:36] INFO root fetch - processPackages [byteplus-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ea/199527ec43200514b8752c4856cb668695bd25f6f8a7c6a484229c2c75d9/byteplus-sdk-1.0.9.tar.gz
+[2023-05-18 18:49:36] INFO root fetch - processPackages [byteplus-sdk]: executing diffoscope
+[2023-05-18 18:49:36] INFO root fetch - processPackages [byteplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteplus-sdk-1.0.8.tar.gz tmp/byteplus-sdk-1.0.9.tar.gz --markdown 20230518/b/byteplus-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-18 18:49:37] INFO root fetch - processPackages [asimov]: Start processing: hab
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-18 18:49:37] INFO root fetch - processPackages [hab]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-18 18:49:37] INFO root fetch - processPackages [rapt-ble]: Start processing: brim-cloud-client
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [rapt-ble]: success
+[2023-05-18 18:49:37] INFO root fetch - processPackages [brim-cloud-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-18 18:49:37] INFO root fetch - processPackages [hab]: Downloading https://files.pythonhosted.org/packages/fb/f1/f0bd61c22ae66dec7d13a42689d5456fad877cd0c88d071c51e70c64f30f/hab-0.8.0-py3-none-any.whl
+[2023-05-18 18:49:37] INFO root fetch - processPackages [weighted-kdtree]: Start processing: pyspeaker
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [weighted-kdtree]: success
+[2023-05-18 18:49:37] INFO root fetch - processPackages [network-diffusion]: Start processing: flock-sdk
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [network-diffusion]: success
+[2023-05-18 18:49:37] INFO root fetch - processPackages [pyspeaker]: New version: [3.0] Old Version: [2.0]
+[2023-05-18 18:49:37] INFO root fetch - processPackages [brim-cloud-client]: Downloading https://files.pythonhosted.org/packages/7f/f6/4aaa386708b0f2ba8d0be40f8ae70ce1f32da4cb2bc8da02e1ad6485d76a/brim_cloud_client-1.0.0.tar.gz
+[2023-05-18 18:49:37] INFO root fetch - processPackages [pyspeaker]: executing diffoscope
+[2023-05-18 18:49:37] INFO root fetch - processPackages [pyspeaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySpeaker-2.0.tar.gz tmp/pyspeaker-3.0.tar.gz --markdown 20230518/p/pyspeaker/2.0-3.0/diff.md --exclude *.pyd
+[2023-05-18 18:49:37] WARNING root fetch - processPackages [flock-sdk]: Skipping, unable to determine old version
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [flock-sdk] error
+[2023-05-18 18:49:37] INFO root fetch - processPackages [hab]: Downloading https://files.pythonhosted.org/packages/69/84/4483d8e5c93a2dbee0af9078a1abd7ceed93dd5ee7be4fa4176cc5e3a783/hab-0.9.0-py3-none-any.whl
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [byteplus-sdk]: success
+[2023-05-18 18:49:37] INFO root fetch - processPackages [hab]: executing diffoscope
+[2023-05-18 18:49:37] INFO root fetch - processPackages [hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hab-0.8.0-py3-none-any.whl.zip tmp/hab-0.9.0-py3-none-any.whl.zip --markdown 20230518/h/hab/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-18 18:49:37] INFO root fetch - processPackages [brim-cloud-client]: Downloading https://files.pythonhosted.org/packages/72/48/c77b23e7a6d8b2b36da7662844877cbc57c5383666636f168a406dffba22/brim_cloud_client-1.0.1.tar.gz
+[2023-05-18 18:49:37] INFO root fetch - main [MainThread]: End processing [sardem]: success
+[2023-05-18 18:49:38] INFO root fetch - processPackages [brim-cloud-client]: executing diffoscope
+[2023-05-18 18:49:38] INFO root fetch - processPackages [brim-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230518:/home/abi/fetcher/20230518:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brim_cloud_client-1.0.0.tar.gz tmp/brim_cloud_client-1.0.1.tar.gz --markdown 20230518/b/brim-cloud-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-18 18:49:38] INFO root fetch - main [MainThread]: End processing [pycaret]: success
+[2023-05-18 18:49:38] INFO root fetch - main [MainThread]: End processing [pyspeaker]: success
+[2023-05-18 18:49:39] INFO root fetch - main [MainThread]: End processing [hab]: success
+[2023-05-18 18:49:39] INFO root fetch - main [MainThread]: End processing [brim-cloud-client]: success
+[2023-05-18 18:49:39] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-05-18 18:49:40] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-05-18 18:49:41] INFO root fetch - main [MainThread]: End processing [pyrle]: success
+[2023-05-18 18:49:41] INFO root fetch - main [MainThread]: Store serial: [18157339]
